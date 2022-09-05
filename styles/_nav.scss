@@ -1,0 +1,8 @@
+@import 'variables';
+
+nav {
+  background: $mainDark;
+  background: linear-gradient(120deg, $mainDark 0%, $main 100%);
+  width: 100%;
+  color: white;
+}
