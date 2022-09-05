@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <Nav />
       <main>
-        Página principal de Aiwa Electronics
+        Página principal de Aiwa Electronics2
       </main>
       <Footer />
     </div>
