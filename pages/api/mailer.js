@@ -1,4 +1,4 @@
-export default async (req, res) => {
+/* export default async (req, res) => {
   const sgMail = require('@sendgrid/mail')
   sgMail.setApiKey('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')
   const msg = {
@@ -17,3 +17,4 @@ export default async (req, res) => {
       res.status(500).json({ error: 'Error sending email' })
     })
 }
+ */
