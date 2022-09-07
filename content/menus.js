@@ -7,12 +7,12 @@ const menus = [
   {
     name: 'Categorías',
     icon: ExpandCircleDownIcon,
-    link: '/'
+    link: '/categorias'
   },
   {
     name: 'Líneas',
     icon: ExpandCircleDownIcon,
-    link: '/'
+    link: '/lineas'
   },
   {
     name: 'Gaming',
