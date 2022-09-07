@@ -1,1 +1,4 @@
-@import 'variables', 'nav', 'fonts', 'resets', 'anims', 'socialcontainer';
+@import 'variables', 'nav', 'fonts', 'resets', 'socialcontainer', 'banner', 'swiper';
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
