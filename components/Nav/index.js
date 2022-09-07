@@ -8,11 +8,11 @@ export default function Nav() {
     <header>
       <nav>
         <Link href='/'>
-            <a><Image width='150px' height='50px' src='/aiwa-w.svg'/></a>
+            <a><Image width='150px' height='50px' src='/aiwa-w.svg' alt='Aiwa logo'/></a>
         </Link>
         <ul className='nav-item-container'>
-          {menus.map(e => (
-          <NavItem text={e.name} link={e.link} >
+          {menus.map((e,i) => (
+          <NavItem text={e.name} link={e.link} key={i}>
             <e.icon />
           </NavItem>
           ))}
