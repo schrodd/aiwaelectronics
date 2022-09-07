@@ -4,7 +4,6 @@ import mainBanners from '../content/mainBanners'
 import texts from '../content/texts'
 import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import BannerInner from '../components/BannerInner'
 
 export default function Home() {
   return (
@@ -26,7 +25,7 @@ export default function Home() {
           {mainBanners.map((e,i) => (
             <SwiperSlide key={i} className='main-banner-slide'>
               {/* {e.inner && e.inner} seguir trabajando sobre esto luego */}
-              <Banner link={e.link} image={e.image} mobile={e.mobile}/>
+              <Banner link={e.link} image={e.image} mobile={e.mobile} alt={e.title}/>
             </SwiperSlide>
           ))}
         </Swiper>
