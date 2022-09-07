@@ -6,12 +6,12 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 const menus = [
   {
     name: 'Categorías',
-    icon: 'ninguno',
+    icon: ExpandCircleDownIcon,
     link: '/categorias'
   },
   {
     name: 'Líneas',
-    icon: 'ninguno',
+    icon: ExpandCircleDownIcon,
     link: '/lineas'
   },
   {
