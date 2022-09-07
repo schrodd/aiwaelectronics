@@ -20,7 +20,6 @@ export default function HeadThings(){
       <meta name="robots" content="index, follow"/>
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8"/>
       <meta name="language" content="English"/>
-      
     </Head>
   )
 }
