@@ -23,8 +23,8 @@ export default function Home() {
           pagination={{ clickable: true }}
         >
           {mainBanners.map((e,i) => (
-            <SwiperSlide>
-              <Banner link={e.link} image={e.image} mobile={e.mobile} key={i}/>
+            <SwiperSlide key={i}>
+              <Banner link={e.link} image={e.image} mobile={e.mobile}/>
             </SwiperSlide>
           ))}
         </Swiper>
