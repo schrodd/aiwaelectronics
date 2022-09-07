@@ -6,28 +6,28 @@ import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
 const menus = [
   {
     name: 'Categorías',
-    icon: ExpandCircleDownIcon,
+    icon: 'ninguno',
     link: '/categorias'
   },
   {
     name: 'Líneas',
-    icon: ExpandCircleDownIcon,
+    icon: 'ninguno',
     link: '/lineas'
   },
   {
     name: 'Gaming',
     icon: SportsEsportsIcon,
-    link: '/'
+    link: 'https://www.constrictor.com.ar/'
   },
   {
     name: 'Tienda',
     icon: LocalMallIcon,
-    link: '/'
+    link: 'https://tienda.aiwaelectronics.com.ar/'
   },
   {
     name: 'Contacto',
     icon: LocalPhoneIcon,
-    link: '/'
+    link: '/contacto'
   },
 ]
 

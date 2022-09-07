@@ -2,6 +2,7 @@ import Image from "next/image"
 import Link from 'next/link'
 import NavItem from "../NavItem"
 import menus from '../../content/menus'
+import SocialContainer from "../SocialContainer"
 
 export default function Nav() {
   return (
@@ -17,6 +18,7 @@ export default function Nav() {
           </NavItem>
           ))}
         </ul>
+        <SocialContainer />
       </nav>
     </header>
   )

@@ -3,7 +3,7 @@
 nav {
   @include flex(row, flex-start);
   background: $mainDark;
-  background: linear-gradient(120deg, $mainDark 0%, $main 100%);
+  background: $mainDeg;
   width: 100%;
   padding: 20px 20px 15px 30px;
   color: white;
@@ -14,6 +14,7 @@ nav {
   @include mobile{
     font-size: 14px;
     overflow: scroll;
+    padding: 20px;
   }
   
   img {
@@ -27,7 +28,7 @@ nav {
   .nav-item-container {
     @include flex(row, flex-start);
     flex-grow: 1;
-    margin-left: 80px;
+    margin-left: 60px;
 
     @include mobile {
       margin-left: 30px;
@@ -51,6 +52,7 @@ nav {
 
         svg {
           margin-left: 5px;
+          margin-top: 3px;
           @include mobile {
             order: -1;
             width: 20px;
