@@ -13,3 +13,21 @@ section.main-banner {
     }
   }
 }
+
+.banner-inner {
+  @include flex(column);
+  position: absolute;
+  z-index: 1;
+  img {
+    filter: drop-shadow(0px 0px 10px black);
+    max-width: 250px;
+  }
+  button {
+    &.flama {
+      @include btn($altDeg, white);
+    }
+    &.ring {
+      @include btn($ringDeg, white);
+    }
+  }
+}
