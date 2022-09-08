@@ -1,2 +1,39 @@
 @import 'variables';
 
+section.lines {
+  @include flex;
+  flex-wrap: wrap;
+  .line-container {
+    @include flex(column, flex-start, center);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 50vw;
+
+    @include mobile {
+      width: 100vw;
+    }
+
+    button {
+      @include btn(rgba(0,0,0,.5), white);
+      border: 1px solid white;
+    }
+
+    .line-image-wrapper {
+      width: 300px;
+      height: 100px;
+      position: relative;
+      margin-top: 50px;
+      margin-bottom: 10px;
+    }
+
+    // Backgrounds
+    &.flama {
+      background-image: url('/lineas/flama/bg.png');
+    }
+    &.ring {
+      background-image: url('/lineas/ring/bg.png');
+    }
+  }
+}

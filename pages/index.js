@@ -32,7 +32,7 @@ export default function Home() {
         </Swiper>
         <section className='lines'>
           {lineas.map((e,i) => (
-            <LineContainer logo={e.logo} key={i}/>
+            <LineContainer line={e.name} logo={e.logo} link={e.link} bg={e.bg} key={i}/>
           ))}
         </section>
       </main>

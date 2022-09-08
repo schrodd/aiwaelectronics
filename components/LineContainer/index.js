@@ -1,9 +1,18 @@
 import Image from "next/image"
+import Link from "next/link"
 
-export default function LineContainer({logo}){
+export default function LineContainer({line, logo, link}){
+  console.log(link)
   return (
-    <div className='line-container'>
-      <Image width='1500px' height='1500px' layout="responsive" src='/lineas/flama/bg.png'/>
+    <div className={`line-container ${line}`}>
+      <div className='line-image-wrapper'>
+        <Image src={logo} alt={`Logo línea ${line}`} layout='fill' objectFit='contain' />
+      </div>
+      <button>
+        <Link href={link}>
+          <a>Conocelos</a>
+        </Link>
+      </button>
     </div>
   )
 }
