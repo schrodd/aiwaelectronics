@@ -18,6 +18,10 @@ section.discover-banner {
     h3 {
       font-weight: lighter;
       margin-bottom: 10px;
+      @include mobile {
+        padding: 0 60px;
+        margin-bottom: 30px;
+      }
     }
     .discover-swiper {
       width: 50%;

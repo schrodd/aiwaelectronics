@@ -8,7 +8,7 @@ export default function ProductCard({sku, text}){
     <div className='product-card'>
       <Link href={product.link}>
         <a>
-          <Image width='150px' height='150px' src={product.pngs[0]} alt={product.name} />
+          <Image width='120px' height='120px' src={product.pngs[0]} alt={product.name} />
           <p>{product.name}</p>
         </a>
       </Link>
