@@ -9,7 +9,7 @@ export default function Footer(){
     <>
       <footer>
         <div className='wrapper'>
-          <div>
+          <div className='footer-section'>
             <h3>NUESTROS PRODUCTOS</h3>
             <ul>
               {lvTwoCat.filter(e => e.hidden === false).map((e,i) => (
@@ -23,7 +23,7 @@ export default function Footer(){
               ))}
             </ul>
           </div>
-          <div>
+          <div className='footer-section'>
             <h3>SOPORTE</h3>
             <ul>
               <li>
@@ -49,7 +49,7 @@ export default function Footer(){
               </li>
             </ul>
           </div>
-          <div>
+          <div className='footer-section'>
             <h3>SOBRE NOSOTROS</h3>
             <ul>
               <li>

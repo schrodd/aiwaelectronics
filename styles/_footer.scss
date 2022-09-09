@@ -21,7 +21,7 @@ footer {
     @include mobile {
       flex-direction: column;
     }
-    div {
+    div.footer-section {
       width: 25%;
       margin-right: 30px;
       @include mobile {
@@ -42,6 +42,7 @@ footer {
       }
     }
     .social {
+      width: 25%;
       place-self: center;
       @include flex(column);
       .social-container{
