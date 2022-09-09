@@ -1,0 +1,59 @@
+@import 'variables';
+
+footer {
+  background: $blackDeg;
+  color:white;
+  padding: 30px;
+  font-size: .8rem;
+  @include mobile {
+    padding: 50px;
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-weight: bold;
+    font-family: DINPRO;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+  .wrapper {
+    @include flex(row, center, stretch);
+    @include mobile {
+      flex-direction: column;
+    }
+    div {
+      width: 25%;
+      margin-right: 30px;
+      @include mobile {
+        margin-bottom: 20px;
+      }
+      ul {
+        margin-top: 10px;
+
+        li {
+          margin-bottom: 3px;
+          @include hoverScale(1.05);
+          &:hover {
+            margin-left: 15px;
+          }
+        }
+      }
+    }
+    .social {
+      place-self: center;
+      @include flex(column);
+      .social-container{
+        margin: 0;
+      }
+    }
+  }
+}
+
+.copyright {
+  font-size: .8rem;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: $black;
+}

@@ -1,10 +1,11 @@
 @import 'variables';
 
 ul.social-container {
-  margin-left: 20px;
   @include flex;
   li {
     margin-right: 5px;
-    @include hoverScale;
+    svg {
+      @include hoverScale(1.2);
+    }
   }
 }

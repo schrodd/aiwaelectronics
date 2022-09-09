@@ -9,7 +9,12 @@ export default function ProductCard({sku, text}){
       <Link href={product.link}>
         <a>
           <Image width='120px' height='120px' src={product.pngs[0]} alt={product.name} />
-          <p>{product.name}</p>
+          <p>
+            {product.name}<br/>
+            <small>
+              {product.shortDesc}
+            </small>
+          </p>
         </a>
       </Link>
     </div>

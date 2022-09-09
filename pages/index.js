@@ -6,6 +6,7 @@ import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import LinesContainer from '../components/LinesContainer'
 import DiscoverBanner from '../components/DiscoverBanner'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
         </Swiper>
         <LinesContainer />
         <DiscoverBanner />
+        <Footer />
       </main>
     </div>
   )
