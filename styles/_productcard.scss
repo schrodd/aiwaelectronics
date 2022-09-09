@@ -1,0 +1,35 @@
+@import 'variables';
+
+.product-card {
+  @include hoverScale(1.05);
+  background-color: white;
+  width: 200px;
+  height: 230px;
+  border-radius: 5px;
+  box-shadow: $shadow;
+  padding: 20px 20px 0 20px;
+
+  @include mobile {
+    width: 85%;
+    height: 150px;
+    padding: 10px 20px 0 10px;
+  }
+
+  a {
+    @include flex(column);
+    @include mobile {
+      flex-direction: row;
+    }
+  }
+  p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: DINPRO;
+    text-align: center;
+    @include mobile {
+      text-align: left;
+    }
+  }
+}

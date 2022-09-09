@@ -4,8 +4,8 @@ import mainBanners from '../content/mainBanners'
 import texts from '../content/texts'
 import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import LineContainer from '../components/LineContainer'
-import lineas from '../content/lineas'
+import LinesContainer from '../components/LinesContainer'
+import DiscoverBanner from '../components/DiscoverBanner'
 
 export default function Home() {
   return (
@@ -30,11 +30,8 @@ export default function Home() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <section className='lines'>
-          {lineas.map((e,i) => (
-            <LineContainer line={e.name} logo={e.logo} link={e.link} bg={e.bg} key={i}/>
-          ))}
-        </section>
+        <LinesContainer />
+        <DiscoverBanner />
       </main>
     </div>
   )

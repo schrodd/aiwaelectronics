@@ -1,5 +1,8 @@
-@import 'variables', 'mixins', 'nav', 'fonts', 'resets', 'socialcontainer', 'banner', 'swiper', 'linecontainer';
+@import 'variables', 'mixins', 'nav', 'fonts', 'resets', 'socialcontainer', 'banner', 'swiper', 'linecontainer', 'discoverbanner', 'productcard';
 @import 'swiper/scss';
 @import 'swiper/scss/navigation';
 @import 'swiper/scss/pagination';
 
+section {
+  border-bottom: $divider;
+}

@@ -10,6 +10,7 @@ nav {
   font-family: DINPRO;
   font-size: 18px;
   box-shadow: $shadow;
+  border-bottom: $divider;
 
   @include mobile{
     font-size: 14px;

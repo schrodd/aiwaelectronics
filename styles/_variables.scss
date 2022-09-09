@@ -1,14 +1,17 @@
 /* Colors */
 $main: #424e5b;
 $mainDark: #2f3944;
+$black: #333;
 $mainDeg: linear-gradient(120deg, $mainDark 0%, $main 100%);
 $white: #f2f2f2;
 $alt: #e02327;
 $altDark: #920711;
 $altDeg: linear-gradient(60deg, $altDark 0%, $alt 100%);
+$whiteDeg: linear-gradient(180deg, #d2d2d1, #fff);
 $breakPoint: 850px; //Tamaño que divide versiones pc y mobile
 $shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 $strongShadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+$divider: 2px solid white;
 
 /* Estilos de Líneas (Ring, Flama, etc) */
 $ringDeg: linear-gradient(118deg, rgb(229 37 197) 0%, rgb(10 90 197) 100%);

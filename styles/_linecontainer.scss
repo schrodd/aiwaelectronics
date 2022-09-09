@@ -2,7 +2,9 @@
 
 section.lines {
   @include flex;
-  flex-wrap: wrap;
+  @include mobile {
+    flex-wrap: wrap;
+  }
   .line-container {
     @include flex(column, flex-start, center);
     background-position: center;

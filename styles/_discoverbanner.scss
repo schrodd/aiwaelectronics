@@ -1,0 +1,81 @@
+@import 'variables';
+
+section.discover-banner {
+  background: $whiteDeg;
+  padding: 30px 0;
+  font-size: 1.3rem;
+  color: $black;
+  .swiper-wrapper {
+    align-items: center;
+  }
+  .first {
+    @include flex(column);
+    text-align: center;
+    width: 100%;
+    h2 {
+      margin-bottom: 20px;
+    }
+    h3 {
+      font-weight: lighter;
+      margin-bottom: 10px;
+    }
+    .discover-swiper {
+      width: 50%;
+      margin-bottom: 20px;
+      @include mobile {
+        width: 90%;
+      }
+      p {
+        padding: 0 30px;
+      }
+    }
+  }
+  .second {
+    @include flex;
+    @include mobile{
+      @include flex(column)
+    }
+
+    .text {
+      @include flex(column, center, flex-end);
+      width: 300px;
+      margin-right: 30px;
+
+      @include mobile {
+        align-items: center;
+        margin-right: 0;
+      }
+
+      h3 {
+        text-align: right;
+        @include mobile {
+          width: 90vw;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+      }
+      button {
+        margin: 0;
+        margin: 10px 0 15px 0;
+      }
+    }
+    .results {
+      @include flex;
+      @include mobile {
+        @include flex(column)
+      }
+      padding: 10px 0;
+      &>* {
+        margin-right: 15px;
+        @include mobile {
+          margin-right: 0;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  button {
+    @include btn(ghostwhite, $mainDark);
+    margin-bottom: 20px;
+  }
+}
