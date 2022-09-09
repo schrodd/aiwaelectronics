@@ -6,11 +6,9 @@ export default function SocialContainer(){
     <ul className='social-container'>
       {social.map((e,i) => (
           <li className={`social-item ${e.class}`} key={i}>
-            <Link href={e.link}>
-              <a>
-                <e.icon />
-              </a>
-            </Link>
+            <a href={e.link} target='_blank' rel="noopener noreferrer">
+              <e.icon />
+            </a>
           </li>
       ))}
     </ul>

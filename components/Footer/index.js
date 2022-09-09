@@ -1,7 +1,9 @@
-import {lvOneCat, lvTwoCat} from '../../content/categories'
+import { lvTwoCat } from '../../content/categories'
 import Link from 'next/link'
 import Image from 'next/image'
 import SocialContainer from '../SocialContainer'
+import ScrollToTop from 'react-scroll-to-top'
+import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
 
 export default function Footer(){
   const year = new Date().getFullYear();
@@ -69,7 +71,7 @@ export default function Footer(){
               <a><Image width='200px' height='80px' src='/aiwa-w.svg' alt='Aiwa logo'/></a>
             </Link>
             <SocialContainer />
-            <a href='#__next'>Volver arriba</a>
+            <ScrollToTop className='back-to-top' smooth/>
           </div>
         </div>
     </footer>

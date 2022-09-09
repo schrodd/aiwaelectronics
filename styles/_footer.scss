@@ -21,17 +21,20 @@ footer {
     @include mobile {
       flex-direction: column;
     }
-    div.footer-section {
+    div {
       width: 25%;
-      margin-right: 30px;
       @include mobile {
         width: 90%;
+      }
+    }
+    div.footer-section {
+      margin-right: 30px;
+      @include mobile {
         margin-bottom: 20px;
         margin-right: 0;
       }
       ul {
         margin-top: 10px;
-
         li {
           margin-bottom: 3px;
           @include hoverScale(1.05);
@@ -42,16 +45,24 @@ footer {
       }
     }
     .social {
-      width: 25%;
       place-self: center;
       @include flex(column);
       .social-container{
         margin: 0;
       }
+      .back-to-top {
+        border-radius: 4px;
+        box-shadow: $shadow;
+        opacity: .5;
+        @include hoverScale;
+        &:hover {
+          opacity: 1;
+          box-shadow: $strongShadow;
+        }
+      }
     }
   }
 }
-
 .copyright {
   font-size: .8rem;
   font-weight: bold;
