@@ -26,48 +26,56 @@ export const lvTwoCat = [
     name: 'Parlantes',
     id: 101,
     parent: 1,
-    route: '/'
+    route: '/',
+    hidden: false
   },
   {
     name: 'Torres de sonido',
     id: 102,
     parent: 1,
-    route: '/'
+    route: '/',
+    hidden: false
   },
   {
     name: 'Auriculares In-ear',
     id: 103,
     parent: 1,
-    route: '/'
+    route: '/',
+    hidden: false
   },
   {
     name: 'Auriculares On-ear',
     id: 104,
     parent: 1,
-    route: '/'
+    route: '/',
+    hidden: false
   },
   {
     name: 'Portable',
     id: 105,
     parent: 1,
-    route: '/'
+    route: '/',
+    hidden: true
   },
   {
     name: 'Tablets',
     id: 106,
     parent: 2,
-    route: '/'
+    route: '/',
+    hidden: false
   },
   {
     name: 'Notebooks',
     id: 107,
     parent: 2,
-    route: '/'
+    route: '/',
+    hidden: false
   },
   {
     name: 'TV',
     id: 108,
     parent: 3,
-    route: '/'
+    route: '/',
+    hidden: true
   },
 ]

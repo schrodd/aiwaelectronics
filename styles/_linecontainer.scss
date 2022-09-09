@@ -2,19 +2,21 @@
 
 section.lines {
   @include flex;
-  @include mobile {
-    flex-wrap: wrap;
-  }
+  flex-wrap: wrap;
+  background: black;
+  
   .line-container {
     @include flex(column, flex-start, center);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
-    width: 50vw;
+    min-width: 50%;
+    max-width: 100%;
+    flex-grow: 1;
 
     @include mobile {
-      width: 100vw;
+      min-width: 100%;
     }
 
     button {

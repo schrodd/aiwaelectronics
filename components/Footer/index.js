@@ -12,7 +12,7 @@ export default function Footer(){
           <div>
             <h3>NUESTROS PRODUCTOS</h3>
             <ul>
-              {lvTwoCat.map((e,i) => (
+              {lvTwoCat.filter(e => e.hidden === false).map((e,i) => (
                 <li key={i}>
                   <Link href={e.route}>
                     <a>

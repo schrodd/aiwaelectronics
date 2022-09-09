@@ -1,6 +1,6 @@
 const products = [
   {
-    name: 'Parlante Aiwa 1231 500W',
+    name: 'Parlante AIWA AW-1231 500W',
     sku: 'AW-1231',
     link: '/categorias',
     line: 'Infinit',
@@ -27,6 +27,15 @@ const products = [
       ficha: '',
       imágenes: ''
     }
+  },
+  {
+    name: 'Parlante AIWA AW-2222 16000W',
+    sku: 'AW-2222',
+    link: '/lineas',
+    pngs: [
+      '/products/AW-2222/png/1.png',
+    ],
+    shortDesc: 'El parlante más potente que vas a encontrar',
   }
 ]
 
