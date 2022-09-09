@@ -25,7 +25,9 @@ footer {
       width: 25%;
       margin-right: 30px;
       @include mobile {
+        width: 90%;
         margin-bottom: 20px;
+        margin-right: 0;
       }
       ul {
         margin-top: 10px;
