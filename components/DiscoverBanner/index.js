@@ -5,7 +5,7 @@ import { useState } from 'react'
 import DiscoverButton from './DiscoverButton'
 import ProductCard from '../ProductCard'
 
-export default function DiscoverBanner(){
+export default function DiscoverBanner({isDark}){
   const [option, setOption] = useState(-1)
   function swipe(dir){
     let newOption = 0;

@@ -1,0 +1,50 @@
+@import 'variables';
+
+main#categorias {
+  background: linear-gradient(0deg, #d2d2d1, #fff);
+  color: $black;
+  border-bottom: $divider;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  .cat-wrapper {
+    padding: 30px 30px 60px 30px;
+    width: 30%;
+    @include mobile {
+      width: 100%;
+    }
+    h1 {
+      padding: 20px 0;
+      font-family: DINPRO;
+      @include mobile {
+        text-align: center;
+      }
+    }
+    .lv-one div {
+      font-family: DINPRO;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .lv-one.details {
+      @include flex(column, flex-start, flex-start);
+      a {
+        @include hoverScale(1.1);
+        margin-bottom: 5px;
+        &:hover{
+          margin-left: 3px;
+        }
+      }
+    }
+  }
+  .cat-img {
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    filter: grayscale(.75);
+    @include mobile {
+      display:none;
+    }
+  }
+}
