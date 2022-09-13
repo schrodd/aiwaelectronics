@@ -3,20 +3,14 @@
 .product-card {
   @include hoverScale(1.05);
   background-color: white;
-  width: 200px;
-  height: 230px;
+  width: 250px;
   border-radius: 5px;
   box-shadow: $shadow;
   padding: 20px 20px 0 20px;
-  filter: grayscale(.5);
-  &:hover {
-    filter: grayscale(0);
-  }
 
   @include mobile {
-    filter: grayscale(0);
     width: 85%;
-    height: 125px;
+    height: 140px;
     padding: 10px 20px 0 10px;
   }
 
@@ -25,19 +19,43 @@
     @include mobile {
       flex-direction: row;
     }
-  }
-  p {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 13px;
-    font-weight: bold;
-    font-family: DINPRO;
-    text-align: center;
-    @include mobile {
-      text-align: left;
+    .texts {
+      @include flex(column);
+      height: 110px;
+      p {
+        font-size: 13px;
+        font-weight: bold;
+        font-family: DINPRO;
+        text-align: center;
+        @include mobile {
+          text-align: left;
+        }
+        &.p-name {
+          font-size: 16px;
+        }
+        &.p-sku {
+          margin-top: 10px;
+          margin-bottom: 5px;
+          font-size: 12px;
+          color: $black;
+          @include mobile {
+            display:none;
+          }
+        }
+        &.p-desc {
+        }
+        small {
+          color: grey;
+        }
+      }
     }
-    small {
-      color: grey;
+    button {
+      @include btn(white, $black, 1px solid $black);
+      @include hoverScale(1);
+      margin-bottom: 20px;
+      @include mobile {
+        display: none;
+      }
     }
   }
 }

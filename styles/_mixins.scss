@@ -19,14 +19,14 @@
   }
 }
 
-@mixin btn($bg, $text){
+@mixin btn($bg, $text, $border: none){
   @include hoverScale;
   margin: 10px;
   padding: 7px 15px;
   font-size: 16px;
   font-family: MuseoSans;
   font-weight: bold;
-  border: none;
+  border: $border;
   border-radius: 2px;
   box-shadow: $shadow;
   color: $text;

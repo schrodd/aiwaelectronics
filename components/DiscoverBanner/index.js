@@ -5,7 +5,7 @@ import { useState } from 'react'
 import DiscoverButton from './DiscoverButton'
 import ProductCard from '../ProductCard'
 
-export default function DiscoverBanner({isDark}){
+export default function DiscoverBanner(){
   const [option, setOption] = useState(-1)
   function swipe(dir){
     let newOption = 0;
@@ -60,7 +60,7 @@ export default function DiscoverBanner({isDark}){
           </div>
           <div className='results'>
             {option >= 0 && discoverOptions[option].products.map((e,i) => (
-                <ProductCard sku={e} showDesc={true} key={i}/>
+                <ProductCard sku={e} showDesc={true} showName={true} key={i}/>
               ))}
           </div>
         </SwiperSlide>

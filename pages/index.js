@@ -35,7 +35,6 @@ export default function Home() {
         <LinesContainer />
         <DiscoverBanner />
         <Constrictor />
-        <Footer />
       </main>
     </div>
   )

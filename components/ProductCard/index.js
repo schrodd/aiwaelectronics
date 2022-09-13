@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { Skeleton } from '@mui/material'
 import { useState } from 'react'
 
-export default function ProductCard({sku, showDesc}){
+export default function ProductCard({sku, showName, showSku, showDesc, showButton}){
   const product = products.find(e => e.sku == sku)
   const [loaded, setLoaded] = useState(false)
   function toggle(){
@@ -15,12 +15,14 @@ export default function ProductCard({sku, showDesc}){
     <div className='product-card'>
       <Link href={product.link}>
         <a>
-          {!loaded && (<Skeleton variant='rounded' width='120px' height='120px' />)}
-          <Image width='120px' height='120px' src={product.pngs[0]} alt={product.name} onLoadingComplete={() => toggle()}/>
-          <p>
-            {product.name}<br/>
-            {showDesc && (<small>{product.shortDesc}</small>)}
-          </p>
+          {!loaded && <Skeleton variant='rounded' width='150px' height='150px' />}
+          <Image width='150px' height='150px' src={product.pngs[0]} alt={product.name} onLoadingComplete={() => toggle()}/>
+          <div className='texts'>
+            {showSku && <p className='p-sku'>{product.sku}</p>}
+            {showName && <p className='p-name'>{product.name}</p>}
+            {showDesc && <p className='p-desc'><small>{product.shortDesc}</small></p>}
+          </div>
+          {showButton && <button><Link href={product.link}><a>Ver más</a></Link></button>}
         </a>
       </Link>
     </div>
