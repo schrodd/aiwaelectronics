@@ -3,9 +3,14 @@ import AccordionItem from '../../components/AccordionItem'
 import Footer from '../../components/Footer'
 import Link from 'next/link'
 import Image from 'next/image'
-import DiscoverBanner from '../../components/DiscoverBanner'
+import { Skeleton } from '@mui/material'
+import { useState } from 'react'
 
-export default function categorias(){
+export default function Categorias(){
+  const [loaded, setLoaded] = useState(false)
+  function toggle(){
+    setLoaded(true)
+  }
   return (
     <>
       <main id='categorias'>
@@ -25,7 +30,8 @@ export default function categorias(){
           ))}
         </div>
         <div className='cat-img'>
-          <Image src='/images/pages/categorias/cat-img.jpg' objectFit='cover' layout='fill' alt='categorías'/>
+          {!loaded && (<Skeleton className='skeleton' height='100%' />)}
+          <Image src='/images/pages/categorias/cat-img.jpg' objectFit='cover' layout='fill' alt='categorías' onLoadingComplete={() => toggle()}/>
         </div>
       </main>
       <Footer />

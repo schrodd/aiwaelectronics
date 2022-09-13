@@ -46,21 +46,21 @@ export default function Footer(){
             <h3>SOPORTE</h3>
             <ul>
               <li>
-                <Link href='/'>
+                <Link href='/terminos-y-condiciones'>
                   <a>
                     Términos y condiciones
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href='/'>
+                <Link href='/activacion-windows'>
                   <a>
                     Activación Windows
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href='/'>
+                <Link href='/preguntas-frecuentes'>
                   <a>
                     Preguntas frecuentes
                   </a>
@@ -72,12 +72,12 @@ export default function Footer(){
             <h3>SOBRE NOSOTROS</h3>
             <ul>
               <li>
-                <Link href='/'>
+                <Link href='/quienes-somos'>
                   <a>Quiénes somos</a>
                 </Link>
               </li>
               <li>
-                <Link href='/'>
+                <Link href='/contacto'>
                   <a>Contacto</a>
                 </Link>
               </li>

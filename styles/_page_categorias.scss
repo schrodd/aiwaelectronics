@@ -53,5 +53,8 @@ main#categorias {
     @include mobile {
       display:none;
     }
+    .skeleton {
+      margin-right: 30px;
+    }
   }
 }
