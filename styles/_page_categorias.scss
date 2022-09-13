@@ -16,17 +16,24 @@ main#categorias {
     h1 {
       padding: 20px 0;
       font-family: DINPRO;
+      font-size: 40px;
       @include mobile {
         text-align: center;
       }
     }
-    .lv-one div {
-      font-family: DINPRO;
-      font-size: 20px;
-      font-weight: bold;
+    .lv-one {
+      margin-top: 1px;
+      margin-bottom: 0;
+      div {
+        font-family: DINPRO;
+        font-size: 20px;
+        font-weight: bold;
+      }
     }
     .lv-one.details {
       @include flex(column, flex-start, flex-start);
+      padding-top: 0;
+      padding-left: 30px;
       a {
         @include hoverScale(1.1);
         margin-bottom: 5px;

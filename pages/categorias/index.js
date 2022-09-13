@@ -25,7 +25,7 @@ export default function categorias(){
           ))}
         </div>
         <div className='cat-img'>
-          <Image src='/images/pages/categorias/cat-img.jpg' objectFit='cover' layout='fill'/>
+          <Image src='/images/pages/categorias/cat-img.jpg' objectFit='cover' layout='fill' alt='categorías'/>
         </div>
       </main>
       <Footer />

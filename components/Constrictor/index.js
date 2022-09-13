@@ -10,25 +10,25 @@ export default function Constrictor(){
       <div className='items'>
         <div className='item'>
           <a href="https://constrictor.com.ar/sillas/">
-            <Image width='255px' height='283px' src="/images/components/Constrictor/const-sillas.png" />
+            <Image width='255px' height='283px' src="/images/components/Constrictor/const-sillas.png" alt='silla constrictor'/>
             <h4>SILLAS</h4>
           </a>
         </div>
         <div className='item'>
           <a href="https://constrictor.com.ar/teclados/">
-            <Image width='255px' height='283px' src="/images/components/Constrictor/const-teclados.png" />
+            <Image width='255px' height='283px' src="/images/components/Constrictor/const-teclados.png"  alt='teclado constrictor'/>
             <h4>TECLADOS</h4>
           </a>
         </div>
         <div className='item'>
           <a href="https://constrictor.com.ar/auriculares/">
-            <Image width='255px' height='283px' src="/images/components/Constrictor/const-headsets.png" />
+            <Image width='255px' height='283px' src="/images/components/Constrictor/const-headsets.png" alt='headset constrictor'/>
             <h4>AURICULARES</h4>
           </a>
         </div>
         <div className='item'>
           <a href="https://constrictor.com.ar/mouses/">
-            <Image width='255px' height='283px' src="/images/components/Constrictor/const-mouses.png" />
+            <Image width='255px' height='283px' src="/images/components/Constrictor/const-mouses.png"  alt='mouse constrictor'/>
             <h4>MOUSES</h4>
           </a>
         </div>

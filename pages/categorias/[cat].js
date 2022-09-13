@@ -1,6 +1,6 @@
 import { useRouter } from "next/router"
 
-export default function category(){
+export default function Category(){
   const route = useRouter()
   const { cat } = route.query
   return (
