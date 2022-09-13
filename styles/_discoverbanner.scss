@@ -82,5 +82,6 @@ section.discover-banner {
   button {
     @include btn(ghostwhite, $mainDark);
     margin-bottom: 20px;
+    cursor: pointer;
   }
 }

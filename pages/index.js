@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import LinesContainer from '../components/LinesContainer'
 import DiscoverBanner from '../components/DiscoverBanner'
 import Footer from '../components/Footer'
+import Constrictor from '../components/Constrictor'
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         </Swiper>
         <LinesContainer />
         <DiscoverBanner />
+        <Constrictor />
         <Footer />
       </main>
     </div>

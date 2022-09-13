@@ -1,0 +1,56 @@
+@import 'variables';
+
+section#constrictor{
+  background: $greenDeg;
+  box-shadow: inset 0px 0px 200px black;
+  padding: 50px 30px;
+  color: white;
+  @include flex(column);
+  .logo {
+    @include flex;
+    margin-bottom: 30px;
+    @include mobile {
+      @include flex(column);
+      text-align: center;
+    }
+    h3 {
+      margin-left: 15px;
+      font-size: 30px;
+      font-family: DINPRO;
+      font-weight: lighter;
+      display: inline-block;
+      @include mobile {
+        order: -1;
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .items {
+    @include flex;
+    margin-bottom: 20px;
+    @include mobile {
+      flex-wrap: wrap;
+    }
+    .item {
+      @include hoverScale(1.05);
+      filter: drop-shadow(0 0 50px rgba(0,0,0,.5));
+      @include mobile {
+        margin-bottom: 50px;
+      }
+      a {
+        @include flex(column);
+        h4 {
+          margin-top: 10px;
+          display: inline-block;
+          font-family: DINPRO;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  button {
+    @include btn(rgba(0,0,0,.2), white);
+    border: 1px solid white;
+  }
+}

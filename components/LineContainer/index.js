@@ -2,7 +2,6 @@ import Image from "next/image"
 import Link from "next/link"
 
 export default function LineContainer({line, logo, link}){
-  console.log(link)
   return (
     <div className={`line-container ${line}`}>
       <div className='line-image-wrapper'>

@@ -2,11 +2,28 @@ import { lvTwoCat } from '../../content/categories'
 import Link from 'next/link'
 import Image from 'next/image'
 import SocialContainer from '../SocialContainer'
-import ScrollToTop from 'react-scroll-to-top'
-import ArrowCircleUpIcon from '@mui/icons-material/ArrowCircleUp';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import { useState, useEffect } from 'react'
 
 export default function Footer(){
   const year = new Date().getFullYear();
+  const [showButton, setShowButton] = useState(false);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        setShowButton(true)
+      } else {
+        setShowButton(false)
+      }
+    })
+  }, [])
+
   return (
     <>
       <footer>
@@ -71,7 +88,12 @@ export default function Footer(){
               <a><Image width='200px' height='80px' src='/aiwa-w.svg' alt='Aiwa logo'/></a>
             </Link>
             <SocialContainer />
-            <ScrollToTop className='back-to-top' smooth/>
+            {showButton && (
+              <button onClick={() => scrollToTop()}>
+                <KeyboardArrowUpIcon />
+                Volver arriba
+              </button>
+            )}
           </div>
         </div>
     </footer>

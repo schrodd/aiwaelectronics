@@ -60,7 +60,7 @@ export default function DiscoverBanner(){
           </div>
           <div className='results'>
             {option >= 0 && discoverOptions[option].products.map((e,i) => (
-                <ProductCard sku={e} key={i}/>
+                <ProductCard sku={e} showDesc={true} key={i}/>
               ))}
           </div>
         </SwiperSlide>

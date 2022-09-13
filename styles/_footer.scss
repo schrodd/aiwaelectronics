@@ -50,14 +50,16 @@ footer {
       .social-container{
         margin: 0;
       }
-      .back-to-top {
-        border-radius: 4px;
-        box-shadow: $shadow;
-        opacity: .5;
-        @include hoverScale;
+      button {
+        @include flex;
+        border: none;
+        background: none;
+        color: white;
+        padding: 3px 10px;
+        font-size: 14px;
         &:hover {
-          opacity: 1;
-          box-shadow: $strongShadow;
+          text-decoration: underline;
+          cursor: pointer;
         }
       }
     }
