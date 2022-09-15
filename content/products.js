@@ -4,7 +4,7 @@ export const products = [
     sku: 'AW-T2008',
     link: '/productos/AW-T2008',
     line: 'ring',
-    categories: [101], 
+    categories: [101, 102], 
     imgs: [
       '/products/AW-T2008/img/1.webp',
     ],
@@ -18,7 +18,7 @@ export const products = [
     sku: 'AW-T2010',
     link: '/productos/AW-T2010',
     line: 'ring',
-    categories: [101], 
+    categories: [101, 102], 
     imgs: [
       '/products/AW-T2010/img/1.webp',
     ],
@@ -32,7 +32,7 @@ export const products = [
     sku: 'AW-T2012',
     link: '/productos/AW-T2012',
     line: 'ring',
-    categories: [101], 
+    categories: [101, 102], 
     imgs: [
       '/products/AW-T2012/img/1.webp',
     ],
@@ -42,11 +42,11 @@ export const products = [
     video: 'https://www.youtube.com/',
   },
   {
-    name: 'Torre de Sonido Bluetooth 13500W ',
+    name: 'Parlante Torre True Wireless BT 8000W ',
     sku: 'AW-T2018R',
     link: '/productos/AW-T2018R',
     line: 'infinit',
-    categories: [101], 
+    categories: [101, 102], 
     imgs: [
       '/products/AW-T2018R/img/1.webp',
     ],
@@ -56,11 +56,11 @@ export const products = [
     video: 'https://www.youtube.com/',
   },
   {
-    name: 'Torre de Sonido Bluetooth 13500W ',
+    name: 'Parlante Torre True Wireless BT 9500W',
     sku: 'AW-T2021',
     link: '/productos/AW-T2021',
     line: 'infinit',
-    categories: [101], 
+    categories: [101, 102], 
     imgs: [
       '/products/AW-T2021/img/1.webp',
     ],
@@ -70,11 +70,11 @@ export const products = [
     video: 'https://www.youtube.com/',
   },
   {
-    name: 'Torre de Sonido Bluetooth 13500W ',
+    name: 'Parlante Torre True Wireless BT 7000W',
     sku: 'AW-T2050R',
     link: '/productos/AW-T2050R',
     line: 'infinit',
-    categories: [101], 
+    categories: [101, 102], 
     imgs: [
       '/products/AW-T2050R/img/1.webp',
     ],
