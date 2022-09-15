@@ -1,12 +1,16 @@
 import Link from "next/link"
 import Image from "next/image"
 
-export default function Banner({link, image, mobile, alt}){
+export default function Banner({link, image, mobile, alt, title, desc}){
   link = link ? link : '/'
   return (
     <Link href={link}>
-      <a>
+      <a className='category-banner'>
         <figure className='desktop'>
+          <div className='text'>
+            <h1>{title}</h1>
+            <h2>{desc}</h2>
+          </div>
           <Image alt={alt} src={image} layout='responsive' width='1920' height='450' priority/>
         </figure>
         <figure className='mobile'>

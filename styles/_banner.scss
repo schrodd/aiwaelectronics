@@ -1,19 +1,5 @@
 @import 'variables';
 
-section.main-banner {
-  .mobile {
-    display:none !important;
-  }
-  @include mobile {
-    .mobile {
-      display:block !important;
-    }
-    .desktop {
-      display:none !important;
-    }
-  }
-}
-
 .banner-inner {
   @include flex(column);
   position: absolute;

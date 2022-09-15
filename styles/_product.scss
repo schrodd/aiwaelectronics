@@ -1,0 +1,54 @@
+@import 'variables';
+
+section.products{
+  border-top: $divider;
+  .product {
+    @include flex;
+    padding: 30px 60px;
+    background: $whiteDeg;
+    .image {
+      @include flex;
+      width: 45%;
+    }
+    .text {
+      @include flex(column, center, flex-end);
+      text-align: end;
+      width: 55%;
+      &>*{
+        margin-bottom: 12px;
+      }
+      .sku {
+        font-family: DINPRO;
+        font-weight: bold;
+      }
+      h3 {
+        font-size: 30px;
+        font-weight: lighter;
+      }
+      h4 {
+        color: grey;
+        font-size: 14px;
+      }
+      button {
+        @include btn(ghostwhite, $black, 1px solid black);
+        margin-right: 0;
+      }
+    }
+  }
+  .product.dark {
+    background: $blackDeg;
+    color: white;
+    .text {
+      @include flex(column, flex-start, flex-start);
+      order: -1;
+      text-align: start;
+      h4 {
+        color: white;
+      }
+      button {
+        @include btn(black, white, 1px solid white);
+        margin-left: 0;
+      }
+    }
+  }
+}

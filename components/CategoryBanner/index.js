@@ -14,6 +14,7 @@ export default function CategoryBanner(){
         className='category-swiper'
         modules={[Navigation]}
         slidesPerView={size.width >= 850 ? '4' : '1'}
+        initialSlide={size.width >= 850 ? '4' : '1'}
         spaceBetween={0}
         loop
         navigation
@@ -22,7 +23,7 @@ export default function CategoryBanner(){
           <SwiperSlide key={i} className='category-banner-slide'>
             <Link href={e.route}>
               <a>
-                <Image width='387px' height='237px' src={e.image} alt={e.name}/>
+                <Image width='387px' height='237px' src={e.cover} alt={e.name}/>
                 <h3>{e.name}</h3>
               </a>
             </Link>

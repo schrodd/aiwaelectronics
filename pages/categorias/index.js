@@ -1,6 +1,5 @@
 import { lvOneCat, lvTwoCat } from '../../content/categories'
 import AccordionItem from '../../components/AccordionItem'
-import Footer from '../../components/Footer'
 import Link from 'next/link'
 import Image from 'next/image'
 import { Skeleton } from '@mui/material'
