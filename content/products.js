@@ -1,44 +1,87 @@
-const products = [
+export const products = [
   {
-    name: 'Parlante AIWA AW-1231 500W',
-    sku: 'AW-1231',
-    link: '/categorias',
-    line: 'Infinit',
+    name: 'Torre de Sonido Bluetooth 12000W ',
+    sku: 'AW-T2008',
+    link: '/productos/AW-T2008',
+    line: 'ring',
     categories: [101], 
-    pngs: [
-      '/products/AW-1231/png/1.png',
+    imgs: [
+      '/products/AW-T2008/img/1.webp',
     ],
-    shortDesc: 'El equilibrio perfecto entre potencia y portabilidad',
-    longDesc: "Con su entrada para guitarra y su microfono inalámbrico, este producto será tu mejor aliado en tus primeras presentaciones. Su sistema carry-on es ideal para asegurarte de que tu sonido va a estar ahí para acompañarte.",
+    shortDesc: 'Sonido Robusto',
+    longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     video: 'https://www.youtube.com/',
-    features: { 
-      woofer: '2 de 10"',
-      tweeter: '1 de 2"',
-      guitarIn: 'si, 2',
-      micIn: 'si, 2',
-      battery: '10000mAh',
-      tws: 'si',
-      pmpo: 'si',
-      rms: '10',
-      },
-    downloads: {
-      manual: '',
-      ficha: '',
-      imágenes: ''
-    }
   },
   {
-    name: 'Parlante AIWA AW-2222 16000W',
-    sku: 'AW-2222',
-    link: '/lineas',
-    categories: [101],
-    pngs: [
-      '/products/AW-2222/png/1.png',
+    name: 'Torre de Sonido Bluetooth 13500W ',
+    sku: 'AW-T2010',
+    link: '/productos/AW-T2010',
+    line: 'ring',
+    categories: [101], 
+    imgs: [
+      '/products/AW-T2010/img/1.webp',
     ],
-    shortDesc: 'El parlante más potente que vas a encontrar',
-    longDesc: "Con su entrada para guitarra y su microfono inalámbrico, este producto será tu mejor aliado en tus primeras presentaciones. Su sistema carry-on es ideal para asegurarte de que tu sonido va a estar ahí para acompañarte.",
-  }
+    shortDesc: 'Potencia y Calidad',
+    longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno y 2 tweeters, vas a poder tirar tu casa por la ventana.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    video: 'https://www.youtube.com/',
+  },
+  {
+    name: 'Torre de Sonido Bluetooth 16000W ',
+    sku: 'AW-T2012',
+    link: '/productos/AW-T2012',
+    line: 'ring',
+    categories: [101], 
+    imgs: [
+      '/products/AW-T2012/img/1.webp',
+    ],
+    shortDesc: 'Sonido Colosal',
+    longDesc: "Caja con cuerpo de madera, 1,49 centímetros de altura. Una gran torre en todo sentido de la palabra.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    video: 'https://www.youtube.com/',
+  },
+  {
+    name: 'Torre de Sonido Bluetooth 13500W ',
+    sku: 'AW-T2018R',
+    link: '/productos/AW-T2018R',
+    line: 'infinit',
+    categories: [101], 
+    imgs: [
+      '/products/AW-T2018R/img/1.webp',
+    ],
+    shortDesc: 'Práctica y Potente',
+    longDesc: "Liviana, práctica y portatil, con un sonido potente. Sus deslumbrantes efectos de luces le darán ese toque mágico a todos tus momentos.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    video: 'https://www.youtube.com/',
+  },
+  {
+    name: 'Torre de Sonido Bluetooth 13500W ',
+    sku: 'AW-T2021',
+    link: '/productos/AW-T2021',
+    line: 'infinit',
+    categories: [101], 
+    imgs: [
+      '/products/AW-T2021/img/1.webp',
+    ],
+    shortDesc: 'Ecualizá tu Música',
+    longDesc: "Una torre de sonido creada para estar a la altura de todas tus fiestas que te permite ajustar tu música como prefieras.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    video: 'https://www.youtube.com/',
+  },
+  {
+    name: 'Torre de Sonido Bluetooth 13500W ',
+    sku: 'AW-T2050R',
+    link: '/productos/AW-T2050R',
+    line: 'infinit',
+    categories: [101], 
+    imgs: [
+      '/products/AW-T2050R/img/1.webp',
+    ],
+    shortDesc: 'Diversión Infinita',
+    longDesc: "Sonido potente acompañado de variados efectos de luz, para montar la fiesta donde prefieras.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    video: 'https://www.youtube.com/',
+  },
 ]
-
-export default products
+export const variants = []

@@ -1,4 +1,4 @@
-import products from '../../content/products'
+import { products } from '../../content/products'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Skeleton } from '@mui/material'
@@ -17,7 +17,7 @@ export default function ProductCard({sku, showName, showSku, showDesc, showButto
         <a>
           <div className='image'>
             {!loaded && <Skeleton variant='rounded' width='150px' height='150px' />}
-            <Image width='150px' height='150px' layout='fixed' src={product.pngs[0]} alt={product.name} onLoadingComplete={() => toggle()}/>
+            <Image width='150px' height='150px' layout='fixed' src={product.imgs[0]} alt={product.name} onLoadingComplete={() => toggle()}/>
           </div>
           <div className='texts'>
             {showSku && <p className='p-sku'>{product.sku}</p>}

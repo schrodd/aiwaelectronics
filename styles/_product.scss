@@ -4,16 +4,35 @@ section.products{
   border-top: $divider;
   .product {
     @include flex;
-    padding: 30px 60px;
+    padding: 30px 10vw;
     background: $whiteDeg;
+    @include mobile {
+      padding: 30px;
+      @include flex(column);
+    }
     .image {
       @include flex;
       width: 45%;
+      @include mobile {
+        width: 100%;
+      }
     }
     .text {
       @include flex(column, center, flex-end);
       text-align: end;
       width: 55%;
+      @include mobile {
+        margin-top: 15px;
+        width: 100%;
+        text-align: center;
+        @include flex(column);
+      }
+      .line-image-wrapper {
+        width: 200px;
+        height: 70px;
+        position: relative;
+        margin: 0 -20px 20px 0;
+      }
       &>*{
         margin-bottom: 12px;
       }
@@ -28,10 +47,16 @@ section.products{
       h4 {
         color: grey;
         font-size: 14px;
+        @include mobile {
+          display:none;
+        }
       }
       button {
         @include btn(ghostwhite, $black, 1px solid black);
         margin-right: 0;
+        @include mobile {
+          margin: 0;
+        }
       }
     }
   }
@@ -42,11 +67,20 @@ section.products{
       @include flex(column, flex-start, flex-start);
       order: -1;
       text-align: start;
+      @include mobile {
+        margin-top: 15px;
+        order: 1;
+        align-items: center;
+        text-align: center;
+      }
+      .line-image-wrapper {
+        margin: 0 0 20px -15px;
+      }
       h4 {
         color: white;
       }
       button {
-        @include btn(black, white, 1px solid white);
+        @include btn(#222, white, 1px solid white);
         margin-left: 0;
       }
     }

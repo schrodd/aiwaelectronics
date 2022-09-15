@@ -34,12 +34,13 @@ export const lvTwoCat = [
   },
   {
     name: 'Torres de sonido',
-    desc: 'description',
+    desc: 'Productos portátiles, potentes y de diseño cómodo',
     id: 102,
     parent: 1,
     route: '/categorias/torres-de-sonido',
     hidden: false,
-    cover: '/images/categories/cover/torres.png'
+    cover: '/images/categories/cover/torres.png',
+    banner: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Auriculares In-ear',
@@ -48,7 +49,8 @@ export const lvTwoCat = [
     parent: 1,
     route: '/categorias/in-ear',
     hidden: false,
-    cover: '/images/categories/cover/inear.png'
+    cover: '/images/categories/cover/inear.png',
+    banner: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Auriculares On-ear',
@@ -57,7 +59,8 @@ export const lvTwoCat = [
     parent: 1,
     route: '/categorias/on-ear',
     hidden: false,
-    cover: '/images/categories/cover/onear.png'
+    cover: '/images/categories/cover/onear.png',
+    banner: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Portable',
@@ -66,7 +69,8 @@ export const lvTwoCat = [
     parent: 1,
     route: '/categorias/portable',
     hidden: true,
-    cover: '/images/categories/cover/portable.png'
+    cover: '/images/categories/cover/portable.png',
+    banner: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Tablets',
@@ -75,7 +79,8 @@ export const lvTwoCat = [
     parent: 2,
     route: '/categorias/tablets',
     hidden: false,
-    cover: '/images/categories/cover/tablets.png'
+    cover: '/images/categories/cover/tablets.png',
+    banner: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Notebooks',
@@ -84,7 +89,8 @@ export const lvTwoCat = [
     parent: 2,
     route: '/categorias/notebooks',
     hidden: false,
-    cover: '/images/categories/cover/notebooks.png'
+    cover: '/images/categories/cover/notebooks.png',
+    banner: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'TV',
@@ -93,7 +99,8 @@ export const lvTwoCat = [
     parent: 3,
     route: '/categorias/tv',
     hidden: true,
-    cover: '/images/categories/cover/tv.png'
+    cover: '/images/categories/cover/tv.png',
+    banner: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Gaming',
@@ -102,6 +109,7 @@ export const lvTwoCat = [
     parent: 2,
     route: 'https://www.constrictor.com.ar/',
     hidden: false,
-    cover: '/images/categories/cover/gaming.png'
+    cover: '/images/categories/cover/gaming.png',
+    banner: '/images/categories/banner/parlantes.jpg'
   },
 ]

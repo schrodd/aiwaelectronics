@@ -6,7 +6,6 @@ import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import LinesContainer from '../components/LinesContainer'
 import DiscoverBanner from '../components/DiscoverBanner'
-import Footer from '../components/Footer'
 import Constrictor from '../components/Constrictor'
 import CategoryBanner from '../components/CategoryBanner'
 

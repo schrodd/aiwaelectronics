@@ -2,7 +2,7 @@ import { useRouter } from "next/router"
 import Banner from '../../components/Banner'
 import Product from "../../components/Product"
 import { lvTwoCat } from "../../content/categories"
-import products from "../../content/products"
+import { products } from "../../content/products"
 
 export default function Category(){
   const url = useRouter()
