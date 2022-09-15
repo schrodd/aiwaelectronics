@@ -8,6 +8,7 @@ import LinesContainer from '../components/LinesContainer'
 import DiscoverBanner from '../components/DiscoverBanner'
 import Footer from '../components/Footer'
 import Constrictor from '../components/Constrictor'
+import CategoryBanner from '../components/CategoryBanner'
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
         <LinesContainer />
         <DiscoverBanner />
         <Constrictor />
+        <CategoryBanner />
       </main>
     </div>
   )

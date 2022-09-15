@@ -4,7 +4,7 @@ export default function Constrictor(){
   return (
     <section id="constrictor">
       <div className='logo'>
-        <Image width='300px' height='110px' className="constrictor-logo" src="/images/components/Constrictor/constrictor-logo.png" />
+        <Image width='300px' height='110px' className="constrictor-logo" src="/images/components/Constrictor/constrictor-logo.png" alt='constrictor logo'/>
         <h3>Nuestra línea de productos gamer</h3>
       </div>
       <div className='items'>

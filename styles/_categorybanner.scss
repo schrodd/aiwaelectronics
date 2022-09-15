@@ -1,0 +1,29 @@
+@import 'variables';
+
+section.category-banner {
+  background: $whiteDeg;
+  color: $black;
+  padding: 25px 0;
+  h2 {
+    font-family: DINPRO;
+    font-weight: lighter;
+    font-size: 35px;
+    text-align: center;
+    margin: 5px 10px 10px 10px;
+  }
+  .category-swiper {
+    padding: 40px 0;
+  }
+  .category-banner-slide{
+    padding: 0 25px;
+    @include hoverScale(1.05);
+    h3 {
+      font-family: DINPRO;
+      margin-top: 10px;
+      text-align: center;
+      @include mobile {
+        font-size: 25px;
+      }
+    }
+  }
+}

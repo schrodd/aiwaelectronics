@@ -27,55 +27,63 @@ export const lvTwoCat = [
     id: 101,
     parent: 1,
     route: '/categorias/parlantes',
-    hidden: false
+    hidden: false,
+    image: '/images/categories/parlantes.png'
   },
   {
     name: 'Torres de sonido',
     id: 102,
     parent: 1,
     route: '/categorias/torres-de-sonido',
-    hidden: false
+    hidden: false,
+    image: '/images/categories/torres.png'
   },
   {
     name: 'Auriculares In-ear',
     id: 103,
     parent: 1,
     route: '/categorias/in-ear',
-    hidden: false
+    hidden: false,
+    image: '/images/categories/inear.png'
   },
   {
     name: 'Auriculares On-ear',
     id: 104,
     parent: 1,
     route: '/categorias/on-ear',
-    hidden: false
+    hidden: false,
+    image: '/images/categories/onear.png'
   },
   {
     name: 'Portable',
     id: 105,
     parent: 1,
     route: '/categorias/portable',
-    hidden: true
+    hidden: true,
+    image: '/images/categories/portable.png'
   },
   {
     name: 'Tablets',
     id: 106,
     parent: 2,
     route: '/categorias/tablets',
-    hidden: false
+    hidden: false,
+    image: '/images/categories/tablets.png'
   },
   {
     name: 'Notebooks',
     id: 107,
     parent: 2,
     route: '/categorias/notebooks',
-    hidden: false
+    hidden: false,
+    image: '/images/categories/notebooks.png'
   },
   {
     name: 'TV',
     id: 108,
     parent: 3,
     route: '/categorias/tv',
-    hidden: true
+    hidden: true,
+    image: '/images/categories/tv.png'
   },
 ]

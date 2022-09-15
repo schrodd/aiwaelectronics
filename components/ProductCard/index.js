@@ -15,8 +15,10 @@ export default function ProductCard({sku, showName, showSku, showDesc, showButto
     <div className='product-card'>
       <Link href={product.link}>
         <a>
-          {!loaded && <Skeleton variant='rounded' width='150px' height='150px' />}
-          <Image width='150px' height='150px' src={product.pngs[0]} alt={product.name} onLoadingComplete={() => toggle()}/>
+          <div className='image'>
+            {!loaded && <Skeleton variant='rounded' width='150px' height='150px' />}
+            <Image width='150px' height='150px' layout='fixed' src={product.pngs[0]} alt={product.name} onLoadingComplete={() => toggle()}/>
+          </div>
           <div className='texts'>
             {showSku && <p className='p-sku'>{product.sku}</p>}
             {showName && <p className='p-name'>{product.name}</p>}

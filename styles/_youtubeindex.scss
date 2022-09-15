@@ -1,0 +1,8 @@
+@import 'variables';
+
+section#youtube-video{
+  @include flex;
+  .left{
+    flex-grow: 1;
+  }
+}

@@ -6,12 +6,11 @@
   width: 250px;
   border-radius: 5px;
   box-shadow: $shadow;
-  padding: 20px 20px 0 20px;
-
+  padding: 20px;
+  
   @include mobile {
     width: 85%;
-    height: 140px;
-    padding: 10px 20px 0 10px;
+    padding: 10px;
   }
 
   a {
@@ -19,9 +18,19 @@
     @include mobile {
       flex-direction: row;
     }
+    .image {
+      width: 150px;
+      height: 150px;
+      @include mobile {
+        margin-right: 5px;
+      }
+    }
     .texts {
       @include flex(column);
       height: 110px;
+      @include mobile {
+        margin-right: 15px;
+      }
       p {
         font-size: 13px;
         font-weight: bold;
@@ -32,6 +41,9 @@
         }
         &.p-name {
           font-size: 16px;
+          @include mobile {
+            font-size: 20px;
+          }
         }
         &.p-sku {
           margin-top: 10px;
@@ -43,8 +55,8 @@
           }
         }
         &.p-desc {
-        }
-        small {
+          line-height: 90%;
+          font-size: 20px;
           color: grey;
         }
       }
