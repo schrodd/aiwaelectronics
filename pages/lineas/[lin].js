@@ -15,7 +15,7 @@ export default function Lines(){
   return (
     <main className={`linea ${lin}`}>
       <div className='banner'>
-        <Banner link={linea.link} image={linea.bg} mobile={linea.bg}/>
+        <Banner link={linea.link} image={linea.banner} mobile={linea.bannerMobile}/>
         <div className={`logo ${linea.name}`}>
           <Image layout='fill' objectFit="contain" src={linea.logo} alt={`${linea.name} logo`}/>
         </div>
