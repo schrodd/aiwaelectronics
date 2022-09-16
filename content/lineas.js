@@ -4,6 +4,7 @@ const lineas = [
     desc: '',
     logo: '/lineas/infinit/logo.png',
     bg: '/lineas/infinit/bg.png',
+    banner: '',
     link: '/lineas/infinit',
   },
   {
@@ -11,6 +12,7 @@ const lineas = [
     desc: '',
     logo: '/lineas/flama/logo.png',
     bg: '/lineas/flama/bg.png',
+    banner: '',
     link: '/lineas/flama',
   },
   {
@@ -18,6 +20,7 @@ const lineas = [
     desc: '',
     logo: '/lineas/ring/logo.png',
     bg: '/lineas/ring/bg.png',
+    banner: '',
     link: '/lineas/ring',
   },
   {
@@ -25,6 +28,7 @@ const lineas = [
     desc: '',
     logo: '/lineas/party/logo.png',
     bg: '/lineas/party/bg.jpg',
+    banner: '',
     link: '/lineas/party',
   }
 ]
