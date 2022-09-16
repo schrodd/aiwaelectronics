@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Lazy } from 'swiper'
+import { Navigation } from 'swiper'
 import { lvTwoCat } from '../../content/categories'
 import Link from 'next/link'
 import useWindowSize from '../../hooks/useWindowSize'
@@ -12,11 +12,10 @@ export default function CategoryBanner(){
       <h2>BUSCÁ POR CATEGORÍAS</h2>
       <Swiper
         className='category-swiper'
-        modules={[Navigation, Lazy]}
+        modules={[Navigation]}
         slidesPerView={size.width >= 850 ? '4' : '1'}
         initialSlide={size.width >= 850 ? '4' : '1'}
         spaceBetween={0}
-        lazy={{loadPrevNextAmount:1}}
         loop
         navigation
       >

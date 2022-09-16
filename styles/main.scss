@@ -7,3 +7,9 @@
 section {
   border-bottom: $divider;
 }
+.swiper-button-prev, .swiper-button-next {
+  @include hoverScale;
+  &:hover{
+    filter:drop-shadow(0 0 3px rgba(0,0,0,.1));
+  }
+}
