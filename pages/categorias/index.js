@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Skeleton } from '@mui/material'
 import { useState } from 'react'
+import Head from 'next/head'
 
 export default function Categorias(){
   const [loaded, setLoaded] = useState(false)
@@ -11,26 +12,31 @@ export default function Categorias(){
     setLoaded(true)
   }
   return (
-    <main id='categorias'>
-      <div className='cat-wrapper'>
-        <h1>CATEGORÍAS</h1>
-        {lvOneCat.map((e,i) => (
-        <AccordionItem classes='lv-one' name={e.name} key={i}>
-          {lvTwoCat.filter((f) => f.parent == e.id)
-          .map((e,i) => (
-            <Link className='lv-two' href={e.route} key={i}>
-              <a>
-                {e.name}
-              </a>
-            </Link>
+    <>
+      <Head>
+        <title>Categorías | Aiwa Electronics</title>
+      </Head>
+      <main id='categorias'>
+        <div className='cat-wrapper'>
+          <h1>CATEGORÍAS</h1>
+          {lvOneCat.map((e,i) => (
+          <AccordionItem classes='lv-one' name={e.name} key={i}>
+            {lvTwoCat.filter((f) => f.parent == e.id)
+            .map((e,i) => (
+              <Link className='lv-two' href={e.route} key={i}>
+                <a>
+                  {e.name}
+                </a>
+              </Link>
+            ))}
+          </AccordionItem>
           ))}
-        </AccordionItem>
-        ))}
-      </div>
-      <div className='cat-img'>
-        {!loaded && (<Skeleton className='skeleton' height='100%' />)}
-        <Image src='/images/pages/categorias/cat-img.jpg' objectFit='cover' layout='fill' alt='categorías' onLoadingComplete={() => toggle()}/>
-      </div>
-    </main>
+        </div>
+        <div className='cat-img'>
+          {!loaded && (<Skeleton className='skeleton' height='100%' />)}
+          <Image src='/images/pages/categorias/cat-img.jpg' objectFit='cover' layout='fill' alt='categorías' onLoadingComplete={() => toggle()}/>
+        </div>
+      </main>
+    </>
   )
 }

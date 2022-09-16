@@ -43,8 +43,8 @@ export const lvTwoCat = [
     banner: '/images/categories/banner/parlantes.jpg'
   },
   {
-    name: 'Auriculares In-ear',
-    desc: 'description',
+    name: 'Auriculares In‑ear',
+    desc: 'Cancelación de ruido y la mejor calidad de sonido.',
     id: 103,
     parent: 1,
     route: '/categorias/in-ear',
@@ -53,8 +53,8 @@ export const lvTwoCat = [
     banner: '/images/categories/banner/parlantes.jpg'
   },
   {
-    name: 'Auriculares On-ear',
-    desc: 'description',
+    name: 'Auriculares On‑ear',
+    desc: 'Diseño clásico. Disfrutá tu música donde sea, como sea.',
     id: 104,
     parent: 1,
     route: '/categorias/on-ear',
@@ -64,7 +64,7 @@ export const lvTwoCat = [
   },
   {
     name: 'Portable',
-    desc: 'description',
+    desc: 'Llevá tu música donde quiera que vayas.',
     id: 105,
     parent: 1,
     route: '/categorias/portable',
@@ -74,7 +74,7 @@ export const lvTwoCat = [
   },
   {
     name: 'Tablets',
-    desc: 'description',
+    desc: 'Películas, libros, series, música y más en un sólo dispositivo.',
     id: 106,
     parent: 2,
     route: '/categorias/tablets',
@@ -84,7 +84,7 @@ export const lvTwoCat = [
   },
   {
     name: 'Notebooks',
-    desc: 'description',
+    desc: "Trabajar desde cualquier sitio ahora es más fácil.",
     id: 107,
     parent: 2,
     route: '/categorias/notebooks',
@@ -94,7 +94,7 @@ export const lvTwoCat = [
   },
   {
     name: 'TV',
-    desc: 'description',
+    desc: "Disfrutá tus series y películas como nunca antes.",
     id: 108,
     parent: 3,
     route: '/categorias/tv',
@@ -104,7 +104,7 @@ export const lvTwoCat = [
   },
   {
     name: 'Gaming',
-    desc: 'description',
+    desc: 'Competí y ganá con Constrictor.',
     id: 109,
     parent: 2,
     route: 'https://www.constrictor.com.ar/',

@@ -1,6 +1,7 @@
 const lineas = [
   {
     name: 'infinit',
+    displayName: 'Infinit',
     desc: 'Descripción Linea Infinit',
     logo: '/lineas/infinit/logo.png',
     bg: '/lineas/infinit/bg.png',
@@ -10,6 +11,7 @@ const lineas = [
   },
   {
     name: 'flama',
+    displayName: 'Flama',
     desc: '',
     logo: '/lineas/flama/logo.png',
     bg: '/lineas/flama/bg.png',
@@ -19,6 +21,7 @@ const lineas = [
   },
   {
     name: 'ring',
+    displayName: 'Ring',
     desc: '',
     logo: '/lineas/ring/logo.png',
     bg: '/lineas/ring/bg.png',
@@ -28,6 +31,7 @@ const lineas = [
   },
   {
     name: 'party',
+    displayName: 'Party',
     desc: '',
     logo: '/lineas/party/logo.png',
     bg: '/lineas/party/bg.jpg',

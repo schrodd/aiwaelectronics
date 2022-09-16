@@ -1,0 +1,21 @@
+@import 'variables';
+
+main#not-found{
+  @include flex(column);
+  height: 75vh;
+  color: $black;
+  svg {
+    color: $alt;
+  }
+  h1 {
+    font-size: 45px;
+    font-family: DINPRO;
+  }
+  h2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  button{
+    @include btn($black, white);
+  }
+}
