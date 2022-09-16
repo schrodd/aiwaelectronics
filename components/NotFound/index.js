@@ -13,7 +13,7 @@ export default function NotFound({desc}){
         <ErrorIcon sx={{fontSize: 50}}/>
         <h1>Lo sentimos</h1>
         <h2>{description}</h2>
-        <button><Link href='/'><a>Volver al inicio</a></Link></button>
+        <Link href='/'><a><button>Volver al inicio</button></a></Link>
       </main>
     </>
   )
