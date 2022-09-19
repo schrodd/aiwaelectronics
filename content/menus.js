@@ -2,6 +2,7 @@ import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown'
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports'
 import LocalMallIcon from '@mui/icons-material/LocalMall'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
+import SearchIcon from '@mui/icons-material/Search';
 
 const menus = [
   {
@@ -29,6 +30,11 @@ const menus = [
     icon: LocalPhoneIcon,
     link: '/contacto'
   },
+  {
+    name: 'Buscar',
+    icon: SearchIcon,
+    link: '/buscar'
+  }
 ]
 
 export default menus
