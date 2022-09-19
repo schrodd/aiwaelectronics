@@ -50,7 +50,6 @@ export default function Buscar(){
   return (
     <main id='buscar'>
       <h1>Buscar productos</h1>
-      <p style={{marginBottom: '20px'}}>todo: sacar características e incluir menú 'aside' de filtrado <br></br>hacer ver.mobile</p>
       <div className='inputs'>
         <FormControl className='query-type'>
           <InputLabel id="demo-simple-select-label">Buscar por</InputLabel>
