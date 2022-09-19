@@ -1,0 +1,53 @@
+@import 'variables';
+
+main#buscar {
+  background-color: ghostwhite;
+  padding: 20px 35px;
+  color: $black;
+  .inputs {
+    @include flex(row, flex-start, center);
+    margin-bottom: 10px;
+    .query-type {
+      width: 200px;
+    }
+    .query-prop {
+      min-width: 200px;
+    }
+    .query-type, .query-prop {
+      background: white;
+      box-shadow: $shadow;
+      border: none;
+      margin-right: 10px;
+    }
+    form {
+      box-shadow: $shadow;
+      border: 1px solid rgb(194, 194, 194);
+      &:hover{
+        border: 1px solid $black;
+      }
+    }
+  }
+  h1{
+    font-family: DINPRO;
+    font-size: 50px;
+    margin: 10px 0 20px 0;
+  }
+  p.no-results {
+    color: gray;
+  }
+  section#buscar-resultados {
+    display: flex;
+    min-height: 300px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 0;
+    &>* {
+      margin-right: 20px;
+      margin-bottom: 20px;
+      &:last-of-type{
+        margin-right: 0;
+      }
+    }
+  }
+}

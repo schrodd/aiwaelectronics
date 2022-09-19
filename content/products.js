@@ -12,6 +12,20 @@ export const products = [
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     video: 'https://www.youtube.com/',
+    features: [
+      {
+        name: 'Woofer',
+        value: '2'
+      },
+      {
+        name: 'Tweeter',
+        value: '1'
+      },
+      {
+        name: 'Potencia PMPO',
+        value: '20000W'
+      }
+    ]
   },
   {
     name: 'Torre de Sonido Bluetooth 13500W ',
@@ -26,6 +40,24 @@ export const products = [
     longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno y 2 tweeters, vas a poder tirar tu casa por la ventana.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     video: 'https://www.youtube.com/',
+    features: [
+      {
+        name: 'Woofer',
+        value: '2'
+      },
+      {
+        name: 'Efectos de luz',
+        value: 'Variados'
+      },
+      {
+        name: 'Tweeter',
+        value: '1'
+      },
+      {
+        name: 'Potencia PMPO',
+        value: '10000W'
+      }
+    ]
   },
   {
     name: 'Torre de Sonido Bluetooth 16000W ',
@@ -84,4 +116,5 @@ export const products = [
     video: 'https://www.youtube.com/',
   },
 ]
+
 export const variants = []
