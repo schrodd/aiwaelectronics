@@ -1,6 +1,6 @@
 export const products = [
   {
-    name: 'Torre de Sonido Bluetooth 12000W ',
+    name: 'Torre de Sonido Bluetooth 12000W',
     sku: 'AW-T2008',
     link: '/productos/AW-T2008',
     line: 'ring',
@@ -28,7 +28,7 @@ export const products = [
     ]
   },
   {
-    name: 'Torre de Sonido Bluetooth 13500W ',
+    name: 'Torre de Sonido Bluetooth 13500W',
     sku: 'AW-T2010',
     link: '/productos/AW-T2010',
     line: 'ring',
@@ -60,7 +60,7 @@ export const products = [
     ]
   },
   {
-    name: 'Torre de Sonido Bluetooth 16000W ',
+    name: 'Torre de Sonido Bluetooth 16000W',
     sku: 'AW-T2012',
     link: '/productos/AW-T2012',
     line: 'ring',

@@ -1,41 +1,47 @@
-import { InputBase, Paper, IconButton, FormControl, Select, MenuItem, InputLabel } from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
-import { useState } from 'react';
+import { FormControl, Select, MenuItem, InputLabel, Autocomplete, TextField } from '@mui/material'
+import { useState, useEffect } from 'react'
 import ProductCard from '../../components/ProductCard'
-import { products } from '../../content/products';
+import { products } from '../../content/products'
+import lineas from '../../content/lineas'
 
 export default function Buscar(){
   const [query, setQuery] = useState("")
   const [results, setResults] = useState([])
   const [init, setInit] = useState(false)
   const [type, setType] = useState(1)
-  const [prop, setProp] = useState(0)
-  const allProps = []
-  products.forEach(e => {
-    if (e.features !== undefined){
-      e.features.forEach(e => {
-        !allProps.includes(e.name) && allProps.push(e.name)
-      })
-    }
-  })
-  function compare(e){
+  const [line, setLine] = useState('')
+
+  const resultsArr = results.map(e => {
     switch (type) {
       case 1:
-        return e.name.toLowerCase().includes(query.toLowerCase()) ? true : false
+        return { label: e.name }
       case 2:
-        return e.sku.toLowerCase().includes(query.toLowerCase()) ? true : false
+        return { label: e.sku }
       case 3:
-        return e.line.toLowerCase().includes(query.toLowerCase()) ? true : false
-      case 4:
-        if (e.features !== undefined) {
-          return e.features.find(e => e.name === allProps[prop] && e.value.toLowerCase().includes(query.toLowerCase())) ? true : false
-        } else return false
-      default:
-        return false
-    } 
+        return { label: e.line }
+      default: 
+        return undefined
+    }
+  })
+
+  useEffect(() => {
+    getResults()
+  }, [line, query])
+
+  function compare(e){
+    if (query) {
+      switch (type) {
+        case 1:
+          return e.name.toLowerCase().includes(query.toLowerCase()) ? true : false
+        case 2:
+          return e.sku.toLowerCase().includes(query.toLowerCase()) ? true : false
+        default:
+          return false
+      } 
+    }
   }
   function getResults(e){
-    e.preventDefault()
+    e && e.preventDefault()
     setInit(true)
     setResults(products.filter(e => compare(e)))
   }
@@ -43,9 +49,9 @@ export default function Buscar(){
     setQuery('')
     setType(val)
   }
-  function changeProp(val){
-    setQuery('')
-    setProp(val)
+  function changeLine(e){
+    setLine(e.target.value)
+    setQuery(e.target.value)
   }
   return (
     <main id='buscar'>
@@ -62,39 +68,33 @@ export default function Buscar(){
             <MenuItem value={1}>Producto</MenuItem>
             <MenuItem value={2}>Modelo</MenuItem>
             <MenuItem value={3}>Línea</MenuItem>
-            <MenuItem value={4}>Característica</MenuItem>
           </Select>
         </FormControl>
-        {type === 4 &&
-          <FormControl className='query-prop'>
-            <InputLabel id="demo-simple-select-label">Característica</InputLabel>
+        {type === 3 && (
+          <FormControl className='query-line'>
+            <InputLabel id="demo-simple-select-label">Línea</InputLabel>
             <Select
             labelId="demo-simple-select-label"
             id="demo-simple-select"
-            value={prop}
-            label="Característica"
-            onChange={(e) => changeProp(e.target.value)}>
-              {allProps.map((e,i) => <MenuItem key={i} value={i}>{e}</MenuItem>)}
+            value={line}
+            label="Línea"
+            onChange={(e) => changeLine(e)}>
+              {lineas.map((e,i) => <MenuItem key={i} value={e.displayName}>{e.displayName}</MenuItem>)}
             </Select>
           </FormControl>
-        }
-        <Paper
-        component="form"
-        sx={{ p: '4px 4px', display: 'flex', alignItems: 'center', minWidth: 400 }}
-        onSubmit={(e) => getResults(e)}
-        >
-          <InputBase
-            id='buscar-input'
-            sx={{ ml: 1, flex: 1 }}
-            placeholder="Escribí acá"
-            inputProps={{ 'aria-label': 'buscar producto' }}
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
+        )}
+        {type !== 3 && (
+          <Autocomplete
+            isOptionEqualToValue={(option, value) => option.label === value.label}
+            disablePortal
+            className='buscar-input'
+            options={resultsArr}
+            sx={{minWidth: 400}}
+            onChange={(e,v) => {v && setQuery(v.label)}}
+            onInputChange={(e) => {setQuery(e.target.value)}}
+            renderInput={(params) => <TextField {...params} label="Tu búsqueda" />}
           />
-          <IconButton type="button" sx={{ p: '10px' }} aria-label="search" onClick={(e) => getResults(e)}>
-            <SearchIcon />
-          </IconButton>
-        </Paper>
+        )}
       </div>
       <section id="buscar-resultados">
         {results.length !== 0 && results.map((e,i) => (<ProductCard key={i} sku={e.sku} showName showSku/>))}

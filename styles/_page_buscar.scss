@@ -7,30 +7,22 @@ main#buscar {
   .inputs {
     @include flex(row, flex-start, center);
     margin-bottom: 10px;
-    .query-type {
+    .query-type, .query-line {
       width: 200px;
-    }
-    .query-prop {
-      min-width: 200px;
-    }
-    .query-type, .query-prop {
       background: white;
       box-shadow: $shadow;
       border: none;
       margin-right: 10px;
     }
-    form {
+    .buscar-input>div {
+      background-color: white;
       box-shadow: $shadow;
-      border: 1px solid rgb(194, 194, 194);
-      &:hover{
-        border: 1px solid $black;
-      }
     }
   }
   h1{
     font-family: DINPRO;
     font-size: 50px;
-    margin: 10px 0 20px 0;
+    margin: 10px 0 30px 0;
   }
   p.no-results {
     color: gray;
