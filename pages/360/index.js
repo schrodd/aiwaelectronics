@@ -1,4 +1,4 @@
-import ThreeSixty from "../../components/threeSixty"
+import ThreeSixty from "../../components/ThreeSixty"
 
 export default function threeSixty(){
   return (
