@@ -14,7 +14,7 @@ export default function Nav() {
         <ul className='nav-item-container'>
           {menus.map((e,i) => (
           <NavItem text={e.name} link={e.link} key={i}>
-            <e.icon />
+            {/* <e.icon /> */}
           </NavItem>
           ))}
         </ul>

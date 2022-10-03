@@ -37,9 +37,9 @@ footer {
         margin-top: 10px;
         li {
           margin-bottom: 3px;
-          @include hoverScale(1.05);
+          transition: all .1s ease-in-out;
           &:hover {
-            margin-left: 15px;
+            margin-left: 5px;
           }
         }
       }
