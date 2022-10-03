@@ -8,10 +8,13 @@ export default function threeSixty(){
     setImage(`/products/AW-T2008/360/${v}.webp`)
   }
   return (
-    <div style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", padding: "50px"}}>
-      <Image priority src={image} width='1000px' height='1000px'></Image>
+    <div
+    style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", border: "3px solid red", margin: "10px", position: "relative"}}>
+      <div>
+        <Image priority src={image} width='500px' height='500px' layout='fixed'></Image>
+      </div>
       <Slider
-        style={{width: "200px"}}
+        style={{width: "200px", position: "absolute", bottom: "20px", left: "50px"}}
         aria-label="Image"
         defaultValue={1}
         valueLabelDisplay="auto"
