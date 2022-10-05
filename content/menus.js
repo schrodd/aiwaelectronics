@@ -8,32 +8,38 @@ const menus = [
   {
     name: 'Categorías',
     icon: ExpandCircleDownIcon,
-    link: '/categorias'
+    link: '/categorias',
+    isPopup: true
   },
   {
     name: 'Líneas',
     icon: ExpandCircleDownIcon,
-    link: '/lineas'
+    link: '/lineas',
+    isPopup: true
   },
   {
     name: 'Gaming',
     icon: SportsEsportsIcon,
-    link: 'https://www.constrictor.com.ar/'
+    link: 'https://www.constrictor.com.ar/',
+    isPopup: false
   },
   {
     name: 'Tienda',
     icon: LocalMallIcon,
-    link: 'https://tienda.aiwaelectronics.com.ar/'
+    link: 'https://tienda.aiwaelectronics.com.ar/',
+    isPopup: false
   },
   {
     name: 'Contacto',
     icon: LocalPhoneIcon,
-    link: '/contacto'
+    link: '/contacto',
+    isPopup: false
   },
   {
     name: 'Buscar',
     icon: SearchIcon,
-    link: '/buscar'
+    link: '/buscar',
+    isPopup: false
   }
 ]
 

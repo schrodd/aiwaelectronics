@@ -3,6 +3,9 @@
 .category-banner {
   position: relative;
   color:white;
+  .category-banner-slide {
+    @include flex(column)
+  }
   .desktop {
     .text{
       @include hoverScale(1.05);
