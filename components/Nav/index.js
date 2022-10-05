@@ -1,11 +1,10 @@
 import Image from "next/image"
 import Link from 'next/link'
-import NavItem from "../NavItem"
-import menus from '../../content/menus'
 import SocialContainer from "../SocialContainer"
 import { useState, useEffect } from "react"
 import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
+import NavItemContainer from "../NavItemContainer"
 
 export default function Nav() {
   const [width, setWidth] = useState(0)
@@ -25,26 +24,14 @@ export default function Nav() {
         </Link>
         { width > 850
         ? <>
-            <ul className='nav-item-container'>
-              {menus.map((e,i) => (
-              <NavItem text={e.name} link={e.link} key={i}>
-                {/* <e.icon /> */}
-              </NavItem>
-              ))}
-            </ul>
+            <NavItemContainer />
             <SocialContainer />
           </>
         : <button className='burger' onClick={handleBurger}><MenuIcon fontSize='large'/></button> }
         { navModal &&
         <div id='nav-modal-open' onClick={handleBurger}>
           <button className='close' onClick={handleBurger}><CloseIcon fontSize='large'/></button>
-          <ul className='nav-item-container mobile'>
-            {menus.map((e,i) => (
-              <NavItem text={e.name} link={e.link} key={i}>
-                {/* <e.icon /> */}
-              </NavItem>
-            ))}
-          </ul>
+          <NavItemContainer className='mobile' />
           <SocialContainer />
         </div> }
       </nav>
