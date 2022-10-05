@@ -16,6 +16,40 @@ nav {
     padding: 20px;
     overflow: scroll;
   }
+
+  &.mobile {
+    justify-content: space-between;
+    button.burger, button.close {
+      background: none;
+      border: none;
+      color: inherit;
+    }
+    div.nav-modal-open {
+      @include flex(column, flex-end, flex-end);
+      position: absolute;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      padding: 50px;
+      background: rgba(0,0,0,0.85);
+      ul.mobile {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        align-items: flex-end;
+        font-size: 35px;
+        li {
+          margin: 0;
+          margin-bottom: 20px;
+        }
+      }
+      button.close {
+        margin-bottom: 35px;
+      }
+    }
+  }
   
   img {
     min-width: 150px;

@@ -9,3 +9,10 @@ ul.social-container {
     }
   }
 }
+
+div.nav-modal-open {
+  ul.social-container {
+    transform: scale(1.5);
+    margin-right: 20px;
+  }
+}

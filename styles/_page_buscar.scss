@@ -1,8 +1,11 @@
 @import 'variables';
 
 main#buscar {
+  @include flex(row, center, flex-start);
+  justify-content: space-between;
+  align-items: stretch;
   background-color: ghostwhite;
-  padding: 20px 35px;
+  padding-left: 35px;
   color: $black;
   .inputs {
     @include flex(row, flex-start, center);
@@ -22,7 +25,7 @@ main#buscar {
   h1{
     font-family: DINPRO;
     font-size: 50px;
-    margin: 10px 0 30px 0;
+    margin: 20px 0 30px 0;
   }
   p.no-results {
     color: gray;
@@ -40,6 +43,16 @@ main#buscar {
       &:last-of-type{
         margin-right: 0;
       }
+    }
+  }
+  aside.der {
+    padding: 20px;
+    background-color: white;
+    box-shadow: $shadow;
+    min-width: 200px;
+    h2 {
+      font-family: DINPRO;
+      margin-bottom: 15px;
     }
   }
 }

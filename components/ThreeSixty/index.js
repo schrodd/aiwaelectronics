@@ -4,8 +4,17 @@ import { Slider } from '@mui/material'
 
 export default function ThreeSixty(){
   const [image, setImage] = useState('/products/AW-T2008/360/1.webp')
+  const [auto, setAuto] = useState(false);
   function handleChange(v) {
+    setAuto(false)
+    setIndex(v)
     setImage(`/products/AW-T2008/360/${v}.webp`)
+  }
+  function start(){
+    setAuto(true)
+  }
+  if (auto) {
+    setTimeout(()=>handleChange)
   }
   return (
     <div
@@ -22,6 +31,7 @@ export default function ThreeSixty(){
         max={40}
         onChange={(e,v) => handleChange(v)}
       />
+      <button onClick={()=>start()}></button>
     </div>
   )
 }
