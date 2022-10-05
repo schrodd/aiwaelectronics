@@ -12,7 +12,6 @@ export default function Nav() {
   const [navModal, setNavModal] = useState(false)
   useEffect(()=>{
     setWidth(window.screen.width)
-    console.log(window.screen.width)
   }, [])
   function handleBurger(){
     setNavModal(!navModal)
@@ -37,13 +36,13 @@ export default function Nav() {
           </>
         : <button className='burger' onClick={handleBurger}><MenuIcon fontSize='large'/></button> }
         { navModal &&
-        <div className='nav-modal-open' onClick={handleBurger}>
+        <div id='nav-modal-open' onClick={handleBurger}>
           <button className='close' onClick={handleBurger}><CloseIcon fontSize='large'/></button>
           <ul className='nav-item-container mobile'>
             {menus.map((e,i) => (
-            <NavItem text={e.name} link={e.link} key={i}>
-              {/* <e.icon /> */}
-            </NavItem>
+              <NavItem text={e.name} link={e.link} key={i}>
+                {/* <e.icon /> */}
+              </NavItem>
             ))}
           </ul>
           <SocialContainer />
