@@ -14,6 +14,8 @@ export default function Nav() {
   }, [])
   function handleBurger(){
     setNavModal(!navModal)
+    document.body.style.overflow = navModal ? 'visible' : 'hidden'
+    console.log(document.body.style.overflowY)
   }
 
   return (
