@@ -5,7 +5,7 @@ html {
   body {
     height: 100vh;
   }
-}
+} 
 * {
   padding: 0;
   margin: 0;
@@ -17,4 +17,14 @@ html {
 }
 a {
   color: inherit;
+}
+@media (max-width: 850px){
+  .pc-only {
+    display:none !important;
+  }
+}
+@media (min-width: 850px){
+  .mobile-only {
+    display:none !important;
+  }
 }

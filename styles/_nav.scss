@@ -12,6 +12,10 @@ nav {
   border-bottom: $divider;
   position: relative;
 
+  @include mobile {
+    justify-content: space-between;
+  }
+
   button {
     background: none;
     border: none;
@@ -36,7 +40,7 @@ nav {
 
       .nav-hover {
         @include flex(column, flex-start, stretch);
-        background-color: rgba(255,255,255,.95);
+        background-color: rgba(240,240,240,.95);
         border-radius: 2px;
         box-shadow: $strongShadow;
         position: absolute;
@@ -45,6 +49,7 @@ nav {
         left: -20px;
         color: $black;
         min-width: 180px;
+        animation: openModal .2s ease-out;
 
         a {
           @include hoverMarginLeft;
