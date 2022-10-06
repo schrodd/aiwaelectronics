@@ -7,56 +7,17 @@ nav {
   width: 100%;
   padding: 20px 20px 15px 30px;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   box-shadow: $shadow;
   border-bottom: $divider;
   position: relative;
-  &.mobile {
-    justify-content: space-between;
-    button.burger, button.close {
-      background: none;
-      border: none;
-      color: inherit;
-    }
-    @keyframes openModal {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-    div#nav-modal-open {
-      @include flex(column, flex-end, flex-end);
-      position: absolute;
-      z-index: 999;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      padding: 50px;
-      background: rgba(0,0,0,0.85);
-      animation: .2s ease-in 0s 1 openModal;
-      ul.mobile {
-        margin: 0;
-        padding: 0;
-        flex-direction: column;
-        align-items: flex-end;
-        font-size: 35px;
-        li {
-          margin: 0;
-          margin-bottom: 20px;
-        }
-      }
-      ul.social-container {
-        transform: scale(1.5);
-        margin-right: 20px;
-      }
-      button.close {
-        margin-bottom: 35px;
-      }
-    }
+
+  button {
+    background: none;
+    border: none;
+    color: inherit;
   }
+
   img {
     min-width: 150px;
 
@@ -64,84 +25,56 @@ nav {
       min-width: 100px;
     }
   }
-  .nav-item-container {
+
+  ul {
     @include flex(row, flex-start);
-    flex-grow: 1;
-    margin-left: 60px;
-    margin-right: 30px;
-    position: relative;
-    @include mobile {
-      margin-left: 30px;
-    }
-    .nav-item {
-      @include flex;
-      transition: all .1s ease-out;
-      margin-right: 25px;
-      font-size: 16px;
+    margin-left: 30px;
+
+    li {
+      margin-right: 15px;
       position: relative;
-      @include mobile {
-        align-items: flex-end;
+
+      .nav-hover {
+        @include flex(column, flex-start, stretch);
+        background-color: rgba(255,255,255,.95);
+        border-radius: 2px;
+        box-shadow: $strongShadow;
+        position: absolute;
+        z-index: 999;
+        top: 40px;
+        left: -20px;
+        color: $black;
+        min-width: 180px;
+
+        a {
+          @include hoverMarginLeft;
+          padding: 5px 20px;
+          font-size: 16px;
+          font-family: DINPRO;
+          font-weight: bold;
+          &:hover {
+            color: $alt;
+          }
+          &:first-of-type {
+            padding-top: 18px;
+          }
+          &:last-of-type {
+            padding-bottom: 18px;
+          }
+        }
       }
-      a {
-        font-family: DINPRO;
-        font-weight: bold;
+      
+      &>button, &>button>a {
         cursor: pointer;
-        @include mobile {
-          font-size: 30px;
-          display: block;
-          text-align: right;
-        }
-      }
-      @include mobile {
-        margin-right: 20px;
-        flex-direction: column;
-      }
-    }
-    .nav-hover {
-      width: max-content;
-      animation: .1s ease-in 0s 1 openModal;
-      padding: 15px;
-      position: absolute;
-      z-index: 999;
-      top: 40px;
-      left: 0px;
-      background: rgba(255,255,255,.95);
-      color: $black;
-      box-shadow: $shadow;
-      a {
-        display: block;
-        margin: 5px 0;
-        transition: all .1s ease-out;
-        &:hover {
-          color: $alt;
-          margin-left: 5px;
-        }
-      }
-    }
-    .nav-accordion {
-      overflow: hidden;
-      transform: scaleY(0);
-      transition: all .3s ease-out;
-      &.active {
-        transform: scaleY(1);
-      }
-      a {
-        font-weight: lighter;
-        font-size: 25px;
-        margin: 5px 0;
-        &:last-of-type {
-          margin-bottom: 10px;
-        }
+        font-size: 16px;
+        font-family: DINPRO;
+        font-weight: bolder;
       }
     }
   }
 }
-@keyframes shine {
-  to {
-    background-position: 200% center;
-  }
-}
-.nav-item.gaming {
+
+li.gaming {
   background: linear-gradient( to right, #8aff0a 0%, #74cc13 20%, #2dc339 40%, #2dc339 60%, #8aff0a 80% );
   background-size: 200% auto;
   color: #000;
@@ -151,13 +84,3 @@ nav {
   -webkit-text-fill-color: transparent;
   animation: shine 2s linear infinite;
 }
-/* .nav-item.tienda {
-  background: linear-gradient( to right, #ff3131 0%, #ff3131 20%, #cc0e0e 40%, #cc0e0e 60%, #ff3131 80% );
-  background-size: 200% auto;
-  color: #000;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 2s linear infinite;
-} */

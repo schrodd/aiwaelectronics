@@ -19,6 +19,13 @@
   }
 }
 
+@mixin hoverMarginLeft($intensity: 10px) {
+  transition: all .1s ease-out;
+  &:hover {
+    margin-left: $intensity;
+  }
+}
+
 @mixin btn($bg, $text, $border: none){
   @include hoverScale;
   margin: 10px;

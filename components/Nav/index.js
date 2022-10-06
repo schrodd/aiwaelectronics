@@ -1,41 +1,33 @@
 import Image from "next/image"
 import Link from 'next/link'
-import SocialContainer from "../SocialContainer"
 import { useState, useEffect } from "react"
 import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
-import NavItemContainer from "../NavItemContainer"
+import SocialContainer from "../SocialContainer"
+import menus from "../../content/menus"
+import NavItem from '../NavItem'
 
 export default function Nav() {
-  const [width, setWidth] = useState(0)
-  const [navModal, setNavModal] = useState(false)
+  const [isMobile, setMobile] = useState(false)
+  const [modalOpen, setModalOpen] = useState(false)
+  const [activeTab, setActiveTab] = useState(0)
   useEffect(()=>{
-    setWidth(window.screen.width)
+    setMobile(window.screen.width <= 850 ? true : false)
   }, [])
   function handleBurger(){
-    setNavModal(!navModal)
+    setModalOpen(!modalOpen)
     document.body.style.overflow = navModal ? 'visible' : 'hidden'
-    console.log(document.body.style.overflowY)
   }
-
+  console.log(isMobile)
   return (
     <header>
-      <nav className={`${width < 850 ? "mobile" : "desktop"}`}>
+      <nav>
         <Link href='/'>
             <a><Image width='150px' height='50px' src='/aiwa-w.svg' alt='Aiwa logo'/></a>
         </Link>
-        { width > 850
-        ? <>
-            <NavItemContainer />
-            <SocialContainer />
-          </>
-        : <button className='burger' onClick={handleBurger}><MenuIcon fontSize='large'/></button> }
-        { navModal &&
-        <div id='nav-modal-open'>
-          <button className='close' onClick={handleBurger}><CloseIcon fontSize='large'/></button>
-          <NavItemContainer mobile closeModal={handleBurger}/>
-          <SocialContainer />
-        </div> }
+        <ul>
+          {menus.map((e,i) => <NavItem menu={e} key={i} activeTab={activeTab} setActive={setActiveTab}/>)}
+        </ul>
       </nav>
     </header>
   )

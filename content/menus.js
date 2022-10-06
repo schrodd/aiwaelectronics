@@ -1,6 +1,7 @@
 const menus = [
   {
     name: 'Audio',
+    id: 1,
     isPopup: true,
     content: [
       {
@@ -12,10 +13,6 @@ const menus = [
         link: '/categorias/torres-de-sonido'
       },
       {
-        name: 'Hogar',
-        link: '/categorias/hogar'
-      },
-      {
         name: 'Portable',
         link: '/categorias/portable'
       },
@@ -23,6 +20,7 @@ const menus = [
   },
   {
     name: 'Headsets',
+    id: 2,
     isPopup: true,
     content: [
       {
@@ -37,6 +35,7 @@ const menus = [
   },
   {
     name: 'Informatica',
+    id: 3,
     isPopup: true,
     content: [
       {
@@ -51,21 +50,25 @@ const menus = [
   },
   {
     name: 'Televisores',
+    id: 4,
     isPopup: false,
     link: '/categorias/tv'
   },
   {
     name: 'Gaming',
+    id: 5,
     isPopup: false,
     link: 'https://www.constrictor.com.ar/'
   },
   {
     name: 'Tienda',
+    id: 6,
     isPopup: false,
     link: 'https://tienda.aiwaelectronics.com.ar/'
   },
   {
     name: 'Buscar',
+    id: 7,
     isPopup: false,
     link: '/buscar'
   },
