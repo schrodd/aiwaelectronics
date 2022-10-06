@@ -1,18 +1,19 @@
 import { useState } from "react"
+import Link from "next/link"
 
-export default function NavItem({text, link, children, isPopup}){
+export default function NavItem({text, link, isPopup, content}){
   const [menuVisible, setMenuVisible] = useState(false)
   function toggleMenu(){
     setMenuVisible(!menuVisible)
   }
   return (
     <li className={`nav-item ${text.toLowerCase()}`}>
-      <a onClick={toggleMenu}>{text}</a>
-      {menuVisible &&
-      <div className='nav-hover'>
-        <h3>Audio</h3>
-        <p>Parlantes</p>
-        <p>Auriculares</p>
+      {isPopup
+        ? <a onClick={toggleMenu}>{text.toUpperCase()}</a>
+        : <Link href={link}><a>{text.toUpperCase()}</a></Link>}
+      {menuVisible && content &&
+      <div className={`nav-hover ${text.toLowerCase()}`} onClick={toggleMenu}>
+        {content.map((e,i) => <Link href={e.link} key={i}>{e.name}</Link>)}
       </div>}
     </li>
   )

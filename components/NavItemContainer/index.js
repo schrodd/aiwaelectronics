@@ -1,22 +1,14 @@
 import menus from '../../content/menus'
 import NavItem from '../NavItem'
-import { useState } from 'react'
+import NavItemMobile from '../NavItemMobile'
 
-export default function NavItemContainer({className}){
-  const [anchorEl, setAnchorEl] = useState(null);
-  const open = Boolean(anchorEl);
-  const handleClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
-  const handleClose = () => {
-    setAnchorEl(null);
-  };
-
+export default function NavItemContainer({mobile, closeModal}){
+  console.log(mobile)
   return (
-    <ul className={`nav-item-container ${className}`}>
-      {menus.map((e,i) => (
-        <NavItem text={e.name} link={e.link} key={i} isPopup={e.isPopup}/>
-      ))}
+    <ul className={`nav-item-container ${mobile && 'mobile'}`}>
+      {!mobile
+      ? menus.map((e,i) => <NavItem text={e.name} link={e.link} key={i} isPopup={e.isPopup} content={e.content}/>)
+      : menus.map((e,i) => <NavItemMobile text={e.name} link={e.link} key={i} isPopup={e.isPopup} content={e.content} closeModal={closeModal}/>)}
     </ul>
   )
 }

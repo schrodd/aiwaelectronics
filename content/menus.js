@@ -1,46 +1,74 @@
-import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown'
-import SportsEsportsIcon from '@mui/icons-material/SportsEsports'
-import LocalMallIcon from '@mui/icons-material/LocalMall'
-import LocalPhoneIcon from '@mui/icons-material/LocalPhone'
-import SearchIcon from '@mui/icons-material/Search';
-
 const menus = [
   {
-    name: 'Categorías',
-    icon: ExpandCircleDownIcon,
-    link: '/categorias',
-    isPopup: true
+    name: 'Audio',
+    isPopup: true,
+    content: [
+      {
+        name: 'Parlantes',
+        link: '/categorias/parlantes'
+      },
+      {
+        name: 'Torres de sonido',
+        link: '/categorias/torres-de-sonido'
+      },
+      {
+        name: 'Hogar',
+        link: '/categorias/hogar'
+      },
+      {
+        name: 'Portable',
+        link: '/categorias/portable'
+      },
+    ]
   },
   {
-    name: 'Líneas',
-    icon: ExpandCircleDownIcon,
-    link: '/lineas',
-    isPopup: true
+    name: 'Headsets',
+    isPopup: true,
+    content: [
+      {
+        name: 'In-ear',
+        link: '/categorias/in-ear'
+      },
+      {
+        name: 'On-ear',
+        link: '/categorias/on-ear'
+      }
+    ]
+  },
+  {
+    name: 'Informatica',
+    isPopup: true,
+    content: [
+      {
+        name: 'Notebooks',
+        link: '/categorias/notebooks'
+      },
+      {
+        name: 'Tablets',
+        link: '/categorias/tablets'
+      }
+    ]
+  },
+  {
+    name: 'Televisores',
+    isPopup: false,
+    link: '/categorias/tv'
   },
   {
     name: 'Gaming',
-    icon: SportsEsportsIcon,
-    link: 'https://www.constrictor.com.ar/',
-    isPopup: false
+    isPopup: false,
+    link: 'https://www.constrictor.com.ar/'
   },
   {
     name: 'Tienda',
-    icon: LocalMallIcon,
-    link: 'https://tienda.aiwaelectronics.com.ar/',
-    isPopup: false
-  },
-  {
-    name: 'Contacto',
-    icon: LocalPhoneIcon,
-    link: '/contacto',
-    isPopup: false
+    isPopup: false,
+    link: 'https://tienda.aiwaelectronics.com.ar/'
   },
   {
     name: 'Buscar',
-    icon: SearchIcon,
-    link: '/buscar',
-    isPopup: false
-  }
+    isPopup: false,
+    link: '/buscar'
+  },
 ]
 
 export default menus

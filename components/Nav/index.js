@@ -31,9 +31,9 @@ export default function Nav() {
           </>
         : <button className='burger' onClick={handleBurger}><MenuIcon fontSize='large'/></button> }
         { navModal &&
-        <div id='nav-modal-open' onClick={handleBurger}>
+        <div id='nav-modal-open'>
           <button className='close' onClick={handleBurger}><CloseIcon fontSize='large'/></button>
-          <NavItemContainer className='mobile' />
+          <NavItemContainer mobile closeModal={handleBurger}/>
           <SocialContainer />
         </div> }
       </nav>

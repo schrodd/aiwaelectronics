@@ -4,10 +4,9 @@ import { Slider } from '@mui/material'
 
 export default function ThreeSixty(){
   const [image, setImage] = useState('/products/AW-T2008/360/1.webp')
-  const [auto, setAuto] = useState(false);
+  const [auto, setAuto] = useState(false)
   function handleChange(v) {
     setAuto(false)
-    setIndex(v)
     setImage(`/products/AW-T2008/360/${v}.webp`)
   }
   function start(){
