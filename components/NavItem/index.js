@@ -20,7 +20,7 @@ export default function NavItem({menu, activeTab, setActive, closeModal}){
   return (
     <li className={`${menu.name.toLowerCase()}`}>
       {menu.isPopup
-      ? <button onMouseEnter={(toggleHover)} onClick={toggleHover}>{menu.name.toUpperCase()}</button>
+      ? <button onClick={toggleHover}>{menu.name.toUpperCase()}</button>
       : <button><Link href={menu.link}><a onMouseEnter={(toggleHoverModal)}>{menu.name.toUpperCase()}</a></Link></button>}
       {menu.content &&
       <div className={`nav-hover ${activeTab === menu.id && "active"}`}>
