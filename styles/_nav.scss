@@ -15,6 +15,10 @@
   li {
     text-align: right;
     margin-bottom: 10px;
+
+    a {
+      margin-bottom: 15px;
+    }
   }
   button {
     background: none;
@@ -28,10 +32,18 @@
   }
   .nav-hover {
     @include flex(column, flex-start, flex-end);
-    animation: .5s ease-out openHeight;
+    // animation: .5s ease-out openHeight;
+    transition: all .3s ease-in-out;
+    max-height: 0px;
+    opacity: 0;
     margin-top:10px;
     color:white;
     font-size: 30px;
+    overflow: hidden;
+    &.active {
+      max-height: 300px;
+      opacity: 1;
+    }
   }
   .social-container {
     margin-top: auto;
@@ -80,7 +92,7 @@ nav {
 
       .nav-hover {
         @include flex(column, flex-start, stretch);
-        background-color: rgba(240,240,240,.95);
+        background-color: white;
         border-radius: 2px;
         box-shadow: $strongShadow;
         position: absolute;
@@ -90,6 +102,10 @@ nav {
         color: $black;
         min-width: 180px;
         animation: openModal .2s ease-out;
+        display:none;
+        &.active {
+          display:flex;
+        }
         a {
           @include hoverMarginLeft;
           padding: 5px 20px;
