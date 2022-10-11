@@ -1,5 +1,45 @@
 @import 'variables';
 
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,.8);
+  animation: .2s ease-out openModal;
+  z-index: 99;
+  padding: 30px;
+  @include flex(column, flex-start, flex-end);
+  &>li:nth-of-type(1){
+    margin-top: 30px;
+  }
+  li {
+    text-align: right;
+    margin-bottom: 10px;
+  }
+  button {
+    background: none;
+    border: none;
+    color: white;
+  }
+  li>button {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: DINPRO, sans-serif;
+  }
+  .nav-hover {
+    @include flex(column, flex-start, flex-end);
+    animation: .5s ease-out openHeight;
+    margin-top:10px;
+    color:white;
+    font-size: 30px;
+  }
+  .social-container {
+    margin-top: auto;
+    margin-right: 20px;
+    transform: scale(1.5);
+    color:white;
+  }
+}
 nav {
   @include flex(row, flex-start);
   background: $mainDark;
@@ -50,7 +90,6 @@ nav {
         color: $black;
         min-width: 180px;
         animation: openModal .2s ease-out;
-
         a {
           @include hoverMarginLeft;
           padding: 5px 20px;

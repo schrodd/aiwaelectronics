@@ -7,6 +7,15 @@
       }
     }
 
+    @keyframes openHeight {
+      0% {
+        max-height: 0;
+      }
+      100% {
+        max-height: 300px;
+      }
+    }
+
     @keyframes shine {
       to {
         background-position: 200% center;

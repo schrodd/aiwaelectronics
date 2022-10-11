@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function NavItem({menu, activeTab, setActive}){
+export default function NavItem({menu, activeTab, setActive, closeModal}){
   function toggleHover(){
     if (activeTab === menu.id) {
       setActive(0)
@@ -11,6 +11,10 @@ export default function NavItem({menu, activeTab, setActive}){
       setActive(0)
     }
   }
+  function toggleHoverModal(){
+    closeModal && closeModal()
+    toggleHover()
+  }
   return (
     <li className={`${menu.name.toLowerCase()}`}>
       {menu.isPopup
@@ -18,7 +22,7 @@ export default function NavItem({menu, activeTab, setActive}){
       : <button><Link href={menu.link}><a onMouseEnter={(toggleHover)}>{menu.name.toUpperCase()}</a></Link></button>}
       {activeTab === menu.id && 
       <div className='nav-hover' onMouseLeave={toggleHover}>
-        {menu.content.map((e,i) => <Link key={i} href={e.link}><a onClick={toggleHover}>{e.name}</a></Link>)}
+        {menu.content.map((e,i) => <Link key={i} href={e.link}><a onClick={closeModal ? toggleHoverModal : toggleHover}>{e.name}</a></Link>)}
       </div>}
     </li>
   )

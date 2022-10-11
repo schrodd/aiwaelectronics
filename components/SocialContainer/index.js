@@ -1,9 +1,10 @@
 import social from '../../content/social'
-import Link from 'next/link'
+import useWindowSize from '../../hooks/useWindowSize'
 
-export default function SocialContainer(){
+export default function SocialContainer({mobile}){
+  const { width } = useWindowSize()
   return (
-    <ul className='social-container'>
+    <ul className={`social-container ${mobile ? 'mobile-only' : 'pc-only'}`}>
       {social.map((e,i) => (
           <li className={`social-item ${e.class}`} key={i}>
             <a href={e.link} target='_blank' rel="noopener noreferrer">
