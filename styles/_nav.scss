@@ -92,12 +92,11 @@ nav {
 
       .nav-hover {
         @include flex(column, flex-start, stretch);
-        background-color: white;
+        background-color: black;
         border-radius: 2px;
         box-shadow: $strongShadow;
         position: absolute;
         z-index: 999;
-        top: 40px;
         left: -20px;
         color: $black;
         min-width: 180px;
@@ -112,6 +111,7 @@ nav {
           font-size: 16px;
           font-family: DINPRO;
           font-weight: bold;
+          color:white;
           &:hover {
             color: $alt;
           }

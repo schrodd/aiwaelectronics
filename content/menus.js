@@ -15,7 +15,7 @@ const menus = [
       {
         name: 'Portable',
         link: '/categorias/portable'
-      },
+      }
     ]
   },
   {

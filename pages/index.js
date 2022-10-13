@@ -28,7 +28,7 @@ export default function Home() {
         >
           {mainBanners.map((e,i) => (
             <SwiperSlide key={i} className='main-banner-slide'>
-              <Banner link={e.link} image={e.image} mobile={e.mobile} alt={e.title}/>
+              <Banner link={e.link} image={e.image} mobile={e.mobile} alt={e.title} first={ i==0 ? true : false }/>
             </SwiperSlide>
           ))}
         </Swiper>
