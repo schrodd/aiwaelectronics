@@ -8,7 +8,6 @@ export default function ThreeSixty(){
   const [idx, setIdx] = useState(1)
   const [auto, setAuto] = useState(false)
   const [intval, setIntval] = useState(0)
-  const [init, setInit] = useState(false)
   let tempIntval = 0
   const sens = 350
   const spd = 75
@@ -55,6 +54,9 @@ export default function ThreeSixty(){
   for (let i = 1; i <= 40 ; i++){
     arr.push(`/products/AW-T2008/360/${i}.webp`)
   }
+  function toggleAuto(){
+    auto ? clearIntval() : handleAuto()
+  }
 
   return (
     <div id='threeSixtyContainer'>
@@ -75,8 +77,7 @@ export default function ThreeSixty(){
           valueLabelDisplay='off'
           onChange={(e,v) => handleChange(v)}
         />
-        <button onClick={handleAuto}>Play</button>
-        <button onClick={clearIntval}>Stop</button>
+        <button onClick={toggleAuto}>{auto ? 'Stop' : 'Play'}</button>
         <button onClick={() => handleChange(20)}>Etiqueta</button>
         <button onClick={() => handleChange(5)}>Lateral</button>
       </div>
