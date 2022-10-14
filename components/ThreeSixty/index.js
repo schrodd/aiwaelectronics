@@ -15,6 +15,7 @@ export default function ThreeSixty(){
     setIdx(Math.ceil(frac/1000))
   }, [frac])
   function handleChange(v) {
+    clearIntval()
     setIdx(v)
   }
   function handlePan(e){
@@ -49,26 +50,27 @@ export default function ThreeSixty(){
   }
 
   return (
-    <div
-    style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", border: "3px solid red", margin: "10px", position: "relative"}}>
+    <div id='threeSixtyContainer'>
       <ReactHammer onPan={e => handlePan(e)}>
         <div>
           {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
           <img className='not-draggable' src={`/products/AW-T2008/360/${idx}.webp`}></img>
         </div>
       </ReactHammer>
-      <Slider
-        style={{width: "200px", position: "absolute", bottom: "20px", left: "50px"}}
-        aria-label="Image"
-        defaultValue={idx}
-        valueLabelDisplay="auto"
-        min={1}
-        max={40}
-        value={idx}
-        onChange={(e,v) => handleChange(v)}
-      />
-      <button onClick={handleAuto} style={{marginBottom: "20px", padding: "3px 8px"}}>Play</button>
-      <button onClick={clearIntval} style={{marginBottom: "20px", padding: "3px 8px"}}>Stop</button>
+      <div className='controls'>
+        <Slider
+          style={{width: "200px", position: "absolute", bottom: "20px", left: "50px"}}
+          aria-label="Image"
+          defaultValue={idx}
+          min={1}
+          max={40}
+          value={idx}
+          valueLabelDisplay='off'
+          onChange={(e,v) => handleChange(v)}
+        />
+        <button onClick={handleAuto} style={{marginBottom: "20px", padding: "3px 8px"}}>Play</button>
+        <button onClick={clearIntval} style={{marginBottom: "20px", padding: "3px 8px"}}>Stop</button>
+      </div>
     </div>
   )
 }

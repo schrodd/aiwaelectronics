@@ -1,0 +1,19 @@
+@import 'variables';
+
+div#threeSixtyContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 20%, rgba(255,255,255,1) 100%);
+  img {
+    max-height: 450px;
+  }
+
+  .controls {
+    @include flex;
+    gap: 10px;
+  }
+}
