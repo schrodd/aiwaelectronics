@@ -18,5 +18,14 @@ div#threeSixtyContainer{
     margin-right: 50px;
     @include flex(row, flex-end, flex-end);
     gap: 10px;
+
+    .MuiSlider-thumb, .MuiSlider-track {
+      transition: none;
+    }
+
+    button {
+      margin-bottom: 20px;
+      padding: 3px 8px;
+    }
   }
 }

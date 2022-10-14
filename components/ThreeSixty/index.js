@@ -8,15 +8,19 @@ export default function ThreeSixty(){
   const [idx, setIdx] = useState(1)
   const [auto, setAuto] = useState(false)
   const [intval, setIntval] = useState(0)
+  const [init, setInit] = useState(false)
   let tempIntval = 0
   const sens = 350
   const spd = 75
   useEffect(() => {
     setIdx(Math.ceil(frac/1000))
   }, [frac])
+  useEffect(() => {
+    handleAuto()
+  }, [])
   function handleChange(v) {
     clearIntval()
-    setIdx(v)
+    setFrac(v*1000)
   }
   function handlePan(e){
     clearIntval()
@@ -38,7 +42,6 @@ export default function ThreeSixty(){
     if (!auto) {
       setAuto(true)
       tempIntval = setInterval(() => {
-        console.log(intval)
         setFrac(prev => prev <= 39500 ? prev + 1000 : 1000)
       }, spd)
       setIntval(tempIntval)
@@ -72,8 +75,10 @@ export default function ThreeSixty(){
           valueLabelDisplay='off'
           onChange={(e,v) => handleChange(v)}
         />
-        <button onClick={handleAuto} style={{marginBottom: "20px", padding: "3px 8px"}}>Play</button>
-        <button onClick={clearIntval} style={{marginBottom: "20px", padding: "3px 8px"}}>Stop</button>
+        <button onClick={handleAuto}>Play</button>
+        <button onClick={clearIntval}>Stop</button>
+        <button onClick={() => handleChange(20)}>Etiqueta (20)</button>
+        <button onClick={() => handleChange(5)}>Lateral (5)</button>
       </div>
     </div>
   )
