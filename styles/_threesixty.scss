@@ -8,12 +8,15 @@ div#threeSixtyContainer{
   position: relative;
   background: rgb(255,255,255);
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 20%, rgba(255,255,255,1) 100%);
-  img {
-    max-height: 450px;
+  .image-wrapper {
+    img {
+      max-height: 450px;
+    }
   }
-
   .controls {
-    @include flex;
+    width: 100%;
+    margin-right: 50px;
+    @include flex(row, flex-end, flex-end);
     gap: 10px;
   }
 }

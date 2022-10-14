@@ -31,6 +31,15 @@ a {
 .d-none {
   display:none;
 }
+.d-block {
+  display:block;
+}
+.not-visible {
+  opacity: 0;
+}
+.visible {
+  opacity: 1;
+}
 .not-draggable {
   -webkit-user-select: none; /* Safari 3.1+ */ 
   -moz-user-select: none; /* Firefox 2+ */ 

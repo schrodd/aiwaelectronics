@@ -48,17 +48,13 @@ export default function ThreeSixty(){
     clearInterval(intval)
     setAuto(false)
   }
-  const arr = []
-  for (let i = 1; i <= 40 ; i++){
-    arr.push(`/products/AW-T2008/360/${i}.webp`)
-  }
 
   return (
     <div id='threeSixtyContainer'>
       <ReactHammer onPan={e => handlePan(e)}>
-        <div className='image-wrapper'>
+        <div>
           {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
-          {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'}`} src={e} />)}
+          <img className='not-draggable' src={`/products/AW-T2008/360/${idx}.webp`}></img>
         </div>
       </ReactHammer>
       <div className='controls'>
