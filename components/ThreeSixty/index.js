@@ -10,7 +10,7 @@ export default function ThreeSixty(){
   const [intval, setIntval] = useState(0)
   let tempIntval = 0
   const sens = 250
-  const spd = 100
+  const spd = 75
   useEffect(() => {
     setIdx(Math.ceil(frac/1000))
   }, [frac])
@@ -18,6 +18,7 @@ export default function ThreeSixty(){
     setIdx(v)
   }
   function handlePan(e){
+    clearIntval()
     if (e.direction == 2) {
       if (idx < 40) {
         setFrac(frac + sens)
@@ -50,9 +51,10 @@ export default function ThreeSixty(){
   return (
     <div
     style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", border: "3px solid red", margin: "10px", position: "relative"}}>
-      <ReactHammer onPan={e => handlePan(e)} onTap={handleAuto}>
+      <ReactHammer onPan={e => handlePan(e)}>
         <div>
-          <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image>
+          {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
+          <img className='not-draggable' src={`/products/AW-T2008/360/${idx}.webp`}></img>
         </div>
       </ReactHammer>
       <Slider
