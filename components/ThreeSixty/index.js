@@ -66,7 +66,7 @@ export default function ThreeSixty(){
       </ReactHammer>
       <div className='controls'>
         <Slider
-          style={{width: "200px", position: "absolute", bottom: "20px", left: "50px"}}
+          className='slider'
           aria-label="Image"
           defaultValue={idx}
           min={1}
@@ -77,8 +77,8 @@ export default function ThreeSixty(){
         />
         <button onClick={handleAuto}>Play</button>
         <button onClick={clearIntval}>Stop</button>
-        <button onClick={() => handleChange(20)}>Etiqueta (20)</button>
-        <button onClick={() => handleChange(5)}>Lateral (5)</button>
+        <button onClick={() => handleChange(20)}>Etiqueta</button>
+        <button onClick={() => handleChange(5)}>Lateral</button>
       </div>
     </div>
   )

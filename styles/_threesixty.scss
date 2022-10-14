@@ -11,21 +11,42 @@ div#threeSixtyContainer{
   .image-wrapper {
     img {
       max-height: 450px;
+      @include mobile {
+        max-height: 100vw;
+      }
     }
   }
   .controls {
-    width: 100%;
-    margin-right: 50px;
-    @include flex(row, flex-end, flex-end);
+    @include flex(row, center, flex-start);
+    flex-wrap: wrap;
     gap: 10px;
+
+    .slider {
+      width: 200px;
+      margin: 0 30px;
+      @include mobile {
+        width: 100%;
+      }
+    }
 
     .MuiSlider-thumb, .MuiSlider-track {
       transition: none;
     }
 
     button {
+      border: none;
+      box-shadow: $shadow;
       margin-bottom: 20px;
-      padding: 3px 8px;
+      padding: 5px 10px;
+      transition: all .2s ease-in-out;
+      cursor: pointer;
+      border-radius: 2px;
+      background-color: #222;
+      color: white;
+      &:hover {
+        background-color: white;
+        color: $black;
+      }
     }
   }
 }
