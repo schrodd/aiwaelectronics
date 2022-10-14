@@ -6,7 +6,7 @@ import ReactHammer from 'react-hammerjs'
 export default function ThreeSixty(){
   const [frac, setFrac] = useState(1000)
   const [idx, setIdx] = useState(1)
-  const sens = 150
+  const sens = 250
   useEffect(() => {
     setIdx(Math.ceil(frac/1000))
   }, [frac])
