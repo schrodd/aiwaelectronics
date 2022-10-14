@@ -9,7 +9,7 @@ export default function ThreeSixty(){
   const [auto, setAuto] = useState(false)
   const [intval, setIntval] = useState(0)
   let tempIntval = 0
-  const sens = 250
+  const sens = 350
   const spd = 75
   useEffect(() => {
     setIdx(Math.ceil(frac/1000))
