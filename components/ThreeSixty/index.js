@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Slider } from '@mui/material'
 import ReactHammer from 'react-hammerjs'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
-import { PauseCircle, PlayCircle } from '@mui/icons-material'
+import { Pause, PlayArrow, ZoomOutMap, ZoomInMap } from '@mui/icons-material'
 
 export default function ThreeSixty(){
 
@@ -79,23 +79,21 @@ export default function ThreeSixty(){
     <div id='threeSixtyContainer'>
       {!zoom 
         ? (<ReactHammer onPan={e => handlePan(e)} onDoubleTap={toggleZoom} onPinch={toggleZoom}>
-            <div className='image-wrapper'>
-              {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
-              {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'}`} src={e} alt='360-image'/>)}
-            </div>
-          </ReactHammer>)
-        : (
-          <TransformWrapper
-          initialScale={1}
-          initialPositionX={0}
-          initialPositionY={0}
-          >
-            <TransformComponent>
-              <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
-              <img className='not-draggable zoomed' src={`/products/AW-T2008/360/${idx }-hq.webp`} alt='360-image-zoomed'/>
-            </TransformComponent>
-          </TransformWrapper>
-        )
+          <div className='image-wrapper'>
+            {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
+            {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'}`} src={e} alt='360-image'/>)}
+          </div>
+        </ReactHammer>)
+        : (<TransformWrapper
+        initialScale={1}
+        initialPositionX={0}
+        initialPositionY={0}
+        >
+          <TransformComponent>
+            <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
+            <img className='not-draggable zoomed' src={`/products/AW-T2008/360/${idx }-hq.webp`} alt='360-image-zoomed'/>
+          </TransformComponent>
+        </TransformWrapper>)
       }
       <div className='controls'>
         <Slider
@@ -109,9 +107,9 @@ export default function ThreeSixty(){
           onChange={(e,v) => handleChange(v)}
         />
         {!zoom && <button onClick={toggleAuto} className='mui-button'>
-          {auto ? <PauseCircle fontSize='large'/> : <PlayCircle fontSize='large'/>}
+          {auto ? <Pause fontSize='large'/> : <PlayArrow fontSize='large'/>}
         </button>}
-        <button onClick={toggleZoom} className={`control-button ${zoom && `zoom-active`}`}>{!zoom ? 'Zoom' : 'Volver'}</button>
+        <button onClick={toggleZoom} className='mui-button'>{!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>  }</button>
       </div>
     </div>
   )
