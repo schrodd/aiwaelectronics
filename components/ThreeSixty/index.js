@@ -86,7 +86,7 @@ export default function ThreeSixty(){
           </ReactHammer>)
         : (
           <TransformWrapper
-          initialScale={1}
+          initialScale={1.2}
           initialPositionX={0}
           initialPositionY={0}
           >
@@ -110,7 +110,7 @@ export default function ThreeSixty(){
         {!zoom && <button onClick={toggleAuto} className='mui-button'>
           {auto ? <PauseCircle fontSize='large'/> : <PlayCircle fontSize='large'/>}
         </button>}
-        <button onClick={toggleZoom} className={`control-button ${zoom && `zoom-active`}`}>Zoom</button>
+        <button onClick={toggleZoom} className={`control-button ${zoom && `zoom-active`}`}>{!zoom ? 'Zoom' : 'Volver'}</button>
       </div>
     </div>
   )
