@@ -12,17 +12,24 @@ div#threeSixtyContainer{
   .image-wrapper {
     img {
       max-height: 450px;
-      &.zoom {
-        max-height: 800px;
-      }
       @include mobile {
         max-height: 100vw;
       }
     }
   }
+  .react-transform-wrapper {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: $lightShadow;
+    .react-transform-component {
+      img {
+        max-height: 450px;
+      }
+    }
+  }
   .controls {
-    margin-top: 20px;
-    @include flex(row, center, flex-start);
+    margin: 20px 0;
+    @include flex(row, center, center);
     flex-wrap: wrap;
     gap: 10px;
 
@@ -39,18 +46,37 @@ div#threeSixtyContainer{
     }
 
     button {
-      border: none;
-      box-shadow: $shadow;
-      margin-bottom: 20px;
-      padding: 5px 10px;
-      transition: all .2s ease-in-out;
-      cursor: pointer;
-      border-radius: 2px;
-      background-color: #222;
-      color: white;
-      &:hover {
-        background-color: white;
+      &.control-button {
+        border: none;
+        background-color: none;
+        box-shadow: $shadow;
+        padding: 5px 10px;
+        transition: all .2s ease-in-out;
+        cursor: pointer;
+        border-radius: 2px;
+        background-color: #222;
+        color: white;
+        &:hover {
+          background-color: $black;
+        }
+      }
+      &.mui-button {
+        margin-top: 3px;
+        @include hoverScale;
+        border: none;
+        background: none;
+        box-shadow: none;
+        color: black;
+        &:hover {
+          color: $black;
+        }
+      }
+      &.zoom-active {
         color: $black;
+        background-color: white;
+        &:hover {
+          color: white;
+        }
       }
     }
   }
