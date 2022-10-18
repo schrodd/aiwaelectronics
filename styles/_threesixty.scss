@@ -19,8 +19,8 @@ div#threeSixtyContainer{
   }
   @keyframes fade-out {
     0% {
-      opacity: .8;
-      max-width: 220px;
+      opacity: 1;
+      max-width: 100px;
     }
     100% {
       opacity: 0;
@@ -34,9 +34,10 @@ div#threeSixtyContainer{
       align-items: center;
       justify-content: center;
       img.zoom-icon {
+        opacity: 0;
+        max-width: 100px;
         position: absolute;
-        max-width: 220px;
-        animation: 1s ease-out fade-out forwards;
+        animation: 2s ease-out fade-out forwards;
       }
       img {
         max-height: 450px;
