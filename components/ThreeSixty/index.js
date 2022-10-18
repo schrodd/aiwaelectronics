@@ -72,7 +72,7 @@ export default function ThreeSixty(){
 
   return (
     <div id='threeSixtyContainer'>
-      <ReactHammer onPan={e => handlePan(e)} onDoubleTap={toggleZoom}>
+      <ReactHammer onPan={e => handlePan(e)} onDoubleTap={toggleZoom} onPinch={toggleZoom}>
         <div className='image-wrapper'>
           {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
           {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${zoom && 'zoom'}`} src={e} alt='360-image'/>)}
