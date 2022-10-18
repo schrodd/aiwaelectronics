@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import Image from 'next/image'
 import { Slider } from '@mui/material'
 import ReactHammer from 'react-hammerjs'
 
@@ -8,6 +7,7 @@ export default function ThreeSixty(){
   const [idx, setIdx] = useState(1)
   const [auto, setAuto] = useState(false)
   const [intval, setIntval] = useState(0)
+  const [zoom, setZoom] = useState(true)
   let tempIntval = 0
   const sens = 350
   const spd = 75
@@ -57,13 +57,17 @@ export default function ThreeSixty(){
   function toggleAuto(){
     auto ? clearIntval() : handleAuto()
   }
+  function toggleZoom(){
+    handleChange(1)
+    setZoom(!zoom)
+  }
 
   return (
     <div id='threeSixtyContainer'>
       <ReactHammer onPan={e => handlePan(e)}>
         <div className='image-wrapper'>
           {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
-          {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'}`} src={e} />)}
+          {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${zoom && 'zoom'}`} src={e} />)}
         </div>
       </ReactHammer>
       <div className='controls'>
@@ -80,6 +84,7 @@ export default function ThreeSixty(){
         <button onClick={toggleAuto}>{auto ? 'Stop' : 'Play'}</button>
         <button onClick={() => handleChange(20)}>Etiqueta</button>
         <button onClick={() => handleChange(5)}>Lateral</button>
+        <button onClick={toggleZoom}>Zoom</button>
       </div>
     </div>
   )
