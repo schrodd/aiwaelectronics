@@ -7,7 +7,8 @@ export default function ThreeSixty(){
   const [idx, setIdx] = useState(1)
   const [auto, setAuto] = useState(false)
   const [intval, setIntval] = useState(0)
-  const [zoom, setZoom] = useState(true)
+  const [zoom, setZoom] = useState(false)
+  const [vpos, setVpos] = useState(0)
   let tempIntval = 0
   const sens = 350
   const spd = 75
@@ -22,19 +23,26 @@ export default function ThreeSixty(){
     setFrac(v*1000)
   }
   function handlePan(e){
-    clearIntval()
-    if (e.direction == 2) {
+    if (e.direction == 2) { // right
+      clearIntval()
       if (idx < 40) {
         setFrac(frac + sens)
       } else if (idx == 40) {
         setFrac(1000)
       }
-    } else if (e.direction == 4) {
+    } else if (e.direction == 4) { // left
+      clearIntval()
       if (idx > 1) {
         setFrac(frac - sens)
       } else if (idx == 1) {
         setFrac(40000)
       }
+    } else if (e.direction == 1) { // up
+      setVpos(vpos - 1)
+      console.log(vpos)
+    } else if (e.direction == 3) { // down
+      setVpos(vpos + 1)
+      console.log(vpos)
     }
   }
   function handleAuto(){
@@ -58,16 +66,16 @@ export default function ThreeSixty(){
     auto ? clearIntval() : handleAuto()
   }
   function toggleZoom(){
-    handleChange(1)
+    clearIntval()
     setZoom(!zoom)
   }
 
   return (
     <div id='threeSixtyContainer'>
-      <ReactHammer onPan={e => handlePan(e)}>
+      <ReactHammer onPan={e => handlePan(e)} direction='DIRECTION_ALL'>
         <div className='image-wrapper'>
           {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
-          {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${zoom && 'zoom'}`} src={e} />)}
+          {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${zoom && 'zoom'}`} src={e} alt='360-image'/>)}
         </div>
       </ReactHammer>
       <div className='controls'>

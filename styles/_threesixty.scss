@@ -13,8 +13,9 @@ div#threeSixtyContainer{
     overflow-y: overlay;
     img {
       max-height: 450px;
+      transform-origin: center;
       &.zoom {
-        transform: scale(2);
+        max-height: 800px;
       }
       @include mobile {
         max-height: 100vw;
