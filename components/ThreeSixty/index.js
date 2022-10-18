@@ -37,10 +37,10 @@ export default function ThreeSixty(){
       } else if (idx == 1) {
         setFrac(40000)
       }
-    } else if (e.direction == 1) { // up
+    } else if (e.direction == 8) { // up
       setVpos(vpos - 1)
       console.log(vpos)
-    } else if (e.direction == 3) { // down
+    } else if (e.direction == 16) { // down
       setVpos(vpos + 1)
       console.log(vpos)
     }
@@ -72,7 +72,7 @@ export default function ThreeSixty(){
 
   return (
     <div id='threeSixtyContainer'>
-      <ReactHammer onPan={e => handlePan(e)} direction='DIRECTION_ALL'>
+      <ReactHammer onPan={e => handlePan(e)} onDoubleTap={toggleZoom}>
         <div className='image-wrapper'>
           {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
           {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${zoom && 'zoom'}`} src={e} alt='360-image'/>)}
