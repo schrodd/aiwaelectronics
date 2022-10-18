@@ -86,11 +86,12 @@ export default function ThreeSixty(){
           </ReactHammer>)
         : (
           <TransformWrapper
-          initialScale={1.2}
+          initialScale={1}
           initialPositionX={0}
           initialPositionY={0}
           >
-            <TransformComponent className='image-wrapper'>
+            <TransformComponent>
+              <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
               <img className='not-draggable zoomed' src={`/products/AW-T2008/360/${idx }-hq.webp`} alt='360-image-zoomed'/>
             </TransformComponent>
           </TransformWrapper>

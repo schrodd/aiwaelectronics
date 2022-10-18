@@ -17,10 +17,27 @@ div#threeSixtyContainer{
       }
     }
   }
+  @keyframes fade-out {
+    0% {
+      opacity: .8;
+      max-width: 220px;
+    }
+    100% {
+      opacity: 0;
+      max-width: 250px;
+    }
+  }
   .react-transform-wrapper {
     margin-top: 10px;
     border-radius: 10px;
     .react-transform-component {
+      align-items: center;
+      justify-content: center;
+      img.zoom-icon {
+        position: absolute;
+        max-width: 220px;
+        animation: 1s ease-out fade-out forwards;
+      }
       img {
         max-height: 450px;
       }
