@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Slider } from '@mui/material'
 import ReactHammer from 'react-hammerjs'
+import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 
 export default function ThreeSixty(){
   const [frac, setFrac] = useState(1000)
@@ -16,7 +17,7 @@ export default function ThreeSixty(){
     setIdx(Math.ceil(frac/1000))
   }, [frac])
   useEffect(() => {
-    handleAuto()
+    // handleAuto()
   }, [])
   function handleChange(v) {
     clearIntval()
@@ -72,12 +73,15 @@ export default function ThreeSixty(){
 
   return (
     <div id='threeSixtyContainer'>
-      <ReactHammer onPan={e => handlePan(e)} onDoubleTap={toggleZoom} onPinch={toggleZoom}>
-        <div className='image-wrapper'>
-          {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
+      <TransformWrapper
+      initialScale={1}
+      initialPositionX={0}
+      initialPositionY={0}
+      >
+        <TransformComponent className='image-wrapper'>
           {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${zoom && 'zoom'}`} src={e} alt='360-image'/>)}
-        </div>
-      </ReactHammer>
+        </TransformComponent>
+      </TransformWrapper>
       <div className='controls'>
         <Slider
           className='slider'
