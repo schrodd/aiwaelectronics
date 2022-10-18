@@ -106,7 +106,7 @@ export default function ThreeSixty(){
           valueLabelDisplay='off'
           onChange={(e,v) => handleChange(v)}
         />
-        {!zoom && <button onClick={toggleAuto} className='mui-button'>
+        {!zoom && <button onClick={toggleAuto} className='mui-button play-pause'>
           {auto ? <Pause fontSize='large'/> : <PlayArrow fontSize='large'/>}
         </button>}
         <button onClick={toggleZoom} className='mui-button'>{!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>  }</button>

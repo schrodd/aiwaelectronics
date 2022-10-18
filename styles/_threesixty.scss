@@ -76,6 +76,12 @@ div#threeSixtyContainer{
         background: none;
         box-shadow: none;
         color: black;
+        &.play-pause {
+          svg {
+            width: 38px;
+            height: 38px;
+          }
+        }
         &:hover {
           color: $black;
         }
