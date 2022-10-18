@@ -40,7 +40,7 @@ div#threeSixtyContainer{
     min-width: 300px;
     @include flex(row, center, center);
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
 
     .slider {
       width: 200px;
