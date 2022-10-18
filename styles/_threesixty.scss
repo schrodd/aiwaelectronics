@@ -29,6 +29,7 @@ div#threeSixtyContainer{
   }
   .controls {
     margin: 20px 0;
+    min-width: 300px;
     @include flex(row, center, center);
     flex-wrap: wrap;
     gap: 10px;
