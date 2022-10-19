@@ -55,6 +55,7 @@ div#threeSixtyContainer{
     }
 
     button {
+      -webkit-tap-highlight-color: transparent;
       &.mui-button {
         background: none;
         border: none;
