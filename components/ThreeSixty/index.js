@@ -30,7 +30,16 @@ export default function ThreeSixty(){
     setIdx(Math.ceil(frac/1000))
   }, [frac])
   useEffect(() => {
-    handleAuto()
+    function firstStart(){ // Start the auto spin for the first time
+      if (!auto && !zoom && !highlightOpen) {
+        setAuto(true)
+        tempIntval = setInterval(() => {
+          setFrac(prev => prev <= 39500 ? prev + 1000 : 1000)
+        }, spd)
+        setIntval(tempIntval)
+      }
+    }
+    firstStart()
   }, [])
 
   // Functions
@@ -57,15 +66,6 @@ export default function ThreeSixty(){
       }
     }
   }
-  function handleAuto(){ // Start the auto spin
-    if (!auto && !zoom && !highlightOpen) {
-      setAuto(true)
-      tempIntval = setInterval(() => {
-        setFrac(prev => prev <= 39500 ? prev + 1000 : 1000)
-      }, spd)
-      setIntval(tempIntval)
-    }
-  }
   function clearIntval(){ // Stop the auto spin
     clearInterval(intval)
     setAuto(false)
@@ -82,7 +82,15 @@ export default function ThreeSixty(){
     clearIntval()
     setHighlightOpen((prev) => !prev) // Trying new state update syntax
   }
-
+  function handleAuto(){ // Start the auto spin
+    if (!auto && !zoom && !highlightOpen) {
+      setAuto(true)
+      tempIntval = setInterval(() => {
+        setFrac(prev => prev <= 39500 ? prev + 1000 : 1000)
+      }, spd)
+      setIntval(tempIntval)
+    }
+  }
   // <img className='hl-image' src='/products/AW-T2008/img/top.webp' alt='hl-image'/>
   return (
     <div id='threeSixtyContainer'>
