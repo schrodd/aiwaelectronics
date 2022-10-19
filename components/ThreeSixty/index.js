@@ -138,7 +138,7 @@ export default function ThreeSixty(){
         </Tooltip>
         {!zoom && (
           <Tooltip title={highlightOpen ? 'Volver' : 'Ver panel superior'} placement='top' arrow>
-            <button className={`mui-button open-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight}>
+            <button className={`mui-button hl-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight}>
               <Add fontSize='large'/>
             </button>
           </Tooltip>
