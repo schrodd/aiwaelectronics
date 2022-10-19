@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Slider, Tooltip } from '@mui/material'
 import ReactHammer from 'react-hammerjs'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
-import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, AddCircle, Cancel } from '@mui/icons-material'
+import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, Add } from '@mui/icons-material'
 
 export default function ThreeSixty(){
 
@@ -90,11 +90,6 @@ export default function ThreeSixty(){
         ? (<ReactHammer onPan={e => handlePan(e)} onPinch={toggleZoom}>
           <div className='image-wrapper'>
             <div className='points-of-interest'>
-              <Tooltip title={!highlightOpen ? 'Ver panel superior' : ''} arrow>
-                <button className={`open-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight}>
-                  <AddCircle/>
-                </button>
-              </Tooltip>
               {highlightOpen && <TransformWrapper
               initialScale={1}
               initialPositionX={0}
@@ -141,6 +136,13 @@ export default function ThreeSixty(){
         <Tooltip title={zoom ? 'Volver' : 'Zoom'} placement='top' arrow>
           <button onClick={toggleZoom} className='mui-button'>{!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>  }</button>
         </Tooltip>
+        {!zoom && (
+          <Tooltip title={highlightOpen ? 'Volver' : 'Ver panel superior'} placement='top' arrow>
+            <button className={`mui-button open-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight}>
+              <Add fontSize='large'/>
+            </button>
+          </Tooltip>
+        )}
       </div>
     </div>
   )
