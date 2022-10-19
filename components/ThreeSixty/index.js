@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Slider } from '@mui/material'
 import ReactHammer from 'react-hammerjs'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
-import { Pause, PlayArrow, ZoomOutMap, ZoomInMap } from '@mui/icons-material'
+import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, AddCircle, Cancel } from '@mui/icons-material'
 
 export default function ThreeSixty(){
 
@@ -12,6 +12,7 @@ export default function ThreeSixty(){
   const [auto, setAuto] = useState(false)
   const [intval, setIntval] = useState(0)
   const [zoom, setZoom] = useState(false)
+  const [highlightOpen, setHighlightOpen] = useState(false)
 
   // Constants
   const sens = 350
@@ -38,24 +39,26 @@ export default function ThreeSixty(){
     setFrac(v*1000)
   }
   function handlePan(e){ // Handles the panning
-    if (e.direction == 2) { // Right
-      clearIntval()
-      if (idx < 40) {
-        setFrac(frac + sens)
-      } else if (idx == 40) {
-        setFrac(1000)
-      }
-    } else if (e.direction == 4) { // Left
-      clearIntval()
-      if (idx > 1) {
-        setFrac(frac - sens)
-      } else if (idx == 1) {
-        setFrac(40000)
+    if (!highlightOpen){
+      if (e.direction == 2) { // Right
+        clearIntval()
+        if (idx < 40) {
+          setFrac(frac + sens)
+        } else if (idx == 40) {
+          setFrac(1000)
+        }
+      } else if (e.direction == 4) { // Left
+        clearIntval()
+        if (idx > 1) {
+          setFrac(frac - sens)
+        } else if (idx == 1) {
+          setFrac(40000)
+        }
       }
     }
   }
   function handleAuto(){ // Start the auto spin
-    if (!auto && !zoom) {
+    if (!auto && !zoom && !highlightOpen) {
       setAuto(true)
       tempIntval = setInterval(() => {
         setFrac(prev => prev <= 39500 ? prev + 1000 : 1000)
@@ -68,19 +71,39 @@ export default function ThreeSixty(){
     setAuto(false)
   }
   function toggleAuto(){ // Toggles auto spin. Doesnt work if zoom is active.
-    auto && !zoom ? clearIntval() : handleAuto()
+    auto && !zoom  && !highlightOpen ? clearIntval() : handleAuto()
   }
-  function toggleZoom(){ // Toggles zoom and pauses auto spin (if active)
+  function toggleZoom(){ // Toggles zoom and pauses auto spin (if active), closes highlight (if active)
     clearIntval()
+    setHighlightOpen(false)
     setZoom(!zoom)
   }
+  function toggleHighlight(){
+    clearIntval()
+    setHighlightOpen((prev) => !prev) // Trying new state update syntax
+  }
 
+  // <img className='hl-image' src='/products/AW-T2008/img/top.webp' alt='hl-image'/>
   return (
     <div id='threeSixtyContainer'>
       {!zoom 
-        ? (<ReactHammer onPan={e => handlePan(e)} onDoubleTap={toggleZoom} onPinch={toggleZoom}>
+        ? (<ReactHammer onPan={e => handlePan(e)} onPinch={toggleZoom}>
           <div className='image-wrapper'>
-            {/* <Image className='not-draggable' priority src={`/products/AW-T2008/360/${idx}.webp`} width='500px' height='500px' layout='fixed'></Image> */}
+            <div className='points-of-interest'>
+              <button className={`open-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight}>
+                {highlightOpen ? <Cancel/> : <AddCircle/>}
+              </button>
+              {highlightOpen && <TransformWrapper
+              initialScale={1}
+              initialPositionX={0}
+              initialPositionY={0}
+              >
+                <TransformComponent>
+                  <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
+                  <img className='hl-image' src='/products/AW-T2008/img/top.webp' alt='hl-image'/>
+                </TransformComponent>
+              </TransformWrapper>}
+            </div>
             {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'}`} src={e} alt='360-image'/>)}
           </div>
         </ReactHammer>)
@@ -97,6 +120,7 @@ export default function ThreeSixty(){
       }
       <div className='controls'>
         <Slider
+          disabled={highlightOpen}
           className='slider'
           aria-label="Image"
           defaultValue={idx}
@@ -106,7 +130,7 @@ export default function ThreeSixty(){
           valueLabelDisplay='off'
           onChange={(e,v) => handleChange(v)}
         />
-        {!zoom && <button onClick={toggleAuto} className='mui-button play-pause'>
+        {!zoom && <button onClick={toggleAuto} className='mui-button play-pause' disabled={highlightOpen}>
           {auto ? <Pause fontSize='large'/> : <PlayArrow fontSize='large'/>}
         </button>}
         <button onClick={toggleZoom} className='mui-button'>{!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>  }</button>

@@ -11,6 +11,7 @@ div#threeSixtyContainer{
   background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 20%, rgba(255,255,255,1) 100%);
   .image-wrapper {
     min-height: 450px;
+    position: relative;
     img {
       max-height: 450px;
       @include mobile {
@@ -76,6 +77,12 @@ div#threeSixtyContainer{
         background: none;
         box-shadow: none;
         color: black;
+        &[disabled]{
+          color:grey;
+          &:hover {
+            color:grey;
+          }
+        }
         &.play-pause {
           svg {
             width: 38px;
@@ -86,6 +93,44 @@ div#threeSixtyContainer{
           color: $black;
         }
       }
+    }
+  }
+  .points-of-interest {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    @include flex(column, flex-start, center);
+    img.hl-image {
+      width: 100%;
+      height: 100%;
+    }
+    .open-btn {
+      position: absolute;
+      z-index: 999;
+      margin-top: 20px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      &.close {
+        svg {
+          color: $alt;
+        }
+      }
+      svg {
+        color:rgb(192, 192, 192);
+        opacity: .5;
+        width: 50px;
+        height: 50px;
+        @include hoverScale;
+        &:hover {
+          opacity: .9;
+        }
+      }
+    }
+    .react-transform-wrapper {
+      background-color: white;
     }
   }
 }
