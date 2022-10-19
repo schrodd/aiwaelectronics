@@ -96,6 +96,7 @@ div#threeSixtyContainer{
     }
   }
   .points-of-interest {
+    z-index: 9999;
     position: absolute;
     top: 0;
     left: 0;
@@ -128,9 +129,6 @@ div#threeSixtyContainer{
           opacity: .9;
         }
       }
-    }
-    .react-transform-wrapper {
-      background-color: white;
     }
   }
 }

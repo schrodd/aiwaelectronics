@@ -104,7 +104,7 @@ export default function ThreeSixty(){
                 </TransformComponent>
               </TransformWrapper>}
             </div>
-            {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'}`} src={e} alt='360-image'/>)}
+            {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${highlightOpen && 'not-visible'}`} src={e} alt='360-image'/>)}
           </div>
         </ReactHammer>)
         : (<TransformWrapper
