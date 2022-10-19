@@ -93,8 +93,7 @@ export default function ThreeSixty(){
               {highlightOpen && <TransformWrapper
               initialScale={1}
               initialPositionX={0}
-              initialPositionY={0}
-              >
+              initialPositionY={0}>
                 <TransformComponent>
                   <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
                   <img className='hl-image' src='/products/AW-T2008/img/top.webp' alt='hl-image'/>
@@ -107,14 +106,12 @@ export default function ThreeSixty(){
         : (<TransformWrapper
         initialScale={1}
         initialPositionX={0}
-        initialPositionY={0}
-        >
+        initialPositionY={0}>
           <TransformComponent>
             <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
             <img className='not-draggable zoomed' src={`/products/AW-T2008/360/${idx }-hq.webp`} alt='360-image-zoomed'/>
           </TransformComponent>
-        </TransformWrapper>)
-      }
+        </TransformWrapper>)}
       <div className='controls'>
         <Slider
           disabled={highlightOpen}
@@ -125,26 +122,22 @@ export default function ThreeSixty(){
           max={40}
           value={idx}
           valueLabelDisplay='off'
-          onChange={(e,v) => handleChange(v)}
-        />
-        {!zoom && (
+          onChange={(e,v) => handleChange(v)}/>
         <Tooltip title={auto ? 'Pausar' : 'Reproducir'} placement='top' arrow>
-          <button onClick={toggleAuto} className='mui-button play-pause' disabled={highlightOpen}>
+          <button onClick={toggleAuto} className='mui-button play-pause' disabled={highlightOpen || zoom}>
             {auto ? <Pause fontSize='large'/> : <PlayArrow fontSize='large'/>}
           </button>
-        </Tooltip>)}
-        {!highlightOpen && (
-          <Tooltip title={zoom ? 'Volver' : 'Zoom'} placement='top' arrow>
-            <button onClick={toggleZoom} className='mui-button'>{!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>  }</button>
-          </Tooltip>
-        )}
-        {!zoom && (
-          <Tooltip title={highlightOpen ? 'Volver' : 'Ver panel superior'} placement='top' arrow>
-            <button className={`mui-button hl-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight}>
-              <Add fontSize='large'/>
-            </button>
-          </Tooltip>
-        )}
+        </Tooltip>
+        <Tooltip title={zoom ? 'Volver' : 'Zoom'} placement='top' arrow>
+          <button onClick={toggleZoom} className='mui-button' disabled={highlightOpen}>
+            {!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>}
+          </button>
+        </Tooltip>
+        <Tooltip title={highlightOpen ? 'Volver' : 'Ver panel superior'} placement='top' arrow>
+          <button className={`mui-button hl-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight} disabled={zoom}>
+            <Add fontSize='large'/>
+          </button>
+        </Tooltip>
       </div>
     </div>
   )
