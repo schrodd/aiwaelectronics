@@ -15,10 +15,11 @@ div#threeSixtyContainer {
     rgba(255, 255, 255, 1) 100%
   );
   .image-wrapper {
-    min-height: 450px;
+    height: 400px;
+    width: 400px;
     position: relative;
     img {
-      max-height: 450px;
+      height: 400px;
       @include mobile {
         max-height: 100vw;
       }
@@ -27,7 +28,7 @@ div#threeSixtyContainer {
   .react-transform-wrapper {
     border-radius: 2px;
     .react-transform-component {
-      min-height: 450px;
+      min-height: 400px;
       align-items: center;
       justify-content: center;
       img.zoom-icon {
@@ -37,7 +38,7 @@ div#threeSixtyContainer {
         animation: 2s ease-out fade-out forwards;
       }
       img {
-        max-height: 450px;
+        height: 400px;
       }
     }
   }
