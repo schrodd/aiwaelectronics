@@ -133,9 +133,11 @@ export default function ThreeSixty(){
             {auto ? <Pause fontSize='large'/> : <PlayArrow fontSize='large'/>}
           </button>
         </Tooltip>)}
-        <Tooltip title={zoom ? 'Volver' : 'Zoom'} placement='top' arrow>
-          <button onClick={toggleZoom} className='mui-button'>{!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>  }</button>
-        </Tooltip>
+        {!highlightOpen && (
+          <Tooltip title={zoom ? 'Volver' : 'Zoom'} placement='top' arrow>
+            <button onClick={toggleZoom} className='mui-button'>{!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>  }</button>
+          </Tooltip>
+        )}
         {!zoom && (
           <Tooltip title={highlightOpen ? 'Volver' : 'Ver panel superior'} placement='top' arrow>
             <button className={`mui-button hl-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight}>
