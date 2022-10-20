@@ -4,8 +4,7 @@ import ReactHammer from 'react-hammerjs'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, Add } from '@mui/icons-material'
 
-export default function ThreeSixty(){
-
+export default function ThreeSixty({sku}){
   // States
   const [frac, setFrac] = useState(1000)
   const [idx, setIdx] = useState(1)
@@ -19,7 +18,7 @@ export default function ThreeSixty(){
   const spd = 75
   const arr = []
   for (let i = 1; i <= 40 ; i++){
-    arr.push(`/products/AW-T2008/360/${i}.webp`)
+    arr.push(`/products/${sku}/360/${i}.webp`)
   }
 
   // Vars
@@ -80,7 +79,7 @@ export default function ThreeSixty(){
   }
   function toggleHighlight(){
     clearIntval()
-    setHighlightOpen((prev) => !prev) // Trying new state update syntax
+    setHighlightOpen((prev) => !prev) // Trying new state update syntax, works like a charm!
   }
   function handleAuto(){ // Start the auto spin
     if (!auto && !zoom && !highlightOpen) {
@@ -91,7 +90,6 @@ export default function ThreeSixty(){
       setIntval(tempIntval)
     }
   }
-  // <img className='hl-image' src='/products/AW-T2008/img/top.webp' alt='hl-image'/>
   return (
     <div id='threeSixtyContainer'>
       {!zoom 
@@ -104,7 +102,7 @@ export default function ThreeSixty(){
               initialPositionY={0}>
                 <TransformComponent>
                   <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
-                  <img className='hl-image' src='/products/AW-T2008/img/top.webp' alt='hl-image'/>
+                  <img className='hl-image' src={`/products/${sku}/img/top.webp`} alt='hl-image'/>
                 </TransformComponent>
               </TransformWrapper>}
             </div>
@@ -117,7 +115,7 @@ export default function ThreeSixty(){
         initialPositionY={0}>
           <TransformComponent>
             <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
-            <img className='not-draggable zoomed' src={`/products/AW-T2008/360/${idx }-hq.webp`} alt='360-image-zoomed'/>
+            <img className='not-draggable zoomed' src={`/products/${sku}/360/${idx }-hq.webp`} alt='360-image-zoomed'/>
           </TransformComponent>
         </TransformWrapper>)}
       <div className='controls'>
