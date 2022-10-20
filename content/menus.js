@@ -61,16 +61,16 @@ const menus = [
     link: 'https://www.constrictor.com.ar/'
   },
   {
-    name: 'Tienda',
+    name: 'Soporte',
     id: 6,
     isPopup: false,
-    link: 'https://tienda.aiwaelectronics.com.ar/'
+    link: '/soporte'
   },
   {
-    name: 'Buscar',
+    name: 'Contacto',
     id: 7,
     isPopup: false,
-    link: '/buscar'
+    link: '/contacto'
   },
 ]
 

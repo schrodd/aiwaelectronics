@@ -6,6 +6,7 @@ import CloseIcon from '@mui/icons-material/Close'
 import SocialContainer from "../SocialContainer"
 import menus from "../../content/menus"
 import NavItem from '../NavItem'
+import StoreButton from '../StoreButton'
 
 export default function Nav() {
   const [modalOpen, setModalOpen] = useState(false)
@@ -28,7 +29,9 @@ export default function Nav() {
         <ul className='pc-only'>
           {menus.map((e,i) => <NavItem menu={e} key={i} activeTab={activeTab} setActive={setActiveTab}/>)}
         </ul>
-        <SocialContainer />
+        <div className='right-zone pc-only'>
+          <StoreButton />
+        </div>
         <button className='mobile-only' onClick={handleBurger}><MenuIcon fontSize="large"/></button>
       </nav>
     </header>

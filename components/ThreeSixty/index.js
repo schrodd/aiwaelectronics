@@ -4,7 +4,7 @@ import ReactHammer from 'react-hammerjs'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, Add } from '@mui/icons-material'
 
-export default function ThreeSixty({sku}){
+export default function ThreeSixty({sku, top}){ // sku (str), if it has top view or not (bool)
   // States
   const [frac, setFrac] = useState(1000)
   const [idx, setIdx] = useState(1)
@@ -139,11 +139,13 @@ export default function ThreeSixty({sku}){
             {!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>}
           </button>
         </Tooltip>
-        <Tooltip title={highlightOpen ? 'Volver' : 'Ver panel superior'} placement='top' arrow>
-          <button className={`mui-button hl-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight} disabled={zoom}>
-            <Add fontSize='large'/>
-          </button>
-        </Tooltip>
+        {top && (
+          <Tooltip title={highlightOpen ? 'Volver' : 'Ver panel superior'} placement='top' arrow>
+            <button className={`mui-button hl-btn ${highlightOpen && 'close'}`} onClick={toggleHighlight} disabled={zoom}>
+              <Add fontSize='large'/>
+            </button>
+          </Tooltip>
+        )}
       </div>
     </div>
   )

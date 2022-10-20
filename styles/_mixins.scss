@@ -12,7 +12,7 @@
   @media (max-width: $breakPoint) { @content; }
 }
 
-@mixin hoverScale($intensity: 1.2) {
+@mixin hoverScale($intensity: 1.1) {
   transition: all .1s ease-out;
   &:hover {
     transform: scale($intensity);

@@ -7,8 +7,7 @@ export default function threeSixty(){
       <Head>
         <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no" />
       </Head>
-      <ThreeSixty sku='AW-T2008' />
-      <ThreeSixty sku='AW-T2010' />
+      <ThreeSixty sku='AW-T2008' top/>
     </>
   )
 }
