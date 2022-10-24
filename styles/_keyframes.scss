@@ -32,3 +32,9 @@
         max-width: 250px;
       }
     }
+
+    @keyframes spin {
+      to {
+        transform: rotate(359deg);
+      }
+    }

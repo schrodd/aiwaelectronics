@@ -1,6 +1,6 @@
 import { useRouter } from "next/router"
-import NotFound from "../../components/NotFound"
 import { products } from "../../content/products"
+import Loading from "../../components/Loading"
 import ImageIcon from '@mui/icons-material/Image'
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
@@ -16,7 +16,7 @@ export default function Producto(){
       <Head>
         <title>{selectedProduct && selectedProduct.sku} | AIWA Electronics</title>
       </Head>
-      {!selectedProduct ? <NotFound desc={`No se ha encontrado el producto "${prod}"`}/>
+      {!selectedProduct ? <Loading/>
       :(<div className='top'>
           <div className='product-description'>
             <p>{prod}</p>

@@ -21,6 +21,7 @@ section.product-page {
       border-radius: 5px 5px 0 0;
       transition: all .2s ease-in-out;
       @include mobile {
+        border-top: $divider;
         margin: 0;
         order: 3;
       }
