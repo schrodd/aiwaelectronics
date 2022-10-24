@@ -34,9 +34,11 @@ export default function Producto(){
                 Tu navegador no tiene soporte para ver videos.
               </video>
             </button>
-            <Link href='/buscar'><a><ImageIcon/>MÁS FOTOS</a></Link>
-            <Link href='/buscar'><a><FormatListBulletedIcon/>DETALLES</a></Link>
-            <Link href='/buscar'><a><ShoppingCartIcon />COMPRAR</a></Link>
+            <div className='product-small-buttons'>
+              <Link href='/buscar'><a><ImageIcon/>MÁS FOTOS</a></Link>
+              <Link href='/buscar'><a><FormatListBulletedIcon/>DETALLES</a></Link>
+              <Link href='/buscar'><a><ShoppingCartIcon />COMPRAR</a></Link>
+            </div>
           </div>
       </div>)}
     </section>

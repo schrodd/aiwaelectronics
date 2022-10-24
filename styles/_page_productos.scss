@@ -59,11 +59,18 @@ section.product-page {
       position: relative;
       align-self: center;
       @include flex(column);
+      .product-small-buttons {
+        @include flex (column, space-between, space-between);
+        a {
+          @include pc {
+            margin-top: 10px;
+          }
+        }
+      }
       @include mobile {
-        flex-direction: row;
-        flex-wrap: wrap;
-        order: 1;
-        gap: 10px;
+        @include flex(row, center, stretch);
+        margin-top: 20px;
+        gap: 20px;
       }
       button.video-360 {
         position: relative;
@@ -86,10 +93,6 @@ section.product-page {
         font-size: 16px;
         transition: all .2s ease-in-out;
         @include mobile {
-          align-items: center;
-          justify-content: space-around;
-          width: 50%;
-          margin-top: 15px;
           border-radius: 5px;
         }
         &:hover {
@@ -100,7 +103,6 @@ section.product-page {
         }
       }
       a {
-        margin-top: 5px;
         position: relative;
         right: -120px;
         &:hover {

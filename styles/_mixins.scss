@@ -11,6 +11,9 @@
 @mixin mobile {
   @media (max-width: $breakPoint) { @content; }
 }
+@mixin pc {
+  @media (min-width: $breakPoint) { @content; }
+}
 
 @mixin hoverScale($intensity: 1.1) {
   transition: all .1s ease-out;
