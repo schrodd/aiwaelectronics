@@ -7,6 +7,8 @@ import SocialContainer from "../SocialContainer"
 import menus from "../../content/menus"
 import NavItem from '../NavItem'
 import StoreButton from '../StoreButton'
+import SearchButton from '../SearchButton'
+
 
 export default function Nav() {
   const [modalOpen, setModalOpen] = useState(false)
@@ -20,6 +22,7 @@ export default function Nav() {
       <div className={`modal ${!modalOpen && 'd-none'}`}>
         <button className='mobile-only' onClick={handleBurger}><CloseIcon fontSize="large"/></button>
         {menus.map((e,i) => <NavItem menu={e} key={i} activeTab={activeTab} setActive={setActiveTab} closeModal={handleBurger}/>)}
+        <SearchButton large/>
         <SocialContainer mobile/>
       </div>
       <nav>
@@ -31,6 +34,7 @@ export default function Nav() {
         </ul>
         <div className='right-zone pc-only'>
           <StoreButton />
+          <SearchButton />
         </div>
         <button className='mobile-only' onClick={handleBurger}><MenuIcon fontSize="large"/></button>
       </nav>

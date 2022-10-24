@@ -139,6 +139,9 @@ nav {
   .right-zone {
     @include flex(row, center, center);
     margin-left: auto;
+    button.buscar {
+      margin-left: 15px;
+    }
   }
 }
 

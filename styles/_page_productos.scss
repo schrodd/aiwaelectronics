@@ -1,0 +1,78 @@
+@import 'variables';
+
+section.product-page {
+  div.top {
+    /* background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(228,228,228,1) 20%, rgba(255,255,255,1) 100%); */
+    background: url('/lineas/ring/bg-prod.webp');
+    background-size: cover;
+    @include flex(row, flex-end, flex-end);
+    div.product-description {
+      margin: 20px 0px 0 40px;
+      padding: 20px 40px;
+      max-width: 400px;
+      background: rgba(0,0,0,.7);
+      box-shadow: $strongShadow;
+      color: white;
+      border-radius: 5px 5px 0 0 ;
+      h1 {
+        font-size: 45px;
+        font-weight: bold;
+        font-family: DINPRO;
+      }
+      * {
+        margin: 10px 0;
+      }
+    }
+    div.product-photo {
+      background: lightred;
+      flex-grow: 1; 
+      text-align: center;
+      margin-bottom: 1px;
+      @include flex(row, center, flex-end)
+    }
+    div.product-buttons {
+      position: relative;
+      align-self: center;
+      @include flex(column);
+      button.video-360 {
+        position: relative;
+        .logo-360 {
+          max-width: 40px;
+          position: absolute;
+          bottom: 10px;
+          left: 10px;
+        }
+      }
+      button, a {
+        padding: 10px 15px;
+        border-radius: 5px 0 0 5px;
+        background: white;
+        border: none;
+        width: 170px;
+        @include flex(row, flex-start);
+        font-family: DINPRO;
+        font-weight: bold;
+        font-size: 16px;
+        transition: all .2s ease-in-out;
+        &:hover {
+          padding: 20px 15px;
+        }
+        svg {
+          margin-right: 15px;
+        }
+      }
+      a {
+        margin-top: 5px;
+        position: relative;
+        right: -120px;
+        &:hover {
+          right: 0;
+        }
+        @include mobile {
+          right: 0;
+        }
+      }
+    }
+  }
+}
