@@ -21,14 +21,14 @@ export default function Producto(){
             <h4>{selectedProduct.longDesc}</h4>
           </div>
           <div className='product-photo'>
-            <Image src={`/products/${prod}/img/cover.webp`} width='500px' height='500px'/>
+            <img src={`/products/${prod}/img/cover.webp`} alt={selectedProduct.sku}/>
           </div>
           <div className='product-buttons'>
             <button className='video-360'>
               <img className='logo-360' src='/360-logo.svg' alt='360-logo'/>
               <video width="145" height="145" autoPlay muted loop>
                 <source src={`/products/${prod}/360-video/150.mp4`} type="video/mp4"/>
-              Tu navegador no tiene soporte para ver videos.
+                Tu navegador no tiene soporte para ver videos.
               </video>
             </button>
             <Link href='/buscar'><a><ImageIcon/>MÁS FOTOS</a></Link>

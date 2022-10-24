@@ -29,7 +29,10 @@ section.product-page {
       flex-grow: 1; 
       text-align: center;
       margin-bottom: 1px;
-      @include flex(row, center, flex-end)
+      @include flex(row, center, flex-end);
+      img {
+        max-width: 600px;
+      }
     }
     div.product-buttons {
       position: relative;
