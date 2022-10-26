@@ -5,7 +5,6 @@ import ImageIcon from '@mui/icons-material/Image'
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
 import Link from "next/link"
-import Head from "next/head"
 
 export default function Producto(){
   const url = useRouter()
@@ -13,9 +12,6 @@ export default function Producto(){
   const selectedProduct = products.find(e => e.sku === prod)
   return (
     <section className='product-page'>
-      <Head>
-        <title>{selectedProduct && selectedProduct.sku} | AIWA Electronics</title>
-      </Head>
       {!selectedProduct ? <Loading/>
       :(<div className='top'>
           <div className='product-description'>
