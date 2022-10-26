@@ -4,7 +4,7 @@ import ReactHammer from 'react-hammerjs'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, Add } from '@mui/icons-material'
 
-export default function ThreeSixty({sku, top}){ // sku (str), if it has top view or not (bool)
+export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it has top view or not (bool)
   // States
   const [frac, setFrac] = useState(1000)
   const [idx, setIdx] = useState(1)
@@ -92,6 +92,10 @@ export default function ThreeSixty({sku, top}){ // sku (str), if it has top view
   }
   return (
     <div id='threeSixtyContainer'>
+      <div className='text'>
+        <p className='sku'>{sku}</p>
+        <h1>{shortDesc}</h1>
+      </div>
       {!zoom 
         ? (<ReactHammer onPan={e => handlePan(e)} onPinch={toggleZoom}>
           <div className='image-wrapper'>
