@@ -69,7 +69,6 @@ section.product-page {
         box-shadow: $lightShadow;
         border-radius: 3px 0 0 3px;
         padding: 5px 10px;
-        transition: all .2s ease-in-out;
         @include flex(row, space-between);
         @include pc{
           border-radius: 3px;
@@ -91,9 +90,13 @@ section.product-page {
           }
         }
         &.to-right {
+          transition: all .2s ease-in-out;
+          height: 40px;
+          &:hover {
+            right: 0px;
+            height: 50px;
+          }
           @include mobile {
-            height: 40px;
-            transition: all .2s ease-in-out;
             position: relative;
             @include pc {
               right: -85px;
@@ -104,10 +107,6 @@ section.product-page {
                 height: 30px;
                 width: 30px;
               }
-            }
-            &:hover {
-              right: 0px;
-              height: 60px;
             }
           }
         }
