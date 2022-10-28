@@ -5,14 +5,17 @@ section.product-page {
     overflow: hidden;
     position: relative;
     div.default {
-      @include flex(row, center, flex-end);
-      gap: 2%;
+      @include flex(row, space-evenly, flex-end);
       width: 100%;
       height: 100%;
       background: rgb(228,228,228);
       background: linear-gradient(150deg, rgba(228,228,228,1) 0%, rgba(255,255,255,1) 100%);
       @include mobile {
+        align-items: center;
         flex-direction: column-reverse;
+      }
+      @include pc {
+        padding-right: 125px;
       }
       div.text {
         max-width: 450px;
@@ -22,6 +25,7 @@ section.product-page {
         border-radius: 3px 3px 0 0;
         transition: all .3s ease-in-out;
         @include mobile {
+          max-width: fit-content;
           border-radius: 0;
           background-color: rgba(0,0,0,.8);
         }
@@ -50,13 +54,13 @@ section.product-page {
     }
     div.always-on-top {
       height: 100%;
-      right: 0;
+      top: 5px;
       position: absolute;
       z-index: 9;
-      @include flex(column, center, flex-end);
-      @include mobile {
-        margin-top: 5px;
-        justify-content: flex-start;
+      right: 0px;
+      @include flex(column, flex-start, flex-end);
+      @include pc {
+        right: 5px;
       }
       button {
         margin-bottom: 5px;
@@ -65,8 +69,10 @@ section.product-page {
         box-shadow: $lightShadow;
         border-radius: 3px 0 0 3px;
         padding: 5px 10px;
+        transition: all .2s ease-in-out;
         @include flex(row, space-between);
         @include pc{
+          border-radius: 3px;
           min-width: 130px;
         }
         span {
@@ -85,22 +91,24 @@ section.product-page {
           }
         }
         &.to-right {
-          height: 40px;
-          transition: all .2s ease-in-out;
-          position: relative;
-          @include pc {
-            right: -85px;
-          }
           @include mobile {
-            height: 60px;
-            svg {
-              height: 30px;
-              width: 30px;
+            height: 40px;
+            transition: all .2s ease-in-out;
+            position: relative;
+            @include pc {
+              right: -85px;
             }
-          }
-          &:hover {
-            right: 0px;
-            height: 60px;
+            @include mobile {
+              height: 60px;
+              svg {
+                height: 30px;
+                width: 30px;
+              }
+            }
+            &:hover {
+              right: 0px;
+              height: 60px;
+            }
           }
         }
       }
