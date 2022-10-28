@@ -2,6 +2,8 @@
 
 div.top-wrapper {
   div.product-more-photos {
+    padding-top: 120px;
+    user-select: none;
     background: rgb(255, 255, 255);
     background: linear-gradient(
       0deg,
@@ -10,14 +12,17 @@ div.top-wrapper {
       rgba(255, 255, 255, 1) 100%
     );
     div.thumbnails {
-      position: absolute;
-      bottom: 0;
-      left: 0;
       padding: 20px;
-      @include flex(row, flex-start);
-      flex-wrap: wrap-reverse;
+      @include flex(row, space-around);
       gap: 10px;
-      max-width: 390px;
+      @include pc {
+        justify-content: flex-start;
+        flex-wrap: wrap-reverse;
+        max-width: 390px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
       button {
         border: none;
         background: none;
@@ -42,7 +47,7 @@ div.top-wrapper {
       padding: 25px;
       color: $black;
       h1 {
-        font-size: 40px;
+        font-size: 30px;
         font-family: DINPRO;
       }
       p.sku {
@@ -52,6 +57,11 @@ div.top-wrapper {
     }
     div.more-photos {
       width: 550px;
+      height: 550px;
+      @include mobile {
+        width: 400px;
+        height: 400px;
+      }
       text-align: center;
       --swiper-theme-color: #333;
     }

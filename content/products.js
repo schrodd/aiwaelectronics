@@ -11,6 +11,7 @@ export const products = [
       '/products/AW-T2008/img/3.webp',
       '/products/AW-T2008/img/4.webp',
       '/products/AW-T2008/img/5.webp',
+      
     ],
     shortDesc: 'Sonido Robusto',
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",

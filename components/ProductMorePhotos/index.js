@@ -11,13 +11,6 @@ export default function ProductMorePhotos({sku, shortDesc, arr}){
         <p className='sku'>{sku}</p>
         <h1>{shortDesc}</h1>
       </div>
-      <div className='thumbnails'>
-        {arr.map((e,i) => (
-          <button key={i} onClick={() => swiper.slideTo(i+1)}>
-            <Image src={e} width='80' height='80' alt='thumbnail'/>
-          </button>
-        ))}
-      </div>
       <Swiper
           tag='div'
           className='more-photos'
@@ -29,10 +22,17 @@ export default function ProductMorePhotos({sku, shortDesc, arr}){
       >
         {arr.map((e,i) => (
           <SwiperSlide key={i} className='more-photos-slide'>
-            <Image src={e} width='450' height='450'/>
+            <Image src={e} layout='fill'/>
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className='thumbnails'>
+        {arr.map((e,i) => (
+          <button key={i} onClick={() => swiper.slideTo(i+1)}>
+            <Image src={e} width='80' height='80' alt='thumbnail'/>
+          </button>
+        ))}
+      </div>
     </div>
   )
 }

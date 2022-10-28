@@ -6,6 +6,7 @@ import { useState } from 'react'
 import Image from 'next/image'
 import ThreeSixty from '../ThreeSixty'
 import ProductMorePhotos from '../ProductMorePhotos'
+import ThreeDRotationIcon from '@mui/icons-material/ThreeDRotation';
 
 export default function ProductContent({prod}) {
   const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = more photos
@@ -13,19 +14,32 @@ export default function ProductContent({prod}) {
     <div className='top-wrapper'>
       <div className='always-on-top'>
         {(mode == 0 || mode == 2) && (
-        <button className='video' onClick={() => setMode(1)}>
-          <img src='/360-logo.svg' className='three-sixty' />
-          <video width="145" height="145" muted autoPlay loop>
-            <source src={`/products/${prod.sku}/360-video/150.mp4`} type="video/mp4" />
-          </video>
-        </button>
+        <>
+          <button className='video pc-only' onClick={() => setMode(1)}>
+            <img src='/360-logo.svg' className='three-sixty' />
+            <video width="145" height="145" muted autoPlay loop>
+              <source src={`/products/${prod.sku}/360-video/150.mp4`} type="video/mp4" />
+            </video>
+          </button>
+          <button className='to-right mobile-only' onClick={() => setMode(1)}><ThreeDRotationIcon /></button>
+        </>
         )}
         {(mode == 1 || mode == 2) && (
-          <button className='to-right' onClick={() => setMode(0)}><ArrowBackIcon />VOLVER</button>
+          <button className='to-right' onClick={() => setMode(0)}><ArrowBackIcon />
+            <span className='pc-only'>VOLVER</span>
+          </button>
         )}
-        <button className='to-right' onClick={() => setMode(2)}><ImageIcon />MÁS FOTOS</button>
-        <button className='to-right'><FormatListBulletedIcon />DETALLES</button>
-        <button className='to-right'><ShoppingCartIcon />COMPRAR</button>
+        {mode != 2 && (
+          <button className='to-right' onClick={() => setMode(2)}><ImageIcon />
+            <span className='pc-only'>MÁS FOTOS</span>
+          </button>
+        )}
+        <button className='to-right'><FormatListBulletedIcon />
+          <span className='pc-only'>DETALLES</span>
+        </button>
+        <button className='to-right'><ShoppingCartIcon />
+          <span className='pc-only'>COMPRAR</span>
+        </button>
       </div>
       {mode == 0 && (
       <div className='default' linea={prod.line}>
