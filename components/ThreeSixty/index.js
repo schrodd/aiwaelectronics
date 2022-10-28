@@ -3,6 +3,7 @@ import { Slider, Tooltip } from '@mui/material'
 import ReactHammer from 'react-hammerjs'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, Add } from '@mui/icons-material'
+import Head from 'next/head'
 
 export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it has top view or not (bool)
   // States
@@ -92,6 +93,9 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
   }
   return (
     <div id='threeSixtyContainer'>
+      <Head>
+        <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no" />
+      </Head>
       <div className='text'>
         <p className='sku'>{sku}</p>
         <h1>{shortDesc}</h1>
