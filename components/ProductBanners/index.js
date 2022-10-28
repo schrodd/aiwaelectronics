@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function ProductBanners({banners}) {
   return (
-    <section className='product-banners'>
+    <section className='product-banners' id='test-id'>
       {banners.map((e,i) => (
         <div className={`product-banner ${i%2==0 && 'inv'}`} key={i}>
           <div className='img-wrapper'>

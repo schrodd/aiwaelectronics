@@ -92,9 +92,11 @@ section.product-page {
         &.to-right {
           transition: all .2s ease-in-out;
           height: 40px;
-          &:hover {
-            right: 0px;
-            height: 50px;
+          @include pc {
+            &:hover {
+              right: 0px;
+              height: 50px;
+            }
           }
           @include mobile {
             position: relative;

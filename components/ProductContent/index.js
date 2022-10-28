@@ -8,6 +8,7 @@ import ThreeSixty from '../ThreeSixty'
 import ProductMorePhotos from '../ProductMorePhotos'
 import ThreeDRotationIcon from '@mui/icons-material/ThreeDRotation';
 import ProductBanners from '../ProductBanners';
+import Link from 'next/link';
 
 export default function ProductContent({prod}) {
   const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = more photos
@@ -36,12 +37,16 @@ export default function ProductContent({prod}) {
               <span className='pc-only'>MÁS FOTOS</span>
             </button>
           )}
-          <button className='to-right'><FormatListBulletedIcon />
-            <span className='pc-only'>DETALLES</span>
-          </button>
-          <button className='to-right'><ShoppingCartIcon />
-            <span className='pc-only'>COMPRAR</span>
-          </button>
+          <a href='#test-id'>
+            <button className='to-right'><FormatListBulletedIcon />
+              <span className='pc-only'>DETALLES</span>
+            </button>
+          </a>
+          <a href={prod.buyLink} target='_blank'>
+            <button className='to-right'><ShoppingCartIcon />
+              <span className='pc-only'>COMPRAR</span>
+            </button>
+          </a>
         </div>
         {mode == 0 && (
         <div className='default' linea={prod.line}>
