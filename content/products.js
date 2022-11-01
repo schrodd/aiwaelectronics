@@ -44,7 +44,23 @@ export const products = [
       {
         id: 4,
         value: "1"
-      }
+      },
+      {
+        id: 5,
+        value: "1"
+      },
+      {
+        id: 6,
+        value: "1"
+      },
+      {
+        id: 7,
+        value: "1"
+      },
+      {
+        id: 8,
+        value: "1"
+      },
     ]
   },
   {
