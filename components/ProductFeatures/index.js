@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import features from '../../content/features'
 
-export default ({prod}) => {
+export default function ProductFeatures({prod}) {
   const [activeFeature, setActiveFeature] = useState(1)
   console.log(activeFeature)
   const prodFeatures = []
