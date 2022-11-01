@@ -30,7 +30,9 @@ export const products = [
     video: 'https://www.youtube.com/',
     features: [
       {
-        name: 'Woofer',
+        name: 'Micrófono',
+        title: 'Micrófono Incluido',
+        desc: 'asjkdahkjshdas',
         value: '2'
       },
       {

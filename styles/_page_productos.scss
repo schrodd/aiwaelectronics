@@ -5,7 +5,7 @@ section.product-page {
     overflow: hidden;
     position: relative;
     div.default {
-      @include flex(row, space-evenly, flex-end);
+      @include flex(row);
       width: 100%;
       height: 100%;
       background: rgb(228,228,228);
@@ -15,36 +15,55 @@ section.product-page {
         flex-direction: column-reverse;
       }
       @include pc {
-        padding-right: 125px;
+        padding-left: 12%;
       }
-      div.text {
-        max-width: 450px;
-        padding: 30px;
-        background-color: rgba(0,0,0,.7);
-        color:white;
-        border-radius: 3px 3px 0 0;
-        transition: all .3s ease-in-out;
-        @include mobile {
-          max-width: fit-content;
-          border-radius: 0;
-          background-color: rgba(0,0,0,.8);
+      div.text-wrapper {
+        width: 100%;
+        height: 100%;
+        @include flex(row, flex-start);
+        @include pc {
+          padding-left: 0%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 5;
         }
-        p.sku {
-          font-weight: bold;
+        div.text {
+          max-width: 35%;
+          padding: 40px;
+          background-color: rgba(0,0,0,.7);
+          color:white;
+          border-radius: 3px 3px 0 0;
+          transition: all .3s ease-in-out;
           font-size: 13px;
-        }
-        h1 {
-          font-size: 40px;
-          font-family: DINPRO;
-          margin-bottom: 5px;
-          @include mobile {
-            font-size: 25px;
+          @include pc {
+            padding-left: 10%;
           }
-        }
-        &:hover {
-          padding: 50px 30px;
-          background-color: rgba(0,0,0,.75);
-          box-shadow: $extremeShadow;
+          @include mobile {
+            text-align: center;
+            max-width: fit-content;
+            border-radius: 0;
+            background-color: rgba(0,0,0,.8);
+          }
+          p.sku {
+            font-weight: bold;
+            font-size: 12px;
+            font-family: DINPRO;
+          }
+          h1 {
+            font-size: 30px;
+            font-family: DINPRO;
+            margin-bottom: 5px;
+            @include mobile {
+              font-size: 25px;
+            }
+          }
+          &:hover {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: rgba(0,0,0,.75);
+            box-shadow: $extremeShadow;
+          }
         }
       }
       &[linea=ring] {
@@ -72,11 +91,15 @@ section.product-page {
         @include flex(row, space-between);
         @include pc{
           border-radius: 3px;
-          min-width: 130px;
+          min-width: 165px;
         }
         span {
           font-family: DINPRO;
           font-weight: bold;
+          font-size: 17px;
+          flex-grow: 1;
+          text-align: left;
+          margin-left: 9px;
         }
         &.video {
           position: relative;
@@ -91,11 +114,11 @@ section.product-page {
         }
         &.to-right {
           transition: all .2s ease-in-out;
-          height: 40px;
+          height: 45px;
           @include pc {
             &:hover {
               right: 0px;
-              height: 50px;
+              height: 55px;
             }
           }
           @include mobile {

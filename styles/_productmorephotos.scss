@@ -14,18 +14,23 @@ div.top-wrapper {
       rgba(255, 255, 255, 1) 100%
     );
     div.thumbnails {
-      padding: 20px;
-      @include flex(row, space-around);
+
+      @include flex(row, flex-start);
+      flex-wrap: wrap;
+      margin: 15px;
       gap: 10px;
       @include pc {
+        margin: 45px 50px;
         justify-content: flex-start;
         flex-wrap: wrap-reverse;
-        max-width: 390px;
+        width: 350px;
         position: absolute;
         bottom: 0;
         left: 0;
       }
       button {
+        width: 17.7%;
+        margin-bottom: -2px;
         border: none;
         background: none;
         transition: all .1s ease-in-out;
@@ -35,7 +40,7 @@ div.top-wrapper {
       }
       span {
         background-color: white;
-        border-radius: 3px;
+        border-radius: 5px;
         @include hoverScale;
       }
       img {
@@ -46,10 +51,10 @@ div.top-wrapper {
       position: absolute;
       top: 0;
       left: 0;
-      padding: 25px;
+      margin: 45px 50px;
       color: $black;
       h1 {
-        font-size: 30px;
+        font-size: 40px;
         font-family: DINPRO;
       }
       p.sku {
