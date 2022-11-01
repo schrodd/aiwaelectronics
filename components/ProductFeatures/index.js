@@ -11,6 +11,9 @@ export default function ProductFeatures({prod}) {
   const activeFeatObject = prodFeatures.find(e => e.id == activeFeature)
   return (
     <div className='product-features'>
+      <Head>
+        <meta name = "viewport" content = "width=device-width, minimum-scale=1.0, maximum-scale = 1.0, user-scalable = no" />
+      </Head>
       <div className='left'>
         <p>Seleccioná una característica</p>
         <div className='icons'>  
