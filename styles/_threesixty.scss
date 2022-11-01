@@ -21,10 +21,10 @@ div#threeSixtyContainer {
     position: absolute;
     top: 0;
     left: 0;
-    padding: 25px;
+    padding: 45px 50px;
     color: $black;
     h1 {
-      font-size: 30px;
+      font-size: 40px;
       font-family: DINPRO;
     }
     p.sku {
@@ -90,9 +90,9 @@ div#threeSixtyContainer {
         transition: all 0.2s ease-in-out;
         @include hoverScale(1.3);
         &[disabled] {
-          color: grey;
+          color: lightgrey;
           &:hover {
-            color: grey;
+            color: lightgrey;
           }
         }
         &.play-pause {
