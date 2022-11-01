@@ -15,8 +15,8 @@ export default ({prod}) => {
         <p>Seleccioná una característica</p>
         <div className='icons'>  
           {prodFeatures.slice(0,8).map((e,i) => (
-            <div className='button-wrapper'>
-              <button className={activeFeature == e.id && 'active'} key={i} onClick={() => setActiveFeature(e.id)}>
+            <div className='button-wrapper' key={i}>
+              <button className={activeFeature == e.id && 'active'} onClick={() => setActiveFeature(e.id)}>
                 <e.icon fontSize='large'/>
               </button>
             </div>
