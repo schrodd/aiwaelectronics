@@ -18,7 +18,7 @@ export default function ProductContent({prod}) {
           {(mode == 0 || mode == 2) && (
           <>
             <button className='video pc-only' onClick={() => setMode(1)}>
-              <img src='/360-logo.svg' className='three-sixty' />
+              <img src='/360-logo.svg' className='three-sixty' alt='360-logo'/>
               <video width="145" height="145" muted autoPlay loop>
                 <source src={`/products/${prod.sku}/360-video/150.mp4`} type="video/mp4" />
               </video>
@@ -41,7 +41,7 @@ export default function ProductContent({prod}) {
               <span className='pc-only'>DETALLES</span>
             </button>
           </a>
-          <a href={prod.buyLink} target='_blank'>
+          <a href={prod.buyLink} target='_blank' rel="noreferrer">
             <button className='to-right'><ShoppingCartIcon />
               <span className='pc-only'>COMPRAR</span>
             </button>
@@ -56,7 +56,7 @@ export default function ProductContent({prod}) {
               <p className='description'>{prod.longDesc}</p>
             </div>
           </div>
-          <Image className='cover' src={`/products/${prod.sku}/img/cover.webp`} width='550' height='463'/>
+          <Image className='cover' src={`/products/${prod.sku}/img/cover.webp`} width='550' height='463' alt='product-cover'/>
         </div>
         )}
         {mode == 1 && (

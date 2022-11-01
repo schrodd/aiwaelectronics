@@ -22,7 +22,7 @@ export default function ProductMorePhotos({sku, shortDesc, arr}){
       >
         {arr.map((e,i) => (
           <SwiperSlide key={i} className='more-photos-slide'>
-            <Image src={e} layout='fill'/>
+            <Image src={e} layout='fill' alt={`${sku} photos`}/>
           </SwiperSlide>
         ))}
       </Swiper>
