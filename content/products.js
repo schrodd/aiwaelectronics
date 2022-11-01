@@ -30,18 +30,20 @@ export const products = [
     video: 'https://www.youtube.com/',
     features: [
       {
-        name: 'Micrófono',
-        title: 'Micrófono Incluido',
-        desc: 'asjkdahkjshdas',
-        value: '2'
+        id: 1,
+        value: "Si, inalámbrico"
       },
       {
-        name: 'Tweeter',
-        value: '1'
+        id: 2,
+        value: "13500 PMPO"
       },
       {
-        name: 'Potencia PMPO',
-        value: '20000W'
+        id: 3,
+        value: "2"
+      },
+      {
+        id: 4,
+        value: "1"
       }
     ]
   },

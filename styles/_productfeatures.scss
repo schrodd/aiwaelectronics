@@ -1,0 +1,74 @@
+@import 'variables';
+
+div.product-features {
+  width: 100%; 
+  background-color: ghostwhite;
+  @include pc {
+    @include flex;
+  }
+  div.left {
+    padding: 40px 80px;
+    background: $blackDeg;
+    @include flex(column);
+    @include pc {
+      width: 45%;
+    }
+    div.icons {
+      max-width: 350px;
+      width: 100%;
+      @include flex(row, space-between);
+      flex-wrap: wrap;
+      div.button-wrapper {
+        @include flex;
+        width: 25%;
+        margin-top: 25px;
+        button {
+          background: $whiteDeg;
+          border-radius: 100%;
+          border: 2px solid white;
+          padding: 10px 10px 6px 10px;
+          @include hoverScale(1.05);
+          &.active {
+            color: $alt;
+            transform: scale(1.1);
+          }
+          &:active {
+            transform: scale(1.2);
+          }
+        }
+      }
+    }
+    p {
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px;
+      color: white;
+    }
+  }
+  div.right {
+    flex-grow: 1;
+    padding: 40px 80px;
+    @include mobile {
+      padding: 40px;
+    }
+    @include flex;
+    div.content {
+      @include flex;
+      svg {
+        width: 100px;
+        height: 100px;
+        color: $alt;
+        margin-bottom: -10px;
+      }
+      div.text {
+        margin-left: 20px;
+        max-width: 500px;
+        h2 {
+          font-family: DINPRO;
+          font-size: 35px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}

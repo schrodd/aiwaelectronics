@@ -8,6 +8,7 @@ import ThreeSixty from '../ThreeSixty'
 import ProductMorePhotos from '../ProductMorePhotos'
 import ThreeDRotationIcon from '@mui/icons-material/ThreeDRotation';
 import ProductBanners from '../ProductBanners';
+import ProductFeatures from '../ProductFeatures';
 
 export default function ProductContent({prod}) {
   const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = more photos
@@ -65,6 +66,7 @@ export default function ProductContent({prod}) {
         {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs}/>}
       </div>
       <ProductBanners banners={prod.banners}/>
+      <ProductFeatures prod={prod}/>
     </>
   )
 }
