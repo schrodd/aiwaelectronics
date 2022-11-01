@@ -9,6 +9,7 @@ $white: #f2f2f2;
 $alt: #e02327;
 $altDark: #920711;
 $altDeg: linear-gradient(60deg, $altDark 0%, $alt 100%);
+$altDegInv: linear-gradient(240deg, $altDark 0%, $alt 100%);
 $whiteDeg: linear-gradient(180deg, #d2d2d1, #fff);
 $whiteDegInv: linear-gradient(90deg, #d2d2d1, #fff);
 $breakPoint: 850px; //Tamaño que divide versiones pc y mobile

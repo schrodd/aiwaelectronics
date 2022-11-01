@@ -1,8 +1,10 @@
 @import 'variables';
 
 div.product-features {
+  overflow: hidden;
   width: 100%; 
-  background-color: ghostwhite;
+  background-color: white;
+  box-shadow: $lightShadow;
   @include pc {
     @include flex;
   }
@@ -23,14 +25,28 @@ div.product-features {
         width: 25%;
         margin-top: 25px;
         button {
-          background: $whiteDeg;
+          box-shadow: $strongShadow;
+          -webkit-tap-highlight-color: transparent;
+          padding: 5px;
+          border:none;
+          background: $whiteDegInv;
           border-radius: 100%;
-          border: 2px solid white;
-          padding: 10px 10px 6px 10px;
           @include hoverScale(1.05);
+          div.background {
+            border-radius: 100%;
+            padding: 10px 10px 6px 10px;
+            width: 100%;
+            height: 100%;
+            background: $whiteDeg;
+          }
           &.active {
-            color: $alt;
+            background: $altDeg;
+            color: white;
             transform: scale(1.1);
+            box-shadow: $extremeShadow;
+            div.background {
+              background: $altDegInv;
+            }
           }
           &:active {
             transform: scale(1.2);
@@ -39,13 +55,15 @@ div.product-features {
       }
     }
     p {
+      font-family: DINPRO;
       text-align: center;
-      font-weight: bold;
-      font-size: 14px;
+      font-size: 16px;
       color: white;
     }
   }
   div.right {
+    height: 100%;
+    background-color: white;
     flex-grow: 1;
     padding: 40px 80px;
     @include mobile {
