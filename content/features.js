@@ -1,4 +1,4 @@
-import { Mic, FlashOn, VolumeUp, VolumeDown, Tune, VideoLabel, TipsAndUpdates, SettingsInputComponent } from '@mui/icons-material'
+import { Mic, FlashOn, VolumeUp, VolumeDown, Tune, VideoLabel, TipsAndUpdates, SettingsInputComponent, Usb } from '@mui/icons-material'
 const features = [ // Características de productos
   { 
     id: 1, name: 'Micrófono', icon: Mic, title: 'Micrófono Incluido',
@@ -35,6 +35,13 @@ const features = [ // Características de productos
   { 
     id: 8, name: 'Entradas', icon: SettingsInputComponent, title: 'Puertos de Entrada',
     desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...",
+  },
+  { 
+    id: 9, name: 'Conectividad', icon: Usb, title: '¡Conectate!',
+    desc:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...",
+    customDesc(input) {
+      return `Tu música siempre con vos. ¿Necesitás traer música de otro dispositivo? ¡No hay problema! Conectate a través de ${input}`
+    }
   },
 ]
 

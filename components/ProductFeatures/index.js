@@ -7,7 +7,7 @@ export default function ProductFeatures({prod}) {
   console.log(activeFeature)
   const prodFeatures = []
   prod.features.forEach(e => {
-    prodFeatures.push({...features.find(f => e.id == f.id), value: e.value})
+    if (e.feat) prodFeatures.push({...features.find(f => e.id == f.id), value: e.value})
   })
   const activeFeatObject = prodFeatures.find(e => e.id == activeFeature)
   return (
@@ -34,7 +34,10 @@ export default function ProductFeatures({prod}) {
           <activeFeatObject.icon/>
           <div className='text'>
             <h2>{activeFeatObject.title.toUpperCase()}</h2>
-            <p>{activeFeatObject.desc}</p>
+            <p>{activeFeatObject.customDesc
+              ? activeFeatObject.customDesc(activeFeatObject.value) 
+              : activeFeatObject.desc}
+            </p>
           </div>
         </div>
       </div>

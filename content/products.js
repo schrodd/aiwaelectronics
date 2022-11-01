@@ -31,35 +31,48 @@ export const products = [
     features: [
       {
         id: 1,
-        value: "Si, inalámbrico"
+        value: "Si, inalámbrico",
+        feat: true,
       },
       {
         id: 2,
-        value: "13500 PMPO"
+        value: "13500 PMPO",
+        feat: true,
       },
       {
         id: 3,
-        value: "2"
+        value: "2",
+        feat: true,
       },
       {
         id: 4,
-        value: "1"
+        value: "1",
+        feat: false,
       },
       {
         id: 5,
-        value: "1"
+        value: "1",
+        feat: true,
       },
       {
         id: 6,
-        value: "1"
+        value: "1",
+        feat: true,
       },
       {
         id: 7,
-        value: "1"
+        value: "1",
+        feat: true,
       },
       {
         id: 8,
-        value: "1"
+        value: "1",
+        feat: true,
+      },
+      {
+        id: 9,
+        value: "USB, MicroSD o Bluetooth.",
+        feat: true,
       },
     ]
   },
