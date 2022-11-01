@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import features from '../../content/features'
+import Head from 'next/head'
 
 export default function ProductFeatures({prod}) {
   const [activeFeature, setActiveFeature] = useState(1)
