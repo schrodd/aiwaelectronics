@@ -9,7 +9,7 @@ section.product-features {
     @include flex;
   }
   div.left {
-    padding: 40px 80px;
+    padding: 40px 50px;
     background: $blackDeg;
     @include flex(column);
     @include pc {
