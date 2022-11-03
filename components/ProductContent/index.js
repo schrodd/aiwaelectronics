@@ -39,7 +39,7 @@ export default function ProductContent({prod}) {
               <span className='pc-only'>MÁS FOTOS</span>
             </button>
           )}
-          <a href='#test-id'>
+          <a href='#prod-specs'>
             <button className='to-right'><FormatListBulletedIcon />
               <span className='pc-only'>DETALLES</span>
             </button>

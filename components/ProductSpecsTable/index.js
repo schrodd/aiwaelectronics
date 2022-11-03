@@ -14,8 +14,8 @@ export default function ProductSpecsTable({prod}) {
           <div className='table-cell sku'>
             {prod.sku}
           </div>
-          {prodFeatures.map(e => (
-            <div className='table-cell'>
+          {prodFeatures.map((e,i) => (
+            <div className='table-cell' key={i}>
               <div className='title'><e.icon/>{e.name}</div>
               <p className='desc'>{e.value}</p>
             </div>
@@ -27,8 +27,8 @@ export default function ProductSpecsTable({prod}) {
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Descargas'>
         <div className='download-items'>
-          {prod.downloads.map(e => (
-              <a href={e.link}>
+          {prod.downloads.map((e,i) => (
+              <a href={e.link} key={i}>
                 <e.icon />{e.name}
               </a>
           ))}

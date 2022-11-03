@@ -53,27 +53,27 @@ export const products = [
       },
       {
         id: 5,
-        value: "1",
+        value: "Volumen, Graves y Agudos",
         feat: true,
       },
       {
         id: 6,
-        value: "1",
+        value: "Si",
         feat: true,
       },
       {
         id: 7,
-        value: "1",
+        value: "Si",
         feat: true,
       },
       {
         id: 8,
-        value: "1",
+        value: "USB, Mic, Aux",
         feat: true,
       },
       {
         id: 9,
-        value: "USB, MicroSD o Bluetooth.",
+        value: "USB, MicroSD o Bluetooth",
         feat: true,
       },
     ],

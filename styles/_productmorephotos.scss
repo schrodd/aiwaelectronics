@@ -1,6 +1,6 @@
 @import 'variables';
 
-div.top-wrapper {
+section.top-wrapper {
   div.product-more-photos {
     @include mobile {
       padding-top: 120px;
