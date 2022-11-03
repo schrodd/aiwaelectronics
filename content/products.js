@@ -76,6 +76,16 @@ export const products = [
         value: "USB, MicroSD o Bluetooth",
         feat: true,
       },
+      {
+        id: 9,
+        value: "USB, MicroSD o Bluetooth",
+        feat: true,
+      },
+      {
+        id: 9,
+        value: "USB, MicroSD o Bluetooth",
+        feat: true,
+      },
     ],
     includes: 'Parlante, cargador, cable aux.',
     downloads: [

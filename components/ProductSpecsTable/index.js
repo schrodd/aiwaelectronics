@@ -9,7 +9,7 @@ export default function ProductSpecsTable({prod}) {
   console.log(prodFeatures)
   return (
     <section id='prod-specs'>
-      <AccordionItem classes='prod-specs-table' name='Especificaciones y características'>
+      <AccordionItem classes='prod-specs-table' name='Especificaciones'>
         <div className='table-cell-container'>
           <div className='table-cell sku'>
             {prod.sku}
