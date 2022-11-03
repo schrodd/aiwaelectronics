@@ -11,9 +11,11 @@ import ProductBanners from '../ProductBanners';
 import ProductFeatures from '../ProductFeatures';
 import ProductSpecsTable from '../ProductSpecsTable'
 import YoutubeBanner from '../YoutubeBanner';
+import lineas from '../../content/lineas'
 
 export default function ProductContent({prod}) {
   const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = more photos
+  const prodLine = lineas.find(e => e.name == prod.line)
   return (
     <>
       <section className='top-wrapper'>
@@ -54,6 +56,7 @@ export default function ProductContent({prod}) {
         <div className='default' linea={prod.line}>
           <div className='text-wrapper'>
             <div className='text'>
+              {prodLine && <Image src={prodLine.logo} alt={prodLine.displayName} width='150' height='55'/>}
               <p className='sku'>{prod.sku}</p>
               <h1>{prod.shortDesc}</h1>
               <p className='description'>{prod.longDesc}</p>

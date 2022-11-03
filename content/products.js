@@ -73,17 +73,7 @@ export const products = [
         id: 9,
         value: "USB, MicroSD o Bluetooth",
         feat: true,
-      },
-      {
-        id: 9,
-        value: "USB, MicroSD o Bluetooth",
-        feat: true,
-      },
-      {
-        id: 9,
-        value: "USB, MicroSD o Bluetooth",
-        feat: true,
-      },
+      }
     ],
     includes: 'Parlante, cargador, cable aux.',
     downloads: [
@@ -96,6 +86,114 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: 'https://tienda.aiwaelectronics.com.ar/'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-T2008',
+        link: '/productos/AW-T2008',
+      },
+      {
+        sku: 'AW-T2009',
+        link: '/productos/AW-T2009',
+      }
+    ]
+  },
+  {
+    name: 'Torre de Sonido Bluetooth 12000W',
+    sku: 'AW-T2009',
+    link: '/productos/AW-T2008',
+    line: 'ring',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-T2008/img/1.webp',
+      '/products/AW-T2008/img/2.webp',
+      '/products/AW-T2008/img/3.webp',
+      '/products/AW-T2008/img/4.webp',
+      '/products/AW-T2008/img/5.webp',
+    ],
+    banners: [
+      {
+        id: 1,
+        /* customTitle: 'Sonido Súper Envolvente',
+        customDesc: 'custom coso 1'  ----------------   Cuando se quieren aplicar textos personalizados x prod*/
+      },
+      {
+        id: 2,
+      },
+    ],
+    shortDesc: 'Sonido Robusto',
+    longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    video: 'https://www.youtube.com/',
+    features: [
+      {
+        id: 1,
+        value: "No",
+        feat: true,
+      },
+      {
+        id: 2,
+        value: "18500 PMPO",
+        feat: true,
+      },
+      {
+        id: 3,
+        value: "1",
+        feat: true,
+      },
+      {
+        id: 4,
+        value: "2",
+        feat: false,
+      },
+      {
+        id: 5,
+        value: "Volumen, Eco",
+        feat: true,
+      },
+      {
+        id: 6,
+        value: "No",
+        feat: true,
+      },
+      {
+        id: 7,
+        value: "No",
+        feat: true,
+      },
+      {
+        id: 8,
+        value: "USB, Mic",
+        feat: true,
+      },
+      {
+        id: 9,
+        value: "MicroSD o Bluetooth",
+        feat: true,
+      }
+    ],
+    includes: 'Parlante, cargador, cable aux.',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: 'https://tienda.aiwaelectronics.com.ar/'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: 'https://tienda.aiwaelectronics.com.ar/'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-T2008',
+        link: '/productos/AW-T2008',
+      },
+      {
+        sku: 'AW-T2009',
+        link: '/productos/AW-T2009',
       }
     ]
   },

@@ -49,13 +49,20 @@ section#prod-specs {
         }
       }
       .table-cell.sku {
+        * {
+          font-family: DINPRO;
+          font-size: 14px;
+        }
+        button {
+          @include btn(ghostwhite, $black);
+          padding: 5px 8px;
+          margin: 0 5px;
+        }
+        @include flex;
         height: 80px;
-        font-size: 25px;
-        font-family: DINPRO;
-        font-weight: bold;
         width: 100%;
         text-align: center;
-        padding: 20px 0 15px 0;
+        padding: 15px 0 15px 0;
       }
     }
     .MuiAccordionSummary-root {

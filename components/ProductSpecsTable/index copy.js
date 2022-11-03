@@ -1,6 +1,5 @@
 import AccordionItem from '../AccordionItem'
 import features from '../../content/features'
-import Link from 'next/link'
 
 export default function ProductSpecsTable({prod}) {
   const prodFeatures = []
@@ -12,11 +11,7 @@ export default function ProductSpecsTable({prod}) {
       <AccordionItem classes='prod-specs-table' name='Especificaciones'>
         <div className='table-cell-container'>
           <div className='table-cell sku'>
-            {prod.variants.map(e => (
-              <button>
-                <Link href={`${e.link}#prod-specs`}><a>{e.sku}</a></Link>
-              </button>
-            ))}
+            {prod.sku}
           </div>
           {prodFeatures.map((e,i) => (
             <div className='table-cell' key={i}>
