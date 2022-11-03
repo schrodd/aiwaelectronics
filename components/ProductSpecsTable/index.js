@@ -12,8 +12,8 @@ export default function ProductSpecsTable({prod}) {
       <AccordionItem classes='prod-specs-table' name='Especificaciones'>
         <div className='table-cell-container'>
           <div className='table-cell sku'>
-            {prod.variants.map(e => (
-              <button>
+            {prod.variants.map((e,i) => (
+              <button key={i}>
                 <Link href={`${e.link}#prod-specs`}><a>{e.sku}</a></Link>
               </button>
             ))}
