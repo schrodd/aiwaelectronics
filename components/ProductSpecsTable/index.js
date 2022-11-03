@@ -6,7 +6,6 @@ export default function ProductSpecsTable({prod}) {
   prod.features.forEach(e => {
     prodFeatures.push({...features.find(f => e.id == f.id), value: e.value})
   })
-  console.log(prodFeatures)
   return (
     <section id='prod-specs'>
       <AccordionItem classes='prod-specs-table' name='Especificaciones'>

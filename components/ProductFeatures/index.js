@@ -20,7 +20,7 @@ export default function ProductFeatures({prod}) {
         <div className='icons'>  
           {prodFeatures.slice(0,8).map((e,i) => (
             <div className='button-wrapper' key={i}>
-              <button className={activeFeature == e.id && 'active'} onClick={() => setActiveFeature(e.id)}>
+              <button className={activeFeature == e.id ? 'active' : undefined} onClick={() => setActiveFeature(e.id)}>
                 <div className='background'>
                   <e.icon fontSize='large'/>
                 </div>
