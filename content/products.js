@@ -1,3 +1,5 @@
+import { InsertDriveFile } from '@mui/icons-material';
+
 export const products = [
   {
     name: 'Torre de Sonido Bluetooth 12000W',
@@ -74,6 +76,19 @@ export const products = [
         value: "USB, MicroSD o Bluetooth.",
         feat: true,
       },
+    ],
+    includes: 'Parlante, cargador, cable aux.',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: 'https://tienda.aiwaelectronics.com.ar/'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: 'https://tienda.aiwaelectronics.com.ar/'
+      }
     ]
   },
   {

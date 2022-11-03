@@ -1,0 +1,40 @@
+@import 'variables';
+
+section.youtube-banner {
+  background-color: $alt;
+  padding: 10px;
+  color: white;
+  border-bottom: none;
+  @include flex;
+  @include mobile {
+    flex-direction: column;
+    justify-content: center;
+  }
+  svg {
+    width: 150px;
+    height: 150px;
+    @include pc {
+      margin-right: 30px;
+    }
+  }
+  .text {
+    @include mobile {
+      @include flex(column);
+    }
+    h2 {
+      font-size: 35px;
+      font-weight: lighter;
+      text-transform: uppercase;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    button {
+      @include btn(none, white);
+      border: 1px solid white;
+      @include pc {
+        margin-left: 0;
+      }
+    }
+  }
+}

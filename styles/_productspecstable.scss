@@ -1,0 +1,81 @@
+@import 'variables';
+
+section#prod-specs {
+  background-color: lightgray;
+  padding: 50px;
+  .prod-specs-table {
+    * {
+      color: $black;
+    }
+    .table-cell-container {
+      background-color: rgb(210,210,210);
+      width: 100%;
+      @include flex;
+      flex-wrap: wrap;
+      border-radius: 3px;
+      min-width: 800px;
+      border: 1px solid rgb(210,210,210);
+      .table-cell {
+        @include flex(column);
+        width: 25%;
+        flex-grow: 1;
+        border: 1px solid rgb(210,210,210);
+        .title {
+          @include flex;
+          gap: 10px;
+          width: 100%;
+          padding: 10px 0;
+          text-align: center;
+          font-size: 20px;
+          background-color: rgb(230,230,230);
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+        .desc {
+          padding: 8px 0;
+        }
+      }
+      .table-cell.sku {
+        font-size: 20px;
+        font-family: DINPRO;
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0 15px 0;
+      }
+    }
+    .MuiAccordionDetails-root {
+      overflow: scroll;
+      overflow-y: auto;
+      overflow-x: auto;
+    }
+    .MuiAccordionSummary-root {
+      font-weight: bold;
+      font-size: 20px;
+      text-transform: uppercase;
+      .MuiAccordionSummary-content {
+        margin-right: 15px;
+      }
+      * {
+        font-family: DINPRO;
+        color: $black;
+      }
+    }
+
+    .download-items {
+      @include flex(row, flex-start);
+      a {
+        @include btn($black, ghostwhite);
+        border-radius: 5px;
+        @include flex;
+        svg {
+          color: ghostwhite;
+          margin-right: 5px;
+          path {
+            color: ghostwhite;
+          }
+        }
+      }
+    }
+  }
+}

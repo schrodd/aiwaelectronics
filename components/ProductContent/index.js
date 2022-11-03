@@ -9,12 +9,14 @@ import ProductMorePhotos from '../ProductMorePhotos'
 import ThreeDRotationIcon from '@mui/icons-material/ThreeDRotation';
 import ProductBanners from '../ProductBanners';
 import ProductFeatures from '../ProductFeatures';
+import ProductSpecsTable from '../ProductSpecsTable'
+import YoutubeBanner from '../YoutubeBanner';
 
 export default function ProductContent({prod}) {
   const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = more photos
   return (
     <>
-      <div className='top-wrapper'>
+      <section className='top-wrapper'>
         <div className='always-on-top'>
           {(mode == 0 || mode == 2) && (
           <>
@@ -64,9 +66,11 @@ export default function ProductContent({prod}) {
           <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top/>
         )}
         {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs}/>}
-      </div>
+      </section>
       <ProductBanners banners={prod.banners}/>
       <ProductFeatures prod={prod}/>
+      <ProductSpecsTable prod={prod}/>
+      <YoutubeBanner/>
     </>
   )
 }

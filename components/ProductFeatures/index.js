@@ -11,7 +11,7 @@ export default function ProductFeatures({prod}) {
   })
   const activeFeatObject = prodFeatures.find(e => e.id == activeFeature)
   return (
-    <div className='product-features'>
+    <section className='product-features'>
       <Head>
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" key="no-scale"/>
       </Head>
@@ -41,6 +41,6 @@ export default function ProductFeatures({prod}) {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

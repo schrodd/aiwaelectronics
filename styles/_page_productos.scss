@@ -1,7 +1,7 @@
 @import 'variables';
 
 section.product-page {
-  div.top-wrapper {
+  section.top-wrapper {
     overflow: hidden;
     position: relative;
     div.default {
@@ -37,7 +37,7 @@ section.product-page {
           transition: all .3s ease-in-out;
           font-size: 13px;
           @include pc {
-            padding-left: 10%;
+            padding-left: 5%;
           }
           @include mobile {
             text-align: center;
