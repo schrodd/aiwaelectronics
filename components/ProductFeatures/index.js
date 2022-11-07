@@ -4,7 +4,6 @@ import Head from 'next/head'
 
 export default function ProductFeatures({prod}) {
   const [activeFeature, setActiveFeature] = useState(1)
-  console.log(activeFeature)
   const prodFeatures = []
   prod.features.forEach(e => {
     if (e.feat) prodFeatures.push({...features.find(f => e.id == f.id), value: e.value})

@@ -6,7 +6,9 @@ import { useState } from 'react'
 import Image from 'next/image'
 import ThreeSixty from '../ThreeSixty'
 import ProductMorePhotos from '../ProductMorePhotos'
+import ProductVideos from '../ProductVideos';
 import ThreeDRotationIcon from '@mui/icons-material/ThreeDRotation';
+import VideocamIcon from '@mui/icons-material/Videocam';
 import ProductBanners from '../ProductBanners';
 import ProductFeatures from '../ProductFeatures';
 import ProductSpecsTable from '../ProductSpecsTable'
@@ -31,14 +33,20 @@ export default function ProductContent({prod}) {
             <button className='to-right mobile-only' onClick={() => setMode(1)}><ThreeDRotationIcon /></button>
           </>
           )}
-          {(mode == 1 || mode == 2) && (
+          {(mode == 1 || mode == 2 || mode == 3) && (
             <button className='to-right' onClick={() => setMode(0)}><ArrowBackIcon />
               <span className='pc-only'>VOLVER</span>
             </button>
           )}
           {mode != 2 && (
             <button className='to-right' onClick={() => setMode(2)}><ImageIcon />
-              <span className='pc-only'>MÁS FOTOS</span>
+              <span className='pc-only'>FOTOS</span>
+            </button>
+          )}
+          {console.log(prod.videos)}
+          {mode != 3 && prod.videos && (
+            <button className='to-right' onClick={() => setMode(3)}><VideocamIcon />
+              <span className='pc-only'>VIDEOS</span>
             </button>
           )}
           <a href='#prod-specs'>
@@ -69,6 +77,7 @@ export default function ProductContent({prod}) {
           <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top/>
         )}
         {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs}/>}
+        {mode == 3 && <ProductVideos videos={prod.videos} />}
       </section>
       <ProductBanners banners={prod.banners}/>
       <ProductFeatures prod={prod}/>

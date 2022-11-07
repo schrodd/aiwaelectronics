@@ -13,14 +13,14 @@ export default function ProductSpecsTable({prod}) {
         <div className='table-cell-container'>
           <div className='table-cell sku'>
             {prod.variants.map((e,i) => (
-              <button key={i}>
+              <button key={i} className={e.sku == prod.sku ? 'active' : 'not-active'}>
                 <Link href={`${e.link}#prod-specs`}><a>{e.sku}</a></Link>
               </button>
             ))}
           </div>
           {prodFeatures.map((e,i) => (
             <div className='table-cell' key={i}>
-              <div className='title'><e.icon/>{e.name}</div>
+              <div className='title'>{e.name}</div>
               <p className='desc'>{e.value}</p>
             </div>
           ))}

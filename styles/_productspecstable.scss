@@ -11,17 +11,17 @@ section#prod-specs {
       color: $black;
     }
     .table-cell-container {
-      background-color: rgb(210,210,210);
+      background-color: rgb(220,220,220);
       width: 100%;
       @include flex;
       flex-wrap: wrap;
       border-radius: 3px;
-      border: 1px solid rgb(210,210,210);
+      border: 1px solid rgb(200,200,200);
       .table-cell {
         @include flex(column);
         width: 25%;
         flex-grow: 1;
-        border: 1px solid rgb(210,210,210);
+        border: 1px solid rgb(200,200,200);
         @include mobile {
           width: 50%;
         }
@@ -51,12 +51,24 @@ section#prod-specs {
       .table-cell.sku {
         * {
           font-family: DINPRO;
+          font-weight: bold;
           font-size: 14px;
+          transition: all .2s ease-in-out;
         }
         button {
-          @include btn(ghostwhite, $black);
+          border: 2px solid transparent;
+          border-radius: 3px;
           padding: 5px 8px;
           margin: 0 5px;
+          &.active {
+            box-shadow: $strongShadow;
+            border-color: $alt;
+            background-color: $alt;
+            z-index: 9;
+            * {
+              color: white;
+            }
+          }
         }
         @include flex;
         height: 80px;

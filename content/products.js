@@ -27,7 +27,18 @@ export const products = [
     shortDesc: 'Sonido Robusto',
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
-    video: 'https://www.youtube.com/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/vN6Qwro1FPU",
+      },
+      {
+        id: 2,
+        title: "Título del video 2",
+        link: "https://www.youtube.com/embed/vN6Qwro1FPU"
+      },
+    ],
     features: [
       {
         id: 1,
@@ -125,7 +136,18 @@ export const products = [
     shortDesc: 'Sonido Robusto',
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
-    video: 'https://www.youtube.com/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/vN6Qwro1FPU",
+      },
+      {
+        id: 2,
+        title: "Título del video 2",
+        link: "https://www.youtube.com/embed/vN6Qwro1FPU"
+      },
+    ],
     features: [
       {
         id: 1,

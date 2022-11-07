@@ -8,7 +8,7 @@ export default function YoutubeBanner() {
         <h2>Seguinos en Youtube</h2>
         <p>Mantenete al dia con nuestros últimos lanzamientos</p>
         <button>
-          <a href='https://www.youtube.com/channel/UCRkTF2nWEUD3-KcAwwoVwrg'>
+          <a href='https://www.youtube.com/channel/UCRkTF2nWEUD3-KcAwwoVwrg' target='_blank' rel='noopener noreferrer'>
             Ir al canal
           </a>
         </button>
