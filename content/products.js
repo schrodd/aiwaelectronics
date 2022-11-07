@@ -36,7 +36,7 @@ export const products = [
       {
         id: 2,
         title: "Título del video 2",
-        link: "https://www.youtube.com/embed/vN6Qwro1FPU"
+        link: "https://www.youtube.com/embed/gXGeD2sd12Q"
       },
     ],
     features: [
