@@ -16,7 +16,7 @@ import YoutubeBanner from '../YoutubeBanner';
 import lineas from '../../content/lineas'
 
 export default function ProductContent({prod}) {
-  const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = more photos
+  const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = view more photos
   const prodLine = lineas.find(e => e.name == prod.line)
   return (
     <>
