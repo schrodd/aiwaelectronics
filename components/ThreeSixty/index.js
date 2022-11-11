@@ -19,7 +19,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
   const spd = 75
   const arr = []
   for (let i = 1; i <= 40 ; i++){
-    // arr.push(`/products/${sku}/360/${i}.webp`)
+    // arr.push(`/products/${sku}/360/${i}.webp`)  ///////// MOVED TO AIWA/FILESERVER, CHECK LINE 127 FOR HQ ROUTE
     arr.push(`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${i}.webp`)
   }
 
@@ -48,7 +48,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
     clearIntval()
     setFrac(v*1000)
   }
-  function handlePan(e){ // Handles the panning
+  function handlePan(e){ // Handles panning
     if (!highlightOpen){
       if (e.direction == 2) { // Right
         clearIntval()
@@ -67,7 +67,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
       }
     }
   }
-  function clearIntval(){ // Stop the auto spin
+  function clearIntval(){ // Stop auto spin
     clearInterval(intval)
     setAuto(false)
   }
@@ -82,6 +82,8 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
   function toggleHighlight(){
     clearIntval()
     setHighlightOpen((prev) => !prev) // Trying new state update syntax, works like a charm!
+    // This syntax takes a callback instead of a new value, that callback receives as a parameter the previous value of the state.
+    // Its perfect for counters and toggles
   }
   function handleAuto(){ // Start the auto spin
     if (!auto && !zoom && !highlightOpen) {
@@ -124,7 +126,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
         initialPositionY={0}>
           <TransformComponent>
             <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
-            <img className='not-draggable zoomed' src={`/products/${sku}/360/${idx }-hq.webp`} alt='360-image-zoomed'/>
+            <img className='not-draggable zoomed' src={`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${idx }-hq.webp`} alt='360-image-zoomed'/>
           </TransformComponent>
         </TransformWrapper>)}
       <div className='controls'>
