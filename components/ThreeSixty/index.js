@@ -19,8 +19,8 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
   const spd = 75
   const arr = []
   for (let i = 1; i <= 40 ; i++){
-    // arr.push(`/products/${sku}/360/${i}.webp`)       //////////// MOVED TO STATIC SV
-    arr.push(`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${i}.webp`)
+    arr.push(`/products/${sku}/360/${i}.webp`)
+    // arr.push(`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${i}.webp`)
   }
 
   // Vars
