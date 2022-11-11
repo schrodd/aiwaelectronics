@@ -1,4 +1,5 @@
 import { InsertDriveFile } from '@mui/icons-material';
+const fileserver = 'https://aiwaelectronics.com.ar/fileserver'
 
 export const products = [
   {
@@ -13,7 +14,7 @@ export const products = [
       '/products/AW-T2008/img/3.webp',
       '/products/AW-T2008/img/4.webp',
       '/products/AW-T2008/img/5.webp',
-    ],
+    ].map(e => fileserver + e),
     banners: [
       {
         id: 1,

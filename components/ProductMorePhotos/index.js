@@ -5,6 +5,7 @@ import { useState } from 'react'
 
 export default function ProductMorePhotos({sku, shortDesc, arr}){
   const [swiper, setSwiper] = useState(null)
+  console.log(arr)
   return (
     <div className='product-more-photos'>
       <div className='text'>

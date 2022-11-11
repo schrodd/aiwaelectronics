@@ -19,7 +19,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
   const spd = 75
   const arr = []
   for (let i = 1; i <= 40 ; i++){
-    // arr.push(`/products/${sku}/360/${i}.webp`)  ///////// MOVED TO AIWA/FILESERVER, CHECK LINE 127 FOR HQ ROUTE
+    // arr.push(`/products/${sku}/360/${i}.webp`)  ///////// MOVED TO AIWA/FILESERVER, CHECK LINE 127 FOR HQ ROUTE AND 116 FOR TOP VIEW
     arr.push(`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${i}.webp`)
   }
 
@@ -113,7 +113,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
               initialPositionY={0}>
                 <TransformComponent>
                   <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
-                  <img className='hl-image' src={`/products/${sku}/img/top.webp`} alt='hl-image'/>
+                  <img className='hl-image' src={`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/img/top.webp`} alt='hl-image'/>
                 </TransformComponent>
               </TransformWrapper>}
             </div>

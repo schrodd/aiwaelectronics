@@ -27,7 +27,7 @@ export default function ProductContent({prod}) {
             <button className='video pc-only' onClick={() => setMode(1)}>
               <img src='/360-logo.svg' className='three-sixty' alt='360-logo'/>
               <video width="145" height="145" muted autoPlay loop>
-                <source src={`/products/${prod.sku}/360-video/150.mp4`} type="video/mp4" />
+                <source src={`/products/${prod.sku}/360.mp4`} type="video/mp4" />
               </video>
             </button>
             <button className='to-right mobile-only' onClick={() => setMode(1)}><ThreeDRotationIcon /></button>
@@ -70,7 +70,7 @@ export default function ProductContent({prod}) {
               <p className='description'>{prod.longDesc}</p>
             </div>
           </div>
-          <Image className='cover' src={`/products/${prod.sku}/img/cover.webp`} width='550' height='463' alt='product-cover'/>
+          <Image className='cover' src={`/products/${prod.sku}/cover.webp`} width='550' height='463' alt='product-cover'/>
         </div>
         )}
         {mode == 1 && (
