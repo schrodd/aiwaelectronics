@@ -92,12 +92,12 @@ export const products = [
       {
         name: 'Manual',
         icon: InsertDriveFile,
-        link: 'https://tienda.aiwaelectronics.com.ar/'
+        link: fileserver + '/docs/AW-T2008-2010_MANUAL.pdf'
       },
       {
         name: 'Ficha',
         icon: InsertDriveFile,
-        link: 'https://tienda.aiwaelectronics.com.ar/'
+        link: fileserver + '/docs/AW-T2008-PB_FICHA.pdf'
       }
     ],
     variants: [
