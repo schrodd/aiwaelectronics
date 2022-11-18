@@ -3,7 +3,7 @@ import features from '../../content/features'
 import Head from 'next/head'
 
 export default function ProductFeatures({prod}) {
-  const [activeFeature, setActiveFeature] = useState(1)
+  const [activeFeature, setActiveFeature] = useState(prod.features.find(e => e.feat == true).id)
   const prodFeatures = []
   prod.features.forEach(e => {
     if (e.feat) prodFeatures.push({...features.find(f => e.id == f.id), value: e.value})
@@ -30,14 +30,14 @@ export default function ProductFeatures({prod}) {
       </div>
       <div className='right'>
         <div className='content'>
-          <activeFeatObject.icon/>
-          <div className='text'>
-            <h2>{activeFeatObject.title.toUpperCase()}</h2>
-            <p>{activeFeatObject.customDesc
-              ? activeFeatObject.customDesc(activeFeatObject.value) 
-              : activeFeatObject.desc}
-            </p>
-          </div>
+        <activeFeatObject.icon/>
+        <div className='text'>
+          <h2>{activeFeatObject.title.toUpperCase()}</h2>
+          <p>{activeFeatObject.customDesc
+            ? activeFeatObject.customDesc(activeFeatObject.value) 
+            : activeFeatObject.desc}
+          </p>
+        </div>
         </div>
       </div>
     </section>

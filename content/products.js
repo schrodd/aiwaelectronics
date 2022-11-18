@@ -18,12 +18,21 @@ export const products = [
     banners: [
       {
         id: 1,
-        /* customTitle: 'Sonido Súper Envolvente',
-        customDesc: 'custom coso 1'  ----------------   Cuando se quieren aplicar textos personalizados x prod*/
+        // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
       },
       {
         id: 2,
       },
+      {
+        id: 3,
+      },
+      {
+        id: 4,
+      },
+      {
+        id: 5,
+        customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+      }
     ],
     shortDesc: 'Sonido Robusto',
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
@@ -42,52 +51,102 @@ export const products = [
     ],
     features: [
       {
+        id: 3,
+        value: `2 de 8"`,
+        feat: false,
+      },
+      {
+        id: 4,
+        value: `1 de 2"`,
+        feat: false,
+      },
+      {
+        id: 2,
+        value: "12000W PMPO",
+        feat: true,
+      },
+      {
+        id: 10,
+        value: "Interna Recargable 12V / 4.5Ah",
+        feat: false,
+      },
+      {
+        id: 11,
+        value: "5 horas (según volumen)",
+        feat: true,
+      },
+      {
+        id: 12,
+        value: "En panel frontal alrededor del Woofer y en panel superior",
+        feat: true,
+      },
+      {
+        id: 9,
+        value: "Bluetooth v5.0",
+        feat: false,
+      },
+      {
+        id: 13,
+        value: "TWS, Radio FM, REC",
+        feat: true,
+      },
+      {
+        id: 5,
+        value: "Graves, Agudos y Eco de Micrófono",
+        feat: true,
+      },
+      {
+        id: 7,
+        value: "Si, 3",
+        feat: true,
+      },
+      {
+        id: 8,
+        value: "Guitarra,  Micrófono, USB, MicroSD y Auxiliar",
+        feat: true,
+      },
+      {
         id: 1,
         value: "Si, inalámbrico",
         feat: true,
       },
       {
-        id: 2,
-        value: "13500 PMPO",
-        feat: true,
-      },
-      {
-        id: 3,
-        value: "2",
-        feat: true,
-      },
-      {
-        id: 4,
-        value: "1",
+        id: 6,
+        value: "Si",
         feat: false,
       },
       {
-        id: 5,
-        value: "Volumen, Graves y Agudos",
-        feat: true,
+        id: 14,
+        value: "Madera",
+        feat: false,
       },
       {
-        id: 6,
-        value: "Si",
-        feat: true,
+        id: 15,
+        value: "Ruedas / Empuñaduras de Transporte",
+        feat: false,
       },
       {
-        id: 7,
-        value: "Si",
-        feat: true,
+        id: 16,
+        value: "31 x 83 x 31 cm",
+        feat: false,
       },
       {
-        id: 8,
-        value: "USB, Mic, Aux",
-        feat: true,
+        id: 17,
+        value: "35,5 x 88 x 35,5 cm",
+        feat: false,
       },
       {
-        id: 9,
-        value: "USB, MicroSD o Bluetooth",
-        feat: true,
-      }
+        id: 18,
+        value: "13,75 Kg",
+        feat: false,
+      },
+      {
+        id: 19,
+        value: "7798111353957",
+        feat: false,
+      },
     ],
-    includes: 'Parlante, cargador, cable aux.',
+    includes: 'Micrófono Inalámbrico, Control Remoto, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-0), Manual de Instrucciones y Garantía',
     downloads: [
       {
         name: 'Manual',
@@ -110,203 +169,6 @@ export const products = [
         link: '/productos/AW-T2009',
       }
     ]
-  },
-  {
-    name: 'Torre de Sonido Bluetooth 12000W',
-    sku: 'AW-T2009',
-    link: '/productos/AW-T2008',
-    line: 'ring',
-    categories: [101, 102], 
-    imgs: [
-      '/products/AW-T2008/img/1.webp',
-      '/products/AW-T2008/img/2.webp',
-      '/products/AW-T2008/img/3.webp',
-      '/products/AW-T2008/img/4.webp',
-      '/products/AW-T2008/img/5.webp',
-    ],
-    banners: [
-      {
-        id: 1,
-        /* customTitle: 'Sonido Súper Envolvente',
-        customDesc: 'custom coso 1'  ----------------   Cuando se quieren aplicar textos personalizados x prod*/
-      },
-      {
-        id: 2,
-      },
-    ],
-    shortDesc: 'Sonido Robusto',
-    longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/vN6Qwro1FPU",
-      },
-      {
-        id: 2,
-        title: "Título del video 2",
-        link: "https://www.youtube.com/embed/vN6Qwro1FPU"
-      },
-    ],
-    features: [
-      {
-        id: 1,
-        value: "No",
-        feat: true,
-      },
-      {
-        id: 2,
-        value: "18500 PMPO",
-        feat: true,
-      },
-      {
-        id: 3,
-        value: "1",
-        feat: true,
-      },
-      {
-        id: 4,
-        value: "2",
-        feat: false,
-      },
-      {
-        id: 5,
-        value: "Volumen, Eco",
-        feat: true,
-      },
-      {
-        id: 6,
-        value: "No",
-        feat: true,
-      },
-      {
-        id: 7,
-        value: "No",
-        feat: true,
-      },
-      {
-        id: 8,
-        value: "USB, Mic",
-        feat: true,
-      },
-      {
-        id: 9,
-        value: "MicroSD o Bluetooth",
-        feat: true,
-      }
-    ],
-    includes: 'Parlante, cargador, cable aux.',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: 'https://tienda.aiwaelectronics.com.ar/'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: 'https://tienda.aiwaelectronics.com.ar/'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-T2008',
-        link: '/productos/AW-T2008',
-      },
-      {
-        sku: 'AW-T2009',
-        link: '/productos/AW-T2009',
-      }
-    ]
-  },
-  {
-    name: 'Torre de Sonido Bluetooth 13500W',
-    sku: 'AW-T2010',
-    link: '/productos/AW-T2010',
-    line: 'ring',
-    categories: [101, 102], 
-    imgs: [
-      '/products/AW-T2010/img/1.webp',
-    ],
-    shortDesc: 'Potencia y Calidad',
-    longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno y 2 tweeters, vas a poder tirar tu casa por la ventana.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
-    video: 'https://www.youtube.com/',
-    features: [
-      {
-        name: 'Woofer',
-        value: '2'
-      },
-      {
-        name: 'Efectos de luz',
-        value: 'Variados'
-      },
-      {
-        name: 'Tweeter',
-        value: '1'
-      },
-      {
-        name: 'Potencia PMPO',
-        value: '10000W'
-      }
-    ]
-  },
-  {
-    name: 'Torre de Sonido Bluetooth 16000W',
-    sku: 'AW-T2012',
-    link: '/productos/AW-T2012',
-    line: 'ring',
-    categories: [101, 102], 
-    imgs: [
-      '/products/AW-T2012/img/1.webp',
-    ],
-    shortDesc: 'Sonido Colosal',
-    longDesc: "Caja con cuerpo de madera, 1,49 centímetros de altura. Una gran torre en todo sentido de la palabra.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
-    video: 'https://www.youtube.com/',
-  },
-  {
-    name: 'Parlante Torre True Wireless BT 8000W ',
-    sku: 'AW-T2018R',
-    link: '/productos/AW-T2018R',
-    line: 'infinit',
-    categories: [101, 102], 
-    imgs: [
-      '/products/AW-T2018R/img/1.webp',
-    ],
-    shortDesc: 'Práctica y Potente',
-    longDesc: "Liviana, práctica y portatil, con un sonido potente. Sus deslumbrantes efectos de luces le darán ese toque mágico a todos tus momentos.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
-    video: 'https://www.youtube.com/',
-  },
-  {
-    name: 'Parlante Torre True Wireless BT 9500W',
-    sku: 'AW-T2021',
-    link: '/productos/AW-T2021',
-    line: 'infinit',
-    categories: [101, 102], 
-    imgs: [
-      '/products/AW-T2021/img/1.webp',
-    ],
-    shortDesc: 'Ecualizá tu Música',
-    longDesc: "Una torre de sonido creada para estar a la altura de todas tus fiestas que te permite ajustar tu música como prefieras.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
-    video: 'https://www.youtube.com/',
-  },
-  {
-    name: 'Parlante Torre True Wireless BT 7000W',
-    sku: 'AW-T2050R',
-    link: '/productos/AW-T2050R',
-    line: 'infinit',
-    categories: [101, 102], 
-    imgs: [
-      '/products/AW-T2050R/img/1.webp',
-    ],
-    shortDesc: 'Diversión Infinita',
-    longDesc: "Sonido potente acompañado de variados efectos de luz, para montar la fiesta donde prefieras.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
-    video: 'https://www.youtube.com/',
   },
 ]
 

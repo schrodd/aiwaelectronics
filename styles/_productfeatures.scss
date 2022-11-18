@@ -81,6 +81,9 @@ section.product-features {
       div.text {
         margin-left: 20px;
         max-width: 500px;
+        @include pc {
+          width: 500px;
+        }
         h2 {
           font-family: DINPRO;
           font-size: 35px;

@@ -13,12 +13,12 @@ section#prod-specs {
     .table-cell-container {
       background-color: rgb(220,220,220);
       width: 100%;
-      @include flex;
+      @include flex(row, center, stretch);
       flex-wrap: wrap;
       border-radius: 3px;
       border: 1px solid rgb(200,200,200);
       .table-cell {
-        @include flex(column);
+        @include flex(column, stretch, stretch);
         width: 25%;
         flex-grow: 1;
         border: 1px solid rgb(200,200,200);
@@ -41,7 +41,9 @@ section#prod-specs {
         }
         .desc {
           @include flex;
+          height: 100%;
           padding: 10px;
+          text-align: center;
           @include mobile {
             text-align: center;
             height: 60px;
