@@ -1,6 +1,7 @@
 import AccordionItem from '../AccordionItem'
 import features from '../../content/features'
 import Link from 'next/link'
+import { Button, ButtonGroup } from '@mui/material';
 
 export default function ProductSpecsTable({prod}) {
   const prodFeatures = []
@@ -31,11 +32,12 @@ export default function ProductSpecsTable({prod}) {
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Descargas'>
         <div className='download-items'>
-          {prod.downloads.map((e,i) => (
+            {prod.downloads.map((e,i) => (
               <a href={e.link} key={i}>
-                <e.icon />{e.name}
+                <e.icon />
+                {e.name}
               </a>
-          ))}
+            ))}
         </div>
       </AccordionItem>
     </section>

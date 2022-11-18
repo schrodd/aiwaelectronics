@@ -96,7 +96,8 @@ section#prod-specs {
       @include flex(row, flex-start);
       a {
         @include btn($black, ghostwhite);
-        border-radius: 5px;
+        border-radius: 4px;
+        margin: 0 15px 0 0;
         @include flex;
         svg {
           color: ghostwhite;

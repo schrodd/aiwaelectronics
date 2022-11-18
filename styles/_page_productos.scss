@@ -28,6 +28,9 @@ section.product-page {
           left: 0;
           z-index: 5;
         }
+        @include mobile {
+          border-top: 2px solid white;
+        }
         div.text {
           max-width: 35%;
           padding: 40px;
@@ -67,8 +70,14 @@ section.product-page {
         }
       }
       &[linea=ring] {
-        background: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/ring.webp') center;
+        background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/ring.webp');
+        background-position: center;
         background-size: cover;
+        @include mobile {
+          background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/ring-mob.webp');
+          background-position: center;
+          background-repeat: no-repeat;
+        }
       }
     }
     div.always-on-top {
