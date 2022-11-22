@@ -20,7 +20,7 @@ const banners = [
   },
   {
     id: 3,
-    title: 'Power Bank (*)',
+    title: 'Power Bank',
     desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta',
     img: fileserver + '/banners/powerbank.webp',
     disclaimer: '',

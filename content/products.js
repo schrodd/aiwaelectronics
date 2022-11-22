@@ -104,7 +104,7 @@ export const products = [
       },
       {
         id: 8,
-        value: "Guitarra,  Micrófono, USB, MicroSD y Auxiliar",
+        value: "Micrófono, USB, MicroSD y Auxiliar",
         feat: true,
       },
       {
