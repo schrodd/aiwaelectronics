@@ -14,6 +14,7 @@ import ProductFeatures from '../ProductFeatures';
 import ProductSpecsTable from '../ProductSpecsTable'
 import YoutubeBanner from '../YoutubeBanner';
 import lineas from '../../content/lineas'
+import { PrivacyTipOutlined } from '@mui/icons-material';
 
 export default function ProductContent({prod}) {
   const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = view more photos
@@ -74,7 +75,7 @@ export default function ProductContent({prod}) {
         </div>
         )}
         {mode == 1 && (
-          <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top/>
+          <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top={prod.top}/>
         )}
         {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs}/>}
         {mode == 3 && <ProductVideos videos={prod.videos} />}

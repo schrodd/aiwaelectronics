@@ -1,4 +1,4 @@
-import { InsertDriveFile } from '@mui/icons-material';
+import { FlareSharp, InsertDriveFile } from '@mui/icons-material';
 const fileserver = 'https://aiwaelectronics.com.ar/fileserver'
 
 export const products = [
@@ -18,9 +18,11 @@ export const products = [
       '/products/AW-T2008/img/4.webp',
       '/products/AW-T2008/img/5.webp',
     ].map(e => fileserver + e),
+    top: true,
     banners: [
       {
         id: 1,
+        customTitle: 'Micrófono inalámbrico incluido'
         // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
       },
       {
@@ -183,9 +185,11 @@ export const products = [
       '/products/AW-T2008-PB/img/4.webp',
       '/products/AW-T2008-PB/img/5.webp',
     ].map(e => fileserver + e),
+    top: true,
     banners: [
       {
         id: 1,
+        customTitle: 'Micrófono inalámbrico incluido'
         // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
       },
       {
@@ -351,9 +355,11 @@ export const products = [
       '/products/AW-T2010/img/4.webp',
       '/products/AW-T2010/img/5.webp',
     ].map(e => fileserver + e),
+    top: true,
     banners: [
       {
         id: 1,
+        customTitle: 'Micrófono inalámbrico incluido'
         // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
       },
       {
@@ -521,9 +527,11 @@ export const products = [
       '/products/AW-T2010-PB/img/4.webp',
       '/products/AW-T2010-PB/img/5.webp',
     ].map(e => fileserver + e),
+    top: true,
     banners: [
       {
         id: 1,
+        customTitle: 'Micrófono inalámbrico incluido'
         // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
       },
       {
@@ -691,9 +699,11 @@ export const products = [
       '/products/AW-T2012/img/6.webp',
       '/products/AW-T2012/img/7.webp',
     ].map(e => fileserver + e),
+    top: true,
     banners: [
       {
         id: 1,
+        customTitle: 'Micrófono inalámbrico incluido'
         // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
       },
       {
@@ -862,27 +872,24 @@ export const products = [
       '/products/AW-P240D/img/3.webp',
       '/products/AW-P240D/img/4.webp',
       '/products/AW-P240D/img/5.webp',
+      '/products/AW-P240D/img/6.webp',
     ].map(e => fileserver + e),
+    top: false,
     banners: [
       {
         id: 1,
-        // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
       },
       {
         id: 2,
+        customImg: fileserver + '/banners/tws240.webp'
       },
       {
-        id: 3,
-      },
-      {
-        id: 4,
-      },
-      {
-        id: 5,
-        customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+        id: 6,
+        customImg: fileserver + '/banners/portatil240.webp'
       }
     ],
-    shortDesc: 'MUSICALIZÁ TU DÍA A DÍA',
+    shortDesc: 'MUSICALIZÁ TU DÍA',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -1014,35 +1021,29 @@ export const products = [
       '/products/AW-P240D-SA/img/3.webp',
       '/products/AW-P240D-SA/img/4.webp',
       '/products/AW-P240D-SA/img/5.webp',
+      '/products/AW-P240D-SA/img/6.webp',
     ].map(e => fileserver + e),
+    top: false,
     banners: [
       {
-        id: 1,
-        // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
-      },
-      {
         id: 2,
+        customImg: fileserver + '/banners/tws240.webp'
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
       },
       {
-        id: 3,
-      },
-      {
-        id: 4,
-      },
-      {
-        id: 5,
-        customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+        id: 6,
+        customImg: fileserver + '/banners/portatil240.webp'
       }
     ],
-    shortDesc: 'MUSICALIZÁ TU DÍA A DÍA',
+    shortDesc: 'MUSICALIZÁ TU DÍA',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
-      /* {
+      {
         id: 1,
         title: "Título del video",
-        link: "https://www.youtube.com/embed/vN6Qwro1FPU",
-      } */
+        link: "https://www.youtube.com/embed/4IN_K5HtEOI",
+      }
     ],
     features: [
       { // Woofers
@@ -1053,12 +1054,12 @@ export const products = [
       { // Potencia
         id: 2,
         value: "2500W PMPO",
-        feat: true,
+        feat: false,
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: false,
+        feat: true,
       },
       { // Duración de batería
         id: 11,
@@ -1068,12 +1069,12 @@ export const products = [
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        feat: true,
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: false,
+        feat: true,
       },
       { // Funciones
         id: 13,
@@ -1093,7 +1094,7 @@ export const products = [
       { // Micrófono
         id: 1,
         value: "No",
-        feat: true,
+        feat: false,
       },
       { // Display
         id: 6,
@@ -1154,7 +1155,7 @@ export const products = [
       }
     ]
   },
-  {// AW-P240D
+  {// AW-P240D-SN
     name: 'Parlante Portátil Bluetooth 2500W',
     sku: 'AW-P240D-SN',
     link: '/productos/AW-P240D-SN',
@@ -1166,35 +1167,28 @@ export const products = [
       '/products/AW-P240D-SN/img/3.webp',
       '/products/AW-P240D-SN/img/4.webp',
       '/products/AW-P240D-SN/img/5.webp',
+      '/products/AW-P240D-SN/img/6.webp',
     ].map(e => fileserver + e),
+    top: false,
     banners: [
       {
-        id: 1,
-        // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
-      },
-      {
         id: 2,
+        customImg: fileserver + '/banners/tws240.webp'
       },
       {
-        id: 3,
-      },
-      {
-        id: 4,
-      },
-      {
-        id: 5,
-        customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+        id: 6,
+        customImg: fileserver + '/banners/portatil240.webp'
       }
     ],
-    shortDesc: 'MUSICALIZÁ TU DÍA A DÍA',
+    shortDesc: 'MUSICALIZÁ TU DÍA',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
-      /* {
+      {
         id: 1,
         title: "Título del video",
-        link: "https://www.youtube.com/embed/vN6Qwro1FPU",
-      } */
+        link: "https://www.youtube.com/embed/4IN_K5HtEOI",
+      }
     ],
     features: [
       { // Woofers
@@ -1205,12 +1199,12 @@ export const products = [
       { // Potencia
         id: 2,
         value: "2500W PMPO",
-        feat: true,
+        feat: false,
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: false,
+        feat: true,
       },
       { // Duración de batería
         id: 11,
@@ -1220,12 +1214,12 @@ export const products = [
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        feat: true,
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: false,
+        feat: true,
       },
       { // Funciones
         id: 13,
@@ -1245,7 +1239,7 @@ export const products = [
       { // Micrófono
         id: 1,
         value: "No",
-        feat: true,
+        feat: false,
       },
       { // Display
         id: 6,

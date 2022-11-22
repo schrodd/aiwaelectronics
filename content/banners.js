@@ -4,7 +4,7 @@ const fileserver = 'https://aiwaelectronics.com.ar/fileserver'
 const banners = [
   {
     id: 1,
-    title: 'Micrófono inalámbrico incluido',
+    title: 'Micrófono incluido',
     desc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!',
     img: fileserver + '/banners/microfono.webp',
     disclaimer: '',
@@ -23,8 +23,8 @@ const banners = [
     title: 'Power Bank (*)',
     desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta',
     img: fileserver + '/banners/powerbank.webp',
-    disclaimer: '(*) Sólo algunos modelos incluyen esta función. Ver tabla de especificaciones.',
-    disclaimerLink: '#prod-specs'
+    disclaimer: '',
+    disclaimerLink: ''
   },
   {
     id: 4,
@@ -39,6 +39,14 @@ const banners = [
     title: `Preparate para tocar`,
     desc: 'Hacé presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!',
     img: fileserver + '/banners/live.webp',
+    disclaimer: '',
+    disclaimerLink: ''
+  },
+  {
+    id: 6,
+    title: `¡Llevalo a todos lados!`,
+    desc: 'Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.',
+    img: fileserver + '/banners/portatil.webp',
     disclaimer: '',
     disclaimerLink: ''
   }

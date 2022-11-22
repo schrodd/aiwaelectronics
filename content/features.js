@@ -51,7 +51,10 @@ const features = [ // Características de productos
   },
   { 
     id: 10, name: 'Batería', icon: BatteryChargingFull, title: 'Con Batería',
-    desc:''
+    desc:'',
+    customDesc(input) {
+      return `¡Llevalo a donde sea! Posee una batería ${input}.`
+    }
   },
   { 
     id: 11, name: 'Duración de Batería', icon: BatterySaver, title: 'Increíble Autonomía',
