@@ -29,7 +29,7 @@ const features = [ // Características de productos
   },
   { 
     id: 6, name: 'Display', icon: VideoLabel, title: 'Display LED',
-    desc:'',
+    desc:'Posee pantalla LED que muestra información y permite administrar las funciones que ofrece.',
   },
   { 
     id: 7, name: 'Efectos de Luces', icon: AutoAwesome, title: 'Efectos de Luces',
@@ -92,6 +92,10 @@ const features = [ // Características de productos
     id: 19, name: 'EAN', icon: Stars, title: 'EAN',
     desc:''
   },
+  { 
+    id: 20, name: 'Power Bank', icon: BatteryChargingFull, title: 'Cargá tus dispositivos',
+    desc:'Cargá tu celular (o cualquiera de tus dispositivos) mientras escuchás música con la función Power Bank.'
+  }
 ]
 
 export default features

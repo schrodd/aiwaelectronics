@@ -34,11 +34,11 @@ export default function ProductSpecsTable({prod}) {
         </div>
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Incluye'>
-            <p>{tableProd.includes}</p>
+            <p>{prod.includes}</p>
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Descargas'>
         <div className='download-items'>
-            {tableProd.downloads.map((e,i) => (
+            {prod.downloads.map((e,i) => (
               <a href={e.link} key={i}>
                 <e.icon />
                 {e.name}
