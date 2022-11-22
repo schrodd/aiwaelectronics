@@ -35,16 +35,11 @@ export const products = [
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
-      {
+      /* {
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/vN6Qwro1FPU",
-      },
-      {
-        id: 2,
-        title: "Título del video 2",
-        link: "https://www.youtube.com/embed/gXGeD2sd12Q"
-      },
+      } */
     ],
     features: [
       {
@@ -203,16 +198,11 @@ export const products = [
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
-      {
+      /* {
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/vN6Qwro1FPU",
-      },
-      {
-        id: 2,
-        title: "Título del video 2",
-        link: "https://www.youtube.com/embed/gXGeD2sd12Q"
-      },
+      } */
     ],
     features: [
       {
@@ -371,16 +361,11 @@ export const products = [
     longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno y 2 tweeters, vas a poder tirar tu casa por la ventana.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
-      {
+      /* {
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/vN6Qwro1FPU",
-      },
-      {
-        id: 2,
-        title: "Título del video 2",
-        link: "https://www.youtube.com/embed/gXGeD2sd12Q"
-      },
+      } */
     ],
     features: [
       {
@@ -537,16 +522,11 @@ export const products = [
     longDesc: "Caja con cuerpo de madera, 1,49 centímetros de altura. Una gran torre en todo sentido de la palabra.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
-      {
+      /* {
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/vN6Qwro1FPU",
-      },
-      {
-        id: 2,
-        title: "Título del video 2",
-        link: "https://www.youtube.com/embed/gXGeD2sd12Q"
-      },
+      } */
     ],
     features: [
       {

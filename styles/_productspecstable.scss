@@ -67,10 +67,8 @@ section#prod-specs {
             border-color: $alt;
             background-color: $alt;
             z-index: 9;
-            * {
-              color: white;
+            color: white;
             }
-          }
         }
         @include flex;
         height: 80px;

@@ -44,7 +44,7 @@ export default function ProductContent({prod}) {
             </button>
           )}
           {console.log(prod.videos)}
-          {mode != 3 && prod.videos && (
+          {mode != 3 && prod.videos.length > 0 && (
             <button className='to-right' onClick={() => setMode(3)}><VideocamIcon />
               <span className='pc-only'>VIDEOS</span>
             </button>
