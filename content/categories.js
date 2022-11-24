@@ -18,6 +18,11 @@ export const lvOneCat = [
     name: 'Hogar',
     id: 3,
     route: '/categorias/hogar'
+  },
+  {
+    name: 'Discontinuos',
+    id: 4,
+    route: '/categorias/discontinuos'
   }
 ]
  /* Los ID de las categorías de 2º nivel comienzan en 101 */
@@ -109,6 +114,16 @@ export const lvTwoCat = [
     parent: 2,
     route: 'https://www.constrictor.com.ar/',
     hidden: false,
+    cover: '/images/categories/cover/gaming.png',
+    banner: '/images/categories/banner/parlantes.jpg'
+  },
+  {
+    name: 'Discontinuos',
+    desc: 'Productos discontinuos',
+    id: 110,
+    parent: 4,
+    route: '/categorias/discontinuos',
+    hidden: true,
     cover: '/images/categories/cover/gaming.png',
     banner: '/images/categories/banner/parlantes.jpg'
   },

@@ -1,6 +1,6 @@
 const texts = {
   //Misc
-  aiwaElec: 'Aiwa Electronics',
+  aiwaElec: 'AIWA Electronics',
   spacer: ' | ',
   //Botones y CTA's
   irTienda: 'Ir a la tienda',

@@ -10,6 +10,10 @@ section#prod-specs {
     * {
       color: $black;
     }
+    &.variants .wrapper {
+      @include flex(row, center, center);
+      width: 100%;
+    }
     .table-cell-container {
       background-color: rgb(220,220,220);
       width: 100%;

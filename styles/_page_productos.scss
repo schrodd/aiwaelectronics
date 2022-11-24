@@ -79,6 +79,16 @@ section.product-page {
           background-repeat: no-repeat;
         }
       }
+      &[linea=party] {
+        background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/party.webp');
+        background-position: center;
+        background-size: cover;
+        @include mobile {
+          background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/party-mob.webp');
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
     }
     div.always-on-top {
       top: 5px;

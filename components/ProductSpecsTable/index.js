@@ -2,6 +2,7 @@ import AccordionItem from '../AccordionItem'
 import features from '../../content/features'
 import { products } from '../../content/products'
 import { useState } from 'react'
+import Link from 'next/link'
 
 export default function ProductSpecsTable({prod}) {
   const [tableProd, setTableProd] = useState(prod)
@@ -17,14 +18,14 @@ export default function ProductSpecsTable({prod}) {
     <section id='prod-specs'>
       <AccordionItem classes='prod-specs-table' name='Especificaciones'>
         <div className='table-cell-container'>
-          <div className='table-cell sku'>
+          {/* <div className='table-cell sku'>
             {tableProd.variants.map((e,i) => (
               <button key={i} className={e.sku == tableProd.sku ? 'active' : 'not-active'}
               onClick={() => changeTableData(e.sku)}>
                 {e.sku}
               </button>
             ))}
-          </div>
+          </div> */}
           {prodFeatures.map((e,i) => (
             <div className='table-cell' key={i}>
               <div className='title'>{e.name}</div>
@@ -46,6 +47,19 @@ export default function ProductSpecsTable({prod}) {
             ))}
         </div>
       </AccordionItem>
+      {prod.variants.length > 0 && (
+        <AccordionItem classes='prod-specs-table variants' name='Otras versiones'>
+            <div className="download-items">
+              {prod.variants.map((e,i) => (
+                <Link href={e.link} key={i}>
+                  <a>
+                    {e.sku}
+                  </a>
+                </Link>
+            ))}
+            </div>
+        </AccordionItem>
+      )}
     </section>
   )
 }

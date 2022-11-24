@@ -2,13 +2,26 @@
 
 section#constrictor{
   background: $greenDeg;
+  background: url('https://www.aiwaelectronics.com.ar/fileserver/backgrounds/constr-fondo-compressed.webp');
+  background-position: center;
+  background-size: cover;
   box-shadow: inset 0px 0px 200px black;
+  background-repeat: no-repeat;
   padding: 50px 30px;
   color: white;
+  position: relative;
   @include flex(column);
+  .backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px);
+  }
   .logo {
     @include flex;
     margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
     @include mobile {
       @include flex(column);
       text-align: center;
@@ -52,5 +65,7 @@ section#constrictor{
   button {
     @include btn(rgba(0,0,0,.2), white);
     border: 1px solid white;
+    position: relative;
+    z-index: 2;
   }
 }

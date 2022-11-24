@@ -25,7 +25,7 @@ export default function DiscoverBanner(){
 
   return (
     <section className='discover-banner'>
-      <Swiper className='wrapper-swiper' allowTouchMove={false}>
+      <Swiper className='wrapper-swiper' allowTouchMove={false} autoHeight>
         <SwiperSlide className='first'>
           <h3>Tenemos un AIWA especialmente para vos</h3>
           <h2>¿Qué estabas buscando?</h2>

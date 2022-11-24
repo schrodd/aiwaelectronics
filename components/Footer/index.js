@@ -66,6 +66,13 @@ export default function Footer(){
                   </a>
                 </Link>
               </li>
+              <li>
+                <Link href='/categorias/discontinuos'>
+                  <a>
+                    Productos discontinuos
+                  </a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div className='footer-section'>
