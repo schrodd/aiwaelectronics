@@ -22,7 +22,8 @@ export const products = [
     banners: [
       {
         id: 1,
-        customTitle: 'Micrófono inalámbrico incluido'
+        customTitle: 'Micrófono inalámbrico incluido',
+        // customImg: 'https://aiwaelectronics.com.ar/fileserver/banners/bar450.webp'
         // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
       },
       {
@@ -1530,7 +1531,7 @@ export const products = [
       },
       { // Micrófono
         id: 1,
-        value: "Si, con cable",
+        value: "No",
         feat: false,
       },
       { // Display
@@ -1674,7 +1675,7 @@ export const products = [
       },
       { // Micrófono
         id: 1,
-        value: "Si, con cable",
+        value: "No",
         feat: false,
       },
       { // Display
@@ -1733,6 +1734,1354 @@ export const products = [
       {
         sku: 'AW-P450D-SN',
         link: '/productos/AW-P450D-SN',
+      }
+    ]
+  },
+  {// AW-T451D
+    name: 'Torre de Sonido Portátil Bluetooth 4500W',
+    sku: 'AW-T451D',
+    link: '/productos/AW-T451D',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-T451D/img/1.webp',
+      '/products/AW-T451D/img/2.webp',
+      '/products/AW-T451D/img/3.webp',
+      '/products/AW-T451D/img/4.webp',
+      '/products/AW-T451D/img/5.webp',
+      '/products/AW-T451D/img/6.webp',
+      '/products/AW-T451D/img/7.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [
+      {
+        id: 1,
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil451.webp'
+      }
+    ],
+    shortDesc: 'LA POTENCIA QUE ESTABAS ESPERANDO',
+    longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/lEUuZtKHCUI",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "4500W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "2 horas (máximo volumen)",
+        feat: true,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, USB, MicroSD y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "Si, con cable",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "21 x 58 x 21 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "26 x 63 x 26 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "4 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111353278",
+        feat: false,
+      },
+    ],
+    includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T451D_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T451D_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-T451D',
+        link: '/productos/AW-T451D',
+      },
+      {
+        sku: 'AW-T451D-SA',
+        link: '/productos/AW-T451D-SA',
+      },
+      {
+        sku: 'AW-T451D-SN',
+        link: '/productos/AW-T451D-SN',
+      }
+    ]
+  },
+  {// AW-T451D-SA
+    name: 'Torre de Sonido Portátil Bluetooth 4500W',
+    sku: 'AW-T451D-SA',
+    link: '/productos/AW-T451D-SA',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-T451D/img/1.webp',
+      '/products/AW-T451D/img/2.webp',
+      '/products/AW-T451D/img/3.webp',
+      '/products/AW-T451D/img/4.webp',
+      '/products/AW-T451D/img/5.webp',
+      '/products/AW-T451D/img/6.webp',
+      '/products/AW-T451D/img/7.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil451.webp'
+      }
+    ],
+    shortDesc: 'LA POTENCIA QUE ESTABAS ESPERANDO',
+    longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/lEUuZtKHCUI",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "4500W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "2 horas (máximo volumen)",
+        feat: true,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, USB, MicroSD y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono incluido
+        id: 1,
+        value: "No",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "21 x 58 x 21 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "26 x 63 x 26 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "4 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354077",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T451D-SA_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T451D-SA_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-T451D',
+        link: '/productos/AW-T451D',
+      },
+      {
+        sku: 'AW-T451D-SA',
+        link: '/productos/AW-T451D-SA',
+      },
+      {
+        sku: 'AW-T451D-SN',
+        link: '/productos/AW-T451D-SN',
+      }
+    ]
+  },
+  {// AW-T451D-SN
+    name: 'Torre de Sonido Portátil Bluetooth 4500W',
+    sku: 'AW-T451D-SN',
+    link: '/productos/AW-T451D-SN',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-T451D/img/1.webp',
+      '/products/AW-T451D/img/2.webp',
+      '/products/AW-T451D/img/3.webp',
+      '/products/AW-T451D/img/4.webp',
+      '/products/AW-T451D/img/5.webp',
+      '/products/AW-T451D/img/6.webp',
+      '/products/AW-T451D/img/7.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil451.webp'
+      }
+    ],
+    shortDesc: 'LA POTENCIA QUE ESTABAS ESPERANDO',
+    longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/lEUuZtKHCUI",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "4500W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "2 horas (máximo volumen)",
+        feat: true,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "No",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "21 x 58 x 21 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "26 x 63 x 26 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "4 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354312",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T451D-SN_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T451D-SN_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-T451D',
+        link: '/productos/AW-T451D',
+      },
+      {
+        sku: 'AW-T451D-SA',
+        link: '/productos/AW-T451D-SA',
+      },
+      {
+        sku: 'AW-T451D-SN',
+        link: '/productos/AW-T451D-SN',
+      }
+    ]
+  },
+  {// AW-T600D
+    name: 'Torre de Sonido Portátil Bluetooth 5000W',
+    sku: 'AW-T600D',
+    link: '/productos/AW-T600D',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-T600D/img/1.webp',
+      '/products/AW-T600D/img/2.webp',
+      '/products/AW-T600D/img/3.webp',
+      '/products/AW-T600D/img/4.webp',
+      '/products/AW-T600D/img/5.webp',
+      '/products/AW-T600D/img/6.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [
+      {
+        id: 1,
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil600.webp'
+      }
+    ],
+    shortDesc: 'EL ALIADO EN TUS FIESTAS',
+    longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/eOWUeIdJV58",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "5000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "3 horas (máximo volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, USB, MicroSD y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "Si, con cable",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Ruedas y Mobile Holder",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "27,5 x 72,5 x 26,5 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "32 x 77 x 30 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "6,5 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111353285",
+        feat: false,
+      },
+    ],
+    includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T600D_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T600D_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-T600D',
+        link: '/productos/AW-T600D',
+      },
+      {
+        sku: 'AW-T600D-SA',
+        link: '/productos/AW-T600D-SA',
+      },
+      {
+        sku: 'AW-T600D-SN',
+        link: '/productos/AW-T600D-SN',
+      }
+    ]
+  },
+  {// AW-T600D-SA
+    name: 'Torre de Sonido Portátil Bluetooth 5000W',
+    sku: 'AW-T600D-SA',
+    link: '/productos/AW-T600D-SA',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-T600D/img/1.webp',
+      '/products/AW-T600D/img/2.webp',
+      '/products/AW-T600D/img/3.webp',
+      '/products/AW-T600D/img/4.webp',
+      '/products/AW-T600D/img/5.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil600.webp'
+      }
+    ],
+    shortDesc: 'EL ALIADO EN TUS FIESTAS',
+    longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/eOWUeIdJV58",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "5000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "3 horas (máximo volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, USB, MicroSD y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "No",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Ruedas y Mobile Holder",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "27,5 x 72,5 x 26,5 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "32 x 77 x 30 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "6,5 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354060",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T600D-SA_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T600D-SA_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-T600D',
+        link: '/productos/AW-T600D',
+      },
+      {
+        sku: 'AW-T600D-SA',
+        link: '/productos/AW-T600D-SA',
+      },
+      {
+        sku: 'AW-T600D-SN',
+        link: '/productos/AW-T600D-SN',
+      }
+    ]
+  },
+  {// AW-T600D-SN
+    name: 'Torre de Sonido Portátil Bluetooth 5000W',
+    sku: 'AW-T600D-SN',
+    link: '/productos/AW-T600D-SN',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-T600D/img/1.webp',
+      '/products/AW-T600D/img/2.webp',
+      '/products/AW-T600D/img/3.webp',
+      '/products/AW-T600D/img/4.webp',
+      '/products/AW-T600D/img/5.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil600.webp'
+      }
+    ],
+    shortDesc: 'EL ALIADO EN TUS FIESTAS',
+    longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/eOWUeIdJV58",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "5000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "3 horas (máximo volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "No",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Ruedas y Mobile Holder",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "27,5 x 72,5 x 26,5 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "32 x 77 x 30 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "6,5 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354329",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T600D-SN_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T600D-SN_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-T600D',
+        link: '/productos/AW-T600D',
+      },
+      {
+        sku: 'AW-T600D-SA',
+        link: '/productos/AW-T600D-SA',
+      },
+      {
+        sku: 'AW-T600D-SN',
+        link: '/productos/AW-T600D-SN',
+      }
+    ]
+  },
+  {// AW-P1200D
+    name: 'Parlante Portátil Bluetooth 6000W',
+    sku: 'AW-P1200D',
+    link: '/productos/AW-P1200D',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-P1200D/img/1.webp',
+      '/products/AW-P1200D/img/2.webp',
+      '/products/AW-P1200D/img/3.webp',
+      '/products/AW-P1200D/img/4.webp',
+      '/products/AW-P1200D/img/5.webp',
+      '/products/AW-P1200D/img/6.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    banners: [
+      {
+        id: 1,
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp'
+      }
+    ],
+    shortDesc: 'EL ALMA DE LA FIESTA',
+    longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/TMV3Btqij7M",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 12"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "6000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "3 horas (máximo volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, USB, MicroSD y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "Si, con cable",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "34 x 53 x 29 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "38 x 54 x 32 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "5 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111353537",
+        feat: false,
+      },
+    ],
+    includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1200D_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1200D_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-P1200D',
+        link: '/productos/AW-P1200D',
+      },
+      {
+        sku: 'AW-P1200D-SA',
+        link: '/productos/AW-P1200D-SA',
+      },
+      {
+        sku: 'AW-P1200D-SN',
+        link: '/productos/AW-P1200D-SN',
+      }
+    ]
+  },
+  {// AW-P1200D-SA
+    name: 'Parlante Portátil Bluetooth 6000W',
+    sku: 'AW-P1200D-SA',
+    link: '/productos/AW-P1200D-SA',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-P1200D/img/1.webp',
+      '/products/AW-P1200D/img/2.webp',
+      '/products/AW-P1200D/img/3.webp',
+      '/products/AW-P1200D/img/4.webp',
+      '/products/AW-P1200D/img/5.webp',
+      '/products/AW-P1200D/img/6.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    banners: [
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp'
+      }
+    ],
+    shortDesc: 'EL ALMA DE LA FIESTA',
+    longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/TMV3Btqij7M",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 12"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "6000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "3 horas (máximo volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, USB, MicroSD y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "No",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "34 x 53 x 29 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "38 x 54 x 32 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "5 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354091",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1200D-SA_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1200D-SA_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-P1200D',
+        link: '/productos/AW-P1200D',
+      },
+      {
+        sku: 'AW-P1200D-SA',
+        link: '/productos/AW-P1200D-SA',
+      },
+      {
+        sku: 'AW-P1200D-SN',
+        link: '/productos/AW-P1200D-SN',
+      }
+    ]
+  },
+  {// AW-P1200D-SN
+    name: 'Parlante Portátil Bluetooth 6000W',
+    sku: 'AW-P1200D-SN',
+    link: '/productos/AW-P1200D-SN',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-P1200D/img/1.webp',
+      '/products/AW-P1200D/img/2.webp',
+      '/products/AW-P1200D/img/3.webp',
+      '/products/AW-P1200D/img/4.webp',
+      '/products/AW-P1200D/img/5.webp',
+      '/products/AW-P1200D/img/6.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    banners: [
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp'
+      }
+    ],
+    shortDesc: 'EL ALMA DE LA FIESTA',
+    longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/TMV3Btqij7M",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 12"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "6000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "3 horas (máximo volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "No",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "34 x 53 x 29 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "38 x 54 x 32 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "5 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354343",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1200D-SN_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1200D-SN_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-P1200D',
+        link: '/productos/AW-P1200D',
+      },
+      {
+        sku: 'AW-P1200D-SA',
+        link: '/productos/AW-P1200D-SA',
+      },
+      {
+        sku: 'AW-P1200D-SN',
+        link: '/productos/AW-P1200D-SN',
       }
     ]
   },

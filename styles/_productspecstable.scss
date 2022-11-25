@@ -95,11 +95,26 @@ section#prod-specs {
     }
 
     .download-items {
-      @include flex(row, flex-start);
+      @include flex(row, flex-start, center);
+      div.buttons {
+        a {
+          @include btn($black, ghostwhite);
+          border-radius: 4px;
+          margin: 0 15px 10px 0;
+          @include flex;
+          svg {
+            color: ghostwhite;
+            margin-right: 5px;
+            path {
+              color: ghostwhite;
+            }
+          }
+        }
+      }
       a {
         @include btn($black, ghostwhite);
         border-radius: 4px;
-        margin: 0 15px 0 0;
+        margin: 0 15px 10px 0;
         @include flex;
         svg {
           color: ghostwhite;

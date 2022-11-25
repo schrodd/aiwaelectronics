@@ -17,7 +17,9 @@ const features = [ // Características de productos
   },
   { 
     id: 3, name: 'Woofers', icon: VolumeUp, title: 'Woofers',
-    desc:'',
+    customDesc(input) {
+      return `El poder está en los Woofers. Posee ${input}. ¡Cuidado con las vibraciones!`
+    }
   },
   { 
     id: 4, name: 'Tweeters', icon: VolumeDown, title: 'Tweeters',
