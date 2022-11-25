@@ -119,7 +119,7 @@ export const lvTwoCat = [
   },
   {
     name: 'Discontinuos',
-    desc: 'Productos discontinuos',
+    desc: 'Productos que ya no se distribuyen comercialmente',
     id: 110,
     parent: 4,
     route: '/categorias/discontinuos',

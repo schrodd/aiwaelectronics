@@ -865,7 +865,7 @@ export const products = [
     sku: 'AW-P240D',
     link: '/productos/AW-P240D',
     line: 'party',
-    categories: [101, 102], 
+    categories: [101, 102, 110], 
     imgs: [
       '/products/AW-P240D/img/1.webp',
       '/products/AW-P240D/img/2.webp',
@@ -1321,11 +1321,11 @@ export const products = [
       },
       {
         id: 2,
-        customImg: fileserver + '/banners/tws240.webp'
+        customImg: fileserver + '/banners/tws450.webp'
       },
       {
         id: 6,
-        customImg: fileserver + '/banners/portatil240.webp'
+        customImg: fileserver + '/banners/bar450.webp'
       }
     ],
     shortDesc: 'TU COMPAÑÍA INDISPENSABLE',
@@ -1431,6 +1431,294 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P450D_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-P450D',
+        link: '/productos/AW-P450D',
+      },
+      {
+        sku: 'AW-P450D-SA',
+        link: '/productos/AW-P450D-SA',
+      },
+      {
+        sku: 'AW-P450D-SN',
+        link: '/productos/AW-P450D-SN',
+      }
+    ]
+  },
+  {// AW-P450D-SA
+    name: 'Parlante Portátil Bluetooth 4500W',
+    sku: 'AW-P450D-SA',
+    link: '/productos/AW-P450D-SA',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-P450D/img/1.webp',
+      '/products/AW-P450D/img/2.webp',
+      '/products/AW-P450D/img/3.webp',
+      '/products/AW-P450D/img/4.webp',
+      '/products/AW-P450D/img/5.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    banners: [
+      { // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+        id: 2,
+        customImg: fileserver + '/banners/tws450.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/bar450.webp'
+      }
+    ],
+    shortDesc: 'TU COMPAÑÍA INDISPENSABLE',
+    longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/3lIKM_uQuqk",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "4500W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "2 horas (máximo volumen)",
+        feat: true,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, USB, MicroSD y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "Si, con cable",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte y Ranura para Trípode",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "23 x 39 x 21 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "25 x 42 x 24 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "3 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354206",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P450D-SA_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P450D-SA_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-P450D',
+        link: '/productos/AW-P450D',
+      },
+      {
+        sku: 'AW-P450D-SA',
+        link: '/productos/AW-P450D-SA',
+      },
+      {
+        sku: 'AW-P450D-SN',
+        link: '/productos/AW-P450D-SN',
+      }
+    ]
+  },
+  {// AW-P450D-SN
+    name: 'Parlante Portátil Bluetooth 4500W',
+    sku: 'AW-P450D-SN',
+    link: '/productos/AW-P450D-SN',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-P450D/img/1.webp',
+      '/products/AW-P450D/img/2.webp',
+      '/products/AW-P450D/img/3.webp',
+      '/products/AW-P450D/img/4.webp',
+      '/products/AW-P450D/img/5.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    banners: [
+      { // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+        id: 2,
+        customImg: fileserver + '/banners/tws450.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/bar450.webp'
+      }
+    ],
+    shortDesc: 'TU COMPAÑÍA INDISPENSABLE',
+    longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/3lIKM_uQuqk",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "4500W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 3.7V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "2 horas (máximo volumen)",
+        feat: true,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Volumen y Eco de Micrófono",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "Si, con cable",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte y Ranura para Trípode",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "23 x 39 x 21 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "25 x 42 x 24 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "3 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354305",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P450D-SN_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P450D-SN_FICHA.pdf'
       }
     ],
     variants: [

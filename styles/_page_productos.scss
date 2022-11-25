@@ -26,7 +26,7 @@ section.product-page {
           position: absolute;
           top: 0;
           left: 0;
-          z-index: 5;
+          // z-index: 5;
         }
         @include mobile {
           border-top: 2px solid white;
@@ -80,6 +80,11 @@ section.product-page {
         }
       }
       &[linea=party] {
+        div.text-wrapper {
+          @include pc {
+            backdrop-filter: blur(10px);
+          }
+        }
         background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/party.webp');
         background-position: center;
         background-size: cover;

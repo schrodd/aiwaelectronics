@@ -1,5 +1,6 @@
 import Image from "next/image";
 import lineas from '../../content/lineas'
+import Link from "next/link";
 
 export default function Product({product, index}){
   const classes = index % 2 === 0 ? `product ${product.sku}` : `product ${product.sku} dark`
@@ -16,7 +17,9 @@ export default function Product({product, index}){
         <p className='sku'>{product.sku}</p>
         <h3>{product.shortDesc}</h3>
         <h4>{product.longDesc}</h4>
-        <button>Ver más</button>
+        <Link href={product.link}>
+          <button>Ver más</button>
+        </Link>
       </div>
     </div>
   )
