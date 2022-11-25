@@ -1775,6 +1775,11 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/lEUuZtKHCUI",
+      },
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/lEUuZtKHCUI",
       }
     ],
     features: [
@@ -3085,6 +3090,158 @@ export const products = [
       }
     ]
   },
+  {// AW-P1510D
+    name: 'Parlante Portátil Bluetooth 7000W',
+    sku: 'AW-P1510D',
+    link: '/productos/AW-P1510D',
+    line: 'party',
+    categories: [101, 102], 
+    imgs: [
+      '/products/AW-P1510D/img/1.webp',
+      '/products/AW-P1510D/img/2.webp',
+      '/products/AW-P1510D/img/3.webp',
+      '/products/AW-P1510D/img/4.webp',
+      '/products/AW-P1510D/img/5.webp',
+      '/products/AW-P1510D/img/6.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    banners: [
+      {
+        id: 1,
+        customTitle: "Micrófono Inalámbrico Incluido"
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp'
+      }
+    ],
+    shortDesc: 'LA DISTANCIA NO ES PROBLEMA',
+    longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/tLHabla-j4o",
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 15"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "7000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "3 horas (máximo volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Volumen y Eco de Mic",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, Guitarra, USB, MicroSD y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "Si, inalámbrico",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "40 x 61 x 30 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "41 x 67 x 34,5 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "5 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111353544",
+        feat: false,
+      },
+    ],
+    includes: 'Micrófono inalámbrico, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1510D_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1510D_FICHA.pdf'
+      }
+    ],
+    variants: [
+      {
+        sku: 'AW-P1510D',
+        link: '/productos/AW-P1510D',
+      },
+      {
+        sku: 'AW-P1510D-SN',
+        link: '/productos/AW-P1510D-SN',
+      }
+    ]
+  },
+  
 ]
 
 export const variants = []
