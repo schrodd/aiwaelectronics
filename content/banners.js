@@ -57,7 +57,13 @@ const banners = [
     title: `Iluminá cualquier espacio`,
     desc: 'Elegí si queres acompañar tu música con sus brillantes luces rgb o si preferís dejarlas apagadas.',
     img: fileserver + '/banners/2040luces.webp',
-  }
+  },
+  {
+    id: 10,
+    title: `Ecualizá tu música`,
+    desc: '¡Personalizá tu música como un verdadero Dj! Con las Bandas Ecualizadoras podés ajustar las frecuencias de sonido como más te guste, o simplemente experimentar tu música de otra manera',
+    img: fileserver + '/banners/eq2.webp',
+  }  
 ]
 
 export default banners

@@ -8,7 +8,9 @@ import fx from '../public/svg/fx.svg'
 import guitar from '../public/svg/guitar.svg'
 import guitmic from '../public/svg/guitmic.svg'
 import handle from '../public/svg/handle.svg'
+import horizontal from '../public/svg/horizontal.svg'
 import lights from '../public/svg/lights.svg'
+import megabass from '../public/svg/megabass.svg'
 import mic from '../public/svg/mic.svg'
 import micreg from '../public/svg/micreg.svg'
 import phone from '../public/svg/phone.svg'
@@ -22,6 +24,7 @@ import sd from '../public/svg/sd.svg'
 import speaker from '../public/svg/speaker.svg'
 import tripod from '../public/svg/tripod.svg'
 import tws from '../public/svg/tws.svg'
+import usb from '../public/svg/usb.svg'
 import wheel from '../public/svg/wheel.svg'
 import wirelessmic from '../public/svg/wirelessmic.svg'
 import wood from '../public/svg/wood.svg'
@@ -139,6 +142,15 @@ const featuredFeatures = [ // Características destacadas de productos
   },
   { id: 30, name: 'Empuñadura de Transporte', icon: handle,
     desc: '¡Llevalo a donde sea! Es muy ligero y además posee Empuñadura de Transporte'
+  },
+  { id: 31, name: 'Mega Bass', icon: megabass,
+    desc: '¡Incrementá los graves con la función MEGA BASS!'
+  },
+  { id: 32, name: 'Uso Horizontal', icon: horizontal,
+    desc: 'Usalo de forma vertical u horizontal según la ocasión'
+  },
+  { id: 33, name: 'Conexión USB', icon: usb,
+    desc: 'Posee puerto USB para que conectes tu pendrive o dispositivo'
   },
 ]
 

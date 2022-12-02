@@ -92,102 +92,102 @@ export const products = [
       {
         id: 3,
         value: `2 de 8"`,
-        feat: false,
+        
       },
       {
         id: 4,
         value: `1 de 2"`,
-        feat: false,
+        
       },
       {
         id: 2,
         value: "12000W PMPO",
-        feat: true,
+        
       },
       {
         id: 10,
         value: "Interna Recargable 12V / 4.5Ah",
-        feat: false,
+        
       },
       {
         id: 11,
         value: "5 horas (según volumen)",
-        feat: true,
+        
       },
       {
         id: 20,
         value: "No",
-        feat: false,
+        
       },
       {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
-        feat: true,
+        
       },
       {
         id: 9,
         value: "Bluetooth v5.0",
-        feat: false,
+        
       },
       {
         id: 13,
         value: "TWS, Radio FM, REC",
-        feat: true,
+        
       },
       {
         id: 5,
         value: "Graves, Agudos y Eco de Micrófono",
-        feat: true,
+        
       },
       {
         id: 7,
         value: "Si, 3",
-        feat: true,
+        
       },
       {
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: true,
+        
       },
       {
         id: 1,
         value: "Si, inalámbrico",
-        feat: true,
+        
       },
       {
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       {
         id: 14,
         value: "Madera",
-        feat: false,
+        
       },
       {
         id: 15,
         value: "Ruedas / Empuñaduras de Transporte",
-        feat: false,
+        
       },
       {
         id: 16,
         value: "31 x 83 x 31 cm",
-        feat: false,
+        
       },
       {
         id: 17,
         value: "35,5 x 88 x 35,5 cm",
-        feat: false,
+        
       },
       {
         id: 18,
         value: "13,75 Kg",
-        feat: false,
+        
       },
       {
         id: 19,
         value: "7798111353957",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono Inalámbrico, Control Remoto, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-0), Manual de Instrucciones y Garantía',
@@ -299,102 +299,102 @@ export const products = [
       {
         id: 3,
         value: `2 de 8"`,
-        feat: false,
+        
       },
       {
         id: 4,
         value: `1 de 2"`,
-        feat: false,
+        
       },
       {
         id: 2,
         value: "13000W PMPO",
-        feat: true,
+        
       },
       {
         id: 10,
         value: "Interna Recargable 12V / 4.5Ah",
-        feat: false,
+        
       },
       {
         id: 11,
         value: "5 horas (según volumen)",
-        feat: true,
+        
       },
       {
         id: 20,
         value: "Si",
-        feat: true,
+        
       },
       {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
-        feat: false,
+        
       },
       {
         id: 9,
         value: "Bluetooth v5.0",
-        feat: false,
+        
       },
       {
         id: 13,
         value: "TWS, Power Bank (cargá tus dispositivos)",
-        feat: true,
+        
       },
       {
         id: 5,
         value: "Graves, Agudos y Eco de Micrófono",
-        feat: true,
+        
       },
       {
         id: 7,
         value: "Si, 3",
-        feat: true,
+        
       },
       {
         id: 8,
         value: "Guitarra,  Micrófono y Auxiliar",
-        feat: true,
+        
       },
       {
         id: 1,
         value: "Si, inalámbrico",
-        feat: true,
+        
       },
       {
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       {
         id: 14,
         value: "Madera",
-        feat: false,
+        
       },
       {
         id: 15,
         value: "Ruedas / Empuñaduras de Transporte",
-        feat: false,
+        
       },
       {
         id: 16,
         value: "31 x 83 x 31 cm",
-        feat: false,
+        
       },
       {
         id: 17,
         value: "35,5 x 88 x 35,5 cm",
-        feat: false,
+        
       },
       {
         id: 18,
         value: "13,75 Kg",
-        feat: false,
+        
       },
       {
         id: 19,
         value: "7798111353957",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono Inalámbrico, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-0), Manual de Instrucciones y Garantía',
@@ -503,102 +503,102 @@ export const products = [
       {
         id: 3,
         value: `2 de 10"`,
-        feat: false,
+        
       },
       {
         id: 4,
         value: `1 de 2"`,
-        feat: false,
+        
       },
       {
         id: 2,
         value: "13500W PMPO",
-        feat: true,
+        
       },
       {
         id: 10,
         value: "Interna Recargable 12V / 7.5Ah",
-        feat: false,
+        
       },
       {
         id: 11,
         value: "6 horas (según volumen)",
-        feat: true,
+        
       },
       {
         id: 20,
         value: "No",
-        feat: false,
+        
       },
       {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
-        feat: true,
+        
       },
       {
         id: 9,
         value: "Bluetooth v5.0",
-        feat: false,
+        
       },
       {
         id: 13,
         value: "TWS, Radio FM, REC",
-        feat: true,
+        
       },
       {
         id: 5,
         value: "Graves, Agudos y Eco de Micrófono",
-        feat: true,
+        
       },
       {
         id: 7,
         value: "Si, 3",
-        feat: true,
+        
       },
       {
         id: 8,
         value: "Guitarra,  Micrófono, USB, MicroSD y Auxiliar",
-        feat: true,
+        
       },
       {
         id: 1,
         value: "Si, inalámbrico",
-        feat: true,
+        
       },
       {
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       {
         id: 14,
         value: "Madera",
-        feat: false,
+        
       },
       {
         id: 15,
         value: "Ruedas / Empuñaduras de Transporte",
-        feat: false,
+        
       },
       {
         id: 16,
         value: "31 x 108 x 31 cm",
-        feat: false,
+        
       },
       {
         id: 17,
         value: "35,5 x 112 x 35,5 cm",
-        feat: false,
+        
       },
       {
         id: 18,
         value: "15,5 Kg",
-        feat: false,
+        
       },
       {
         id: 19,
         value: "7798111353995",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono Inalámbrico, Control Remoto, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-0), Manual de Instrucciones y Garantía',
@@ -710,102 +710,102 @@ export const products = [
       {
         id: 3,
         value: `2 de 10"`,
-        feat: false,
+        
       },
       {
         id: 4,
         value: `1 de 2"`,
-        feat: false,
+        
       },
       {
         id: 2,
         value: "14500W PMPO",
-        feat: true,
+        
       },
       {
         id: 10,
         value: "Interna Recargable 12V / 7.5Ah",
-        feat: false,
+        
       },
       {
         id: 11,
         value: "6 horas (según volumen)",
-        feat: true,
+        
       },
       {
         id: 20,
         value: "Si",
-        feat: true,
+        
       },
       {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
-        feat: true,
+        
       },
       {
         id: 9,
         value: "Bluetooth v5.0",
-        feat: false,
+        
       },
       {
         id: 13,
         value: "TWS, Power Bank (Cargá tus dispositivos)",
-        feat: true,
+        
       },
       {
         id: 5,
         value: "Graves, Agudos y Eco de Micrófono",
-        feat: true,
+        
       },
       {
         id: 7,
         value: "Si, 3",
-        feat: true,
+        
       },
       {
         id: 8,
         value: "Guitarra, Micrófono y Auxiliar",
-        feat: true,
+        
       },
       {
         id: 1,
         value: "Si, inalámbrico",
-        feat: true,
+        
       },
       {
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       {
         id: 14,
         value: "Madera",
-        feat: false,
+        
       },
       {
         id: 15,
         value: "Ruedas / Empuñaduras de Transporte",
-        feat: false,
+        
       },
       {
         id: 16,
         value: "31 x 108 x 31 cm",
-        feat: false,
+        
       },
       {
         id: 17,
         value: "35,5 x 112 x 35,5 cm",
-        feat: false,
+        
       },
       {
         id: 18,
         value: "15,5 Kg",
-        feat: false,
+        
       },
       {
         id: 19,
         value: "7798111354374",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono Inalámbrico, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-0), Manual de Instrucciones y Garantía',
@@ -919,102 +919,102 @@ export const products = [
       {
         id: 3,
         value: `3 de 10"`,
-        feat: false,
+        
       },
       {
         id: 4,
         value: `1 de 2"`,
-        feat: false,
+        
       },
       {
         id: 2,
         value: "16000W PMPO",
-        feat: true,
+        
       },
       {
         id: 10,
         value: "Interna Recargable 12V / 7.5Ah",
-        feat: false,
+        
       },
       {
         id: 11,
         value: "6 horas (según volumen)",
-        feat: true,
+        
       },
       {
         id: 20,
         value: "Si",
-        feat: true,
+        
       },
       {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
-        feat: false,
+        
       },
       {
         id: 9,
         value: "Bluetooth v5.0",
-        feat: false,
+        
       },
       {
         id: 13,
         value: "TWS, Power Bank",
-        feat: true,
+        
       },
       {
         id: 5,
         value: "Graves, Agudos y Eco de Micrófono",
-        feat: true,
+        
       },
       {
         id: 7,
         value: "Si",
-        feat: true,
+        
       },
       {
         id: 8,
         value: "Guitarra,  Micrófono y Auxiliar",
-        feat: true,
+        
       },
       {
         id: 1,
         value: "Si, inalámbrico",
-        feat: true,
+        
       },
       {
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       {
         id: 14,
         value: "Madera",
-        feat: false,
+        
       },
       {
         id: 15,
         value: "Ruedas / Empuñaduras de Transporte",
-        feat: false,
+        
       },
       {
         id: 16,
         value: "31 x 149 x 31 cm",
-        feat: false,
+        
       },
       {
         id: 17,
         value: "35,5 x 154 x 35,5 cm",
-        feat: false,
+        
       },
       {
         id: 18,
         value: "20,7 Kg",
-        feat: false,
+        
       },
       {
         id: 19,
         value: "7798111354442",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono Inalámbrico, Cable Auxiliar, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-2), Manual de Instrucciones y Garantía',
@@ -1107,82 +1107,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 8"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "2500W PMPO",
-        feat: false,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: false,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: true,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: true,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: true,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: true,
+        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        feat: true,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: true,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "25 x 36 x 19 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 38 x 21 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "2 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111353308",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
@@ -1278,82 +1278,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 8"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "2500W PMPO",
-        feat: false,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: true,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: true,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: true,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: true,
+        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: true,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "25 x 36 x 19 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 38 x 21 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "2 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354084",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
@@ -1444,82 +1444,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 8"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "2500W PMPO",
-        feat: false,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: true,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        feat: true,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: true,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        feat: true,
+        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: true,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "25 x 36 x 19 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 38 x 21 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "2 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354299",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
@@ -1608,82 +1608,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "2 horas (máximo volumen)",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte y Ranura para Trípode",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "23 x 39 x 21 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "25 x 42 x 24 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "3 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111353292",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
@@ -1777,82 +1777,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "2 horas (máximo volumen)",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte y Ranura para Trípode",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "23 x 39 x 21 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "25 x 42 x 24 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "3 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354206",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
@@ -1942,82 +1942,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "2 horas (máximo volumen)",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte y Ranura para Trípode",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "23 x 39 x 21 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "25 x 42 x 24 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "3 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354305",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
@@ -2113,82 +2113,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "2 horas (máximo volumen)",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "21 x 58 x 21 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 63 x 26 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "4 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111353278",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
@@ -2284,82 +2284,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "2 horas (máximo volumen)",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono incluido
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "21 x 58 x 21 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 63 x 26 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "4 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354077",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
@@ -2451,82 +2451,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "2 horas (máximo volumen)",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "21 x 58 x 21 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 63 x 26 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "4 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354312",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
@@ -2615,87 +2615,87 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "5000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Mobile Holder",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "27,5 x 72,5 x 26,5 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "32 x 77 x 30 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "6,5 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111353285",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
@@ -2788,87 +2788,87 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "5000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Mobile Holder",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "27,5 x 72,5 x 26,5 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "32 x 77 x 30 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "6,5 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354060",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
@@ -2957,87 +2957,87 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "5000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Mobile Holder",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "27,5 x 72,5 x 26,5 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "32 x 77 x 30 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "6,5 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354329",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
@@ -3126,87 +3126,87 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 12"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "34 x 53 x 29 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "38 x 54 x 32 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "5 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111353537",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
@@ -3300,87 +3300,87 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 12"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "34 x 53 x 29 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "38 x 54 x 32 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "5 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354091",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
@@ -3470,87 +3470,87 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 12"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "34 x 53 x 29 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "38 x 54 x 32 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "5 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354343",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
@@ -3654,87 +3654,87 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 15"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "7000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 7.4V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Volumen y Eco de Mic",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, Guitarra, USB, MicroSD y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "Si, inalámbrico",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "40 x 61 x 30 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "41 x 67 x 34,5 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "5 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111353544",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono inalámbrico, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
@@ -3843,87 +3843,87 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 15"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "7000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 7.4V / 1800mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Volumen y Eco de Mic",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, Guitarra y Auxiliar",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "Si, inalámbrico",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "40 x 61 x 30 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "41 x 67 x 34,5 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "5 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354336",
-        feat: false,
+        
       },
     ],
     includes: 'Micrófono inalámbrico, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
@@ -4029,87 +4029,87 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 15"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "9000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 12V / 4500mAh",
-        feat: true,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM, REC",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Vol. y Eco de Mic, Vol. de Guitarra",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Guitarra, Micrófono, USB, MicroSD, Auxiliar y de línea",
-        feat: false,
+        
       },
       { // Altura de Tripode
         id: 21,
         value: "Mín. 70 cm - Máx. 120 cm",
-        feat: false,
+        
       },
       { // Micrófono
         id: 1,
         value: "Si, inalámbrico",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "41 x 65,5 x 36 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "48 x 75 x 44,5 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "13 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111353438",
-        feat: false,
+        
       },
     ],
     includes: 'Trípode de 1.2m, Micrófono inalámbrico UHF, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01388-T-1), Manual de Instrucciones y Garantía',
@@ -4210,82 +4210,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 2"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Litio 3,7v / 3600mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "Hasta 8 horas (según volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth 5.0",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Power Bank",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Vol. y Eco de Mic",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Auxiliar, Micrófono x2",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Mobile Holder",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "27,5 x 72,5 x 26,5 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "32 x 77 x 30,5 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "4,2 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354398",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Cable de Alimentación USB, Manual de Instrucciones y Garantía',
@@ -4386,82 +4386,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 2"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Litio 3,7v / 3600mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "Hasta 8 horas (según volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth 5.0",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Power Bank",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Vol. y Eco de Mic",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Auxiliar, Micrófono x2",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Mobile Holder",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "27,5 x 72,5 x 26,5 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "32 x 77 x 30,5 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "4,2 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354398",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Cable de Alimentación USB, Manual de Instrucciones y Garantía',
@@ -4562,82 +4562,82 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        feat: true,
+        
       },
       { // Tweeters
         id: 4,
         value: `1 de 2"`,
-        feat: false,
+        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        feat: true,
+        
       },
       { // Batería
         id: 10,
         value: "Litio 3,7v / 3600mAh",
-        feat: true,
+        
       },
       { // Duración de batería
         id: 11,
         value: "Hasta 8 horas (según volumen)",
-        feat: false,
+        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        feat: false,
+        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth 5.0",
-        feat: true,
+        
       },
       { // Funciones
         id: 13,
         value: "TWS, Power Bank",
-        feat: false,
+        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Vol. y Eco de Mic",
-        feat: false,
+        
       },
       { // Entradas
         id: 8,
         value: "Auxiliar, Micrófono x2",
-        feat: false,
+        
       },
       { // Display
         id: 6,
         value: "Si",
-        feat: false,
+        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Mobile Holder",
-        feat: false,
+        
       },
       { // Medidas del producto
         id: 16,
         value: "27,5 x 72,5 x 26,5 cm",
-        feat: false,
+        
       },
       { // Medidas de la caja
         id: 17,
         value: "32 x 77 x 30,5 cm",
-        feat: false,
+        
       },
       { // Peso
         id: 18,
         value: "4,2 Kg",
-        feat: false,
+        
       },
       { // EAN
         id: 19,
         value: "7798111354398",
-        feat: false,
+        
       },
     ],
     includes: 'Cable Auxiliar, Cable de Alimentación USB, Manual de Instrucciones y Garantía',
@@ -4651,6 +4651,1261 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2044_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  
+  /////////////// LINEA INFINIT ////////////////
+
+  {// AW-T2021
+    name: 'Torre de Sonido Bluetooth 9500W',
+    sku: 'AW-T2021',
+    link: '/productos/AW-T2021',
+    line: 'infinit',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T2021/img/1.webp',
+      '/products/AW-T2021/img/2.webp',
+      '/products/AW-T2021/img/3.webp',
+      '/products/AW-T2021/img/4.webp',
+      '/products/AW-T2021/img/5.webp',
+      '/products/AW-T2021/img/6.webp',
+      '/products/AW-T2021/img/7.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 1,
+        customTitle: 'Micrófono inalámbrico incluido',
+      },
+      {id: 3},
+      {id: 10},
+      {id: 4},
+    ],
+    shortDesc: 'ECUALIZADOR PRECISO',
+    longDesc: "Efectos de luces en forma de anillos Led agregarán un toque fantástico a donde los lleves. Podrás ajustar el sonido a gusto como un verdadero Dj.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '9500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 8"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Mega Bass
+        id: 31,
+      },
+      { // Entrada Mic 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 7.4V / 3600mAh'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "9500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Duración de batería
+        id: 11,
+        value: "Hasta 5 horas (según volumen)",
+      },
+      { // Luces
+        id: 12,
+        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank, Mega Bass",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Frecuencias, Graves, Agudos, Eco y Vol. de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, Micrófono y Guitarra",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "30 x 66 x 30 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "37 x 73,3 x 35,5 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "8,45 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354251",
+      },
+      { // Características Técnicas
+        id: 22,
+        value: "100-240V~ / 50-60Hz / 40W / Clase II",
+      },
+    ],
+    includes: 'Micrófono Inalámbrico | Cable de Alimentación (Nª de Certificación: Q-AR-01590-T-1) | Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2021_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2021_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T2022
+    name: 'Torre de Sonido Bluetooth 8500W',
+    sku: 'AW-T2022',
+    link: '/productos/AW-T2022',
+    line: 'infinit',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T2022/img/1.webp',
+      '/products/AW-T2022/img/2.webp',
+      '/products/AW-T2022/img/3.webp',
+      '/products/AW-T2022/img/4.webp',
+      '/products/AW-T2022/img/5.webp',
+      '/products/AW-T2022/img/6.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2044luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2044.webp'
+      },
+    ],
+    shortDesc: 'TRANSPORTÁ TU MÚSICA',
+    longDesc: "Con la Correa de fácil transporte podés moverte con tu música de la terraza, a la playa o en donde mas gustes. Práctica, liviana y portatil, con un sonido potente.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '8500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Entrada Mic y Guitarra
+        id: 21,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Uso Horizontal
+        id: 32,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 7.4V / 3600mAh'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "8500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Duración de batería
+        id: 11,
+        value: "Hasta 5 horas (según volumen)",
+      },
+      { // Luces
+        id: 12,
+        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Agudos y Graves",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, Micrófono y Guitarra",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Correa para Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "59,4 x 28 x 24,5 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "68,7 x 34 x 30 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "6,6 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354268",
+      },
+      { // Características Técnicas
+        id: 22,
+        value: "100-240V~ / 50-60Hz / 40W / Clase II",
+      },
+    ],
+    includes: 'Correa para Transporte | Fuente de Alimentación (Nª de Certificación: Q-AR-01590-T-1) | Manual de Instrucciones y Garantía.',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2022_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2022_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T2018R
+    name: 'Torre de Sonido Bluetooth 8000W',
+    sku: 'AW-T2018R',
+    link: '/productos/AW-T2018R',
+    line: 'infinit',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T2018R/img/1.webp',
+      '/products/AW-T2018R/img/2.webp',
+      '/products/AW-T2018R/img/3.webp',
+      '/products/AW-T2018R/img/4.webp',
+      '/products/AW-T2018R/img/5.webp',
+      '/products/AW-T2018R/img/6.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2044luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2044.webp'
+      },
+    ],
+    shortDesc: 'FIESTA DONDE VAYAS',
+    longDesc: "Una torre práctica y portátil, con un sonido potente. Con la Empuñadura de Fácil Transporte podés moverte con tu música por donde más gustes.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '8000W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 8"'
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Eco
+        id: 23,
+      },
+      { // Doble Entrada Mic 
+        id: 27,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 7.4V / 3600mAh'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '6 horas (según volumen)'
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 8"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "8000W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Duración de batería
+        id: 11,
+        value: "Hasta 6 horas (según volumen)",
+      },
+      { // Luces
+        id: 12,
+        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos y Eco de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, Micrófono x2",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "32 x 56,5 x 32 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "37,5 x 6,08 x 36,5 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "5,95 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354435",
+      },
+      { // Características Técnicas
+        id: 22,
+        value: "100-240V~ / 50-60Hz / 25W / Clase II",
+      },
+    ],
+    includes: 'Cable Auxiliar | Cable de Alimentación (Nª de Certificación: Q-AR-01590-T-2) | Manual de Instrucciones y Garantía.',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2018R_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2018R_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T2050R
+    name: 'Torre de Sonido Bluetooth 8000W',
+    sku: 'AW-T2050R',
+    link: '/productos/AW-T2050R',
+    line: 'infinit',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T2050R/img/1.webp',
+      '/products/AW-T2050R/img/2.webp',
+      '/products/AW-T2050R/img/3.webp',
+      '/products/AW-T2050R/img/4.webp',
+      '/products/AW-T2050R/img/5.webp',
+      '/products/AW-T2050R/img/6.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2044luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2044.webp'
+      },
+    ],
+    shortDesc: 'LLEVALO CON VOS',
+    longDesc: "Una torre liviana, práctica y portatil, con un sonido potente. Sus deslumbrantes efectos de luces en forma de anillos le darán ese toque mágico a todos tus momentos.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '8000W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Eco y Vol Mic
+        id: 28,
+      },
+      { // Doble Entrada Mic 
+        id: 27,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 7.4V / 3600mAh'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '8 horas (según volumen)'
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "7000W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Duración de batería
+        id: 11,
+        value: "Hasta 6 horas (según volumen)",
+      },
+      { // Luces
+        id: 12,
+        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos y Eco de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, Micrófono x2",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "26 x 59 x 30 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "37 x 73,3 x 25 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "5,35 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354428",
+      },
+      { // Características Técnicas
+        id: 22,
+        value: "100-240V~ / 50-60Hz / 0.6A MAX / Clase II",
+      },
+    ],
+    includes: 'Cable Auxiliar | Cargador (Nª de Certificación: RA 4183955 E) | Manual de Instrucciones y Garantía.',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2050R_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2050R_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T506R
+    name: 'Torre de Sonido Bluetooth 6500W',
+    sku: 'AW-T506R',
+    link: '/productos/AW-T506R',
+    line: 'infinit',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T506R/img/1.webp',
+      '/products/AW-T506R/img/2.webp',
+      '/products/AW-T506R/img/3.webp',
+      '/products/AW-T506R/img/4.webp',
+      '/products/AW-T506R/img/5.webp',
+      '/products/AW-T506R/img/6.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2044luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2044.webp'
+      },
+    ],
+    shortDesc: 'MÁS VERSATILIDAD',
+    longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Eco y Vol Mic
+        id: 28,
+      },
+      { // Doble Entrada Mic 
+        id: 27,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Uso Horizontal
+        id: 32,
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '8 horas (según volumen)'
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      },
+      { // Radio
+        id: 25,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "6500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Eco y Volumen de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, USB, Micro SD, Micrófono x2",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "25 x 59 x 23 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "30 x 64 x 28 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "4,2 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111353988",
+      },
+    ],
+    includes: 'Micrófono con Cable / Control Remoto / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T506R_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T506R_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T506R-PB
+    name: 'Torre de Sonido Bluetooth 6500W',
+    sku: 'AW-T506R-PB',
+    link: '/productos/AW-T506R-PB',
+    line: 'infinit',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T506R-PB/img/1.webp',
+      '/products/AW-T506R-PB/img/2.webp',
+      '/products/AW-T506R-PB/img/3.webp',
+      '/products/AW-T506R-PB/img/4.webp',
+      '/products/AW-T506R-PB/img/5.webp',
+      '/products/AW-T506R-PB/img/6.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2044luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2044.webp'
+      },
+    ],
+    shortDesc: 'MÁS VERSATILIDAD',
+    longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Eco y Vol Mic
+        id: 28,
+      },
+      { // Doble Entrada Mic 
+        id: 27,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Uso Horizontal
+        id: 32,
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '8 horas (según volumen)'
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      },
+      { // Power Bank
+        id: 13,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "6500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Eco y Volumen de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, Micrófono x2",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "25 x 59 x 23 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "30 x 64 x 28 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "4,2 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354350",
+      },
+    ],
+    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T506R-PB_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T506R-PB_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T265SF
+    name: 'Torre de Sonido Bluetooth 6500W',
+    sku: 'AW-T265SF',
+    link: '/productos/AW-T265SF',
+    line: 'infinit',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T265SF/img/1.webp',
+      '/products/AW-T265SF/img/2.webp',
+      '/products/AW-T265SF/img/3.webp',
+      '/products/AW-T265SF/img/4.webp',
+      '/products/AW-T265SF/img/5.webp',
+      '/products/AW-T265SF/img/6.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2044luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2044.webp'
+      },
+    ],
+    shortDesc: 'MÁS VERSATILIDAD',
+    longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Eco y Vol Mic
+        id: 28,
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      },
+      { // Doble Entrada Mic 
+        id: 27,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Uso Horizontal
+        id: 32,
+      },
+      { // Memoria
+        id: 26,
+      },
+      { // USB
+        id: 33,
+      },
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "6500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Eco y Volumen de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, USB, Micro SD, Micrófono x2",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "25 x 59 x 23 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "30 x 64 x 28 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "4,2 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354039",
+      },
+    ],
+    includes: 'Micrófono con Cable / Control Remoto / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T265SF_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T265SF_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T265SF-SA
+    name: 'Torre de Sonido Bluetooth 6500W',
+    sku: 'AW-T265SF-SA',
+    link: '/productos/AW-T265SF-SA',
+    line: 'infinit',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T265SF-SA/img/1.webp',
+      '/products/AW-T265SF-SA/img/2.webp',
+      '/products/AW-T265SF-SA/img/3.webp',
+      '/products/AW-T265SF-SA/img/4.webp',
+      '/products/AW-T265SF-SA/img/5.webp',
+      '/products/AW-T265SF-SA/img/6.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2044luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2044.webp'
+      },
+    ],
+    shortDesc: 'MÁS VERSATILIDAD',
+    longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Eco y Vol Mic
+        id: 28,
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      },
+      { // Doble Entrada Mic 
+        id: 27,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Uso Horizontal
+        id: 32,
+      },
+      { // Memoria
+        id: 26,
+      },
+      { // USB
+        id: 33,
+      },
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "6500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Eco y Volumen de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, USB, Micro SD, Micrófono x2",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "25 x 59 x 23 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "30 x 64 x 28 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "4,2 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354350",
+      },
+    ],
+    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T265SF-SA_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T265SF-SA_FICHA.pdf'
       }
     ],
     variants: []

@@ -42,6 +42,7 @@ section.product-page {
           border-radius: 0 5px 5px 0;
           transition: all .3s ease-in-out;
           font-size: 13px;
+
           @include pc {
             padding-left: 5%;
           }
@@ -52,6 +53,7 @@ section.product-page {
             background-color: rgba(0,0,0,.8);
           }
           p.sku {
+            margin-top: 15px;
             font-weight: bold;
             font-size: 14px;
             font-family: DINPRO;
@@ -78,6 +80,16 @@ section.product-page {
         background-size: cover;
         @include mobile {
           background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/ring-mob.webp');
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      }
+      &[linea=infinit] {
+        background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/infinit.webp');
+        background-position: center;
+        background-size: cover;
+        @include mobile {
+          background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/infinit-mob.webp');
           background-position: center;
           background-repeat: no-repeat;
         }

@@ -61,6 +61,9 @@ const features = [ // Características de productos
   },
   {
     id: 21, name: 'Altura de trípode',
+  },
+  {
+    id: 22, name: 'Características Técnicas',
   }
 ]
 
