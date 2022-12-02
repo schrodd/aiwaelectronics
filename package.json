@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -26,6 +27,7 @@
     "swiper": "^8.3.2"
   },
   "devDependencies": {
+    "@svgr/webpack": "^6.5.1",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
     "sass": "^1.54.7"

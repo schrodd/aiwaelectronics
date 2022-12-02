@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
+/*
+/** @type {import('next').NextConfig} 
 const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
@@ -8,3 +9,20 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+*/
+
+module.exports = {
+  webpack(config) {
+    config.module.rules.push({
+      test: /\.svg$/,
+      use: ["@svgr/webpack"]
+    });
+
+    return config;
+  },
+  reactStrictMode: false,
+  swcMinify: true,
+  images: {
+    domains: ['aiwaelectronics.com.ar'],
+  }
+};

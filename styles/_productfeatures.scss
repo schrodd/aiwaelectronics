@@ -32,6 +32,11 @@ section.product-features {
           background: $whiteDegInv;
           border-radius: 100%;
           @include hoverScale(1.05);
+          path, circle, rect {
+            color: inherit;
+            background: inherit;
+            fill: inherit !important;
+          }
           div.background {
             border-radius: 100%;
             padding: 10px 10px 6px 10px;
@@ -66,17 +71,34 @@ section.product-features {
     background-color: white;
     flex-grow: 1;
     padding: 40px 80px;
+    position: relative;
     @include mobile {
       padding: 40px;
     }
     @include flex;
+    div.icon-shadow {
+      position: absolute;
+      right: 50px;
+      opacity: .02;
+      svg {
+        width: 250px;
+        @include mobile {
+          width: 150px;
+        }
+      }
+    }
     div.content {
       @include flex;
       svg {
         width: 100px;
         height: 100px;
-        color: $alt;
+        color: $alt !important;
+        fill: $alt !important;
         margin-bottom: -10px;
+        path, circle, rect {
+          color: $alt !important;
+          fill: $alt !important;
+        }
       }
       div.text {
         margin-left: 20px;

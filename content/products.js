@@ -10,7 +10,7 @@ export const products = [
     sku: 'AW-T2008',
     link: '/productos/AW-T2008',
     line: 'ring',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-T2008/img/1.webp',
       '/products/AW-T2008/img/2.webp',
@@ -46,6 +46,47 @@ export const products = [
         title: "Título del video",
         link: "https://www.youtube.com/embed/vN6Qwro1FPU",
       } */
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '12000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Ruedas
+        id: 19,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 4.5Ah'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Caja de Madera
+        id: 18,
+      } 
     ],
     features: [
       {
@@ -164,21 +205,17 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-T2008',
-        link: '/productos/AW-T2008',
-      },
-      {
         sku: 'AW-T2008-PB',
         link: '/productos/AW-T2008-PB',
       }
     ]
   },
   { // AW-T2008-PB
-    name: 'Torre de Sonido Bluetooth 12000W',
+    name: 'Torre de Sonido Bluetooth 13000W',
     sku: 'AW-T2008-PB',
     link: '/productos/AW-T2008-PB',
     line: 'ring',
-    categories: [101, 102], 
+    categories: [102], 
     imgs: [
       '/products/AW-T2008-PB/img/1.webp',
       '/products/AW-T2008-PB/img/2.webp',
@@ -216,6 +253,47 @@ export const products = [
         title: "Título del video",
         link: "https://www.youtube.com/embed/vN6Qwro1FPU",
       } */
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '13000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 4.5Ah'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Caja de Madera
+        id: 18,
+      } 
     ],
     features: [
       {
@@ -332,23 +410,14 @@ export const products = [
         link: fileserver + '/docs/AW-T2008-PB_FICHA.pdf'
       }
     ],
-    variants: [
-      {
-        sku: 'AW-T2008',
-        link: '/productos/AW-T2008',
-      },
-      {
-        sku: 'AW-T2008-PB',
-        link: '/productos/AW-T2008-PB',
-      }
-    ]
+    variants: []
   },
   {// AW-T2010
     name: 'Torre de Sonido Bluetooth 13500W',
     sku: 'AW-T2010',
     link: '/productos/AW-T2010',
     line: 'ring',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-T2010/img/1.webp',
       '/products/AW-T2010/img/2.webp',
@@ -388,6 +457,47 @@ export const products = [
         title: "Título del video 2",
         link: "https://www.youtube.com/embed/gXGeD2sd12Q"
       },
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '13500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Ruedas
+        id: 19,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 7.5Ah'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Caja de Madera
+        id: 18,
+      } 
     ],
     features: [
       {
@@ -506,10 +616,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-T2010',
-        link: '/productos/AW-T2010',
-      },
-      {
         sku: 'AW-T2010-PB',
         link: '/productos/AW-T2010-PB',
       }
@@ -520,7 +626,7 @@ export const products = [
     sku: 'AW-T2010-PB',
     link: '/productos/AW-T2010-PB',
     line: 'ring',
-    categories: [101, 102], 
+    categories: [102], 
     imgs: [
       '/products/AW-T2010-PB/img/1.webp',
       '/products/AW-T2010-PB/img/2.webp',
@@ -558,6 +664,47 @@ export const products = [
         title: "Título del video",
         link: "https://www.youtube.com/embed/vN6Qwro1FPU",
       } */
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '14500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 7.5Ah'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Caja de Madera
+        id: 18,
+      } 
     ],
     features: [
       {
@@ -674,23 +821,14 @@ export const products = [
         link: fileserver + '/docs/AW-T2010-PB_FICHA.pdf'
       }
     ],
-    variants: [
-      {
-        sku: 'AW-T2010',
-        link: '/productos/AW-T2010',
-      },
-      {
-        sku: 'AW-T2010-PB',
-        link: '/productos/AW-T2010-PB',
-      },
-    ]
+    variants: []
   },
   {// AW-T2012
     name: 'Torre de Sonido Bluetooth 16000W',
     sku: 'AW-T2012',
     link: '/productos/AW-T2012',
     line: 'ring',
-    categories: [101, 102], 
+    categories: [102], 
     imgs: [
       '/products/AW-T2012/img/1.webp',
       '/products/AW-T2012/img/2.webp',
@@ -735,6 +873,47 @@ export const products = [
         title: "Título del video 2",
         link: "https://www.youtube.com/embed/gXGeD2sd12Q"
       },
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '16000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 7.5Ah'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Caja de Madera
+        id: 18,
+      } 
     ],
     features: [
       {
@@ -851,12 +1030,7 @@ export const products = [
         link: fileserver + '/docs/AW-T2012_FICHA.pdf'
       }
     ],
-    variants: [
-      {
-        sku: 'AW-T2012',
-        link: '/productos/AW-T2012',
-      }
-    ]
+    variants: []
   },
 
   /////////////// LINEA PARTY ////////////////
@@ -866,7 +1040,7 @@ export const products = [
     sku: 'AW-P240D',
     link: '/productos/AW-P240D',
     line: 'party',
-    categories: [101, 102, 110], 
+    categories: [110], 
     imgs: [
       '/products/AW-P240D/img/1.webp',
       '/products/AW-P240D/img/2.webp',
@@ -898,6 +1072,35 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/4IN_K5HtEOI",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '2500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 8"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Duración de batería
+        id: 8,
+        value: '3 horas a máximo volumen'
       }
     ],
     features: [
@@ -997,10 +1200,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-P240D',
-        link: '/productos/AW-P240D',
-      },
-      {
         sku: 'AW-P240D-SA',
         link: '/productos/AW-P240D-SA',
       },
@@ -1015,7 +1214,7 @@ export const products = [
     sku: 'AW-P240D-SA',
     link: '/productos/AW-P240D-SA',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-P240D-SA/img/1.webp',
       '/products/AW-P240D-SA/img/2.webp',
@@ -1044,6 +1243,35 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/4IN_K5HtEOI",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '2500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 8"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Duración de batería
+        id: 8,
+        value: '3 horas a máximo volumen'
       }
     ],
     features: [
@@ -1143,14 +1371,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-P240D',
-        link: '/productos/AW-P240D',
-      },
-      {
-        sku: 'AW-P240D-SA',
-        link: '/productos/AW-P240D-SA',
-      },
-      {
         sku: 'AW-P240D-SN',
         link: '/productos/AW-P240D-SN',
       }
@@ -1161,7 +1381,7 @@ export const products = [
     sku: 'AW-P240D-SN',
     link: '/productos/AW-P240D-SN',
     line: 'party',
-    categories: [101, 102], 
+    categories: [101], 
     imgs: [
       '/products/AW-P240D-SN/img/1.webp',
       '/products/AW-P240D-SN/img/2.webp',
@@ -1189,6 +1409,35 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/4IN_K5HtEOI",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '2500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 8"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Duración de batería
+        id: 8,
+        value: '3 horas a máximo volumen'
       }
     ],
     features: [
@@ -1286,27 +1535,14 @@ export const products = [
         link: fileserver + '/docs/AW-P240D-SN_FICHA.pdf'
       }
     ],
-    variants: [
-      {
-        sku: 'AW-P240D',
-        link: '/productos/AW-P240D',
-      },
-      {
-        sku: 'AW-P240D-SA',
-        link: '/productos/AW-P240D-SA',
-      },
-      {
-        sku: 'AW-P240D-SN',
-        link: '/productos/AW-P240D-SN',
-      }
-    ]
+    variants: []
   },
   {// AW-P450D
     name: 'Parlante Portátil Bluetooth 4500W',
     sku: 'AW-P450D',
     link: '/productos/AW-P450D',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-P450D/img/1.webp',
       '/products/AW-P450D/img/2.webp',
@@ -1337,6 +1573,35 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/3lIKM_uQuqk",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '4500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6.5"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Duración de batería
+        id: 8,
+        value: '3 horas a máximo volumen'
       }
     ],
     features: [
@@ -1436,10 +1701,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-P450D',
-        link: '/productos/AW-P450D',
-      },
-      {
         sku: 'AW-P450D-SA',
         link: '/productos/AW-P450D-SA',
       },
@@ -1454,7 +1715,7 @@ export const products = [
     sku: 'AW-P450D-SA',
     link: '/productos/AW-P450D-SA',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-P450D/img/1.webp',
       '/products/AW-P450D/img/2.webp',
@@ -1481,6 +1742,35 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/3lIKM_uQuqk",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '4500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6.5"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Duración de batería
+        id: 8,
+        value: '3 horas a máximo volumen'
       }
     ],
     features: [
@@ -1580,14 +1870,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-P450D',
-        link: '/productos/AW-P450D',
-      },
-      {
-        sku: 'AW-P450D-SA',
-        link: '/productos/AW-P450D-SA',
-      },
-      {
         sku: 'AW-P450D-SN',
         link: '/productos/AW-P450D-SN',
       }
@@ -1598,7 +1880,7 @@ export const products = [
     sku: 'AW-P450D-SN',
     link: '/productos/AW-P450D-SN',
     line: 'party',
-    categories: [101, 102], 
+    categories: [101], 
     imgs: [
       '/products/AW-P450D/img/1.webp',
       '/products/AW-P450D/img/2.webp',
@@ -1625,6 +1907,35 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/3lIKM_uQuqk",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '4500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6.5"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Duración de batería
+        id: 8,
+        value: '3 horas a máximo volumen'
       }
     ],
     features: [
@@ -1722,27 +2033,14 @@ export const products = [
         link: fileserver + '/docs/AW-P450D-SN_FICHA.pdf'
       }
     ],
-    variants: [
-      {
-        sku: 'AW-P450D',
-        link: '/productos/AW-P450D',
-      },
-      {
-        sku: 'AW-P450D-SA',
-        link: '/productos/AW-P450D-SA',
-      },
-      {
-        sku: 'AW-P450D-SN',
-        link: '/productos/AW-P450D-SN',
-      }
-    ]
+    variants: []
   },
   {// AW-T451D
     name: 'Torre de Sonido Portátil Bluetooth 4500W',
     sku: 'AW-T451D',
     link: '/productos/AW-T451D',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-T451D/img/1.webp',
       '/products/AW-T451D/img/2.webp',
@@ -1780,6 +2078,35 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/lEUuZtKHCUI",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '4500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6.5"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Duración de batería
+        id: 8,
+        value: '3 horas a máximo volumen'
       }
     ],
     features: [
@@ -1879,10 +2206,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-T451D',
-        link: '/productos/AW-T451D',
-      },
-      {
         sku: 'AW-T451D-SA',
         link: '/productos/AW-T451D-SA',
       },
@@ -1897,7 +2220,7 @@ export const products = [
     sku: 'AW-T451D-SA',
     link: '/productos/AW-T451D-SA',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-T451D/img/1.webp',
       '/products/AW-T451D/img/2.webp',
@@ -1926,6 +2249,35 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/lEUuZtKHCUI",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '4500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6.5"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Duración de batería
+        id: 8,
+        value: '3 horas a máximo volumen'
       }
     ],
     features: [
@@ -2025,14 +2377,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-T451D',
-        link: '/productos/AW-T451D',
-      },
-      {
-        sku: 'AW-T451D-SA',
-        link: '/productos/AW-T451D-SA',
-      },
-      {
         sku: 'AW-T451D-SN',
         link: '/productos/AW-T451D-SN',
       }
@@ -2043,7 +2387,7 @@ export const products = [
     sku: 'AW-T451D-SN',
     link: '/productos/AW-T451D-SN',
     line: 'party',
-    categories: [101, 102], 
+    categories: [102], 
     imgs: [
       '/products/AW-T451D/img/1.webp',
       '/products/AW-T451D/img/2.webp',
@@ -2072,6 +2416,35 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/lEUuZtKHCUI",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '4500W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6.5"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Duración de batería
+        id: 8,
+        value: '3 horas a máximo volumen'
       }
     ],
     features: [
@@ -2169,27 +2542,14 @@ export const products = [
         link: fileserver + '/docs/AW-T451D-SN_FICHA.pdf'
       }
     ],
-    variants: [
-      {
-        sku: 'AW-T451D',
-        link: '/productos/AW-T451D',
-      },
-      {
-        sku: 'AW-T451D-SA',
-        link: '/productos/AW-T451D-SA',
-      },
-      {
-        sku: 'AW-T451D-SN',
-        link: '/productos/AW-T451D-SN',
-      }
-    ]
+    variants: []
   },
   {// AW-T600D
     name: 'Torre de Sonido Portátil Bluetooth 5000W',
     sku: 'AW-T600D',
     link: '/productos/AW-T600D',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-T600D/img/1.webp',
       '/products/AW-T600D/img/2.webp',
@@ -2221,6 +2581,34 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/eOWUeIdJV58",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '5000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 8"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Ruedas
+        id: 19,
       }
     ],
     features: [
@@ -2325,10 +2713,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-T600D',
-        link: '/productos/AW-T600D',
-      },
-      {
         sku: 'AW-T600D-SA',
         link: '/productos/AW-T600D-SA',
       },
@@ -2343,7 +2727,7 @@ export const products = [
     sku: 'AW-T600D-SA',
     link: '/productos/AW-T600D-SA',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-T600D/img/1.webp',
       '/products/AW-T600D/img/2.webp',
@@ -2370,6 +2754,34 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/eOWUeIdJV58",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '5000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 8"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Ruedas
+        id: 19,
       }
     ],
     features: [
@@ -2474,14 +2886,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-T600D',
-        link: '/productos/AW-T600D',
-      },
-      {
-        sku: 'AW-T600D-SA',
-        link: '/productos/AW-T600D-SA',
-      },
-      {
         sku: 'AW-T600D-SN',
         link: '/productos/AW-T600D-SN',
       }
@@ -2492,7 +2896,7 @@ export const products = [
     sku: 'AW-T600D-SN',
     link: '/productos/AW-T600D-SN',
     line: 'party',
-    categories: [101, 102], 
+    categories: [102], 
     imgs: [
       '/products/AW-T600D/img/1.webp',
       '/products/AW-T600D/img/2.webp',
@@ -2519,6 +2923,34 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/eOWUeIdJV58",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '5000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 8"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Ruedas
+        id: 19,
       }
     ],
     features: [
@@ -2621,27 +3053,14 @@ export const products = [
         link: fileserver + '/docs/AW-T600D-SN_FICHA.pdf'
       }
     ],
-    variants: [
-      {
-        sku: 'AW-T600D',
-        link: '/productos/AW-T600D',
-      },
-      {
-        sku: 'AW-T600D-SA',
-        link: '/productos/AW-T600D-SA',
-      },
-      {
-        sku: 'AW-T600D-SN',
-        link: '/productos/AW-T600D-SN',
-      }
-    ]
+    variants: []
   },
   {// AW-P1200D
     name: 'Parlante Portátil Bluetooth 6000W',
     sku: 'AW-P1200D',
     link: '/productos/AW-P1200D',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-P1200D/img/1.webp',
       '/products/AW-P1200D/img/2.webp',
@@ -2673,6 +3092,34 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/TMV3Btqij7M",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 12"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Carry On
+        id: 9,
       }
     ],
     features: [
@@ -2777,10 +3224,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-P1200D',
-        link: '/productos/AW-P1200D',
-      },
-      {
         sku: 'AW-P1200D-SA',
         link: '/productos/AW-P1200D-SA',
       },
@@ -2795,7 +3238,7 @@ export const products = [
     sku: 'AW-P1200D-SA',
     link: '/productos/AW-P1200D-SA',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-P1200D/img/1.webp',
       '/products/AW-P1200D/img/2.webp',
@@ -2823,6 +3266,34 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/TMV3Btqij7M",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 12"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Carry On
+        id: 9,
       }
     ],
     features: [
@@ -2927,14 +3398,6 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-P1200D',
-        link: '/productos/AW-P1200D',
-      },
-      {
-        sku: 'AW-P1200D-SA',
-        link: '/productos/AW-P1200D-SA',
-      },
-      {
         sku: 'AW-P1200D-SN',
         link: '/productos/AW-P1200D-SN',
       }
@@ -2945,7 +3408,7 @@ export const products = [
     sku: 'AW-P1200D-SN',
     link: '/productos/AW-P1200D-SN',
     line: 'party',
-    categories: [101, 102], 
+    categories: [101], 
     imgs: [
       '/products/AW-P1200D/img/1.webp',
       '/products/AW-P1200D/img/2.webp',
@@ -2973,6 +3436,34 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/TMV3Btqij7M",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 12"'
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Carry On
+        id: 9,
       }
     ],
     features: [
@@ -3075,27 +3566,14 @@ export const products = [
         link: fileserver + '/docs/AW-P1200D-SN_FICHA.pdf'
       }
     ],
-    variants: [
-      {
-        sku: 'AW-P1200D',
-        link: '/productos/AW-P1200D',
-      },
-      {
-        sku: 'AW-P1200D-SA',
-        link: '/productos/AW-P1200D-SA',
-      },
-      {
-        sku: 'AW-P1200D-SN',
-        link: '/productos/AW-P1200D-SN',
-      }
-    ]
+    variants: []
   },
   {// AW-P1510D
     name: 'Parlante Portátil Bluetooth 7000W',
     sku: 'AW-P1510D',
     link: '/productos/AW-P1510D',
     line: 'party',
-    categories: [101, 102], 
+    categories: [110], 
     imgs: [
       '/products/AW-P1510D/img/1.webp',
       '/products/AW-P1510D/img/2.webp',
@@ -3128,6 +3606,48 @@ export const products = [
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/tLHabla-j4o",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '7000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 15"'
+      },
+      { // Entrada Mic y Guit 
+        id: 21,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Carry On
+        id: 9,
+      },
+      { // Bateria
+        id: 7,
+        value: "Interna Recargable 7.4V / 1800mAh"
+      },
+      { // Duracion Bateria
+        id: 8,
+        value: "3 horas (máximo volumen)"
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      },
+      { // Reg Eco
+        id: 23,
       }
     ],
     features: [
@@ -3232,16 +3752,909 @@ export const products = [
     ],
     variants: [
       {
-        sku: 'AW-P1510D',
-        link: '/productos/AW-P1510D',
-      },
-      {
         sku: 'AW-P1510D-SN',
         link: '/productos/AW-P1510D-SN',
       }
     ]
   },
-  
+  {// AW-P1510D-SN
+    name: 'Parlante Portátil Bluetooth 7000W',
+    sku: 'AW-P1510D-SN',
+    link: '/productos/AW-P1510D-SN',
+    line: 'party',
+    categories: [101], 
+    imgs: [
+      '/products/AW-P1510D/img/1.webp',
+      '/products/AW-P1510D/img/2.webp',
+      '/products/AW-P1510D/img/3.webp',
+      '/products/AW-P1510D/img/4.webp',
+      '/products/AW-P1510D/img/5.webp',
+      '/products/AW-P1510D/img/6.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    banners: [
+      {
+        id: 1,
+        customTitle: "Micrófono Inalámbrico Incluido"
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp'
+      }
+    ],
+    shortDesc: 'LA DISTANCIA NO ES PROBLEMA',
+    longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/tLHabla-j4o",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '7000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 15"'
+      },
+      { // Entrada Mic y Guit 
+        id: 21,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Luces LED
+        id: 20,
+      },
+      { // Carry On
+        id: 9,
+      },
+      { // Bateria
+        id: 7,
+        value: "Interna Recargable 7.4V / 1800mAh"
+      },
+      { // Duracion Bateria
+        id: 8,
+        value: "3 horas (máximo volumen)"
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      },
+      { // Reg Eco
+        id: 23,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 15"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "7000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 1800mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "3 horas (máximo volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Volumen y Eco de Mic",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, Guitarra y Auxiliar",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "Si, inalámbrico",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "40 x 61 x 30 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "41 x 67 x 34,5 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "5 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354336",
+        feat: false,
+      },
+    ],
+    includes: 'Micrófono inalámbrico, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1510D-SN_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1510D-SN_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-P1500PS
+    name: 'Parlante Portátil Bluetooth 9000W',
+    sku: 'AW-P1500PS',
+    link: '/productos/AW-P1500PS',
+    line: 'party',
+    categories: [101], 
+    imgs: [
+      '/products/AW-P1500PS/img/1.webp',
+      '/products/AW-P1500PS/img/2.webp',
+      '/products/AW-P1500PS/img/3.webp',
+      '/products/AW-P1500PS/img/4.webp',
+      '/products/AW-P1500PS/img/5.webp',
+      '/products/AW-P1500PS/img/6.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    banners: [
+      {
+        id: 1,
+        customTitle: "Micrófono Inalámbrico Incluido"
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1500.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1500.webp'
+      },
+      {
+        id: 7,
+      }
+    ],
+    shortDesc: '¡LISTO PARA TOCAR!',
+    longDesc: "Está listo para conectar una guitarra, un micrófono y tocar o cantar en vivo. Hace llegar a todos la música que sale de tu corazón. También Incluye la función Karaoke con la cual podés pasar horas divirtiéndote sin parar con tu familia y amigos.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [
+      {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/UVKHkHIiFIk",
+      }
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '9000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 15"'
+      },
+      { // Entrada Mic y Guit 
+        id: 21,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Mic Inalambrico
+        id: 14,
+      },
+      { // Tripode
+        id: 10,
+      },
+      { // Bateria
+        id: 7,
+        value: "Interna Recargable 7.4V / 1800mAh"
+      },
+      { // Radio FM
+        id: 25,
+      },
+      { // Memoria
+        id: 26,
+      },
+      { // Remoto
+        id: 24,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 15"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "9000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 12V / 4500mAh",
+        feat: true,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM, REC",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Vol. y Eco de Mic, Vol. de Guitarra",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Guitarra, Micrófono, USB, MicroSD, Auxiliar y de línea",
+        feat: false,
+      },
+      { // Altura de Tripode
+        id: 21,
+        value: "Mín. 70 cm - Máx. 120 cm",
+        feat: false,
+      },
+      { // Micrófono
+        id: 1,
+        value: "Si, inalámbrico",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "41 x 65,5 x 36 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "48 x 75 x 44,5 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "13 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111353438",
+        feat: false,
+      },
+    ],
+    includes: 'Trípode de 1.2m, Micrófono inalámbrico UHF, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01388-T-1), Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1500PS_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-P1500PS_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T2040
+    name: 'Torre de Sonido Bluetooth 6000W',
+    sku: 'AW-T2040',
+    link: '/productos/AW-T2040',
+    line: 'party',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T2040/img/1.webp',
+      '/products/AW-T2040/img/2.webp',
+      '/products/AW-T2040/img/3.webp',
+      '/products/AW-T2040/img/4.webp',
+      '/products/AW-T2040/img/5.webp',
+      '/products/AW-T2040/img/6.webp',
+      '/products/AW-T2040/img/7.webp',
+      '/products/AW-T2040/img/8.webp',
+      '/products/AW-T2040/img/9.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2040luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2040.webp'
+      },
+    ],
+    shortDesc: 'SHOW LUMINOSO',
+    longDesc: "Cautivá a tus invitados con variados y coloridos efectos de Luz durante toda la noche.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '12000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 4.5Ah'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Caja de Madera
+        id: 18,
+      } 
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "6000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Litio 3,7v / 3600mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "Hasta 8 horas (según volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Vol. y Eco de Mic",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, Micrófono x2",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Mobile Holder",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "27,5 x 72,5 x 26,5 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "32 x 77 x 30,5 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "4,2 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354398",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Cable de Alimentación USB, Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2040_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2040_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T2042
+    name: 'Torre de Sonido Bluetooth 6000W',
+    sku: 'AW-T2042',
+    link: '/productos/AW-T2042',
+    line: 'party',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T2042/img/1.webp',
+      '/products/AW-T2042/img/2.webp',
+      '/products/AW-T2042/img/3.webp',
+      '/products/AW-T2042/img/4.webp',
+      '/products/AW-T2042/img/5.webp',
+      '/products/AW-T2042/img/6.webp',
+      '/products/AW-T2042/img/7.webp',
+      '/products/AW-T2042/img/8.webp',
+      '/products/AW-T2042/img/9.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2042luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2042.webp'
+      },
+    ],
+    shortDesc: 'EN TODO MOMENTO',
+    longDesc: "Una torre lista para acompañarte durante largas horas en todo momento y lugar. Te permite llevar tu música junto a un variado show luminoso.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '12000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 4.5Ah'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Caja de Madera
+        id: 18,
+      } 
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "6000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Litio 3,7v / 3600mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "Hasta 8 horas (según volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Vol. y Eco de Mic",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, Micrófono x2",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Mobile Holder",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "27,5 x 72,5 x 26,5 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "32 x 77 x 30,5 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "4,2 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354398",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Cable de Alimentación USB, Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2042_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2042_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T2044
+    name: 'Torre de Sonido Bluetooth 6000W',
+    sku: 'AW-T2044',
+    link: '/productos/AW-T2044',
+    line: 'party',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T2044/img/1.webp',
+      '/products/AW-T2044/img/2.webp',
+      '/products/AW-T2044/img/3.webp',
+      '/products/AW-T2044/img/4.webp',
+      '/products/AW-T2044/img/5.webp',
+      '/products/AW-T2044/img/6.webp',
+      '/products/AW-T2044/img/7.webp',
+      '/products/AW-T2044/img/8.webp',
+      '/products/AW-T2044/img/9.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2044luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2044.webp'
+      },
+    ],
+    shortDesc: 'COLORÉA TUS FIESTAS',
+    longDesc: "Preparada para llenar de colores toda la noche. Su Empuñadura de Fácil Transporte y su liviano peso te permiten llevar tu música junto a un variado show luminoso.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '12000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Entrada Micrófono 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 4.5Ah'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según volumen)'
+      },
+      { // Caja de Madera
+        id: 18,
+      } 
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+        feat: true,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+        feat: false,
+      },
+      { // Potencia
+        id: 2,
+        value: "6000W PMPO",
+        feat: true,
+      },
+      { // Batería
+        id: 10,
+        value: "Litio 3,7v / 3600mAh",
+        feat: true,
+      },
+      { // Duración de batería
+        id: 11,
+        value: "Hasta 8 horas (según volumen)",
+        feat: false,
+      },
+      { // Luces
+        id: 12,
+        value: "RGB en woofer (ON/OFF)",
+        feat: false,
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+        feat: true,
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank",
+        feat: false,
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Vol. y Eco de Mic",
+        feat: false,
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, Micrófono x2",
+        feat: false,
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+        feat: false,
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte, Mobile Holder",
+        feat: false,
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "27,5 x 72,5 x 26,5 cm",
+        feat: false,
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "32 x 77 x 30,5 cm",
+        feat: false,
+      },
+      { // Peso
+        id: 18,
+        value: "4,2 Kg",
+        feat: false,
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354398",
+        feat: false,
+      },
+    ],
+    includes: 'Cable Auxiliar, Cable de Alimentación USB, Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2044_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T2044_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
 ]
 
 export const variants = []
