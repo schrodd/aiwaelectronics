@@ -4168,7 +4168,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: '12000W PMPO'
+        value: '6000W PMPO'
       },
       { // TWS
         id: 11,
@@ -4179,14 +4179,11 @@ export const products = [
       { // Power Bank
         id: 13,
       },
-      { // Micrófono Inalámbrico 
-        id: 14,
+      { // Dos Entradas Micrófono 
+        id: 27,
       },
-      { // Entrada Guitarra
-        id: 15,
-      },
-      { // Entrada Micrófono 
-        id: 16,
+      { // Regulador de Volumen de Mic 
+        id: 28,
       },
       { // Entrada Auxiliar
         id: 17,
@@ -4196,15 +4193,18 @@ export const products = [
       },
       { // Batería Recargable
         id: 7,
-        value: 'Interna Recargable 12V / 4.5Ah'
+        value: 'Litio 3,7v / 3600mAh'
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '8 horas (según volumen)'
       },
-      { // Caja de Madera
-        id: 18,
-      } 
+      { // Mobile Holder
+        id: 29,
+      },
+      { // Manija de Transporte
+        id: 30,
+      }
     ],
     features: [
       { // Woofers
@@ -4344,7 +4344,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: '12000W PMPO'
+        value: '6000W PMPO'
       },
       { // TWS
         id: 11,
@@ -4355,14 +4355,11 @@ export const products = [
       { // Power Bank
         id: 13,
       },
-      { // Micrófono Inalámbrico 
-        id: 14,
+      { // Dos Entradas Micrófono 
+        id: 27,
       },
-      { // Entrada Guitarra
-        id: 15,
-      },
-      { // Entrada Micrófono 
-        id: 16,
+      { // Regulador de Volumen de Mic 
+        id: 28,
       },
       { // Entrada Auxiliar
         id: 17,
@@ -4372,15 +4369,18 @@ export const products = [
       },
       { // Batería Recargable
         id: 7,
-        value: 'Interna Recargable 12V / 4.5Ah'
+        value: 'Litio 3,7v / 3600mAh'
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '8 horas (según volumen)'
       },
-      { // Caja de Madera
-        id: 18,
-      } 
+      { // Mobile Holder
+        id: 29,
+      },
+      { // Manija de Transporte
+        id: 30,
+      }
     ],
     features: [
       { // Woofers
@@ -4520,7 +4520,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: '12000W PMPO'
+        value: '6000W PMPO'
       },
       { // TWS
         id: 11,
@@ -4531,14 +4531,11 @@ export const products = [
       { // Power Bank
         id: 13,
       },
-      { // Micrófono Inalámbrico 
-        id: 14,
+      { // Dos Entradas Micrófono 
+        id: 27,
       },
-      { // Entrada Guitarra
-        id: 15,
-      },
-      { // Entrada Micrófono 
-        id: 16,
+      { // Regulador de Volumen de Mic 
+        id: 28,
       },
       { // Entrada Auxiliar
         id: 17,
@@ -4548,15 +4545,18 @@ export const products = [
       },
       { // Batería Recargable
         id: 7,
-        value: 'Interna Recargable 12V / 4.5Ah'
+        value: 'Litio 3,7v / 3600mAh'
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '8 horas (según volumen)'
       },
-      { // Caja de Madera
-        id: 18,
-      } 
+      { // Mobile Holder
+        id: 29,
+      },
+      { // Manija de Transporte
+        id: 30,
+      }
     ],
     features: [
       { // Woofers

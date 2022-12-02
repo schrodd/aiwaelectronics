@@ -7,9 +7,11 @@ import carryon from '../public/svg/carryon.svg'
 import fx from '../public/svg/fx.svg'
 import guitar from '../public/svg/guitar.svg'
 import guitmic from '../public/svg/guitmic.svg'
+import handle from '../public/svg/handle.svg'
 import lights from '../public/svg/lights.svg'
 import mic from '../public/svg/mic.svg'
 import micreg from '../public/svg/micreg.svg'
+import phone from '../public/svg/phone.svg'
 import plug from '../public/svg/plug.svg'
 import potencia from '../public/svg/potencia.svg'
 import powerbank from '../public/svg/powerbank.svg'
@@ -33,7 +35,6 @@ const featuredFeatures = [ // Características destacadas de productos
   { 
     id: 1, name: 'Micrófono', icon: mic,
     desc:'Con el micrófono incluido podés tener sesiones de Karaoke con tus amigos y disfrutar al máximo.',
-    
   },
   { 
     id: 2, name: 'Potencia', icon: potencia, 
@@ -126,7 +127,19 @@ const featuredFeatures = [ // Características destacadas de productos
   },
   { id: 26, name: 'Memoria SD', icon: sd,
     desc: '¡Expandí tus posibilidades! usando una tarjeta Micro SD podés reproducir lo que quieras'
-  }
+  },
+  { id: 27, name: '2 Entradas para Micrófono', icon: mic,
+    desc: 'Conectá hasta dos micrófonos y activá el karaoke en tu casa'
+  },
+  { id: 28, name: 'Regulador de Eco y Volumen de Micrófono', icon: micreg,
+    desc: 'Controlá a gusto los niveles de Eco y Volumen del micrófono'
+  },
+  { id: 29, name: 'Mobile Holder', icon: phone,
+    desc: 'Posee ranura para colocar tu dispositivo mientras escuchás música'
+  },
+  { id: 30, name: 'Empuñadura de Transporte', icon: handle,
+    desc: '¡Llevalo a donde sea! Es muy ligero y además posee Empuñadura de Transporte'
+  },
 ]
 
 export default featuredFeatures
