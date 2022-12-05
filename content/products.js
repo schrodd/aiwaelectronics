@@ -6,7 +6,7 @@ export const products = [
   /////////////// LINEA RING ////////////////
 
   { // AW-T2008
-    name: 'Torre de Sonido Bluetooth 12000W',
+    name: 'Torre de Sonido Bluetooth Ring 12000W',
     sku: 'AW-T2008',
     link: '/productos/AW-T2008',
     line: 'ring',
@@ -211,7 +211,7 @@ export const products = [
     ]
   },
   { // AW-T2008-PB
-    name: 'Torre de Sonido Bluetooth 13000W',
+    name: 'Torre de Sonido Bluetooth Ring 13000W',
     sku: 'AW-T2008-PB',
     link: '/productos/AW-T2008-PB',
     line: 'ring',
@@ -413,7 +413,7 @@ export const products = [
     variants: []
   },
   {// AW-T2010
-    name: 'Torre de Sonido Bluetooth 13500W',
+    name: 'Torre de Sonido Bluetooth Ring 13500W',
     sku: 'AW-T2010',
     link: '/productos/AW-T2010',
     line: 'ring',
@@ -622,7 +622,7 @@ export const products = [
     ]
   },
   {// AW-T2010-PB
-    name: 'Torre de Sonido Bluetooth 14500W',
+    name: 'Torre de Sonido Bluetooth Ring 14500W',
     sku: 'AW-T2010-PB',
     link: '/productos/AW-T2010-PB',
     line: 'ring',
@@ -824,7 +824,7 @@ export const products = [
     variants: []
   },
   {// AW-T2012
-    name: 'Torre de Sonido Bluetooth 16000W',
+    name: 'Torre de Sonido Bluetooth Ring 16000W',
     sku: 'AW-T2012',
     link: '/productos/AW-T2012',
     line: 'ring',
@@ -1036,7 +1036,7 @@ export const products = [
   /////////////// LINEA PARTY ////////////////
 
   {// AW-P240D
-    name: 'Parlante Portátil Bluetooth 2500W',
+    name: 'Parlante Portátil Bluetooth Party 2500W',
     sku: 'AW-P240D',
     link: '/productos/AW-P240D',
     line: 'party',
@@ -1210,7 +1210,7 @@ export const products = [
     ]
   },
   {// AW-P240D-SA
-    name: 'Parlante Portátil Bluetooth 2500W',
+    name: 'Parlante Portátil Bluetooth Party 2500W',
     sku: 'AW-P240D-SA',
     link: '/productos/AW-P240D-SA',
     line: 'party',
@@ -1377,7 +1377,7 @@ export const products = [
     ]
   },
   {// AW-P240D-SN
-    name: 'Parlante Portátil Bluetooth 2500W',
+    name: 'Parlante Portátil Bluetooth Party 2500W',
     sku: 'AW-P240D-SN',
     link: '/productos/AW-P240D-SN',
     line: 'party',
@@ -1538,7 +1538,7 @@ export const products = [
     variants: []
   },
   {// AW-P450D
-    name: 'Parlante Portátil Bluetooth 4500W',
+    name: 'Parlante Portátil Bluetooth Party 4500W',
     sku: 'AW-P450D',
     link: '/productos/AW-P450D',
     line: 'party',
@@ -1711,7 +1711,7 @@ export const products = [
     ]
   },
   {// AW-P450D-SA
-    name: 'Parlante Portátil Bluetooth 4500W',
+    name: 'Parlante Portátil Bluetooth Party 4500W',
     sku: 'AW-P450D-SA',
     link: '/productos/AW-P450D-SA',
     line: 'party',
@@ -1876,7 +1876,7 @@ export const products = [
     ]
   },
   {// AW-P450D-SN
-    name: 'Parlante Portátil Bluetooth 4500W',
+    name: 'Parlante Portátil Bluetooth Party 4500W',
     sku: 'AW-P450D-SN',
     link: '/productos/AW-P450D-SN',
     line: 'party',
@@ -2036,7 +2036,7 @@ export const products = [
     variants: []
   },
   {// AW-T451D
-    name: 'Torre de Sonido Portátil Bluetooth 4500W',
+    name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
     sku: 'AW-T451D',
     link: '/productos/AW-T451D',
     line: 'party',
@@ -2216,7 +2216,7 @@ export const products = [
     ]
   },
   {// AW-T451D-SA
-    name: 'Torre de Sonido Portátil Bluetooth 4500W',
+    name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
     sku: 'AW-T451D-SA',
     link: '/productos/AW-T451D-SA',
     line: 'party',
@@ -2383,7 +2383,7 @@ export const products = [
     ]
   },
   {// AW-T451D-SN
-    name: 'Torre de Sonido Portátil Bluetooth 4500W',
+    name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
     sku: 'AW-T451D-SN',
     link: '/productos/AW-T451D-SN',
     line: 'party',
@@ -2545,7 +2545,7 @@ export const products = [
     variants: []
   },
   {// AW-T600D
-    name: 'Torre de Sonido Portátil Bluetooth 5000W',
+    name: 'Torre de Sonido Portátil Bluetooth Party 5000W',
     sku: 'AW-T600D',
     link: '/productos/AW-T600D',
     line: 'party',
@@ -2723,7 +2723,7 @@ export const products = [
     ]
   },
   {// AW-T600D-SA
-    name: 'Torre de Sonido Portátil Bluetooth 5000W',
+    name: 'Torre de Sonido Portátil Bluetooth Party 5000W',
     sku: 'AW-T600D-SA',
     link: '/productos/AW-T600D-SA',
     line: 'party',
@@ -2892,7 +2892,7 @@ export const products = [
     ]
   },
   {// AW-T600D-SN
-    name: 'Torre de Sonido Portátil Bluetooth 5000W',
+    name: 'Torre de Sonido Portátil Bluetooth Party 5000W',
     sku: 'AW-T600D-SN',
     link: '/productos/AW-T600D-SN',
     line: 'party',
@@ -3056,7 +3056,7 @@ export const products = [
     variants: []
   },
   {// AW-P1200D
-    name: 'Parlante Portátil Bluetooth 6000W',
+    name: 'Parlante Portátil Bluetooth Party 6000W',
     sku: 'AW-P1200D',
     link: '/productos/AW-P1200D',
     line: 'party',
@@ -3234,7 +3234,7 @@ export const products = [
     ]
   },
   {// AW-P1200D-SA
-    name: 'Parlante Portátil Bluetooth 6000W',
+    name: 'Parlante Portátil Bluetooth Party 6000W',
     sku: 'AW-P1200D-SA',
     link: '/productos/AW-P1200D-SA',
     line: 'party',
@@ -3404,7 +3404,7 @@ export const products = [
     ]
   },
   {// AW-P1200D-SN
-    name: 'Parlante Portátil Bluetooth 6000W',
+    name: 'Parlante Portátil Bluetooth Party 6000W',
     sku: 'AW-P1200D-SN',
     link: '/productos/AW-P1200D-SN',
     line: 'party',
@@ -3569,7 +3569,7 @@ export const products = [
     variants: []
   },
   {// AW-P1510D
-    name: 'Parlante Portátil Bluetooth 7000W',
+    name: 'Parlante Portátil Bluetooth Party 7000W',
     sku: 'AW-P1510D',
     link: '/productos/AW-P1510D',
     line: 'party',
@@ -3758,7 +3758,7 @@ export const products = [
     ]
   },
   {// AW-P1510D-SN
-    name: 'Parlante Portátil Bluetooth 7000W',
+    name: 'Parlante Portátil Bluetooth Party 7000W',
     sku: 'AW-P1510D-SN',
     link: '/productos/AW-P1510D-SN',
     line: 'party',
@@ -3942,7 +3942,7 @@ export const products = [
     variants: []
   },
   {// AW-P1500PS
-    name: 'Parlante Portátil Bluetooth 9000W',
+    name: 'Parlante Portátil Bluetooth Party 9000W',
     sku: 'AW-P1500PS',
     link: '/productos/AW-P1500PS',
     line: 'party',
@@ -4128,7 +4128,7 @@ export const products = [
     variants: []
   },
   {// AW-T2040
-    name: 'Torre de Sonido Bluetooth 6000W',
+    name: 'Torre de Sonido Bluetooth Party 6000W',
     sku: 'AW-T2040',
     link: '/productos/AW-T2040',
     line: 'party',
@@ -4304,7 +4304,7 @@ export const products = [
     variants: []
   },
   {// AW-T2042
-    name: 'Torre de Sonido Bluetooth 6000W',
+    name: 'Torre de Sonido Bluetooth Party 6000W',
     sku: 'AW-T2042',
     link: '/productos/AW-T2042',
     line: 'party',
@@ -4480,7 +4480,7 @@ export const products = [
     variants: []
   },
   {// AW-T2044
-    name: 'Torre de Sonido Bluetooth 6000W',
+    name: 'Torre de Sonido Bluetooth Party 6000W',
     sku: 'AW-T2044',
     link: '/productos/AW-T2044',
     line: 'party',
@@ -4659,7 +4659,7 @@ export const products = [
   /////////////// LINEA INFINIT ////////////////
 
   {// AW-T2021
-    name: 'Torre de Sonido Bluetooth 9500W',
+    name: 'Torre de Sonido Bluetooth Infinit 9500W',
     sku: 'AW-T2021',
     link: '/productos/AW-T2021',
     line: 'infinit',
@@ -4815,7 +4815,7 @@ export const products = [
     variants: []
   },
   {// AW-T2022
-    name: 'Torre de Sonido Bluetooth 8500W',
+    name: 'Torre de Sonido Bluetooth Infinit 8500W',
     sku: 'AW-T2022',
     link: '/productos/AW-T2022',
     line: 'infinit',
@@ -4980,7 +4980,7 @@ export const products = [
     variants: []
   },
   {// AW-T2018R
-    name: 'Torre de Sonido Bluetooth 8000W',
+    name: 'Torre de Sonido Bluetooth Infinit 8000W',
     sku: 'AW-T2018R',
     link: '/productos/AW-T2018R',
     line: 'infinit',
@@ -5141,7 +5141,7 @@ export const products = [
     variants: []
   },
   {// AW-T2050R
-    name: 'Torre de Sonido Bluetooth 8000W',
+    name: 'Torre de Sonido Bluetooth Infinit 8000W',
     sku: 'AW-T2050R',
     link: '/productos/AW-T2050R',
     line: 'infinit',
@@ -5300,7 +5300,7 @@ export const products = [
     variants: []
   },
   {// AW-T506R
-    name: 'Torre de Sonido Bluetooth 6500W',
+    name: 'Torre de Sonido Bluetooth Infinit 6500W',
     sku: 'AW-T506R',
     link: '/productos/AW-T506R',
     line: 'infinit',
@@ -5453,7 +5453,7 @@ export const products = [
     variants: []
   },
   {// AW-T506R-PB
-    name: 'Torre de Sonido Bluetooth 6500W',
+    name: 'Torre de Sonido Bluetooth Infinit 6500W',
     sku: 'AW-T506R-PB',
     link: '/productos/AW-T506R-PB',
     line: 'infinit',
@@ -5602,7 +5602,7 @@ export const products = [
     variants: []
   },
   {// AW-T265SF
-    name: 'Torre de Sonido Bluetooth 6500W',
+    name: 'Torre de Sonido Bluetooth Infinit 6500W',
     sku: 'AW-T265SF',
     link: '/productos/AW-T265SF',
     line: 'infinit',
@@ -5750,7 +5750,7 @@ export const products = [
     variants: []
   },
   {// AW-T265SF-SA
-    name: 'Torre de Sonido Bluetooth 6500W',
+    name: 'Torre de Sonido Bluetooth Infinit 6500W',
     sku: 'AW-T265SF-SA',
     link: '/productos/AW-T265SF-SA',
     line: 'infinit',
@@ -5900,6 +5900,618 @@ export const products = [
     ],
     variants: []
   },
+
+  /////////////// LINEA FLAMA ////////////////
+
+  {// AW-T604F
+    name: 'Torre de Sonido Bluetooth Flama 6500W',
+    sku: 'AW-T604F',
+    link: '/productos/AW-T604F',
+    line: 'flama',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T604F/img/1.webp',
+      '/products/AW-T604F/img/2.webp',
+      '/products/AW-T604F/img/3.webp',
+      '/products/AW-T604F/img/4.webp',
+      '/products/AW-T604F/img/5.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal604.webp'
+      },
+      {id: 4},
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws604.webp'
+      },
+    ],
+    shortDesc: 'LLEVATE FUEGO',
+    longDesc: "Su práctico tamaño te permitirá llevar el fuego y la diversión a todas partes.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 8"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Entrada Mic 
+        id: 16,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 7.4V / 3600mAh'
+      },
+      { // Reg Graves y Agudos
+        id: 28,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 8"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "6500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Todo el Panel Frontal",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Eco y Vol. de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar y Micrófono",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "25 x 39 x 23 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "26,5 x 39,6 x 23,6 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "2,6 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354183",
+      },
+      { // Características Técnicas
+        id: 22,
+        value: "100-240V~ / 50-60Hz / 40W / Clase II",
+      },
+    ],
+    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación:00Q-AR-01223-T-1) /Manual de Instrucciones y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T604F_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T604F_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T806F
+    name: 'Torre de Sonido Bluetooth Flama 8000W',
+    sku: 'AW-T806F',
+    link: '/productos/AW-T806F',
+    line: 'flama',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T806F/img/1.webp',
+      '/products/AW-T806F/img/2.webp',
+      '/products/AW-T806F/img/3.webp',
+      '/products/AW-T806F/img/4.webp',
+      '/products/AW-T806F/img/5.webp',
+      '/products/AW-T806F/img/6.webp',
+      '/products/AW-T806F/img/7.webp',
+      '/products/AW-T806F/img/8.webp',
+      '/products/AW-T806F/img/9.webp',
+      '/products/AW-T806F/img/10.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 13,
+      },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.'
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws806.webp'
+      },
+    ],
+    shortDesc: 'DIVERSIÓN AL MÁXIMO',
+    longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '8000W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos de luces
+        id: 6,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Entrada Mic y Guit
+        id: 21,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 7.4V / 3600mAh'
+      },
+      { // Reguladores
+        id: 22,
+      },
+      { // Reg Eco y Vol
+        id: 28,
+      },
+      { // Memoria SD
+        id: 26,
+      },
+      { // REC
+        id: 34,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "8000W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Todo el Panel Frontal",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM, REC",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Volumen de Guitarra, Eco y Vol. de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Guitarra, USB, Micro SD, Auxiliar y Micrófono",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Mobile Holder, Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "27 x 65,5 x 27 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "32 x 74 x 30,5 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "7,2 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111353995",
+      },
+    ],
+    includes: 'Micrófono con Cable / Control Remoto / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T806F_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T806F_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T806F-SA
+    name: 'Torre de Sonido Bluetooth Flama 8000W',
+    sku: 'AW-T806F-SA',
+    link: '/productos/AW-T806F-SA',
+    line: 'flama',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T806F-SA/img/1.webp',
+      '/products/AW-T806F-SA/img/2.webp',
+      '/products/AW-T806F-SA/img/3.webp',
+      '/products/AW-T806F-SA/img/4.webp',
+      '/products/AW-T806F-SA/img/5.webp',
+      '/products/AW-T806F-SA/img/6.webp',
+      '/products/AW-T806F-SA/img/7.webp',
+      '/products/AW-T806F-SA/img/8.webp',
+      '/products/AW-T806F-SA/img/9.webp',
+      '/products/AW-T806F-SA/img/10.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 13,
+      },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.'
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws806.webp'
+      },
+    ],
+    shortDesc: 'DIVERSIÓN AL MÁXIMO',
+    longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '8000W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos de luces
+        id: 6,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Entrada Mic y Guit
+        id: 21,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 7.4V / 3600mAh'
+      },
+      { // Reguladores
+        id: 22,
+      },
+      { // Reg Eco y Vol
+        id: 28,
+      },
+      { // Memoria SD
+        id: 26,
+      },
+      { // REC
+        id: 34,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "8000W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Todo el Panel Frontal",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Radio FM, REC",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Volumen de Guitarra, Eco y Vol. de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Guitarra, USB, Micro SD, Auxiliar y Micrófono",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Mobile Holder, Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "27 x 65,5 x 27 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "32 x 74 x 30,5 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "7,2 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111353995",
+      },
+    ],
+    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T806F-SA_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T806F-SA_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T806F-PB
+    name: 'Torre de Sonido Bluetooth Flama 8000W',
+    sku: 'AW-T806F-PB',
+    link: '/productos/AW-T806F-PB',
+    line: 'flama',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T806F-PB/img/1.webp',
+      '/products/AW-T806F-PB/img/2.webp',
+      '/products/AW-T806F-PB/img/3.webp',
+      '/products/AW-T806F-PB/img/4.webp',
+      '/products/AW-T806F-PB/img/5.webp',
+      '/products/AW-T806F-PB/img/6.webp',
+      '/products/AW-T806F-PB/img/7.webp',
+      '/products/AW-T806F-PB/img/8.webp',
+      '/products/AW-T806F-PB/img/9.webp',
+      '/products/AW-T806F-PB/img/10.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 13,
+      },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.'
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws806.webp'
+      },
+      {id: 3},
+    ],
+    shortDesc: 'DIVERSIÓN AL MÁXIMO',
+    longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '8000W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos de luces
+        id: 6,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Entrada Mic y Guit
+        id: 21,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 7.4V / 3600mAh'
+      },
+      { // Reguladores
+        id: 22,
+      },
+      { // Reg Eco y Vol
+        id: 28,
+      },
+      { // Memoria SD
+        id: 26,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "8000W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Todo el Panel Frontal",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank, Estilos, Mute",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Volumen de Guitarra, Eco y Vol. de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Guitarra, Auxiliar y Micrófono",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Mobile Holder, Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "27 x 65,5 x 27 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "32 x 74 x 30,5 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "7,2 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354466",
+      },
+    ],
+    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T806F-PB_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T806F-PB_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+
 ]
 
 export const variants = []

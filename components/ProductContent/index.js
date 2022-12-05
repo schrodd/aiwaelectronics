@@ -65,13 +65,15 @@ export default function ProductContent({prod}) {
         <div className='default' linea={prod.line}>
           <div className='text-wrapper'>
             <div className='text'>
-              {prodLine && <Image src={prodLine.logo} alt={prodLine.displayName} width='150' height='55'/>}
+              <div className='line-logo'>
+                {prodLine && <Image src={prodLine.logo} alt={prodLine.displayName} layout='fill' objectFit='contain' objectPosition='left'/>}
+              </div>
               <p className='sku'>{prod.sku}</p>
               <h1>{prod.shortDesc}</h1>
               <p className='description'>{prod.longDesc}</p>
             </div>
           </div>
-          <Image className='cover' src={`/products/${prod.sku}/cover.webp`} width='550' height='463' alt='product-cover'/>
+          <Image className='cover' src={`/products/${prod.sku}/cover.webp`} width='550' height='463' alt='product-cover' priority/>
         </div>
         )}
         {mode == 1 && (

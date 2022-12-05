@@ -75,6 +75,12 @@ const banners = [
     title: `Personalizá tus temas`,
     desc: 'Podés regular los graves y agudos, o bien modificar el eco del micrófono tan solo presionando y girarando las perillas en el panel de control. ¡Animate a probarlo, es súper fácil!',
     img: fileserver + '/banners/perillas506.webp',
+  },
+  {
+    id: 13,
+    title: `Cuerpo de Madera`,
+    desc: 'Construcción realizada en madera para lograr un óptimo sonido y una acústica mejorada para el parlante.',
+    img: fileserver + '/banners/cuerpomadera806.webp',
   } 
 ]
 

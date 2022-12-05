@@ -18,6 +18,7 @@ import plug from '../public/svg/plug.svg'
 import potencia from '../public/svg/potencia.svg'
 import powerbank from '../public/svg/powerbank.svg'
 import radio from '../public/svg/radio.svg'
+import rec from '../public/svg/rec.svg'
 import reg from '../public/svg/reg.svg'
 import remote from '../public/svg/remote.svg'
 import sd from '../public/svg/sd.svg'
@@ -151,6 +152,9 @@ const featuredFeatures = [ // Características destacadas de productos
   },
   { id: 33, name: 'Conexión USB', icon: usb,
     desc: 'Posee puerto USB para que conectes tu pendrive o dispositivo'
+  },
+  { id: 34, name: 'Función REC', icon: rec,
+    desc: 'Grabá tu música favorita, sumá un micrófono o guitarra ¡y creá contenido nuevo!'
   },
 ]
 
