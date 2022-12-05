@@ -23,6 +23,6 @@ module.exports = {
   reactStrictMode: false,
   swcMinify: true,
   images: {
-    domains: ['aiwaelectronics.com.ar'],
+    domains: ['aiwaelectronics.com.ar', 'www.aiwaelectronics.com.ar'],
   }
 };

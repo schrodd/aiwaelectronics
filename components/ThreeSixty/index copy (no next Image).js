@@ -4,7 +4,6 @@ import ReactHammer from 'react-hammerjs'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
 import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, Add } from '@mui/icons-material'
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it has top view or not (bool)
   // States
@@ -118,11 +117,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
                 </TransformComponent>
               </TransformWrapper>}
             </div>
-            {arr.map((e,i) => (
-              <div key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${highlightOpen && 'not-visible'}`} style={{position:'absolute'}}>
-                <Image src={e} alt='360-image' width='400' height='400' priority/>
-              </div>
-            ))}
+            {arr.map((e,i) => <img key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${highlightOpen && 'not-visible'}`} src={e} alt='360-image' placeholder="blur"/>)}
           </div>
         </ReactHammer>)
         : (<TransformWrapper
