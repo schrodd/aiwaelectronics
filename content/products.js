@@ -6069,7 +6069,8 @@ export const products = [
         id: 9,
         customTitle: 'Elegí como hacer brillar tu fuego',
         customImg: fileserver + '/banners/efectos806.webp',
-        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.'
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.',
+        priority: true
       },
       {
         id: 2,
