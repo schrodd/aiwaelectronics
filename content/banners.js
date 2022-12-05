@@ -19,7 +19,7 @@ const banners = [
   {
     id: 3,
     title: 'Power Bank',
-    desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta',
+    desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.',
     img: fileserver + '/banners/powerbank.webp',
   },
   {
@@ -49,7 +49,7 @@ const banners = [
   {
     id: 8,
     title: `Cantá en pareja`,
-    desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos',
+    desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.',
     img: fileserver + '/banners/doblemic.webp',
   },
   {
@@ -61,9 +61,15 @@ const banners = [
   {
     id: 10,
     title: `Ecualizá tu música`,
-    desc: '¡Personalizá tu música como un verdadero Dj! Con las Bandas Ecualizadoras podés ajustar las frecuencias de sonido como más te guste, o simplemente experimentar tu música de otra manera',
+    desc: '¡Personalizá tu música como un verdadero Dj! Con las Bandas Ecualizadoras podés ajustar las frecuencias de sonido como más te guste, o simplemente experimentar tu música de otra manera.',
     img: fileserver + '/banners/eq2.webp',
-  }  
+  },
+  {
+    id: 11,
+    title: `¡Pasate a Horizontal!`,
+    desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.',
+    img: fileserver + '/banners/horizontal2022.webp',
+  } 
 ]
 
 export default banners

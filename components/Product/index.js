@@ -8,7 +8,7 @@ export default function Product({product, index}){
   return (
     <div className={classes}>
       <figure className='image'>
-        <Image width='500px' height='500px' src={product.imgs[0]} alt={product.name}/>
+        <Image width='500px' height='500px' src={product.imgs[0]} alt={product.name} priority/>
       </figure>
       <div className='text'>
         <div className='line-image-wrapper'>

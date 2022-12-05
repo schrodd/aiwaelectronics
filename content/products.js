@@ -4827,22 +4827,25 @@ export const products = [
       '/products/AW-T2022/img/4.webp',
       '/products/AW-T2022/img/5.webp',
       '/products/AW-T2022/img/6.webp',
+      '/products/AW-T2022/img/7.webp',
+      '/products/AW-T2022/img/8.webp',
+      '/products/AW-T2022/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
-        id: 8,
+        id: 11,
       },
       {
-        id: 9,
-        customImg: fileserver + '/banners/2044luces.webp'
+        id: 6,
+        customDesc: '¡Llevá la fiesta a donde sea que vayas! Con la Correa de fácil transporte podés moverte con tu música a la terraza, a la playa o a donde gustes.',
+        customImg: fileserver + '/banners/portatil2022.webp'
+      },
+      {
+        id: 4,
       },
       {
         id: 3,
-      },
-      {
-        id: 2,
-        customImg: fileserver + '/banners/tws2044.webp'
       },
     ],
     shortDesc: 'TRANSPORTÁ TU MÚSICA',
