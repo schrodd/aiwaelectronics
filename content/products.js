@@ -4992,6 +4992,8 @@ export const products = [
       '/products/AW-T2018R/img/4.webp',
       '/products/AW-T2018R/img/5.webp',
       '/products/AW-T2018R/img/6.webp',
+      '/products/AW-T2018R/img/7.webp',
+      '/products/AW-T2018R/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -4999,18 +5001,15 @@ export const products = [
         id: 8,
       },
       {
-        id: 9,
-        customImg: fileserver + '/banners/2044luces.webp'
-      },
-      {
         id: 3,
       },
       {
-        id: 2,
-        customImg: fileserver + '/banners/tws2044.webp'
+        id: 10,
+        customImg: fileserver + '/banners/eq2018.webp',
+        customDesc: '¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.'
       },
     ],
-    shortDesc: 'FIESTA DONDE VAYAS',
+    shortDesc: 'LLEVALO CON VOS',
     longDesc: "Una torre práctica y portátil, con un sonido potente. Con la Empuñadura de Fácil Transporte podés moverte con tu música por donde más gustes.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -5161,18 +5160,15 @@ export const products = [
         id: 8,
       },
       {
-        id: 9,
-        customImg: fileserver + '/banners/2044luces.webp'
-      },
-      {
         id: 3,
       },
       {
-        id: 2,
-        customImg: fileserver + '/banners/tws2044.webp'
+        id: 10,
+        customImg: fileserver + '/banners/eq2050.webp',
+        customDesc: '¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.'
       },
     ],
-    shortDesc: 'LLEVALO CON VOS',
+    shortDesc: 'FIESTA DONDE VAYAS',
     longDesc: "Una torre liviana, práctica y portatil, con un sonido potente. Sus deslumbrantes efectos de luces en forma de anillos le darán ese toque mágico a todos tus momentos.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -5316,22 +5312,22 @@ export const products = [
       '/products/AW-T506R/img/4.webp',
       '/products/AW-T506R/img/5.webp',
       '/products/AW-T506R/img/6.webp',
+      '/products/AW-T506R/img/7.webp',
+      '/products/AW-T506R/img/8.webp',
+      '/products/AW-T506R/img/9.webp',
+      '/products/AW-T506R/img/10.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal506.webp'
+      },
+      {
         id: 8,
       },
       {
-        id: 9,
-        customImg: fileserver + '/banners/2044luces.webp'
-      },
-      {
-        id: 3,
-      },
-      {
-        id: 2,
-        customImg: fileserver + '/banners/tws2044.webp'
+        id: 12,
       },
     ],
     shortDesc: 'MÁS VERSATILIDAD',
@@ -5473,18 +5469,14 @@ export const products = [
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal506.webp'
+      },
+      {
         id: 8,
       },
       {
-        id: 9,
-        customImg: fileserver + '/banners/2044luces.webp'
-      },
-      {
-        id: 3,
-      },
-      {
-        id: 2,
-        customImg: fileserver + '/banners/tws2044.webp'
+        id: 12,
       },
     ],
     shortDesc: 'MÁS VERSATILIDAD',
@@ -5626,18 +5618,14 @@ export const products = [
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal506.webp'
+      },
+      {
         id: 8,
       },
       {
-        id: 9,
-        customImg: fileserver + '/banners/2044luces.webp'
-      },
-      {
-        id: 3,
-      },
-      {
-        id: 2,
-        customImg: fileserver + '/banners/tws2044.webp'
+        id: 12,
       },
     ],
     shortDesc: 'MÁS VERSATILIDAD',
@@ -5778,18 +5766,17 @@ export const products = [
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal506.webp'
+      },
+      {
         id: 8,
       },
       {
-        id: 9,
-        customImg: fileserver + '/banners/2044luces.webp'
+        id: 12,
       },
       {
         id: 3,
-      },
-      {
-        id: 2,
-        customImg: fileserver + '/banners/tws2044.webp'
       },
     ],
     shortDesc: 'MÁS VERSATILIDAD',

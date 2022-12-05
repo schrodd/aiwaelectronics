@@ -69,6 +69,12 @@ const banners = [
     title: `¡Pasate a Horizontal!`,
     desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.',
     img: fileserver + '/banners/horizontal2022.webp',
+  } ,
+  {
+    id: 12,
+    title: `Personalizá tus temas`,
+    desc: 'Podés regular los graves y agudos, o bien modificar el eco del micrófono tan solo presionando y girarando las perillas en el panel de control. ¡Animate a probarlo, es súper fácil!',
+    img: fileserver + '/banners/perillas506.webp',
   } 
 ]
 
