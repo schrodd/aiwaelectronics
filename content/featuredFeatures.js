@@ -26,6 +26,7 @@ import speaker from '../public/svg/speaker.svg'
 import tripod from '../public/svg/tripod.svg'
 import tws from '../public/svg/tws.svg'
 import usb from '../public/svg/usb.svg'
+import voice from '../public/svg/voice.svg'
 import wheel from '../public/svg/wheel.svg'
 import wirelessmic from '../public/svg/wirelessmic.svg'
 import wood from '../public/svg/wood.svg'
@@ -155,6 +156,9 @@ const featuredFeatures = [ // Características destacadas de productos
   },
   { id: 34, name: 'Función REC', icon: rec,
     desc: 'Grabá tu música favorita, sumá un micrófono o guitarra ¡y creá contenido nuevo!'
+  },
+  { id: 35, name: 'Efectos de Voz', icon: voice,
+    desc: '¡Podrás ser parte de un karaoke único con los efectos de voz preprogramados!'
   },
 ]
 

@@ -1,9 +1,8 @@
-import { FlareSharp, InsertDriveFile } from '@mui/icons-material';
+import { InsertDriveFile } from '@mui/icons-material';
 const fileserver = 'https://aiwaelectronics.com.ar/fileserver'
 
 export const products = [
-
-  /////////////// LINEA RING ////////////////
+  //////////////// LINEA RING ////////////////
 
   { // AW-T2008
     name: 'Torre de Sonido Bluetooth Ring 12000W',
@@ -6062,9 +6061,8 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
-      {
-        id: 13,
-      },
+      { id: 1 },  
+      { id: 13 },
       {
         id: 9,
         customTitle: 'Elegí como hacer brillar tu fuego',
@@ -6512,7 +6510,318 @@ export const products = [
     ],
     variants: []
   },
-
+  {// AW-T1008F
+    name: 'Torre de Sonido Bluetooth Flama 9500W',
+    sku: 'AW-T1008F',
+    link: '/productos/AW-T1008F',
+    line: 'flama',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T1008F/img/1.webp',
+      '/products/AW-T1008F/img/2.webp',
+      '/products/AW-T1008F/img/3.webp',
+      '/products/AW-T1008F/img/4.webp',
+      '/products/AW-T1008F/img/5.webp',
+      '/products/AW-T1008F/img/6.webp',
+      '/products/AW-T1008F/img/7.webp',
+      '/products/AW-T1008F/img/8.webp',
+      '/products/AW-T1008F/img/9.webp',
+      '/products/AW-T1008F/img/10.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      { 
+        id: 1,
+        customTitle: 'Micrófono Inalámbrico Incluido',
+        customDesc: '¿Karaoke? ¡de una! Con el micrófono inalámbrico incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.',
+        priority: true
+      },
+      { id: 3 },
+      { id: 4 },
+      { id: 14 }
+    ],
+    shortDesc: 'ACERCATE AL FUEGO',
+    longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '9500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 8"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos de luces
+        id: 6,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Entrada Mic
+        id: 27,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Reg Eco y Vol
+        id: 28,
+      },
+      { // Memoria SD
+        id: 26,
+      },
+      { // REC
+        id: 34,
+      },
+      { // Efectos de voz
+        id: 35,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "9500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Todo el Panel Frontal",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank, Radio FM, REC",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Estilos, Eco y Vol. de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "USB, Micro SD, Auxiliar y Micrófono x2",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Mobile Holder, Empuñadura de Transporte, Ruedas",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "31 x 76,5 x 30 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "36 x 81 x 36 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "9,5 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354008",
+      },
+    ],
+    includes: 'Micrófono Inalámbrico / Control Remoto / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T1008F_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T1008F_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
+  {// AW-T1008F-PB
+    name: 'Torre de Sonido Bluetooth Flama 9500W',
+    sku: 'AW-T1008F-PB',
+    link: '/productos/AW-T1008F-PB',
+    line: 'flama',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T1008F-PB/img/1.webp',
+      '/products/AW-T1008F-PB/img/2.webp',
+      '/products/AW-T1008F-PB/img/3.webp',
+      '/products/AW-T1008F-PB/img/4.webp',
+      '/products/AW-T1008F-PB/img/5.webp',
+      '/products/AW-T1008F-PB/img/6.webp',
+      '/products/AW-T1008F-PB/img/7.webp',
+      '/products/AW-T1008F-PB/img/8.webp',
+      '/products/AW-T1008F-PB/img/9.webp',
+      '/products/AW-T1008F-PB/img/10.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      { 
+        id: 1,
+        customTitle: 'Micrófono Inalámbrico Incluido',
+        customDesc: '¿Karaoke? ¡de una! Con el micrófono inalámbrico incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.',
+        priority: true
+      },
+      { id: 3 },
+      { id: 4 },
+      { id: 14 }
+    ],
+    shortDesc: 'ACERCATE AL FUEGO',
+    longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '9500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 8"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos de luces
+        id: 6,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Entrada Mic
+        id: 27,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Reg Eco y Vol
+        id: 28,
+      },
+      { // Megabass
+        id: 31,
+      },
+      { // REC
+        id: 34,
+      },
+      { // Efectos de voz
+        id: 35,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "9500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Todo el Panel Frontal",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank, MEGA BASS",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Agudos, Graves, Eco y Vol. de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar y Micrófono x2",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Mobile Holder, Empuñadura de Transporte, Ruedas",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "31 x 76,5 x 30 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "36 x 81 x 36 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "9,5 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354459",
+      },
+    ],
+    includes: 'Micrófono Inalámbrico / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    downloads: [
+      {
+        name: 'Manual',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T1008F-PB_MANUAL.pdf'
+      },
+      {
+        name: 'Ficha',
+        icon: InsertDriveFile,
+        link: fileserver + '/docs/AW-T1008F-PB_FICHA.pdf'
+      }
+    ],
+    variants: []
+  },
 ]
 
 export const variants = []

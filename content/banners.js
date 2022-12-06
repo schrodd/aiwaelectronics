@@ -81,7 +81,13 @@ const banners = [
     title: `Cuerpo de Madera`,
     desc: 'Construcción realizada en madera para lograr un óptimo sonido y una acústica mejorada para el parlante.',
     img: fileserver + '/banners/cuerpomadera806.webp',
-  } 
+  },
+  {
+    id: 14,
+    title: `Nunca te olvides la fiesta afuera`,
+    desc: 'Con sus ruedas vas a poder llevar tu flama a todas partes. Su Peso ligero y empuñadura superior te ayudaran en la tarea de llevar tu música a donde sea.',
+    img: fileserver + '/banners/ruedas1008.webp'
+  }
 ]
 
 export default banners
