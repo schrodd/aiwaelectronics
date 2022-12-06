@@ -4,7 +4,7 @@
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0,0,0,.8);
+  background-color: $black;
   animation: .2s ease-out openModal;
   z-index: 99;
   padding: 30px;
@@ -52,106 +52,113 @@
     color:white;
   }
 }
-nav {
-  @include flex(row, flex-start);
-  background: $mainDark;
-  background: $blackDeg;
-  width: 100%;
-  padding: 20px 20px 15px 30px;
-  color: white;
-  font-size: 20px;
-  box-shadow: $shadow;
-  border-bottom: $divider;
-  position: relative;
-
+header {
+  height: 88px;
   @include mobile {
-    justify-content: space-between;
+    height: 75px;
   }
-
-  button {
-    background: none;
-    border: none;
-    color: inherit;
-    &:hover {
-      border-bottom: 1px solid white;
-      margin-bottom: -1px;
-    }
-  }
-
-  img {
-    min-width: 150px;
-
-    @include mobile{
-      min-width: 100px;
-    }
-  }
-
-  ul {
+  nav {
     @include flex(row, flex-start);
-    margin-left: 30px;
-
-    li {
-      margin-right: 15px;
-      position: relative;
-
-      .nav-hover {
-        @include flex(column, flex-start, stretch);
-        background-color: black;
-        border-radius: 2px;
-        box-shadow: $strongShadow;
-        position: absolute;
-        z-index: 999;
-        left: -20px;
-        color: $black;
-        min-width: 180px;
-        animation: openModal .2s ease-out;
-        display:none;
-        &.active {
-          display:flex;
+    background: $black;
+    width: 100%;
+    padding: 20px 20px 15px 30px;
+    color: white;
+    font-size: 20px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 0px 10px 0px;
+    border-bottom: $divider;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+  
+    @include mobile {
+      justify-content: space-between;
+    }
+  
+    button {
+      background: none;
+      border: none;
+      color: inherit;
+      &:hover {
+        border-bottom: 1px solid white;
+        margin-bottom: -1px;
+      }
+    }
+  
+    img {
+      min-width: 150px;
+      transition: all .3s ease-in-out;
+      @include mobile{
+        min-width: 100px;
+      }
+    }
+  
+    ul {
+      @include flex(row, flex-start);
+      margin-left: 30px;
+  
+      li {
+        margin-right: 15px;
+        position: relative;
+  
+        .nav-hover {
+          @include flex(column, flex-start, stretch);
+          background-color: $black;
+          border-radius: 2px;
+          box-shadow: $strongShadow;
+          position: absolute;
+          z-index: 999;
+          left: -20px;
+          color: $black;
+          min-width: 180px;
+          animation: openModal .2s ease-out;
+          display:none;
+          &.active {
+            display:flex;
+          }
+          a {
+            @include hoverMarginLeft;
+            padding: 5px 20px;
+            font-size: 16px;
+            font-family: DINPRO;
+            font-weight: bold;
+            color:white;
+            &:hover {
+              color: $alt;
+            }
+            &:first-of-type {
+              padding-top: 18px;
+            }
+            &:last-of-type {
+              padding-bottom: 18px;
+            }
+          }
         }
-        a {
-          @include hoverMarginLeft;
-          padding: 5px 20px;
+        
+        &>button, &>button>a {
+          cursor: pointer;
           font-size: 16px;
           font-family: DINPRO;
-          font-weight: bold;
-          color:white;
-          &:hover {
-            color: $alt;
-          }
-          &:first-of-type {
-            padding-top: 18px;
-          }
-          &:last-of-type {
-            padding-bottom: 18px;
-          }
+          font-weight: bolder;
         }
       }
-      
-      &>button, &>button>a {
-        cursor: pointer;
-        font-size: 16px;
-        font-family: DINPRO;
-        font-weight: bolder;
+    }
+    .right-zone {
+      @include flex(row, center, center);
+      margin-left: auto;
+      button.buscar {
+        margin-left: 15px;
       }
     }
   }
-  .right-zone {
-    @include flex(row, center, center);
-    margin-left: auto;
-    button.buscar {
-      margin-left: 15px;
-    }
+  
+  li.gaming {
+    background: linear-gradient( to right, #8aff0a 0%, #74cc13 20%, #2dc339 40%, #2dc339 60%, #8aff0a 80% );
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 2s linear infinite;
   }
-}
-
-li.gaming {
-  background: linear-gradient( to right, #8aff0a 0%, #74cc13 20%, #2dc339 40%, #2dc339 60%, #8aff0a 80% );
-  background-size: 200% auto;
-  color: #000;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 2s linear infinite;
 }

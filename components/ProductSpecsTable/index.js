@@ -12,6 +12,9 @@ export default function ProductSpecsTable({prod}) {
     <section id='prod-specs'>
       <AccordionItem classes='prod-specs-table' name='Especificaciones'>
         <div className='table-cell-container'>
+        <div className='table-cell sku'>
+              <div className='title'>{prod.sku}</div>
+            </div>
           {prodFeatures.map((e,i) => (
             <div className='table-cell' key={i}>
               <div className='title'>{e.name}</div>

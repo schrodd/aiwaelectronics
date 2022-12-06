@@ -31,7 +31,7 @@ section.products{
         width: 200px;
         height: 70px;
         position: relative;
-        margin: 0 -20px 20px 0;
+        margin-bottom: 20px;
         filter: drop-shadow(0px 2px 2px rgba(0,0,0,.4));
         @include mobile {
           margin-right: 0;
@@ -51,6 +51,7 @@ section.products{
       h4 {
         color: grey;
         font-size: 14px;
+        font-weight: lighter;
         @include mobile {
           display:none;
         }
@@ -82,7 +83,7 @@ section.products{
         text-align: center;
       }
       .line-image-wrapper {
-        margin: 0 0 20px -15px;
+        margin-bottom: 20px;
         @include mobile {
           margin-left: 0;
         }

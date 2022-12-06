@@ -12,7 +12,8 @@ export default function Product({product, index}){
       </figure>
       <div className='text'>
         <div className='line-image-wrapper'>
-          <Image src={linea.logo} alt={`Logo línea ${linea.name}`} layout='fill' objectFit='contain' />
+          <Image src={linea.logo} alt={`Logo línea ${linea.name}`} layout='fill' objectFit='contain' 
+          objectPosition={index % 2 === 0 ? 'right' : 'left'}/>
         </div>
         <p className='sku'>{product.sku}</p>
         <h3>{product.shortDesc}</h3>

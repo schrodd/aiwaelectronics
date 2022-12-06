@@ -58,7 +58,8 @@ const menus = [
     name: 'Gaming',
     id: 5,
     isPopup: false,
-    link: 'https://www.constrictor.com.ar/'
+    link: 'https://www.constrictor.com.ar/',
+    targetBlank: true
   },
   {
     name: 'Soporte',

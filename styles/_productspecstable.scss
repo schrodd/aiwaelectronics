@@ -1,8 +1,8 @@
-@import 'variables';
+@import 'variables'; 
 
 section#prod-specs {
   background-color: lightgray;
-  padding: 50px;
+  padding: 50px 125px;
   @include mobile {
     padding: 20px;
   }
@@ -58,27 +58,11 @@ section#prod-specs {
         * {
           font-family: DINPRO;
           font-weight: bold;
-          font-size: 14px;
-          transition: all .2s ease-in-out;
+          font-size: 18px;
+          margin: 0;
         }
-        button {
-          border: 2px solid transparent;
-          border-radius: 3px;
-          padding: 5px 8px;
-          margin: 0 5px;
-          &.active {
-            box-shadow: $strongShadow;
-            border-color: $alt;
-            background-color: $alt;
-            z-index: 9;
-            color: white;
-            }
-        }
-        @include flex;
-        height: 80px;
         width: 100%;
         text-align: center;
-        padding: 15px 0 15px 0;
       }
     }
     .MuiAccordionSummary-root {

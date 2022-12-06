@@ -1,4 +1,4 @@
-import { InsertDriveFile } from '@mui/icons-material';
+import { PermMedia, InsertDriveFile } from '@mui/icons-material';
 const fileserver = 'https://aiwaelectronics.com.ar/fileserver'
 
 export const products = [
@@ -200,6 +200,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2008_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2008.rar'
       }
     ],
     variants: [
@@ -407,6 +412,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2008-PB_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2008.rar'
       }
     ],
     variants: []
@@ -611,6 +621,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2010_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2010.rar'
       }
     ],
     variants: [
@@ -818,6 +833,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2010-PB_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2010.rar'
       }
     ],
     variants: []
@@ -1027,6 +1047,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2012_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2012.rar'
       }
     ],
     variants: []
@@ -1063,7 +1088,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil240.webp'
       }
     ],
-    shortDesc: 'MUSICALIZÁ TU DÍA',
+    shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -1195,6 +1220,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P240D_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P240D.rar'
       }
     ],
     variants: [
@@ -1234,7 +1264,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil240.webp'
       }
     ],
-    shortDesc: 'MUSICALIZÁ TU DÍA',
+    shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -1366,6 +1396,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P240D-SA_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P240D.rar'
       }
     ],
     variants: [
@@ -1400,7 +1435,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil240.webp'
       }
     ],
-    shortDesc: 'MUSICALIZÁ TU DÍA',
+    shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -1532,6 +1567,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P240D-SN_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P240D.rar'
       }
     ],
     variants: []
@@ -1564,7 +1604,7 @@ export const products = [
         customImg: fileserver + '/banners/bar450.webp'
       }
     ],
-    shortDesc: 'TU COMPAÑÍA INDISPENSABLE',
+    shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -1696,6 +1736,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P450D_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P450D.rar'
       }
     ],
     variants: [
@@ -1733,7 +1778,7 @@ export const products = [
         customImg: fileserver + '/banners/bar450.webp'
       }
     ],
-    shortDesc: 'TU COMPAÑÍA INDISPENSABLE',
+    shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -1865,6 +1910,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P450D-SA_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P450D.rar'
       }
     ],
     variants: [
@@ -1898,7 +1948,7 @@ export const products = [
         customImg: fileserver + '/banners/bar450.webp'
       }
     ],
-    shortDesc: 'TU COMPAÑÍA INDISPENSABLE',
+    shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -2030,6 +2080,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P450D-SN_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P450D.rar'
       }
     ],
     variants: []
@@ -2064,7 +2119,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil451.webp'
       }
     ],
-    shortDesc: 'LA POTENCIA QUE ESTABAS ESPERANDO',
+    shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -2201,6 +2256,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T451D_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T451D.rar'
       }
     ],
     variants: [
@@ -2240,7 +2300,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil451.webp'
       }
     ],
-    shortDesc: 'LA POTENCIA QUE ESTABAS ESPERANDO',
+    shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -2372,6 +2432,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T451D-SA_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T451D.rar'
       }
     ],
     variants: [
@@ -2407,7 +2472,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil451.webp'
       }
     ],
-    shortDesc: 'LA POTENCIA QUE ESTABAS ESPERANDO',
+    shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -2539,6 +2604,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T451D-SN_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T451D.rar'
       }
     ],
     variants: []
@@ -2572,7 +2642,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil600.webp'
       }
     ],
-    shortDesc: 'EL ALIADO EN TUS FIESTAS',
+    shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -2708,6 +2778,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T600D_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T600D.rar'
       }
     ],
     variants: [
@@ -2745,7 +2820,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil600.webp'
       }
     ],
-    shortDesc: 'EL ALIADO EN TUS FIESTAS',
+    shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -2881,6 +2956,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T600D-SA_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T600D.rar'
       }
     ],
     variants: [
@@ -2914,7 +2994,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil600.webp'
       }
     ],
-    shortDesc: 'EL ALIADO EN TUS FIESTAS',
+    shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -3050,6 +3130,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T600D-SN_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T600D.rar'
       }
     ],
     variants: []
@@ -3083,7 +3168,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil1200.webp'
       }
     ],
-    shortDesc: 'EL ALMA DE LA FIESTA',
+    shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -3219,6 +3304,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P1200D_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P1200D.rar'
       }
     ],
     variants: [
@@ -3257,7 +3347,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil1200.webp'
       }
     ],
-    shortDesc: 'EL ALMA DE LA FIESTA',
+    shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -3393,6 +3483,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P1200D-SA_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P1200D.rar'
       }
     ],
     variants: [
@@ -3427,7 +3522,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil1200.webp'
       }
     ],
-    shortDesc: 'EL ALMA DE LA FIESTA',
+    shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -3563,6 +3658,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P1200D-SN_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P1200D.rar'
       }
     ],
     variants: []
@@ -3597,7 +3697,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil1200.webp'
       }
     ],
-    shortDesc: 'LA DISTANCIA NO ES PROBLEMA',
+    shortDesc: 'La distancia no es problema',
     longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -3747,6 +3847,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P1510D_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P1510D.rar'
       }
     ],
     variants: [
@@ -3786,7 +3891,7 @@ export const products = [
         customImg: fileserver + '/banners/portatil1200.webp'
       }
     ],
-    shortDesc: 'LA DISTANCIA NO ES PROBLEMA',
+    shortDesc: 'La distancia no es problema',
     longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -3936,6 +4041,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P1510D-SN_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P1510D.rar'
       }
     ],
     variants: []
@@ -3973,7 +4083,7 @@ export const products = [
         id: 7,
       }
     ],
-    shortDesc: '¡LISTO PARA TOCAR!',
+    shortDesc: '¡Listo para tocar!',
     longDesc: "Está listo para conectar una guitarra, un micrófono y tocar o cantar en vivo. Hace llegar a todos la música que sale de tu corazón. También Incluye la función Karaoke con la cual podés pasar horas divirtiéndote sin parar con tu familia y amigos.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [
@@ -4122,6 +4232,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-P1500PS_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-P1500PS.rar'
       }
     ],
     variants: []
@@ -4160,7 +4275,7 @@ export const products = [
         customImg: fileserver + '/banners/tws2040.webp'
       },
     ],
-    shortDesc: 'SHOW LUMINOSO',
+    shortDesc: 'Show luminoso',
     longDesc: "Cautivá a tus invitados con variados y coloridos efectos de Luz durante toda la noche.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -4298,6 +4413,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2040_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2040.rar'
       }
     ],
     variants: []
@@ -4336,7 +4456,7 @@ export const products = [
         customImg: fileserver + '/banners/tws2042.webp'
       },
     ],
-    shortDesc: 'EN TODO MOMENTO',
+    shortDesc: 'En todo momento',
     longDesc: "Una torre lista para acompañarte durante largas horas en todo momento y lugar. Te permite llevar tu música junto a un variado show luminoso.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -4474,6 +4594,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2042_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2042.rar'
       }
     ],
     variants: []
@@ -4512,7 +4637,7 @@ export const products = [
         customImg: fileserver + '/banners/tws2044.webp'
       },
     ],
-    shortDesc: 'COLORÉA TUS FIESTAS',
+    shortDesc: 'Coloreá tus fiestas',
     longDesc: "Preparada para llenar de colores toda la noche. Su Empuñadura de Fácil Transporte y su liviano peso te permiten llevar tu música junto a un variado show luminoso.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -4650,6 +4775,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2044_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2044.rar'
       }
     ],
     variants: []
@@ -4682,7 +4812,7 @@ export const products = [
       {id: 10},
       {id: 4},
     ],
-    shortDesc: 'ECUALIZADOR PRECISO',
+    shortDesc: 'Ecualizador preciso',
     longDesc: "Efectos de luces en forma de anillos Led agregarán un toque fantástico a donde los lleves. Podrás ajustar el sonido a gusto como un verdadero Dj.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -4809,6 +4939,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2021_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2021.rar'
       }
     ],
     variants: []
@@ -4847,7 +4982,7 @@ export const products = [
         id: 3,
       },
     ],
-    shortDesc: 'TRANSPORTÁ TU MÚSICA',
+    shortDesc: 'Transportá tu música',
     longDesc: "Con la Correa de fácil transporte podés moverte con tu música de la terraza, a la playa o en donde mas gustes. Práctica, liviana y portatil, con un sonido potente.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -4974,6 +5109,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2022_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2022.rar'
       }
     ],
     variants: []
@@ -5008,7 +5148,7 @@ export const products = [
         customDesc: '¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.'
       },
     ],
-    shortDesc: 'LLEVALO CON VOS',
+    shortDesc: 'Llevalo con vos',
     longDesc: "Una torre práctica y portátil, con un sonido potente. Con la Empuñadura de Fácil Transporte podés moverte con tu música por donde más gustes.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -5135,6 +5275,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2018R_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2018R.rar'
       }
     ],
     variants: []
@@ -5167,7 +5312,7 @@ export const products = [
         customDesc: '¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.'
       },
     ],
-    shortDesc: 'FIESTA DONDE VAYAS',
+    shortDesc: 'Fiesta donde vayas',
     longDesc: "Una torre liviana, práctica y portatil, con un sonido potente. Sus deslumbrantes efectos de luces en forma de anillos le darán ese toque mágico a todos tus momentos.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -5294,6 +5439,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T2050R_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T2050R.rar'
       }
     ],
     variants: []
@@ -5329,7 +5479,7 @@ export const products = [
         id: 12,
       },
     ],
-    shortDesc: 'MÁS VERSATILIDAD',
+    shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -5447,6 +5597,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T506R_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T506R.rar'
       }
     ],
     variants: []
@@ -5478,7 +5633,7 @@ export const products = [
         id: 12,
       },
     ],
-    shortDesc: 'MÁS VERSATILIDAD',
+    shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -5596,6 +5751,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T506R-PB_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T506R.rar'
       }
     ],
     variants: []
@@ -5627,7 +5787,7 @@ export const products = [
         id: 12,
       },
     ],
-    shortDesc: 'MÁS VERSATILIDAD',
+    shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -5744,6 +5904,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T265SF_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T506R.rar'
       }
     ],
     variants: []
@@ -5778,7 +5943,7 @@ export const products = [
         id: 3,
       },
     ],
-    shortDesc: 'MÁS VERSATILIDAD',
+    shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -5895,6 +6060,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T265SF-SA_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T506R.rar'
       }
     ],
     variants: []
@@ -5927,7 +6097,7 @@ export const products = [
         customImg: fileserver + '/banners/tws604.webp'
       },
     ],
-    shortDesc: 'LLEVATE FUEGO',
+    shortDesc: 'Llevate fuego',
     longDesc: "Su práctico tamaño te permitirá llevar el fuego y la diversión a todas partes.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -6037,6 +6207,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T604F_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T604F.rar'
       }
     ],
     variants: []
@@ -6075,7 +6250,7 @@ export const products = [
         customImg: fileserver + '/banners/tws806.webp'
       },
     ],
-    shortDesc: 'DIVERSIÓN AL MÁXIMO',
+    shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -6193,6 +6368,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T806F_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T806F.rar'
       }
     ],
     variants: []
@@ -6231,7 +6411,7 @@ export const products = [
         customImg: fileserver + '/banners/tws806.webp'
       },
     ],
-    shortDesc: 'DIVERSIÓN AL MÁXIMO',
+    shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -6349,6 +6529,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T806F-SA_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T806F.rar'
       }
     ],
     variants: []
@@ -6388,7 +6573,7 @@ export const products = [
       },
       {id: 3},
     ],
-    shortDesc: 'DIVERSIÓN AL MÁXIMO',
+    shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -6506,6 +6691,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T806F-PB_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T806F.rar'
       }
     ],
     variants: []
@@ -6545,7 +6735,7 @@ export const products = [
       { id: 4 },
       { id: 14 }
     ],
-    shortDesc: 'ACERCATE AL FUEGO',
+    shortDesc: 'Acercate al fuego',
     longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -6662,6 +6852,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T1008F_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T1008F.rar'
       }
     ],
     variants: []
@@ -6701,7 +6896,7 @@ export const products = [
       { id: 4 },
       { id: 14 }
     ],
-    shortDesc: 'ACERCATE AL FUEGO',
+    shortDesc: 'Acercate al fuego',
     longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/',
     videos: [],
@@ -6818,6 +7013,11 @@ export const products = [
         name: 'Ficha',
         icon: InsertDriveFile,
         link: fileserver + '/docs/AW-T1008F-PB_FICHA.pdf'
+      },
+      {
+        name: 'Imágenes',
+        icon: PermMedia,
+        link: fileserver + '/compressed/images/AW-T1008F.rar'
       }
     ],
     variants: []

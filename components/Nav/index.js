@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from 'next/link'
 import { useState } from "react"
 import MenuIcon from '@mui/icons-material/Menu'
@@ -9,7 +8,6 @@ import NavItem from '../NavItem'
 import StoreButton from '../StoreButton'
 import SearchButton from '../SearchButton'
 
-
 export default function Nav() {
   const [modalOpen, setModalOpen] = useState(false)
   const [activeTab, setActiveTab] = useState(0)
@@ -18,7 +16,7 @@ export default function Nav() {
     document.body.style.overflow = modalOpen ? 'visible' : 'hidden'
   }
   return (
-    <header>
+    <header id='header-nav'>
       <div className={`modal ${!modalOpen && 'd-none'}`}>
         <button className='mobile-only' onClick={handleBurger}><CloseIcon fontSize="large"/></button>
         {menus.map((e,i) => <NavItem menu={e} key={i} activeTab={activeTab} setActive={setActiveTab} closeModal={handleBurger}/>)}
@@ -27,7 +25,7 @@ export default function Nav() {
       </div>
       <nav>
         <Link href='/'>
-            <a><Image width='150px' height='50px' src='/aiwa-w.svg' alt='Aiwa logo'/></a>
+            <a><img id='main-logo' src='/aiwa-w.svg' alt='Aiwa logo'/></a>
         </Link>
         <ul className='pc-only'>
           {menus.map((e,i) => <NavItem menu={e} key={i} activeTab={activeTab} setActive={setActiveTab}/>)}

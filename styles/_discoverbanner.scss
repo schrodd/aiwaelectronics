@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'variables'; 
 
 section.discover-banner {
   background: $whiteDeg;
@@ -15,9 +15,10 @@ section.discover-banner {
     width: 100%;
     h2 {
       margin-bottom: 20px;
+      font-weight: lighter;
     }
     h3 {
-      font-weight: lighter;
+      font-size: 18px;
       margin-bottom: 10px;
       @include mobile {
         padding: 0 60px;
@@ -54,6 +55,7 @@ section.discover-banner {
 
       h3 {
         text-align: right;
+        font-weight: lighter;
         @include mobile {
           width: 90vw;
           text-align: center;
