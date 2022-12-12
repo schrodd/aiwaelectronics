@@ -32,7 +32,7 @@ export default function ProductSpecsTable({prod}) {
       <AccordionItem classes='prod-specs-table' name='Incluye'>
             {/* <p>{prod.includes}</p> */}
             <div className='includes-container'>
-              {prodIncludes.map(e => <IncludesItem item={e}/>)}
+              {prodIncludes.map((e,i) => <IncludesItem item={e} key={i}/>)}
             </div>
             {prod.certNo && <p><small>Número de certificado de Seguridad Eléctrica: {prod.certNo}</small></p>}
       </AccordionItem>
