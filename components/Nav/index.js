@@ -33,6 +33,7 @@ export default function Nav() {
         <div className='right-zone pc-only'>
           <StoreButton />
           <SearchButton />
+          <SocialContainer />
         </div>
         <button className='mobile-only' onClick={handleBurger}><MenuIcon fontSize="large"/></button>
       </nav>

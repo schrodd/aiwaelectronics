@@ -38,7 +38,7 @@ export const products = [
     ],
     shortDesc: 'Sonido Robusto',
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/211-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2008-pb.html',
     videos: [
       /* {
         id: 1,
@@ -250,7 +250,7 @@ export const products = [
     ],
     shortDesc: 'Sonido Robusto',
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/211-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2008-pb.html',
     videos: [
       /* {
         id: 1,
@@ -454,7 +454,7 @@ export const products = [
     ],
     shortDesc: 'Potencia y Calidad',
     longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno y 2 tweeters, vas a poder tirar tu casa por la ventana.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/212-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2010-pb.html',
     videos: [
       {
         id: 1,
@@ -671,7 +671,7 @@ export const products = [
     ],
     shortDesc: 'Potencia y Calidad',
     longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno y 2 tweeters, vas a poder tirar tu casa por la ventana.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/212-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2010-pb.html',
     videos: [
       /* {
         id: 1,
@@ -880,7 +880,7 @@ export const products = [
     ],
     shortDesc: 'Sonido Colosal',
     longDesc: "Caja con cuerpo de madera, 1,49 centímetros de altura. Una gran torre en todo sentido de la palabra.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/253-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2012.html',
     videos: [
       {
         id: 1,
@@ -1090,7 +1090,7 @@ export const products = [
     ],
     shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/331-parlante-bluetooth-portatil-2500w-aiwa-aw-p240d-sn.html',
     videos: [
       {
         id: 1,
@@ -1266,7 +1266,7 @@ export const products = [
     ],
     shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/331-parlante-bluetooth-portatil-2500w-aiwa-aw-p240d-sn.html',
     videos: [
       {
         id: 1,
@@ -1437,7 +1437,7 @@ export const products = [
     ],
     shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/331-parlante-bluetooth-portatil-2500w-aiwa-aw-p240d-sn.html',
     videos: [
       {
         id: 1,
@@ -1606,7 +1606,7 @@ export const products = [
     ],
     shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/252-parlante-portatil-bluetooth-aiwa-aw-p450d-sn.html',
     videos: [
       {
         id: 1,
@@ -1780,7 +1780,7 @@ export const products = [
     ],
     shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/252-parlante-portatil-bluetooth-aiwa-aw-p450d-sn.html',
     videos: [
       {
         id: 1,
@@ -1950,7 +1950,7 @@ export const products = [
     ],
     shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/252-parlante-portatil-bluetooth-aiwa-aw-p450d-sn.html',
     videos: [
       {
         id: 1,
@@ -2121,7 +2121,7 @@ export const products = [
     ],
     shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html',
     videos: [
       {
         id: 1,
@@ -2302,7 +2302,7 @@ export const products = [
     ],
     shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html',
     videos: [
       {
         id: 1,
@@ -2474,7 +2474,7 @@ export const products = [
     ],
     shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html',
     videos: [
       {
         id: 1,
@@ -2644,7 +2644,7 @@ export const products = [
     ],
     shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/266-parlante-portatil-bluetooth-aiwa-aw-t600d-sn.html',
     videos: [
       {
         id: 1,
@@ -2822,7 +2822,7 @@ export const products = [
     ],
     shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/266-parlante-portatil-bluetooth-aiwa-aw-t600d-sn.html',
     videos: [
       {
         id: 1,
@@ -2996,7 +2996,7 @@ export const products = [
     ],
     shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/266-parlante-portatil-bluetooth-aiwa-aw-t600d-sn.html',
     videos: [
       {
         id: 1,
@@ -3170,7 +3170,7 @@ export const products = [
     ],
     shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/217-parlante-portatil-aiwa-12-pulgadas-bluetooth-aw-p1200d.html',
     videos: [
       {
         id: 1,
@@ -3349,7 +3349,7 @@ export const products = [
     ],
     shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/217-parlante-portatil-aiwa-12-pulgadas-bluetooth-aw-p1200d.html',
     videos: [
       {
         id: 1,
@@ -3524,7 +3524,7 @@ export const products = [
     ],
     shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/217-parlante-portatil-aiwa-12-pulgadas-bluetooth-aw-p1200d.html',
     videos: [
       {
         id: 1,
@@ -3699,7 +3699,7 @@ export const products = [
     ],
     shortDesc: 'La distancia no es problema',
     longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/95-parlante-portatil-aiwa-15-pulgadas-bluetooth-aw-p1510d-7798111353544.html',
     videos: [
       {
         id: 1,
@@ -3893,7 +3893,7 @@ export const products = [
     ],
     shortDesc: 'La distancia no es problema',
     longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/95-parlante-portatil-aiwa-15-pulgadas-bluetooth-aw-p1510d-7798111353544.html',
     videos: [
       {
         id: 1,
@@ -4085,7 +4085,7 @@ export const products = [
     ],
     shortDesc: '¡Listo para tocar!',
     longDesc: "Está listo para conectar una guitarra, un micrófono y tocar o cantar en vivo. Hace llegar a todos la música que sale de tu corazón. También Incluye la función Karaoke con la cual podés pasar horas divirtiéndote sin parar con tu familia y amigos.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/94-parlante-aiwa-bluetooth-portatil-con-tripode-aw-p1500ps-7798111353438.html',
     videos: [
       {
         id: 1,
@@ -4256,7 +4256,6 @@ export const products = [
       '/products/AW-T2040/img/6.webp',
       '/products/AW-T2040/img/7.webp',
       '/products/AW-T2040/img/8.webp',
-      '/products/AW-T2040/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -4277,7 +4276,7 @@ export const products = [
     ],
     shortDesc: 'Show luminoso',
     longDesc: "Cautivá a tus invitados con variados y coloridos efectos de Luz durante toda la noche.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/254-parlante-torre-bluetooth-power-bank-aiwa-aw-t2040-7798111354398.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -4437,7 +4436,6 @@ export const products = [
       '/products/AW-T2042/img/6.webp',
       '/products/AW-T2042/img/7.webp',
       '/products/AW-T2042/img/8.webp',
-      '/products/AW-T2042/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -4458,7 +4456,7 @@ export const products = [
     ],
     shortDesc: 'En todo momento',
     longDesc: "Una torre lista para acompañarte durante largas horas en todo momento y lugar. Te permite llevar tu música junto a un variado show luminoso.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/255-parlante-torre-bluetooth-power-bank-aiwa-aw-t2042.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -4618,7 +4616,6 @@ export const products = [
       '/products/AW-T2044/img/6.webp',
       '/products/AW-T2044/img/7.webp',
       '/products/AW-T2044/img/8.webp',
-      '/products/AW-T2044/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -4639,7 +4636,7 @@ export const products = [
     ],
     shortDesc: 'Coloreá tus fiestas',
     longDesc: "Preparada para llenar de colores toda la noche. Su Empuñadura de Fácil Transporte y su liviano peso te permiten llevar tu música junto a un variado show luminoso.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/256-parlante-torre-bluetooth-power-bank-aiwa-aw-t2044.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -4814,7 +4811,7 @@ export const products = [
     ],
     shortDesc: 'Ecualizador preciso',
     longDesc: "Efectos de luces en forma de anillos Led agregarán un toque fantástico a donde los lleves. Podrás ajustar el sonido a gusto como un verdadero Dj.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/214-parlante-torre-bluetooth-power-bank-aiwa-aw-t2021.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -4963,7 +4960,6 @@ export const products = [
       '/products/AW-T2022/img/6.webp',
       '/products/AW-T2022/img/7.webp',
       '/products/AW-T2022/img/8.webp',
-      '/products/AW-T2022/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -4984,7 +4980,7 @@ export const products = [
     ],
     shortDesc: 'Transportá tu música',
     longDesc: "Con la Correa de fácil transporte podés moverte con tu música de la terraza, a la playa o en donde mas gustes. Práctica, liviana y portatil, con un sonido potente.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/215-parlante-torre-bluetooth-power-bank-aiwa-aw-t2022.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -5150,7 +5146,7 @@ export const products = [
     ],
     shortDesc: 'Llevalo con vos',
     longDesc: "Una torre práctica y portátil, con un sonido potente. Con la Empuñadura de Fácil Transporte podés moverte con tu música por donde más gustes.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/213-parlante-torre-bluetooth-power-bank-aiwa-aw-t2018r.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -5314,7 +5310,7 @@ export const products = [
     ],
     shortDesc: 'Fiesta donde vayas',
     longDesc: "Una torre liviana, práctica y portatil, con un sonido potente. Sus deslumbrantes efectos de luces en forma de anillos le darán ese toque mágico a todos tus momentos.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/216-parlante-torre-bluetooth-power-bank-aiwa-aw-t2050r.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -5463,8 +5459,6 @@ export const products = [
       '/products/AW-T506R/img/6.webp',
       '/products/AW-T506R/img/7.webp',
       '/products/AW-T506R/img/8.webp',
-      '/products/AW-T506R/img/9.webp',
-      '/products/AW-T506R/img/10.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -5481,7 +5475,7 @@ export const products = [
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -5635,7 +5629,7 @@ export const products = [
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -5789,7 +5783,7 @@ export const products = [
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -5945,7 +5939,7 @@ export const products = [
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6099,7 +6093,7 @@ export const products = [
     ],
     shortDesc: 'Llevate fuego',
     longDesc: "Su práctico tamaño te permitirá llevar el fuego y la diversión a todas partes.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/209-parlante-bluetooth-portatil-serie-flama-6500w.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6231,8 +6225,6 @@ export const products = [
       '/products/AW-T806F/img/6.webp',
       '/products/AW-T806F/img/7.webp',
       '/products/AW-T806F/img/8.webp',
-      '/products/AW-T806F/img/9.webp',
-      '/products/AW-T806F/img/10.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -6252,7 +6244,7 @@ export const products = [
     ],
     shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/103-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t806f-7798111353995.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6392,8 +6384,6 @@ export const products = [
       '/products/AW-T806F-SA/img/6.webp',
       '/products/AW-T806F-SA/img/7.webp',
       '/products/AW-T806F-SA/img/8.webp',
-      '/products/AW-T806F-SA/img/9.webp',
-      '/products/AW-T806F-SA/img/10.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -6413,7 +6403,7 @@ export const products = [
     ],
     shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/103-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t806f-7798111353995.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6553,8 +6543,6 @@ export const products = [
       '/products/AW-T806F-PB/img/6.webp',
       '/products/AW-T806F-PB/img/7.webp',
       '/products/AW-T806F-PB/img/8.webp',
-      '/products/AW-T806F-PB/img/9.webp',
-      '/products/AW-T806F-PB/img/10.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -6575,7 +6563,7 @@ export const products = [
     ],
     shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/103-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t806f-7798111353995.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6715,8 +6703,6 @@ export const products = [
       '/products/AW-T1008F/img/6.webp',
       '/products/AW-T1008F/img/7.webp',
       '/products/AW-T1008F/img/8.webp',
-      '/products/AW-T1008F/img/9.webp',
-      '/products/AW-T1008F/img/10.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -6737,7 +6723,7 @@ export const products = [
     ],
     shortDesc: 'Acercate al fuego',
     longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/98-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t1008f-7798111354008.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6876,8 +6862,6 @@ export const products = [
       '/products/AW-T1008F-PB/img/6.webp',
       '/products/AW-T1008F-PB/img/7.webp',
       '/products/AW-T1008F-PB/img/8.webp',
-      '/products/AW-T1008F-PB/img/9.webp',
-      '/products/AW-T1008F-PB/img/10.webp',
     ].map(e => fileserver + e),
     top: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
@@ -6898,7 +6882,7 @@ export const products = [
     ],
     shortDesc: 'Acercate al fuego',
     longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/',
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/98-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t1008f-7798111354008.html',
     videos: [],
     featuredFeatures: [
       { // Potencia

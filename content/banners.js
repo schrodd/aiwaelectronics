@@ -7,13 +7,11 @@ const banners = [
     title: 'Micrófono incluido',
     desc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!',
     img: fileserver + '/banners/microfono.webp',
-    /* disclaimer: '', ////////// DISCLAIMER en caso de ser necesario
-    disclaimerLink: '', */
   },
   {
     id: 2,
     title: 'True Wireless Stereo',
-    desc: `Conectá dos parlantes y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!`,
+    desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!`,
     img: fileserver + '/banners/tws.webp',
   },
   {

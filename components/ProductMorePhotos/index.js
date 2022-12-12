@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import Image from 'next/image'
 import { useState } from 'react'
 
-export default function ProductMorePhotos({sku, shortDesc, arr}){
+export default function ProductMorePhotos({sku, shortDesc, arr}){ 
   const [swiper, setSwiper] = useState(null)
   console.log(arr)
   return (

@@ -17,7 +17,6 @@ export default function ProductBanners({banners}) {
           <div className='text'>
             <h3>{e.customTitle ? e.customTitle : e.title}</h3>
             <p>{e.customDesc ? e.customDesc : e.desc}</p>
-            {e.disclaimer && <Link href={e.disclaimerLink}><a>{e.disclaimer}</a></Link>}
           </div>
         </div>
       ))}

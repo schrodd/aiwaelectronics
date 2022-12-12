@@ -79,8 +79,16 @@ header {
       border: none;
       color: inherit;
       &:hover {
-        border-bottom: 1px solid white;
+        border-bottom: 2px groove white;
         margin-bottom: -1px;
+        font-weight: bolder;
+      }
+      &[active="true"]{
+        color: $alt;
+        font-weight: bolder;
+        /* border-bottom: 2px groove $alt;
+        margin-bottom: -1px; */
+        
       }
     }
   
@@ -138,7 +146,6 @@ header {
           cursor: pointer;
           font-size: 16px;
           font-family: DINPRO;
-          font-weight: bolder;
         }
       }
     }
