@@ -189,7 +189,13 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono Inalámbrico, Control Remoto, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-0), Manual de Instrucciones y Garantía',
+    includes: [
+      1, // Mic inalambrico
+      8, // Control remoto negro
+      5, // Fuente de alimentacion
+      9 // Manual
+    ],
+    certNo: 'Q-AR-01590-T-0',
     downloads: [
       {
         name: 'Manual',
@@ -401,7 +407,12 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono Inalámbrico, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-0), Manual de Instrucciones y Garantía',
+    includes: [
+      1, // Mic inalambrico
+      5, // Fuente de alimentacion
+      9 // Manual
+    ],
+    certNo: 'Q-AR-01590-T-0',
     downloads: [
       {
         name: 'Manual',

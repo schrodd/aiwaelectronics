@@ -10,6 +10,25 @@ section#prod-specs {
     * {
       color: $black;
     }
+    .includes-container {
+      @include flex(row, flex-start);
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+      .includes-item {
+        margin: 10px;
+        padding: 10px;
+        width: 150px;
+        height: 160px;
+        border-radius: 10px;
+        @include flex(column, flex-start);
+        box-shadow: $lightShadow;
+        p {
+          font-size: 13px;
+          text-align: center;
+          margin-top: 10px;
+        }
+      }
+    }
     &.variants .wrapper {
       @include flex(row, center, center);
       width: 100%;

@@ -2,11 +2,17 @@ import AccordionItem from '../AccordionItem'
 import features from '../../content/features'
 import Link from 'next/link'
 import Image from 'next/image'
+import IncludesItem from '../IncludesItem'
+import includes from '../../content/includes'
 
 export default function ProductSpecsTable({prod}) {
   const prodFeatures = []
   prod.features.forEach(e => {
     prodFeatures.push({...features.find(f => e.id == f.id), value: e.value})
+  })
+  const prodIncludes = []
+  prod.includes.forEach(e => {
+    prodIncludes.push(includes.find(f => e == f.id))
   })
   return (
     <section id='prod-specs'>
@@ -24,7 +30,11 @@ export default function ProductSpecsTable({prod}) {
         </div>
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Incluye'>
-            <p>{prod.includes}</p>
+            {/* <p>{prod.includes}</p> */}
+            <div className='includes-container'>
+              {prodIncludes.map(e => <IncludesItem item={e}/>)}
+            </div>
+            {prod.certNo && <p><small>Número de certificado de Seguridad Eléctrica: {prod.certNo}</small></p>}
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Descargas'>
         <div className='download-items'>
@@ -37,7 +47,7 @@ export default function ProductSpecsTable({prod}) {
         </div>
       </AccordionItem>
       {prod.variants.length > 0 && (
-        <AccordionItem classes='prod-specs-table variants' name='Otras versiones'>
+        <AccordionItem classes='prod-specs-table variants' name='Variantes'>
             <div className="download-items">
               <Image className='versions-thumbnail' src={prod.imgs[0]} alt='img' width="150" height="150"/>
               <div className="buttons">
