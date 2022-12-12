@@ -5,14 +5,14 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 
 const social = [
   {
-    class: 'social-instagram',
-    icon: InstagramIcon,
-    link: 'https://www.instagram.com/aiwa.arg/'
-  },
-  {
     class: 'social-youtube',
     icon: YouTubeIcon,
     link: 'https://www.youtube.com/channel/UCRkTF2nWEUD3-KcAwwoVwrg'
+  },/* 
+  {
+    class: 'social-instagram',
+    icon: InstagramIcon,
+    link: 'https://www.instagram.com/aiwa.arg/'
   },
   {
     class: 'social-twitter',
@@ -23,7 +23,7 @@ const social = [
     class: 'social-facebook',
     icon: FacebookIcon,
     link: 'https://facebook.com/'
-  },
+  }, */
 ]
 
 export default social

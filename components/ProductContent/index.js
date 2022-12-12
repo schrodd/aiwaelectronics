@@ -14,7 +14,6 @@ import ProductFeatures from '../ProductFeatures';
 import ProductSpecsTable from '../ProductSpecsTable'
 import YoutubeBanner from '../YoutubeBanner';
 import lineas from '../../content/lineas'
-import { PrivacyTipOutlined } from '@mui/icons-material';
 
 export default function ProductContent({prod}) {
   const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = view more photos

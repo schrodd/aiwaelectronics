@@ -45,8 +45,11 @@
 section.category-banner {
   background: $whiteDeg;
   color: $black;
-  padding: 25px 0;
+  padding: 25px 12%;
   border-bottom: $divider;
+  @include mobile {
+    padding: 25px 0;
+  }
   h2 {
     font-family: DINPRO;
     font-weight: lighter;

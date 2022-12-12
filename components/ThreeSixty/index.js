@@ -7,7 +7,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it has top view or not (bool)
-  // States
+  // States 
   const [frac, setFrac] = useState(1000)
   const [idx, setIdx] = useState(1)
   const [auto, setAuto] = useState(false)
@@ -120,7 +120,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
             </div>
             {arr.map((e,i) => (
               <div key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${highlightOpen && 'not-visible'}`} style={{position:'absolute'}}>
-                <Image src={e} alt='360-image' width='400' height='400' priority/>
+                <Image src={e} alt='360-image' width='460px' height='460px' priority/>
               </div>
             ))}
           </div>
@@ -131,7 +131,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
         initialPositionY={0}>
           <TransformComponent>
             <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
-            <img className='not-draggable zoomed' src={`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${idx }-hq.webp`} alt='360-image-zoomed'/>
+            <Image src={`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${idx}-hq.webp`} className='not-draggable zoomed'alt='360-image-zoomed' width='460px' height='460px' unoptimized priority/>
           </TransformComponent>
         </TransformWrapper>)}
       <div className='controls'>
@@ -146,12 +146,12 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
           valueLabelDisplay='off'
           onChange={(e,v) => handleChange(v)}/>
         <Tooltip title={auto ? 'Pausar' : 'Reproducir'} placement='top' arrow>
-          <button onClick={toggleAuto} className='mui-button play-pause' disabled={highlightOpen || zoom}>
+          <button onClick={toggleAuto} className={`mui-button play-pause ${auto && 'active'}`} disabled={highlightOpen || zoom}>
             {auto ? <Pause fontSize='large'/> : <PlayArrow fontSize='large'/>}
           </button>
         </Tooltip>
         <Tooltip title={zoom ? 'Volver' : 'Zoom'} placement='top' arrow>
-          <button onClick={toggleZoom} className='mui-button' disabled={highlightOpen}>
+          <button onClick={toggleZoom} className={`mui-button ${zoom && 'active'}`} disabled={highlightOpen}>
             {!zoom ? <ZoomOutMap fontSize='large'/> : <ZoomInMap fontSize='large'/>}
           </button>
         </Tooltip>
