@@ -79,9 +79,9 @@ export default function ProductContent({prod}) {
         </div>
         )}
         {mode == 1 && (
-          <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top={prod.top} fullscreen={[fullscreen, setFullscreen]}/>
+          <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top={prod.top} fs={{fullscreen, setFullscreen}}/>
         )}
-        {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs} fullscreen={[fullscreen, setFullscreen]}/>}
+        {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs} fs={{fullscreen, setFullscreen}}/>}
         {mode == 3 && <ProductVideos videos={prod.videos} />}
       </section>
       <ProductBanners banners={prod.banners} line={prod.line}/>

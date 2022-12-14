@@ -4,11 +4,11 @@ import Image from 'next/image'
 import { useState } from 'react'
 import { AspectRatio } from '@mui/icons-material'
 
-export default function ProductMorePhotos({sku, shortDesc, arr, fullscreen}){ 
+export default function ProductMorePhotos({sku, shortDesc, arr, fs}){ 
   const [swiper, setSwiper] = useState(null)
-  const [isFs, setFs] = fullscreen
+  const {fullscreen, setFullscreen} = fs
   function toggleFs(){
-    setFs((prev) => !prev)
+    setFullscreen((prev) => !prev)
   }
   return (
     <div className='product-more-photos'>
@@ -19,14 +19,14 @@ export default function ProductMorePhotos({sku, shortDesc, arr, fullscreen}){
       <Swiper
           tag='div'
           className='more-photos'
-          active={isFs ? "true" : "false"}
+          active={fullscreen ? "true" : "false"}
           modules={[Navigation, Pagination]}
           loop
           navigation
           pagination={{ clickable: true }}
           onInit={(e) => setSwiper(e)}
       >
-        <button className={`mui-button fs-btn ${isFs && 'active'}`} onClick={toggleFs}>
+        <button className={`mui-button fs-btn ${fullscreen && 'active'}`} onClick={toggleFs}>
           <AspectRatio fontSize='large'/>
         </button>
         {arr.map((e,i) => (
