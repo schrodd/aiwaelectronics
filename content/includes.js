@@ -7,7 +7,7 @@ const includes = [
   {
     id: 2,
     name: 'Micrófono con cable',
-    img: '/images/includes/mic.jpg'
+    img: '/images/includes/mic.jpg' 
   },
   {
     id: 3,
@@ -37,13 +37,23 @@ const includes = [
   {
     id: 8,
     name: 'Control remoto', // Negro
-    img: '/images/includes/control.jpg'
+    img: '/images/includes/controln.jpg'
   },
   {
     id: 9,
     name: 'Manual de Instrucciones y Garantía',
     img: '/images/includes/manual.jpg'
   },
+  {
+    id: 10,
+    name: 'Trípode 1.2m',
+    img: '/images/includes/tripode.jpg'
+  },
+  {
+    id: 11,
+    name: 'Correa de Transporte',
+    img: '/images/includes/correa.jpg'
+  }
 ]
 
 export default includes;

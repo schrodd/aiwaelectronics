@@ -2,11 +2,11 @@ import { useState, useEffect } from 'react'
 import { Slider, Tooltip } from '@mui/material'
 import ReactHammer from 'react-hammerjs'
 import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch'
-import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, Add } from '@mui/icons-material'
+import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, Add, AspectRatio } from '@mui/icons-material'
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it has top view or not (bool)
+export default function ThreeSixty({sku, top, shortDesc, fullscreen}){ // sku (str), if it has top view or not (bool)
   // States 
   const [frac, setFrac] = useState(1000)
   const [idx, setIdx] = useState(1)
@@ -14,6 +14,12 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
   const [intval, setIntval] = useState(0)
   const [zoom, setZoom] = useState(false)
   const [highlightOpen, setHighlightOpen] = useState(false)
+  const [isFs, setFs] = fullscreen
+
+ /*  const imageSize = {
+    width: isFs ? '800px' : '460px',
+    height: isFs ? '800px' : '460px',
+  } */
 
   // Constants
   const sens = 350
@@ -86,6 +92,9 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
     // This syntax takes a callback instead of a new value, that callback receives as a parameter the previous value of the state.
     // Its perfect for counters and toggles
   }
+  function toggleFs(){
+    setFs((prev) => !prev)
+  }
   function handleAuto(){ // Start the auto spin
     if (!auto && !zoom && !highlightOpen) {
       setAuto(true)
@@ -106,7 +115,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
       </div>
       {!zoom 
         ? (<ReactHammer onPan={e => handlePan(e)} onPinch={toggleZoom}>
-          <div className='image-wrapper'>
+          <div className='image-wrapper' fullscreen={isFs.toString()}>
             <div className='points-of-interest'>
               {highlightOpen && <TransformWrapper
               initialScale={1}
@@ -120,7 +129,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
             </div>
             {arr.map((e,i) => (
               <div key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${highlightOpen && 'not-visible'}`} style={{position:'absolute'}}>
-                <Image src={e} alt='360-image' width='460px' height='460px' priority/>
+                <Image src={e} alt='360-image' width='750px' height='750px' priority/>
               </div>
             ))}
           </div>
@@ -131,7 +140,7 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
         initialPositionY={0}>
           <TransformComponent>
             <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
-            <Image src={`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${idx}-hq.webp`} className='not-draggable zoomed'alt='360-image-zoomed' width='460px' height='460px' unoptimized priority/>
+            <Image src={`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${idx}-hq.webp`} className='not-draggable zoomed'alt='360-image-zoomed' width='750px' height='750px' unoptimized priority/>
           </TransformComponent>
         </TransformWrapper>)}
       <div className='controls'>
@@ -162,6 +171,11 @@ export default function ThreeSixty({sku, top, shortDesc}){ // sku (str), if it h
             </button>
           </Tooltip>
         )}
+        <Tooltip title='Pantalla completa' placement='top' arrow>
+            <button className={`mui-button fs-btn ${isFs && 'active'}`} onClick={toggleFs} disabled={zoom}>
+              <AspectRatio fontSize='large'/>
+            </button>
+        </Tooltip>
       </div>
     </div>
   )

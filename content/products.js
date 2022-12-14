@@ -193,7 +193,7 @@ export const products = [
       1, // Mic inalambrico
       8, // Control remoto negro
       5, // Fuente de alimentacion
-      9 // Manual
+      9, // Manual
     ],
     certNo: 'Q-AR-01590-T-0',
     downloads: [
@@ -621,7 +621,14 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono Inalámbrico, Control Remoto, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-0), Manual de Instrucciones y Garantía',
+    includes: [
+      1, // Mic inalambrico
+      8, // Control remoto negro
+      3, // Cable aux
+      5, // Fuente de alimentacion
+      9 // Manual y garantia
+    ],
+    certNo: 'Q-AR-01590-T-0',
     downloads: [
       {
         name: 'Manual',
@@ -833,7 +840,13 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono Inalámbrico, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-0), Manual de Instrucciones y Garantía',
+    includes: [
+      1, // Mic inalambrico
+      3, // Cable aux
+      5, // Fuente de alimentacion
+      9 // Manual y garantia
+    ],
+    certNo: 'Q-AR-01590-T-0',
     downloads: [
       {
         name: 'Manual',
@@ -1047,7 +1060,13 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono Inalámbrico, Cable Auxiliar, Cable de Alimentación (N° de Certificación: Q-AR-01590-T-2), Manual de Instrucciones y Garantía',
+    includes: [
+      1, // Mic inalambrico
+      3, // Cable aux
+      5, // Fuente de alimentacion
+      9 // Manual y garantia
+    ],
+    certNo: 'Q-AR-01590-T-0',
     downloads: [
       {
         name: 'Manual',
@@ -1220,7 +1239,14 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    includes: [
+      2, // Mic c/cable
+      7, // Control remoto
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -1396,7 +1422,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -1567,7 +1598,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -1736,7 +1772,14 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    includes: [
+      2, // Mic c/cable
+      7, // Control remoto
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -1910,7 +1953,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -2080,7 +2128,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -2256,7 +2309,14 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    includes: [
+      2, // Mic c/cable
+      7, // Control remoto
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -2432,7 +2492,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -2604,7 +2669,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Cable USB, Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -2778,7 +2848,14 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    includes: [
+      2, // Mic c/cable
+      7, // Control remoto
+      3, // Cable aux
+      5, // Fuente 
+      9, // Manual de usuario
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -2956,7 +3033,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      5, // Fuente 
+      9, // Manual de usuario
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -3130,7 +3212,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      5, // Fuente 
+      9, // Manual de usuario
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -3304,7 +3391,14 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono con cable, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    includes: [
+      2, // Mic
+      7, // Control
+      3, // Cable aux
+      5, // Fuente 
+      9, // Manual de usuario
+    ],
+    certNo: 'Q-AR-01374-T-0',
     downloads: [
       {
         name: 'Manual',
@@ -3483,7 +3577,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      5, // Fuente 
+      9, // Manual de usuario
+    ],
+    certNo: 'Q-AR-01374-T-0',
     downloads: [
       {
         name: 'Manual',
@@ -3658,7 +3757,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      5, // Fuente 
+      9, // Manual de usuario
+    ],
+    certNo: 'Q-AR-01374-T-0',
     downloads: [
       {
         name: 'Manual',
@@ -3847,7 +3951,14 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono inalámbrico, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    includes: [
+      1, // Mic
+      7, // Control
+      3, // Cable aux
+      5, // Fuente 
+      9, // Manual de usuario
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -4041,7 +4152,13 @@ export const products = [
         
       },
     ],
-    includes: 'Micrófono inalámbrico, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1), Manual de Instrucciones y Garantía',
+    includes: [
+      1, // Mic
+      3, // Cable aux
+      5, // Fuente 
+      9, // Manual de usuario
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -4232,7 +4349,15 @@ export const products = [
         
       },
     ],
-    includes: 'Trípode de 1.2m, Micrófono inalámbrico UHF, Control remoto, Cable Auxiliar, Fuente de Alimentación (N° De Certificación: 00Q-AR-01388-T-1), Manual de Instrucciones y Garantía',
+    includes: [
+      10, // Tripode
+      1, // Mic inalam
+      7, // Control
+      3, // Cable aux
+      5, // Fuente 
+      9, // Manual de usuario
+    ],
+    certNo: '00Q-AR-01388-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -4412,7 +4537,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Cable de Alimentación USB, Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -4592,7 +4722,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Cable de Alimentación USB, Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -4772,7 +4907,12 @@ export const products = [
         
       },
     ],
-    includes: 'Cable Auxiliar, Cable de Alimentación USB, Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Cable aux
+      4, // Cable microusb
+      9, // Manual de usuario
+    ],
+    certNo: '',
     downloads: [
       {
         name: 'Manual',
@@ -4936,7 +5076,12 @@ export const products = [
         value: "100-240V~ / 50-60Hz / 40W / Clase II",
       },
     ],
-    includes: 'Micrófono Inalámbrico | Cable de Alimentación (Nª de Certificación: Q-AR-01590-T-1) | Manual de Instrucciones y Garantía',
+    includes: [
+      1, // Mic Inalam
+      5, // Fuente
+      9, // Manual de usuario
+    ],
+    certNo: 'Q-AR-01590-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -5105,7 +5250,12 @@ export const products = [
         value: "100-240V~ / 50-60Hz / 40W / Clase II",
       },
     ],
-    includes: 'Correa para Transporte | Fuente de Alimentación (Nª de Certificación: Q-AR-01590-T-1) | Manual de Instrucciones y Garantía.',
+    includes: [
+      11, // Correa
+      5, // Fuente
+      9, // Manual de usuario
+    ],
+    certNo: 'Q-AR-01590-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -5271,7 +5421,12 @@ export const products = [
         value: "100-240V~ / 50-60Hz / 25W / Clase II",
       },
     ],
-    includes: 'Cable Auxiliar | Cable de Alimentación (Nª de Certificación: Q-AR-01590-T-2) | Manual de Instrucciones y Garantía.',
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual de usuario
+    ],
+    certNo: 'Q-AR-01590-T-2',
     downloads: [
       {
         name: 'Manual',
@@ -5435,7 +5590,12 @@ export const products = [
         value: "100-240V~ / 50-60Hz / 0.6A MAX / Clase II",
       },
     ],
-    includes: 'Cable Auxiliar | Cargador (Nª de Certificación: RA 4183955 E) | Manual de Instrucciones y Garantía.',
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual de usuario
+    ],
+    certNo: 'RA 4183955 E',
     downloads: [
       {
         name: 'Manual',
@@ -5591,7 +5751,14 @@ export const products = [
         value: "7798111353988",
       },
     ],
-    includes: 'Micrófono con Cable / Control Remoto / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Instrucciones y Garantía',
+    includes: [
+      2, // Mic cable
+      7, // Control
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -5745,7 +5912,12 @@ export const products = [
         value: "7798111354350",
       },
     ],
-    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -5898,7 +6070,14 @@ export const products = [
         value: "7798111354039",
       },
     ],
-    includes: 'Micrófono con Cable / Control Remoto / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Instrucciones y Garantía',
+    includes: [
+      2, // Mic cable
+      7, // Control
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -6054,7 +6233,12 @@ export const products = [
         value: "7798111354350",
       },
     ],
-    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -6201,7 +6385,12 @@ export const products = [
         value: "100-240V~ / 50-60Hz / 40W / Clase II",
       },
     ],
-    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación:00Q-AR-01223-T-1) /Manual de Instrucciones y Garantía',
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -6360,7 +6549,14 @@ export const products = [
         value: "7798111353995",
       },
     ],
-    includes: 'Micrófono con Cable / Control Remoto / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    includes: [
+      2, // Mic cable
+      7, // Control
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -6519,7 +6715,12 @@ export const products = [
         value: "7798111353995",
       },
     ],
-    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -6679,7 +6880,12 @@ export const products = [
         value: "7798111354466",
       },
     ],
-    includes: 'Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -6838,7 +7044,14 @@ export const products = [
         value: "7798111354008",
       },
     ],
-    includes: 'Micrófono Inalámbrico / Control Remoto / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    includes: [
+      1, // Mic inalam
+      8, // Control
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',
@@ -6997,7 +7210,13 @@ export const products = [
         value: "7798111354459",
       },
     ],
-    includes: 'Micrófono Inalámbrico / Cable Auxiliar / Fuente de Alimentación (N° De Certificación: 00Q-AR-01223-T-1) / Manual de Usuario y Garantía',
+    includes: [
+      1, // Mic inalam
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
     downloads: [
       {
         name: 'Manual',

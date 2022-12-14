@@ -17,10 +17,11 @@ import lineas from '../../content/lineas'
 
 export default function ProductContent({prod}) {
   const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = view more photos
+  const [fullscreen, setFullscreen] = useState(false)
   const prodLine = lineas.find(e => e.name == prod.line)
   return (
     <>
-      <section className='top-wrapper'>
+      <section className='top-wrapper' fullscreen={fullscreen ? "true" : "false"}>
         <div className='always-on-top'>
           {(mode == 0 || mode == 2) && (
           <>
@@ -34,7 +35,10 @@ export default function ProductContent({prod}) {
           </>
           )}
           {(mode == 1 || mode == 2 || mode == 3) && (
-            <button className='to-right' onClick={() => setMode(0)}><ArrowBackIcon />
+            <button className='to-right' onClick={() => {
+              setMode(0)
+              setFullscreen(false)
+              }}><ArrowBackIcon />
               <span className='pc-only'>VOLVER</span>
             </button>
           )}
@@ -76,12 +80,12 @@ export default function ProductContent({prod}) {
         </div>
         )}
         {mode == 1 && (
-          <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top={prod.top}/>
+          <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top={prod.top} fullscreen={[fullscreen, setFullscreen]}/>
         )}
-        {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs}/>}
+        {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs} fullscreen={[fullscreen, setFullscreen]}/>}
         {mode == 3 && <ProductVideos videos={prod.videos} />}
       </section>
-      <ProductBanners banners={prod.banners}/>
+      <ProductBanners banners={prod.banners} line={prod.line}/>
       <ProductFeatures prod={prod}/>
       <ProductSpecsTable prod={prod}/>
       <YoutubeBanner/>

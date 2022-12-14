@@ -4,6 +4,7 @@ section.product-page {
   section.top-wrapper {
     overflow: hidden;
     position: relative;
+    height: auto;
     div.default {
       @include flex(row);
       width: 100%;
@@ -32,7 +33,7 @@ section.product-page {
           // z-index: 5;
         }
         @include mobile {
-          border-top: 2px solid white;
+          border-top: 2px solid white; 
         }
         div.text {
           max-width: 35%;

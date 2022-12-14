@@ -38,6 +38,10 @@ div#threeSixtyContainer {
     height: 460px;
     width: 460px;
     position: relative;
+    &[fullscreen='true']{
+      height: 750px;
+      width: 750px;
+    }
     img {
       height: 400px;
       position: relative;
@@ -129,6 +133,11 @@ div#threeSixtyContainer {
               transform: rotate(45deg) scale(1.35);
               color: $alt;
             }
+          }
+        }
+        &.fs-btn {
+          @include mobile {
+            display: none;
           }
         }
         &:hover {
