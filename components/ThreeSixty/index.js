@@ -114,7 +114,7 @@ export default function ThreeSixty({sku, top, shortDesc, fs, setFs}){ // sku (st
       </div>
       {!zoom 
         ? (<ReactHammer onPan={e => handlePan(e)} onPinch={toggleZoom}>
-          <div className='image-wrapper' fullscreen={fs.toString()}>
+          <div className='image-wrapper' fullscreen={fs ? "true" : "false"}>
             <div className='points-of-interest'>
               {highlightOpen && <TransformWrapper
               initialScale={1}
