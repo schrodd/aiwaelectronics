@@ -2,10 +2,14 @@ import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Image from 'next/image'
 import { useState } from 'react'
+import { AspectRatio } from '@mui/icons-material'
 
-export default function ProductMorePhotos({sku, shortDesc, arr}){ 
+export default function ProductMorePhotos({sku, shortDesc, arr, fullscreen}){ 
   const [swiper, setSwiper] = useState(null)
-  console.log(arr)
+  const [isFs, setFs] = fullscreen
+  function toggleFs(){
+    setFs((prev) => !prev)
+  }
   return (
     <div className='product-more-photos'>
       <div className='text'>
@@ -15,12 +19,16 @@ export default function ProductMorePhotos({sku, shortDesc, arr}){
       <Swiper
           tag='div'
           className='more-photos'
+          active={isFs ? "true" : "false"}
           modules={[Navigation, Pagination]}
           loop
           navigation
           pagination={{ clickable: true }}
           onInit={(e) => setSwiper(e)}
       >
+        <button className={`mui-button fs-btn ${isFs && 'active'}`} onClick={toggleFs}>
+          <AspectRatio fontSize='large'/>
+        </button>
         {arr.map((e,i) => (
           <SwiperSlide key={i} className='more-photos-slide'>
             <Image src={e} layout='fill' alt={`${sku} photos`}/>

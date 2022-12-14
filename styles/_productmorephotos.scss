@@ -66,6 +66,24 @@ section.top-wrapper {
     div.more-photos {
       width: 550px;
       height: 550px;
+      &[active="true"]{
+        width: 840px;
+        height: 840px;
+      }
+      button.fs-btn {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        z-index: 9;
+        border: none;
+        background: none;
+        &.active {
+          color: $alt
+        }
+        @include mobile {
+          display: none;
+        }
+      }
       @include mobile {
         width: 400px;
         height: 400px;
