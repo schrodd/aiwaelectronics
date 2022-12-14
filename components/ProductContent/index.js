@@ -19,6 +19,7 @@ export default function ProductContent({prod}) {
   const [mode, setMode] = useState(0) // 0 = reg | 1 = 360º | 2 = view more photos
   const [fullscreen, setFullscreen] = useState(false)
   const prodLine = lineas.find(e => e.name == prod.line)
+  const exportFs = {fullscreen, setFullscreen}
   return (
     <>
       <section className='top-wrapper' fullscreen={fullscreen ? "true" : "false"}>
@@ -79,9 +80,9 @@ export default function ProductContent({prod}) {
         </div>
         )}
         {mode == 1 && (
-          <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top={prod.top} fs={{fullscreen, setFullscreen}}/>
+          <ThreeSixty sku={prod.sku} shortDesc={prod.shortDesc} top={prod.top} fs={exportFs}/>
         )}
-        {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs} fs={{fullscreen, setFullscreen}}/>}
+        {mode == 2 && <ProductMorePhotos sku={prod.sku} shortDesc={prod.shortDesc} arr={prod.imgs} fs={exportFs}/>}
         {mode == 3 && <ProductVideos videos={prod.videos} />}
       </section>
       <ProductBanners banners={prod.banners} line={prod.line}/>
