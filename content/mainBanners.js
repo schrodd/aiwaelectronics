@@ -1,24 +1,42 @@
 const mainBanners = [
   {
-    image: '/banners/ata.jpg',
-    mobile: '/banners/ata-m.jpg',
+    img: '/banners/ata.jpg',
+    mobileImg: '/banners/ata-m.jpg',
     link: '/lineas',
-    title: 'Banner ATA',
-    sub: ''
+    alt: 'Banner ATA',
+    text: {
+      title: 'IN EAR',
+      subtitle: 'Auriculares con aislación pasiva de sonido para que puedas disfrutar de tu música al 100% donde quiera que vayas',
+      cta: 'Ver más',
+      align: 'left', // center (default) | right | left - affects pc only
+      valign: 'center', // center (default) | top | bottom - affects both pc and mobile
+    } 
   },
   {
-    image: '/banners/flama.jpg',
-    mobile: '/banners/flama-m.jpg',
+    img: '/banners/flama.jpg',
+    mobileImg: '/banners/flama-m.jpg',
     link: '/categorias',
-    title: 'Banner Flama',
-    sub: '',
+    alt: 'Banner FLAMA',
+    text: {
+      title: 'Pasala FLAMA',
+      subtitle: 'Descubrí la nueva línea FLAMA, torres de sonido potentes con efectos y luces dinámicas que darán vida a cualquier espacio.',
+      cta: 'Más info',
+      align: 'left', // center (default) | right | left - affects pc only
+      valign: 'center', // center (default) | top | bottom - affects both pc and mobile
+    } 
   },
   {
-    image: '/banners/ring.jpg',
-    mobile: '/banners/ring-m.jpg',
+    img: '/banners/ring.jpg',
+    mobileImg: '/banners/ring-m.jpg',
     link: '/categorias',
-    title: 'Banner Ring',
-    sub: '',
+    alt: 'Banner RING',
+    text: {
+      title: 'Banner RING',
+      subtitle: 'Subtítulo RING',
+      cta: '',
+      align: 'left', // horizontal - center (default) | right | left - affects pc only
+      valign: 'center', // vertical - center (default) | top | bottom - affects both pc and mobile
+    } 
   },
 ]
 

@@ -35,7 +35,8 @@ export const lvTwoCat = [
     route: '/categorias/parlantes',
     hidden: false,
     cover: '/images/categories/cover/parlantes.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Torres de sonido',
@@ -45,7 +46,8 @@ export const lvTwoCat = [
     route: '/categorias/torres-de-sonido',
     hidden: false,
     cover: '/images/categories/cover/torres.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Auriculares In‑ear',
@@ -55,7 +57,8 @@ export const lvTwoCat = [
     route: '/categorias/in-ear',
     hidden: false,
     cover: '/images/categories/cover/inear.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Auriculares On‑ear',
@@ -65,7 +68,8 @@ export const lvTwoCat = [
     route: '/categorias/on-ear',
     hidden: false,
     cover: '/images/categories/cover/onear.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Portable',
@@ -75,7 +79,8 @@ export const lvTwoCat = [
     route: '/categorias/portable',
     hidden: true,
     cover: '/images/categories/cover/portable.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Tablets',
@@ -85,7 +90,8 @@ export const lvTwoCat = [
     route: '/categorias/tablets',
     hidden: false,
     cover: '/images/categories/cover/tablets.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Notebooks',
@@ -95,7 +101,8 @@ export const lvTwoCat = [
     route: '/categorias/notebooks',
     hidden: false,
     cover: '/images/categories/cover/notebooks.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'TV',
@@ -105,7 +112,8 @@ export const lvTwoCat = [
     route: '/categorias/tv',
     hidden: true,
     cover: '/images/categories/cover/tv.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Gaming',
@@ -115,7 +123,8 @@ export const lvTwoCat = [
     route: 'https://www.constrictor.com.ar/',
     hidden: false,
     cover: '/images/categories/cover/gaming.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Discontinuos',
@@ -125,6 +134,7 @@ export const lvTwoCat = [
     route: '/categorias/discontinuos',
     hidden: true,
     cover: '/images/categories/cover/gaming.png',
-    banner: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
 ]

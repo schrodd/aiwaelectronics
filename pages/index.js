@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Banner from '../components/Banner'
+import MainBanner from '../components/MainBanner'
 import mainBanners from '../content/mainBanners'
 import texts from '../content/texts'
 import { Navigation, Pagination } from 'swiper'
@@ -27,8 +27,8 @@ export default function Home() {
           pagination={{ clickable: true }}
         >
           {mainBanners.map((e,i) => (
-            <SwiperSlide key={i} className='main-banner-slide'>
-              <Banner link={e.link} image={e.image} mobile={e.mobile} alt={e.title} first={ i==0 ? true : false }/>
+            <SwiperSlide key={i} className='main-banner-slide'> 
+              <MainBanner banner={e} isFirst={ i == 0 ? true : false } />
             </SwiperSlide>
           ))}
         </Swiper>
