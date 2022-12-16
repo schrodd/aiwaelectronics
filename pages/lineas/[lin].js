@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { useRouter } from "next/router"
-import Banner from '../../components/Banner'
+import MainBanner from '../../components/MainBanner'
 import Product from "../../components/Product"
 import lineas from '../../content/lineas'
 import { products } from "../../content/products"
@@ -13,6 +13,7 @@ export default function Lines(){
   const linea = lineas.find(e => e.link === `/lineas/${lin}`)
   if (linea === undefined) {return <NotFound desc={`No se ha encontrado la línea "${lin}"`}/>}
   const prod = products.filter(e => e.line === (linea.name))
+
   
   return (
     <>
@@ -21,7 +22,6 @@ export default function Lines(){
       </Head>
       <main className={`linea ${lin}`}>
         <div className='banner'>
-          <Banner link={linea.link} image={linea.banner} mobile={linea.bannerMobile}/>
           <div className={`logo ${linea.name}`}>
             <Image layout='fill' objectFit="contain" src={linea.logo} alt={`${linea.name} logo`}/>
           </div>
