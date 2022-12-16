@@ -6,7 +6,7 @@ import { Pause, PlayArrow, ZoomOutMap, ZoomInMap, Add, AspectRatio } from '@mui/
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function ThreeSixty({sku, top, shortDesc, fs, setFs}){ // sku (str), if it has top view or not (bool)
+export default function ThreeSixty({sku, top, shortDesc, fs, setFs}){ // sku (str), if it has top view or not (boolean)
   // States 
   const [frac, setFrac] = useState(1000)
   const [idx, setIdx] = useState(1)
