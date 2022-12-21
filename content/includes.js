@@ -21,7 +21,7 @@ const includes = [
   },
   {
     id: 5,
-    name: 'Fuente de Alimentación',
+    name: 'Fuente de Alimentación*',
     img: '/images/includes/trafo2.jpg'
   },
   {
@@ -41,7 +41,7 @@ const includes = [
   },
   {
     id: 9,
-    name: 'Manual de Instrucciones y Garantía',
+    name: 'Manual de Usuario y Garantía',
     img: '/images/includes/manual.jpg'
   },
   {
@@ -53,7 +53,12 @@ const includes = [
     id: 11,
     name: 'Correa de Transporte',
     img: '/images/includes/correa.jpg'
-  }
+  },
+  {
+    id: 12,
+    name: 'Cable de Alimentación*',
+    img: '/images/includes/trafo2.jpg'
+  },
 ]
 
 export default includes;

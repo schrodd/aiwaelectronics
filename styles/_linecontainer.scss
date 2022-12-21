@@ -9,12 +9,17 @@ section.lines {
     @include flex(column, flex-start, center);
     box-shadow: inset 0px 0px 15px rgb(0 0 0 / 60%);
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 400px;
     min-width: 50%;
     max-width: 100%;
     flex-grow: 1;
+    transition: all 1s ease;
+
+    &:hover {
+      background-size: 110%;
+    }
 
     @include mobile {
       min-width: 100%;

@@ -15,7 +15,7 @@ export const products = [
       '/products/AW-T2008/img/2.webp',
       '/products/AW-T2008/img/3.webp',
       '/products/AW-T2008/img/4.webp',
-      '/products/AW-T2008/img/5.webp',
+      '/products/AW-T2008/img/5.webp'
     ].map(e => fileserver + e),
     top: true,
     banners: [
@@ -6979,7 +6979,7 @@ export const products = [
         id: 34,
       },
       { // Efectos de voz
-        id: 35,
+        id: 4,
       }
     ],
     features: [
@@ -7145,7 +7145,7 @@ export const products = [
         id: 34,
       },
       { // Efectos de voz
-        id: 35,
+        id: 4,
       }
     ],
     features: [

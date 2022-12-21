@@ -14,7 +14,6 @@ section.top-wrapper {
       rgba(255, 255, 255, 1) 100%
     );
     div.thumbnails {
-
       @include flex(row, flex-start);
       flex-wrap: wrap;
       margin: 15px;
@@ -28,14 +27,29 @@ section.top-wrapper {
         bottom: 0;
         left: 0;
       }
+      @include mobile {
+        padding: 15px;
+        height: 150px;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+      }
       button {
-        width: 22.5%;
+        -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+        width: 31%;
         margin-bottom: -2px;
         border: none;
         background: none;
         transition: all .1s ease-in-out;
+        @include mobile {
+          width: 120px;
+        }
         &:hover {
-          box-shadow: $shadow;
+          filter: drop-shadow(0px 2px 8px 0px rgba(99, 99, 99, 0.2));
+        }
+        &:active {
+          border: none;
+          background-color: transparent;
         }
       }
       span {

@@ -1,13 +1,23 @@
 const discoverOptions = [
   {
-    title: 'Quiero armar una fiesta enorme',
+    title: 'Quiero tirar mi casa por la ventana',
     resultText: 'Te presentamos los parlantes más potentes',
-    products: ['AW-T604F', 'AW-T806F', 'AW-T1008F'], /* By SKU, up to 3 */
+    products: ['AW-T2012', 'AW-T2010-PB', 'AW-P1500PS'], /* By SKU, up to 3 */
   },
   {
-    title: 'Quiero darle un ambiente único a mi habitación',
-    resultText: 'Te presentamos los parlantes más espectaculares',
-    products: ['AW-T2008', 'AW-T2010', 'AW-T2012'],
+    title: 'Quiero darle un toque distinto a mi habitación',
+    resultText: 'Parlantes llamativos con luces espectaculares',
+    products: ['AW-T2022', 'AW-T1008F-PB', 'AW-T506R-PB'],
+  },
+  {
+    title: 'Quiero cantar toda la noche',
+    resultText: 'Micrófono incluido ¡Armá el karaoke!',
+    products: ['AW-T806F', 'AW-T2040', 'AW-T2050R'],
+  },
+  {
+    title: 'Quiero llevar mi música en la mochila',
+    resultText: 'Parlantes ligeros ¡llevá tu música a cualquier lugar!',
+    products: ['AW-P240D-SN', 'AW-T604F', 'AW-P450D-SN'],
   }
 ]
 

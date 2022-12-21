@@ -34,7 +34,7 @@ export default function ProductSpecsTable({prod}) {
             <div className='includes-container'>
               {prodIncludes.map((e,i) => <IncludesItem item={e} key={i}/>)}
             </div>
-            {prod.certNo && <p><small>Número de certificado de Seguridad Eléctrica: {prod.certNo}</small></p>}
+            {prod.certNo && <p><small>*Número de certificado de Seguridad Eléctrica: {prod.certNo}</small></p>}
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Descargas'>
         <div className='download-items'>

@@ -37,7 +37,7 @@ export default function ProductMorePhotos({sku, shortDesc, arr, fs, setFs}){
       <div className='thumbnails'>
         {arr.map((e,i) => (
           <button key={i} onClick={() => swiper.slideTo(i+1)}>
-            <Image src={e} width='80' height='80' alt='thumbnail'/>
+            <Image src={e} width='105' height='105' alt='thumbnail'/>
           </button>
         ))}
       </div>

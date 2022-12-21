@@ -1,4 +1,4 @@
-import { lvTwoCat } from '../../content/categories'
+import { lvOneCat } from '../../content/categories'
 import Link from 'next/link'
 import Image from 'next/image'
 import SocialContainer from '../SocialContainer'
@@ -31,7 +31,7 @@ export default function Footer(){
           <div className='footer-section'>
             <h3>NUESTROS PRODUCTOS</h3>
             <ul>
-              {lvTwoCat.filter(e => e.hidden === false).map((e,i) => (
+              {lvOneCat.map((e,i) => (
                 <li key={i}>
                   <Link href={e.route}>
                     <a>
@@ -63,13 +63,6 @@ export default function Footer(){
                 <Link href='/preguntas-frecuentes'>
                   <a>
                     Preguntas frecuentes
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href='/categorias/discontinuos'>
-                  <a>
-                    Productos discontinuos
                   </a>
                 </Link>
               </li>

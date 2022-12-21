@@ -77,7 +77,7 @@ export const lvTwoCat = [
     id: 105,
     parent: 1,
     route: '/categorias/portable',
-    hidden: true,
+    hidden: false,
     cover: '/images/categories/cover/portable.png',
     img: '/images/categories/banner/parlantes.jpg',
     mobileImg: '/images/categories/banner/parlantes.jpg'
@@ -106,11 +106,11 @@ export const lvTwoCat = [
   },
   {
     name: 'TV',
-    desc: "Disfrutá tus series y películas como nunca antes.",
+    desc: "Disfrutá tus series y películas como nunca antes.", 
     id: 108,
     parent: 3,
     route: '/categorias/tv',
-    hidden: true,
+    hidden: false,
     cover: '/images/categories/cover/tv.png',
     img: '/images/categories/banner/parlantes.jpg',
     mobileImg: '/images/categories/banner/parlantes.jpg'
@@ -133,8 +133,8 @@ export const lvTwoCat = [
     parent: 4,
     route: '/categorias/discontinuos',
     hidden: true,
-    cover: '/images/categories/cover/gaming.png',
-    img: '/images/categories/banner/parlantes.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
+    cover: '',
+    img: '',
+    mobileImg: ''
   },
 ]

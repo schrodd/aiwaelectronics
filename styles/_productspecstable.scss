@@ -21,11 +21,20 @@ section#prod-specs {
         height: 160px;
         border-radius: 10px;
         @include flex(column, flex-start);
-        box-shadow: $lightShadow;
+        box-shadow: $shadow;
         p {
-          font-size: 13px;
+          @include flex(column);
+          &::before {
+            content: '';
+            height: 2px;
+            width: 100%;
+            border-radius: 100%;
+            background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 50%, rgba(255,255,255,1) 100%);
+            margin-bottom: 10px;
+          }
+          font-size: 12px;
           text-align: center;
-          margin-top: 10px;
+          margin: 5px 10px;
         }
       }
     }

@@ -19,7 +19,7 @@ export default function CategoryBanner(){
         loop
         navigation
       >
-        {lvTwoCat.map((e,i) => (
+        {lvTwoCat.filter(e => e.hidden == false).map((e,i) => (
           <SwiperSlide key={i} className='category-banner-slide'>
             <Link href={e.route}>
               <a>
