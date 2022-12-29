@@ -41,7 +41,7 @@ export default function ProductSpecsTable({prod}) {
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Descargas'>
         <div className='download-items'>
-            <a href={prod.downloads} target='_blank'>
+            <a href={prod.downloads} target='_blank' rel="noreferrer">
               <LaunchIcon />
               Ver material del producto en Google Drive
             </a>

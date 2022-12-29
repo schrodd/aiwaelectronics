@@ -31,7 +31,7 @@ export default function ProductFeatures({prod}) {
 
   return (
     <section className='product-features' id='product-features'>
-      <a class="anchor" id="product-features-anchor"></a>
+      <a className="anchor" id="product-features-anchor"></a>
       <Head>
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" key="no-scale"/>
       </Head>
