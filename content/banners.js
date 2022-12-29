@@ -85,7 +85,25 @@ const banners = [
     title: `Nunca te olvides la fiesta afuera`,
     desc: 'Con sus ruedas vas a poder llevar tu flama a todas partes. Su Peso ligero y empuñadura superior te ayudaran en la tarea de llevar tu música a donde sea.',
     img: fileserver + '/banners/ruedas1008.webp'
-  }
+  },
+  {
+    id: 15,
+    title: `¡Reproducí lo que sea!`,
+    desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.',
+    img: fileserver + '/banners/conectate2.webp'
+  },
+  {
+    id: 16,
+    title: `Reguladores independientes`,
+    desc: 'Regulá de forma independiente el volumen y eco del micrófono.',
+    img: fileserver + '/banners/reguladores600sa.webp'
+  },
+  {
+    id: 17,
+    title: `No te quedes sin batería`,
+    desc: 'Podés usar el cable incluido para cargar el parlante, o el cargador de tu celular (puerto tipo MicroUSB).',
+    img: fileserver + '/banners/carga451sn.webp'
+  },
 ]
 
 export default banners

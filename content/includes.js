@@ -57,7 +57,7 @@ const includes = [
   {
     id: 12,
     name: 'Cable de Alimentación*',
-    img: '/images/includes/trafo2.jpg'
+    img: '/images/includes/cablealim.jpg'
   },
 ]
 

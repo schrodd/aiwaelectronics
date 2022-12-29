@@ -26,17 +26,20 @@
       }
     }
     .texts {
-      &::before {
-        content: '';
-        height: 2px;
-        width: 100%;
-        border-radius: 100%;
-        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(220,220,220,1) 50%, rgba(255,255,255,1) 100%);
+      @include pc {
+        &::before {
+          content: '';
+          height: 2px;
+          width: 100%;
+          border-radius: 100%;
+          background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(220,220,220,1) 50%, rgba(255,255,255,1) 100%);
+        }
       }
       @include flex(column);
       height: 110px;
       margin-top: 5px;
       @include mobile {
+        align-items: flex-start;
         margin-right: 15px;
       }
       p {

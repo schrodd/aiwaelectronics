@@ -1,4 +1,4 @@
-import { lvOneCat } from '../../content/categories'
+import { lvOneCat, lvTwoCat } from '../../content/categories'
 import Link from 'next/link'
 import Image from 'next/image'
 import SocialContainer from '../SocialContainer'
@@ -6,13 +6,16 @@ import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { useState, useEffect } from 'react'
 
 export default function Footer(){
-  const year = new Date().getFullYear();
-  const [showButton, setShowButton] = useState(false);
+  const year = new Date().getFullYear()
+  const [showButton, setShowButton] = useState(false)
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     })
+  }
+  function toggleMenu(e){
+    document.querySelector(`.lv-two.id${e}`).classList.toggle('active')
   }
   useEffect(() => {
     window.addEventListener("scroll", () => {
@@ -30,14 +33,17 @@ export default function Footer(){
         <div className='wrapper'>
           <div className='footer-section'>
             <h3>NUESTROS PRODUCTOS</h3>
-            <ul>
+            <ul className='lv-one'>
               {lvOneCat.map((e,i) => (
                 <li key={i}>
-                  <Link href={e.route}>
-                    <a>
-                      {e.name}
-                    </a>
-                  </Link>
+                  <button onClick={() => toggleMenu(e.id) }>{e.name}</button>
+                  <ul className={`lv-two id${e.id}`}>
+                    {lvTwoCat.filter(f => f.parent == e.id).map((g,i) => (
+                      <li key={i}>
+                        <Link href={g.route}><a>{g.name}</a></Link>
+                      </li>
+                    ))}
+                  </ul>
                 </li>
               ))}
             </ul>
@@ -47,23 +53,17 @@ export default function Footer(){
             <ul>
               <li>
                 <Link href='/terminos-y-condiciones'>
-                  <a>
-                    Términos y condiciones
-                  </a>
+                  <a>Términos y condiciones</a>
                 </Link>
               </li>
               <li>
                 <Link href='/activacion-windows'>
-                  <a>
-                    Activación Windows
-                  </a>
+                  <a>Activación Windows</a>
                 </Link>
               </li>
               <li>
                 <Link href='/preguntas-frecuentes'>
-                  <a>
-                    Preguntas frecuentes
-                  </a>
+                  <a>Preguntas frecuentes</a>
                 </Link>
               </li>
             </ul>

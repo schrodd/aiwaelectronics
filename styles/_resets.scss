@@ -19,6 +19,15 @@ html {
 a {
   color: inherit;
 }
+a.anchor {
+  display: block;
+  position: relative;
+  top: -220px;
+  visibility: hidden;
+  @include mobile {
+    top: -70px;
+  }
+}
 button {
   cursor: pointer;
 }

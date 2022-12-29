@@ -2,7 +2,7 @@
 
 section#prod-specs {
   background-color: lightgray;
-  padding: 50px 125px;
+  padding: 50px 15%;
   @include mobile {
     padding: 20px;
   }
@@ -18,12 +18,13 @@ section#prod-specs {
         margin: 10px;
         padding: 10px;
         width: 150px;
-        height: 160px;
+        //height: 160px;
         border-radius: 10px;
         @include flex(column, flex-start);
         box-shadow: $shadow;
         p {
-          @include flex(column);
+          height: 40px;
+          @include flex(column, flex-start);
           &::before {
             content: '';
             height: 2px;
@@ -39,8 +40,22 @@ section#prod-specs {
       }
     }
     &.variants .wrapper {
-      @include flex(row, center, center);
+      @include flex(row, flex-start, center);
+      flex-wrap: wrap;
+      padding: 0 0 20px 20px;
+      gap: 30px;
       width: 100%;
+      @include mobile {
+        justify-content: center;
+        gap: 10px;
+        padding: 0;
+        .product-card {
+          width: 100%;
+        }
+        .p-name {
+          font-size: 14px;
+        }
+      }
     }
     .table-cell-container {
       background-color: rgb(220,220,220);
@@ -108,6 +123,7 @@ section#prod-specs {
 
     .download-items {
       @include flex(row, flex-start, center);
+      flex-wrap: wrap;
       div.buttons {
         a {
           @include btn($black, ghostwhite);

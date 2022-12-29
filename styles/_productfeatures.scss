@@ -78,10 +78,10 @@ section.product-features {
     @include flex;
     div.icon-shadow {
       position: absolute;
-      right: 50px;
-      opacity: .02;
+      right: -50px;
+      opacity: .07;
       svg {
-        width: 250px;
+        height: 450px;
         @include mobile {
           width: 150px;
         }

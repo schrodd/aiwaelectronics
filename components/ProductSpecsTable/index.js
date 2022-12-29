@@ -1,15 +1,19 @@
 import AccordionItem from '../AccordionItem'
+import LaunchIcon from '@mui/icons-material/Launch';
 import features from '../../content/features'
-import Link from 'next/link'
-import Image from 'next/image'
 import IncludesItem from '../IncludesItem'
 import includes from '../../content/includes'
+import ProductCard from '../ProductCard'
 
 export default function ProductSpecsTable({prod}) {
   const prodFeatures = []
-  prod.features.forEach(e => {
-    prodFeatures.push({...features.find(f => e.id == f.id), value: e.value})
+  features.forEach(e => {
+    const prodFeature = prod.features.find(f => f.id == e.id)
+    if (prodFeature){
+      prodFeatures.push({...prodFeature, name: e.name})
+    }
   })
+  console.log(prodFeatures)
   const prodIncludes = []
   prod.includes.forEach(e => {
     prodIncludes.push(includes.find(f => e == f.id))
@@ -30,7 +34,6 @@ export default function ProductSpecsTable({prod}) {
         </div>
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Incluye'>
-            {/* <p>{prod.includes}</p> */}
             <div className='includes-container'>
               {prodIncludes.map((e,i) => <IncludesItem item={e} key={i}/>)}
             </div>
@@ -38,27 +41,18 @@ export default function ProductSpecsTable({prod}) {
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Descargas'>
         <div className='download-items'>
-            {prod.downloads.map((e,i) => (
-              <a href={e.link} key={i}>
-                <e.icon />
-                {e.name}
-              </a>
-            ))}
+            <a href={prod.downloads} target='_blank'>
+              <LaunchIcon />
+              Ver material del producto en Google Drive
+            </a>
         </div>
       </AccordionItem>
       {prod.variants.length > 0 && (
-        <AccordionItem classes='prod-specs-table variants' name='Variantes'>
-            <div className="download-items">
-              <Image className='versions-thumbnail' src={prod.imgs[0]} alt='img' width="150" height="150"/>
-              <div className="buttons">
-                {prod.variants.map((e,i) => (
-                  <Link href={e.link} key={i}>
-                    <a>
-                      {e.sku}
-                    </a>
-                  </Link>
-                ))}
-              </div>
+        <AccordionItem classes='prod-specs-table variants' name='Nueva Generación' open>
+            <div className="wrapper">
+              {prod.variants.map((e,i) => (
+                <ProductCard key={i} sku={e} showName showSku showDesc />
+              ))}
             </div>
         </AccordionItem>
       )}

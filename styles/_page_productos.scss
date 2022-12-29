@@ -56,6 +56,9 @@ section.product-page {
             position: relative;
             width: 150px;
             height: 55px;
+            @include mobile {
+              margin: auto;
+            }
           }
           p.sku {
             margin-top: 15px;

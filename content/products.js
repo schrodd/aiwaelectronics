@@ -1,4 +1,3 @@
-import { PermMedia, InsertDriveFile } from '@mui/icons-material';
 const fileserver = 'https://aiwaelectronics.com.ar/fileserver'
 
 export const products = [
@@ -18,6 +17,7 @@ export const products = [
       '/products/AW-T2008/img/5.webp'
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [
       {
         id: 1,
@@ -30,15 +30,19 @@ export const products = [
       },
       {
         id: 4,
+        customImg: fileserver + '/banners/poolparty2008.webp'
       },
       {
         id: 5,
         customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+      },
+      {
+        id: 15
       }
     ],
     shortDesc: 'Sonido Robusto',
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/211-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2008-pb.html',
+    buyLink: '',
     videos: [
       /* {
         id: 1,
@@ -51,41 +55,46 @@ export const products = [
         id: 2,
         value: '12000W PMPO'
       },
+      { // Woofer
+        id: 3,
+        value: '2 de 8"'
+      },
+      { // Woofer
+        id: 35,
+        value: '1 de 2"'
+      },
       { // TWS
         id: 11,
       },
       { // Bluetooth
         id: 12,
       },
-      { // Ruedas
-        id: 19,
+      { // Ruedas y Caja de Madera
+        id: 36,
       },
       { // Micrófono Inalámbrico 
         id: 14,
       },
-      { // Entrada Guitarra
-        id: 15,
-      },
-      { // Entrada Micrófono 
-        id: 16,
-      },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Entrada Guitarra y Mic
+        id: 21,
       },
       { // Efectos de Luz
         id: 6,
       },
-      { // Batería Recargable
+      /* { // Batería Recargable
         id: 7,
         value: 'Interna Recargable 12V / 4.5Ah'
+      }, */
+      { // Radio FM
+        id: 25,
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '5 horas (según su uso)'
       },
-      { // Caja de Madera
-        id: 18,
-      } 
+      { // MicroSD y USB
+        id: 37,
+      }
     ],
     features: [
       {
@@ -110,7 +119,7 @@ export const products = [
       },
       {
         id: 11,
-        value: "5 horas (según volumen)",
+        value: "5 horas (según su uso)",
         
       },
       {
@@ -192,33 +201,13 @@ export const products = [
     includes: [
       1, // Mic inalambrico
       8, // Control remoto negro
-      5, // Fuente de alimentacion
+      3, // Cable Aux
+      12, // Cable de alimentacion
       9, // Manual
     ],
     certNo: 'Q-AR-01590-T-0',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2008-2010_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2008_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2008.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-T2008-PB',
-        link: '/productos/AW-T2008-PB',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/1NCXXr0mqb4YUkrGyHsUpOJ5RYlsIL_2v',
+    variants: ['AW-T2008-PB']
   },
   { // AW-T2008-PB
     name: 'Torre de Sonido Bluetooth Ring 13000W',
@@ -232,8 +221,13 @@ export const products = [
       '/products/AW-T2008-PB/img/3.webp',
       '/products/AW-T2008-PB/img/4.webp',
       '/products/AW-T2008-PB/img/5.webp',
+      '/products/AW-T2008-PB/img/6.webp',
+      '/products/AW-T2008-PB/img/7.webp',
+      '/products/AW-T2008-PB/img/8.webp',
+      '/products/AW-T2008-PB/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [
       {
         id: 1,
@@ -248,6 +242,7 @@ export const products = [
       },
       {
         id: 4,
+        customImg: fileserver + '/banners/poolparty2008.webp'
       },
       {
         id: 5,
@@ -281,11 +276,11 @@ export const products = [
       { // Micrófono Inalámbrico 
         id: 14,
       },
-      { // Entrada Guitarra
-        id: 15,
+      { // Entrada Guitarra y mic
+        id: 21,
       },
       { // Entrada Micrófono 
-        id: 16,
+        id: 38,
       },
       { // Entrada Auxiliar
         id: 17,
@@ -299,10 +294,10 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '5 horas (según su uso)'
       },
-      { // Caja de Madera
-        id: 18,
+      { // Caja de Madera + ruedas
+        id: 36,
       } 
     ],
     features: [
@@ -328,7 +323,7 @@ export const products = [
       },
       {
         id: 11,
-        value: "5 horas (según volumen)",
+        value: "5 horas (según su uso)",
         
       },
       {
@@ -403,33 +398,18 @@ export const products = [
       },
       {
         id: 19,
-        value: "7798111353957",
+        value: "7798111354367",
         
       },
     ],
     includes: [
-      1, // Mic inalambrico
-      5, // Fuente de alimentacion
+      1, // Mic inalambrico,
+      3,
+      12, // Cable de alimentacion
       9 // Manual
     ],
     certNo: 'Q-AR-01590-T-0',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2008-PB_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2008-PB_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2008.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1CFO0ECLhRM5A4eT3pAoPxnhWlMJgyN95',
     variants: []
   },
   {// AW-T2010
@@ -446,6 +426,7 @@ export const products = [
       '/products/AW-T2010/img/5.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [
       {
         id: 1,
@@ -457,31 +438,32 @@ export const products = [
       },
       {
         id: 4,
+        customImg: fileserver + '/banners/poolparty2010.webp'
       },
       {
         id: 5,
         customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+      },
+      {
+        id: 15
       }
     ],
     shortDesc: 'Potencia y Calidad',
-    longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno y 2 tweeters, vas a poder tirar tu casa por la ventana.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/212-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2010-pb.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/vN6Qwro1FPU",
-      },
-      {
-        id: 2,
-        title: "Título del video 2",
-        link: "https://www.youtube.com/embed/gXGeD2sd12Q"
-      },
-    ],
+    longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno, vas a poder tirar tu casa por la ventana.",
+    buyLink: '',
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
         value: '13500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 10"'
+      },
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
       },
       { // TWS
         id: 11,
@@ -489,35 +471,32 @@ export const products = [
       { // Bluetooth
         id: 12,
       },
-      { // Ruedas
-        id: 19,
+      { // Ruedas y Caja de Madera
+        id: 36,
       },
       { // Micrófono Inalámbrico 
         id: 14,
       },
-      { // Entrada Guitarra
-        id: 15,
-      },
-      { // Entrada Micrófono 
-        id: 16,
-      },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Entrada Guitarra y Mic
+        id: 21,
       },
       { // Efectos de Luz
         id: 6,
       },
-      { // Batería Recargable
+      /* { // Batería Recargable
         id: 7,
-        value: 'Interna Recargable 12V / 7.5Ah'
+        value: 'Interna Recargable 12V / 4.5Ah'
+      }, */
+      { // Radio FM
+        id: 25,
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '6 horas (según su uso)'
       },
-      { // Caja de Madera
-        id: 18,
-      } 
+      { // MicroSD y USB
+        id: 37,
+      }
     ],
     features: [
       {
@@ -542,7 +521,7 @@ export const products = [
       },
       {
         id: 11,
-        value: "6 horas (según volumen)",
+        value: "6 horas (según su uso)",
         
       },
       {
@@ -617,7 +596,7 @@ export const products = [
       },
       {
         id: 19,
-        value: "7798111353995",
+        value: "7798111353964",
         
       },
     ],
@@ -625,33 +604,12 @@ export const products = [
       1, // Mic inalambrico
       8, // Control remoto negro
       3, // Cable aux
-      5, // Fuente de alimentacion
+      12, // Cable de alimentacion
       9 // Manual y garantia
     ],
     certNo: 'Q-AR-01590-T-0',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2008-2010_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2010_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2010.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-T2010-PB',
-        link: '/productos/AW-T2010-PB',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/1cvmjEHaxFp8dlIgsqklkbW9HBPkGaWFQ',
+    variants: ['AW-T2010-PB']
   },
   {// AW-T2010-PB
     name: 'Torre de Sonido Bluetooth Ring 14500W',
@@ -665,8 +623,13 @@ export const products = [
       '/products/AW-T2010-PB/img/3.webp',
       '/products/AW-T2010-PB/img/4.webp',
       '/products/AW-T2010-PB/img/5.webp',
+      '/products/AW-T2010-PB/img/6.webp',
+      '/products/AW-T2010-PB/img/7.webp',
+      '/products/AW-T2010-PB/img/8.webp',
+      '/products/AW-T2010-PB/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [
       {
         id: 1,
@@ -681,6 +644,7 @@ export const products = [
       },
       {
         id: 4,
+        customImg: fileserver + '/banners/poolparty2010.webp'
       },
       {
         id: 5,
@@ -688,7 +652,7 @@ export const products = [
       }
     ],
     shortDesc: 'Potencia y Calidad',
-    longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno y 2 tweeters, vas a poder tirar tu casa por la ventana.",
+    longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno, vas a poder tirar tu casa por la ventana.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/212-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2010-pb.html',
     videos: [
       /* {
@@ -732,7 +696,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '6 horas (según su uso)'
       },
       { // Caja de Madera
         id: 18,
@@ -761,7 +725,7 @@ export const products = [
       },
       {
         id: 11,
-        value: "6 horas (según volumen)",
+        value: "6 horas (según su uso)",
         
       },
       {
@@ -843,27 +807,11 @@ export const products = [
     includes: [
       1, // Mic inalambrico
       3, // Cable aux
-      5, // Fuente de alimentacion
+      12, // Cable de alimentacion
       9 // Manual y garantia
     ],
     certNo: 'Q-AR-01590-T-0',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-2010-PB_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2010-PB_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2010.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1Cemu-urtrh7h1eOF0ZXxn7vKxMVldKJv',
     variants: []
   },
   {// AW-T2012
@@ -880,8 +828,11 @@ export const products = [
       '/products/AW-T2012/img/5.webp',
       '/products/AW-T2012/img/6.webp',
       '/products/AW-T2012/img/7.webp',
+      '/products/AW-T2012/img/8.webp',
+      '/products/AW-T2012/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [
       {
         id: 1,
@@ -896,6 +847,7 @@ export const products = [
       },
       {
         id: 4,
+        customImg: fileserver + '/banners/fiestas2012.webp'
       },
       {
         id: 5,
@@ -905,18 +857,7 @@ export const products = [
     shortDesc: 'Sonido Colosal',
     longDesc: "Caja con cuerpo de madera, 1,49 centímetros de altura. Una gran torre en todo sentido de la palabra.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/253-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2012.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/vN6Qwro1FPU",
-      },
-      {
-        id: 2,
-        title: "Título del video 2",
-        link: "https://www.youtube.com/embed/gXGeD2sd12Q"
-      },
-    ],
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -952,7 +893,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '6 horas (según su uso)'
       },
       { // Caja de Madera
         id: 18,
@@ -981,7 +922,7 @@ export const products = [
       },
       {
         id: 11,
-        value: "6 horas (según volumen)",
+        value: "6 horas (según su uso)",
         
       },
       {
@@ -1063,27 +1004,11 @@ export const products = [
     includes: [
       1, // Mic inalambrico
       3, // Cable aux
-      5, // Fuente de alimentacion
+      12, // Cable de alimentacion
       9 // Manual y garantia
     ],
     certNo: 'Q-AR-01590-T-0',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2012_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2012_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2012.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1LC8zxO0Wveyy-OQk7pDL8D1q80NvccJw',
     variants: []
   },
 
@@ -1104,6 +1029,7 @@ export const products = [
       '/products/AW-P240D/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: false,
     banners: [
       {
         id: 1,
@@ -1120,7 +1046,7 @@ export const products = [
     ],
     shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/331-parlante-bluetooth-portatil-2500w-aiwa-aw-p240d-sn.html',
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -1161,6 +1087,11 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 8"`,
+        
+      },
+      { // Tweeters
+        id: 4,
+        value: `No`,
         
       },
       { // Potencia
@@ -1247,33 +1178,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P240D_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P240D_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P240D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-P240D-SA',
-        link: '/productos/AW-P240D-SA',
-      },
-      {
-        sku: 'AW-P240D-SN',
-        link: '/productos/AW-P240D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/1SkL0B6U6qEuWoQbGNK2aL4IVoeNyAE7R',
+    variants: ['AW-P240D-SA','AW-P240D-SN']
   },
   {// AW-P240D-SA
     name: 'Parlante Portátil Bluetooth Party 2500W',
@@ -1290,6 +1196,7 @@ export const products = [
       '/products/AW-P240D-SA/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: false,
     banners: [
       {
         id: 2,
@@ -1303,7 +1210,7 @@ export const products = [
     ],
     shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/331-parlante-bluetooth-portatil-2500w-aiwa-aw-p240d-sn.html',
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -1344,6 +1251,11 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 8"`,
+        
+      },
+      { // Tweeters
+        id: 4,
+        value: `No`,
         
       },
       { // Potencia
@@ -1428,29 +1340,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P240D-SA_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P240D-SA_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P240D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-P240D-SN',
-        link: '/productos/AW-P240D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/1-UQ3H-GaeaCwa56k3rGV0KSMxKdPQmI_',
+    variants: ['AW-P240D-SN']
   },
   {// AW-P240D-SN
     name: 'Parlante Portátil Bluetooth Party 2500W',
@@ -1467,6 +1358,7 @@ export const products = [
       '/products/AW-P240D-SN/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: true,
     banners: [
       {
         id: 2,
@@ -1520,6 +1412,11 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 8"`,
+        
+      },
+      { // Tweeters
+        id: 4,
+        value: `No`,
         
       },
       { // Potencia
@@ -1604,23 +1501,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P240D-SN_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P240D-SN_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P240D.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1AkUOXIGyh1tLjEGlNq2iN2CHEIodiBFY',
     variants: []
   },
   {// AW-P450D
@@ -1637,6 +1518,7 @@ export const products = [
       '/products/AW-P450D/img/5.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: false,
     banners: [
       {
         id: 1,
@@ -1653,7 +1535,7 @@ export const products = [
     ],
     shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/252-parlante-portatil-bluetooth-aiwa-aw-p450d-sn.html',
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -1694,6 +1576,11 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
+        
+      },
+      { // Tweeters
+        id: 4,
+        value: `No`,
         
       },
       { // Potencia
@@ -1780,33 +1667,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P450D_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P450D_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P450D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-P450D-SA',
-        link: '/productos/AW-P450D-SA',
-      },
-      {
-        sku: 'AW-P450D-SN',
-        link: '/productos/AW-P450D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/11HuAZNrU_0t1Ri1lf79m_4gef_ICWMbR',
+    variants: ['AW-P450D-SA', 'AW-P450D-SN']
   },
   {// AW-P450D-SA
     name: 'Parlante Portátil Bluetooth Party 4500W',
@@ -1815,13 +1677,18 @@ export const products = [
     line: 'party',
     categories: [110], 
     imgs: [
-      '/products/AW-P450D/img/1.webp',
-      '/products/AW-P450D/img/2.webp',
-      '/products/AW-P450D/img/3.webp',
-      '/products/AW-P450D/img/4.webp',
-      '/products/AW-P450D/img/5.webp',
+      '/products/AW-P450D-SA/img/1.webp',
+      '/products/AW-P450D-SA/img/2.webp',
+      '/products/AW-P450D-SA/img/3.webp',
+      '/products/AW-P450D-SA/img/4.webp',
+      '/products/AW-P450D-SA/img/5.webp',
+      '/products/AW-P450D-SA/img/6.webp',
+      '/products/AW-P450D-SA/img/7.webp',
+      '/products/AW-P450D-SA/img/8.webp',
+      '/products/AW-P450D-SA/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: false,
     banners: [
       { // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
         id: 2,
@@ -1834,14 +1701,8 @@ export const products = [
     ],
     shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/252-parlante-portatil-bluetooth-aiwa-aw-p450d-sn.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/3lIKM_uQuqk",
-      }
-    ],
+    buyLink: '',
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -1869,12 +1730,29 @@ export const products = [
       { // Duración de batería
         id: 8,
         value: '3 horas a máximo volumen'
+      },
+      { // USB
+        id: 33
+      },
+      { // TF
+        id: 26
+      },
+      { // Radio
+        id: 25
+      },
+      { // Reg Eco
+        id: 23
       }
     ],
     features: [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
+        
+      },
+      { // Tweeters
+        id: 4,
+        value: `No`,
         
       },
       { // Potencia
@@ -1889,7 +1767,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "2 horas (máximo volumen)",
+        value: "3 horas (máximo volumen)",
         
       },
       { // Luces
@@ -1922,8 +1800,8 @@ export const products = [
         value: "No",
         
       },
-      { // Display
-        id: 6,
+      { // Radio
+        id: 20,
         value: "Si",
         
       },
@@ -1959,29 +1837,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P450D-SA_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P450D-SA_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P450D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-P450D-SN',
-        link: '/productos/AW-P450D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/126X1HtcyfECqgoFRFaqpEV94gAZ2c4Xc',
+    variants: ['AW-P450D', 'AW-P450D-SA', 'AW-P450D-SN']
   },
   {// AW-P450D-SN
     name: 'Parlante Portátil Bluetooth Party 4500W',
@@ -1990,14 +1847,22 @@ export const products = [
     line: 'party',
     categories: [101], 
     imgs: [
-      '/products/AW-P450D/img/1.webp',
-      '/products/AW-P450D/img/2.webp',
-      '/products/AW-P450D/img/3.webp',
-      '/products/AW-P450D/img/4.webp',
-      '/products/AW-P450D/img/5.webp',
+      '/products/AW-P450D-SN/img/1.webp',
+      '/products/AW-P450D-SN/img/2.webp',
+      '/products/AW-P450D-SN/img/3.webp',
+      '/products/AW-P450D-SN/img/4.webp',
+      '/products/AW-P450D-SN/img/5.webp',
+      '/products/AW-P450D-SN/img/6.webp',
+      '/products/AW-P450D-SN/img/7.webp',
+      '/products/AW-P450D-SN/img/8.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: true,
     banners: [
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450.webp'
+      },
       { // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
         id: 2,
         customImg: fileserver + '/banners/tws450.webp'
@@ -2010,13 +1875,7 @@ export const products = [
     shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/252-parlante-portatil-bluetooth-aiwa-aw-p450d-sn.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/3lIKM_uQuqk",
-      }
-    ],
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -2044,12 +1903,30 @@ export const products = [
       { // Duración de batería
         id: 8,
         value: '3 horas a máximo volumen'
+      },
+      {
+        id: 28
+      },
+      {
+        id: 30
+      },
+      {
+        id: 5
+      },
+      {
+        id: 7,
+        value: "de 3.7V / 1800mAh"
       }
     ],
     features: [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
+        
+      },
+      { // Tweeters
+        id: 4,
+        value: `No`,
         
       },
       { // Potencia
@@ -2064,7 +1941,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "2 horas (máximo volumen)",
+        value: "3 horas (máximo volumen)",
         
       },
       { // Luces
@@ -2097,8 +1974,8 @@ export const products = [
         value: "No",
         
       },
-      { // Display
-        id: 6,
+      { // Radio
+        id: 20,
         value: "Si",
         
       },
@@ -2134,23 +2011,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P450D-SN_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P450D-SN_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P450D.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1TxmR_vMk0uC10q29mnngRGS8rRKmRTBe',
     variants: []
   },
   {// AW-T451D
@@ -2169,6 +2030,7 @@ export const products = [
       '/products/AW-T451D/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [
       {
         id: 1,
@@ -2181,22 +2043,20 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil451.webp'
-      }
+      },
+      {
+        id: 17
+      },
     ],
     shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html',
+    buyLink: '',
     videos: [
       {
         id: 1,
         title: "Título del video",
         link: "https://www.youtube.com/embed/lEUuZtKHCUI",
       },
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/lEUuZtKHCUI",
-      }
     ],
     featuredFeatures: [
       { // Potencia
@@ -2225,12 +2085,30 @@ export const products = [
       { // Duración de batería
         id: 8,
         value: '3 horas a máximo volumen'
+      },
+      { // Mobile Holder
+        id: 29,
+      },
+      { // Empuñadura transp.
+        id: 30,
+      },
+      { // Batería
+        id: 7,
+        value: "3.7V / 1800mAh"
+      },
+      { // Display
+        id: 5
       }
     ],
     features: [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
+        
+      },
+      { // Tweeters
+        id: 4,
+        value: `No`,
         
       },
       { // Potencia
@@ -2317,33 +2195,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T451D_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T451D_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T451D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-T451D-SA',
-        link: '/productos/AW-T451D-SA',
-      },
-      {
-        sku: 'AW-T451D-SN',
-        link: '/productos/AW-T451D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/1_jqaumAFlrCm0kDam7RewKtMBY5PLCrw',
+    variants: ['AW-T451D-SA', 'AW-T451D-SN']
   },
   {// AW-T451D-SA
     name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
@@ -2359,9 +2212,18 @@ export const products = [
       '/products/AW-T451D/img/5.webp',
       '/products/AW-T451D/img/6.webp',
       '/products/AW-T451D/img/7.webp',
+      '/products/AW-T451D/img/8.webp',
+      '/products/AW-T451D/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        customTitle: "¿Karaoke? ¡De una!",
+        customDesc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos."
+      },
       {
         id: 2,
         customImg: fileserver + '/banners/tws600.webp'
@@ -2369,18 +2231,15 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil451.webp'
-      }
+      },
+      {
+        id: 17
+      },
     ],
     shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/lEUuZtKHCUI",
-      }
-    ],
+    buyLink: '',
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -2408,12 +2267,30 @@ export const products = [
       { // Duración de batería
         id: 8,
         value: '3 horas a máximo volumen'
+      },
+      { // Mobile Holder
+        id: 29,
+      },
+      { // Empuñadura transp.
+        id: 30,
+      },
+      { // Batería
+        id: 7,
+        value: "3.7V / 1800mAh"
+      },
+      { // Display
+        id: 5
       }
     ],
     features: [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
+        
+      },
+      { // Tweeters
+        id: 4,
+        value: `No`,
         
       },
       { // Potencia
@@ -2498,29 +2375,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T451D-SA_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T451D-SA_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T451D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-T451D-SN',
-        link: '/productos/AW-T451D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/1-mGYda-uVaWyDputWWobMvJxvFIX-1Hs',
+    variants: ['AW-T451D-SN']
   },
   {// AW-T451D-SN
     name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
@@ -2538,7 +2394,14 @@ export const products = [
       '/products/AW-T451D/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        customTitle: "¿Karaoke? ¡De una!",
+        customDesc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos."
+      },
       {
         id: 2,
         customImg: fileserver + '/banners/tws600.webp'
@@ -2546,18 +2409,15 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil451.webp'
-      }
+      },
+      {
+        id: 17
+      },
     ],
     shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/lEUuZtKHCUI",
-      }
-    ],
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -2585,12 +2445,30 @@ export const products = [
       { // Duración de batería
         id: 8,
         value: '3 horas a máximo volumen'
+      },
+      { // Mobile Holder
+        id: 29,
+      },
+      { // Empuñadura transp.
+        id: 30,
+      },
+      { // Batería
+        id: 7,
+        value: "3.7V / 1800mAh"
+      },
+      { // Display
+        id: 5
       }
     ],
     features: [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
+        
+      },
+      { // Tweeters
+        id: 4,
+        value: `No`,
         
       },
       { // Potencia
@@ -2633,20 +2511,14 @@ export const products = [
         value: "Micrófono y Auxiliar",
         
       },
-      { // Micrófono
-        id: 1,
+      { // Radio
+        id: 20,
         value: "No",
-        
-      },
-      { // Display
-        id: 6,
-        value: "Si",
         
       },
       { // Otras características
         id: 15,
-        value: "Empuñadura de Transporte",
-        
+        value: "Empuñadura de Transporte, Mobile Holder"
       },
       { // Medidas del producto
         id: 16,
@@ -2675,23 +2547,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T451D-SN_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T451D-SN_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T451D.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/15kC-dwt90ybZ5ax-91uWvisOVJYDAfPH',
     variants: []
   },
   {// AW-T600D
@@ -2707,11 +2563,20 @@ export const products = [
       '/products/AW-T600D/img/4.webp',
       '/products/AW-T600D/img/5.webp',
       '/products/AW-T600D/img/6.webp',
+      '/products/AW-T600D/img/7.webp',
+      '/products/AW-T600D/img/8.webp',
+      '/products/AW-T600D/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [
       {
+        id: 15,
+        customImg: fileserver + '/banners/reproduci600.webp'
+      },
+      {
         id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp'
         // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
       },
       {
@@ -2725,7 +2590,7 @@ export const products = [
     ],
     shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/266-parlante-portatil-bluetooth-aiwa-aw-t600d-sn.html',
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -2759,6 +2624,19 @@ export const products = [
       },
       { // Ruedas
         id: 19,
+      },
+      { // USB + SD
+        id: 37,
+      },
+      { // Holder
+        id: 29
+      },
+      { // Radio
+        id: 25
+      },
+      { // Tweeter
+        id: 35,
+        value: `1 de 1"`
       }
     ],
     features: [
@@ -2779,7 +2657,7 @@ export const products = [
       },
       { // Batería
         id: 10,
-        value: "Interna Recargable 3.7V / 1800mAh",
+        value: "Interna Recargable 7.4V / 1800mAh",
         
       },
       { // Duración de batería
@@ -2817,10 +2695,9 @@ export const products = [
         value: "Si, con cable",
         
       },
-      { // Display
-        id: 6,
+      { // Radio
+        id: 20,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
@@ -2829,12 +2706,12 @@ export const products = [
       },
       { // Medidas del producto
         id: 16,
-        value: "27,5 x 72,5 x 26,5 cm",
+        value: "28 x 80,5 x 28 cm",
         
       },
       { // Medidas de la caja
         id: 17,
-        value: "32 x 77 x 30 cm",
+        value: "33 x 88 x 33 cm",
         
       },
       { // Peso
@@ -2856,33 +2733,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T600D_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T600D_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T600D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-T600D-SA',
-        link: '/productos/AW-T600D-SA',
-      },
-      {
-        sku: 'AW-T600D-SN',
-        link: '/productos/AW-T600D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/1cw-sGt21j80tZ5031iVSGqvPsmXJTEp4',
+    variants: ['AW-T600D-SA', 'AW-T600D-SN']
   },
   {// AW-T600D-SA
     name: 'Torre de Sonido Portátil Bluetooth Party 5000W',
@@ -2891,14 +2743,20 @@ export const products = [
     line: 'party',
     categories: [110], 
     imgs: [
-      '/products/AW-T600D/img/1.webp',
       '/products/AW-T600D/img/2.webp',
       '/products/AW-T600D/img/3.webp',
       '/products/AW-T600D/img/4.webp',
       '/products/AW-T600D/img/5.webp',
+      '/products/AW-T600D/img/6.webp',
+      '/products/AW-T600D/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [
+      {
+        id: 15,
+        customImg: fileserver + '/banners/reproduci600.webp'
+      },
       {
         id: 2,
         customImg: fileserver + '/banners/tws600.webp'
@@ -2906,18 +2764,15 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil600.webp'
+      },
+      {
+        id: 16,
       }
     ],
     shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/266-parlante-portatil-bluetooth-aiwa-aw-t600d-sn.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/eOWUeIdJV58",
-      }
-    ],
+    buyLink: '',
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -2944,6 +2799,19 @@ export const products = [
       },
       { // Ruedas
         id: 19,
+      },
+      { // USB + SD
+        id: 37,
+      },
+      { // Holder
+        id: 29
+      },
+      { // Radio
+        id: 25
+      },
+      { // Tweeter
+        id: 35,
+        value: `1 de 1"`
       }
     ],
     features: [
@@ -2964,7 +2832,7 @@ export const products = [
       },
       { // Batería
         id: 10,
-        value: "Interna Recargable 3.7V / 1800mAh",
+        value: "Interna Recargable 7.4V / 1800mAh",
         
       },
       { // Duración de batería
@@ -3002,8 +2870,8 @@ export const products = [
         value: "No",
         
       },
-      { // Display
-        id: 6,
+      { // Radio
+        id: 20,
         value: "Si",
         
       },
@@ -3014,13 +2882,11 @@ export const products = [
       },
       { // Medidas del producto
         id: 16,
-        value: "27,5 x 72,5 x 26,5 cm",
-        
+        value: "28 x 80,5 x 28 cm",
       },
       { // Medidas de la caja
         id: 17,
-        value: "32 x 77 x 30 cm",
-        
+        value: "33 x 88 x 33 cm",
       },
       { // Peso
         id: 18,
@@ -3039,29 +2905,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T600D-SA_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T600D-SA_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T600D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-T600D-SN',
-        link: '/productos/AW-T600D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/10AlqdoQ_rOCdTM_mldiNMPzc9mdRaHk_',
+    variants: ['AW-T600D', 'AW-T600D-SA', 'AW-T600D-SN']
   },
   {// AW-T600D-SN
     name: 'Torre de Sonido Portátil Bluetooth Party 5000W',
@@ -3070,13 +2915,17 @@ export const products = [
     line: 'party',
     categories: [102], 
     imgs: [
-      '/products/AW-T600D/img/1.webp',
-      '/products/AW-T600D/img/2.webp',
-      '/products/AW-T600D/img/3.webp',
-      '/products/AW-T600D/img/4.webp',
-      '/products/AW-T600D/img/5.webp',
+      '/products/AW-T600D-SN/img/1.webp',
+      '/products/AW-T600D-SN/img/2.webp',
+      '/products/AW-T600D-SN/img/3.webp',
+      '/products/AW-T600D-SN/img/4.webp',
+      '/products/AW-T600D-SN/img/5.webp',
+      '/products/AW-T600D-SN/img/6.webp',
+      '/products/AW-T600D-SN/img/7.webp',
+      '/products/AW-T600D-SN/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [
       {
         id: 2,
@@ -3085,18 +2934,21 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil600.webp'
+      },
+      {
+        id: 1,
+        customTitle: "¿Karaoke? ¡De una!",
+        customDesc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos."
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores600sn.webp'
       }
     ],
     shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/266-parlante-portatil-bluetooth-aiwa-aw-t600d-sn.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/eOWUeIdJV58",
-      }
-    ],
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -3123,6 +2975,20 @@ export const products = [
       },
       { // Ruedas
         id: 19,
+      },
+      { // Holder
+        id: 29
+      },
+      { // Tweeter
+        id: 35,
+        value: `1 de 1"`
+      },
+      {
+        id: 28
+      },
+      {
+        id: 7,
+        value: `de 7.4V / 1800mAh`
       }
     ],
     features: [
@@ -3143,7 +3009,7 @@ export const products = [
       },
       { // Batería
         id: 10,
-        value: "Interna Recargable 3.7V / 1800mAh",
+        value: "Interna Recargable 7.4V / 1800mAh",
         
       },
       { // Duración de batería
@@ -3193,13 +3059,11 @@ export const products = [
       },
       { // Medidas del producto
         id: 16,
-        value: "27,5 x 72,5 x 26,5 cm",
-        
+        value: "28 x 80,5 x 28 cm",
       },
       { // Medidas de la caja
         id: 17,
-        value: "32 x 77 x 30 cm",
-        
+        value: "33 x 88 x 33 cm",
       },
       { // Peso
         id: 18,
@@ -3218,23 +3082,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T600D-SN_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T600D-SN_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T600D.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1LOrmrc6dboTou4qxp9cyD4-n62oy04NL',
     variants: []
   },
   {// AW-P1200D
@@ -3252,6 +3100,7 @@ export const products = [
       '/products/AW-P1200D/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: false,
     banners: [
       {
         id: 1,
@@ -3268,7 +3117,7 @@ export const products = [
     ],
     shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/217-parlante-portatil-aiwa-12-pulgadas-bluetooth-aw-p1200d.html',
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -3399,33 +3248,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: 'Q-AR-01374-T-0',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1200D_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1200D_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P1200D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-P1200D-SA',
-        link: '/productos/AW-P1200D-SA',
-      },
-      {
-        sku: 'AW-P1200D-SN',
-        link: '/productos/AW-P1200D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/1DDQI7xoXAhdQY2mZEhZwRJp6HO2GdSAW',
+    variants: ['AW-P1200D-SA', 'AW-P1200D-SN']
   },
   {// AW-P1200D-SA
     name: 'Parlante Portátil Bluetooth Party 6000W',
@@ -3442,6 +3266,7 @@ export const products = [
       '/products/AW-P1200D/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: false,
     banners: [
       {
         id: 2,
@@ -3454,7 +3279,7 @@ export const products = [
     ],
     shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/217-parlante-portatil-aiwa-12-pulgadas-bluetooth-aw-p1200d.html',
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -3583,29 +3408,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: 'Q-AR-01374-T-0',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1200D-SA_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1200D-SA_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P1200D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-P1200D-SN',
-        link: '/productos/AW-P1200D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/12O54GzSjl0Nm_-2DIHENTO5dmAincenI',
+    variants: ['AW-P1200D-SN']
   },
   {// AW-P1200D-SN
     name: 'Parlante Portátil Bluetooth Party 6000W',
@@ -3622,6 +3426,7 @@ export const products = [
       '/products/AW-P1200D/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: true,
     banners: [
       {
         id: 2,
@@ -3763,23 +3568,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: 'Q-AR-01374-T-0',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1200D-SN_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1200D-SN_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P1200D.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/15GtEvArmGnIgG4S7qyJzjPUqpDnSR-jR',
     variants: []
   },
   {// AW-P1510D
@@ -3797,6 +3586,7 @@ export const products = [
       '/products/AW-P1510D/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: false,
     banners: [
       {
         id: 1,
@@ -3814,7 +3604,7 @@ export const products = [
     ],
     shortDesc: 'La distancia no es problema',
     longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/95-parlante-portatil-aiwa-15-pulgadas-bluetooth-aw-p1510d-7798111353544.html',
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -3959,29 +3749,8 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1510D_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1510D_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P1510D.rar'
-      }
-    ],
-    variants: [
-      {
-        sku: 'AW-P1510D-SN',
-        link: '/productos/AW-P1510D-SN',
-      }
-    ]
+    downloads: 'https://drive.google.com/drive/folders/1yv88lYDFWpsptavOJggiSgz9Xv8TiEMr',
+    variants: ['AW-P1510D-SN']
   },
   {// AW-P1510D-SN
     name: 'Parlante Portátil Bluetooth Party 7000W',
@@ -3998,6 +3767,7 @@ export const products = [
       '/products/AW-P1510D/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: true,
     banners: [
       {
         id: 1,
@@ -4159,23 +3929,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1510D-SN_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1510D-SN_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P1510D.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/15G8xiA9_vbWH8G5a8oBL76t7icFDRjMh',
     variants: []
   },
   {// AW-P1500PS
@@ -4193,6 +3947,7 @@ export const products = [
       '/products/AW-P1500PS/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: true,
     banners: [
       {
         id: 1,
@@ -4354,27 +4109,11 @@ export const products = [
       1, // Mic inalam
       7, // Control
       3, // Cable aux
-      5, // Fuente 
+      12, // Cable 
       9, // Manual de usuario
     ],
     certNo: '00Q-AR-01388-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1500PS_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-P1500PS_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-P1500PS.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1EeW6E5-uS2S-lLUHG4TtRtcjswgjlr84',
     variants: []
   },
   {// AW-T2040
@@ -4394,6 +4133,7 @@ export const products = [
       '/products/AW-T2040/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
@@ -4446,7 +4186,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '8 horas (según volumen)'
+        value: '8 horas (según su uso)'
       },
       { // Mobile Holder
         id: 29,
@@ -4478,7 +4218,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "Hasta 8 horas (según volumen)",
+        value: "Hasta 8 horas (según su uso)",
         
       },
       { // Luces
@@ -4543,23 +4283,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2040_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2040_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2040.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1QSNSdv4YxPuPEPFxA9K4DPOt-UkdISBk',
     variants: []
   },
   {// AW-T2042
@@ -4579,6 +4303,7 @@ export const products = [
       '/products/AW-T2042/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
@@ -4631,7 +4356,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '8 horas (según volumen)'
+        value: '8 horas (según su uso)'
       },
       { // Mobile Holder
         id: 29,
@@ -4663,7 +4388,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "Hasta 8 horas (según volumen)",
+        value: "Hasta 8 horas (según su uso)",
         
       },
       { // Luces
@@ -4728,23 +4453,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2042_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2042_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2042.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1QXDROpyb9KKtipho2ldRwI1rJoiBXzgT',
     variants: []
   },
   {// AW-T2044
@@ -4764,6 +4473,7 @@ export const products = [
       '/products/AW-T2044/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
@@ -4816,7 +4526,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '8 horas (según volumen)'
+        value: '8 horas (según su uso)'
       },
       { // Mobile Holder
         id: 29,
@@ -4848,7 +4558,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "Hasta 8 horas (según volumen)",
+        value: "Hasta 8 horas (según su uso)",
         
       },
       { // Luces
@@ -4913,23 +4623,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: '',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2044_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2044_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2044.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1QOPtS-kaZzgK9-kD-SFT8decnb82PeFx',
     variants: []
   },
   
@@ -4951,6 +4645,7 @@ export const products = [
       '/products/AW-T2021/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 1,
@@ -5000,7 +4695,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '5 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -5025,7 +4720,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "Hasta 5 horas (según volumen)",
+        value: "Hasta 5 horas (según su uso)",
       },
       { // Luces
         id: 12,
@@ -5078,27 +4773,11 @@ export const products = [
     ],
     includes: [
       1, // Mic Inalam
-      5, // Fuente
+      12, // Cable
       9, // Manual de usuario
     ],
     certNo: 'Q-AR-01590-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2021_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2021_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2021.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1FyB2FsIgxRZDRe_pSfftnQzz7lOFPRDg',
     variants: []
   },
   {// AW-T2022
@@ -5118,6 +4797,7 @@ export const products = [
       '/products/AW-T2022/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -5174,7 +4854,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '5 horas (según volumen)'
+        value: '5 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -5199,7 +4879,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "Hasta 5 horas (según volumen)",
+        value: "Hasta 5 horas (según su uso)",
       },
       { // Luces
         id: 12,
@@ -5256,23 +4936,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: 'Q-AR-01590-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2022_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2022_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2022.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1G-0ZfmHeh3HiECKxeV1--6Zo8ObYh1tc',
     variants: []
   },
   {// AW-T2018R
@@ -5292,6 +4956,7 @@ export const products = [
       '/products/AW-T2018R/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
@@ -5345,7 +5010,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '6 horas (según volumen)'
+        value: '6 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -5370,7 +5035,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "Hasta 6 horas (según volumen)",
+        value: "Hasta 6 horas (según su uso)",
       },
       { // Luces
         id: 12,
@@ -5423,27 +5088,11 @@ export const products = [
     ],
     includes: [
       3, // Aux
-      5, // Fuente
+      12, // Cable
       9, // Manual de usuario
     ],
     certNo: 'Q-AR-01590-T-2',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2018R_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2018R_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2018R.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1GE6Z6B6kaWc8rHWDrsOloDgEDlfbAYmN',
     variants: []
   },
   {// AW-T2050R
@@ -5461,6 +5110,7 @@ export const products = [
       '/products/AW-T2050R/img/6.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
@@ -5514,7 +5164,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '8 horas (según volumen)'
+        value: '8 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -5539,7 +5189,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "Hasta 6 horas (según volumen)",
+        value: "Hasta 6 horas (según su uso)",
       },
       { // Luces
         id: 12,
@@ -5596,23 +5246,7 @@ export const products = [
       9, // Manual de usuario
     ],
     certNo: 'RA 4183955 E',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2050R_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T2050R_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T2050R.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/1Gzi7xqLXOCRYK42Zz3Jv3C_bDA7E8SBA',
     variants: []
   },
   {// AW-T506R
@@ -5632,6 +5266,7 @@ export const products = [
       '/products/AW-T506R/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -5646,7 +5281,7 @@ export const products = [
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -5680,7 +5315,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '8 horas (según volumen)'
+        value: '8 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -5759,24 +5394,8 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T506R_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T506R_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T506R.rar'
-      }
-    ],
-    variants: []
+    downloads: 'https://drive.google.com/drive/folders/18tQIPtI8gXQqVhDkp2vT8Lxb00Cqz9t9',
+    variants: ['AW-T506R-PB']
   },
   {// AW-T506R-PB
     name: 'Torre de Sonido Bluetooth Infinit 6500W',
@@ -5793,6 +5412,7 @@ export const products = [
       '/products/AW-T506R-PB/img/6.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -5841,7 +5461,7 @@ export const products = [
       },
       { // Duracion Batería
         id: 8,
-        value: '8 horas (según volumen)'
+        value: '8 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -5918,23 +5538,7 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T506R-PB_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T506R-PB_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T506R.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/188BCWXjwtJWRqXjNcz4YEuZVjhnEjcsA',
     variants: []
   },
   {// AW-T265SF
@@ -5952,6 +5556,7 @@ export const products = [
       '/products/AW-T265SF/img/6.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -5966,7 +5571,7 @@ export const products = [
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6078,24 +5683,8 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T265SF_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T265SF_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T506R.rar'
-      }
-    ],
-    variants: []
+    downloads: 'https://drive.google.com/drive/folders/19TuPLjfUNqNVzcWsP9bttgJ3SEH1lXEr',
+    variants: ['AW-T506R-PB']
   },
   {// AW-T265SF-SA
     name: 'Torre de Sonido Bluetooth Infinit 6500W',
@@ -6112,6 +5701,7 @@ export const products = [
       '/products/AW-T265SF-SA/img/6.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -6129,7 +5719,7 @@ export const products = [
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6239,24 +5829,8 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T265SF-SA_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T265SF-SA_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T506R.rar'
-      }
-    ],
-    variants: []
+    downloads: 'https://drive.google.com/drive/folders/1aaXePdKCLlh-Qr1eLbemZO1lAyDNoG50',
+    variants: ['AW-T506R-PB']
   },
 
   /////////////// LINEA FLAMA ////////////////
@@ -6275,6 +5849,7 @@ export const products = [
       '/products/AW-T604F/img/5.webp',
     ].map(e => fileserver + e),
     top: false,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -6391,23 +5966,7 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T604F_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T604F_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T604F.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/10omQmKKjtEd40bO4OimLYlHeZM_Oqskf',
     variants: []
   },
   {// AW-T806F
@@ -6427,6 +5986,7 @@ export const products = [
       '/products/AW-T806F/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       { id: 1 },  
       { id: 13 },
@@ -6444,7 +6004,7 @@ export const products = [
     ],
     shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/103-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t806f-7798111353995.html',
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6557,24 +6117,8 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T806F_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T806F_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T806F.rar'
-      }
-    ],
-    variants: []
+    downloads: 'https://drive.google.com/drive/folders/19-zSuHUdeevC5edP-winJgJDvXuqjezA',
+    variants: ['AW-T806F-SA', 'AW-T806F-PB']
   },
   {// AW-T806F-SA
     name: 'Torre de Sonido Bluetooth Flama 8000W',
@@ -6593,6 +6137,7 @@ export const products = [
       '/products/AW-T806F-SA/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 13,
@@ -6610,7 +6155,7 @@ export const products = [
     ],
     shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/103-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t806f-7798111353995.html',
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -6721,24 +6266,8 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T806F-SA_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T806F-SA_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T806F.rar'
-      }
-    ],
-    variants: []
+    downloads: 'https://drive.google.com/drive/folders/10X95ULeGxUO5PkCI8hbaJtSF59eDUSST',
+    variants: ['AW-T806F-PB']
   },
   {// AW-T806F-PB
     name: 'Torre de Sonido Bluetooth Flama 8000W',
@@ -6757,6 +6286,7 @@ export const products = [
       '/products/AW-T806F-PB/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 13,
@@ -6886,23 +6416,7 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T806F-PB_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T806F-PB_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T806F.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/19pctxOL_BvlxooIZqpQSDT-RmdGa6LQV',
     variants: []
   },
   {// AW-T1008F
@@ -6922,6 +6436,7 @@ export const products = [
       '/products/AW-T1008F/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: false,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       { 
         id: 1,
@@ -6940,7 +6455,7 @@ export const products = [
     ],
     shortDesc: 'Acercate al fuego',
     longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/98-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t1008f-7798111354008.html',
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
@@ -7052,24 +6567,8 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T1008F_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T1008F_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T1008F.rar'
-      }
-    ],
-    variants: []
+    downloads: 'https://drive.google.com/drive/folders/1x8k5MstMDILw0gNMnFilaf1Kuf_yGZQ2',
+    variants: ['AW-T1008F-PB']
   },
   {// AW-T1008F-PB
     name: 'Torre de Sonido Bluetooth Flama 9500W',
@@ -7088,6 +6587,7 @@ export const products = [
       '/products/AW-T1008F-PB/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
+    360: true,
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       { 
         id: 1,
@@ -7217,23 +6717,7 @@ export const products = [
       9, // Manual
     ],
     certNo: '00Q-AR-01223-T-1',
-    downloads: [
-      {
-        name: 'Manual',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T1008F-PB_MANUAL.pdf'
-      },
-      {
-        name: 'Ficha',
-        icon: InsertDriveFile,
-        link: fileserver + '/docs/AW-T1008F-PB_FICHA.pdf'
-      },
-      {
-        name: 'Imágenes',
-        icon: PermMedia,
-        link: fileserver + '/compressed/images/AW-T1008F.rar'
-      }
-    ],
+    downloads: 'https://drive.google.com/drive/folders/19O4ElAPI5VeQy71U01Y9U17tnsG-KUn-',
     variants: []
   },
 ]

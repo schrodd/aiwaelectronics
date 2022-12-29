@@ -1,45 +1,39 @@
 const features = [ // Características de productos
   { 
-    id: 1, name: 'Micrófono', 
-  },
-  { 
-    id: 2, name: 'Potencia',
-  },
-  { 
     id: 3, name: 'Woofers',
   },
   { 
     id: 4, name: 'Tweeters',
   },
   { 
+    id: 2, name: 'Potencia',
+  },
+  { 
+    id: 9, name: 'Conectividad',
+  },
+  { 
+    id: 13, name: 'Funciones',
+  },
+  { 
     id: 5, name: 'Reguladores',
-  },
-  { 
-    id: 6, name: 'Display',
-  },
-  { 
-    id: 7, name: 'Efectos de Luces',
   },
   { 
     id: 8, name: 'Entradas',
   },
   { 
-    id: 9, name: 'Conectividad',
+    id: 12, name: 'Luces',
+  },
+  { 
+    id: 6, name: 'Display',
+  },
+  { 
+    id: 20, name: 'Radio FM',
   },
   { 
     id: 10, name: 'Batería',
   },
   { 
     id: 11, name: 'Duración de Batería',
-  },
-  { 
-    id: 12, name: 'Luces',
-  },
-  { 
-    id: 13, name: 'Funciones',
-  },
-  { 
-    id: 14, name: 'Caja (cuerpo)',
   },
   { 
     id: 15, name: 'Otras Características',
@@ -56,6 +50,15 @@ const features = [ // Características de productos
   { 
     id: 19, name: 'EAN',
   },
+  /* { 
+    id: 1, name: 'Micrófono', 
+  }, 
+  { 
+    id: 7, name: 'Efectos de Luces',
+  },
+  { 
+    id: 14, name: 'Caja (cuerpo)',
+  },
   { 
     id: 20, name: 'Power Bank',
   },
@@ -64,7 +67,7 @@ const features = [ // Características de productos
   },
   {
     id: 22, name: 'Características Técnicas',
-  }
+  } */
 ]
 
 export default features

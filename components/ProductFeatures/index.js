@@ -1,18 +1,37 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import featuredFeatures from '../../content/featuredFeatures'
 import Head from 'next/head'
 import { SvgIcon } from '@mui/material'
-import { shadows } from '@mui/system'
 
 export default function ProductFeatures({prod}) {
-  const [activeFeature, setActiveFeature] = useState(prod.featuredFeatures[0].id)
+  // Set first icon of the product as active
+  const [activeFeature, setActiveFeature] = useState(-1)
+
+  // Find icons that apply to the product
   const prodFeatures = []
   prod.featuredFeatures.forEach(e => {
     prodFeatures.push({...featuredFeatures.find(f => e.id == f.id), value: e.value})
   })
+
+  // Sort
+  prodFeatures.sort((a,b) => {
+    return featuredFeatures.findIndex(e => e.id == a.id) - featuredFeatures.findIndex(e => e.id == b.id)
+  })
+
+  // Cut to 8 o 12 icons max
+  prodFeatures.length >= 12 ? prodFeatures.splice(12) : prodFeatures.splice(8)
+  
+  // Find active icon
   const activeFeatObject = prodFeatures.find(e => e.id == activeFeature)
+
+  // Set first icon as active on load
+  useEffect(() => {
+    setActiveFeature(prodFeatures[0].id)
+  }, [])
+
   return (
-    <section className='product-features'>
+    <section className='product-features' id='product-features'>
+      <a class="anchor" id="product-features-anchor"></a>
       <Head>
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" key="no-scale"/>
       </Head>

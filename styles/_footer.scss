@@ -1,4 +1,4 @@
-@import 'variables';
+@import 'variables'; 
 
 footer {
   background: $black; 
@@ -17,7 +17,7 @@ footer {
     margin-bottom: 5px;
   }
   .wrapper {
-    @include flex(row, center, stretch);
+    @include flex(row, center, flex-start);
     @include mobile {
       flex-direction: column;
     }
@@ -38,14 +38,41 @@ footer {
         li {
           margin-bottom: 3px;
           transition: all .1s ease-in-out;
-          &:hover {
-            margin-left: 5px;
+          button {
+            background: none;
+            border: none;
+            color: white;
+            font-weight: 600;
+            @include mobile {
+              font-size: 1.3rem;
+            }
           }
+          ul.lv-two {
+            margin: 5px 10px;
+            max-height: 1px;
+            overflow: hidden;
+            transition: all .5s 0s ease-out;
+            /* * {
+              font-size: 12px;
+            } */
+            &.active {
+              max-height: 999px;
+            }
+            @include mobile {
+              margin: 10px 15px;
+              li {
+                margin-bottom: 10px;
+              }
+            }
+          }
+          /* &:hover {
+            margin-left: 5px;
+          } */
         }
       }
     }
     .social {
-      place-self: center;
+      // place-self: center;
       @include flex(column);
       .social-container{
         margin: 0;
