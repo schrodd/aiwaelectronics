@@ -84,7 +84,10 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   },
   { 
     id: 6, name: 'Efectos de Luces', icon: fx,
-    desc:'Deslumbrantes luces que se dedican a brillar alrededor de los woofer y además con diferentes efectos para que puedas elegir cual acompaña mejor el momento que estas disfrutando.',
+    /* desc:'Deslumbrantes luces que se dedican a brillar alrededor de los woofer y además con diferentes efectos para que puedas elegir cual acompaña mejor el momento que estas disfrutando.', */
+    customDesc(input='') {
+      return `Deslumbrantes luces que se dedican a brillar alrededor de los woofer y además con ${input} diferentes efectos para que puedas elegir cual acompaña mejor el momento que estas disfrutando.`
+    }
   },
   { id: 20, name: 'Luces', icon: fx,
     desc: 'Con sus luces LED anima cualquier ambiente fácilmente. Si lo preferís, las podés apagar.'

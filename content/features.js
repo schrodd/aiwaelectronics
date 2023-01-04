@@ -33,6 +33,9 @@ const features = [ // Características de productos
     id: 10, name: 'Batería',
   },
   { 
+    id: 21, name: 'Uso',
+  },
+  { 
     id: 11, name: 'Duración de Batería',
   },
   { 

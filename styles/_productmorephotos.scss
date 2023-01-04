@@ -18,6 +18,7 @@ section.top-wrapper {
       flex-wrap: wrap;
       margin: 15px;
       gap: 10px;
+      z-index: 9;
       @include pc {
         margin: 45px 50px;
         justify-content: flex-start;

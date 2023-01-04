@@ -43,7 +43,7 @@ export default function ProductSpecsTable({prod}) {
         <div className='download-items'>
             <a href={prod.downloads} target='_blank' rel="noreferrer">
               <LaunchIcon />
-              Ver material del producto en Google Drive
+              Accedé al manual, imágenes y ficha del producto
             </a>
         </div>
       </AccordionItem>
@@ -51,7 +51,7 @@ export default function ProductSpecsTable({prod}) {
         <AccordionItem classes='prod-specs-table variants' name='Nueva Generación' open>
             <div className="wrapper">
               {prod.variants.map((e,i) => (
-                <ProductCard key={i} sku={e} showName showSku showDesc />
+                <ProductCard key={i} sku={e} showName showSku showGen/>
               ))}
             </div>
         </AccordionItem>

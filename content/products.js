@@ -18,6 +18,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: false,
+    gen: "1º Generación",
     banners: [
       {
         id: 1,
@@ -228,6 +229,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "2º Generación",
     banners: [
       {
         id: 1,
@@ -427,6 +429,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: false,
+    gen: "1º Generación",
     banners: [
       {
         id: 1,
@@ -630,6 +633,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "2º Generación",
     banners: [
       {
         id: 1,
@@ -833,6 +837,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "1º Generación",
     banners: [
       {
         id: 1,
@@ -1027,12 +1032,21 @@ export const products = [
       '/products/AW-P240D/img/4.webp',
       '/products/AW-P240D/img/5.webp',
       '/products/AW-P240D/img/6.webp',
+      '/products/AW-P240D/img/7.webp',
+      '/products/AW-P240D/img/8.webp',
+      '/products/AW-P240D/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
+    gen: "1º Generación",
     banners: [
       {
+        id: 15,
+        customImg: fileserver + '/banners/panel240sa.webp'
+      },
+      {
         id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp'
         // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
       },
       {
@@ -1081,6 +1095,18 @@ export const products = [
       { // Duración de batería
         id: 8,
         value: '3 horas a máximo volumen'
+      },
+      { // USB
+        id: 33
+      },
+      { // TF
+        id: 26
+      },
+      { // Radio
+        id: 25
+      },
+      { // Reg Eco
+        id: 23
       }
     ],
     features: [
@@ -1139,8 +1165,8 @@ export const products = [
         value: "Si, con cable",
         
       },
-      { // Display
-        id: 6,
+      { // Radio FM
+        id: 20,
         value: "Si",
         
       },
@@ -1194,14 +1220,26 @@ export const products = [
       '/products/AW-P240D-SA/img/4.webp',
       '/products/AW-P240D-SA/img/5.webp',
       '/products/AW-P240D-SA/img/6.webp',
+      '/products/AW-P240D-SA/img/7.webp',
+      '/products/AW-P240D-SA/img/8.webp',
+      '/products/AW-P240D-SA/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
+    gen: "2º Generación",
     banners: [
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel240sa.webp'
+      },
       {
         id: 2,
         customImg: fileserver + '/banners/tws240.webp'
         // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450sa.webp'
       },
       {
         id: 6,
@@ -1211,13 +1249,7 @@ export const products = [
     shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: '',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/4IN_K5HtEOI",
-      }
-    ],
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -1245,6 +1277,18 @@ export const products = [
       { // Duración de batería
         id: 8,
         value: '3 horas a máximo volumen'
+      },
+      { // USB
+        id: 33
+      },
+      { // TF
+        id: 26
+      },
+      { // Radio
+        id: 25
+      },
+      { // Reg Eco
+        id: 23
       }
     ],
     features: [
@@ -1303,8 +1347,8 @@ export const products = [
         value: "No",
         
       },
-      { // Display
-        id: 6,
+      { // Radio
+        id: 20,
         value: "Si",
         
       },
@@ -1341,7 +1385,7 @@ export const products = [
     ],
     certNo: '',
     downloads: 'https://drive.google.com/drive/folders/1-UQ3H-GaeaCwa56k3rGV0KSMxKdPQmI_',
-    variants: ['AW-P240D-SN']
+    variants: ['AW-P240D','AW-P240D-SA','AW-P240D-SN']
   },
   {// AW-P240D-SN
     name: 'Parlante Portátil Bluetooth Party 2500W',
@@ -1356,10 +1400,18 @@ export const products = [
       '/products/AW-P240D-SN/img/4.webp',
       '/products/AW-P240D-SN/img/5.webp',
       '/products/AW-P240D-SN/img/6.webp',
+      '/products/AW-P240D-SN/img/7.webp',
+      '/products/AW-P240D-SN/img/8.webp',
+      '/products/AW-P240D-SN/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
+    gen: "3º Generación",
     banners: [
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450sn.webp'
+      },
       {
         id: 2,
         customImg: fileserver + '/banners/tws240.webp'
@@ -1372,13 +1424,7 @@ export const products = [
     shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/331-parlante-bluetooth-portatil-2500w-aiwa-aw-p240d-sn.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/4IN_K5HtEOI",
-      }
-    ],
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -1406,6 +1452,19 @@ export const products = [
       { // Duración de batería
         id: 8,
         value: '3 horas a máximo volumen'
+      },
+      {
+        id: 28
+      },
+      {
+        id: 30
+      },
+      {
+        id: 5
+      },
+      {
+        id: 7,
+        value: "de 3.7V / 1800mAh"
       }
     ],
     features: [
@@ -1464,9 +1523,9 @@ export const products = [
         value: "No",
         
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Radio FM
+        id: 20,
+        value: "No",
         
       },
       { // Otras características
@@ -1515,14 +1574,27 @@ export const products = [
       '/products/AW-P450D/img/2.webp',
       '/products/AW-P450D/img/3.webp',
       '/products/AW-P450D/img/4.webp',
-      '/products/AW-P450D/img/5.webp',
+      '/products/AW-P450D/img/6.webp',
+      '/products/AW-P450D/img/7.webp',
+      '/products/AW-P450D/img/8.webp',
+      '/products/AW-P450D/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
+    gen: "1º Generación",
     banners: [
       {
+        id: 15,
+        customImg: fileserver + '/banners/panel450sa.webp'
+      },
+      {
         id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp'
         // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450sa.webp'
       },
       {
         id: 2,
@@ -1570,6 +1642,18 @@ export const products = [
       { // Duración de batería
         id: 8,
         value: '3 horas a máximo volumen'
+      },
+      { // USB
+        id: 33
+      },
+      { // TF
+        id: 26
+      },
+      { // Radio
+        id: 25
+      },
+      { // Reg Eco
+        id: 23
       }
     ],
     features: [
@@ -1595,7 +1679,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "2 horas (máximo volumen)",
+        value: "3 horas (máximo volumen)",
         
       },
       { // Luces
@@ -1628,8 +1712,8 @@ export const products = [
         value: "Si, con cable",
         
       },
-      { // Display
-        id: 6,
+      { // Radio
+        id: 20,
         value: "Si",
         
       },
@@ -1681,7 +1765,6 @@ export const products = [
       '/products/AW-P450D-SA/img/2.webp',
       '/products/AW-P450D-SA/img/3.webp',
       '/products/AW-P450D-SA/img/4.webp',
-      '/products/AW-P450D-SA/img/5.webp',
       '/products/AW-P450D-SA/img/6.webp',
       '/products/AW-P450D-SA/img/7.webp',
       '/products/AW-P450D-SA/img/8.webp',
@@ -1689,10 +1772,19 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: false,
+    gen: "2º Generación",
     banners: [
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel450sa.webp'
+      },
       { // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
         id: 2,
         customImg: fileserver + '/banners/tws450.webp'
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450sa.webp'
       },
       {
         id: 6,
@@ -1858,6 +1950,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: true,
+    gen: "3º Generación",
     banners: [
       {
         id: 16,
@@ -2031,6 +2124,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: false,
+    gen: "1º Generación",
     banners: [
       {
         id: 1,
@@ -2217,6 +2311,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: false,
+    gen: "2º Generación",
     banners: [
       {
         id: 1,
@@ -2395,6 +2490,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "3º Generación",
     banners: [
       {
         id: 1,
@@ -2569,6 +2665,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "1º Generación",
     banners: [
       {
         id: 15,
@@ -2752,6 +2849,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "2º Generación",
     banners: [
       {
         id: 15,
@@ -2926,6 +3024,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "3º Generación",
     banners: [
       {
         id: 2,
@@ -3101,6 +3200,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: false,
+    gen: "1º Generación",
     banners: [
       {
         id: 1,
@@ -3267,6 +3367,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: false,
+    gen: "2º Generación",
     banners: [
       {
         id: 2,
@@ -3427,6 +3528,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: true,
+    gen: "3º Generación",
     banners: [
       {
         id: 2,
@@ -3587,6 +3689,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: false,
+    gen: "1º Generación",
     banners: [
       {
         id: 1,
@@ -3768,6 +3871,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: true,
+    gen: "2º Generación",
     banners: [
       {
         id: 1,
@@ -3948,6 +4052,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: true,
+    gen: "1º Generación",
     banners: [
       {
         id: 1,
@@ -4134,9 +4239,11 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
       },
       {
         id: 9,
@@ -4174,16 +4281,20 @@ export const products = [
       { // Regulador de Volumen de Mic 
         id: 28,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Reguladores graves agudos
+        id: 22,
       },
       { // Efectos de Luz
         id: 6,
       },
-      { // Batería Recargable
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
+      },
+      /* { // Batería Recargable
         id: 7,
         value: 'Litio 3,7v / 3600mAh'
-      },
+      }, */
       { // Duracion Batería
         id: 8,
         value: '8 horas (según su uso)'
@@ -4223,7 +4334,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "RGB en woofer (ON/OFF)",
+        value: "RGB en woofer",
         
       },
       { // Conectividad
@@ -4243,7 +4354,7 @@ export const products = [
       },
       { // Entradas
         id: 8,
-        value: "Auxiliar, Micrófono x2",
+        value: "Micrófono x2, Auxiliar",
         
       },
       { // Display
@@ -4304,9 +4415,11 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
       },
       {
         id: 9,
@@ -4344,16 +4457,20 @@ export const products = [
       { // Regulador de Volumen de Mic 
         id: 28,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Reguladores graves agudos
+        id: 22,
       },
       { // Efectos de Luz
         id: 6,
       },
-      { // Batería Recargable
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
+      },
+      /* { // Batería Recargable
         id: 7,
         value: 'Litio 3,7v / 3600mAh'
-      },
+      }, */
       { // Duracion Batería
         id: 8,
         value: '8 horas (según su uso)'
@@ -4393,7 +4510,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "RGB en woofer (ON/OFF)",
+        value: "RGB en woofer",
         
       },
       { // Conectividad
@@ -4413,7 +4530,7 @@ export const products = [
       },
       { // Entradas
         id: 8,
-        value: "Auxiliar, Micrófono x2",
+        value: "Micrófono x2, Auxiliar",
         
       },
       { // Display
@@ -4443,7 +4560,7 @@ export const products = [
       },
       { // EAN
         id: 19,
-        value: "7798111354398",
+        value: "7798111354402",
         
       },
     ],
@@ -4474,9 +4591,11 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
       },
       {
         id: 9,
@@ -4514,16 +4633,20 @@ export const products = [
       { // Regulador de Volumen de Mic 
         id: 28,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Reguladores graves agudos
+        id: 22,
       },
       { // Efectos de Luz
         id: 6,
       },
-      { // Batería Recargable
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
+      },
+      /* { // Batería Recargable
         id: 7,
         value: 'Litio 3,7v / 3600mAh'
-      },
+      }, */
       { // Duracion Batería
         id: 8,
         value: '8 horas (según su uso)'
@@ -4563,7 +4686,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "RGB en woofer (ON/OFF)",
+        value: "RGB en woofer",
         
       },
       { // Conectividad
@@ -4583,7 +4706,7 @@ export const products = [
       },
       { // Entradas
         id: 8,
-        value: "Auxiliar, Micrófono x2",
+        value: "Micrófono x2, Auxiliar",
         
       },
       { // Display
@@ -4613,7 +4736,7 @@ export const products = [
       },
       { // EAN
         id: 19,
-        value: "7798111354398",
+        value: "7798111354411",
         
       },
     ],
@@ -4646,6 +4769,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 1,
@@ -4798,6 +4922,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -4957,6 +5082,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
@@ -5111,6 +5237,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
@@ -5266,17 +5393,26 @@ export const products = [
       '/products/AW-T506R/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
         customImg: fileserver + '/banners/horizontal506.webp'
       },
       {
+        id: 15,
+        customTitle: 'Conectividad sin límites',
+        customDesc: '¡Cuántas formas de reproducir música! Posee Bluetooth, Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.',
+        customImg: fileserver + '/banners/panel506.webp'
+      },
+      {
         id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
       },
       {
         id: 12,
+        customImg: fileserver + '/banners/perillas506nopb.webp'
       },
     ],
     shortDesc: 'Más versatilidad',
@@ -5300,15 +5436,17 @@ export const products = [
       },
       { // Efectos luz
         id: 6,
+        value: 5, // Cantidad de efectos
       },
-      { // Reg Eco y Vol Mic
-        id: 28,
+      { // TF
+        id: 26,
       },
-      { // Doble Entrada Mic 
-        id: 27,
+      { // USB
+        id: 33,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
       },
       { // Uso Horizontal
         id: 32,
@@ -5343,7 +5481,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+        value: "En Panel Superior y alrededor del Woofer",
       },
       { // Conectividad
         id: 9,
@@ -5385,6 +5523,10 @@ export const products = [
         id: 19,
         value: "7798111353988",
       },
+      { // USO
+        id: 21,
+        value: "Horizontal y vertical",
+      },
     ],
     includes: [
       2, // Mic cable
@@ -5395,151 +5537,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/18tQIPtI8gXQqVhDkp2vT8Lxb00Cqz9t9',
-    variants: ['AW-T506R-PB']
-  },
-  {// AW-T506R-PB
-    name: 'Torre de Sonido Bluetooth Infinit 6500W',
-    sku: 'AW-T506R-PB',
-    link: '/productos/AW-T506R-PB',
-    line: 'infinit',
-    categories: [102], 
-    imgs: [
-      '/products/AW-T506R-PB/img/1.webp',
-      '/products/AW-T506R-PB/img/2.webp',
-      '/products/AW-T506R-PB/img/3.webp',
-      '/products/AW-T506R-PB/img/4.webp',
-      '/products/AW-T506R-PB/img/5.webp',
-      '/products/AW-T506R-PB/img/6.webp',
-    ].map(e => fileserver + e),
-    top: true,
-    360: true,
-    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
-      {
-        id: 11,
-        customImg: fileserver + '/banners/horizontal506.webp'
-      },
-      {
-        id: 8,
-      },
-      {
-        id: 12,
-      },
-    ],
-    shortDesc: 'Más versatilidad',
-    longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
-    videos: [],
-    featuredFeatures: [
-      { // Potencia
-        id: 2,
-        value: '6500W PMPO'
-      },
-      { // Woofer
-        id: 3,
-        value: '2 de 6,5"'
-      },
-      { // Bluetooth
-        id: 12,
-      },
-      { // TWS
-        id: 11,
-      },
-      { // Efectos luz
-        id: 6,
-      },
-      { // Reg Eco y Vol Mic
-        id: 28,
-      },
-      { // Doble Entrada Mic 
-        id: 27,
-      },
-      { // Entrada Auxiliar
-        id: 17,
-      },
-      { // Uso Horizontal
-        id: 32,
-      },
-      { // Duracion Batería
-        id: 8,
-        value: '8 horas (según su uso)'
-      },
-      { // Reg Graves y Agudos
-        id: 22,
-      },
-      { // Power Bank
-        id: 13,
-      }
-    ],
-    features: [
-      { // Woofers
-        id: 3,
-        value: `2 de 6,5"`,
-      },
-      { // Tweeters
-        id: 4,
-        value: `1 de 2"`,
-      },
-      { // Potencia
-        id: 2,
-        value: "6500W PMPO",
-      },
-      { // Batería
-        id: 10,
-        value: "Interna Recargable 7.4V / 3600mAh",
-      },
-      { // Luces
-        id: 12,
-        value: "En Panel Superior y alrededor del Woofer ON / OFF",
-      },
-      { // Conectividad
-        id: 9,
-        value: "Bluetooth 5.0",
-      },
-      { // Funciones
-        id: 13,
-        value: "TWS, Power Bank",
-      },
-      { // Reguladores
-        id: 5,
-        value: "Graves, Agudos, Eco y Volumen de Micrófono",
-      },
-      { // Entradas
-        id: 8,
-        value: "Auxiliar, Micrófono x2",
-      },
-      { // Display
-        id: 6,
-        value: "Si",
-      },
-      { // Otras características
-        id: 15,
-        value: "Empuñadura de Transporte",
-      },
-      { // Medidas del producto
-        id: 16,
-        value: "25 x 59 x 23 cm",
-      },
-      { // Medidas de la caja
-        id: 17,
-        value: "30 x 64 x 28 cm",
-      },
-      { // Peso
-        id: 18,
-        value: "4,2 Kg",
-      },
-      { // EAN
-        id: 19,
-        value: "7798111354350",
-      },
-    ],
-    includes: [
-      3, // Aux
-      5, // Fuente
-      9, // Manual
-    ],
-    certNo: '00Q-AR-01223-T-1',
-    downloads: 'https://drive.google.com/drive/folders/188BCWXjwtJWRqXjNcz4YEuZVjhnEjcsA',
-    variants: []
+    variants: ['AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T265SF
     name: 'Torre de Sonido Bluetooth Infinit 6500W',
@@ -5557,6 +5555,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: false,
+    gen: "2º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -5684,7 +5683,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/19TuPLjfUNqNVzcWsP9bttgJ3SEH1lXEr',
-    variants: ['AW-T506R-PB']
+    variants: ['AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T265SF-SA
     name: 'Torre de Sonido Bluetooth Infinit 6500W',
@@ -5702,6 +5701,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: false,
+    gen: "3º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -5832,7 +5832,152 @@ export const products = [
     downloads: 'https://drive.google.com/drive/folders/1aaXePdKCLlh-Qr1eLbemZO1lAyDNoG50',
     variants: ['AW-T506R-PB']
   },
-
+  {// AW-T506R-PB
+    name: 'Torre de Sonido Bluetooth Infinit 6500W',
+    sku: 'AW-T506R-PB',
+    link: '/productos/AW-T506R-PB',
+    line: 'infinit',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T506R-PB/img/1.webp',
+      '/products/AW-T506R-PB/img/2.webp',
+      '/products/AW-T506R-PB/img/3.webp',
+      '/products/AW-T506R-PB/img/4.webp',
+      '/products/AW-T506R-PB/img/5.webp',
+      '/products/AW-T506R-PB/img/6.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    360: true,
+    gen: "4º Generación",
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal506.webp'
+      },
+      {
+        id: 8,
+      },
+      {
+        id: 12,
+      },
+    ],
+    shortDesc: 'Más versatilidad',
+    longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 6,5"'
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Eco y Vol Mic
+        id: 28,
+      },
+      { // Doble Entrada Mic 
+        id: 27,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Uso Horizontal
+        id: 32,
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '8 horas (según su uso)'
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      },
+      { // Power Bank
+        id: 13,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "6500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Luces
+        id: 12,
+        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+      },
+      { // Conectividad
+        id: 9,
+        value: "Bluetooth 5.0",
+      },
+      { // Funciones
+        id: 13,
+        value: "TWS, Power Bank",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Eco y Volumen de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Auxiliar, Micrófono x2",
+      },
+      { // Display
+        id: 6,
+        value: "Si",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "25 x 59 x 23 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "30 x 64 x 28 cm",
+      },
+      { // Peso
+        id: 18,
+        value: "4,2 Kg",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354350",
+      },
+    ],
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/188BCWXjwtJWRqXjNcz4YEuZVjhnEjcsA',
+    variants: []
+  },
+  
   /////////////// LINEA FLAMA ////////////////
 
   {// AW-T604F
@@ -5850,6 +5995,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: true,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
@@ -5987,6 +6133,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: false,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       { id: 1 },  
       { id: 13 },
@@ -6138,6 +6285,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: false,
+    gen: "2º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 13,
@@ -6287,6 +6435,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "3º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 13,
@@ -6437,6 +6586,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: false,
+    gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       { 
         id: 1,
@@ -6588,6 +6738,7 @@ export const products = [
     ].map(e => fileserver + e),
     top: true,
     360: true,
+    gen: "2º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       { 
         id: 1,

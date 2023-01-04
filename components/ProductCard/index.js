@@ -2,7 +2,7 @@ import { products } from '../../content/products'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function ProductCard({sku, showName, showSku, showDesc, showButton}){
+export default function ProductCard({sku, showName, showSku, showDesc, showButton, showGen}){
   const product = products.find(e => e.sku == sku)
   return (
     <div className='product-card'>
@@ -15,6 +15,7 @@ export default function ProductCard({sku, showName, showSku, showDesc, showButto
             {showSku && <p className='p-sku'>{product.sku}</p>}
             {showName && <p className='p-name'>{product.name}</p>}
             {showDesc && <p className='p-desc'><small>{product.shortDesc}</small></p>}
+            {showGen && <p className='p-desc'><small>{product.gen}</small></p>}
           </div>
           {showButton && <button><Link href={product.link}><a>Ver más</a></Link></button>}
         </a>

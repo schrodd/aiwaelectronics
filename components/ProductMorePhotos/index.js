@@ -12,8 +12,8 @@ export default function ProductMorePhotos({sku, shortDesc, arr, fs, setFs}){
   return (
     <div className='product-more-photos'>
       <div className='text'>
-        <p className='sku'>{sku}</p>
-        <h1>{shortDesc}</h1>
+        
+        {!fs && <><p className='sku'>{sku}</p><h1>{shortDesc}</h1></>}
       </div>
       <Swiper
           tag='div'
