@@ -15,6 +15,7 @@ import mic from '../public/svg/mic.svg'
 import micreg from '../public/svg/micreg.svg'
 import phone from '../public/svg/phone.svg'
 import plug from '../public/svg/plug.svg'
+import pluma from '../public/svg/pluma.svg'
 import potencia from '../public/svg/potencia.svg'
 import powerbank from '../public/svg/powerbank.svg'
 import radio from '../public/svg/radio.svg'
@@ -180,6 +181,9 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   { id: 29, name: 'Mobile Holder', icon: phone,
     desc: 'Posee ranura para colocar tu dispositivo mientras escuchás música.'
   },
+  {id: 39, name: 'Liviano', icon: pluma,
+  desc: 'Ni notarás que lo estás sosteniendo. ¡Llevalo a donde sea!'
+  }
 ]
 
 export default featuredFeatures

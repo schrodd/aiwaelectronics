@@ -2119,15 +2119,18 @@ export const products = [
       '/products/AW-T451D/img/3.webp',
       '/products/AW-T451D/img/4.webp',
       '/products/AW-T451D/img/5.webp',
-      '/products/AW-T451D/img/6.webp',
-      '/products/AW-T451D/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
     gen: "1º Generación",
     banners: [
       {
+        id: 15,
+        customImg: fileserver + '/banners/panel451.webp'
+      },
+      {
         id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
         // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
       },
       {
@@ -2137,6 +2140,9 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil451.webp'
+      },
+      {
+        id: 18,
       },
       {
         id: 17
@@ -2183,15 +2189,15 @@ export const products = [
       { // Mobile Holder
         id: 29,
       },
-      { // Empuñadura transp.
-        id: 30,
+      { // Radio.
+        id: 25,
       },
       { // Batería
         id: 7,
         value: "3.7V / 1800mAh"
       },
-      { // Display
-        id: 5
+      { // USB + TF
+        id: 37
       }
     ],
     features: [
@@ -2250,14 +2256,14 @@ export const products = [
         value: "Si, con cable",
         
       },
-      { // Display
-        id: 6,
+      { // Radio FM
+        id: 20,
         value: "Si",
         
       },
       { // Otras características
         id: 15,
-        value: "Empuñadura de Transporte",
+        value: "Empuñadura de Transporte, Mobile Holder",
         
       },
       { // Medidas del producto
@@ -2299,20 +2305,20 @@ export const products = [
     line: 'party',
     categories: [110], 
     imgs: [
-      '/products/AW-T451D/img/1.webp',
-      '/products/AW-T451D/img/2.webp',
-      '/products/AW-T451D/img/3.webp',
-      '/products/AW-T451D/img/4.webp',
-      '/products/AW-T451D/img/5.webp',
-      '/products/AW-T451D/img/6.webp',
-      '/products/AW-T451D/img/7.webp',
-      '/products/AW-T451D/img/8.webp',
-      '/products/AW-T451D/img/9.webp',
+      '/products/AW-T451D-SA/img/1.webp',
+      '/products/AW-T451D-SA/img/2.webp',
+      '/products/AW-T451D-SA/img/3.webp',
+      '/products/AW-T451D-SA/img/4.webp',
+      '/products/AW-T451D-SA/img/5.webp',
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
     gen: "2º Generación",
     banners: [
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel451.webp'
+      },
       {
         id: 1,
         customImg: fileserver + '/banners/microfonocable.webp',
@@ -2366,15 +2372,15 @@ export const products = [
       { // Mobile Holder
         id: 29,
       },
-      { // Empuñadura transp.
-        id: 30,
+      { // Radio.
+        id: 25,
       },
       { // Batería
         id: 7,
         value: "3.7V / 1800mAh"
       },
-      { // Display
-        id: 5
+      { // USB + TF
+        id: 37
       }
     ],
     features: [
@@ -2433,14 +2439,14 @@ export const products = [
         value: "No",
         
       },
-      { // Display
-        id: 6,
+      { // Radio
+        id: 20,
         value: "Si",
         
       },
       { // Otras características
         id: 15,
-        value: "Empuñadura de Transporte",
+        value: "Empuñadura de Transporte, Mobile Holder",
         
       },
       { // Medidas del producto
@@ -2471,7 +2477,7 @@ export const products = [
     ],
     certNo: '',
     downloads: 'https://drive.google.com/drive/folders/1-mGYda-uVaWyDputWWobMvJxvFIX-1Hs',
-    variants: ['AW-T451D-SN']
+    variants: ['AW-T451D', 'AW-T451D-SN']
   },
   {// AW-T451D-SN
     name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
@@ -4766,6 +4772,7 @@ export const products = [
       '/products/AW-T2021/img/5.webp',
       '/products/AW-T2021/img/6.webp',
       '/products/AW-T2021/img/7.webp',
+      '/products/AW-T2021/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
@@ -4773,10 +4780,14 @@ export const products = [
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 1,
+        customImg: fileserver + '/banners/doblemic.webp',
         customTitle: 'Micrófono inalámbrico incluido',
       },
       {id: 3},
-      {id: 10},
+      {
+        id: 10,
+        customImg: fileserver + '/banners/panel2021.webp',
+      },
       {id: 4},
     ],
     shortDesc: 'Ecualizador preciso',
@@ -4790,7 +4801,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: '2 de 8"'
+        value: '2 de 8" y 1 Tweeter de 2"'
       },
       { // TWS
         id: 11,
@@ -4804,14 +4815,14 @@ export const products = [
       { // Mega Bass
         id: 31,
       },
-      { // Entrada Mic 
-        id: 16,
-      },
-      { // Entrada Auxiliar
+      { // Entrada Aux
         id: 17,
       },
-      { // Entrada Guitarra
-        id: 15,
+      { // Micrófono Inalámbrico
+        id: 14,
+      },
+      { // Entrada Guitarra y Mic
+        id: 21,
       },
       { // Batería Recargable
         id: 7,
@@ -4848,7 +4859,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+        value: "En Panel Superior y alrededor del Woofer",
       },
       { // Conectividad
         id: 9,
@@ -4897,6 +4908,7 @@ export const products = [
     ],
     includes: [
       1, // Mic Inalam
+      3, // Cable Aux
       12, // Cable
       9, // Manual de usuario
     ],
@@ -4967,8 +4979,9 @@ export const products = [
       { // Entrada Mic y Guitarra
         id: 21,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Tweeter
+        id: 35,
+        value: '2 de 2"'
       },
       { // Uso Horizontal
         id: 32,
@@ -4992,7 +5005,7 @@ export const products = [
       },
       { // Tweeters
         id: 4,
-        value: `1 de 2"`,
+        value: `2 de 2"`,
       },
       { // Potencia
         id: 2,
@@ -5008,7 +5021,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+        value: "En Panel Superior y alrededor del Woofer",
       },
       { // Conectividad
         id: 9,
@@ -5057,6 +5070,7 @@ export const products = [
     ],
     includes: [
       11, // Correa
+      3, // Cable Aux
       5, // Fuente
       9, // Manual de usuario
     ],
@@ -5086,6 +5100,7 @@ export const products = [
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp',
       },
       {
         id: 3,
@@ -5127,8 +5142,9 @@ export const products = [
       { // Doble Entrada Mic 
         id: 27,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
       },
       { // Batería Recargable
         id: 7,
@@ -5181,7 +5197,7 @@ export const products = [
       },
       { // Entradas
         id: 8,
-        value: "Auxiliar, Micrófono x2",
+        value: "Micrófono x2, Auxiliar",
       },
       { // Display
         id: 6,
@@ -5234,6 +5250,8 @@ export const products = [
       '/products/AW-T2050R/img/4.webp',
       '/products/AW-T2050R/img/5.webp',
       '/products/AW-T2050R/img/6.webp',
+      '/products/AW-T2050R/img/7.webp',
+      '/products/AW-T2050R/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
@@ -5241,6 +5259,7 @@ export const products = [
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp',
       },
       {
         id: 3,
@@ -5258,7 +5277,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: '8000W PMPO'
+        value: '7000W PMPO'
       },
       { // Woofer
         id: 3,
@@ -5282,8 +5301,9 @@ export const products = [
       { // Doble Entrada Mic 
         id: 27,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
       },
       { // Batería Recargable
         id: 7,
@@ -5316,11 +5336,11 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "Hasta 6 horas (según su uso)",
+        value: "Hasta 8 horas (según su uso)",
       },
       { // Luces
         id: 12,
-        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+        value: "En Panel Superior y alrededor del Woofer",
       },
       { // Conectividad
         id: 9,
@@ -5414,6 +5434,9 @@ export const products = [
         id: 12,
         customImg: fileserver + '/banners/perillas506nopb.webp'
       },
+      {
+        id: 18,
+      }
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
@@ -5552,6 +5575,8 @@ export const products = [
       '/products/AW-T265SF/img/4.webp',
       '/products/AW-T265SF/img/5.webp',
       '/products/AW-T265SF/img/6.webp',
+      '/products/AW-T265SF/img/7.webp',
+      '/products/AW-T265SF/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: false,
@@ -5563,6 +5588,7 @@ export const products = [
       },
       {
         id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
       },
       {
         id: 12,
@@ -5589,6 +5615,7 @@ export const products = [
       },
       { // Efectos luz
         id: 6,
+        value: 5
       },
       { // Reg Eco y Vol Mic
         id: 28,
@@ -5599,8 +5626,9 @@ export const products = [
       { // Doble Entrada Mic 
         id: 27,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
       },
       { // Uso Horizontal
         id: 32,
@@ -5631,7 +5659,11 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+        value: "En Panel Superior y alrededor del Woofer",
+      },
+      { // Uso
+        id: 21,
+        value: "Horizontal y vertical"
       },
       { // Conectividad
         id: 9,
@@ -5647,11 +5679,11 @@ export const products = [
       },
       { // Entradas
         id: 8,
-        value: "Auxiliar, USB, Micro SD, Micrófono x2",
+        value: "Micrófono x2, Auxiliar, USB, Micro SD",
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Radio
+        id: 20,
+        value: "No posee",
       },
       { // Otras características
         id: 15,
@@ -5698,6 +5730,8 @@ export const products = [
       '/products/AW-T265SF-SA/img/4.webp',
       '/products/AW-T265SF-SA/img/5.webp',
       '/products/AW-T265SF-SA/img/6.webp',
+      '/products/AW-T265SF-SA/img/7.webp',
+      '/products/AW-T265SF-SA/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: false,
@@ -5709,6 +5743,7 @@ export const products = [
       },
       {
         id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
       },
       {
         id: 12,
@@ -5738,6 +5773,7 @@ export const products = [
       },
       { // Efectos luz
         id: 6,
+        value: 5
       },
       { // Reg Eco y Vol Mic
         id: 28,
@@ -5748,8 +5784,9 @@ export const products = [
       { // Doble Entrada Mic 
         id: 27,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
       },
       { // Uso Horizontal
         id: 32,
@@ -5780,7 +5817,11 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+        value: "En Panel Superior y alrededor del Woofer",
+      },
+      { // Uso
+        id: 21,
+        value: "Horizontal y vertical"
       },
       { // Conectividad
         id: 9,
@@ -5796,11 +5837,11 @@ export const products = [
       },
       { // Entradas
         id: 8,
-        value: "Auxiliar, USB, Micro SD, Micrófono x2",
+        value: "Micrófono x2, Auxiliar, USB, Micro SD",
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Radio
+        id: 20,
+        value: "No posee",
       },
       { // Otras características
         id: 15,
@@ -5820,7 +5861,7 @@ export const products = [
       },
       { // EAN
         id: 19,
-        value: "7798111354350",
+        value: "7798111354121",
       },
     ],
     includes: [
@@ -5845,6 +5886,9 @@ export const products = [
       '/products/AW-T506R-PB/img/4.webp',
       '/products/AW-T506R-PB/img/5.webp',
       '/products/AW-T506R-PB/img/6.webp',
+      '/products/AW-T506R-PB/img/7.webp',
+      '/products/AW-T506R-PB/img/8.webp',
+      '/products/AW-T506R-PB/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
@@ -5856,6 +5900,7 @@ export const products = [
       },
       {
         id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
       },
       {
         id: 12,
@@ -5882,6 +5927,7 @@ export const products = [
       },
       { // Efectos luz
         id: 6,
+        value: 5
       },
       { // Reg Eco y Vol Mic
         id: 28,
@@ -5889,8 +5935,9 @@ export const products = [
       { // Doble Entrada Mic 
         id: 27,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
       },
       { // Uso Horizontal
         id: 32,
@@ -5925,7 +5972,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+        value: "En Panel Superior y alrededor del Woofer",
       },
       { // Conectividad
         id: 9,
@@ -5941,7 +5988,7 @@ export const products = [
       },
       { // Entradas
         id: 8,
-        value: "Auxiliar, Micrófono x2",
+        value: "Micrófono x2, Auxiliar",
       },
       { // Display
         id: 6,
@@ -5967,6 +6014,10 @@ export const products = [
         id: 19,
         value: "7798111354350",
       },
+      { // Uso
+        id: 21,
+        value: "Horizontal y vertical"
+      }
     ],
     includes: [
       3, // Aux
@@ -6029,8 +6080,9 @@ export const products = [
       { // Entrada Mic 
         id: 16,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Tweeter
+        id: 35,
+        value: '1 de 1"'
       },
       { // Batería Recargable
         id: 7,
@@ -6038,6 +6090,18 @@ export const products = [
       },
       { // Reg Graves y Agudos
         id: 28,
+      },
+      { // Uso vertical y hor.
+        id: 32,
+      },
+      { // Empuñadura
+        id: 30,
+      },
+      { // Liviano
+        id: 39,
+      },
+      { // Efectos de luces
+        id: 6
       }
     ],
     features: [
@@ -6105,6 +6169,10 @@ export const products = [
         id: 22,
         value: "100-240V~ / 50-60Hz / 40W / Clase II",
       },
+      { // Uso
+        id: 21,
+        value: "Horizontal y vertical"
+      }
     ],
     includes: [
       3, // Aux

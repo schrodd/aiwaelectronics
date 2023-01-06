@@ -104,6 +104,12 @@ const banners = [
     desc: 'Podés usar el cable incluido para cargar el parlante, o el cargador de tu celular (puerto tipo MicroUSB).',
     img: fileserver + '/banners/carga451sn.webp'
   },
+  {
+    id: 18,
+    title: `Accesorios incluidos`,
+    desc: '¡Armá tu Karaoke! Incluye micrófono con cable, y control remoto para que puedas gestionar tu música a distancia.',
+    img: fileserver + '/banners/micycontrol.webp'
+  },
 ]
 
 export default banners

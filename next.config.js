@@ -24,5 +24,6 @@ module.exports = {
   swcMinify: true,
   images: {
     domains: ['aiwaelectronics.com.ar', 'www.aiwaelectronics.com.ar'],
+    unoptimized: true
   }
 };
