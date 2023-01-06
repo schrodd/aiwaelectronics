@@ -22,14 +22,14 @@ export default function CategoryBanner(){
         {lvTwoCat.filter(e => e.hidden == false).map((e,i) => (
           <SwiperSlide key={i} className='category-banner-slide'>
             <Link href={e.route}>
-              <a>
-                <Image width='387px' height='237px' src={e.cover} alt={e.name}/>
-                <h3>{e.name}</h3>
-              </a>
+              <div className="image-wrapper">
+                <Image fill src={e.cover} alt={e.name}/>  
+              </div>
+              <h3>{e.name}</h3>
             </Link>
           </SwiperSlide>
         ))}
       </Swiper>
     </section>
-  )
+  );
 }

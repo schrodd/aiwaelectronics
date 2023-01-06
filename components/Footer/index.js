@@ -27,77 +27,75 @@ export default function Footer(){
     })
   }, [])
 
-  return (
-    <>
-      <footer>
-        <div className='wrapper'>
-          <div className='footer-section'>
-            <h3>NUESTROS PRODUCTOS</h3>
-            <ul className='lv-one'>
-              {lvOneCat.map((e,i) => (
-                <li key={i}>
-                  <button onClick={() => toggleMenu(e.id) }>{e.name}</button>
-                  <ul className={`lv-two id${e.id}`}>
-                    {lvTwoCat.filter(f => f.parent == e.id).map((g,i) => (
-                      <li key={i}>
-                        <Link href={g.route}><a>{g.name}</a></Link>
-                      </li>
-                    ))}
-                  </ul>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div className='footer-section'>
-            <h3>SOPORTE</h3>
-            <ul>
-              <li>
-                <Link href='/terminos-y-condiciones'>
-                  <a>Términos y condiciones</a>
-                </Link>
+  return <>
+    <footer>
+      <div className='wrapper'>
+        <div className='footer-section'>
+          <h3>NUESTROS PRODUCTOS</h3>
+          <ul className='lv-one'>
+            {lvOneCat.map((e,i) => (
+              <li key={i}>
+                <button onClick={() => toggleMenu(e.id) }>{e.name}</button>
+                <ul className={`lv-two id${e.id}`}>
+                  {lvTwoCat.filter(f => f.parent == e.id).map((g,i) => (
+                    <li key={i}>
+                      <Link href={g.route}>{g.name}</Link>
+                    </li>
+                  ))}
+                </ul>
               </li>
-              <li>
-                <Link href='/activacion-windows'>
-                  <a>Activación Windows</a>
-                </Link>
-              </li>
-              <li>
-                <Link href='/preguntas-frecuentes'>
-                  <a>Preguntas frecuentes</a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className='footer-section'>
-            <h3>SOBRE NOSOTROS</h3>
-            <ul>
-              <li>
-                <Link href='/quienes-somos'>
-                  <a>Quiénes somos</a>
-                </Link>
-              </li>
-              <li>
-                <Link href='/contacto'>
-                  <a>Contacto</a>
-                </Link>
-              </li>
-            </ul>
-          </div>
-          <div className='social'>
-            <Link href='/'>
-              <a><Image width='200px' height='80px' src='/aiwa-w.svg' alt='Aiwa logo'/></a>
-            </Link>
-            <SocialContainer />
-            {showButton && (
-              <button onClick={() => scrollToTop()}>
-                <KeyboardArrowUpIcon />
-                Volver arriba
-              </button>
-            )}
-          </div>
+            ))}
+          </ul>
         </div>
-    </footer>
-    <div className='copyright'>{`Aiwa Electronics ${year} | Todos los derechos reservados`}</div>
-  </>
-  )
+        <div className='footer-section'>
+          <h3>SOPORTE</h3>
+          <ul>
+            <li>
+              <Link href='/terminos-y-condiciones'>
+                Términos y condiciones
+              </Link>
+            </li>
+            <li>
+              <Link href='/activacion-windows'>
+                Activación Windows
+              </Link>
+            </li>
+            <li>
+              <Link href='/preguntas-frecuentes'>
+                Preguntas frecuentes
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className='footer-section'>
+          <h3>SOBRE NOSOTROS</h3>
+          <ul>
+            <li>
+              <Link href='/quienes-somos'>
+                Quiénes somos
+              </Link>
+            </li>
+            <li>
+              <Link href='/contacto'>
+                Contacto
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className='social'>
+          <Link href='/'>
+            <Image width='200' height='80' src='/aiwa-w.svg' alt='Aiwa logo'/>
+          </Link>
+          <SocialContainer />
+          {showButton && (
+            <button onClick={() => scrollToTop()}>
+              <KeyboardArrowUpIcon />
+              Volver arriba
+            </button>
+          )}
+        </div>
+      </div>
+  </footer>
+  <div className='copyright'>{`Aiwa Electronics ${year} | Todos los derechos reservados`}</div>
+</>;
 }

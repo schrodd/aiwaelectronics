@@ -7,19 +7,19 @@ export default function ProductCard({sku, showName, showSku, showDesc, showButto
   return (
     <div className='product-card'>
       <Link href={product.link}>
-        <a>
-          <div className='image'>
-            <Image width='150px' height='150px' layout='fixed' src={product.imgs[0]} alt={product.name} placeholder='blur' blurDataURL='/ph.png' priority/>
-          </div>
-          <div className='texts'>
-            {showSku && <p className='p-sku'>{product.sku}</p>}
-            {showName && <p className='p-name'>{product.name}</p>}
-            {showDesc && <p className='p-desc'><small>{product.shortDesc}</small></p>}
-            {showGen && <p className='p-desc'><small>{product.gen}</small></p>}
-          </div>
-          {showButton && <button><Link href={product.link}><a>Ver más</a></Link></button>}
-        </a>
+
+        <div className='image'>
+          <Image width='150' height='150' layout='fixed' src={product.imgs[0]} alt={product.name} placeholder='blur' blurDataURL='/ph.png' priority/>
+        </div>
+        <div className='texts'>
+          {showSku && <p className='p-sku'>{product.sku}</p>}
+          {showName && <p className='p-name'>{product.name}</p>}
+          {showDesc && <p className='p-desc'><small>{product.shortDesc}</small></p>}
+          {showGen && <p className='p-desc'><small>{product.gen}</small></p>}
+        </div>
+        {showButton && <button><Link href={product.link}>Ver más</Link></button>}
+
       </Link>
     </div>
-  )
+  );
 }

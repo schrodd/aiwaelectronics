@@ -63,6 +63,14 @@ section.category-banner {
   .category-banner-slide{
     padding: 0 25px;
     @include hoverScale(1.05);
+    .image-wrapper{
+      height: 170px;
+      width: 277px;
+      position: relative;
+      img {
+        object-fit: contain;
+      }
+    }
     h3 {
       font-family: DINPRO;
       margin-top: 10px;
@@ -71,5 +79,6 @@ section.category-banner {
         font-size: 25px;
       }
     }
+    
   }
 }

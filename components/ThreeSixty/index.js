@@ -16,8 +16,8 @@ export default function ThreeSixty({sku, top, shortDesc, fs, setFs}){ // sku (st
   const [highlightOpen, setHighlightOpen] = useState(false)
 
  /*  const imageSize = {
-    width: isFs ? '800px' : '460px',
-    height: isFs ? '800px' : '460px',
+    width: isFs ? '800' : '460',
+    height: isFs ? '800' : '460',
   } */
 
   // Constants
@@ -128,7 +128,7 @@ export default function ThreeSixty({sku, top, shortDesc, fs, setFs}){ // sku (st
             </div>
             {arr.map((e,i) => (
               <div key={i} className={`not-draggable d-none ${i == idx-1 && 'd-block'} ${highlightOpen && 'not-visible'}`} style={{position:'absolute'}}>
-                <Image src={e} alt='360-image' width='750px' height='750px' priority/>
+                <Image src={e} alt='360-image' fill priority/>
               </div>
             ))}
           </div>
@@ -139,7 +139,7 @@ export default function ThreeSixty({sku, top, shortDesc, fs, setFs}){ // sku (st
         initialPositionY={0}>
           <TransformComponent>
             <img className='zoom-icon' src='/components/threeSixty/zoom-icon.svg' alt='zoom-icon'/>
-            <Image src={`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${idx}-hq.webp`} className='not-draggable zoomed'alt='360-image-zoomed' width='750px' height='750px' unoptimized priority/>
+            <Image src={`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${idx}-hq.webp`} className='not-draggable zoomed'alt='360-image-zoomed' fill unoptimized priority/>
           </TransformComponent>
         </TransformWrapper>)}
       <div className='controls'>

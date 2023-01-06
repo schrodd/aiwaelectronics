@@ -25,7 +25,7 @@ export default function Nav() {
       </div>
       <nav>
         <Link href='/'>
-            <a><img id='main-logo' src='/aiwa-w.svg' alt='Aiwa logo'/></a>
+            <img id='main-logo' src='/aiwa-w.svg' alt='Aiwa logo'/>
         </Link>
         <ul className='pc-only'>
           {menus.map((e,i) => <NavItem menu={e} key={i} activeTab={activeTab} setActive={setActiveTab}/>)}
@@ -38,5 +38,5 @@ export default function Nav() {
         <button className='mobile-only' onClick={handleBurger}><MenuIcon fontSize="large"/></button>
       </nav>
     </header>
-  )
+  );
 }

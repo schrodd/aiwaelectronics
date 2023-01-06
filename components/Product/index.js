@@ -8,7 +8,7 @@ export default function Product({product, index}){
   return (
     <div className={classes}>
       <figure className='image'>
-        <Image width='500px' height='500px' src={product.imgs[0]} alt={product.name} placeholder='blur' blurDataURL='/ph.png' priority/>
+        <Image width='500' height='500' src={product.imgs[0]} alt={product.name} placeholder='blur' blurDataURL='/ph.png' priority/>
       </figure>
       <div className='text'>
         <div className='line-image-wrapper'>
@@ -18,10 +18,10 @@ export default function Product({product, index}){
         <p className='sku'>{product.sku}</p>
         <h3>{product.shortDesc}</h3>
         <h4>{product.longDesc}</h4>
-        <Link href={product.link}>
+        <Link href={product.link} legacyBehavior>
           <button>Ver más</button>
         </Link>
       </div>
     </div>
-  )
+  );
 }

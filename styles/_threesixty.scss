@@ -1,6 +1,6 @@
 @import "variables";
 
-div#threeSixtyContainer {
+div#threeSixtyContainer { 
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -41,10 +41,19 @@ div#threeSixtyContainer {
     &[fullscreen='true']{
       height: 750px;
       width: 750px;
+      &>div {
+        height: 750px;
+        width: 750px;
+        position: relative;
+      }
+    }
+    &>div {
+      height: 460px;
+      width: 460px;
+      position: relative;
     }
     img {
-      height: 400px;
-      position: relative;
+      object-fit: contain;
       // z-index: 5;
       @include mobile {
         max-height: 100vw;
@@ -58,9 +67,11 @@ div#threeSixtyContainer {
   .react-transform-wrapper {
     border-radius: 2px;
     .react-transform-component {
-      min-height: 400px;
+      height: 460px;
+      width: 460px;
       align-items: center;
       justify-content: center;
+      position: relative;
       img.zoom-icon {
         opacity: 0;
         max-width: 100px;
@@ -69,7 +80,7 @@ div#threeSixtyContainer {
         z-index: 10;
       }
       img {
-        height: 400px;
+        object-fit: contain;
       }
     }
   }

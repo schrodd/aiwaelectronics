@@ -81,7 +81,9 @@ export default function ProductContent({prod}) {
               <p className='description'>{prod.longDesc}</p>
             </div>
           </div>
-          <Image className='cover' src={`/products/${prod.sku}/cover.webp`} width='550' height='463' alt='product-cover' priority/>
+          <div className='cover-wrapper'>
+            <Image className='cover' src={`/products/${prod.sku}/cover.webp`} fill alt='product-cover' priority/>
+          </div>
         </div>
         )}
         {mode == 1 && (

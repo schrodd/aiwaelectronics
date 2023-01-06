@@ -9,9 +9,9 @@ export default function LineContainer({line, logo, link}){
       </div>
       <button>
         <Link href={link}>
-          <a>Conocelos</a>
+          Conocelos
         </Link>
       </button>
     </div>
-  )
+  );
 }
