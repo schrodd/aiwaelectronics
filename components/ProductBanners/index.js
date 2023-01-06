@@ -1,5 +1,4 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/legacy/image"
 import bannerList from '../../content/banners'
 
 export default function ProductBanners({banners, line}) {
@@ -12,7 +11,7 @@ export default function ProductBanners({banners, line}) {
       {bannersArr.map((e,i) => (
         <div className={`product-banner ${i%2==0 && 'inv'}`} key={i}>
           <div className='img-wrapper'>
-            <Image src={e.customImg ? e.customImg : e.img} alt={e.title} fill priority={e.priority}/>
+            <Image src={e.customImg ? e.customImg : e.img} alt={e.title} width='800' height='350' sizes='100vw' priority={e.priority}/>
           </div>
           <div className='text'>
             <h3>{e.customTitle ? e.customTitle : e.title}</h3>

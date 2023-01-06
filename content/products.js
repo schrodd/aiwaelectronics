@@ -4788,7 +4788,10 @@ export const products = [
         id: 10,
         customImg: fileserver + '/banners/panel2021.webp',
       },
-      {id: 4},
+      {
+        id: 4,
+        customImg: fileserver + '/banners/fiestas2021.webp',
+      },
     ],
     shortDesc: 'Ecualizador preciso',
     longDesc: "Efectos de luces en forma de anillos Led agregarán un toque fantástico a donde los lleves. Podrás ajustar el sonido a gusto como un verdadero Dj.",
@@ -6050,12 +6053,15 @@ export const products = [
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
-        customImg: fileserver + '/banners/horizontal604.webp'
+        customImg: fileserver + '/banners/horizontal604.webp',
       },
-      {id: 4},
+      {
+        id: 4,
+        customImg: fileserver + '/banners/horizontal604.webp',
+      },
       {
         id: 2,
-        customImg: fileserver + '/banners/tws604.webp'
+        customImg: fileserver + '/banners/tws604.webp',
       },
     ],
     shortDesc: 'Llevate fuego',

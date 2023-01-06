@@ -1,5 +1,5 @@
 
-// Orden alfabético
+// Orden alfabético 
 import battery from '../public/svg/battery.svg'
 import batterybars from '../public/svg/batterybars.svg'
 import bluetooth from '../public/svg/bluetooth.svg'

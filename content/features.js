@@ -1,4 +1,4 @@
-const features = [ // Características de productos
+const features = [ // Características de productos 
   { 
     id: 3, name: 'Woofers',
   },
