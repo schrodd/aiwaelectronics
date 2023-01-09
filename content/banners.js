@@ -99,6 +99,12 @@ const banners = [
     img: fileserver + '/banners/reguladores600sa.webp'
   },
   {
+    id: 21,
+    title: `Reguladores independientes`, // + Guitarra
+    desc: 'Regulá de forma independiente el volumen de tu guitarra, del micrófono y el eco del micrófono.',
+    img: fileserver + '/banners/reg806.webp'
+  },
+  {
     id: 17,
     title: `No te quedes sin batería`,
     desc: 'Podés usar el cable incluido para cargar el parlante, o el cargador de tu celular (puerto tipo MicroUSB).',
@@ -110,6 +116,18 @@ const banners = [
     desc: '¡Armá tu Karaoke! Incluye micrófono con cable, y control remoto para que puedas gestionar tu música a distancia.',
     img: fileserver + '/banners/micycontrol.webp'
   },
+  {
+    id: 19,
+    title: `Entrada para Micrófono`,
+    desc: '¡Armá tu Karaoke! Posee entrada para micrófono, conectá uno ¡y disfrutá cantando toda la noche con tus amigos!.',
+    img: fileserver + '/banners/mic604.webp'
+  },
+  {
+    id: 20,
+    title: `Batería de larga duración`,
+    desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.`,
+    img: fileserver + '/banners/bateria2050.webp'
+  }
 ]
 
 export default banners

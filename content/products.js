@@ -5109,6 +5109,10 @@ export const products = [
         id: 3,
       },
       {
+        id: 20,
+        customImg: fileserver + '/banners/bateria2018.webp',
+      },
+      {
         id: 10,
         customImg: fileserver + '/banners/eq2018.webp',
         customDesc: '¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.'
@@ -5265,6 +5269,9 @@ export const products = [
         customImg: fileserver + '/banners/doblemic2.webp',
       },
       {
+        id: 20,
+      },
+      {
         id: 3,
       },
       {
@@ -5272,6 +5279,7 @@ export const products = [
         customImg: fileserver + '/banners/eq2050.webp',
         customDesc: '¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.'
       },
+
     ],
     shortDesc: 'Fiesta donde vayas',
     longDesc: "Una torre liviana, práctica y portatil, con un sonido potente. Sus deslumbrantes efectos de luces en forma de anillos le darán ese toque mágico a todos tus momentos.",
@@ -6057,8 +6065,13 @@ export const products = [
       },
       {
         id: 4,
-        customImg: fileserver + '/banners/horizontal604.webp',
+        customImg: fileserver + '/banners/fiestas604.webp',
       },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil604.webp',
+      },
+      { id: 19 },
       {
         id: 2,
         customImg: fileserver + '/banners/tws604.webp',
@@ -6206,10 +6219,14 @@ export const products = [
       '/products/AW-T806F/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
     gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
-      { id: 1 },  
+      { 
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        customDesc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. Cambiá canciones usando el control remoto incluido. ¡Que la fiesta no pare!'
+      },  
       { id: 13 },
       {
         id: 9,
@@ -6217,6 +6234,10 @@ export const products = [
         customImg: fileserver + '/banners/efectos806.webp',
         customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.',
         priority: true
+      },
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel806.webp',
       },
       {
         id: 2,
@@ -6248,24 +6269,24 @@ export const products = [
       { // Entrada Mic y Guit
         id: 21,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // USB + SD
+        id: 37,
       },
       { // Batería Recargable
         id: 7,
         value: 'Interna Recargable 7.4V / 3600mAh'
       },
-      { // Reguladores
-        id: 22,
+      { // Reguladores de todo
+        id: 40,
       },
-      { // Reg Eco y Vol
-        id: 28,
+      { // Cuerpo Madera
+        id: 18,
       },
-      { // Memoria SD
-        id: 26,
+      { // Radio
+        id: 25,
       },
-      { // REC
-        id: 34,
+      { // Tweeter
+        id: 35,
       }
     ],
     features: [
@@ -6305,9 +6326,9 @@ export const products = [
         id: 8,
         value: "Guitarra, USB, Micro SD, Auxiliar y Micrófono",
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Cuerpo madera
+        id: 24,
+        value: "Madera",
       },
       { // Otras características
         id: 15,
@@ -6329,6 +6350,10 @@ export const products = [
         id: 19,
         value: "7798111353995",
       },
+      { // Efectos de luces
+        id: 23,
+        value: "De luces x6"
+      }
     ],
     includes: [
       2, // Mic cable
@@ -6355,20 +6380,26 @@ export const products = [
       '/products/AW-T806F-SA/img/5.webp',
       '/products/AW-T806F-SA/img/6.webp',
       '/products/AW-T806F-SA/img/7.webp',
-      '/products/AW-T806F-SA/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
     gen: "2º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 13,
       },
       {
+        id: 15,
+        customImg: fileserver + '/banners/panel806.webp',
+      },
+      {
         id: 9,
         customTitle: 'Elegí como hacer brillar tu fuego',
         customImg: fileserver + '/banners/efectos806.webp',
         customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.'
+      },
+      {
+        id: 21,
       },
       {
         id: 2,
@@ -6400,8 +6431,8 @@ export const products = [
       { // Entrada Mic y Guit
         id: 21,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Radio
+        id: 25,
       },
       { // Batería Recargable
         id: 7,
@@ -6413,11 +6444,11 @@ export const products = [
       { // Reg Eco y Vol
         id: 28,
       },
-      { // Memoria SD
-        id: 26,
+      { // Memoria SD + USB
+        id: 37,
       },
-      { // REC
-        id: 34,
+      { // Tweeter
+        id: 35,
       }
     ],
     features: [
@@ -6437,9 +6468,9 @@ export const products = [
         id: 10,
         value: "Interna Recargable 7.4V / 3600mAh",
       },
-      { // Luces
-        id: 12,
-        value: "En Todo el Panel Frontal",
+      { // Efectos
+        id: 23,
+        value: "De luces x6",
       },
       { // Conectividad
         id: 9,
@@ -6479,8 +6510,12 @@ export const products = [
       },
       { // EAN
         id: 19,
-        value: "7798111353995",
+        value: "7798111354114",
       },
+      {
+        id: 24,
+        value: "Madera"
+      }
     ],
     includes: [
       3, // Aux
@@ -6506,6 +6541,7 @@ export const products = [
       '/products/AW-T806F-PB/img/6.webp',
       '/products/AW-T806F-PB/img/7.webp',
       '/products/AW-T806F-PB/img/8.webp',
+      '/products/AW-T806F-PB/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
@@ -6519,6 +6555,9 @@ export const products = [
         customTitle: 'Elegí como hacer brillar tu fuego',
         customImg: fileserver + '/banners/efectos806.webp',
         customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.'
+      },
+      {
+        id: 21,
       },
       {
         id: 2,
@@ -6544,6 +6583,7 @@ export const products = [
       },
       { // Efectos de luces
         id: 6,
+        value: 6
       },
       { // Bluetooth
         id: 12,
@@ -6567,8 +6607,9 @@ export const products = [
       { // Reg Eco y Vol
         id: 28,
       },
-      { // Memoria SD
-        id: 26,
+      { // Tweeter
+        id: 35,
+        value: '1 de 1"'
       }
     ],
     features: [
@@ -6589,8 +6630,8 @@ export const products = [
         value: "Interna Recargable 7.4V / 3600mAh",
       },
       { // Luces
-        id: 12,
-        value: "En Todo el Panel Frontal",
+        id: 23,
+        value: "De luces x6",
       },
       { // Conectividad
         id: 9,
@@ -6608,9 +6649,9 @@ export const products = [
         id: 8,
         value: "Guitarra, Auxiliar y Micrófono",
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Cuerpo Madera
+        id: 24,
+        value: "Madera",
       },
       { // Otras características
         id: 15,
@@ -6632,6 +6673,10 @@ export const products = [
         id: 19,
         value: "7798111354466",
       },
+      {
+        id: 6,
+        value: 'Si'
+      }
     ],
     includes: [
       3, // Aux

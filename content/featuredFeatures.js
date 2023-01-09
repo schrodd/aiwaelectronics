@@ -83,6 +83,9 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   { id: 23, name: 'Regulador de Eco', icon: micreg,
     desc: 'Controlá a gusto los niveles de Eco del micrófono.'
   },
+  { id: 40, name: 'Reguladores', icon: reg,
+    desc: 'Controlá a gusto los niveles de Volumen, Graves, Agudos, Volumen del micrófono, Eco del micrófono y Volumen de Guitarra.'
+  },
   { 
     id: 6, name: 'Efectos de Luces', icon: fx,
     /* desc:'Deslumbrantes luces que se dedican a brillar alrededor de los woofer y además con diferentes efectos para que puedas elegir cual acompaña mejor el momento que estas disfrutando.', */
@@ -122,7 +125,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     desc: 'Conectá un micrófono y activá el karaoke en tu casa.'
   },
   { id: 21, name: 'Entrada para Micrófono y Guitarra', icon: guitmic,
-    desc: '¡Tocá donde quieras! Posee entradas para micrófono y guitarra. No necesitás nada más para tu evento.'
+    desc: '¡Tocá donde quieras! Posee entradas para micrófono y guitarra con reguladores independientes. No necesitás nada más para tu evento.'
   },
   { id: 27, name: '2 Entradas para Micrófono', icon: mic,
     desc: 'Gracias a la de Entrada de Micrófono con cable, tenés la posibilidad de conectar hasta dos micrófonos a la vez y convertir tu fiesta en un verdadero karaoke para divertirte durante toda la noche.'

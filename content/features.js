@@ -23,6 +23,9 @@ const features = [ // Características de productos
   { 
     id: 12, name: 'Luces',
   },
+  {
+    id: 23, name: 'Efectos'
+  },
   { 
     id: 6, name: 'Display',
   },
@@ -37,6 +40,9 @@ const features = [ // Características de productos
   },
   { 
     id: 11, name: 'Duración de Batería',
+  },
+  { 
+    id: 24, name: 'Cuerpo',
   },
   { 
     id: 15, name: 'Otras Características',
