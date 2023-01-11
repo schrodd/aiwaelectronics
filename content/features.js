@@ -30,6 +30,9 @@ const features = [ // Características de productos
     id: 6, name: 'Display',
   },
   { 
+    id: 25, name: 'Efectos de Voz',
+  },
+  { 
     id: 20, name: 'Radio FM',
   },
   { 

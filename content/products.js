@@ -3692,14 +3692,21 @@ export const products = [
       '/products/AW-P1510D/img/4.webp',
       '/products/AW-P1510D/img/5.webp',
       '/products/AW-P1510D/img/6.webp',
+      '/products/AW-P1510D/img/7.webp',
+      '/products/AW-P1510D/img/8.webp',
     ].map(e => fileserver + e),
-    top: false,
-    360: false,
+    top: true,
+    360: true,
     gen: "1º Generación",
     banners: [
       {
+        id: 15,
+        customImg: fileserver + '/banners/panel1510.webp'
+      },
+      {
         id: 1,
-        customTitle: "Micrófono Inalámbrico Incluido"
+        customTitle: "Micrófono Inalámbrico Incluido",
+        customDesc: '¡Diversión sin cables! Usalo a distancia con el micrófono inalámbrico y control remoto incluidos.'
         // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
       },
       {
@@ -3708,7 +3715,8 @@ export const products = [
       },
       {
         id: 6,
-        customImg: fileserver + '/banners/portatil1200.webp'
+        customImg: fileserver + '/banners/portatil1200.webp',
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
       }
     ],
     shortDesc: 'La distancia no es problema',
@@ -3868,17 +3876,25 @@ export const products = [
     line: 'party',
     categories: [101], 
     imgs: [
-      '/products/AW-P1510D/img/1.webp',
-      '/products/AW-P1510D/img/2.webp',
-      '/products/AW-P1510D/img/3.webp',
-      '/products/AW-P1510D/img/4.webp',
-      '/products/AW-P1510D/img/5.webp',
-      '/products/AW-P1510D/img/6.webp',
+      '/products/AW-P1510D-SN/img/1.webp',
+      '/products/AW-P1510D-SN/img/2.webp',
+      '/products/AW-P1510D-SN/img/3.webp',
+      '/products/AW-P1510D-SN/img/4.webp',
+      '/products/AW-P1510D-SN/img/5.webp',
+      '/products/AW-P1510D-SN/img/6.webp',
+      '/products/AW-P1510D-SN/img/7.webp',
+      '/products/AW-P1510D-SN/img/8.webp',
     ].map(e => fileserver + e),
-    top: false,
+    top: true,
     360: true,
     gen: "2º Generación",
     banners: [
+      {
+        id: 15,
+        customTitle: 'Conectá y escuchá',
+        customImg: fileserver + '/banners/panel1510sn.webp',
+        customDesc: 'Posee una entrada para micrófono o guitarra, y una entrada auxiliar para que traigas tu sonido de donde quieras.'
+      },
       {
         id: 1,
         customTitle: "Micrófono Inalámbrico Incluido"
@@ -3890,19 +3906,14 @@ export const products = [
       },
       {
         id: 6,
-        customImg: fileserver + '/banners/portatil1200.webp'
+        customImg: fileserver + '/banners/portatil1200.webp',
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
       }
     ],
     shortDesc: 'La distancia no es problema',
     longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/95-parlante-portatil-aiwa-15-pulgadas-bluetooth-aw-p1510d-7798111353544.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/tLHabla-j4o",
-      }
-    ],
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -4028,7 +4039,7 @@ export const products = [
       },
       { // EAN
         id: 19,
-        value: "7798111354336",
+        value: "7798111354343",
         
       },
     ],
@@ -4050,31 +4061,40 @@ export const products = [
     categories: [101], 
     imgs: [
       '/products/AW-P1500PS/img/1.webp',
+      '/products/AW-P1500PS/img/8.webp',
+      '/products/AW-P1500PS/img/9.webp',
       '/products/AW-P1500PS/img/2.webp',
       '/products/AW-P1500PS/img/3.webp',
       '/products/AW-P1500PS/img/4.webp',
       '/products/AW-P1500PS/img/5.webp',
       '/products/AW-P1500PS/img/6.webp',
+      '/products/AW-P1500PS/img/7.webp',
     ].map(e => fileserver + e),
-    top: false,
+    top: true,
     360: true,
     gen: "1º Generación",
     banners: [
       {
+        id: 15,
+        customImg: fileserver + '/banners/panel1500.webp'
+      },
+      {
         id: 1,
-        customTitle: "Micrófono Inalámbrico Incluido"
+        customTitle: "Micrófono Inalámbrico Incluido",
+        customDesc: '¡Diversión sin cables! Incluye micrófono inalámbrico UHF (Ultra High Frequency) y control remoto.'
         // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
       },
       {
+        id: 7,
+      },
+      {
         id: 2,
-        customImg: fileserver + '/banners/tws1500.webp'
+        customImg: fileserver + '/banners/tws1500.webp',
       },
       {
         id: 6,
-        customImg: fileserver + '/banners/portatil1500.webp'
-      },
-      {
-        id: 7,
+        customImg: fileserver + '/banners/portatil1500.webp',
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
       }
     ],
     shortDesc: '¡Listo para tocar!',
@@ -4100,7 +4120,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: '1 de 15"'
+        value: '1 de 15" y 1 tweeter de 25mm'
       },
       { // Entrada Mic y Guit 
         id: 21,
@@ -4108,8 +4128,8 @@ export const products = [
       { // Entrada Auxiliar
         id: 17,
       },
-      { // Mic Inalambrico
-        id: 14,
+      { // USB
+        id: 33,
       },
       { // Tripode
         id: 10,
@@ -4124,8 +4144,8 @@ export const products = [
       { // Memoria
         id: 26,
       },
-      { // Remoto
-        id: 24,
+      { // Carryon
+        id: 9,
       }
     ],
     features: [
@@ -4136,7 +4156,7 @@ export const products = [
       },
       { // Tweeters
         id: 4,
-        value: `1 de 1"`,
+        value: `1 de 25mm`,
         
       },
       { // Potencia
@@ -4161,12 +4181,12 @@ export const products = [
       },
       { // Funciones
         id: 13,
-        value: "TWS, Radio FM, REC",
+        value: "TWS, REC",
         
       },
       { // Reguladores
         id: 5,
-        value: "Graves, Agudos, Vol. y Eco de Mic, Vol. de Guitarra",
+        value: "Graves, Agudos, Vol. de Mic, Vol. de Guitarra, Eco de Mic/Guitarra",
         
       },
       { // Entradas
@@ -4184,14 +4204,14 @@ export const products = [
         value: "Si, inalámbrico",
         
       },
-      { // Display
-        id: 6,
+      { // Radio
+        id: 20,
         value: "Si",
         
       },
       { // Otras características
         id: 15,
-        value: "Empuñadura de Transporte",
+        value: "Carry-on, ranura para trípode",
         
       },
       { // Medidas del producto
@@ -6704,18 +6724,24 @@ export const products = [
       '/products/AW-T1008F/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
     gen: "1º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel1008.webp',
+      },
       { 
         id: 1,
-        customTitle: 'Micrófono Inalámbrico Incluido',
-        customDesc: '¿Karaoke? ¡de una! Con el micrófono inalámbrico incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' },
+        customTitle: 'Micrófono Inalámbrico',
+        customImg: fileserver + '/banners/microfonofx.webp',
+        customDesc: '¡Libre de cables! Incluye micrófono inalámbrico y control remoto. 5 efectos de voz integrados para tener divertidas sesiones de Karaoke.' 
+      },
       {
         id: 9,
         customTitle: 'Elegí como hacer brillar tu fuego',
         customImg: fileserver + '/banners/efectos806.webp',
-        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente. Posee en total 6 efectos diferentes.',
         priority: true
       },
       { id: 3 },
@@ -6733,13 +6759,14 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: '2 de 8"'
+        value: '2 de 8" y 1 tweeter de 1"'
       },
       { // TWS
         id: 11,
       },
       { // Efectos de luces
         id: 6,
+        value: 6
       },
       { // Bluetooth
         id: 12,
@@ -6747,8 +6774,8 @@ export const products = [
       { // Entrada Mic
         id: 27,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Reg graves/agudos
+        id: 22,
       },
       { // Power Bank
         id: 13,
@@ -6756,14 +6783,15 @@ export const products = [
       { // Reg Eco y Vol
         id: 28,
       },
-      { // Memoria SD
-        id: 26,
+      { // Memoria SD + USB
+        id: 37,
       },
-      { // REC
-        id: 34,
+      { // Radio
+        id: 25,
       },
       { // Efectos de voz
         id: 4,
+        value: 5
       }
     ],
     features: [
@@ -6785,7 +6813,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "En Todo el Panel Frontal",
+        value: "En Todo el Panel Frontal, 6 efectos",
       },
       { // Conectividad
         id: 9,
@@ -6806,6 +6834,10 @@ export const products = [
       { // Display
         id: 6,
         value: "Si",
+      },
+      { // Efectos de voz
+        id: 25,
+        value: "Si, 5"
       },
       { // Otras características
         id: 15,
@@ -6852,8 +6884,9 @@ export const products = [
       '/products/AW-T1008F-PB/img/4.webp',
       '/products/AW-T1008F-PB/img/5.webp',
       '/products/AW-T1008F-PB/img/6.webp',
-      '/products/AW-T1008F-PB/img/7.webp',
       '/products/AW-T1008F-PB/img/8.webp',
+      '/products/AW-T1008F-PB/img/9.webp',
+      '/products/AW-T1008F-PB/img/10.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
@@ -6861,13 +6894,15 @@ export const products = [
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       { 
         id: 1,
-        customTitle: 'Micrófono Inalámbrico Incluido',
-        customDesc: '¿Karaoke? ¡de una! Con el micrófono inalámbrico incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' },
+        customTitle: 'Micrófono Inalámbrico',
+        customImg: fileserver + '/banners/microfonofx.webp',
+        customDesc: 'Con el micrófono inalámbrico incluido y los 5 efectos de voz integrados podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' 
+      },
       {
         id: 9,
         customTitle: 'Elegí como hacer brillar tu fuego',
         customImg: fileserver + '/banners/efectos806.webp',
-        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente. Posee en total 6 efectos diferentes.',
         priority: true
       },
       { id: 3 },
@@ -6885,13 +6920,14 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: '2 de 8"'
+        value: '2 de 8" y 1 tweeter de 1"'
       },
       { // TWS
         id: 11,
       },
       { // Efectos de luces
         id: 6,
+        value: 6
       },
       { // Bluetooth
         id: 12,
@@ -6899,8 +6935,8 @@ export const products = [
       { // Entrada Mic
         id: 27,
       },
-      { // Entrada Auxiliar
-        id: 17,
+      { // Reg graves y agudos
+        id: 22,
       },
       { // Power Bank
         id: 13,
@@ -6911,11 +6947,12 @@ export const products = [
       { // Megabass
         id: 31,
       },
-      { // REC
-        id: 34,
+      { // Ruedas
+        id: 19,
       },
       { // Efectos de voz
         id: 4,
+        value: 5
       }
     ],
     features: [
@@ -6937,7 +6974,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "En Todo el Panel Frontal",
+        value: "En Todo el Panel Frontal (6 efectos)",
       },
       { // Conectividad
         id: 9,
@@ -6958,6 +6995,9 @@ export const products = [
       { // Display
         id: 6,
         value: "Si",
+      },
+      { // Efectos de Voz
+        id: 25, value: 'Si, 5',
       },
       { // Otras características
         id: 15,

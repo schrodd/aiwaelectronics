@@ -102,7 +102,10 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   },
   { 
     id: 4, name: 'Efectos de Voz', icon: voice,
-    desc:'¡Podrás ser parte de un karaoke único con los efectos de voz preprogramados!.',
+    /* desc:'¡Podrás ser parte de un karaoke único con los efectos de voz preprogramados!', */
+    customDesc(input='') {
+      return `¡Podrás ser parte de un karaoke único con los ${input} efectos de voz preprogramados!`
+    }
   },
   { 
     id: 1, name: 'Micrófono', icon: mic,
@@ -163,7 +166,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   },
   { 
     id: 9, name: 'Carry-On', icon: carryon,
-    desc: '¡Llevalo a todas partes gracias a su sistema Carry-On!.'
+    desc: '¡Llevalo a todas partes gracias a su empuñadura de transporte y ruedas!'
   },
   { id: 18, name: 'Caja de Madera', icon: wood,
     desc: 'Construcción realizada en madera para lograr un óptimo sonido y acústica mejorada para el parlante.'
@@ -186,6 +189,9 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   },
   {id: 39, name: 'Liviano', icon: pluma,
   desc: 'Ni notarás que lo estás sosteniendo. ¡Llevalo a donde sea!'
+  },
+  {id: 40, name: 'Efectos de Voz', icon: voice,
+  desc: 'Divertite con tus amigos usando los 5 efectos de voz incluidos ¡Una experiencia sin igual!'
   }
 ]
 
