@@ -119,7 +119,7 @@ const banners = [
   {
     id: 19,
     title: `Entrada para Micrófono`,
-    desc: '¡Armá tu Karaoke! Posee entrada para micrófono, conectá uno ¡y disfrutá cantando toda la noche con tus amigos!.',
+    desc: '¡Armá tu Karaoke! Posee entrada para micrófono, conectá uno ¡y disfrutá cantando toda la noche con tus amigos!',
     img: fileserver + '/banners/mic604.webp'
   },
   {

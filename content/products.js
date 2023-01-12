@@ -17,7 +17,7 @@ export const products = [
       '/products/AW-T2008/img/5.webp'
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
     gen: "1º Generación",
     banners: [
       {
@@ -125,7 +125,7 @@ export const products = [
       },
       {
         id: 20,
-        value: "No",
+        value: "Si",
         
       },
       {
@@ -161,11 +161,6 @@ export const products = [
       {
         id: 1,
         value: "Si, inalámbrico",
-        
-      },
-      {
-        id: 6,
-        value: "Si",
         
       },
       {
@@ -329,11 +324,6 @@ export const products = [
         
       },
       {
-        id: 20,
-        value: "Si",
-        
-      },
-      {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
         
@@ -369,8 +359,8 @@ export const products = [
         
       },
       {
-        id: 6,
-        value: "Si",
+        id: 23,
+        value: "De luces",
         
       },
       {
@@ -428,7 +418,7 @@ export const products = [
       '/products/AW-T2010/img/5.webp',
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
     gen: "1º Generación",
     banners: [
       {
@@ -529,7 +519,7 @@ export const products = [
       },
       {
         id: 20,
-        value: "No",
+        value: "Si",
         
       },
       {
@@ -565,11 +555,6 @@ export const products = [
       {
         id: 1,
         value: "Si, inalámbrico",
-        
-      },
-      {
-        id: 6,
-        value: "Si",
         
       },
       {
@@ -733,11 +718,6 @@ export const products = [
         
       },
       {
-        id: 20,
-        value: "Si",
-        
-      },
-      {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
         
@@ -773,8 +753,8 @@ export const products = [
         
       },
       {
-        id: 6,
-        value: "Si",
+        id: 23,
+        value: "De luces",
         
       },
       {
@@ -931,11 +911,6 @@ export const products = [
         
       },
       {
-        id: 20,
-        value: "Si",
-        
-      },
-      {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
         
@@ -971,8 +946,8 @@ export const products = [
         
       },
       {
-        id: 6,
-        value: "Si",
+        id: 23,
+        value: "De luces",
         
       },
       {
@@ -3218,7 +3193,8 @@ export const products = [
       },
       {
         id: 6,
-        customImg: fileserver + '/banners/portatil1200.webp'
+        customImg: fileserver + '/banners/portatil1200.webp',
+        customText: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
       }
     ],
     shortDesc: 'El alma de la fiesta',
@@ -3257,7 +3233,21 @@ export const products = [
       },
       { // Carry On
         id: 9,
-      }
+      },
+      { // USB
+        id: 33
+      },
+      { // TF
+        id: 26
+      },
+      { // Radio
+        id: 25,
+        value: '3 horas (según volumen)'
+      },
+      { // Bateria
+        id: 7,
+        value: 'de 3.7V / 1800mAh'
+      },
     ],
     features: [
       { // Woofers
@@ -3315,8 +3305,8 @@ export const products = [
         value: "Si, con cable",
         
       },
-      { // Display
-        id: 6,
+      { // Carry On
+        id: 26,
         value: "Si",
         
       },
@@ -3337,7 +3327,7 @@ export const products = [
       },
       { // Peso
         id: 18,
-        value: "5 Kg",
+        value: "4,5 Kg",
         
       },
       { // EAN
@@ -3381,18 +3371,14 @@ export const products = [
       },
       {
         id: 6,
-        customImg: fileserver + '/banners/portatil1200.webp'
+        customImg: fileserver + '/banners/portatil1200.webp',
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
       }
     ],
     shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
     buyLink: '',
     videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/TMV3Btqij7M",
-      }
     ],
     featuredFeatures: [
       { // Potencia
@@ -3420,7 +3406,21 @@ export const products = [
       },
       { // Carry On
         id: 9,
-      }
+      },
+      { // USB
+        id: 33
+      },
+      { // TF
+        id: 26
+      },
+      { // Radio
+        id: 25,
+        value: '3 horas (según volumen)'
+      },
+      { // Bateria
+        id: 7,
+        value: 'de 3.7V / 1800mAh'
+      },
     ],
     features: [
       { // Woofers
@@ -3478,8 +3478,8 @@ export const products = [
         value: "No",
         
       },
-      { // Display
-        id: 6,
+      { // Carry On
+        id: 26,
         value: "Si",
         
       },
@@ -3500,7 +3500,7 @@ export const products = [
       },
       { // Peso
         id: 18,
-        value: "5 Kg",
+        value: "4,5 Kg",
         
       },
       { // EAN
@@ -3548,13 +3548,7 @@ export const products = [
     shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
     buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/217-parlante-portatil-aiwa-12-pulgadas-bluetooth-aw-p1200d.html',
-    videos: [
-      {
-        id: 1,
-        title: "Título del video",
-        link: "https://www.youtube.com/embed/TMV3Btqij7M",
-      }
-    ],
+    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -3581,6 +3575,20 @@ export const products = [
       },
       { // Carry On
         id: 9,
+      },
+      { // Eco vol mic
+        id: 28
+      },
+      { // Bateria
+        id: 7,
+        value: 'de 3.7V / 1800mAh'
+      },
+      { // Ranura tripode
+        id: 41
+      },
+      { // Duracion bateria
+        id: 8,
+        value: '3 horas (según volumen)'
       }
     ],
     features: [
@@ -3666,7 +3674,7 @@ export const products = [
       },
       { // EAN
         id: 19,
-        value: "7798111354343",
+        value: "7798111354336",
         
       },
     ],
@@ -3716,7 +3724,7 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil1200.webp',
-        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas.'
       }
     ],
     shortDesc: 'La distancia no es problema',
@@ -3907,7 +3915,7 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil1200.webp',
-        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas.'
       }
     ],
     shortDesc: 'La distancia no es problema',
@@ -4313,14 +4321,10 @@ export const products = [
       { // Efectos de Luz
         id: 6,
       },
-      { // Tweeter
-        id: 35,
-        value: '1 de 2"'
+      { // Woofer + tweeter
+        id: 3,
+        value: '2 de 8" y 1 tweeter de 2"'
       },
-      /* { // Batería Recargable
-        id: 7,
-        value: 'Litio 3,7v / 3600mAh'
-      }, */
       { // Duracion Batería
         id: 8,
         value: '8 horas (según su uso)'
@@ -4383,10 +4387,9 @@ export const products = [
         value: "Micrófono x2, Auxiliar",
         
       },
-      { // Display
-        id: 6,
-        value: "Si",
-        
+      { // Efectos
+        id: 23,
+        value: "De luces",
       },
       { // Otras características
         id: 15,
@@ -4489,14 +4492,10 @@ export const products = [
       { // Efectos de Luz
         id: 6,
       },
-      { // Tweeter
-        id: 35,
-        value: '1 de 2"'
+      { // Woofer + tweeter
+        id: 3,
+        value: '2 de 8" y 1 tweeter de 2"'
       },
-      /* { // Batería Recargable
-        id: 7,
-        value: 'Litio 3,7v / 3600mAh'
-      }, */
       { // Duracion Batería
         id: 8,
         value: '8 horas (según su uso)'
@@ -4559,10 +4558,9 @@ export const products = [
         value: "Micrófono x2, Auxiliar",
         
       },
-      { // Display
-        id: 6,
-        value: "Si",
-        
+      { // Efectos
+        id: 23,
+        value: "De luces",
       },
       { // Otras características
         id: 15,
@@ -4665,14 +4663,10 @@ export const products = [
       { // Efectos de Luz
         id: 6,
       },
-      { // Tweeter
-        id: 35,
-        value: '1 de 2"'
+      { // Woofer + tweeter
+        id: 3,
+        value: '2 de 8" y 1 tweeter de 2"'
       },
-      /* { // Batería Recargable
-        id: 7,
-        value: 'Litio 3,7v / 3600mAh'
-      }, */
       { // Duracion Batería
         id: 8,
         value: '8 horas (según su uso)'
@@ -4733,12 +4727,11 @@ export const products = [
       { // Entradas
         id: 8,
         value: "Micrófono x2, Auxiliar",
-        
+
       },
-      { // Display
-        id: 6,
-        value: "Si",
-        
+      { // Efectos
+        id: 23,
+        value: "De luces",
       },
       { // Otras características
         id: 15,
@@ -4900,9 +4893,9 @@ export const products = [
         id: 8,
         value: "Auxiliar, Micrófono y Guitarra",
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Efectos
+        id: 23,
+        value: "De luces",
       },
       { // Otras características
         id: 15,
@@ -5062,9 +5055,9 @@ export const products = [
         id: 8,
         value: "Auxiliar, Micrófono y Guitarra",
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Efectos
+        id: 23,
+        value: "De luces",
       },
       { // Otras características
         id: 15,

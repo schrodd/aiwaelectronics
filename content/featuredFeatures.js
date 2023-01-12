@@ -118,6 +118,9 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     id: 10, name: 'Trípode', icon: tripod,
     desc: 'Incluye sólido trípode, realizá presentaciones profesionales ¡y llevá tus sonido más lejos!.'
   },
+  {id: 41, name: 'Ranura para trípode', icon: tripod,
+  desc: '¡Sumá un trípode y elevá tu sonido! Trípode no incluido.'
+  },
   { id: 24, name: 'Control Remoto', icon: remote,
     desc: 'La distancia no es problema, controlá cómodamente desde la distancia.'
   },
@@ -192,7 +195,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   },
   {id: 40, name: 'Efectos de Voz', icon: voice,
   desc: 'Divertite con tus amigos usando los 5 efectos de voz incluidos ¡Una experiencia sin igual!'
-  }
+  },
+  
 ]
 
 export default featuredFeatures
