@@ -11,6 +11,7 @@ section.product-features {
   div.left {
     padding: 40px 50px;
     background: $blackDeg;
+    z-index: 9;
     @include flex(column);
     @include pc {
       width: 45%;
@@ -106,6 +107,9 @@ section.product-features {
         z-index: 9;
         @include pc {
           width: 500px;
+        }
+        @include mobile {
+          width:75%;
         }
         h2 {
           font-family: DINPRO;

@@ -1547,12 +1547,12 @@ export const products = [
     imgs: [
       '/products/AW-P450D/img/1.webp',
       '/products/AW-P450D/img/2.webp',
-      '/products/AW-P450D/img/3.webp',
       '/products/AW-P450D/img/4.webp',
       '/products/AW-P450D/img/6.webp',
       '/products/AW-P450D/img/7.webp',
       '/products/AW-P450D/img/8.webp',
       '/products/AW-P450D/img/9.webp',
+      '/products/AW-P450D/img/5.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
@@ -1738,8 +1738,8 @@ export const products = [
     imgs: [
       '/products/AW-P450D-SA/img/1.webp',
       '/products/AW-P450D-SA/img/2.webp',
-      '/products/AW-P450D-SA/img/3.webp',
       '/products/AW-P450D-SA/img/4.webp',
+      '/products/AW-P450D-SN/img/5.webp',
       '/products/AW-P450D-SA/img/6.webp',
       '/products/AW-P450D-SA/img/7.webp',
       '/products/AW-P450D-SA/img/8.webp',
@@ -2044,7 +2044,7 @@ export const products = [
       },
       { // Radio
         id: 20,
-        value: "Si",
+        value: "No",
         
       },
       { // Otras características
@@ -2198,7 +2198,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "2 horas (máximo volumen)",
+        value: "3 horas (máximo volumen)",
         
       },
       { // Luces
@@ -2381,7 +2381,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "2 horas (máximo volumen)",
+        value: "3 horas (máximo volumen)",
         
       },
       { // Luces
@@ -2560,7 +2560,7 @@ export const products = [
       },
       { // Duración de batería
         id: 11,
-        value: "2 horas (máximo volumen)",
+        value: "3 horas (máximo volumen)",
         
       },
       { // Luces
@@ -3013,10 +3013,12 @@ export const products = [
       },
       {
         id: 6,
-        customImg: fileserver + '/banners/portatil600.webp'
+        customImg: fileserver + '/banners/portatil600.webp',
+        customDesc: 'Gracias a su batería interna y a sus ruedas podrás trasladarlo escuchar música donde quiera que vayas.'
       },
       {
         id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
         customTitle: "¿Karaoke? ¡De una!",
         customDesc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos."
       },
@@ -5569,9 +5571,9 @@ export const products = [
         id: 8,
         value: "Auxiliar, USB, Micro SD, Micrófono x2",
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Efectos
+        id: 23,
+        value: "De luces",
       },
       { // Otras características
         id: 15,
@@ -5607,7 +5609,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/18tQIPtI8gXQqVhDkp2vT8Lxb00Cqz9t9',
-    variants: ['AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
+    variants: ['AW-T506R', 'AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T265SF
     name: 'Torre de Sonido Bluetooth Infinit 6500W',
@@ -5626,7 +5628,7 @@ export const products = [
       '/products/AW-T265SF/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
     gen: "2º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
@@ -5639,7 +5641,11 @@ export const products = [
       },
       {
         id: 12,
+        customImg: fileserver + '/banners/perillas506nopb.webp'
       },
+      {
+        id: 18
+      }
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
@@ -5732,9 +5738,9 @@ export const products = [
         id: 20,
         value: "No posee",
       },
-      { // Otras características
-        id: 15,
-        value: "Empuñadura de Transporte",
+      { // Efectos
+        id: 23,
+        value: "De luces x5",
       },
       { // Medidas del producto
         id: 16,
@@ -5762,7 +5768,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/19TuPLjfUNqNVzcWsP9bttgJ3SEH1lXEr',
-    variants: ['AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
+    variants: ['AW-T506R', 'AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T265SF-SA
     name: 'Torre de Sonido Bluetooth Infinit 6500W',
@@ -5781,7 +5787,7 @@ export const products = [
       '/products/AW-T265SF-SA/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
-    360: false,
+    360: true,
     gen: "3º Generación",
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
@@ -5794,6 +5800,7 @@ export const products = [
       },
       {
         id: 12,
+        customImg: fileserver + '/banners/perillas506nopb.webp'
       },
       {
         id: 3,
@@ -5890,9 +5897,9 @@ export const products = [
         id: 20,
         value: "No posee",
       },
-      { // Otras características
-        id: 15,
-        value: "Empuñadura de Transporte",
+      { // Efectos
+        id: 23,
+        value: "De luces x5",
       },
       { // Medidas del producto
         id: 16,
@@ -5918,7 +5925,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/1aaXePdKCLlh-Qr1eLbemZO1lAyDNoG50',
-    variants: ['AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
+    variants: ['AW-T506R', 'AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T506R-PB
     name: 'Torre de Sonido Bluetooth Infinit 6500W',
@@ -6037,9 +6044,9 @@ export const products = [
         id: 8,
         value: "Micrófono x2, Auxiliar",
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Efectos
+        id: 23,
+        value: "De luces",
       },
       { // Otras características
         id: 15,

@@ -107,7 +107,7 @@ const banners = [
   {
     id: 17,
     title: `No te quedes sin batería`,
-    desc: 'Podés usar el cable incluido para cargar el parlante, o el cargador de tu celular (puerto tipo MicroUSB).',
+    desc: 'Podés usar el cable MicroUSB incluido con el adaptador de tu celular para cargarlo fácilmente.',
     img: fileserver + '/banners/carga451sn.webp'
   },
   {
