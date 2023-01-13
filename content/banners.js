@@ -127,7 +127,13 @@ const banners = [
     title: `Batería de larga duración`,
     desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.`,
     img: fileserver + '/banners/bateria2050.webp'
-  }
+  },
+  {
+    id: 22,
+    title: `Entrada para Micrófono y Guitarra`,
+    desc: '¡Armá tu Karaoke! Posee entrada para micrófono y guitarra ¡conectá y disfrutá tocando toda la noche con tus amigos!',
+    img: fileserver + '/banners/panel2022.webp'
+  },
 ]
 
 export default banners

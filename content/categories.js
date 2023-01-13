@@ -10,6 +10,11 @@ export const lvOneCat = [
     route: '/categorias/audio'
   },
   {
+    name: 'Headsets',
+    id: 5, 
+    route: '/categorias/headsets'
+  },
+  {
     name: 'Informática',
     id: 2,
     route: '/categorias/informatica'
@@ -22,6 +27,7 @@ export const lvOneCat = [
   {
     name: 'Discontinuos',
     id: 4,
+    hidden: true,
     route: '/categorias/discontinuos'
   }
 ]
@@ -53,7 +59,7 @@ export const lvTwoCat = [
     name: 'Auriculares In‑ear',
     desc: 'Cancelación de ruido y la mejor calidad de sonido.',
     id: 103,
-    parent: 1,
+    parent: 5,
     route: '/categorias/in-ear',
     hidden: false,
     cover: '/images/categories/cover/inear.png',
@@ -64,7 +70,7 @@ export const lvTwoCat = [
     name: 'Auriculares On‑ear',
     desc: 'Diseño clásico. Disfrutá tu música donde sea, como sea.',
     id: 104,
-    parent: 1,
+    parent: 5,
     route: '/categorias/on-ear',
     hidden: false,
     cover: '/images/categories/cover/onear.png',
@@ -136,5 +142,16 @@ export const lvTwoCat = [
     cover: '',
     img: '',
     mobileImg: ''
+  },
+  {
+    name: 'Barras de Sonido',
+    desc: "Sonido sin igual para tu TV.", 
+    id: 111,
+    parent: 3,
+    route: '/categorias/sound-bars',
+    hidden: true,
+    cover: '/images/categories/cover/tv.png',
+    img: '/images/categories/banner/parlantes.jpg',
+    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
 ]

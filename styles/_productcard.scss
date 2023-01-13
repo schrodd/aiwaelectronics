@@ -7,7 +7,13 @@
   border-radius: 5px;
   box-shadow: $shadow;
   padding: 20px;
-  
+  position: relative;
+
+  &>svg {
+    position: absolute;
+    opacity: .2;
+  }
+
   @include mobile {
     width: 85%;
     padding: 10px;
@@ -69,6 +75,28 @@
           font-weight: 500;
           font-size: 15px;
           color: grey;
+        }
+      }
+      .p-tags {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5px 0 15px 0;
+        span {
+          margin-top: 5px;
+          display: flex;
+          align-items: center;
+          font-size: 12px;
+          border-radius: 100px;
+          padding: 2px 8px;
+          color: white !important;
+          svg {
+            fill: white !important;
+            width: 14px;
+            height: 14px;
+            margin-right: 3px;
+          }
         }
       }
     }

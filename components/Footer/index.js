@@ -33,7 +33,7 @@ export default function Footer(){
         <div className='footer-section'>
           <h3>NUESTROS PRODUCTOS</h3>
           <ul className='lv-one'>
-            {lvOneCat.map((e,i) => (
+            {lvOneCat.filter(e => !e.hidden).map((e,i) => (
               <li key={i}>
                 <button onClick={() => toggleMenu(e.id) }>{e.name}</button>
                 <ul className={`lv-two id${e.id}`}>
@@ -45,6 +45,11 @@ export default function Footer(){
                 </ul>
               </li>
             ))}
+            <li>
+              <Link href='/categorias/discontinuos'>
+                Discontinuos
+              </Link>
+            </li>
           </ul>
         </div>
         <div className='footer-section'>

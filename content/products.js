@@ -203,7 +203,7 @@ export const products = [
     ],
     certNo: 'Q-AR-01590-T-0',
     downloads: 'https://drive.google.com/drive/folders/1NCXXr0mqb4YUkrGyHsUpOJ5RYlsIL_2v',
-    variants: ['AW-T2008-PB']
+    variants: ['AW-T2008', 'AW-T2008-PB']
   },
   { // AW-T2008-PB
     name: 'Torre de Sonido Bluetooth Ring 13000W',
@@ -597,7 +597,7 @@ export const products = [
     ],
     certNo: 'Q-AR-01590-T-0',
     downloads: 'https://drive.google.com/drive/folders/1cvmjEHaxFp8dlIgsqklkbW9HBPkGaWFQ',
-    variants: ['AW-T2010-PB']
+    variants: ['AW-T2010', 'AW-T2010-PB']
   },
   {// AW-T2010-PB
     name: 'Torre de Sonido Bluetooth Ring 14500W',
@@ -1180,7 +1180,7 @@ export const products = [
     ],
     certNo: '',
     downloads: 'https://drive.google.com/drive/folders/1SkL0B6U6qEuWoQbGNK2aL4IVoeNyAE7R',
-    variants: ['AW-P240D-SA','AW-P240D-SN']
+    variants: ['AW-P240D', 'AW-P240D-SA','AW-P240D-SN']
   },
   {// AW-P240D-SA
     name: 'Parlante Portátil Bluetooth Party 2500W',
@@ -1727,7 +1727,7 @@ export const products = [
     ],
     certNo: '',
     downloads: 'https://drive.google.com/drive/folders/11HuAZNrU_0t1Ri1lf79m_4gef_ICWMbR',
-    variants: ['AW-P450D-SA', 'AW-P450D-SN']
+    variants: ['AW-P450D', 'AW-P450D-SA', 'AW-P450D-SN']
   },
   {// AW-P450D-SA
     name: 'Parlante Portátil Bluetooth Party 4500W',
@@ -2271,7 +2271,7 @@ export const products = [
     ],
     certNo: '',
     downloads: 'https://drive.google.com/drive/folders/1_jqaumAFlrCm0kDam7RewKtMBY5PLCrw',
-    variants: ['AW-T451D-SA', 'AW-T451D-SN']
+    variants: ['AW-T451D', 'AW-T451D-SA', 'AW-T451D-SN']
   },
   {// AW-T451D-SA
     name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
@@ -2452,7 +2452,7 @@ export const products = [
     ],
     certNo: '',
     downloads: 'https://drive.google.com/drive/folders/1-mGYda-uVaWyDputWWobMvJxvFIX-1Hs',
-    variants: ['AW-T451D', 'AW-T451D-SN']
+    variants: ['AW-T451D', 'AW-T451D-SA', 'AW-T451D-SN']
   },
   {// AW-T451D-SN
     name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
@@ -2812,7 +2812,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/1cw-sGt21j80tZ5031iVSGqvPsmXJTEp4',
-    variants: ['AW-T600D-SA', 'AW-T600D-SN']
+    variants: ['AW-T600D', 'AW-T600D-SA', 'AW-T600D-SN']
   },
   {// AW-T600D-SA
     name: 'Torre de Sonido Portátil Bluetooth Party 5000W',
@@ -3184,8 +3184,19 @@ export const products = [
     gen: "1º Generación",
     banners: [
       {
+        id: 15,
+        customImg: fileserver + '/banners/panel1200.webp'
+      },
+      {
         id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        customDesc: '¡Diversión sin cables! Usalo a distancia con el micrófono y control remoto incluidos.'
         // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores1200.webp',
+        customDesc: 'Regulá de forma independiente el volumen y eco del micrófono. Posee entrada para micrófono estándar de 6,5mm.'
       },
       {
         id: 2,
@@ -3345,7 +3356,7 @@ export const products = [
     ],
     certNo: 'Q-AR-01374-T-0',
     downloads: 'https://drive.google.com/drive/folders/1DDQI7xoXAhdQY2mZEhZwRJp6HO2GdSAW',
-    variants: ['AW-P1200D-SA', 'AW-P1200D-SN']
+    variants: ['AW-P1200D', 'AW-P1200D-SA', 'AW-P1200D-SN']
   },
   {// AW-P1200D-SA
     name: 'Parlante Portátil Bluetooth Party 6000W',
@@ -3354,20 +3365,29 @@ export const products = [
     line: 'party',
     categories: [110], 
     imgs: [
-      '/products/AW-P1200D/img/1.webp',
-      '/products/AW-P1200D/img/2.webp',
-      '/products/AW-P1200D/img/3.webp',
-      '/products/AW-P1200D/img/4.webp',
-      '/products/AW-P1200D/img/5.webp',
-      '/products/AW-P1200D/img/6.webp',
+      '/products/AW-P1200D-SA/img/1.webp',
+      '/products/AW-P1200D-SA/img/2.webp',
+      '/products/AW-P1200D-SA/img/3.webp',
+      '/products/AW-P1200D-SA/img/4.webp',
+      '/products/AW-P1200D-SA/img/5.webp',
+      '/products/AW-P1200D-SA/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
     gen: "2º Generación",
     banners: [
       {
+        id: 15,
+        customImg: fileserver + '/banners/panel1200.webp'
+      },
+      {
         id: 2,
         customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores1200.webp',
+        customDesc: 'Regulá de forma independiente el volumen y eco del micrófono. Posee entrada para micrófono estándar de 6,5mm.'
       },
       {
         id: 6,
@@ -3516,7 +3536,7 @@ export const products = [
     ],
     certNo: 'Q-AR-01374-T-0',
     downloads: 'https://drive.google.com/drive/folders/12O54GzSjl0Nm_-2DIHENTO5dmAincenI',
-    variants: ['AW-P1200D-SN']
+    variants: ['AW-P1200D', 'AW-P1200D-SA', 'AW-P1200D-SN']
   },
   {// AW-P1200D-SN
     name: 'Parlante Portátil Bluetooth Party 6000W',
@@ -3525,12 +3545,12 @@ export const products = [
     line: 'party',
     categories: [101], 
     imgs: [
-      '/products/AW-P1200D/img/1.webp',
-      '/products/AW-P1200D/img/2.webp',
-      '/products/AW-P1200D/img/3.webp',
-      '/products/AW-P1200D/img/4.webp',
-      '/products/AW-P1200D/img/5.webp',
-      '/products/AW-P1200D/img/6.webp',
+      '/products/AW-P1200D-SN/img/1.webp',
+      '/products/AW-P1200D-SN/img/2.webp',
+      '/products/AW-P1200D-SN/img/3.webp',
+      '/products/AW-P1200D-SN/img/4.webp',
+      '/products/AW-P1200D-SN/img/5.webp',
+      '/products/AW-P1200D-SN/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
@@ -3875,7 +3895,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/1yv88lYDFWpsptavOJggiSgz9Xv8TiEMr',
-    variants: ['AW-P1510D-SN']
+    variants: ['AW-P1510D', 'AW-P1510D-SN']
   },
   {// AW-P1510D-SN
     name: 'Parlante Portátil Bluetooth Party 7000W',
@@ -4803,7 +4823,7 @@ export const products = [
       },
       {
         id: 4,
-        customImg: fileserver + '/banners/fiestas2021.webp',
+        customImg: fileserver + '/banners/portatil2021.webp',
       },
     ],
     shortDesc: 'Ecualizador preciso',
@@ -4954,6 +4974,9 @@ export const products = [
     banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
       {
         id: 11,
+      },
+      {
+        id: 22
       },
       {
         id: 6,
@@ -5739,7 +5762,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/19TuPLjfUNqNVzcWsP9bttgJ3SEH1lXEr',
-    variants: ['AW-T265SF-SA', 'AW-T506R-PB']
+    variants: ['AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T265SF-SA
     name: 'Torre de Sonido Bluetooth Infinit 6500W',
@@ -5895,7 +5918,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/1aaXePdKCLlh-Qr1eLbemZO1lAyDNoG50',
-    variants: ['AW-T506R-PB']
+    variants: ['AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T506R-PB
     name: 'Torre de Sonido Bluetooth Infinit 6500W',
@@ -6377,7 +6400,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/19-zSuHUdeevC5edP-winJgJDvXuqjezA',
-    variants: ['AW-T806F-SA', 'AW-T806F-PB']
+    variants: ['AW-T806F', 'AW-T806F-SA', 'AW-T806F-PB']
   },
   {// AW-T806F-SA
     name: 'Torre de Sonido Bluetooth Flama 8000W',
@@ -6537,7 +6560,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/10X95ULeGxUO5PkCI8hbaJtSF59eDUSST',
-    variants: ['AW-T806F-PB']
+    variants: ['AW-T806F', 'AW-T806F-SA', 'AW-T806F-PB']
   },
   {// AW-T806F-PB
     name: 'Torre de Sonido Bluetooth Flama 8000W',
@@ -6862,7 +6885,7 @@ export const products = [
     ],
     certNo: '00Q-AR-01223-T-1',
     downloads: 'https://drive.google.com/drive/folders/1x8k5MstMDILw0gNMnFilaf1Kuf_yGZQ2',
-    variants: ['AW-T1008F-PB']
+    variants: ['AW-T1008F', 'AW-T1008F-PB']
   },
   {// AW-T1008F-PB
     name: 'Torre de Sonido Bluetooth Flama 9500W',

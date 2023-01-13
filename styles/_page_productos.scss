@@ -119,11 +119,6 @@ section.product-page {
         }
       }
       &[linea=party] {
-        div.cover-wrapper {
-          @include pc {
-            backdrop-filter: blur(10px);
-          }
-        }
         background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/party.webp');
         background-position: center;
         background-size: cover;
