@@ -1031,6 +1031,10 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil240.webp'
+      },
+      {
+        id: 23,
+        customImg: fileserver + '/banners/control.webp'
       }
     ],
     shortDesc: 'Musicalizá tu día',
@@ -1197,7 +1201,6 @@ export const products = [
       '/products/AW-P240D-SA/img/6.webp',
       '/products/AW-P240D-SA/img/7.webp',
       '/products/AW-P240D-SA/img/8.webp',
-      '/products/AW-P240D-SA/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
@@ -1394,6 +1397,12 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/portatil240.webp'
+      },
+      {
+        id: 1,
+        customTitle: 'Entrada para micrófono',
+        customDesc: '¿Karaoke? ¡de una! Gracias a su entrada para micrófono podés conectar uno y cantar con tus amigos toda la noche. ¡Que la fiesta no pare!',
+        customImg: fileserver + '/banners/microfonocable.webp'
       }
     ],
     shortDesc: 'Musicalizá tu día',
@@ -1575,9 +1584,13 @@ export const products = [
         id: 2,
         customImg: fileserver + '/banners/tws450.webp'
       },
-      {
+      /* {
         id: 6,
         customImg: fileserver + '/banners/bar450.webp'
+      }, */
+      {
+        id: 23,
+        customImg: fileserver + '/banners/control.webp'
       }
     ],
     shortDesc: 'Tu compañía indispensable',
@@ -1938,6 +1951,12 @@ export const products = [
       {
         id: 6,
         customImg: fileserver + '/banners/bar450.webp'
+      },
+      {
+        id: 1,
+        customTitle: 'Entrada para micrófono',
+        customDesc: '¿Karaoke? ¡de una! Gracias a su entrada para micrófono podés conectar uno y cantar con tus amigos toda la noche. ¡Que la fiesta no pare!',
+        customImg: fileserver + '/banners/karaoke450.webp'
       }
     ],
     shortDesc: 'Tu compañía indispensable',
@@ -2459,15 +2478,15 @@ export const products = [
     sku: 'AW-T451D-SN',
     link: '/productos/AW-T451D-SN',
     line: 'party',
-    categories: [102], 
+    categories: [102],
     imgs: [
-      '/products/AW-T451D/img/1.webp',
-      '/products/AW-T451D/img/2.webp',
-      '/products/AW-T451D/img/3.webp',
-      '/products/AW-T451D/img/4.webp',
-      '/products/AW-T451D/img/5.webp',
-      '/products/AW-T451D/img/6.webp',
-      '/products/AW-T451D/img/7.webp',
+      '/products/AW-T451D-SN/img/1.webp',
+      '/products/AW-T451D-SN/img/2.webp',
+      '/products/AW-T451D-SN/img/3.webp',
+      '/products/AW-T451D-SN/img/4.webp',
+      '/products/AW-T451D-SN/img/5.webp',
+      '/products/AW-T451D-SN/img/6.webp',
+      '/products/AW-T451D-SN/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
@@ -5640,12 +5659,18 @@ export const products = [
         customImg: fileserver + '/banners/doblemic2.webp'
       },
       {
+        id: 15,
+        customTitle: 'Conectividad sin límites',
+        customDesc: '¡Cuántas formas de reproducir música! Posee Bluetooth, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.',
+        customImg: fileserver + '/banners/panel265.webp'
+      },
+      {
         id: 12,
         customImg: fileserver + '/banners/perillas506nopb.webp'
       },
       {
         id: 18
-      }
+      },
     ],
     shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
@@ -5797,6 +5822,12 @@ export const products = [
       {
         id: 8,
         customImg: fileserver + '/banners/doblemic2.webp'
+      },
+      {
+        id: 15,
+        customTitle: 'Conectividad sin límites',
+        customDesc: '¡Cuántas formas de reproducir música! Posee Bluetooth, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.',
+        customImg: fileserver + '/banners/panel265.webp'
       },
       {
         id: 12,
@@ -6097,6 +6128,7 @@ export const products = [
       '/products/AW-T604F/img/3.webp',
       '/products/AW-T604F/img/4.webp',
       '/products/AW-T604F/img/5.webp',
+      '/products/AW-T604F/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,

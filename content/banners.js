@@ -134,6 +134,12 @@ const banners = [
     desc: '¡Armá tu Karaoke! Posee entrada para micrófono y guitarra ¡conectá y disfrutá tocando toda la noche con tus amigos!',
     img: fileserver + '/banners/panel2022.webp'
   },
+  {
+    id: 23,
+    title: `Control remoto incluido`,
+    desc: 'Pasá tus canciones o controlá el volumen desde la distancia con el control remoto incluido.',
+    img: fileserver + '/banners/control.webp'
+  },
 ]
 
 export default banners
