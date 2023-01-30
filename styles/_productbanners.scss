@@ -1,7 +1,8 @@
 @import 'variables';
 
 section.product-banners {
-  background-color: ghostwhite;
+  background: rgb(64,64,64);
+  background: linear-gradient(180deg, rgba(64,64,64,1) 15%, rgba(20,20,20,1) 100%);
   color: $black;
   @include pc {
     padding: 50px 15%;

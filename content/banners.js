@@ -140,6 +140,10 @@ const banners = [
     desc: 'Pasá tus canciones o controlá el volumen desde la distancia con el control remoto incluido.',
     img: fileserver + '/banners/control.webp'
   },
+  { id: 24, title: `Vincha Plegable`, img: fileserver + '/banners/diseñocalidad102n.webp', desc: '¡Nunca fué tan fácil transportar tus auriculares! Doblá sus extremos y remové el cable para poder llevarlos en cualquier bolsillo.' },
+  { id: 25, title: `Diseño Ultraligero`, img: fileserver + '/banners/ligero102b.webp',  desc: 'Pesan tan sólo 146g. ¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },
+  { id: 26, title: `Almohadillas Soft`, img: fileserver + '/banners/almohadillas102n.webp',  desc: 'Sus almohadillas son suaves, muy cómodas, y se adaptan a cualquier tipo de oreja.' },
+  { id: 27, title: `Mantené el control`, img: fileserver + '/banners/cable102n.webp',  desc: 'Cable extraíble para tu comodidad, con micrófono y botón para atender llamadas. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
 ]
 
 export default banners

@@ -7085,6 +7085,94 @@ export const products = [
     downloads: 'https://drive.google.com/drive/folders/19O4ElAPI5VeQy71U01Y9U17tnsG-KUn-',
     variants: []
   },
+
+  /////////////// AURICULARES ////////////////
+
+  {// AVA-102N
+    name: 'Auriculares con Vincha y Cable Removible',
+    sku: 'AVA-102N',
+    link: '/productos/AVA-102N',
+    line: '',
+    categories: [104], 
+    imgs: [
+      '/products/AVA-102N/img/1.webp',
+      '/products/AVA-102N/img/2.webp',
+      '/products/AVA-102N/img/3.webp',
+      '/products/AVA-102N/img/4.webp',
+      '/products/AVA-102N/img/5.webp',
+      '/products/AVA-102N/img/6.webp',
+      '/products/AVA-102N/img/7.webp',
+      '/products/AVA-102N/img/8.webp',
+      '/products/AVA-102N/img/9.webp',
+    ].map(e => fileserver + e),
+    top: false,
+    360: true,
+    gen: "1º Generación",
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      { id: 25 },  
+      { id: 27 },
+      { id: 26 },
+      { id: 24 },
+    ],
+    shortDesc: 'Tu compañía indispensable',
+    longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/auriculares/89-auriculares-aiwa-vincha-plegable-ava-102-manos-libres-7798111353421.html',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '6500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '1 de 8"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Entrada Mic 
+        id: 16,
+      },
+      { // Tweeter
+        id: 35,
+        value: '1 de 1"'
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 7.4V / 3600mAh'
+      },
+      { // Reg Graves y Agudos
+        id: 28,
+      },
+    ],
+    features: [
+      { id: 27, value: 'Manos Libres' }, // Controles
+      { id: 28, value: '3,5 mm' }, // Tipo de conex
+      { id: 2, value: '50mW' }, // Potencia
+      { id: 29, value: '1,2m aprox.' }, // Longitud cable
+      { id: 39, value: '20Hz ~ 20KHz' }, // Frecuencia
+      { id: 31, value: '32Ω' }, // Impedancia
+      { id: 32, value: '110dB±3dB' }, // Sensibilidad
+      { id: 33, value: '-42dB±3dB' }, // Sens. Mic
+      { id: 16, value: '169 * 68 * 188 mm' }, // Dimension prod
+      { id: 17, value: '177 * 210 * 76 mm' }, // Dimension caja
+      { id: 18, value: '146,39 gr' }, // Peso
+      { id: 34, value: '40 mm' }, // Diametro diafrag.
+      { id: 19, value: '7798111353421' }, // EAN
+
+    ],
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/188QHcTvUUNE4HttH4Nwfv7h4Gi59RSpr',
+    variants: []
+  },
 ]
 
 export const variants = []

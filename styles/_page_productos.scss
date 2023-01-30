@@ -8,9 +8,13 @@ section.product-page {
       @include flex(row);
       width: 100%;
       height: 100%;
-      background: rgb(228,228,228);
-      background: linear-gradient(150deg, rgba(228,228,228,1) 0%, rgba(255,255,255,1) 100%);
+      background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/sin-linea.webp');
+      background-position: center;
+      background-size: cover;
       @include mobile {
+        background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/sin-linea-mob.webp');
+        background-position: center;
+        background-repeat: no-repeat;
         align-items: center;
         flex-direction: column-reverse;
       }
@@ -24,7 +28,7 @@ section.product-page {
         .cover {
           object-position: bottom;
           object-fit: contain;
-          filter: drop-shadow(0px 0px 20px rgba(0,0,0,.5));
+          filter: drop-shadow(0px 0px 20px rgba(0,0,0,.25));
         }
       }
       div.text-wrapper {
@@ -62,12 +66,15 @@ section.product-page {
             position: relative;
             width: 150px;
             height: 55px;
+            margin-bottom: 15px;
             @include mobile {
               margin: auto;
+              img {
+                object-position: center !important;
+              }
             }
           }
           p.sku {
-            margin-top: 15px;
             font-weight: bold;
             font-size: 14px;
             font-family: DINPRO;
