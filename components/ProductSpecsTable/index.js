@@ -56,6 +56,15 @@ export default function ProductSpecsTable({prod}) {
             </div>
         </AccordionItem>
       )}
+      {prod.colors && prod.colors.length > 0 && (
+        <AccordionItem classes='prod-specs-table variants' name='Colores'>
+            <div className="wrapper">
+              {prod.colors.map((e,i) => (
+                <ProductCard key={i} sku={e} showName showSku/>
+              ))}
+            </div>
+        </AccordionItem>
+      )}
     </section>
   )
 }

@@ -4,27 +4,23 @@ const fileserver = 'https://aiwaelectronics.com.ar/fileserver'
 const banners = [
   {
     id: 1,
-    title: 'Micrófono incluido',
-    desc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!',
-    img: fileserver + '/banners/microfono.webp',
+    title: 'Micrófono incluido', img: fileserver + '/banners/microfono.webp',
+    desc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!'
   },
   {
     id: 2,
-    title: 'True Wireless Stereo',
-    desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!`,
-    img: fileserver + '/banners/tws.webp',
+    title: 'True Wireless Stereo', img: fileserver + '/banners/tws.webp',
+    desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!`
   },
   {
     id: 3,
-    title: 'Power Bank',
-    desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.',
-    img: fileserver + '/banners/powerbank.webp',
+    title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
+    desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.'
   },
   {
     id: 4,
-    title: `Ideal para fiestas y reuniones`,
-    desc: 'Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!',
-    img: fileserver + '/banners/fiestas.webp',
+    title: `Ideal para fiestas y reuniones`, img: fileserver + '/banners/fiestas.webp',
+    desc: 'Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!'
   },
   {
     id: 5,
@@ -82,9 +78,8 @@ const banners = [
   },
   {
     id: 14,
-    title: `Nunca te olvides la fiesta afuera`,
-    desc: 'Con sus ruedas vas a poder llevar tu flama a todas partes. Su Peso ligero y empuñadura superior te ayudaran en la tarea de llevar tu música a donde sea.',
-    img: fileserver + '/banners/ruedas1008.webp'
+    title: `Nunca te olvides la fiesta afuera`, img: fileserver + '/banners/ruedas1008.webp',
+    desc: 'Con sus ruedas vas a poder llevar tu flama a todas partes. Su Peso ligero y empuñadura superior te ayudaran en la tarea de llevar tu música a donde sea.'
   },
   {
     id: 15,
@@ -140,10 +135,18 @@ const banners = [
     desc: 'Pasá tus canciones o controlá el volumen desde la distancia con el control remoto incluido.',
     img: fileserver + '/banners/control.webp'
   },
-  { id: 24, title: `Vincha Plegable`, img: fileserver + '/banners/diseñocalidad102n.webp', desc: '¡Nunca fué tan fácil transportar tus auriculares! Doblá sus extremos y remové el cable para poder llevarlos en cualquier bolsillo.' },
-  { id: 25, title: `Diseño Ultraligero`, img: fileserver + '/banners/ligero102b.webp',  desc: 'Pesan tan sólo 146g. ¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },
-  { id: 26, title: `Almohadillas Soft`, img: fileserver + '/banners/almohadillas102n.webp',  desc: 'Sus almohadillas son suaves, muy cómodas, y se adaptan a cualquier tipo de oreja.' },
-  { id: 27, title: `Mantené el control`, img: fileserver + '/banners/cable102n.webp',  desc: 'Cable extraíble para tu comodidad, con micrófono y botón para atender llamadas. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
+  { id: 24, 
+    title: `Vincha Plegable`, img: fileserver + '/banners/diseñocalidad102n.webp',
+    desc: '¡Nunca fué tan fácil transportar tus auriculares! Doblá sus extremos y remové el cable para poder llevarlos en cualquier bolsillo.' },
+  { id: 25, 
+    title: `Diseño Ultraligero`, img: fileserver + '/banners/ligero102b.webp', 
+    desc: 'Pesan tan sólo 146g. ¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },
+  { id: 26,
+    title: `Almohadillas Soft`, img: fileserver + '/banners/almohadillas102n.webp',
+    desc: 'Sus almohadillas son suaves, muy cómodas, y se adaptan a cualquier tipo de oreja.' },
+  { id: 27,
+    title: `Mantené el control`, img: fileserver + '/banners/cable102n.webp', 
+    desc: 'Cable extraíble para tu comodidad, con micrófono y botón para atender llamadas. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
 ]
 
 export default banners

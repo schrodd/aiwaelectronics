@@ -8,6 +8,10 @@ const features = [ // Características de productos ORDENADAS
   { id: 32, name: 'Sensibilidad' },
   { id: 33, name: 'Sensibilidad (micrófono)' },
   { id: 34, name: 'Diámetro del diafragma' },
+  { id: 35, name: 'Alcance de Bluetooth' },
+  { id: 36, name: 'Versión de Bluetooth' },
+  { id: 37, name: 'Formatos de Bluetooth' },
+  { id: 38, name: 'Tiempo de carga' },
 
   // Parlantes y torres
   { id: 3, name: 'Woofers' },

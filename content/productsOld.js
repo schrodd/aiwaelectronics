@@ -1,211 +1,68 @@
-const fileserver = `https://aiwaelectronics.com.ar/fileserver`
+const fileserver = 'https://aiwaelectronics.com.ar/fileserver'
 
 export const products = [
   //////////////// LINEA RING ////////////////
 
   { // AW-T2008
-    name: `Torre de Sonido Bluetooth Ring 12000W`,
-    sku: `AW-T2008`,
-    link: `/productos/AW-T2008`,
-    line: `ring`,
+    name: 'Torre de Sonido Bluetooth Ring 12000W',
+    sku: 'AW-T2008',
+    link: '/productos/AW-T2008',
+    line: 'ring',
     categories: [110], 
     imgs: [
-      `/products/AW-T2008/img/1.webp`,
-      `/products/AW-T2008/img/2.webp`,
-      `/products/AW-T2008/img/3.webp`,
-      `/products/AW-T2008/img/4.webp`,
-      `/products/AW-T2008/img/5.webp`
+      '/products/AW-T2008/img/1.webp',
+      '/products/AW-T2008/img/2.webp',
+      '/products/AW-T2008/img/3.webp',
+      '/products/AW-T2008/img/4.webp',
+      '/products/AW-T2008/img/5.webp'
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
     banners: [
-      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
-        desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + `/banners/poolparty2008.webp`,
-        desc: `Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!` },
-      { title: `Preparate para tocar`, img: fileserver + `/banners/live.webp`,
-        desc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!" },
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/conectate2.webp`, 
-        desc: `Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.` }
+      {
+        id: 1,
+        customTitle: 'Micrófono inalámbrico incluido',
+        // customImg: 'https://aiwaelectronics.com.ar/fileserver/banners/bar450.webp'
+        // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
+      },
+      {
+        id: 2,
+      },
+      {
+        id: 4,
+        customImg: fileserver + '/banners/poolparty2008.webp'
+      },
+      {
+        id: 5,
+        customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+      },
+      {
+        id: 15
+      }
     ],
-    shortDesc: `Sonido Robusto`,
+    shortDesc: 'Sonido Robusto',
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
-    buyLink: ``,
-    videos: [], // obj array, each with props: id, title, link
-    featuredFeatures: [
-      { id: 2, value: `12000W PMPO` }, // Potencia
-      { id: 3, value: `2 de 8"` }, // Woofer
-      { id: 35, value: `1 de 2"` }, // Tweeter
-      { id: 11 }, // TWS
-      { id: 12 }, // Bluetooth
-      { id: 36 }, // Ruedas y Caja de Madera
-      { id: 14 }, // Micrófono Inalámbrico 
-      { id: 21 }, // Entrada Guitarra y Mic
-      { id: 6 }, // Efectos de Luz
-      { id: 25 }, // Radio FM
-      { id: 8, value: `5 horas (según su uso)` }, // Duracion Batería
-      { id: 37 } // MicroSD y USB
+    buyLink: '',
+    videos: [
+      /* {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/vN6Qwro1FPU",
+      } */
     ],
-    features: [
-      { id: 3, value: `2 de 8"` },
-      { id: 4, value: `1 de 2"` },
-      { id: 2, value: "12000W PMPO" },
-      { id: 10, value: "Interna Recargable 12V / 4.5Ah" },
-      { id: 11, value: "5 horas (según su uso)" },
-      { id: 20, value: "Si" },
-      { id: 12, value: "En panel frontal alrededor del Woofer y en panel superior" },
-      { id: 9, value: "Bluetooth v5.0" },
-      { id: 13, value: "TWS, Radio FM, REC" },
-      { id: 5, value: "Graves, Agudos y Eco de Micrófono" },
-      { id: 7, value: "Si, 3" },
-      { id: 8, value: "Micrófono, USB, MicroSD y Auxiliar" },
-      { id: 1, value: "Si, inalámbrico" },
-      { id: 14, value: "Madera" },
-      { id: 15, value: "Ruedas / Empuñaduras de Transporte" },
-      { id: 16, value: "31 x 83 x 31 cm" },
-      { id: 17, value: "35,5 x 88 x 35,5 cm" },
-      { id: 18, value: "13,75 Kg" },
-      { id: 19, value: "7798111353957" },
-    ],
-    includes: [
-      1, // Mic inalambrico
-      8, // Control remoto negro
-      3, // Cable Aux
-      12, // Cable de alimentacion
-      9, // Manual
-    ],
-    certNo: `Q-AR-01590-T-0`,
-    downloads: `https://drive.google.com/drive/folders/1NCXXr0mqb4YUkrGyHsUpOJ5RYlsIL_2v`,
-    variants: [`AW-T2008`, `AW-T2008-PB`]
-  },
-  { // AW-T2008-PB
-    name: `Torre de Sonido Bluetooth Ring 13000W`,
-    sku: `AW-T2008-PB`,
-    link: `/productos/AW-T2008-PB`,
-    line: `ring`,
-    categories: [102], 
-    imgs: [
-      `/products/AW-T2008-PB/img/1.webp`,
-      `/products/AW-T2008-PB/img/2.webp`,
-      `/products/AW-T2008-PB/img/3.webp`,
-      `/products/AW-T2008-PB/img/4.webp`,
-      `/products/AW-T2008-PB/img/5.webp`,
-      `/products/AW-T2008-PB/img/6.webp`,
-      `/products/AW-T2008-PB/img/7.webp`,
-      `/products/AW-T2008-PB/img/8.webp`,
-      `/products/AW-T2008-PB/img/9.webp`,
-    ].map(e => fileserver + e),
-    top: true,
-    360: true,
-    gen: "2º Generación",
-    banners: [
-      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
-        desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
-        desc: `¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.` },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + `/banners/poolparty2008.webp`,
-        desc: `Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!` },
-      { title: `Preparate para tocar`, img: fileserver + `/banners/live.webp`,
-        desc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!" },
-    ],
-    shortDesc: `Sonido Robusto`,
-    longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/211-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2008-pb.html`,
-    videos: [],
-    featuredFeatures: [
-      { id: 2, value: `13000W PMPO` }, // Potencia
-      { id: 11 }, // TWS
-      { id: 12 }, // Bluetooth
-      { id: 13 }, // Power Bank
-      { id: 14 }, // Micrófono Inalámbrico
-      { id: 21 }, // Entrada Guitarra y mic
-      { id: 38 }, // Entrada Micrófono 
-      { id: 17 }, // Entrada Auxiliar
-      { id: 6 }, // Efectos de Luz
-      { id: 7, value: `Interna Recargable 12V / 4.5Ah` },
-      { id: 8, value: `5 horas (según su uso)` }, // Duracion Batería
-      { id: 36 } // Caja de Madera + ruedas
-    ],
-    features: [
-      { id: 3, value: `2 de 8"` },
-      { id: 4, value: `1 de 2"` },
-      { id: 2, value: "13000W PMPO" },
-      { id: 10, value: "Interna Recargable 12V / 4.5Ah" },
-      { id: 11, value: "5 horas (según su uso)" },
-      { id: 12, value: "En panel frontal alrededor del Woofer y en panel superior" },
-      { id: 9, value: "Bluetooth v5.0" },
-      { id: 13, value: "TWS, Power Bank (cargá tus dispositivos)" },
-      { id: 5, value: "Graves, Agudos y Eco de Micrófono" },
-      { id: 7, value: "Si, 3" },
-      { id: 8, value: "Guitarra,  Micrófono y Auxiliar" },
-      { id: 1, value: "Si, inalámbrico" },
-      { id: 23, value: "De luces" },
-      { id: 14, value: "Madera" },
-      { id: 15, value: "Ruedas / Empuñaduras de Transporte" },
-      { id: 16, value: "31 x 83 x 31 cm" },
-      { id: 17, value: "35,5 x 88 x 35,5 cm" },
-      { id: 18, value: "13,75 Kg" },
-      { id: 19, value: "7798111354367" },
-    ],
-    includes: [
-      1, // Mic inalambrico,
-      3,
-      12, // Cable de alimentacion
-      9 // Manual
-    ],
-    certNo: `Q-AR-01590-T-0`,
-    downloads: `https://drive.google.com/drive/folders/1CFO0ECLhRM5A4eT3pAoPxnhWlMJgyN95`,
-    variants: []
-  },
-  {// AW-T2010
-    name: `Torre de Sonido Bluetooth Ring 13500W`,
-    sku: `AW-T2010`,
-    link: `/productos/AW-T2010`,
-    line: `ring`,
-    categories: [110], 
-    imgs: [
-      `/products/AW-T2010/img/1.webp`,
-      `/products/AW-T2010/img/2.webp`,
-      `/products/AW-T2010/img/3.webp`,
-      `/products/AW-T2010/img/4.webp`,
-      `/products/AW-T2010/img/5.webp`,
-    ].map(e => fileserver + e),
-    top: true,
-    360: true,
-    gen: "1º Generación",
-    banners: [
-      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
-        desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws.webp`, 
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + `/banners/poolparty2010.webp`,
-        desc: `Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!` },
-      { title: `Preparate para tocar`, img: fileserver + `/banners/live.webp`,
-        desc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!" },
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/conectate2.webp`,
-        desc: `Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.` }
-    ],
-    shortDesc: `Potencia y Calidad`,
-    longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno, vas a poder tirar tu casa por la ventana.",
-    buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `13500W PMPO`
+        value: '12000W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 10"`
+        value: '2 de 8"'
       },
-      { // Tweeter
+      { // Woofer
         id: 35,
-        value: `1 de 2"`
+        value: '1 de 2"'
       },
       { // TWS
         id: 11,
@@ -227,14 +84,408 @@ export const products = [
       },
       /* { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 12V / 4.5Ah`
+        value: 'Interna Recargable 12V / 4.5Ah'
       }, */
       { // Radio FM
         id: 25,
       },
       { // Duracion Batería
         id: 8,
-        value: `6 horas (según su uso)`
+        value: '5 horas (según su uso)'
+      },
+      { // MicroSD y USB
+        id: 37,
+      }
+    ],
+    features: [
+      {
+        id: 3,
+        value: `2 de 8"`,
+        
+      },
+      {
+        id: 4,
+        value: `1 de 2"`,
+        
+      },
+      {
+        id: 2,
+        value: "12000W PMPO",
+        
+      },
+      {
+        id: 10,
+        value: "Interna Recargable 12V / 4.5Ah",
+        
+      },
+      {
+        id: 11,
+        value: "5 horas (según su uso)",
+        
+      },
+      {
+        id: 20,
+        value: "Si",
+        
+      },
+      {
+        id: 12,
+        value: "En panel frontal alrededor del Woofer y en panel superior",
+        
+      },
+      {
+        id: 9,
+        value: "Bluetooth v5.0",
+        
+      },
+      {
+        id: 13,
+        value: "TWS, Radio FM, REC",
+        
+      },
+      {
+        id: 5,
+        value: "Graves, Agudos y Eco de Micrófono",
+        
+      },
+      {
+        id: 7,
+        value: "Si, 3",
+        
+      },
+      {
+        id: 8,
+        value: "Micrófono, USB, MicroSD y Auxiliar",
+        
+      },
+      {
+        id: 1,
+        value: "Si, inalámbrico",
+        
+      },
+      {
+        id: 14,
+        value: "Madera",
+        
+      },
+      {
+        id: 15,
+        value: "Ruedas / Empuñaduras de Transporte",
+        
+      },
+      {
+        id: 16,
+        value: "31 x 83 x 31 cm",
+        
+      },
+      {
+        id: 17,
+        value: "35,5 x 88 x 35,5 cm",
+        
+      },
+      {
+        id: 18,
+        value: "13,75 Kg",
+        
+      },
+      {
+        id: 19,
+        value: "7798111353957",
+        
+      },
+    ],
+    includes: [
+      1, // Mic inalambrico
+      8, // Control remoto negro
+      3, // Cable Aux
+      12, // Cable de alimentacion
+      9, // Manual
+    ],
+    certNo: 'Q-AR-01590-T-0',
+    downloads: 'https://drive.google.com/drive/folders/1NCXXr0mqb4YUkrGyHsUpOJ5RYlsIL_2v',
+    variants: ['AW-T2008', 'AW-T2008-PB']
+  },
+  { // AW-T2008-PB
+    name: 'Torre de Sonido Bluetooth Ring 13000W',
+    sku: 'AW-T2008-PB',
+    link: '/productos/AW-T2008-PB',
+    line: 'ring',
+    categories: [102], 
+    imgs: [
+      '/products/AW-T2008-PB/img/1.webp',
+      '/products/AW-T2008-PB/img/2.webp',
+      '/products/AW-T2008-PB/img/3.webp',
+      '/products/AW-T2008-PB/img/4.webp',
+      '/products/AW-T2008-PB/img/5.webp',
+      '/products/AW-T2008-PB/img/6.webp',
+      '/products/AW-T2008-PB/img/7.webp',
+      '/products/AW-T2008-PB/img/8.webp',
+      '/products/AW-T2008-PB/img/9.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    360: true,
+    gen: "2º Generación",
+    banners: [
+      {
+        id: 1,
+        customTitle: 'Micrófono inalámbrico incluido'
+        // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
+      },
+      {
+        id: 2,
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 4,
+        customImg: fileserver + '/banners/poolparty2008.webp'
+      },
+      {
+        id: 5,
+        customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+      }
+    ],
+    shortDesc: 'Sonido Robusto',
+    longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/211-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2008-pb.html',
+    videos: [
+      /* {
+        id: 1,
+        title: "Título del video",
+        link: "https://www.youtube.com/embed/vN6Qwro1FPU",
+      } */
+    ],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '13000W PMPO'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Power Bank
+        id: 13,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra y mic
+        id: 21,
+      },
+      { // Entrada Micrófono 
+        id: 38,
+      },
+      { // Entrada Auxiliar
+        id: 17,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 4.5Ah'
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '5 horas (según su uso)'
+      },
+      { // Caja de Madera + ruedas
+        id: 36,
+      } 
+    ],
+    features: [
+      {
+        id: 3,
+        value: `2 de 8"`,
+        
+      },
+      {
+        id: 4,
+        value: `1 de 2"`,
+        
+      },
+      {
+        id: 2,
+        value: "13000W PMPO",
+        
+      },
+      {
+        id: 10,
+        value: "Interna Recargable 12V / 4.5Ah",
+        
+      },
+      {
+        id: 11,
+        value: "5 horas (según su uso)",
+        
+      },
+      {
+        id: 12,
+        value: "En panel frontal alrededor del Woofer y en panel superior",
+        
+      },
+      {
+        id: 9,
+        value: "Bluetooth v5.0",
+        
+      },
+      {
+        id: 13,
+        value: "TWS, Power Bank (cargá tus dispositivos)",
+        
+      },
+      {
+        id: 5,
+        value: "Graves, Agudos y Eco de Micrófono",
+        
+      },
+      {
+        id: 7,
+        value: "Si, 3",
+        
+      },
+      {
+        id: 8,
+        value: "Guitarra,  Micrófono y Auxiliar",
+        
+      },
+      {
+        id: 1,
+        value: "Si, inalámbrico",
+        
+      },
+      {
+        id: 23,
+        value: "De luces",
+        
+      },
+      {
+        id: 14,
+        value: "Madera",
+        
+      },
+      {
+        id: 15,
+        value: "Ruedas / Empuñaduras de Transporte",
+        
+      },
+      {
+        id: 16,
+        value: "31 x 83 x 31 cm",
+        
+      },
+      {
+        id: 17,
+        value: "35,5 x 88 x 35,5 cm",
+        
+      },
+      {
+        id: 18,
+        value: "13,75 Kg",
+        
+      },
+      {
+        id: 19,
+        value: "7798111354367",
+        
+      },
+    ],
+    includes: [
+      1, // Mic inalambrico,
+      3,
+      12, // Cable de alimentacion
+      9 // Manual
+    ],
+    certNo: 'Q-AR-01590-T-0',
+    downloads: 'https://drive.google.com/drive/folders/1CFO0ECLhRM5A4eT3pAoPxnhWlMJgyN95',
+    variants: []
+  },
+  {// AW-T2010
+    name: 'Torre de Sonido Bluetooth Ring 13500W',
+    sku: 'AW-T2010',
+    link: '/productos/AW-T2010',
+    line: 'ring',
+    categories: [110], 
+    imgs: [
+      '/products/AW-T2010/img/1.webp',
+      '/products/AW-T2010/img/2.webp',
+      '/products/AW-T2010/img/3.webp',
+      '/products/AW-T2010/img/4.webp',
+      '/products/AW-T2010/img/5.webp',
+    ].map(e => fileserver + e),
+    top: true,
+    360: true,
+    gen: "1º Generación",
+    banners: [
+      {
+        id: 1,
+        customTitle: 'Micrófono inalámbrico incluido'
+        // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
+      },
+      {
+        id: 2,
+      },
+      {
+        id: 4,
+        customImg: fileserver + '/banners/poolparty2010.webp'
+      },
+      {
+        id: 5,
+        customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+      },
+      {
+        id: 15
+      }
+    ],
+    shortDesc: 'Potencia y Calidad',
+    longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno, vas a poder tirar tu casa por la ventana.",
+    buyLink: '',
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: '13500W PMPO'
+      },
+      { // Woofer
+        id: 3,
+        value: '2 de 10"'
+      },
+      { // Tweeter
+        id: 35,
+        value: '1 de 2"'
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // Ruedas y Caja de Madera
+        id: 36,
+      },
+      { // Micrófono Inalámbrico 
+        id: 14,
+      },
+      { // Entrada Guitarra y Mic
+        id: 21,
+      },
+      { // Efectos de Luz
+        id: 6,
+      },
+      /* { // Batería Recargable
+        id: 7,
+        value: 'Interna Recargable 12V / 4.5Ah'
+      }, */
+      { // Radio FM
+        id: 25,
+      },
+      { // Duracion Batería
+        id: 8,
+        value: '6 horas (según su uso)'
       },
       { // MicroSD y USB
         id: 37,
@@ -344,45 +595,54 @@ export const products = [
       12, // Cable de alimentacion
       9 // Manual y garantia
     ],
-    certNo: `Q-AR-01590-T-0`,
-    downloads: `https://drive.google.com/drive/folders/1cvmjEHaxFp8dlIgsqklkbW9HBPkGaWFQ`,
-    variants: [`AW-T2010`, `AW-T2010-PB`]
+    certNo: 'Q-AR-01590-T-0',
+    downloads: 'https://drive.google.com/drive/folders/1cvmjEHaxFp8dlIgsqklkbW9HBPkGaWFQ',
+    variants: ['AW-T2010', 'AW-T2010-PB']
   },
   {// AW-T2010-PB
-    name: `Torre de Sonido Bluetooth Ring 14500W`,
-    sku: `AW-T2010-PB`,
-    link: `/productos/AW-T2010-PB`,
-    line: `ring`,
+    name: 'Torre de Sonido Bluetooth Ring 14500W',
+    sku: 'AW-T2010-PB',
+    link: '/productos/AW-T2010-PB',
+    line: 'ring',
     categories: [102], 
     imgs: [
-      `/products/AW-T2010-PB/img/1.webp`,
-      `/products/AW-T2010-PB/img/2.webp`,
-      `/products/AW-T2010-PB/img/3.webp`,
-      `/products/AW-T2010-PB/img/4.webp`,
-      `/products/AW-T2010-PB/img/5.webp`,
-      `/products/AW-T2010-PB/img/6.webp`,
-      `/products/AW-T2010-PB/img/7.webp`,
-      `/products/AW-T2010-PB/img/8.webp`,
-      `/products/AW-T2010-PB/img/9.webp`,
+      '/products/AW-T2010-PB/img/1.webp',
+      '/products/AW-T2010-PB/img/2.webp',
+      '/products/AW-T2010-PB/img/3.webp',
+      '/products/AW-T2010-PB/img/4.webp',
+      '/products/AW-T2010-PB/img/5.webp',
+      '/products/AW-T2010-PB/img/6.webp',
+      '/products/AW-T2010-PB/img/7.webp',
+      '/products/AW-T2010-PB/img/8.webp',
+      '/products/AW-T2010-PB/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "2º Generación",
     banners: [
-      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
-        desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
-        desc: `¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.` },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + `/banners/poolparty2010.webp`,
-        desc: `Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!` },
-      { title: `Preparate para tocar`, img: fileserver + `/banners/live.webp`,
-        desc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!" }
+      {
+        id: 1,
+        customTitle: 'Micrófono inalámbrico incluido'
+        // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
+      },
+      {
+        id: 2,
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 4,
+        customImg: fileserver + '/banners/poolparty2010.webp'
+      },
+      {
+        id: 5,
+        customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+      }
     ],
-    shortDesc: `Potencia y Calidad`,
+    shortDesc: 'Potencia y Calidad',
     longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno, vas a poder tirar tu casa por la ventana.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/212-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2010-pb.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/212-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2010-pb.html',
     videos: [
       /* {
         id: 1,
@@ -393,7 +653,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `14500W PMPO`
+        value: '14500W PMPO'
       },
       { // TWS
         id: 11,
@@ -421,11 +681,11 @@ export const products = [
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 12V / 7.5Ah`
+        value: 'Interna Recargable 12V / 7.5Ah'
       },
       { // Duracion Batería
         id: 8,
-        value: `6 horas (según su uso)`
+        value: '6 horas (según su uso)'
       },
       { // Caja de Madera
         id: 18,
@@ -534,50 +794,59 @@ export const products = [
       12, // Cable de alimentacion
       9 // Manual y garantia
     ],
-    certNo: `Q-AR-01590-T-0`,
-    downloads: `https://drive.google.com/drive/folders/1Cemu-urtrh7h1eOF0ZXxn7vKxMVldKJv`,
+    certNo: 'Q-AR-01590-T-0',
+    downloads: 'https://drive.google.com/drive/folders/1Cemu-urtrh7h1eOF0ZXxn7vKxMVldKJv',
     variants: []
   },
   {// AW-T2012
-    name: `Torre de Sonido Bluetooth Ring 16000W`,
-    sku: `AW-T2012`,
-    link: `/productos/AW-T2012`,
-    line: `ring`,
+    name: 'Torre de Sonido Bluetooth Ring 16000W',
+    sku: 'AW-T2012',
+    link: '/productos/AW-T2012',
+    line: 'ring',
     categories: [102], 
     imgs: [
-      `/products/AW-T2012/img/1.webp`,
-      `/products/AW-T2012/img/2.webp`,
-      `/products/AW-T2012/img/3.webp`,
-      `/products/AW-T2012/img/4.webp`,
-      `/products/AW-T2012/img/5.webp`,
-      `/products/AW-T2012/img/6.webp`,
-      `/products/AW-T2012/img/7.webp`,
-      `/products/AW-T2012/img/8.webp`,
-      `/products/AW-T2012/img/9.webp`,
+      '/products/AW-T2012/img/1.webp',
+      '/products/AW-T2012/img/2.webp',
+      '/products/AW-T2012/img/3.webp',
+      '/products/AW-T2012/img/4.webp',
+      '/products/AW-T2012/img/5.webp',
+      '/products/AW-T2012/img/6.webp',
+      '/products/AW-T2012/img/7.webp',
+      '/products/AW-T2012/img/8.webp',
+      '/products/AW-T2012/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
     banners: [
-      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`, 
-        desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
-        desc: `¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.` },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + `/banners/fiestas2012.webp`,
-        desc: `Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!` },
-      { title: `Preparate para tocar`, img: fileserver + `/banners/live.webp`,
-        desc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en   bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!" }
+      {
+        id: 1,
+        customTitle: 'Micrófono inalámbrico incluido'
+        // TO OVERWRITE PRESET TITLE AND DESCRIPTION MUST SET: customTitle, customDesc
+      },
+      {
+        id: 2,
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 4,
+        customImg: fileserver + '/banners/fiestas2012.webp'
+      },
+      {
+        id: 5,
+        customDesc: "Ya que es portátil y pudiendo usar hasta 2 micrófonos y una guitarra, permite realizar presentaciones en vivo en bares, celebraciones, espacios públicos, vía streaming... ¡donde quieras!"
+      }
     ],
-    shortDesc: `Sonido Colosal`,
+    shortDesc: 'Sonido Colosal',
     longDesc: "Caja con cuerpo de madera, 1,49 centímetros de altura. Una gran torre en todo sentido de la palabra.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/253-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2012.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/253-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2012.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `16000W PMPO`
+        value: '16000W PMPO'
       },
       { // TWS
         id: 11,
@@ -605,11 +874,11 @@ export const products = [
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 12V / 7.5Ah`
+        value: 'Interna Recargable 12V / 7.5Ah'
       },
       { // Duracion Batería
         id: 8,
-        value: `6 horas (según su uso)`
+        value: '6 horas (según su uso)'
       },
       { // Caja de Madera
         id: 18,
@@ -718,48 +987,59 @@ export const products = [
       12, // Cable de alimentacion
       9 // Manual y garantia
     ],
-    certNo: `Q-AR-01590-T-0`,
-    downloads: `https://drive.google.com/drive/folders/1LC8zxO0Wveyy-OQk7pDL8D1q80NvccJw`,
+    certNo: 'Q-AR-01590-T-0',
+    downloads: 'https://drive.google.com/drive/folders/1LC8zxO0Wveyy-OQk7pDL8D1q80NvccJw',
     variants: []
   },
 
   /////////////// LINEA PARTY ////////////////
 
   {// AW-P240D
-    name: `Parlante Portátil Bluetooth Party 2500W`,
-    sku: `AW-P240D`,
-    link: `/productos/AW-P240D`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 2500W',
+    sku: 'AW-P240D',
+    link: '/productos/AW-P240D',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-P240D/img/1.webp`,
-      `/products/AW-P240D/img/2.webp`,
-      `/products/AW-P240D/img/3.webp`,
-      `/products/AW-P240D/img/4.webp`,
-      `/products/AW-P240D/img/5.webp`,
-      `/products/AW-P240D/img/6.webp`,
-      `/products/AW-P240D/img/7.webp`,
-      `/products/AW-P240D/img/8.webp`,
-      `/products/AW-P240D/img/9.webp`,
+      '/products/AW-P240D/img/1.webp',
+      '/products/AW-P240D/img/2.webp',
+      '/products/AW-P240D/img/3.webp',
+      '/products/AW-P240D/img/4.webp',
+      '/products/AW-P240D/img/5.webp',
+      '/products/AW-P240D/img/6.webp',
+      '/products/AW-P240D/img/7.webp',
+      '/products/AW-P240D/img/8.webp',
+      '/products/AW-P240D/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
     gen: "1º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel240sa.webp`,
-        desc: `Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.` },
-      { title: `Micrófono incluido`, img: fileserver + `/banners/microfonocable.webp`,
-        desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws240.webp`, 
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil240.webp`,
-        desc: `Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.` },
-      { title: `Control remoto incluido`, img: fileserver + `/banners/control.webp`, 
-        desc: `Pasá tus canciones o controlá el volumen desde la distancia con el control remoto incluido.` }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel240sa.webp'
+      },
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp'
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws240.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil240.webp'
+      },
+      {
+        id: 23,
+        customImg: fileserver + '/banners/control.webp'
+      }
     ],
-    shortDesc: `Musicalizá tu día`,
+    shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
-    buyLink: ``,
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -770,7 +1050,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `2500W PMPO`
+        value: '2500W PMPO'
       },
       { // TWS
         id: 11,
@@ -780,7 +1060,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `1 de 8"`
+        value: '1 de 8"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -793,7 +1073,7 @@ export const products = [
       },
       { // Duración de batería
         id: 8,
-        value: `3 horas a máximo volumen`
+        value: '3 horas a máximo volumen'
       },
       { // USB
         id: 33
@@ -902,47 +1182,56 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1SkL0B6U6qEuWoQbGNK2aL4IVoeNyAE7R`,
-    variants: [`AW-P240D`, `AW-P240D-SA`,`AW-P240D-SN`]
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1SkL0B6U6qEuWoQbGNK2aL4IVoeNyAE7R',
+    variants: ['AW-P240D', 'AW-P240D-SA','AW-P240D-SN']
   },
   {// AW-P240D-SA
-    name: `Parlante Portátil Bluetooth Party 2500W`,
-    sku: `AW-P240D-SA`,
-    link: `/productos/AW-P240D-SA`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 2500W',
+    sku: 'AW-P240D-SA',
+    link: '/productos/AW-P240D-SA',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-P240D-SA/img/1.webp`,
-      `/products/AW-P240D-SA/img/2.webp`,
-      `/products/AW-P240D-SA/img/3.webp`,
-      `/products/AW-P240D-SA/img/4.webp`,
-      `/products/AW-P240D-SA/img/5.webp`,
-      `/products/AW-P240D-SA/img/6.webp`,
-      `/products/AW-P240D-SA/img/7.webp`,
-      `/products/AW-P240D-SA/img/8.webp`,
+      '/products/AW-P240D-SA/img/1.webp',
+      '/products/AW-P240D-SA/img/2.webp',
+      '/products/AW-P240D-SA/img/3.webp',
+      '/products/AW-P240D-SA/img/4.webp',
+      '/products/AW-P240D-SA/img/5.webp',
+      '/products/AW-P240D-SA/img/6.webp',
+      '/products/AW-P240D-SA/img/7.webp',
+      '/products/AW-P240D-SA/img/8.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
     gen: "2º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel240sa.webp`,
-        desc: `Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws240.webp`, 
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `Reguladores independientes`, img: fileserver + `/banners/reguladores450sa.webp`, 
-        desc: `Regulá de forma independiente el volumen y eco del micrófono.` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil240.webp`, 
-        desc: `Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.` }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel240sa.webp'
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws240.webp'
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450sa.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil240.webp'
+      }
     ],
-    shortDesc: `Musicalizá tu día`,
+    shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `2500W PMPO`
+        value: '2500W PMPO'
       },
       { // TWS
         id: 11,
@@ -952,7 +1241,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `1 de 8"`
+        value: '1 de 8"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -965,7 +1254,7 @@ export const products = [
       },
       { // Duración de batería
         id: 8,
-        value: `3 horas a máximo volumen`
+        value: '3 horas a máximo volumen'
       },
       { // USB
         id: 33
@@ -1072,48 +1361,58 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1-UQ3H-GaeaCwa56k3rGV0KSMxKdPQmI_`,
-    variants: [`AW-P240D`,`AW-P240D-SA`,`AW-P240D-SN`]
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1-UQ3H-GaeaCwa56k3rGV0KSMxKdPQmI_',
+    variants: ['AW-P240D','AW-P240D-SA','AW-P240D-SN']
   },
   {// AW-P240D-SN
-    name: `Parlante Portátil Bluetooth Party 2500W`,
-    sku: `AW-P240D-SN`,
-    link: `/productos/AW-P240D-SN`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 2500W',
+    sku: 'AW-P240D-SN',
+    link: '/productos/AW-P240D-SN',
+    line: 'party',
     categories: [101], 
     imgs: [
-      `/products/AW-P240D-SN/img/1.webp`,
-      `/products/AW-P240D-SN/img/2.webp`,
-      `/products/AW-P240D-SN/img/3.webp`,
-      `/products/AW-P240D-SN/img/4.webp`,
-      `/products/AW-P240D-SN/img/5.webp`,
-      `/products/AW-P240D-SN/img/6.webp`,
-      `/products/AW-P240D-SN/img/7.webp`,
-      `/products/AW-P240D-SN/img/8.webp`,
-      `/products/AW-P240D-SN/img/9.webp`,
+      '/products/AW-P240D-SN/img/1.webp',
+      '/products/AW-P240D-SN/img/2.webp',
+      '/products/AW-P240D-SN/img/3.webp',
+      '/products/AW-P240D-SN/img/4.webp',
+      '/products/AW-P240D-SN/img/5.webp',
+      '/products/AW-P240D-SN/img/6.webp',
+      '/products/AW-P240D-SN/img/7.webp',
+      '/products/AW-P240D-SN/img/8.webp',
+      '/products/AW-P240D-SN/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "3º Generación",
     banners: [
-      { title: `Reguladores independientes`, img: fileserver + `/banners/reguladores450sn.webp`, 
-        desc: `Regulá de forma independiente el volumen y eco del micrófono.` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws240.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil240.webp`,
-        desc: `Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.` },
-      { title: `Entrada para micrófono`, img: fileserver + `/banners/microfonocable.webp`,
-        desc: `¿Karaoke? ¡de una! Gracias a su entrada para micrófono podés conectar uno y cantar con tus amigos toda la noche. ¡Que la fiesta no pare!` }
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450sn.webp'
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws240.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil240.webp'
+      },
+      {
+        id: 1,
+        customTitle: 'Entrada para micrófono',
+        customDesc: '¿Karaoke? ¡de una! Gracias a su entrada para micrófono podés conectar uno y cantar con tus amigos toda la noche. ¡Que la fiesta no pare!',
+        customImg: fileserver + '/banners/microfonocable.webp'
+      }
     ],
-    shortDesc: `Musicalizá tu día`,
+    shortDesc: 'Musicalizá tu día',
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/331-parlante-bluetooth-portatil-2500w-aiwa-aw-p240d-sn.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/331-parlante-bluetooth-portatil-2500w-aiwa-aw-p240d-sn.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `2500W PMPO`
+        value: '2500W PMPO'
       },
       { // TWS
         id: 11,
@@ -1123,7 +1422,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `1 de 8"`
+        value: '1 de 8"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -1136,7 +1435,7 @@ export const products = [
       },
       { // Duración de batería
         id: 8,
-        value: `3 horas a máximo volumen`
+        value: '3 horas a máximo volumen'
       },
       {
         id: 28
@@ -1244,44 +1543,59 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1AkUOXIGyh1tLjEGlNq2iN2CHEIodiBFY`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1AkUOXIGyh1tLjEGlNq2iN2CHEIodiBFY',
     variants: []
   },
   {// AW-P450D
-    name: `Parlante Portátil Bluetooth Party 4500W`,
-    sku: `AW-P450D`,
-    link: `/productos/AW-P450D`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 4500W',
+    sku: 'AW-P450D',
+    link: '/productos/AW-P450D',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-P450D/img/1.webp`,
-      `/products/AW-P450D/img/2.webp`,
-      `/products/AW-P450D/img/4.webp`,
-      `/products/AW-P450D/img/6.webp`,
-      `/products/AW-P450D/img/7.webp`,
-      `/products/AW-P450D/img/8.webp`,
-      `/products/AW-P450D/img/9.webp`,
-      `/products/AW-P450D/img/5.webp`,
+      '/products/AW-P450D/img/1.webp',
+      '/products/AW-P450D/img/2.webp',
+      '/products/AW-P450D/img/4.webp',
+      '/products/AW-P450D/img/6.webp',
+      '/products/AW-P450D/img/7.webp',
+      '/products/AW-P450D/img/8.webp',
+      '/products/AW-P450D/img/9.webp',
+      '/products/AW-P450D/img/5.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
     gen: "1º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel450sa.webp`,
-        desc: `Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.` },
-      { title: `Micrófono incluido`, img: fileserver + `/banners/microfonocable.webp`,
-        desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!` },
-      { title: `Reguladores independientes`, img: fileserver + `/banners/reguladores450sa.webp`,
-        desc: `Regulá de forma independiente el volumen y eco del micrófono.` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws450.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `Control remoto incluido`, img: fileserver + `/banners/control.webp`,
-        desc: `Pasá tus canciones o controlá el volumen desde la distancia con el control remoto incluido.` }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel450sa.webp'
+      },
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp'
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450sa.webp'
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws450.webp'
+      },
+      /* {
+        id: 6,
+        customImg: fileserver + '/banners/bar450.webp'
+      }, */
+      {
+        id: 23,
+        customImg: fileserver + '/banners/control.webp'
+      }
     ],
-    shortDesc: `Tu compañía indispensable`,
+    shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: ``,
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -1292,7 +1606,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `4500W PMPO`
+        value: '4500W PMPO'
       },
       { // TWS
         id: 11,
@@ -1302,7 +1616,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `2 de 6.5"`
+        value: '2 de 6.5"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -1315,7 +1629,7 @@ export const products = [
       },
       { // Duración de batería
         id: 8,
-        value: `3 horas a máximo volumen`
+        value: '3 horas a máximo volumen'
       },
       { // USB
         id: 33
@@ -1424,47 +1738,55 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/11HuAZNrU_0t1Ri1lf79m_4gef_ICWMbR`,
-    variants: [`AW-P450D`, `AW-P450D-SA`, `AW-P450D-SN`]
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/11HuAZNrU_0t1Ri1lf79m_4gef_ICWMbR',
+    variants: ['AW-P450D', 'AW-P450D-SA', 'AW-P450D-SN']
   },
   {// AW-P450D-SA
-    name: `Parlante Portátil Bluetooth Party 4500W`,
-    sku: `AW-P450D-SA`,
-    link: `/productos/AW-P450D-SA`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 4500W',
+    sku: 'AW-P450D-SA',
+    link: '/productos/AW-P450D-SA',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-P450D-SA/img/1.webp`,
-      `/products/AW-P450D-SA/img/2.webp`,
-      `/products/AW-P450D-SA/img/4.webp`,
-      `/products/AW-P450D-SN/img/5.webp`,
-      `/products/AW-P450D-SA/img/6.webp`,
-      `/products/AW-P450D-SA/img/7.webp`,
-      `/products/AW-P450D-SA/img/8.webp`,
-      `/products/AW-P450D-SA/img/9.webp`,
+      '/products/AW-P450D-SA/img/1.webp',
+      '/products/AW-P450D-SA/img/2.webp',
+      '/products/AW-P450D-SA/img/4.webp',
+      '/products/AW-P450D-SN/img/5.webp',
+      '/products/AW-P450D-SA/img/6.webp',
+      '/products/AW-P450D-SA/img/7.webp',
+      '/products/AW-P450D-SA/img/8.webp',
+      '/products/AW-P450D-SA/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
     gen: "2º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel450sa.webp`,
-        desc: `Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws450.webp`, 
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `Reguladores independientes`, img: fileserver + `/banners/reguladores450sa.webp`,
-        desc: `Regulá de forma independiente el volumen y eco del micrófono.` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/bar450.webp`,
-        desc: `Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.` }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel450sa.webp'
+      },
+      { // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+        id: 2,
+        customImg: fileserver + '/banners/tws450.webp'
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450sa.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/bar450.webp'
+      }
     ],
-    shortDesc: `Tu compañía indispensable`,
+    shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `4500W PMPO`
+        value: '4500W PMPO'
       },
       { // TWS
         id: 11,
@@ -1474,7 +1796,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `2 de 6.5"`
+        value: '2 de 6.5"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -1487,7 +1809,7 @@ export const products = [
       },
       { // Duración de batería
         id: 8,
-        value: `3 horas a máximo volumen`
+        value: '3 horas a máximo volumen'
       },
       { // USB
         id: 33
@@ -1594,47 +1916,57 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/126X1HtcyfECqgoFRFaqpEV94gAZ2c4Xc`,
-    variants: [`AW-P450D`, `AW-P450D-SA`, `AW-P450D-SN`]
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/126X1HtcyfECqgoFRFaqpEV94gAZ2c4Xc',
+    variants: ['AW-P450D', 'AW-P450D-SA', 'AW-P450D-SN']
   },
   {// AW-P450D-SN
-    name: `Parlante Portátil Bluetooth Party 4500W`,
-    sku: `AW-P450D-SN`,
-    link: `/productos/AW-P450D-SN`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 4500W',
+    sku: 'AW-P450D-SN',
+    link: '/productos/AW-P450D-SN',
+    line: 'party',
     categories: [101], 
     imgs: [
-      `/products/AW-P450D-SN/img/1.webp`,
-      `/products/AW-P450D-SN/img/2.webp`,
-      `/products/AW-P450D-SN/img/3.webp`,
-      `/products/AW-P450D-SN/img/4.webp`,
-      `/products/AW-P450D-SN/img/5.webp`,
-      `/products/AW-P450D-SN/img/6.webp`,
-      `/products/AW-P450D-SN/img/7.webp`,
-      `/products/AW-P450D-SN/img/8.webp`,
+      '/products/AW-P450D-SN/img/1.webp',
+      '/products/AW-P450D-SN/img/2.webp',
+      '/products/AW-P450D-SN/img/3.webp',
+      '/products/AW-P450D-SN/img/4.webp',
+      '/products/AW-P450D-SN/img/5.webp',
+      '/products/AW-P450D-SN/img/6.webp',
+      '/products/AW-P450D-SN/img/7.webp',
+      '/products/AW-P450D-SN/img/8.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "3º Generación",
     banners: [
-      { title: `Reguladores independientes`, img: fileserver + `/banners/reguladores450.webp`,
-        desc: `Regulá de forma independiente el volumen y eco del micrófono.` },
-      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws450.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/bar450.webp`,
-        desc: `Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.` },
-      { title: `Entrada para micrófono`, img: fileserver + `/banners/karaoke450.webp`,
-        desc: `¿Karaoke? ¡de una! Gracias a su entrada para micrófono podés conectar uno y cantar con tus amigos toda la noche. ¡Que la fiesta no pare!` }
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores450.webp'
+      },
+      { // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+        id: 2,
+        customImg: fileserver + '/banners/tws450.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/bar450.webp'
+      },
+      {
+        id: 1,
+        customTitle: 'Entrada para micrófono',
+        customDesc: '¿Karaoke? ¡de una! Gracias a su entrada para micrófono podés conectar uno y cantar con tus amigos toda la noche. ¡Que la fiesta no pare!',
+        customImg: fileserver + '/banners/karaoke450.webp'
+      }
     ],
-    shortDesc: `Tu compañía indispensable`,
+    shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/252-parlante-portatil-bluetooth-aiwa-aw-p450d-sn.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/252-parlante-portatil-bluetooth-aiwa-aw-p450d-sn.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `4500W PMPO`
+        value: '4500W PMPO'
       },
       { // TWS
         id: 11,
@@ -1644,7 +1976,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `2 de 6.5"`
+        value: '2 de 6.5"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -1657,7 +1989,7 @@ export const products = [
       },
       { // Duración de batería
         id: 8,
-        value: `3 horas a máximo volumen`
+        value: '3 horas a máximo volumen'
       },
       {
         id: 28
@@ -1765,43 +2097,54 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1TxmR_vMk0uC10q29mnngRGS8rRKmRTBe`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1TxmR_vMk0uC10q29mnngRGS8rRKmRTBe',
     variants: []
   },
   {// AW-T451D
-    name: `Torre de Sonido Portátil Bluetooth Party 4500W`,
-    sku: `AW-T451D`,
-    link: `/productos/AW-T451D`,
-    line: `party`,
+    name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
+    sku: 'AW-T451D',
+    link: '/productos/AW-T451D',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-T451D/img/1.webp`,
-      `/products/AW-T451D/img/2.webp`,
-      `/products/AW-T451D/img/3.webp`,
-      `/products/AW-T451D/img/4.webp`,
-      `/products/AW-T451D/img/5.webp`,
+      '/products/AW-T451D/img/1.webp',
+      '/products/AW-T451D/img/2.webp',
+      '/products/AW-T451D/img/3.webp',
+      '/products/AW-T451D/img/4.webp',
+      '/products/AW-T451D/img/5.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel451.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: 'Micrófono incluido', img: fileserver + `/banners/microfonocable.webp`,
-        desc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws600.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil451.webp`,
-        desc: 'Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.' },
-      { title: `Accesorios incluidos`, img: fileserver + '/banners/micycontrol.webp',
-        desc: '¡Armá tu Karaoke! Incluye micrófono con cable, y control remoto para que puedas gestionar tu música a distancia.' },
-      { title: `No te quedes sin batería`, img: fileserver + '/banners/carga451sn.webp',
-        desc: 'Podés usar el cable MicroUSB incluido con el adaptador de tu celular para cargarlo fácilmente.' },
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel451.webp'
+      },
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil451.webp'
+      },
+      {
+        id: 18,
+      },
+      {
+        id: 17
+      },
     ],
-    shortDesc: `La potencia que estabas esperando`,
+    shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
-    buyLink: ``,
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -1812,7 +2155,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `4500W PMPO`
+        value: '4500W PMPO'
       },
       { // TWS
         id: 11,
@@ -1822,7 +2165,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `2 de 6.5"`
+        value: '2 de 6.5"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -1835,7 +2178,7 @@ export const products = [
       },
       { // Duración de batería
         id: 8,
-        value: `3 horas a máximo volumen`
+        value: '3 horas a máximo volumen'
       },
       { // Mobile Holder
         id: 29,
@@ -1945,46 +2288,57 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1_jqaumAFlrCm0kDam7RewKtMBY5PLCrw`,
-    variants: [`AW-T451D`, `AW-T451D-SA`, `AW-T451D-SN`]
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1_jqaumAFlrCm0kDam7RewKtMBY5PLCrw',
+    variants: ['AW-T451D', 'AW-T451D-SA', 'AW-T451D-SN']
   },
   {// AW-T451D-SA
-    name: `Torre de Sonido Portátil Bluetooth Party 4500W`,
-    sku: `AW-T451D-SA`,
-    link: `/productos/AW-T451D-SA`,
-    line: `party`,
+    name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
+    sku: 'AW-T451D-SA',
+    link: '/productos/AW-T451D-SA',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-T451D-SA/img/1.webp`,
-      `/products/AW-T451D-SA/img/2.webp`,
-      `/products/AW-T451D-SA/img/3.webp`,
-      `/products/AW-T451D-SA/img/4.webp`,
-      `/products/AW-T451D-SA/img/5.webp`,
+      '/products/AW-T451D-SA/img/1.webp',
+      '/products/AW-T451D-SA/img/2.webp',
+      '/products/AW-T451D-SA/img/3.webp',
+      '/products/AW-T451D-SA/img/4.webp',
+      '/products/AW-T451D-SA/img/5.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "2º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel451.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: "¿Karaoke? ¡De una!", img: fileserver + `/banners/microfonocable.webp`,
-        desc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos." },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws600.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil451.webp`,
-        desc: 'Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.' },
-      { title: `No te quedes sin batería`, img: fileserver + '/banners/carga451sn.webp',
-        desc: 'Podés usar el cable MicroUSB incluido con el adaptador de tu celular para cargarlo fácilmente.' },
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel451.webp'
+      },
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        customTitle: "¿Karaoke? ¡De una!",
+        customDesc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos."
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil451.webp'
+      },
+      {
+        id: 17
+      },
     ],
-    shortDesc: `La potencia que estabas esperando`,
+    shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `4500W PMPO`
+        value: '4500W PMPO'
       },
       { // TWS
         id: 11,
@@ -1994,7 +2348,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `2 de 6.5"`
+        value: '2 de 6.5"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -2007,7 +2361,7 @@ export const products = [
       },
       { // Duración de batería
         id: 8,
-        value: `3 horas a máximo volumen`
+        value: '3 horas a máximo volumen'
       },
       { // Mobile Holder
         id: 29,
@@ -2115,46 +2469,55 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1-mGYda-uVaWyDputWWobMvJxvFIX-1Hs`,
-    variants: [`AW-T451D`, `AW-T451D-SA`, `AW-T451D-SN`]
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1-mGYda-uVaWyDputWWobMvJxvFIX-1Hs',
+    variants: ['AW-T451D', 'AW-T451D-SA', 'AW-T451D-SN']
   },
   {// AW-T451D-SN
-    name: `Torre de Sonido Portátil Bluetooth Party 4500W`,
-    sku: `AW-T451D-SN`,
-    link: `/productos/AW-T451D-SN`,
-    line: `party`,
+    name: 'Torre de Sonido Portátil Bluetooth Party 4500W',
+    sku: 'AW-T451D-SN',
+    link: '/productos/AW-T451D-SN',
+    line: 'party',
     categories: [102],
     imgs: [
-      `/products/AW-T451D-SN/img/1.webp`,
-      `/products/AW-T451D-SN/img/2.webp`,
-      `/products/AW-T451D-SN/img/3.webp`,
-      `/products/AW-T451D-SN/img/4.webp`,
-      `/products/AW-T451D-SN/img/5.webp`,
-      `/products/AW-T451D-SN/img/6.webp`,
-      `/products/AW-T451D-SN/img/7.webp`,
+      '/products/AW-T451D-SN/img/1.webp',
+      '/products/AW-T451D-SN/img/2.webp',
+      '/products/AW-T451D-SN/img/3.webp',
+      '/products/AW-T451D-SN/img/4.webp',
+      '/products/AW-T451D-SN/img/5.webp',
+      '/products/AW-T451D-SN/img/6.webp',
+      '/products/AW-T451D-SN/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "3º Generación",
     banners: [
-      { title: "¿Karaoke? ¡De una!", img: fileserver + `/banners/microfonocable.webp`,
-        desc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos." },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws600.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil451.webp`,
-        desc: 'Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.' },
-      { title: `No te quedes sin batería`, img: fileserver + '/banners/carga451sn.webp',
-        desc: 'Podés usar el cable MicroUSB incluido con el adaptador de tu celular para cargarlo fácilmente.' },
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        customTitle: "¿Karaoke? ¡De una!",
+        customDesc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos."
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil451.webp'
+      },
+      {
+        id: 17
+      },
     ],
-    shortDesc: `La potencia que estabas esperando`,
+    shortDesc: 'La potencia que estabas esperando',
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `4500W PMPO`
+        value: '4500W PMPO'
       },
       { // TWS
         id: 11,
@@ -2164,7 +2527,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `2 de 6.5"`
+        value: '2 de 6.5"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -2177,7 +2540,7 @@ export const products = [
       },
       { // Duración de batería
         id: 8,
-        value: `3 horas a máximo volumen`
+        value: '3 horas a máximo volumen'
       },
       { // Mobile Holder
         id: 29,
@@ -2279,43 +2642,52 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/15kC-dwt90ybZ5ax-91uWvisOVJYDAfPH`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/15kC-dwt90ybZ5ax-91uWvisOVJYDAfPH',
     variants: []
   },
   {// AW-T600D
-    name: `Torre de Sonido Portátil Bluetooth Party 5000W`,
-    sku: `AW-T600D`,
-    link: `/productos/AW-T600D`,
-    line: `party`,
+    name: 'Torre de Sonido Portátil Bluetooth Party 5000W',
+    sku: 'AW-T600D',
+    link: '/productos/AW-T600D',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-T600D/img/1.webp`,
-      `/products/AW-T600D/img/2.webp`,
-      `/products/AW-T600D/img/3.webp`,
-      `/products/AW-T600D/img/4.webp`,
-      `/products/AW-T600D/img/5.webp`,
-      `/products/AW-T600D/img/6.webp`,
-      `/products/AW-T600D/img/7.webp`,
-      `/products/AW-T600D/img/8.webp`,
-      `/products/AW-T600D/img/9.webp`,
+      '/products/AW-T600D/img/1.webp',
+      '/products/AW-T600D/img/2.webp',
+      '/products/AW-T600D/img/3.webp',
+      '/products/AW-T600D/img/4.webp',
+      '/products/AW-T600D/img/5.webp',
+      '/products/AW-T600D/img/6.webp',
+      '/products/AW-T600D/img/7.webp',
+      '/products/AW-T600D/img/8.webp',
+      '/products/AW-T600D/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/reproduci600.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: 'Micrófono incluido', img: fileserver + `/banners/microfonocable.webp`,
-        desc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws600.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil600.webp`,
-        desc: 'Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.' }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/reproduci600.webp'
+      },
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp'
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil600.webp'
+      }
     ],
-    shortDesc: `El aliado en tus fiestas`,
+    shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
-    buyLink: ``,
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -2326,7 +2698,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `5000W PMPO`
+        value: '5000W PMPO'
       },
       { // TWS
         id: 11,
@@ -2336,7 +2708,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `2 de 8"`
+        value: '2 de 8"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -2457,45 +2829,52 @@ export const products = [
       5, // Fuente 
       9, // Manual de usuario
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/1cw-sGt21j80tZ5031iVSGqvPsmXJTEp4`,
-    variants: [`AW-T600D`, `AW-T600D-SA`, `AW-T600D-SN`]
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/1cw-sGt21j80tZ5031iVSGqvPsmXJTEp4',
+    variants: ['AW-T600D', 'AW-T600D-SA', 'AW-T600D-SN']
   },
   {// AW-T600D-SA
-    name: `Torre de Sonido Portátil Bluetooth Party 5000W`,
-    sku: `AW-T600D-SA`,
-    link: `/productos/AW-T600D-SA`,
-    line: `party`,
+    name: 'Torre de Sonido Portátil Bluetooth Party 5000W',
+    sku: 'AW-T600D-SA',
+    link: '/productos/AW-T600D-SA',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-T600D/img/2.webp`,
-      `/products/AW-T600D/img/3.webp`,
-      `/products/AW-T600D/img/4.webp`,
-      `/products/AW-T600D/img/5.webp`,
-      `/products/AW-T600D/img/6.webp`,
-      `/products/AW-T600D/img/7.webp`,
+      '/products/AW-T600D/img/2.webp',
+      '/products/AW-T600D/img/3.webp',
+      '/products/AW-T600D/img/4.webp',
+      '/products/AW-T600D/img/5.webp',
+      '/products/AW-T600D/img/6.webp',
+      '/products/AW-T600D/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "2º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/reproduci600.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws600.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil600.webp`,
-        desc: 'Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.' },
-      { title: `Reguladores independientes`, img: fileserver + '/banners/reguladores600sa.webp',
-        desc: 'Regulá de forma independiente el volumen y eco del micrófono.' }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/reproduci600.webp'
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil600.webp'
+      },
+      {
+        id: 16,
+      }
     ],
-    shortDesc: `El aliado en tus fiestas`,
+    shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `5000W PMPO`
+        value: '5000W PMPO'
       },
       { // TWS
         id: 11,
@@ -2505,7 +2884,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `2 de 8"`
+        value: '2 de 8"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -2623,47 +3002,58 @@ export const products = [
       5, // Fuente 
       9, // Manual de usuario
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/10AlqdoQ_rOCdTM_mldiNMPzc9mdRaHk_`,
-    variants: [`AW-T600D`, `AW-T600D-SA`, `AW-T600D-SN`]
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/10AlqdoQ_rOCdTM_mldiNMPzc9mdRaHk_',
+    variants: ['AW-T600D', 'AW-T600D-SA', 'AW-T600D-SN']
   },
   {// AW-T600D-SN
-    name: `Torre de Sonido Portátil Bluetooth Party 5000W`,
-    sku: `AW-T600D-SN`,
-    link: `/productos/AW-T600D-SN`,
-    line: `party`,
+    name: 'Torre de Sonido Portátil Bluetooth Party 5000W',
+    sku: 'AW-T600D-SN',
+    link: '/productos/AW-T600D-SN',
+    line: 'party',
     categories: [102], 
     imgs: [
-      `/products/AW-T600D-SN/img/1.webp`,
-      `/products/AW-T600D-SN/img/2.webp`,
-      `/products/AW-T600D-SN/img/3.webp`,
-      `/products/AW-T600D-SN/img/4.webp`,
-      `/products/AW-T600D-SN/img/5.webp`,
-      `/products/AW-T600D-SN/img/6.webp`,
-      `/products/AW-T600D-SN/img/7.webp`,
-      `/products/AW-T600D-SN/img/8.webp`,
+      '/products/AW-T600D-SN/img/1.webp',
+      '/products/AW-T600D-SN/img/2.webp',
+      '/products/AW-T600D-SN/img/3.webp',
+      '/products/AW-T600D-SN/img/4.webp',
+      '/products/AW-T600D-SN/img/5.webp',
+      '/products/AW-T600D-SN/img/6.webp',
+      '/products/AW-T600D-SN/img/7.webp',
+      '/products/AW-T600D-SN/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "3º Generación",
     banners: [
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws600.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil600.webp`,
-        desc: `Gracias a su batería interna y a sus ruedas podrás trasladarlo escuchar música donde quiera que vayas.` },
-      { title: "¿Karaoke? ¡De una!", img: fileserver + `/banners/microfonocable.webp`,
-        desc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos." },
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/reguladores600sn.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' }
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws600.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil600.webp',
+        customDesc: 'Gracias a su batería interna y a sus ruedas podrás trasladarlo escuchar música donde quiera que vayas.'
+      },
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        customTitle: "¿Karaoke? ¡De una!",
+        customDesc: "Conectá un micrófono y creá recuerdos inolvidables con tu familia y amigos."
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores600sn.webp'
+      }
     ],
-    shortDesc: `El aliado en tus fiestas`,
+    shortDesc: 'El aliado en tus fiestas',
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/266-parlante-portatil-bluetooth-aiwa-aw-t600d-sn.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/266-parlante-portatil-bluetooth-aiwa-aw-t600d-sn.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `5000W PMPO`
+        value: '5000W PMPO'
       },
       { // TWS
         id: 11,
@@ -2673,7 +3063,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `2 de 8"`
+        value: '2 de 8"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -2792,42 +3182,56 @@ export const products = [
       5, // Fuente 
       9, // Manual de usuario
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/1LOrmrc6dboTou4qxp9cyD4-n62oy04NL`,
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/1LOrmrc6dboTou4qxp9cyD4-n62oy04NL',
     variants: []
   },
   {// AW-P1200D
-    name: `Parlante Portátil Bluetooth Party 6000W`,
-    sku: `AW-P1200D`,
-    link: `/productos/AW-P1200D`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 6000W',
+    sku: 'AW-P1200D',
+    link: '/productos/AW-P1200D',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-P1200D/img/1.webp`,
-      `/products/AW-P1200D/img/2.webp`,
-      `/products/AW-P1200D/img/3.webp`,
-      `/products/AW-P1200D/img/4.webp`,
-      `/products/AW-P1200D/img/5.webp`,
-      `/products/AW-P1200D/img/6.webp`,
+      '/products/AW-P1200D/img/1.webp',
+      '/products/AW-P1200D/img/2.webp',
+      '/products/AW-P1200D/img/3.webp',
+      '/products/AW-P1200D/img/4.webp',
+      '/products/AW-P1200D/img/5.webp',
+      '/products/AW-P1200D/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
     gen: "1º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel1200.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: 'Micrófono incluido', img: fileserver + `/banners/microfonocable.webp`,
-        desc: `¡Diversión sin cables! Usalo a distancia con el micrófono y control remoto incluidos.` },
-      { title: `Reguladores independientes`, img: fileserver + `/banners/reguladores1200.webp`,
-        desc: `Regulá de forma independiente el volumen y eco del micrófono. Posee entrada para micrófono estándar de 6,5mm.` },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws1200.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil1200.webp`,
-        desc: `Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas` }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel1200.webp'
+      },
+      {
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        customDesc: '¡Diversión sin cables! Usalo a distancia con el micrófono y control remoto incluidos.'
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores1200.webp',
+        customDesc: 'Regulá de forma independiente el volumen y eco del micrófono. Posee entrada para micrófono estándar de 6,5mm.'
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp',
+        customText: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
+      }
     ],
-    shortDesc: `El alma de la fiesta`,
+    shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
-    buyLink: ``,
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -2838,7 +3242,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6000W PMPO`
+        value: '6000W PMPO'
       },
       { // TWS
         id: 11,
@@ -2848,7 +3252,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `1 de 12"`
+        value: '1 de 12"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -2870,11 +3274,11 @@ export const products = [
       },
       { // Radio
         id: 25,
-        value: `3 horas (según volumen)`
+        value: '3 horas (según volumen)'
       },
       { // Bateria
         id: 7,
-        value: `de 3.7V / 1800mAh`
+        value: 'de 3.7V / 1800mAh'
       },
     ],
     features: [
@@ -2971,46 +3375,56 @@ export const products = [
       5, // Fuente 
       9, // Manual de usuario
     ],
-    certNo: `Q-AR-01374-T-0`,
-    downloads: `https://drive.google.com/drive/folders/1DDQI7xoXAhdQY2mZEhZwRJp6HO2GdSAW`,
-    variants: [`AW-P1200D`, `AW-P1200D-SA`, `AW-P1200D-SN`]
+    certNo: 'Q-AR-01374-T-0',
+    downloads: 'https://drive.google.com/drive/folders/1DDQI7xoXAhdQY2mZEhZwRJp6HO2GdSAW',
+    variants: ['AW-P1200D', 'AW-P1200D-SA', 'AW-P1200D-SN']
   },
   {// AW-P1200D-SA
-    name: `Parlante Portátil Bluetooth Party 6000W`,
-    sku: `AW-P1200D-SA`,
-    link: `/productos/AW-P1200D-SA`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 6000W',
+    sku: 'AW-P1200D-SA',
+    link: '/productos/AW-P1200D-SA',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-P1200D-SA/img/1.webp`,
-      `/products/AW-P1200D-SA/img/2.webp`,
-      `/products/AW-P1200D-SA/img/3.webp`,
-      `/products/AW-P1200D-SA/img/4.webp`,
-      `/products/AW-P1200D-SA/img/5.webp`,
-      `/products/AW-P1200D-SA/img/6.webp`,
+      '/products/AW-P1200D-SA/img/1.webp',
+      '/products/AW-P1200D-SA/img/2.webp',
+      '/products/AW-P1200D-SA/img/3.webp',
+      '/products/AW-P1200D-SA/img/4.webp',
+      '/products/AW-P1200D-SA/img/5.webp',
+      '/products/AW-P1200D-SA/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
     360: false,
     gen: "2º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel1200.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws1200.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `Reguladores independientes`, img: fileserver + `/banners/reguladores1200.webp`, 
-        desc: `Regulá de forma independiente el volumen y eco del micrófono. Posee entrada para micrófono estándar de 6,5mm.` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil1200.webp`,
-        desc: `Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas` }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel1200.webp'
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 16,
+        customImg: fileserver + '/banners/reguladores1200.webp',
+        customDesc: 'Regulá de forma independiente el volumen y eco del micrófono. Posee entrada para micrófono estándar de 6,5mm.'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp',
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
+      }
     ],
-    shortDesc: `El alma de la fiesta`,
+    shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
-    buyLink: ``,
+    buyLink: '',
     videos: [
     ],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6000W PMPO`
+        value: '6000W PMPO'
       },
       { // TWS
         id: 11,
@@ -3020,7 +3434,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `1 de 12"`
+        value: '1 de 12"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -3042,11 +3456,11 @@ export const products = [
       },
       { // Radio
         id: 25,
-        value: `3 horas (según volumen)`
+        value: '3 horas (según volumen)'
       },
       { // Bateria
         id: 7,
-        value: `de 3.7V / 1800mAh`
+        value: 'de 3.7V / 1800mAh'
       },
     ],
     features: [
@@ -3141,41 +3555,45 @@ export const products = [
       5, // Fuente 
       9, // Manual de usuario
     ],
-    certNo: `Q-AR-01374-T-0`,
-    downloads: `https://drive.google.com/drive/folders/12O54GzSjl0Nm_-2DIHENTO5dmAincenI`,
-    variants: [`AW-P1200D`, `AW-P1200D-SA`, `AW-P1200D-SN`]
+    certNo: 'Q-AR-01374-T-0',
+    downloads: 'https://drive.google.com/drive/folders/12O54GzSjl0Nm_-2DIHENTO5dmAincenI',
+    variants: ['AW-P1200D', 'AW-P1200D-SA', 'AW-P1200D-SN']
   },
   {// AW-P1200D-SN
-    name: `Parlante Portátil Bluetooth Party 6000W`,
-    sku: `AW-P1200D-SN`,
-    link: `/productos/AW-P1200D-SN`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 6000W',
+    sku: 'AW-P1200D-SN',
+    link: '/productos/AW-P1200D-SN',
+    line: 'party',
     categories: [101], 
     imgs: [
-      `/products/AW-P1200D-SN/img/1.webp`,
-      `/products/AW-P1200D-SN/img/2.webp`,
-      `/products/AW-P1200D-SN/img/3.webp`,
-      `/products/AW-P1200D-SN/img/4.webp`,
-      `/products/AW-P1200D-SN/img/5.webp`,
-      `/products/AW-P1200D-SN/img/6.webp`,
+      '/products/AW-P1200D-SN/img/1.webp',
+      '/products/AW-P1200D-SN/img/2.webp',
+      '/products/AW-P1200D-SN/img/3.webp',
+      '/products/AW-P1200D-SN/img/4.webp',
+      '/products/AW-P1200D-SN/img/5.webp',
+      '/products/AW-P1200D-SN/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "3º Generación",
     banners: [
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws1200.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil1200.webp`,
-        desc: 'Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.' }
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp'
+      }
     ],
-    shortDesc: `El alma de la fiesta`,
+    shortDesc: 'El alma de la fiesta',
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/217-parlante-portatil-aiwa-12-pulgadas-bluetooth-aw-p1200d.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/217-parlante-portatil-aiwa-12-pulgadas-bluetooth-aw-p1200d.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6000W PMPO`
+        value: '6000W PMPO'
       },
       { // TWS
         id: 11,
@@ -3185,7 +3603,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `1 de 12"`
+        value: '1 de 12"'
       },
       { // Entrada Micrófono 
         id: 16,
@@ -3204,14 +3622,14 @@ export const products = [
       },
       { // Bateria
         id: 7,
-        value: `de 3.7V / 1800mAh`
+        value: 'de 3.7V / 1800mAh'
       },
       { // Ranura tripode
         id: 41
       },
       { // Duracion bateria
         id: 8,
-        value: `3 horas (según volumen)`
+        value: '3 horas (según volumen)'
       }
     ],
     features: [
@@ -3306,42 +3724,53 @@ export const products = [
       5, // Fuente 
       9, // Manual de usuario
     ],
-    certNo: `Q-AR-01374-T-0`,
-    downloads: `https://drive.google.com/drive/folders/15GtEvArmGnIgG4S7qyJzjPUqpDnSR-jR`,
+    certNo: 'Q-AR-01374-T-0',
+    downloads: 'https://drive.google.com/drive/folders/15GtEvArmGnIgG4S7qyJzjPUqpDnSR-jR',
     variants: []
   },
   {// AW-P1510D
-    name: `Parlante Portátil Bluetooth Party 7000W`,
-    sku: `AW-P1510D`,
-    link: `/productos/AW-P1510D`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 7000W',
+    sku: 'AW-P1510D',
+    link: '/productos/AW-P1510D',
+    line: 'party',
     categories: [110], 
     imgs: [
-      `/products/AW-P1510D/img/1.webp`,
-      `/products/AW-P1510D/img/2.webp`,
-      `/products/AW-P1510D/img/3.webp`,
-      `/products/AW-P1510D/img/4.webp`,
-      `/products/AW-P1510D/img/5.webp`,
-      `/products/AW-P1510D/img/6.webp`,
-      `/products/AW-P1510D/img/7.webp`,
-      `/products/AW-P1510D/img/8.webp`,
+      '/products/AW-P1510D/img/1.webp',
+      '/products/AW-P1510D/img/2.webp',
+      '/products/AW-P1510D/img/3.webp',
+      '/products/AW-P1510D/img/4.webp',
+      '/products/AW-P1510D/img/5.webp',
+      '/products/AW-P1510D/img/6.webp',
+      '/products/AW-P1510D/img/7.webp',
+      '/products/AW-P1510D/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel1510.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: "Micrófono Inalámbrico Incluido", img: fileserver + '/banners/microfono.webp',
-        desc: `¡Diversión sin cables! Usalo a distancia con el micrófono inalámbrico y control remoto incluidos.` },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws1200.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil1200.webp`,
-        desc: `Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas.` }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel1510.webp'
+      },
+      {
+        id: 1,
+        customTitle: "Micrófono Inalámbrico Incluido",
+        customDesc: '¡Diversión sin cables! Usalo a distancia con el micrófono inalámbrico y control remoto incluidos.'
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp',
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas.'
+      }
     ],
-    shortDesc: `La distancia no es problema`,
+    shortDesc: 'La distancia no es problema',
     longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
-    buyLink: ``,
+    buyLink: '',
     videos: [
       {
         id: 1,
@@ -3352,7 +3781,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `7000W PMPO`
+        value: '7000W PMPO'
       },
       { // TWS
         id: 11,
@@ -3362,7 +3791,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `1 de 15"`
+        value: '1 de 15"'
       },
       { // Entrada Mic y Guit 
         id: 21,
@@ -3485,47 +3914,59 @@ export const products = [
       5, // Fuente 
       9, // Manual de usuario
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/1yv88lYDFWpsptavOJggiSgz9Xv8TiEMr`,
-    variants: [`AW-P1510D`, `AW-P1510D-SN`]
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/1yv88lYDFWpsptavOJggiSgz9Xv8TiEMr',
+    variants: ['AW-P1510D', 'AW-P1510D-SN']
   },
   {// AW-P1510D-SN
-    name: `Parlante Portátil Bluetooth Party 7000W`,
-    sku: `AW-P1510D-SN`,
-    link: `/productos/AW-P1510D-SN`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 7000W',
+    sku: 'AW-P1510D-SN',
+    link: '/productos/AW-P1510D-SN',
+    line: 'party',
     categories: [101], 
     imgs: [
-      `/products/AW-P1510D-SN/img/1.webp`,
-      `/products/AW-P1510D-SN/img/2.webp`,
-      `/products/AW-P1510D-SN/img/3.webp`,
-      `/products/AW-P1510D-SN/img/4.webp`,
-      `/products/AW-P1510D-SN/img/5.webp`,
-      `/products/AW-P1510D-SN/img/6.webp`,
-      `/products/AW-P1510D-SN/img/7.webp`,
-      `/products/AW-P1510D-SN/img/8.webp`,
+      '/products/AW-P1510D-SN/img/1.webp',
+      '/products/AW-P1510D-SN/img/2.webp',
+      '/products/AW-P1510D-SN/img/3.webp',
+      '/products/AW-P1510D-SN/img/4.webp',
+      '/products/AW-P1510D-SN/img/5.webp',
+      '/products/AW-P1510D-SN/img/6.webp',
+      '/products/AW-P1510D-SN/img/7.webp',
+      '/products/AW-P1510D-SN/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "2º Generación",
     banners: [
-      { title: `Conectá y escuchá`, img: fileserver + `/banners/panel1510sn.webp`,
-        desc: `Posee una entrada para micrófono o guitarra, y una entrada auxiliar para que traigas tu sonido de donde quieras.` },
-      { title: "Micrófono Inalámbrico Incluido", img: fileserver + '/banners/microfono.webp',
-        desc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws1200.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil1200.webp`,
-        desc: `Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas.` }
+      {
+        id: 15,
+        customTitle: 'Conectá y escuchá',
+        customImg: fileserver + '/banners/panel1510sn.webp',
+        customDesc: 'Posee una entrada para micrófono o guitarra, y una entrada auxiliar para que traigas tu sonido de donde quieras.'
+      },
+      {
+        id: 1,
+        customTitle: "Micrófono Inalámbrico Incluido"
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1200.webp'
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1200.webp',
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas.'
+      }
     ],
-    shortDesc: `La distancia no es problema`,
+    shortDesc: 'La distancia no es problema',
     longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/95-parlante-portatil-aiwa-15-pulgadas-bluetooth-aw-p1510d-7798111353544.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/95-parlante-portatil-aiwa-15-pulgadas-bluetooth-aw-p1510d-7798111353544.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `7000W PMPO`
+        value: '7000W PMPO'
       },
       { // TWS
         id: 11,
@@ -3535,7 +3976,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `1 de 15"`
+        value: '1 de 15"'
       },
       { // Entrada Mic y Guit 
         id: 21,
@@ -3657,45 +4098,57 @@ export const products = [
       5, // Fuente 
       9, // Manual de usuario
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/15G8xiA9_vbWH8G5a8oBL76t7icFDRjMh`,
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/15G8xiA9_vbWH8G5a8oBL76t7icFDRjMh',
     variants: []
   },
   {// AW-P1500PS
-    name: `Parlante Portátil Bluetooth Party 9000W`,
-    sku: `AW-P1500PS`,
-    link: `/productos/AW-P1500PS`,
-    line: `party`,
+    name: 'Parlante Portátil Bluetooth Party 9000W',
+    sku: 'AW-P1500PS',
+    link: '/productos/AW-P1500PS',
+    line: 'party',
     categories: [101], 
     imgs: [
-      `/products/AW-P1500PS/img/1.webp`,
-      `/products/AW-P1500PS/img/8.webp`,
-      `/products/AW-P1500PS/img/9.webp`,
-      `/products/AW-P1500PS/img/2.webp`,
-      `/products/AW-P1500PS/img/3.webp`,
-      `/products/AW-P1500PS/img/4.webp`,
-      `/products/AW-P1500PS/img/5.webp`,
-      `/products/AW-P1500PS/img/6.webp`,
-      `/products/AW-P1500PS/img/7.webp`,
+      '/products/AW-P1500PS/img/1.webp',
+      '/products/AW-P1500PS/img/8.webp',
+      '/products/AW-P1500PS/img/9.webp',
+      '/products/AW-P1500PS/img/2.webp',
+      '/products/AW-P1500PS/img/3.webp',
+      '/products/AW-P1500PS/img/4.webp',
+      '/products/AW-P1500PS/img/5.webp',
+      '/products/AW-P1500PS/img/6.webp',
+      '/products/AW-P1500PS/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
     banners: [
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel1500.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: "Micrófono Inalámbrico Incluido", img: fileserver + '/banners/microfono.webp',
-        desc: `¡Diversión sin cables! Incluye micrófono inalámbrico UHF (Ultra High Frequency) y control remoto.` },
-      { title: `Elevá tu sonido`, img: fileserver + '/banners/tripode1500.webp',
-        desc: 'Viene con un soporte de 120cm de alto. ¡Elevá la calidad de tus presentaciones!' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws1500.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil1500.webp`,
-        desc: `Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas` }
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel1500.webp'
+      },
+      {
+        id: 1,
+        customTitle: "Micrófono Inalámbrico Incluido",
+        customDesc: '¡Diversión sin cables! Incluye micrófono inalámbrico UHF (Ultra High Frequency) y control remoto.'
+        // TO OVERWRITE MUST SET: customTitle, customDesc, customImg
+      },
+      {
+        id: 7,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws1500.webp',
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil1500.webp',
+        customDesc: 'Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas'
+      }
     ],
-    shortDesc: `¡Listo para tocar!`,
+    shortDesc: '¡Listo para tocar!',
     longDesc: "Está listo para conectar una guitarra, un micrófono y tocar o cantar en vivo. Hace llegar a todos la música que sale de tu corazón. También Incluye la función Karaoke con la cual podés pasar horas divirtiéndote sin parar con tu familia y amigos.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/94-parlante-aiwa-bluetooth-portatil-con-tripode-aw-p1500ps-7798111353438.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/94-parlante-aiwa-bluetooth-portatil-con-tripode-aw-p1500ps-7798111353438.html',
     videos: [
       {
         id: 1,
@@ -3706,7 +4159,7 @@ export const products = [
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `9000W PMPO`
+        value: '9000W PMPO'
       },
       { // TWS
         id: 11,
@@ -3716,7 +4169,7 @@ export const products = [
       },
       { // Woofer
         id: 3,
-        value: `1 de 15" y 1 tweeter de 25mm`
+        value: '1 de 15" y 1 tweeter de 25mm'
       },
       { // Entrada Mic y Guit 
         id: 21,
@@ -3839,47 +4292,54 @@ export const products = [
       12, // Cable 
       9, // Manual de usuario
     ],
-    certNo: `00Q-AR-01388-T-1`,
-    downloads: `https://drive.google.com/drive/folders/1EeW6E5-uS2S-lLUHG4TtRtcjswgjlr84`,
+    certNo: '00Q-AR-01388-T-1',
+    downloads: 'https://drive.google.com/drive/folders/1EeW6E5-uS2S-lLUHG4TtRtcjswgjlr84',
     variants: []
   },
   {// AW-T2040
-    name: `Torre de Sonido Bluetooth Party 6000W`,
-    sku: `AW-T2040`,
-    link: `/productos/AW-T2040`,
-    line: `party`,
+    name: 'Torre de Sonido Bluetooth Party 6000W',
+    sku: 'AW-T2040',
+    link: '/productos/AW-T2040',
+    line: 'party',
     categories: [102], 
     imgs: [
-      `/products/AW-T2040/img/1.webp`,
-      `/products/AW-T2040/img/2.webp`,
-      `/products/AW-T2040/img/3.webp`,
-      `/products/AW-T2040/img/4.webp`,
-      `/products/AW-T2040/img/5.webp`,
-      `/products/AW-T2040/img/6.webp`,
-      `/products/AW-T2040/img/7.webp`,
-      `/products/AW-T2040/img/8.webp`,
+      '/products/AW-T2040/img/1.webp',
+      '/products/AW-T2040/img/2.webp',
+      '/products/AW-T2040/img/3.webp',
+      '/products/AW-T2040/img/4.webp',
+      '/products/AW-T2040/img/5.webp',
+      '/products/AW-T2040/img/6.webp',
+      '/products/AW-T2040/img/7.webp',
+      '/products/AW-T2040/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Cantá en pareja`, img: fileserver + `/banners/doblemic2.webp`,
-        desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.' },
-      { title: `Iluminá cualquier espacio`, img: fileserver + `/banners/2040luces.webp`,
-        desc: 'Elegí si queres acompañar tu música con sus brillantes luces rgb o si preferís dejarlas apagadas.' },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws2040.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2040luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2040.webp'
+      },
     ],
-    shortDesc: `Show luminoso`,
+    shortDesc: 'Show luminoso',
     longDesc: "Cautivá a tus invitados con variados y coloridos efectos de Luz durante toda la noche.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/254-parlante-torre-bluetooth-power-bank-aiwa-aw-t2040-7798111354398.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/254-parlante-torre-bluetooth-power-bank-aiwa-aw-t2040-7798111354398.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6000W PMPO`
+        value: '6000W PMPO'
       },
       { // TWS
         id: 11,
@@ -3904,11 +4364,11 @@ export const products = [
       },
       { // Woofer + tweeter
         id: 3,
-        value: `2 de 8" y 1 tweeter de 2"`
+        value: '2 de 8" y 1 tweeter de 2"'
       },
       { // Duracion Batería
         id: 8,
-        value: `8 horas (según su uso)`
+        value: '8 horas (según su uso)'
       },
       { // Mobile Holder
         id: 29,
@@ -4003,47 +4463,54 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1QSNSdv4YxPuPEPFxA9K4DPOt-UkdISBk`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1QSNSdv4YxPuPEPFxA9K4DPOt-UkdISBk',
     variants: []
   },
   {// AW-T2042
-    name: `Torre de Sonido Bluetooth Party 6000W`,
-    sku: `AW-T2042`,
-    link: `/productos/AW-T2042`,
-    line: `party`,
+    name: 'Torre de Sonido Bluetooth Party 6000W',
+    sku: 'AW-T2042',
+    link: '/productos/AW-T2042',
+    line: 'party',
     categories: [102], 
     imgs: [
-      `/products/AW-T2042/img/1.webp`,
-      `/products/AW-T2042/img/2.webp`,
-      `/products/AW-T2042/img/3.webp`,
-      `/products/AW-T2042/img/4.webp`,
-      `/products/AW-T2042/img/5.webp`,
-      `/products/AW-T2042/img/6.webp`,
-      `/products/AW-T2042/img/7.webp`,
-      `/products/AW-T2042/img/8.webp`,
+      '/products/AW-T2042/img/1.webp',
+      '/products/AW-T2042/img/2.webp',
+      '/products/AW-T2042/img/3.webp',
+      '/products/AW-T2042/img/4.webp',
+      '/products/AW-T2042/img/5.webp',
+      '/products/AW-T2042/img/6.webp',
+      '/products/AW-T2042/img/7.webp',
+      '/products/AW-T2042/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Cantá en pareja`, img: fileserver + `/banners/doblemic2.webp`,
-        desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.' },
-      { title: `Iluminá cualquier espacio`, img: fileserver + `/banners/2042luces.webp`,
-        desc: 'Elegí si queres acompañar tu música con sus brillantes luces rgb o si preferís dejarlas apagadas.' },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws2042.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2042luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2042.webp'
+      },
     ],
-    shortDesc: `En todo momento`,
+    shortDesc: 'En todo momento',
     longDesc: "Una torre lista para acompañarte durante largas horas en todo momento y lugar. Te permite llevar tu música junto a un variado show luminoso.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/255-parlante-torre-bluetooth-power-bank-aiwa-aw-t2042.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/255-parlante-torre-bluetooth-power-bank-aiwa-aw-t2042.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6000W PMPO`
+        value: '6000W PMPO'
       },
       { // TWS
         id: 11,
@@ -4068,11 +4535,11 @@ export const products = [
       },
       { // Woofer + tweeter
         id: 3,
-        value: `2 de 8" y 1 tweeter de 2"`
+        value: '2 de 8" y 1 tweeter de 2"'
       },
       { // Duracion Batería
         id: 8,
-        value: `8 horas (según su uso)`
+        value: '8 horas (según su uso)'
       },
       { // Mobile Holder
         id: 29,
@@ -4167,47 +4634,54 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1QXDROpyb9KKtipho2ldRwI1rJoiBXzgT`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1QXDROpyb9KKtipho2ldRwI1rJoiBXzgT',
     variants: []
   },
   {// AW-T2044
-    name: `Torre de Sonido Bluetooth Party 6000W`,
-    sku: `AW-T2044`,
-    link: `/productos/AW-T2044`,
-    line: `party`,
+    name: 'Torre de Sonido Bluetooth Party 6000W',
+    sku: 'AW-T2044',
+    link: '/productos/AW-T2044',
+    line: 'party',
     categories: [102], 
     imgs: [
-      `/products/AW-T2044/img/1.webp`,
-      `/products/AW-T2044/img/2.webp`,
-      `/products/AW-T2044/img/3.webp`,
-      `/products/AW-T2044/img/4.webp`,
-      `/products/AW-T2044/img/5.webp`,
-      `/products/AW-T2044/img/6.webp`,
-      `/products/AW-T2044/img/7.webp`,
-      `/products/AW-T2044/img/8.webp`,
+      '/products/AW-T2044/img/1.webp',
+      '/products/AW-T2044/img/2.webp',
+      '/products/AW-T2044/img/3.webp',
+      '/products/AW-T2044/img/4.webp',
+      '/products/AW-T2044/img/5.webp',
+      '/products/AW-T2044/img/6.webp',
+      '/products/AW-T2044/img/7.webp',
+      '/products/AW-T2044/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Cantá en pareja`, img: fileserver + `/banners/doblemic2.webp`,
-        desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.' },
-      { title: `Iluminá cualquier espacio`, img: fileserver + `/banners/2044luces.webp`,
-        desc: 'Elegí si queres acompañar tu música con sus brillantes luces rgb o si preferís dejarlas apagadas.' },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws2044.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
+      },
+      {
+        id: 9,
+        customImg: fileserver + '/banners/2044luces.webp'
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws2044.webp'
+      },
     ],
-    shortDesc: `Coloreá tus fiestas`,
+    shortDesc: 'Coloreá tus fiestas',
     longDesc: "Preparada para llenar de colores toda la noche. Su Empuñadura de Fácil Transporte y su liviano peso te permiten llevar tu música junto a un variado show luminoso.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/256-parlante-torre-bluetooth-power-bank-aiwa-aw-t2044.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/256-parlante-torre-bluetooth-power-bank-aiwa-aw-t2044.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6000W PMPO`
+        value: '6000W PMPO'
       },
       { // TWS
         id: 11,
@@ -4232,11 +4706,11 @@ export const products = [
       },
       { // Woofer + tweeter
         id: 3,
-        value: `2 de 8" y 1 tweeter de 2"`
+        value: '2 de 8" y 1 tweeter de 2"'
       },
       { // Duracion Batería
         id: 8,
-        value: `8 horas (según su uso)`
+        value: '8 horas (según su uso)'
       },
       { // Mobile Holder
         id: 29,
@@ -4331,54 +4805,60 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1QOPtS-kaZzgK9-kD-SFT8decnb82PeFx`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1QOPtS-kaZzgK9-kD-SFT8decnb82PeFx',
     variants: []
   },
   
   /////////////// LINEA INFINIT ////////////////
 
   {// AW-T2021
-    name: `Torre de Sonido Bluetooth Infinit 9500W`,
-    sku: `AW-T2021`,
-    link: `/productos/AW-T2021`,
-    line: `infinit`,
+    name: 'Torre de Sonido Bluetooth Infinit 9500W',
+    sku: 'AW-T2021',
+    link: '/productos/AW-T2021',
+    line: 'infinit',
     categories: [102], 
     imgs: [
-      `/products/AW-T2021/img/1.webp`,
-      `/products/AW-T2021/img/2.webp`,
-      `/products/AW-T2021/img/3.webp`,
-      `/products/AW-T2021/img/4.webp`,
-      `/products/AW-T2021/img/5.webp`,
-      `/products/AW-T2021/img/6.webp`,
-      `/products/AW-T2021/img/7.webp`,
-      `/products/AW-T2021/img/8.webp`,
+      '/products/AW-T2021/img/1.webp',
+      '/products/AW-T2021/img/2.webp',
+      '/products/AW-T2021/img/3.webp',
+      '/products/AW-T2021/img/4.webp',
+      '/products/AW-T2021/img/5.webp',
+      '/products/AW-T2021/img/6.webp',
+      '/products/AW-T2021/img/7.webp',
+      '/products/AW-T2021/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/doblemic.webp`,
-        desc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
-      { title: `Ecualizá tu música`, img: fileserver + `/banners/panel2021.webp`,
-        desc: '¡Personalizá tu música como un verdadero Dj! Con las Bandas Ecualizadoras podés ajustar las frecuencias de sonido como más te guste, o simplemente experimentar tu música de otra manera.' },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + `/banners/portatil2021.webp`,
-        desc: 'Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!' },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 1,
+        customImg: fileserver + '/banners/doblemic.webp',
+        customTitle: 'Micrófono inalámbrico incluido',
+      },
+      {id: 3},
+      {
+        id: 10,
+        customImg: fileserver + '/banners/panel2021.webp',
+      },
+      {
+        id: 4,
+        customImg: fileserver + '/banners/portatil2021.webp',
+      },
     ],
-    shortDesc: `Ecualizador preciso`,
+    shortDesc: 'Ecualizador preciso',
     longDesc: "Efectos de luces en forma de anillos Led agregarán un toque fantástico a donde los lleves. Podrás ajustar el sonido a gusto como un verdadero Dj.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/214-parlante-torre-bluetooth-power-bank-aiwa-aw-t2021.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/214-parlante-torre-bluetooth-power-bank-aiwa-aw-t2021.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `9500W PMPO`
+        value: '9500W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 8" y 1 Tweeter de 2"`
+        value: '2 de 8" y 1 Tweeter de 2"'
       },
       { // TWS
         id: 11,
@@ -4403,11 +4883,11 @@ export const products = [
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 7.4V / 3600mAh`
+        value: 'Interna Recargable 7.4V / 3600mAh'
       },
       { // Duracion Batería
         id: 8,
-        value: `5 horas (según su uso)`
+        value: '5 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -4489,53 +4969,60 @@ export const products = [
       12, // Cable
       9, // Manual de usuario
     ],
-    certNo: `Q-AR-01590-T-1`,
-    downloads: `https://drive.google.com/drive/folders/1FyB2FsIgxRZDRe_pSfftnQzz7lOFPRDg`,
+    certNo: 'Q-AR-01590-T-1',
+    downloads: 'https://drive.google.com/drive/folders/1FyB2FsIgxRZDRe_pSfftnQzz7lOFPRDg',
     variants: []
   },
   {// AW-T2022
-    name: `Torre de Sonido Bluetooth Infinit 8500W`,
-    sku: `AW-T2022`,
-    link: `/productos/AW-T2022`,
-    line: `infinit`,
+    name: 'Torre de Sonido Bluetooth Infinit 8500W',
+    sku: 'AW-T2022',
+    link: '/productos/AW-T2022',
+    line: 'infinit',
     categories: [102], 
     imgs: [
-      `/products/AW-T2022/img/1.webp`,
-      `/products/AW-T2022/img/2.webp`,
-      `/products/AW-T2022/img/3.webp`,
-      `/products/AW-T2022/img/4.webp`,
-      `/products/AW-T2022/img/5.webp`,
-      `/products/AW-T2022/img/6.webp`,
-      `/products/AW-T2022/img/7.webp`,
-      `/products/AW-T2022/img/8.webp`,
+      '/products/AW-T2022/img/1.webp',
+      '/products/AW-T2022/img/2.webp',
+      '/products/AW-T2022/img/3.webp',
+      '/products/AW-T2022/img/4.webp',
+      '/products/AW-T2022/img/5.webp',
+      '/products/AW-T2022/img/6.webp',
+      '/products/AW-T2022/img/7.webp',
+      '/products/AW-T2022/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + '/banners/horizontal2022.webp',
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
-      { title: `Entrada para Micrófono y Guitarra`, img: fileserver + '/banners/panel2022.webp',
-        desc: '¡Armá tu Karaoke! Posee entrada para micrófono y guitarra ¡conectá y disfrutá tocando toda la noche con tus amigos!' },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil2022.webp`,
-        desc: `¡Llevá la fiesta a donde sea que vayas! Con la Correa de fácil transporte podés moverte con tu música a la terraza, a la playa o a donde gustes.` },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + '/banners/fiestas.webp',
-        desc: 'Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!' },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 11,
+      },
+      {
+        id: 22
+      },
+      {
+        id: 6,
+        customDesc: '¡Llevá la fiesta a donde sea que vayas! Con la Correa de fácil transporte podés moverte con tu música a la terraza, a la playa o a donde gustes.',
+        customImg: fileserver + '/banners/portatil2022.webp'
+      },
+      {
+        id: 4,
+      },
+      {
+        id: 3,
+      },
     ],
-    shortDesc: `Transportá tu música`,
+    shortDesc: 'Transportá tu música',
     longDesc: "Con la Correa de fácil transporte podés moverte con tu música de la terraza, a la playa o en donde mas gustes. Práctica, liviana y portatil, con un sonido potente.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/215-parlante-torre-bluetooth-power-bank-aiwa-aw-t2022.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/215-parlante-torre-bluetooth-power-bank-aiwa-aw-t2022.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `8500W PMPO`
+        value: '8500W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 6,5"`
+        value: '2 de 6,5"'
       },
       { // TWS
         id: 11,
@@ -4554,18 +5041,18 @@ export const products = [
       },
       { // Tweeter
         id: 35,
-        value: `2 de 2"`
+        value: '2 de 2"'
       },
       { // Uso Horizontal
         id: 32,
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 7.4V / 3600mAh`
+        value: 'Interna Recargable 7.4V / 3600mAh'
       },
       { // Duracion Batería
         id: 8,
-        value: `5 horas (según su uso)`
+        value: '5 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -4647,51 +5134,59 @@ export const products = [
       5, // Fuente
       9, // Manual de usuario
     ],
-    certNo: `Q-AR-01590-T-1`,
-    downloads: `https://drive.google.com/drive/folders/1G-0ZfmHeh3HiECKxeV1--6Zo8ObYh1tc`,
+    certNo: 'Q-AR-01590-T-1',
+    downloads: 'https://drive.google.com/drive/folders/1G-0ZfmHeh3HiECKxeV1--6Zo8ObYh1tc',
     variants: []
   },
   {// AW-T2018R
-    name: `Torre de Sonido Bluetooth Infinit 8000W`,
-    sku: `AW-T2018R`,
-    link: `/productos/AW-T2018R`,
-    line: `infinit`,
+    name: 'Torre de Sonido Bluetooth Infinit 8000W',
+    sku: 'AW-T2018R',
+    link: '/productos/AW-T2018R',
+    line: 'infinit',
     categories: [102], 
     imgs: [
-      `/products/AW-T2018R/img/1.webp`,
-      `/products/AW-T2018R/img/2.webp`,
-      `/products/AW-T2018R/img/3.webp`,
-      `/products/AW-T2018R/img/4.webp`,
-      `/products/AW-T2018R/img/5.webp`,
-      `/products/AW-T2018R/img/6.webp`,
-      `/products/AW-T2018R/img/7.webp`,
-      `/products/AW-T2018R/img/8.webp`,
+      '/products/AW-T2018R/img/1.webp',
+      '/products/AW-T2018R/img/2.webp',
+      '/products/AW-T2018R/img/3.webp',
+      '/products/AW-T2018R/img/4.webp',
+      '/products/AW-T2018R/img/5.webp',
+      '/products/AW-T2018R/img/6.webp',
+      '/products/AW-T2018R/img/7.webp',
+      '/products/AW-T2018R/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Cantá en pareja`, img: fileserver + `/banners/doblemic2.webp`,
-        desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.' },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
-      { title: `Batería de larga duración`, img: fileserver + `/banners/bateria2018.webp`,
-        desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.` },
-      { title: `Ecualizá tu música`, img: fileserver + `/banners/eq2018.webp`,
-        desc: `¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.` },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp',
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 20,
+        customImg: fileserver + '/banners/bateria2018.webp',
+      },
+      {
+        id: 10,
+        customImg: fileserver + '/banners/eq2018.webp',
+        customDesc: '¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.'
+      },
     ],
-    shortDesc: `Llevalo con vos`,
+    shortDesc: 'Llevalo con vos',
     longDesc: "Una torre práctica y portátil, con un sonido potente. Con la Empuñadura de Fácil Transporte podés moverte con tu música por donde más gustes.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/213-parlante-torre-bluetooth-power-bank-aiwa-aw-t2018r.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/213-parlante-torre-bluetooth-power-bank-aiwa-aw-t2018r.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `8000W PMPO`
+        value: '8000W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `1 de 8"`
+        value: '1 de 8"'
       },
       { // Bluetooth
         id: 12,
@@ -4713,15 +5208,15 @@ export const products = [
       },
       { // Tweeter
         id: 35,
-        value: `1 de 2"`
+        value: '1 de 2"'
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 7.4V / 3600mAh`
+        value: 'Interna Recargable 7.4V / 3600mAh'
       },
       { // Duracion Batería
         id: 8,
-        value: `6 horas (según su uso)`
+        value: '6 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -4802,51 +5297,59 @@ export const products = [
       12, // Cable
       9, // Manual de usuario
     ],
-    certNo: `Q-AR-01590-T-2`,
-    downloads: `https://drive.google.com/drive/folders/1GE6Z6B6kaWc8rHWDrsOloDgEDlfbAYmN`,
+    certNo: 'Q-AR-01590-T-2',
+    downloads: 'https://drive.google.com/drive/folders/1GE6Z6B6kaWc8rHWDrsOloDgEDlfbAYmN',
     variants: []
   },
   {// AW-T2050R
-    name: `Torre de Sonido Bluetooth Infinit 8000W`,
-    sku: `AW-T2050R`,
-    link: `/productos/AW-T2050R`,
-    line: `infinit`,
+    name: 'Torre de Sonido Bluetooth Infinit 8000W',
+    sku: 'AW-T2050R',
+    link: '/productos/AW-T2050R',
+    line: 'infinit',
     categories: [102], 
     imgs: [
-      `/products/AW-T2050R/img/1.webp`,
-      `/products/AW-T2050R/img/2.webp`,
-      `/products/AW-T2050R/img/3.webp`,
-      `/products/AW-T2050R/img/4.webp`,
-      `/products/AW-T2050R/img/5.webp`,
-      `/products/AW-T2050R/img/6.webp`,
-      `/products/AW-T2050R/img/7.webp`,
-      `/products/AW-T2050R/img/8.webp`,
+      '/products/AW-T2050R/img/1.webp',
+      '/products/AW-T2050R/img/2.webp',
+      '/products/AW-T2050R/img/3.webp',
+      '/products/AW-T2050R/img/4.webp',
+      '/products/AW-T2050R/img/5.webp',
+      '/products/AW-T2050R/img/6.webp',
+      '/products/AW-T2050R/img/7.webp',
+      '/products/AW-T2050R/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Cantá en pareja`, img: fileserver + `/banners/doblemic2.webp`,
-        desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.' },
-      { title: `Batería de larga duración`, img: fileserver + '/banners/bateria2050.webp',
-        desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.` },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
-      { title: `Ecualizá tu música`, img: fileserver + `/banners/eq2050.webp`,
-        desc: `¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.` },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp',
+      },
+      {
+        id: 20,
+      },
+      {
+        id: 3,
+      },
+      {
+        id: 10,
+        customImg: fileserver + '/banners/eq2050.webp',
+        customDesc: '¡Personalizá tus temas como mas te guste! El botón de Ecualización te permite controlar a tu antojo los Agudos y Graves para darle un sonido auténtico a tus fiestas.'
+      },
+
     ],
-    shortDesc: `Fiesta donde vayas`,
+    shortDesc: 'Fiesta donde vayas',
     longDesc: "Una torre liviana, práctica y portatil, con un sonido potente. Sus deslumbrantes efectos de luces en forma de anillos le darán ese toque mágico a todos tus momentos.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/216-parlante-torre-bluetooth-power-bank-aiwa-aw-t2050r.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/216-parlante-torre-bluetooth-power-bank-aiwa-aw-t2050r.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `7000W PMPO`
+        value: '7000W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 6,5"`
+        value: '2 de 6,5"'
       },
       { // Bluetooth
         id: 12,
@@ -4868,15 +5371,15 @@ export const products = [
       },
       { // Tweeter
         id: 35,
-        value: `1 de 2"`
+        value: '1 de 2"'
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 7.4V / 3600mAh`
+        value: 'Interna Recargable 7.4V / 3600mAh'
       },
       { // Duracion Batería
         id: 8,
-        value: `8 horas (según su uso)`
+        value: '8 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -4957,53 +5460,64 @@ export const products = [
       5, // Fuente
       9, // Manual de usuario
     ],
-    certNo: `RA 4183955 E`,
-    downloads: `https://drive.google.com/drive/folders/1Gzi7xqLXOCRYK42Zz3Jv3C_bDA7E8SBA`,
+    certNo: 'RA 4183955 E',
+    downloads: 'https://drive.google.com/drive/folders/1Gzi7xqLXOCRYK42Zz3Jv3C_bDA7E8SBA',
     variants: []
   },
   {// AW-T506R
-    name: `Torre de Sonido Bluetooth Infinit 6500W`,
-    sku: `AW-T506R`,
-    link: `/productos/AW-T506R`,
-    line: `infinit`,
+    name: 'Torre de Sonido Bluetooth Infinit 6500W',
+    sku: 'AW-T506R',
+    link: '/productos/AW-T506R',
+    line: 'infinit',
     categories: [102], 
     imgs: [
-      `/products/AW-T506R/img/1.webp`,
-      `/products/AW-T506R/img/2.webp`,
-      `/products/AW-T506R/img/3.webp`,
-      `/products/AW-T506R/img/4.webp`,
-      `/products/AW-T506R/img/5.webp`,
-      `/products/AW-T506R/img/6.webp`,
-      `/products/AW-T506R/img/7.webp`,
-      `/products/AW-T506R/img/8.webp`,
+      '/products/AW-T506R/img/1.webp',
+      '/products/AW-T506R/img/2.webp',
+      '/products/AW-T506R/img/3.webp',
+      '/products/AW-T506R/img/4.webp',
+      '/products/AW-T506R/img/5.webp',
+      '/products/AW-T506R/img/6.webp',
+      '/products/AW-T506R/img/7.webp',
+      '/products/AW-T506R/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
-      { title: `Conectividad sin límites`, img: fileserver + `/banners/panel506.webp`,
-        desc: `¡Cuántas formas de reproducir música! Posee Bluetooth, Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.` },
-      { title: `Cantá en pareja`, img: fileserver + `/banners/doblemic2.webp`,
-        desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.' },
-      { title: `Personalizá tus temas`, img: fileserver + `/banners/perillas506nopb.webp`,
-        desc: 'Podés regular los graves y agudos, o bien modificar el eco del micrófono tan solo presionando y girarando las perillas en el panel de control. ¡Animate a probarlo, es súper fácil!' },
-      { title: `Accesorios incluidos`, img: fileserver + '/banners/micycontrol.webp',
-        desc: '¡Armá tu Karaoke! Incluye micrófono con cable, y control remoto para que puedas gestionar tu música a distancia.' }
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal506.webp'
+      },
+      {
+        id: 15,
+        customTitle: 'Conectividad sin límites',
+        customDesc: '¡Cuántas formas de reproducir música! Posee Bluetooth, Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.',
+        customImg: fileserver + '/banners/panel506.webp'
+      },
+      {
+        id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
+      },
+      {
+        id: 12,
+        customImg: fileserver + '/banners/perillas506nopb.webp'
+      },
+      {
+        id: 18,
+      }
     ],
-    shortDesc: `Más versatilidad`,
+    shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6500W PMPO`
+        value: '6500W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 6,5"`
+        value: '2 de 6,5"'
       },
       { // Bluetooth
         id: 12,
@@ -5023,14 +5537,14 @@ export const products = [
       },
       { // Tweeter
         id: 35,
-        value: `1 de 2"`
+        value: '1 de 2"'
       },
       { // Uso Horizontal
         id: 32,
       },
       { // Duracion Batería
         id: 8,
-        value: `8 horas (según su uso)`
+        value: '8 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -5112,53 +5626,64 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/18tQIPtI8gXQqVhDkp2vT8Lxb00Cqz9t9`,
-    variants: [`AW-T506R`, `AW-T265SF`, `AW-T265SF-SA`, `AW-T506R-PB`]
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/18tQIPtI8gXQqVhDkp2vT8Lxb00Cqz9t9',
+    variants: ['AW-T506R', 'AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T265SF
-    name: `Torre de Sonido Bluetooth Infinit 6500W`,
-    sku: `AW-T265SF`,
-    link: `/productos/AW-T265SF`,
-    line: `infinit`,
+    name: 'Torre de Sonido Bluetooth Infinit 6500W',
+    sku: 'AW-T265SF',
+    link: '/productos/AW-T265SF',
+    line: 'infinit',
     categories: [102], 
     imgs: [
-      `/products/AW-T265SF/img/1.webp`,
-      `/products/AW-T265SF/img/2.webp`,
-      `/products/AW-T265SF/img/3.webp`,
-      `/products/AW-T265SF/img/4.webp`,
-      `/products/AW-T265SF/img/5.webp`,
-      `/products/AW-T265SF/img/6.webp`,
-      `/products/AW-T265SF/img/7.webp`,
-      `/products/AW-T265SF/img/8.webp`,
+      '/products/AW-T265SF/img/1.webp',
+      '/products/AW-T265SF/img/2.webp',
+      '/products/AW-T265SF/img/3.webp',
+      '/products/AW-T265SF/img/4.webp',
+      '/products/AW-T265SF/img/5.webp',
+      '/products/AW-T265SF/img/6.webp',
+      '/products/AW-T265SF/img/7.webp',
+      '/products/AW-T265SF/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "2º Generación",
-    banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
-      { title: `Cantá en pareja`, img: fileserver + `/banners/doblemic2.webp`,
-        desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.' },
-      { title: `Conectividad sin límites`,  img: fileserver + `/banners/panel265.webp`,
-        desc: `¡Cuántas formas de reproducir música! Posee Bluetooth, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.` },
-      { title: `Personalizá tus temas`, img: fileserver + `/banners/perillas506nopb.webp`,
-        desc: 'Podés regular los graves y agudos, o bien modificar el eco del micrófono tan solo presionando y girarando las perillas en el panel de control. ¡Animate a probarlo, es súper fácil!' },
-      { title: `Accesorios incluidos`, img: fileserver + '/banners/micycontrol.webp',
-        desc: '¡Armá tu Karaoke! Incluye micrófono con cable, y control remoto para que puedas gestionar tu música a distancia.' },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal506.webp'
+      },
+      {
+        id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
+      },
+      {
+        id: 15,
+        customTitle: 'Conectividad sin límites',
+        customDesc: '¡Cuántas formas de reproducir música! Posee Bluetooth, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.',
+        customImg: fileserver + '/banners/panel265.webp'
+      },
+      {
+        id: 12,
+        customImg: fileserver + '/banners/perillas506nopb.webp'
+      },
+      {
+        id: 18
+      },
     ],
-    shortDesc: `Más versatilidad`,
+    shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6500W PMPO`
+        value: '6500W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 6,5"`
+        value: '2 de 6,5"'
       },
       { // Bluetooth
         id: 12,
@@ -5181,7 +5706,7 @@ export const products = [
       },
       { // Tweeter
         id: 35,
-        value: `1 de 2"`
+        value: '1 de 2"'
       },
       { // Uso Horizontal
         id: 32,
@@ -5266,53 +5791,64 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/19TuPLjfUNqNVzcWsP9bttgJ3SEH1lXEr`,
-    variants: [`AW-T506R`, `AW-T265SF`, `AW-T265SF-SA`, `AW-T506R-PB`]
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/19TuPLjfUNqNVzcWsP9bttgJ3SEH1lXEr',
+    variants: ['AW-T506R', 'AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T265SF-SA
-    name: `Torre de Sonido Bluetooth Infinit 6500W`,
-    sku: `AW-T265SF-SA`,
-    link: `/productos/AW-T265SF-SA`,
-    line: `infinit`,
+    name: 'Torre de Sonido Bluetooth Infinit 6500W',
+    sku: 'AW-T265SF-SA',
+    link: '/productos/AW-T265SF-SA',
+    line: 'infinit',
     categories: [102], 
     imgs: [
-      `/products/AW-T265SF-SA/img/1.webp`,
-      `/products/AW-T265SF-SA/img/2.webp`,
-      `/products/AW-T265SF-SA/img/3.webp`,
-      `/products/AW-T265SF-SA/img/4.webp`,
-      `/products/AW-T265SF-SA/img/5.webp`,
-      `/products/AW-T265SF-SA/img/6.webp`,
-      `/products/AW-T265SF-SA/img/7.webp`,
-      `/products/AW-T265SF-SA/img/8.webp`,
+      '/products/AW-T265SF-SA/img/1.webp',
+      '/products/AW-T265SF-SA/img/2.webp',
+      '/products/AW-T265SF-SA/img/3.webp',
+      '/products/AW-T265SF-SA/img/4.webp',
+      '/products/AW-T265SF-SA/img/5.webp',
+      '/products/AW-T265SF-SA/img/6.webp',
+      '/products/AW-T265SF-SA/img/7.webp',
+      '/products/AW-T265SF-SA/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "3º Generación",
-    banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
-      { title: `Cantá en pareja`, img: fileserver + `/banners/doblemic2.webp`,
-        desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.' },
-      { title: `Conectividad sin límites`, img: fileserver + `/banners/panel265.webp`,
-        desc: `¡Cuántas formas de reproducir música! Posee Bluetooth, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.` },
-      { title: `Personalizá tus temas`, img: fileserver + `/banners/perillas506nopb.webp`,
-        desc: 'Podés regular los graves y agudos, o bien modificar el eco del micrófono tan solo presionando y girarando las perillas en el panel de control. ¡Animate a probarlo, es súper fácil!' },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal506.webp'
+      },
+      {
+        id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
+      },
+      {
+        id: 15,
+        customTitle: 'Conectividad sin límites',
+        customDesc: '¡Cuántas formas de reproducir música! Posee Bluetooth, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.',
+        customImg: fileserver + '/banners/panel265.webp'
+      },
+      {
+        id: 12,
+        customImg: fileserver + '/banners/perillas506nopb.webp'
+      },
+      {
+        id: 3,
+      },
     ],
-    shortDesc: `Más versatilidad`,
+    shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6500W PMPO`
+        value: '6500W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 6,5"`
+        value: '2 de 6,5"'
       },
       { // Bluetooth
         id: 12,
@@ -5335,7 +5871,7 @@ export const products = [
       },
       { // Tweeter
         id: 35,
-        value: `1 de 2"`
+        value: '1 de 2"'
       },
       { // Uso Horizontal
         id: 32,
@@ -5418,50 +5954,55 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/1aaXePdKCLlh-Qr1eLbemZO1lAyDNoG50`,
-    variants: [`AW-T506R`, `AW-T265SF`, `AW-T265SF-SA`, `AW-T506R-PB`]
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/1aaXePdKCLlh-Qr1eLbemZO1lAyDNoG50',
+    variants: ['AW-T506R', 'AW-T265SF', 'AW-T265SF-SA', 'AW-T506R-PB']
   },
   {// AW-T506R-PB
-    name: `Torre de Sonido Bluetooth Infinit 6500W`,
-    sku: `AW-T506R-PB`,
-    link: `/productos/AW-T506R-PB`,
-    line: `infinit`,
+    name: 'Torre de Sonido Bluetooth Infinit 6500W',
+    sku: 'AW-T506R-PB',
+    link: '/productos/AW-T506R-PB',
+    line: 'infinit',
     categories: [102], 
     imgs: [
-      `/products/AW-T506R-PB/img/1.webp`,
-      `/products/AW-T506R-PB/img/2.webp`,
-      `/products/AW-T506R-PB/img/3.webp`,
-      `/products/AW-T506R-PB/img/4.webp`,
-      `/products/AW-T506R-PB/img/5.webp`,
-      `/products/AW-T506R-PB/img/6.webp`,
-      `/products/AW-T506R-PB/img/7.webp`,
-      `/products/AW-T506R-PB/img/8.webp`,
-      `/products/AW-T506R-PB/img/9.webp`,
+      '/products/AW-T506R-PB/img/1.webp',
+      '/products/AW-T506R-PB/img/2.webp',
+      '/products/AW-T506R-PB/img/3.webp',
+      '/products/AW-T506R-PB/img/4.webp',
+      '/products/AW-T506R-PB/img/5.webp',
+      '/products/AW-T506R-PB/img/6.webp',
+      '/products/AW-T506R-PB/img/7.webp',
+      '/products/AW-T506R-PB/img/8.webp',
+      '/products/AW-T506R-PB/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "4º Generación",
-    banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
-      { title: `Cantá en pareja`, img: fileserver + `/banners/doblemic2.webp`,
-        desc: 'Se pueden usar hasta 2 micrófonos al mismo tiempo y regulas el volumen independientemente de la música para hacer karaoke y divertirte con amigos.' },
-      { title: `Personalizá tus temas`, img: fileserver + '/banners/perillas506.webp',
-        desc: 'Podés regular los graves y agudos, o bien modificar el eco del micrófono tan solo presionando y girarando las perillas en el panel de control. ¡Animate a probarlo, es súper fácil!' },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal506.webp'
+      },
+      {
+        id: 8,
+        customImg: fileserver + '/banners/doblemic2.webp'
+      },
+      {
+        id: 12,
+      },
     ],
-    shortDesc: `Más versatilidad`,
+    shortDesc: 'Más versatilidad',
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6500W PMPO`
+        value: '6500W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 6,5"`
+        value: '2 de 6,5"'
       },
       { // Bluetooth
         id: 12,
@@ -5481,14 +6022,14 @@ export const products = [
       },
       { // Tweeter
         id: 35,
-        value: `1 de 2"`
+        value: '1 de 2"'
       },
       { // Uso Horizontal
         id: 32,
       },
       { // Duracion Batería
         id: 8,
-        value: `8 horas (según su uso)`
+        value: '8 horas (según su uso)'
       },
       { // Reg Graves y Agudos
         id: 22,
@@ -5568,54 +6109,61 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/188BCWXjwtJWRqXjNcz4YEuZVjhnEjcsA`,
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/188BCWXjwtJWRqXjNcz4YEuZVjhnEjcsA',
     variants: []
   },
   
   /////////////// LINEA FLAMA ////////////////
 
   {// AW-T604F
-    name: `Torre de Sonido Bluetooth Flama 6500W`,
-    sku: `AW-T604F`,
-    link: `/productos/AW-T604F`,
-    line: `flama`,
+    name: 'Torre de Sonido Bluetooth Flama 6500W',
+    sku: 'AW-T604F',
+    link: '/productos/AW-T604F',
+    line: 'flama',
     categories: [102], 
     imgs: [
-      `/products/AW-T604F/img/1.webp`,
-      `/products/AW-T604F/img/2.webp`,
-      `/products/AW-T604F/img/3.webp`,
-      `/products/AW-T604F/img/4.webp`,
-      `/products/AW-T604F/img/5.webp`,
-      `/products/AW-T604F/img/6.webp`,
+      '/products/AW-T604F/img/1.webp',
+      '/products/AW-T604F/img/2.webp',
+      '/products/AW-T604F/img/3.webp',
+      '/products/AW-T604F/img/4.webp',
+      '/products/AW-T604F/img/5.webp',
+      '/products/AW-T604F/img/6.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal604.webp`,
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + `/banners/fiestas604.webp`,
-        desc: 'Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!' },
-      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil604.webp`,
-        desc: 'Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.' },
-      { title: `Entrada para Micrófono`, img: fileserver + '/banners/mic604.webp',
-      desc: '¡Armá tu Karaoke! Posee entrada para micrófono, conectá uno ¡y disfrutá cantando toda la noche con tus amigos!' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws604.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 11,
+        customImg: fileserver + '/banners/horizontal604.webp',
+      },
+      {
+        id: 4,
+        customImg: fileserver + '/banners/fiestas604.webp',
+      },
+      {
+        id: 6,
+        customImg: fileserver + '/banners/portatil604.webp',
+      },
+      { id: 19 },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws604.webp',
+      },
     ],
-    shortDesc: `Llevate fuego`,
+    shortDesc: 'Llevate fuego',
     longDesc: "Su práctico tamaño te permitirá llevar el fuego y la diversión a todas partes.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/209-parlante-bluetooth-portatil-serie-flama-6500w.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/209-parlante-bluetooth-portatil-serie-flama-6500w.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `6500W PMPO`
+        value: '6500W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `1 de 8"`
+        value: '1 de 8"'
       },
       { // TWS
         id: 11,
@@ -5628,11 +6176,11 @@ export const products = [
       },
       { // Tweeter
         id: 35,
-        value: `1 de 1"`
+        value: '1 de 1"'
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 7.4V / 3600mAh`
+        value: 'Interna Recargable 7.4V / 3600mAh'
       },
       { // Reg Graves y Agudos
         id: 28,
@@ -5725,54 +6273,64 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/10omQmKKjtEd40bO4OimLYlHeZM_Oqskf`,
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/10omQmKKjtEd40bO4OimLYlHeZM_Oqskf',
     variants: []
   },
   {// AW-T806F
-    name: `Torre de Sonido Bluetooth Flama 8000W`,
-    sku: `AW-T806F`,
-    link: `/productos/AW-T806F`,
-    line: `flama`,
+    name: 'Torre de Sonido Bluetooth Flama 8000W',
+    sku: 'AW-T806F',
+    link: '/productos/AW-T806F',
+    line: 'flama',
     categories: [102], 
     imgs: [
-      `/products/AW-T806F/img/1.webp`,
-      `/products/AW-T806F/img/2.webp`,
-      `/products/AW-T806F/img/3.webp`,
-      `/products/AW-T806F/img/4.webp`,
-      `/products/AW-T806F/img/5.webp`,
-      `/products/AW-T806F/img/6.webp`,
-      `/products/AW-T806F/img/7.webp`,
-      `/products/AW-T806F/img/8.webp`,
+      '/products/AW-T806F/img/1.webp',
+      '/products/AW-T806F/img/2.webp',
+      '/products/AW-T806F/img/3.webp',
+      '/products/AW-T806F/img/4.webp',
+      '/products/AW-T806F/img/5.webp',
+      '/products/AW-T806F/img/6.webp',
+      '/products/AW-T806F/img/7.webp',
+      '/products/AW-T806F/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: 'Micrófono incluido', img: fileserver + `/banners/microfonocable.webp`,
-        desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. Cambiá canciones usando el control remoto incluido. ¡Que la fiesta no pare!` },  
-      { title: `Cuerpo de Madera`, img: fileserver + '/banners/cuerpomadera806.webp',
-        desc: 'Construcción realizada en madera para lograr un óptimo sonido y una acústica mejorada para el parlante.' },
-      { title: `Elegí como hacer brillar tu fuego`, img: fileserver + `/banners/efectos806.webp`,
-        desc: `Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.`,
-        priority: true },
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel806.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws806.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      { 
+        id: 1,
+        customImg: fileserver + '/banners/microfonocable.webp',
+        customDesc: '¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. Cambiá canciones usando el control remoto incluido. ¡Que la fiesta no pare!'
+      },  
+      { id: 13 },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.',
+        priority: true
+      },
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel806.webp',
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws806.webp'
+      },
     ],
-    shortDesc: `Diversión al máximo`,
+    shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `8000W PMPO`
+        value: '8000W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 6,5"`
+        value: '2 de 6,5"'
       },
       { // TWS
         id: 11,
@@ -5791,7 +6349,7 @@ export const products = [
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 7.4V / 3600mAh`
+        value: 'Interna Recargable 7.4V / 3600mAh'
       },
       { // Reguladores de todo
         id: 40,
@@ -5879,52 +6437,62 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/19-zSuHUdeevC5edP-winJgJDvXuqjezA`,
-    variants: [`AW-T806F`, `AW-T806F-SA`, `AW-T806F-PB`]
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/19-zSuHUdeevC5edP-winJgJDvXuqjezA',
+    variants: ['AW-T806F', 'AW-T806F-SA', 'AW-T806F-PB']
   },
   {// AW-T806F-SA
-    name: `Torre de Sonido Bluetooth Flama 8000W`,
-    sku: `AW-T806F-SA`,
-    link: `/productos/AW-T806F-SA`,
-    line: `flama`,
+    name: 'Torre de Sonido Bluetooth Flama 8000W',
+    sku: 'AW-T806F-SA',
+    link: '/productos/AW-T806F-SA',
+    line: 'flama',
     categories: [102], 
     imgs: [
-      `/products/AW-T806F-SA/img/1.webp`,
-      `/products/AW-T806F-SA/img/2.webp`,
-      `/products/AW-T806F-SA/img/3.webp`,
-      `/products/AW-T806F-SA/img/4.webp`,
-      `/products/AW-T806F-SA/img/5.webp`,
-      `/products/AW-T806F-SA/img/6.webp`,
-      `/products/AW-T806F-SA/img/7.webp`,
+      '/products/AW-T806F-SA/img/1.webp',
+      '/products/AW-T806F-SA/img/2.webp',
+      '/products/AW-T806F-SA/img/3.webp',
+      '/products/AW-T806F-SA/img/4.webp',
+      '/products/AW-T806F-SA/img/5.webp',
+      '/products/AW-T806F-SA/img/6.webp',
+      '/products/AW-T806F-SA/img/7.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "2º Generación",
-    banners: [ 
-      { title: `Cuerpo de Madera`, img: fileserver + '/banners/cuerpomadera806.webp',
-        desc: 'Construcción realizada en madera para lograr un óptimo sonido y una acústica mejorada para el parlante.' },
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel806.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: `Elegí como hacer brillar tu fuego`, img: fileserver + `/banners/efectos806.webp`,
-        desc: `Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.` },
-      { title: `Reguladores independientes`, img: fileserver + '/banners/reg806.webp',
-        desc: 'Regulá de forma independiente el volumen de tu guitarra, del micrófono y el eco del micrófono.' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws806.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 13,
+      },
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel806.webp',
+      },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.'
+      },
+      {
+        id: 21,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws806.webp'
+      },
     ],
-    shortDesc: `Diversión al máximo`,
+    shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `8000W PMPO`
+        value: '8000W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 6,5"`
+        value: '2 de 6,5"'
       },
       { // TWS
         id: 11,
@@ -5943,7 +6511,7 @@ export const products = [
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 7.4V / 3600mAh`
+        value: 'Interna Recargable 7.4V / 3600mAh'
       },
       { // Reguladores
         id: 22,
@@ -6029,54 +6597,61 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/10X95ULeGxUO5PkCI8hbaJtSF59eDUSST`,
-    variants: [`AW-T806F`, `AW-T806F-SA`, `AW-T806F-PB`]
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/10X95ULeGxUO5PkCI8hbaJtSF59eDUSST',
+    variants: ['AW-T806F', 'AW-T806F-SA', 'AW-T806F-PB']
   },
   {// AW-T806F-PB
-    name: `Torre de Sonido Bluetooth Flama 8000W`,
-    sku: `AW-T806F-PB`,
-    link: `/productos/AW-T806F-PB`,
-    line: `flama`,
+    name: 'Torre de Sonido Bluetooth Flama 8000W',
+    sku: 'AW-T806F-PB',
+    link: '/productos/AW-T806F-PB',
+    line: 'flama',
     categories: [102], 
     imgs: [
-      `/products/AW-T806F-PB/img/1.webp`,
-      `/products/AW-T806F-PB/img/2.webp`,
-      `/products/AW-T806F-PB/img/3.webp`,
-      `/products/AW-T806F-PB/img/4.webp`,
-      `/products/AW-T806F-PB/img/5.webp`,
-      `/products/AW-T806F-PB/img/6.webp`,
-      `/products/AW-T806F-PB/img/7.webp`,
-      `/products/AW-T806F-PB/img/8.webp`,
-      `/products/AW-T806F-PB/img/9.webp`,
+      '/products/AW-T806F-PB/img/1.webp',
+      '/products/AW-T806F-PB/img/2.webp',
+      '/products/AW-T806F-PB/img/3.webp',
+      '/products/AW-T806F-PB/img/4.webp',
+      '/products/AW-T806F-PB/img/5.webp',
+      '/products/AW-T806F-PB/img/6.webp',
+      '/products/AW-T806F-PB/img/7.webp',
+      '/products/AW-T806F-PB/img/8.webp',
+      '/products/AW-T806F-PB/img/9.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "3º Generación",
-    banners: [ 
-      { title: `Cuerpo de Madera`, img: fileserver + '/banners/cuerpomadera806.webp',
-        desc: 'Construcción realizada en madera para lograr un óptimo sonido y una acústica mejorada para el parlante.' },
-      { title: `Elegí como hacer brillar tu fuego`, img: fileserver + `/banners/efectos806.webp`,
-        desc: `Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.` },
-      { title: `Reguladores independientes`, img: fileserver + '/banners/reg806.webp',
-        desc: 'Regulá de forma independiente el volumen de tu guitarra, del micrófono y el eco del micrófono.' },
-      { title: 'True Wireless Stereo', img: fileserver + `/banners/tws806.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 13,
+      },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente.'
+      },
+      {
+        id: 21,
+      },
+      {
+        id: 2,
+        customImg: fileserver + '/banners/tws806.webp'
+      },
+      {id: 3},
     ],
-    shortDesc: `Diversión al máximo`,
+    shortDesc: 'Diversión al máximo',
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/103-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t806f-7798111353995.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/103-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t806f-7798111353995.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `8000W PMPO`
+        value: '8000W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 6,5"`
+        value: '2 de 6,5"'
       },
       { // TWS
         id: 11,
@@ -6099,7 +6674,7 @@ export const products = [
       },
       { // Batería Recargable
         id: 7,
-        value: `Interna Recargable 7.4V / 3600mAh`
+        value: 'Interna Recargable 7.4V / 3600mAh'
       },
       { // Reguladores
         id: 22,
@@ -6109,7 +6684,7 @@ export const products = [
       },
       { // Tweeter
         id: 35,
-        value: `1 de 1"`
+        value: '1 de 1"'
       }
     ],
     features: [
@@ -6175,7 +6750,7 @@ export const products = [
       },
       {
         id: 6,
-        value: `Si`
+        value: 'Si'
       }
     ],
     includes: [
@@ -6183,56 +6758,63 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/19pctxOL_BvlxooIZqpQSDT-RmdGa6LQV`,
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/19pctxOL_BvlxooIZqpQSDT-RmdGa6LQV',
     variants: []
   },
   {// AW-T1008F
-    name: `Torre de Sonido Bluetooth Flama 9500W`,
-    sku: `AW-T1008F`,
-    link: `/productos/AW-T1008F`,
-    line: `flama`,
+    name: 'Torre de Sonido Bluetooth Flama 9500W',
+    sku: 'AW-T1008F',
+    link: '/productos/AW-T1008F',
+    line: 'flama',
     categories: [102], 
     imgs: [
-      `/products/AW-T1008F/img/1.webp`,
-      `/products/AW-T1008F/img/2.webp`,
-      `/products/AW-T1008F/img/3.webp`,
-      `/products/AW-T1008F/img/4.webp`,
-      `/products/AW-T1008F/img/5.webp`,
-      `/products/AW-T1008F/img/6.webp`,
-      `/products/AW-T1008F/img/7.webp`,
-      `/products/AW-T1008F/img/8.webp`,
+      '/products/AW-T1008F/img/1.webp',
+      '/products/AW-T1008F/img/2.webp',
+      '/products/AW-T1008F/img/3.webp',
+      '/products/AW-T1008F/img/4.webp',
+      '/products/AW-T1008F/img/5.webp',
+      '/products/AW-T1008F/img/6.webp',
+      '/products/AW-T1008F/img/7.webp',
+      '/products/AW-T1008F/img/8.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `¡Reproducí lo que sea!`, img: fileserver + `/banners/panel1008.webp`,
-        desc: 'Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.' },
-      { title: `Micrófono Inalámbrico`, img: fileserver + `/banners/microfonofx.webp`,
-        desc: `¡Libre de cables! Incluye micrófono inalámbrico y control remoto. 5 efectos de voz integrados para tener divertidas sesiones de Karaoke.` },
-      { title: `Elegí como hacer brillar tu fuego`, img: fileserver + `/banners/efectos806.webp`,
-        desc: `Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente. Posee en total 6 efectos diferentes.`,
-        priority: true },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + '/banners/fiestas.webp',
-        desc: 'Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!' },
-      { title: `Nunca te olvides la fiesta afuera`, img: fileserver + '/banners/ruedas1008.webp',
-        desc: 'Con sus ruedas vas a poder llevar tu flama a todas partes. Su Peso ligero y empuñadura superior te ayudaran en la tarea de llevar tu música a donde sea.' }
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      {
+        id: 15,
+        customImg: fileserver + '/banners/panel1008.webp',
+      },
+      { 
+        id: 1,
+        customTitle: 'Micrófono Inalámbrico',
+        customImg: fileserver + '/banners/microfonofx.webp',
+        customDesc: '¡Libre de cables! Incluye micrófono inalámbrico y control remoto. 5 efectos de voz integrados para tener divertidas sesiones de Karaoke.' 
+      },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente. Posee en total 6 efectos diferentes.',
+        priority: true
+      },
+      { id: 3 },
+      { id: 4 },
+      { id: 14 }
     ],
-    shortDesc: `Acercate al fuego`,
+    shortDesc: 'Acercate al fuego',
     longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `9500W PMPO`
+        value: '9500W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 8" y 1 tweeter de 1"`
+        value: '2 de 8" y 1 tweeter de 1"'
       },
       { // TWS
         id: 11,
@@ -6340,55 +6922,60 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/1x8k5MstMDILw0gNMnFilaf1Kuf_yGZQ2`,
-    variants: [`AW-T1008F`, `AW-T1008F-PB`]
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/1x8k5MstMDILw0gNMnFilaf1Kuf_yGZQ2',
+    variants: ['AW-T1008F', 'AW-T1008F-PB']
   },
   {// AW-T1008F-PB
-    name: `Torre de Sonido Bluetooth Flama 9500W`,
-    sku: `AW-T1008F-PB`,
-    link: `/productos/AW-T1008F-PB`,
-    line: `flama`,
+    name: 'Torre de Sonido Bluetooth Flama 9500W',
+    sku: 'AW-T1008F-PB',
+    link: '/productos/AW-T1008F-PB',
+    line: 'flama',
     categories: [102], 
     imgs: [
-      `/products/AW-T1008F-PB/img/1.webp`,
-      `/products/AW-T1008F-PB/img/2.webp`,
-      `/products/AW-T1008F-PB/img/3.webp`,
-      `/products/AW-T1008F-PB/img/4.webp`,
-      `/products/AW-T1008F-PB/img/5.webp`,
-      `/products/AW-T1008F-PB/img/6.webp`,
-      `/products/AW-T1008F-PB/img/8.webp`,
-      `/products/AW-T1008F-PB/img/9.webp`,
-      `/products/AW-T1008F-PB/img/10.webp`,
+      '/products/AW-T1008F-PB/img/1.webp',
+      '/products/AW-T1008F-PB/img/2.webp',
+      '/products/AW-T1008F-PB/img/3.webp',
+      '/products/AW-T1008F-PB/img/4.webp',
+      '/products/AW-T1008F-PB/img/5.webp',
+      '/products/AW-T1008F-PB/img/6.webp',
+      '/products/AW-T1008F-PB/img/8.webp',
+      '/products/AW-T1008F-PB/img/9.webp',
+      '/products/AW-T1008F-PB/img/10.webp',
     ].map(e => fileserver + e),
     top: true,
     360: true,
     gen: "2º Generación",
-    banners: [ 
-      { title: `Micrófono Inalámbrico`, img: fileserver + `/banners/microfonofx.webp`,
-        desc: `Con el micrófono inalámbrico incluido y los 5 efectos de voz integrados podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!` },
-      { title: `Elegí como hacer brillar tu fuego`, img: fileserver + `/banners/efectos806.webp`,
-        desc: `Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente. Posee en total 6 efectos diferentes.`,
-        priority: true },
-      { title: 'Power Bank', img: fileserver + '/banners/powerbank.webp',
-        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
-      { title: `Ideal para fiestas y reuniones`, img: fileserver + '/banners/fiestas.webp',
-        desc: 'Posee la potencia y autonomía suficiente para animar cualquier celebración, ¡además podés usarlo conectado y disfrutar por más tiempo!' },
-      { title: `Nunca te olvides la fiesta afuera`, img: fileserver + '/banners/ruedas1008.webp',
-        desc: 'Con sus ruedas vas a poder llevar tu flama a todas partes. Su Peso ligero y empuñadura superior te ayudaran en la tarea de llevar tu música a donde sea.' }
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      { 
+        id: 1,
+        customTitle: 'Micrófono Inalámbrico',
+        customImg: fileserver + '/banners/microfonofx.webp',
+        customDesc: 'Con el micrófono inalámbrico incluido y los 5 efectos de voz integrados podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!' 
+      },
+      {
+        id: 9,
+        customTitle: 'Elegí como hacer brillar tu fuego',
+        customImg: fileserver + '/banners/efectos806.webp',
+        customDesc: 'Presionando el botón "Luz" vas a pasar de Llama en llama para elegir la que mejor va con tu fiesta y con tu gente. Posee en total 6 efectos diferentes.',
+        priority: true
+      },
+      { id: 3 },
+      { id: 4 },
+      { id: 14 }
     ],
-    shortDesc: `Acercate al fuego`,
+    shortDesc: 'Acercate al fuego',
     longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/98-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t1008f-7798111354008.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/torres-de-sonido/98-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t1008f-7798111354008.html',
     videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `9500W PMPO`
+        value: '9500W PMPO'
       },
       { // Woofer
         id: 3,
-        value: `2 de 8" y 1 tweeter de 1"`
+        value: '2 de 8" y 1 tweeter de 1"'
       },
       { // TWS
         id: 11,
@@ -6465,7 +7052,7 @@ export const products = [
         value: "Si",
       },
       { // Efectos de Voz
-        id: 25, value: `Si, 5`,
+        id: 25, value: 'Si, 5',
       },
       { // Otras características
         id: 15,
@@ -6494,46 +7081,42 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `00Q-AR-01223-T-1`,
-    downloads: `https://drive.google.com/drive/folders/19O4ElAPI5VeQy71U01Y9U17tnsG-KUn-`,
+    certNo: '00Q-AR-01223-T-1',
+    downloads: 'https://drive.google.com/drive/folders/19O4ElAPI5VeQy71U01Y9U17tnsG-KUn-',
     variants: []
   },
 
   /////////////// AURICULARES ////////////////
 
   {// AVA-102N
-    name: `Auriculares con Vincha y Cable Removible`,
-    sku: `AVA-102N`,
-    link: `/productos/AVA-102N`,
-    line: ``,
+    name: 'Auriculares con Vincha y Cable Removible',
+    sku: 'AVA-102N',
+    link: '/productos/AVA-102N',
+    line: '',
     categories: [104], 
     imgs: [
-      `/products/AVA-102N/img/1.webp`,
-      `/products/AVA-102N/img/2.webp`,
-      `/products/AVA-102N/img/3.webp`,
-      `/products/AVA-102N/img/4.webp`,
-      `/products/AVA-102N/img/5.webp`,
-      `/products/AVA-102N/img/6.webp`,
-      `/products/AVA-102N/img/7.webp`,
-      `/products/AVA-102N/img/8.webp`,
-      `/products/AVA-102N/img/9.webp`,
+      '/products/AVA-102N/img/1.webp',
+      '/products/AVA-102N/img/2.webp',
+      '/products/AVA-102N/img/3.webp',
+      '/products/AVA-102N/img/4.webp',
+      '/products/AVA-102N/img/5.webp',
+      '/products/AVA-102N/img/6.webp',
+      '/products/AVA-102N/img/7.webp',
+      '/products/AVA-102N/img/8.webp',
+      '/products/AVA-102N/img/9.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Diseño Ultraligero`, img: fileserver + '/banners/ligero102b.webp', 
-        desc: 'Pesan tan sólo 146g. ¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },  
-      { title: `Mantené el control`, img: fileserver + '/banners/cable102n.webp', 
-        desc: 'Cable extraíble para tu comodidad, con micrófono y botón para atender llamadas. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
-      { title: `Almohadillas Soft`, img: fileserver + '/banners/almohadillas102n.webp',
-        desc: 'Sus almohadillas son suaves, muy cómodas, y se adaptan a cualquier tipo de oreja.' },
-      { title: `Vincha Plegable`, img: fileserver + '/banners/diseñocalidad102n.webp',
-        desc: '¡Nunca fué tan fácil transportar tus auriculares! Doblá sus extremos y remové el cable para poder llevarlos en cualquier bolsillo.' },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      { id: 25 },  
+      { id: 27 },
+      { id: 26 },
+      { id: 24 },
     ],
-    shortDesc: `Tu compañía indispensable`,
+    shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/auriculares/89-auriculares-aiwa-vincha-plegable-ava-102-manos-libres-7798111353421.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/auriculares/89-auriculares-aiwa-vincha-plegable-ava-102-manos-libres-7798111353421.html',
     videos: [],
     featuredFeatures: [
       { id: 42 }, // Plegable
@@ -6543,63 +7126,59 @@ export const products = [
       { id: 46 }, // Manos libres
       { id: 47 }, // Cable largo
       { id: 48 }, // Boton incorporado
-      { id: 49, value: `blanco y negro` }, // Colores
+      { id: 49, value: 'blanco y negro' }, // Colores
     ],
     features: [
-      { id: 27, value: `Manos Libres` }, // Controles
-      { id: 28, value: `3,5 mm` }, // Tipo de conex
-      { id: 2, value: `50mW` }, // Potencia
-      { id: 29, value: `1,2m aprox.` }, // Longitud cable
-      { id: 39, value: `20Hz ~ 20KHz` }, // Frecuencia
-      { id: 31, value: `32Ω` }, // Impedancia
-      { id: 32, value: `110dB±3dB` }, // Sensibilidad
-      { id: 33, value: `-42dB±3dB` }, // Sens. Mic
-      { id: 16, value: `169 * 68 * 188 mm` }, // Dimension prod
-      { id: 17, value: `177 * 210 * 76 mm` }, // Dimension caja
-      { id: 18, value: `146,39 gr` }, // Peso
-      { id: 34, value: `40 mm` }, // Diametro diafrag.
-      { id: 19, value: `7798111353421` }, // EAN
+      { id: 27, value: 'Manos Libres' }, // Controles
+      { id: 28, value: '3,5 mm' }, // Tipo de conex
+      { id: 2, value: '50mW' }, // Potencia
+      { id: 29, value: '1,2m aprox.' }, // Longitud cable
+      { id: 39, value: '20Hz ~ 20KHz' }, // Frecuencia
+      { id: 31, value: '32Ω' }, // Impedancia
+      { id: 32, value: '110dB±3dB' }, // Sensibilidad
+      { id: 33, value: '-42dB±3dB' }, // Sens. Mic
+      { id: 16, value: '169 * 68 * 188 mm' }, // Dimension prod
+      { id: 17, value: '177 * 210 * 76 mm' }, // Dimension caja
+      { id: 18, value: '146,39 gr' }, // Peso
+      { id: 34, value: '40 mm' }, // Diametro diafrag.
+      { id: 19, value: '7798111353421' }, // EAN
     ],
     includes: [
       14, // Aux c mic n
       9, // Manual
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/188QHcTvUUNE4HttH4Nwfv7h4Gi59RSpr`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/188QHcTvUUNE4HttH4Nwfv7h4Gi59RSpr',
     variants: [],
-    colors: [`AVA-102N`, `AVA-102B`]
+    colors: ['AVA-102N', 'AVA-102B']
   },
   { // AVA-102B
-    name: `Auriculares con Vincha y Cable Removible`,
-    sku: `AVA-102B`,
-    link: `/productos/AVA-102B`,
-    line: ``,
+    name: 'Auriculares con Vincha y Cable Removible',
+    sku: 'AVA-102B',
+    link: '/productos/AVA-102B',
+    line: '',
     categories: [104], 
     imgs: [
-      `/products/AVA-102B/img/1.webp`,
-      `/products/AVA-102B/img/2.webp`,
-      `/products/AVA-102B/img/3.webp`,
-      `/products/AVA-102B/img/4.webp`,
-      `/products/AVA-102B/img/5.webp`,
-      `/products/AVA-102B/img/6.webp`,
-      `/products/AVA-102B/img/7.webp`,
+      '/products/AVA-102B/img/1.webp',
+      '/products/AVA-102B/img/2.webp',
+      '/products/AVA-102B/img/3.webp',
+      '/products/AVA-102B/img/4.webp',
+      '/products/AVA-102B/img/5.webp',
+      '/products/AVA-102B/img/6.webp',
+      '/products/AVA-102B/img/7.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Diseño Ultraligero`, img: fileserver + '/banners/ligero102b.webp', 
-        desc: 'Pesan tan sólo 146g. ¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },  
-      { title: `Mantené el control`, img: fileserver + '/banners/cable102b.webp', 
-        desc: 'Cable extraíble para tu comodidad, con micrófono y botón para atender llamadas. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
-      { title: `Almohadillas Soft`, img: fileserver + '/banners/almohadillas102n.webp',
-        desc: 'Sus almohadillas son suaves, muy cómodas, y se adaptan a cualquier tipo de oreja.' },
-      { title: `Vincha Plegable`, img: fileserver + '/banners/diseñocalidad102b.webp',
-        desc: '¡Nunca fué tan fácil transportar tus auriculares! Doblá sus extremos y remové el cable para poder llevarlos en cualquier bolsillo.' },
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      { id: 25 },  
+      { id: 27, customImg: fileserver + '/banners/cable102b.webp'},
+      { id: 26 },
+      { id: 24, customImg: fileserver + '/banners/diseñocalidad102b.webp'},
     ],
-    shortDesc: `Tu compañía indispensable`,
+    shortDesc: 'Tu compañía indispensable',
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: ``,
+    buyLink: '',
     videos: [],
     featuredFeatures: [
       { id: 42 }, // Plegable
@@ -6609,229 +7188,158 @@ export const products = [
       { id: 46 }, // Manos libres
       { id: 47 }, // Cable largo
       { id: 48 }, // Boton incorporado
-      { id: 49, value: `blanco y negro` }, // Colores
+      { id: 49, value: 'blanco y negro' }, // Colores
     ],
     features: [
-      { id: 27, value: `Manos Libres` }, // Controles
-      { id: 28, value: `3,5 mm` }, // Tipo de conex
-      { id: 2, value: `50mW` }, // Potencia
-      { id: 29, value: `1,2m aprox.` }, // Longitud cable
-      { id: 39, value: `20Hz ~ 20KHz` }, // Frecuencia
-      { id: 31, value: `32Ω` }, // Impedancia
-      { id: 32, value: `110dB±3dB` }, // Sensibilidad
-      { id: 33, value: `-42dB±3dB` }, // Sens. Mic
-      { id: 16, value: `169 * 68 * 188 mm` }, // Dimension prod
-      { id: 17, value: `177 * 210 * 76 mm` }, // Dimension caja
-      { id: 18, value: `146,39 gr` }, // Peso
-      { id: 34, value: `40 mm` }, // Diametro diafrag.
-      { id: 19, value: `7798111353414` }, // EAN
+      { id: 27, value: 'Manos Libres' }, // Controles
+      { id: 28, value: '3,5 mm' }, // Tipo de conex
+      { id: 2, value: '50mW' }, // Potencia
+      { id: 29, value: '1,2m aprox.' }, // Longitud cable
+      { id: 39, value: '20Hz ~ 20KHz' }, // Frecuencia
+      { id: 31, value: '32Ω' }, // Impedancia
+      { id: 32, value: '110dB±3dB' }, // Sensibilidad
+      { id: 33, value: '-42dB±3dB' }, // Sens. Mic
+      { id: 16, value: '169 * 68 * 188 mm' }, // Dimension prod
+      { id: 17, value: '177 * 210 * 76 mm' }, // Dimension caja
+      { id: 18, value: '146,39 gr' }, // Peso
+      { id: 34, value: '40 mm' }, // Diametro diafrag.
+      { id: 19, value: '7798111353414' }, // EAN
     ],
     includes: [
       13, // Cable 3.5mm + mic b
       9, // Manual
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1gZAzU6_u-LxAjnrBnZgukRYBP0V3aYNW`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1gZAzU6_u-LxAjnrBnZgukRYBP0V3aYNW',
     variants: [],
-    colors: [`AVA-102N`, `AVA-102B`]
+    colors: ['AVA-102N', 'AVA-102B']
   },
   { // AVA-BT301N
-    name: `Auriculares On-ear Bluetooth`,
-    sku: `AVA-BT301N`,
-    link: `/productos/AVA-BT301N`,
-    line: ``,
+    name: 'Auriculares On-ear Bluetooth',
+    sku: 'AVA-BT301N',
+    link: '/productos/AVA-BT301N',
+    line: '',
     categories: [104], 
     imgs: [
-      `/products/AVA-BT301N/img/1.webp`,
-      `/products/AVA-BT301N/img/2.webp`,
-      `/products/AVA-BT301N/img/3.webp`,
-      `/products/AVA-BT301N/img/4.webp`,
-      `/products/AVA-BT301N/img/5.webp`,
+      '/products/AVA-BT301N/img/1.webp',
+      '/products/AVA-BT301N/img/2.webp',
+      '/products/AVA-BT301N/img/3.webp',
+      '/products/AVA-BT301N/img/4.webp',
+      '/products/AVA-BT301N/img/5.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Almohadillas Soft`, img: fileserver + `/banners/almohadillas301n.webp`,
-        desc: `Los materiales ligeros y las suaves almohadillas con banda de sujeción acolchada hacen que los auriculares sean cómodos durante largos períodos.` },
-      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth301n.webp`,
-        desc: `Los auriculares AIWA cuentan con la nueva tecnología Bluetooth versión 5.0 que te permiten transmitir datos con el doble de rapidez, y a una distancia mucho mayor que la versión anterior.` },
-      { title: `Llevá la calidad a todas partes`, img: fileserver + `/banners/plegables301n.webp`,
-        desc: `¡Llevalo a donde quieras! Su sistema de vincha plegable facilita el guardado y el traslado` },
-      { title: `Excelentes materiales`, img: fileserver + `/banners/diseñocalidad301n.webp`,
-        desc: `Está construido con materiales de primera calidad que te brindarán una experiencia auditiva sin igual` }
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      { id: 27, customImg: fileserver + '/banners/cable102b.webp'}, // Mantene control
+      { id: 26, customImg: fileserver + '/banners/sobremesa301n.webp',
+      customDesc: 'Los materiales ligeros y las suaves almohadillas con banda de sujeción acolchada hacen que los auriculares sean cómodos durante largos períodos.' }, // Alm. Soft
+      { id: 26 }, // Almohadillas soft
+      { id: 24, customImg: fileserver + '/banners/diseñocalidad102b.webp'}, // Plegable
     ],
-    shortDesc: `Tu música y vos, sin intermediarios`,
+    shortDesc: 'Tu música y vos, sin intermediarios',
     longDesc: "Desplazate sin restricciones, tu música siempre te va acompañar. Ideal para quienes quieran realizar actividad física, viajar o trabajar.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/auriculares/91-auricular-bluetooth-aiwa-plegable-ava-bt301-mic-7798111353384.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/auriculares/91-auricular-bluetooth-aiwa-plegable-ava-bt301-mic-7798111353384.html',
     videos: [],
     featuredFeatures: [
       { id: 42 }, // Plegable
       { id: 43 }, // Almohadilla
-      { id: 51 }, // Control de Volumen
-      { id: 50 }, // Cable desmontable
+      { id: 44 }, // Ligero
+      { id: 45 }, // Cable desmontable
       { id: 46 }, // Manos libres
-      { id: 52 }, // Batería larga duración
+      { id: 47 }, // Cable largo
       { id: 48 }, // Boton incorporado
-      { id: 49, value: `blanco y negro` }, // Colores
+      { id: 49, value: 'blanco y negro' }, // Colores
     ],
     features: [
-      { id: 11, value: `Uso: 8h / Stand-by: 600h` }, // Duración Batería
-      { id: 10, value: `3.7V - 400mAh` }, // Batería
-      { id: 38, value: `de 2,5h a 3h` }, // Tiempo de carga
-      { id: 35, value: `10m` }, // Alcance BT
-      { id: 32, value: `103dB±3dB` }, // Sensibilidad
-      { id: 33, value: `-42dB±3dB` }, // Sens. Mic
-      { id: 31, value: `32Ω±15%` }, // Impedancia
-      { id: 30, value: `20Hz ~ 20KHz` }, // Frecuencia de respuesta
-      { id: 37, value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
-      { id: 36, value: `V5.0+EDR` }, // Version BT
-      { id: 27, value: `Canciones, Volúmen y Manos Libres` }, // Controles
-      { id: 16, value: `199 * 50 * 176 mm` }, // Dimension prod
-      { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
-      { id: 18, value: `200g` }, // Peso
-      { id: 19, value: `7798111353391` }, // EAN
-      { id: 15, value: `Plegable, Uso con cable (opcional)` }, // Otras caracteristicas
+      { id: 11, value: 'Uso: 8h / Stand-by: 600h' }, // Duración Batería
+      { id: 10, value: '3.7V - 400mAh' }, // Batería
+      { id: 38, value: 'de 2,5h a 3h' }, // Tiempo de carga
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 32, value: '103dB±3dB' }, // Sensibilidad
+      { id: 33, value: '-42dB±3dB' }, // Sens. Mic
+      { id: 31, value: '32Ω±15%' }, // Impedancia
+      { id: 30, value: '20Hz ~ 20KHz' }, // Frecuencia de respuesta
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP'}, // Formatos BT
+      { id: 36, value: 'V5.0+EDR' }, // Version BT
+      { id: 27, value: 'Canciones, Volúmen y Manos Libres' }, // Controles
+      { id: 16, value: '199 * 50 * 176 mm' }, // Dimension prod
+      { id: 17, value: '201 * 230 * 61 mm' }, // Dimension caja
+      { id: 18, value: '200g' }, // Peso
+      { id: 19, value: '7798111353391' }, // EAN
+      { id: 15, value: 'Plegable, Uso con cable (opcional)' }, // Otras caracteristicas
     ],
     includes: [
       4, // Cable USB
       3, // Cable aux
       9, // Manual
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1Tg2oFaysAoXIMu-ZvrOF2YnFEF7bVRKA`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1Tg2oFaysAoXIMu-ZvrOF2YnFEF7bVRKA',
     variants: [],
-    colors: ['AVA-BT301B', 'AVA-BT301N']
+    colors: []
   },
   { // AVA-BT301B
-    name: `Auriculares On-ear Bluetooth`,
-    sku: `AVA-BT301B`,
-    link: `/productos/AVA-BT301B`,
-    line: ``,
+    name: 'Auriculares On-ear Bluetooth',
+    sku: 'AVA-BT301B',
+    link: '/productos/AVA-BT301B',
+    line: '',
     categories: [104], 
     imgs: [
-      `/products/AVA-BT301B/img/1.webp`,
-      `/products/AVA-BT301B/img/2.webp`,
-      `/products/AVA-BT301B/img/3.webp`,
-      `/products/AVA-BT301B/img/4.webp`,
-      `/products/AVA-BT301B/img/5.webp`,
+      '/products/AVA-BT301B/img/1.webp',
+      '/products/AVA-BT301B/img/2.webp',
+      '/products/AVA-BT301B/img/3.webp',
+      '/products/AVA-BT301B/img/4.webp',
+      '/products/AVA-BT301B/img/5.webp',
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Almohadillas Soft`, img: fileserver + `/banners/almohadillas301b.webp`,
-        desc: `Los materiales ligeros y las suaves almohadillas con banda de sujeción acolchada hacen que los auriculares sean cómodos durante largos períodos.` },
-      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth301b.webp`,
-        desc: `Los auriculares AIWA cuentan con la nueva tecnología Bluetooth versión 5.0 que te permiten transmitir datos con el doble de rapidez, y a una distancia mucho mayor que la versión anterior.` },
-      { title: `Llevá la calidad a todas partes`, img: fileserver + `/banners/plegables301b.webp`,
-        desc: `¡Llevalo a donde quieras! Su sistema de vincha plegable facilita el guardado y el traslado` },
-      { title: `Excelentes materiales`, img: fileserver + `/banners/diseñocalidad301b.webp`,
-        desc: `Está construido con materiales de primera calidad que te brindarán una experiencia auditiva sin igual` }
+    banners: [ // TO OVERWRITE PROPS MUST SET: customTitle, customDesc, customImg
+      { id: 25 }, // Diseño Ligero
+      { id: 27, customImg: fileserver + '/banners/cable102b.webp'}, // Mantene control
+      { id: 26 }, // Almohadillas soft
+      { id: 24, customImg: fileserver + '/banners/diseñocalidad102b.webp'}, // Plegable
     ],
-    shortDesc: `Tu música y vos, sin intermediarios`,
+    shortDesc: 'Tu música y vos, sin intermediarios',
     longDesc: "Desplazate sin restricciones, tu música siempre te va acompañar. Ideal para quienes quieran realizar actividad física, viajar o trabajar.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/auriculares/90-auricular-bluetooth-aiwa-plegable-ava-bt301-mic-7798111353391.html`,
+    buyLink: 'https://tienda.aiwaelectronics.com.ar/auriculares/91-auricular-bluetooth-aiwa-plegable-ava-bt301-mic-7798111353384.html',
     videos: [],
     featuredFeatures: [
       { id: 42 }, // Plegable
       { id: 43 }, // Almohadilla
-      { id: 51 }, // Control de Volumen
-      { id: 50 }, // Cable desmontable
+      { id: 44 }, // Ligero
+      { id: 45 }, // Cable desmontable
       { id: 46 }, // Manos libres
-      { id: 52 }, // Batería larga duración
+      { id: 47 }, // Cable largo
       { id: 48 }, // Boton incorporado
-      { id: 49, value: `blanco y negro` }, // Colores
+      { id: 49, value: 'blanco y negro' }, // Colores
     ],
     features: [
-      { id: 11, value: `Uso: 8h / Stand-by: 600h` }, // Duración Batería
-      { id: 10, value: `3.7V - 400mAh` }, // Batería
-      { id: 38, value: `de 2,5h a 3h` }, // Tiempo de carga
-      { id: 35, value: `10m` }, // Alcance BT
-      { id: 32, value: `103dB±3dB` }, // Sensibilidad
-      { id: 33, value: `-42dB±3dB` }, // Sens. Mic
-      { id: 31, value: `32Ω±15%` }, // Impedancia
-      { id: 30, value: `20Hz ~ 20KHz` }, // Frecuencia de respuesta
-      { id: 37, value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
-      { id: 36, value: `V5.0+EDR` }, // Version BT
-      { id: 27, value: `Canciones, Volúmen y Manos Libres` }, // Controles
-      { id: 16, value: `199 * 50 * 176 mm` }, // Dimension prod
-      { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
-      { id: 18, value: `200g` }, // Peso
-      { id: 19, value: `7798111353384` }, // EAN
-      { id: 15, value: `Plegable, Uso con cable (opcional)` }, // Otras caracteristicas
+      { id: 11, value: 'Uso: 8h / Stand-by: 600h' }, // Duración Batería
+      { id: 10, value: '3.7V - 400mAh' }, // Batería
+      { id: 38, value: 'de 2,5h a 3h' }, // Tiempo de carga
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 32, value: '103dB±3dB' }, // Sensibilidad
+      { id: 33, value: '-42dB±3dB' }, // Sens. Mic
+      { id: 31, value: '32Ω±15%' }, // Impedancia
+      { id: 30, value: '20Hz ~ 20KHz' }, // Frecuencia de respuesta
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP'}, // Formatos BT
+      { id: 36, value: 'V5.0+EDR' }, // Version BT
+      { id: 27, value: 'Canciones, Volúmen y Manos Libres' }, // Controles
+      { id: 16, value: '199 * 50 * 176 mm' }, // Dimension prod
+      { id: 17, value: '201 * 230 * 61 mm' }, // Dimension caja
+      { id: 18, value: '200g' }, // Peso
+      { id: 19, value: '7798111353384' }, // EAN
+      { id: 15, value: 'Plegable, Uso con cable (opcional)' }, // Otras caracteristicas
     ],
     includes: [
       4, // Cable USB
       3, // Cable aux
       9, // Manual
     ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1v8HOmraKEBIoSlQCZCs2kBfQAVlSdySF`,
-    variants: [],
-    colors: ['AVA-BT301B', 'AVA-BT301N']
-  },
-  { // ATA-106B
-    name: `Auriculares On-ear Bluetooth`,
-    sku: `ATA-106B`,
-    link: `/productos/ATA-106B`,
-    line: ``,
-    categories: [104], 
-    imgs: [
-      `/products/ATA-106B/img/1.webp`,
-      `/products/ATA-106B/img/2.webp`,
-      `/products/ATA-106B/img/3.webp`,
-      `/products/ATA-106B/img/4.webp`,
-      `/products/ATA-106B/img/5.webp`,
-      `/products/ATA-106B/img/6.webp`,
-      `/products/ATA-106B/img/7.webp`,
-      `/products/ATA-106B/img/8.webp`,
-    ].map(e => fileserver + e),
-    top: false,
-    360: true,
-    gen: "1º Generación",
-    banners: [ 
-      { title: `Almohadillas Soft`, img: fileserver + `/banners/almohadillas301b.webp`,
-        desc: `Los materiales ligeros y las suaves almohadillas con banda de sujeción acolchada hacen que los auriculares sean cómodos durante largos períodos.` },
-    ],
-    shortDesc: `Tu música donde quieras`,
-    longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
-    buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/250-auriculares-in-ear-inalambricos-aiwa-ata-106n-7798111354473.html`,
-    videos: [],
-    featuredFeatures: [
-      { id: 42 }, // Plegable
-      { id: 43 }, // Almohadilla
-      { id: 51 }, // Control de Volumen
-      { id: 50 }, // Cable desmontable
-      { id: 46 }, // Manos libres
-      { id: 52 }, // Batería larga duración
-      { id: 48 }, // Boton incorporado
-      { id: 49, value: `blanco y negro` }, // Colores
-    ],
-    features: [
-      { id: 11, value: `Uso: 8h / Stand-by: 600h` }, // Duración Batería
-      { id: 10, value: `3.7V - 400mAh` }, // Batería
-      { id: 38, value: `de 2,5h a 3h` }, // Tiempo de carga
-      { id: 35, value: `10m` }, // Alcance BT
-      { id: 32, value: `103dB±3dB` }, // Sensibilidad
-      { id: 33, value: `-42dB±3dB` }, // Sens. Mic
-      { id: 31, value: `32Ω±15%` }, // Impedancia
-      { id: 30, value: `20Hz ~ 20KHz` }, // Frecuencia de respuesta
-      { id: 37, value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
-      { id: 36, value: `V5.0+EDR` }, // Version BT
-      { id: 27, value: `Canciones, Volúmen y Manos Libres` }, // Controles
-      { id: 16, value: `199 * 50 * 176 mm` }, // Dimension prod
-      { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
-      { id: 18, value: `200g` }, // Peso
-      { id: 19, value: `7798111353384` }, // EAN
-      { id: 15, value: `Plegable, Uso con cable (opcional)` }, // Otras caracteristicas
-    ],
-    includes: [
-      4, // Cable Micro USB
-      9, // Manual
-    ],
-    certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1Uu8rm2ALdiXv_fwNKk-SFXgBpZOJEkBY`,
+    certNo: '',
+    downloads: 'https://drive.google.com/drive/folders/1Tg2oFaysAoXIMu-ZvrOF2YnFEF7bVRKA',
     variants: [],
     colors: []
   },

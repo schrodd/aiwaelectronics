@@ -1,9 +1,10 @@
-
 // Orden alfabético 
 import battery from '../public/svg/battery.svg'
 import batterybars from '../public/svg/batterybars.svg'
 import bluetooth from '../public/svg/bluetooth.svg'
+import cable from '../public/svg/cable.svg'
 import carryon from '../public/svg/carryon.svg'
+import color from '../public/svg/color.svg'
 import fx from '../public/svg/fx.svg'
 import guitar from '../public/svg/guitar.svg'
 import guitmic from '../public/svg/guitmic.svg'
@@ -12,8 +13,10 @@ import horizontal from '../public/svg/horizontal.svg'
 import lights from '../public/svg/lights.svg'
 import megabass from '../public/svg/megabass.svg'
 import mic from '../public/svg/mic.svg'
+import micauris from '../public/svg/micauris.svg'
 import micreg from '../public/svg/micreg.svg'
 import phone from '../public/svg/phone.svg'
+import plegable from '../public/svg/plegable.svg'
 import plug from '../public/svg/plug.svg'
 import pluma from '../public/svg/pluma.svg'
 import potencia from '../public/svg/potencia.svg'
@@ -23,8 +26,10 @@ import rec from '../public/svg/rec.svg'
 import reg from '../public/svg/reg.svg'
 import remote from '../public/svg/remote.svg'
 import sd from '../public/svg/sd.svg'
+import soft from '../public/svg/soft.svg'
 import speaker from '../public/svg/speaker.svg'
 import speaker2 from '../public/svg/speaker2.svg'
+import touch from '../public/svg/touch.svg'
 import tripod from '../public/svg/tripod.svg'
 import tws from '../public/svg/tws.svg'
 import usb from '../public/svg/usb.svg'
@@ -196,7 +201,30 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   {id: 40, name: 'Efectos de Voz', icon: voice,
   desc: 'Divertite con tus amigos usando los 5 efectos de voz incluidos ¡Una experiencia sin igual!'
   },
-  
+
+  // Auriculares
+  { id: 52, name: 'Batería de larga duración', icon: battery,
+  desc: 'Posee la autonomía suficiente para disfrutar por horas' },
+  { id: 42, name: 'Plegable', icon: plegable,
+  desc: '¡Llevalo a todas partes! Se puede plegar para caber en cualquier bolsillo.' },
+  { id: 46, name: 'Manos libres', icon: micauris,
+  desc: 'Gracias al micrófono incorporado podrás realizar y atender llamadas mientras los usas.' },
+  { id: 48, name: 'Botón incorporado', icon: touch,
+  desc: 'Atendé llamadas o pausá canciones con el botón de función.' },
+  { id: 51, name: 'Controles de Volumen', icon: speaker,
+  desc: 'Subí o bajá el volumen de tu música fácilmente usando los botones integrados.'},
+  { id: 45, name: 'Cable desmontable', icon: plug, // Flat AVA-102B/N
+  desc: 'Cable extraíble para tu comodidad. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
+  { id: 50, name: 'Cable desmontable', icon: plug, // No flat BT301B/N
+  desc: 'Cable auxiliar extraíble para tu comodidad. Podés conectar el cable y seguir disfrutando de tu música ¡incluso si te quedás sin batería!' },
+  { id: 43, name: 'Almohadilla Soft', icon: soft,
+  desc: 'Posee almohadillas de material suave que se adaptan a vos.' },
+  { id: 44, name: 'Ligero', icon: pluma,
+  desc: '¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },
+  { id: 47, name: 'Cable largo', icon: cable,
+  desc: 'Posee un cable lo suficientemente largo para que no tengas que preocuparte por ello.' },
+  { id: 49, name: 'Colores', icon: color,
+  customDesc: colores => `Seleccioná alguno de los colores disponibles y personalizá tu experiencia auditiva. Disponible en ${colores}.` },
 ]
 
 export default featuredFeatures
