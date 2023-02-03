@@ -6599,7 +6599,7 @@ export const products = [
     ],
     shortDesc: `Tu compañía indispensable`,
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/cableado/89-auriculares-aiwa-vincha-plegable-ava-102-manos-libres-7798111353421.html`,
     videos: [],
     featuredFeatures: [
       { id: 42 }, // Plegable
@@ -6690,7 +6690,7 @@ export const products = [
       { id: 16, value: `199 * 50 * 176 mm` }, // Dimension prod
       { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
       { id: 18, value: `200g` }, // Peso
-      { id: 19, value: `7798111353391` }, // EAN
+      { id: 19, value: `7798111353384` }, // EAN
       { id: 15, value: `Plegable, Uso con cable (opcional)` }, // Otras caracteristicas
     ],
     includes: [
@@ -6758,7 +6758,7 @@ export const products = [
       { id: 16, value: `199 * 50 * 176 mm` }, // Dimension prod
       { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
       { id: 18, value: `200g` }, // Peso
-      { id: 19, value: `7798111353384` }, // EAN
+      { id: 19, value: `7798111353391` }, // EAN
       { id: 15, value: `Plegable, Uso con cable (opcional)` }, // Otras caracteristicas
     ],
     includes: [
