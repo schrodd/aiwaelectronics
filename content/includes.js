@@ -16,6 +16,10 @@ const includes = [
   // Auriculares
   { id: 13, name: 'Cable Auxiliar con mic y botón', img: '/images/includes/auxmicb.jpg' }, // Blanco
   { id: 14, name: 'Cable Auxiliar con mic y botón', img: '/images/includes/auxmicn.jpg' }, // Negro
+  { id: 15, name: 'Almohadillas tamaños S, M y L', img: '/images/includes/buds_b.jpg' }, // Blanco
+  { id: 16, name: 'Almohadillas tamaños S, M y L', img: '/images/includes/buds_n.jpg' }, // Negro
+  { id: 17, name: 'Estuche de carga', img: '/images/includes/case106b.jpg' }, // 105 106 Blanco
+  { id: 18, name: 'Estuche de carga', img: '/images/includes/case106n.jpg' }, // 105 106 Negro
 ]
 
 export default includes;

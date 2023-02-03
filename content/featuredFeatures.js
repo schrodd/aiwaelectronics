@@ -2,9 +2,13 @@
 import battery from '../public/svg/battery.svg'
 import batterybars from '../public/svg/batterybars.svg'
 import bluetooth from '../public/svg/bluetooth.svg'
+import buds from '../public/svg/buds.svg'
 import cable from '../public/svg/cable.svg'
+import canciones from '../public/svg/canciones.svg'
 import carryon from '../public/svg/carryon.svg'
 import color from '../public/svg/color.svg'
+import estuche from '../public/svg/estuche.svg'
+import fingerprint from '../public/svg/fingerprint.svg'
 import fx from '../public/svg/fx.svg'
 import guitar from '../public/svg/guitar.svg'
 import guitmic from '../public/svg/guitmic.svg'
@@ -203,16 +207,22 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   },
 
   // Auriculares
+  { id: 55, name: 'Estuche de carga', icon: estuche,
+  desc: 'Cuentan con un estuche de carga portátil, siempre que estén en el mismo, van a estar cargándose.' },
+  { id: 53, name: 'Botón Touch', icon: fingerprint,
+  desc: 'Atendé llamadas o pausá canciones con un suave toque usando el botón Touch multifunción incorporado.' },
   { id: 52, name: 'Batería de larga duración', icon: battery,
-  desc: 'Posee la autonomía suficiente para disfrutar por horas' },
+  desc: 'Posee la autonomía suficiente para disfrutar tu música por horas' },
   { id: 42, name: 'Plegable', icon: plegable,
   desc: '¡Llevalo a todas partes! Se puede plegar para caber en cualquier bolsillo.' },
   { id: 46, name: 'Manos libres', icon: micauris,
   desc: 'Gracias al micrófono incorporado podrás realizar y atender llamadas mientras los usas.' },
   { id: 48, name: 'Botón incorporado', icon: touch,
   desc: 'Atendé llamadas o pausá canciones con el botón de función.' },
-  { id: 51, name: 'Controles de Volumen', icon: speaker,
+  { id: 51, name: 'Control de Volumen', icon: speaker,
   desc: 'Subí o bajá el volumen de tu música fácilmente usando los botones integrados.'},
+  { id: 54, name: 'Control de Canciones', icon: canciones,
+  desc: '¡Navegá tu lista de reproducción libremente!'},
   { id: 45, name: 'Cable desmontable', icon: plug, // Flat AVA-102B/N
   desc: 'Cable extraíble para tu comodidad. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
   { id: 50, name: 'Cable desmontable', icon: plug, // No flat BT301B/N
@@ -223,6 +233,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   desc: '¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },
   { id: 47, name: 'Cable largo', icon: cable,
   desc: 'Posee un cable lo suficientemente largo para que no tengas que preocuparte por ello.' },
+  { id: 56, name: 'Almohadillas de repuesto', icon: buds,
+  desc: 'Incluye 3 pares de almohadillas de distintos tamaños (S, M, L) para que puedas usar el que mejor se adapte a vos.' },
   { id: 49, name: 'Colores', icon: color,
   customDesc: colores => `Seleccioná alguno de los colores disponibles y personalizá tu experiencia auditiva. Disponible en ${colores}.` },
 ]

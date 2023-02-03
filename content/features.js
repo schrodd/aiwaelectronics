@@ -12,6 +12,8 @@ const features = [ // Características de productos ORDENADAS
   { id: 36, name: 'Versión de Bluetooth' },
   { id: 37, name: 'Formatos de Bluetooth' },
   { id: 38, name: 'Tiempo de carga' },
+  { id: 39, name: 'Indicador de carga' },
+  { id: 40, name: 'Tipo de batería' },
 
   // Parlantes y torres
   { id: 3, name: 'Woofers' },

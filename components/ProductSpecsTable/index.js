@@ -4,6 +4,7 @@ import features from '../../content/features'
 import IncludesItem from '../IncludesItem'
 import includes from '../../content/includes'
 import ProductCard from '../ProductCard'
+import React from 'react';
 
 export default function ProductSpecsTable({prod}) {
   const prodFeatures = []
@@ -13,7 +14,6 @@ export default function ProductSpecsTable({prod}) {
       prodFeatures.push({...prodFeature, name: e.name})
     }
   })
-  console.log(prodFeatures)
   const prodIncludes = []
   prod.includes.forEach(e => {
     prodIncludes.push(includes.find(f => e == f.id))
@@ -23,14 +23,27 @@ export default function ProductSpecsTable({prod}) {
       <AccordionItem classes='prod-specs-table' name='Especificaciones'>
         <div className='table-cell-container'>
         <div className='table-cell sku'>
-              <div className='title'>{prod.sku}</div>
+          <div className='title'>{prod.sku}</div>
+        </div>
+        {prod.featuresSections && prod.featuresSections.map((e,i) => (
+          <React.Fragment key={i}>
+            <div className='table-cell sku'>
+              <div className='title'>{e.title}</div>
             </div>
-          {prodFeatures.map((e,i) => (
-            <div className='table-cell' key={i}>
-              <div className='title'>{e.name}</div>
-              <p className='desc'>{e.value}</p>
-            </div>
-          ))}
+            {e.items.map((f,i) => (
+              <div className='table-cell' key={i}>
+                <div className='title'>{f.name}</div>
+                <p className='desc'>{f.value}</p>
+              </div>
+            ))}
+          </React.Fragment>
+        ))}
+        {!prod.featuresSections && prodFeatures.map((e,i) => (
+          <div className='table-cell' key={i}>
+            <div className='title'>{e.name}</div>
+            <p className='desc'>{e.value}</p>
+          </div>
+        ))}
         </div>
       </AccordionItem>
       <AccordionItem classes='prod-specs-table' name='Incluye'>

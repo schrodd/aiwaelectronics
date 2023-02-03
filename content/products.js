@@ -6686,7 +6686,7 @@ export const products = [
       { id: 30, value: `20Hz ~ 20KHz` }, // Frecuencia de respuesta
       { id: 37, value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
       { id: 36, value: `V5.0+EDR` }, // Version BT
-      { id: 27, value: `Canciones, Volúmen y Manos Libres` }, // Controles
+      { id: 27, value: `Canciones, Volumen y Manos Libres` }, // Controles
       { id: 16, value: `199 * 50 * 176 mm` }, // Dimension prod
       { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
       { id: 18, value: `200g` }, // Peso
@@ -6754,7 +6754,7 @@ export const products = [
       { id: 30, value: `20Hz ~ 20KHz` }, // Frecuencia de respuesta
       { id: 37, value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
       { id: 36, value: `V5.0+EDR` }, // Version BT
-      { id: 27, value: `Canciones, Volúmen y Manos Libres` }, // Controles
+      { id: 27, value: `Canciones, Volumen y Manos Libres` }, // Controles
       { id: 16, value: `199 * 50 * 176 mm` }, // Dimension prod
       { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
       { id: 18, value: `200g` }, // Peso
@@ -6772,11 +6772,11 @@ export const products = [
     colors: ['AVA-BT301B', 'AVA-BT301N']
   },
   { // ATA-106B
-    name: `Auriculares On-ear Bluetooth`,
+    name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-106B`,
     link: `/productos/ATA-106B`,
     line: ``,
-    categories: [104], 
+    categories: [103], 
     imgs: [
       `/products/ATA-106B/img/1.webp`,
       `/products/ATA-106B/img/2.webp`,
@@ -6789,50 +6789,67 @@ export const products = [
     ].map(e => fileserver + e),
     top: false,
     360: true,
-    gen: "1º Generación",
+    gen: "2º Generación",
     banners: [ 
-      { title: `Almohadillas Soft`, img: fileserver + `/banners/almohadillas301b.webp`,
-        desc: `Los materiales ligeros y las suaves almohadillas con banda de sujeción acolchada hacen que los auriculares sean cómodos durante largos períodos.` },
+      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth106b.webp`,
+      desc: `La última versión, te permiten transmitir datos con el doble de rapidez, y a mayor distancia. Podés sincronizarlos con cualquier dispositivo Bluetooth.` },
+      { title: `Larga autonomía`, img: fileserver + `/banners/energia106b.webp`,
+      desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
+      { title: `Controles Touch`, img: fileserver + `/banners/touch106b.webp`,
+      desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o usá un asistente de voz sin ninguna dificultad.` },
     ],
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/250-auriculares-in-ear-inalambricos-aiwa-ata-106n-7798111354473.html`,
     videos: [],
     featuredFeatures: [
-      { id: 42 }, // Plegable
-      { id: 43 }, // Almohadilla
       { id: 51 }, // Control de Volumen
-      { id: 50 }, // Cable desmontable
       { id: 46 }, // Manos libres
       { id: 52 }, // Batería larga duración
-      { id: 48 }, // Boton incorporado
+      { id: 53 }, // Boton incorporado
+      { id: 54 }, // Controles canciones
+      { id: 55 }, // Estuche
+      { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [
-      { id: 11, value: `Uso: 8h / Stand-by: 600h` }, // Duración Batería
-      { id: 10, value: `3.7V - 400mAh` }, // Batería
-      { id: 38, value: `de 2,5h a 3h` }, // Tiempo de carga
-      { id: 35, value: `10m` }, // Alcance BT
-      { id: 32, value: `103dB±3dB` }, // Sensibilidad
-      { id: 33, value: `-42dB±3dB` }, // Sens. Mic
-      { id: 31, value: `32Ω±15%` }, // Impedancia
-      { id: 30, value: `20Hz ~ 20KHz` }, // Frecuencia de respuesta
-      { id: 37, value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
-      { id: 36, value: `V5.0+EDR` }, // Version BT
-      { id: 27, value: `Canciones, Volúmen y Manos Libres` }, // Controles
-      { id: 16, value: `199 * 50 * 176 mm` }, // Dimension prod
-      { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
-      { id: 18, value: `200g` }, // Peso
-      { id: 19, value: `7798111353384` }, // EAN
-      { id: 15, value: `Plegable, Uso con cable (opcional)` }, // Otras caracteristicas
+    features: [],
+    featuresSections: [
+      {
+        title: 'Auricular',
+        items: [
+          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
+          { name: 'Capacidad de Batería', value: `40mAh` }, // Batería
+          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
+          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
+          { name: 'Controles', value: `Canciones, Volumen y Manos Libres` }, // Controles
+          { name: 'Dimensiones', value: `26,65 x 16,4 x 21,6 mm` }, // Dimension prod
+          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
+        ]
+      },
+      {
+        title: 'Estuche',
+        items: [
+          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
+          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
+          { name: 'Tiempo de Carga', value: `de 2h` }, // Tiempo de carga 
+          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` }, // Dimension prod
+          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
+          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
+          { name: 'EAN', value: `7798111353384` }, // EAN
+        ]
+      },
     ],
     includes: [
-      4, // Cable Micro USB
+      17, // Estuche de carga
+      15, // Almohadillas b
+      4, // MicroUSB
       9, // Manual
     ],
     certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1Uu8rm2ALdiXv_fwNKk-SFXgBpZOJEkBY`,
+    downloads: `https://drive.google.com/drive/folders/1UlHBO7yRy7Bv_vOXgu4QNYmzjOJHRtnt`,
     variants: [],
-    colors: []
+    colors: ['ATA-106B']
   },
 ]
