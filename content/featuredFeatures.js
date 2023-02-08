@@ -38,6 +38,7 @@ import touch from '../public/svg/touch.svg'
 import tripod from '../public/svg/tripod.svg'
 import tws from '../public/svg/tws.svg'
 import usb from '../public/svg/usb.svg'
+import usbc from '../public/svg/usbc.svg'
 import usbsd from '../public/svg/usbsd.svg'
 import voice from '../public/svg/voice.svg'
 import volumen from '../public/svg/volumen.svg'
@@ -230,6 +231,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   desc: 'Tiene un alcance total (aproximado) de 10 metros hasta el dispositivo emisor.'},
   { id: 57, name: 'Cable USB incluido', icon: powerusb,
   desc: 'Incluye cable MicroUSB (sólo para carga). Es tan simple como conectarlo a cualquier adaptador o puerto de tu pc.'},
+  { id: 59, name: 'Cable USB-C incluido', icon: usbc,
+  desc: 'Incluye cable USB Tipo C (sólo para carga). Es tan simple como conectarlo a cualquier adaptador o puerto de tu pc.'},
   { id: 45, name: 'Cable desmontable', icon: plug, // Flat AVA-102B/N
   desc: 'Cable extraíble para tu comodidad. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
   { id: 50, name: 'Cable desmontable', icon: plug, // No flat BT301B/N

@@ -6872,11 +6872,11 @@ export const products = [
     360: true,
     gen: "1º Generación",
     banners: [ 
-      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth106n.webp`,
+      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth106b.webp`,
       desc: `La última versión, te permiten transmitir datos con el doble de rapidez, y a mayor distancia. Podés sincronizarlos con cualquier dispositivo Bluetooth.` },
-      { title: `Larga autonomía`, img: fileserver + `/banners/energia106n.webp`,
+      { title: `Larga autonomía`, img: fileserver + `/banners/energia106b.webp`,
       desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
-      { title: `Controles Touch`, img: fileserver + `/banners/touch106n.webp`,
+      { title: `Controles Touch`, img: fileserver + `/banners/touch106b.webp`,
       desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, reproducí/pausá canciones o usá un asistente de voz sin ninguna dificultad.` },
     ],
     shortDesc: `Tu música donde quieras`,
@@ -6923,13 +6923,13 @@ export const products = [
       },
     ],
     includes: [
-      18, // Estuche de carga
-      16, // Almohadillas b
-      4, // MicroUSB
+      17, // Estuche de carga
+      15, // Almohadillas b
+      21, // MicroUSB
       9, // Manual
     ],
     certNo: ``,
-    downloads: `https://drive.google.com/drive/folders/1HannaUT0NFv5IMiIxnIhFZS84VR8uLv2`,
+    downloads: `https://drive.google.com/drive/folders/1I4WOc5v36nqEq-qFmAqHXDS7QryypHZU`,
     variants: ['ATA-105B', 'ATA-106B'],
     colors: ['ATA-105B', 'ATA-105N']
   },
@@ -7087,12 +7087,94 @@ export const products = [
     includes: [
       17, // Estuche de carga
       15, // Almohadillas b
-      4, // MicroUSB
+      21, // MicroUSB
       9, // Manual
     ],
     certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1UlHBO7yRy7Bv_vOXgu4QNYmzjOJHRtnt`,
     variants: [],
     colors: ['ATA-106B', 'ATA-106N']
+  },
+  { // ATA-306B
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-306B`,
+    link: `/productos/ATA-306B`,
+    line: ``,
+    categories: [103], 
+    imgs: [
+      `/products/ATA-306B/img/1.webp`,
+      `/products/ATA-306B/img/2.webp`,
+      `/products/ATA-306B/img/3.webp`,
+      `/products/ATA-306B/img/4.webp`,
+      `/products/ATA-306B/img/5.webp`,
+      `/products/ATA-306B/img/6.webp`,
+      `/products/ATA-306B/img/7.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: true,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `USB-C`, img: fileserver + `/banners/usbc306b.webp`,
+      desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.` },
+      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth306b.webp`,
+      desc: `La última versión, te permiten transmitir datos con el doble de rapidez, y a mayor distancia. Podés sincronizarlos con cualquier dispositivo Bluetooth.` },
+      { title: `Larga autonomía`, img: fileserver + `/banners/energia306b.webp`,
+      desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
+      { title: `Controles Touch`, img: fileserver + `/banners/touch306b.webp`,
+      desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.` },
+    ],
+    shortDesc: `Tu música donde quieras`,
+    longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
+    buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/251-auriculares-in-ear-inalambricos-aiwa-ata-306b-7798111354510.html`,
+    videos: [],
+    featuredFeatures: [
+      { id: 51 }, // Control de Volumen
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 54 }, // Controles canciones
+      { id: 55 }, // Estuche
+      { id: 56 }, // Almohadillas repuesto
+      { id: 59 }, // USBC
+    ],
+    features: [],
+    featuresSections: [
+      {
+        title: 'Auricular',
+        items: [
+          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
+          { name: 'Capacidad de Batería', value: `30mAh` }, // Batería
+          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
+          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
+          { name: 'Controles', value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: 'Dimensiones', value: `24,5 x 17 x 18 mm` }, // Dimension prod
+          { name: 'Peso', value: `4 g (cada uno)` }, // Peso
+        ]
+      },
+      {
+        title: 'Estuche',
+        items: [
+          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
+          { name: 'Capacidad de Batería', value: `200mAh` }, // Batería
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
+          { name: 'Tiempo de Carga', value: `2h` }, // Tiempo de carga 
+          { name: 'Dimensiones', value: `42 x 52 x 25,5 mm` }, // Dimension prod
+          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
+          { name: 'Peso', value: `36g` }, // Peso
+          { name: 'EAN', value: `7798111354510` }, // EAN
+        ]
+      },
+    ],
+    includes: [
+      19, // Estuche de carga
+      15, // Almohadillas b
+      20, // USB tipo C
+      9, // Manual
+    ],
+    certNo: ``,
+    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    variants: [],
+    colors: []
   },
 ]

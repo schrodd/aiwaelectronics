@@ -4,8 +4,10 @@ const includes = [
   { id: 2, name: 'Micrófono con cable', img: '/images/includes/mic.jpg' },
   { id: 3, name: 'Cable Auxiliar', img: '/images/includes/aux2.jpg' },
   { id: 4, name: 'Cable MicroUSB', img: '/images/includes/microusbcerca.jpg' },
+  { id: 21, name: 'Cable MicroUSB', img: '/images/includes/microusbcercab.jpg' }, // Blanco
   { id: 5, name: 'Fuente de Alimentación*', img: '/images/includes/trafo2.jpg' },
   { id: 6, name: 'Cable USB-C', img: '/images/includes/usb3cerca.jpg' },
+  { id: 20, name: 'Cable USB-C', img: '/images/includes/usb3cercab.jpg' }, // Blanco
   { id: 7, name: 'Control remoto', img: '/images/includes/control.jpg' }, // Gris
   { id: 8, name: 'Control remoto', img: '/images/includes/controln.jpg' }, // Negro
   { id: 9, name: 'Manual de Usuario y Garantía', img: '/images/includes/manual.jpg' },
@@ -20,6 +22,7 @@ const includes = [
   { id: 16, name: 'Almohadillas tamaños S, M y L', img: '/images/includes/buds_n.jpg' }, // Negro
   { id: 17, name: 'Estuche de carga', img: '/images/includes/case106b.jpg' }, // 105 106 Blanco
   { id: 18, name: 'Estuche de carga', img: '/images/includes/case106n.jpg' }, // 105 106 Negro
+  { id: 19, name: 'Estuche de carga', img: '/images/includes/case306b.jpg' }, // 306
 ]
 
 export default includes;
