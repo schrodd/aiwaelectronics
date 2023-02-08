@@ -25,6 +25,7 @@ import plug from '../public/svg/plug.svg'
 import pluma from '../public/svg/pluma.svg'
 import potencia from '../public/svg/potencia.svg'
 import powerbank from '../public/svg/powerbank.svg'
+import powerusb from '../public/svg/powerusb.svg'
 import radio from '../public/svg/radio.svg'
 import rec from '../public/svg/rec.svg'
 import reg from '../public/svg/reg.svg'
@@ -39,7 +40,9 @@ import tws from '../public/svg/tws.svg'
 import usb from '../public/svg/usb.svg'
 import usbsd from '../public/svg/usbsd.svg'
 import voice from '../public/svg/voice.svg'
+import volumen from '../public/svg/volumen.svg'
 import wheel from '../public/svg/wheel.svg'
+import wireless from '../public/svg/wireless.svg'
 import wirelessmic from '../public/svg/wirelessmic.svg'
 import wood from '../public/svg/wood.svg'
 import woodwheel from '../public/svg/woodwheel.svg'
@@ -219,10 +222,14 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   desc: 'Gracias al micrófono incorporado podrás realizar y atender llamadas mientras los usas.' },
   { id: 48, name: 'Botón incorporado', icon: touch,
   desc: 'Atendé llamadas o pausá canciones con el botón de función.' },
-  { id: 51, name: 'Control de Volumen', icon: speaker,
+  { id: 51, name: 'Control de Volumen', icon: volumen,
   desc: 'Subí o bajá el volumen de tu música fácilmente usando los botones integrados.'},
   { id: 54, name: 'Control de Canciones', icon: canciones,
   desc: '¡Navegá tu lista de reproducción libremente!'},
+  { id: 58, name: 'Amplio alcance', icon: wireless,
+  desc: 'Tiene un alcance total (aproximado) de 10 metros hasta el dispositivo emisor.'},
+  { id: 57, name: 'Cable USB incluido', icon: powerusb,
+  desc: 'Incluye cable MicroUSB (sólo para carga). Es tan simple como conectarlo a cualquier adaptador o puerto de tu pc.'},
   { id: 45, name: 'Cable desmontable', icon: plug, // Flat AVA-102B/N
   desc: 'Cable extraíble para tu comodidad. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
   { id: 50, name: 'Cable desmontable', icon: plug, // No flat BT301B/N

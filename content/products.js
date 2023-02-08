@@ -6771,32 +6771,194 @@ export const products = [
     variants: [],
     colors: ['AVA-BT301B', 'AVA-BT301N']
   },
-  { // ATA-106B
+  { // ATA-105N
     name: `Auriculares In-ear Bluetooth`,
-    sku: `ATA-106B`,
-    link: `/productos/ATA-106B`,
+    sku: `ATA-105N`,
+    link: `/productos/ATA-105N`,
     line: ``,
     categories: [103], 
     imgs: [
-      `/products/ATA-106B/img/1.webp`,
-      `/products/ATA-106B/img/2.webp`,
-      `/products/ATA-106B/img/3.webp`,
-      `/products/ATA-106B/img/4.webp`,
-      `/products/ATA-106B/img/5.webp`,
-      `/products/ATA-106B/img/6.webp`,
-      `/products/ATA-106B/img/7.webp`,
-      `/products/ATA-106B/img/8.webp`,
+      `/products/ATA-105N/img/1.webp`,
+      `/products/ATA-105N/img/2.webp`,
+      `/products/ATA-105N/img/3.webp`,
+      `/products/ATA-105N/img/4.webp`,
+      `/products/ATA-105N/img/5.webp`,
+      `/products/ATA-105N/img/6.webp`,
+      `/products/ATA-105N/img/7.webp`,
+      `/products/ATA-105N/img/8.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: true,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth106n.webp`,
+      desc: `La última versión, te permiten transmitir datos con el doble de rapidez, y a mayor distancia. Podés sincronizarlos con cualquier dispositivo Bluetooth.` },
+      { title: `Larga autonomía`, img: fileserver + `/banners/energia106n.webp`,
+      desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
+      { title: `Controles Touch`, img: fileserver + `/banners/touch106n.webp`,
+      desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, reproducí/pausá canciones o usá un asistente de voz sin ninguna dificultad.` },
+    ],
+    shortDesc: `Tu música donde quieras`,
+    longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
+    buyLink: ``,
+    videos: [],
+    featuredFeatures: [
+      { id: 57 }, // Cable usb carga
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 58 }, // Alcance
+      { id: 55 }, // Estuche
+      { id: 56 }, // Almohadillas repuesto
+      { id: 49, value: `blanco y negro` }, // Colores
+    ],
+    features: [],
+    featuresSections: [
+      {
+        title: 'Auricular',
+        items: [
+          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
+          { name: 'Capacidad de Batería', value: `40mAh` }, // Batería
+          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
+          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
+          { name: 'Controles', value: `Reproducir/Pausar, Manos Libres y Asistente de voz` }, // Controles
+          { name: 'Dimensiones', value: `26,65 x 16,4 x 21,6 mm` }, // Dimension prod
+          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
+        ]
+      },
+      {
+        title: 'Estuche',
+        items: [
+          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
+          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
+          { name: 'Tiempo de Carga', value: `de 2h` }, // Tiempo de carga 
+          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` }, // Dimension prod
+          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
+          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
+          { name: 'EAN', value: `7798111354145` }, // EAN
+        ]
+      },
+    ],
+    includes: [
+      18, // Estuche de carga
+      16, // Almohadillas b
+      4, // MicroUSB
+      9, // Manual
+    ],
+    certNo: ``,
+    downloads: `https://drive.google.com/drive/folders/1HannaUT0NFv5IMiIxnIhFZS84VR8uLv2`,
+    variants: ['ATA-105N', 'ATA-106N'],
+    colors: ['ATA-105B', 'ATA-105N']
+  },
+  { // ATA-105B
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-105B`,
+    link: `/productos/ATA-105B`,
+    line: ``,
+    categories: [103], 
+    imgs: [
+      `/products/ATA-105B/img/1.webp`,
+      `/products/ATA-105B/img/2.webp`,
+      `/products/ATA-105B/img/3.webp`,
+      `/products/ATA-105B/img/4.webp`,
+      `/products/ATA-105B/img/5.webp`,
+      `/products/ATA-105B/img/6.webp`,
+      `/products/ATA-105B/img/7.webp`,
+      `/products/ATA-105B/img/8.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: true,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth106n.webp`,
+      desc: `La última versión, te permiten transmitir datos con el doble de rapidez, y a mayor distancia. Podés sincronizarlos con cualquier dispositivo Bluetooth.` },
+      { title: `Larga autonomía`, img: fileserver + `/banners/energia106n.webp`,
+      desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
+      { title: `Controles Touch`, img: fileserver + `/banners/touch106n.webp`,
+      desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, reproducí/pausá canciones o usá un asistente de voz sin ninguna dificultad.` },
+    ],
+    shortDesc: `Tu música donde quieras`,
+    longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
+    buyLink: ``,
+    videos: [],
+    featuredFeatures: [
+      { id: 57 }, // Cable usb carga
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 58 }, // Alcance
+      { id: 55 }, // Estuche
+      { id: 56 }, // Almohadillas repuesto
+      { id: 49, value: `blanco y negro` }, // Colores
+    ],
+    features: [],
+    featuresSections: [
+      {
+        title: 'Auricular',
+        items: [
+          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
+          { name: 'Capacidad de Batería', value: `40mAh` }, // Batería
+          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
+          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
+          { name: 'Controles', value: `Reproducir/Pausar, Manos Libres y Asistente de voz` }, // Controles
+          { name: 'Dimensiones', value: `26,65 x 16,4 x 21,6 mm` }, // Dimension prod
+          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
+        ]
+      },
+      {
+        title: 'Estuche',
+        items: [
+          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
+          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
+          { name: 'Tiempo de Carga', value: `de 2h` }, // Tiempo de carga 
+          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` }, // Dimension prod
+          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
+          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
+          { name: 'EAN', value: `7798111354138` }, // EAN
+        ]
+      },
+    ],
+    includes: [
+      18, // Estuche de carga
+      16, // Almohadillas b
+      4, // MicroUSB
+      9, // Manual
+    ],
+    certNo: ``,
+    downloads: `https://drive.google.com/drive/folders/1HannaUT0NFv5IMiIxnIhFZS84VR8uLv2`,
+    variants: ['ATA-105B', 'ATA-106B'],
+    colors: ['ATA-105B', 'ATA-105N']
+  },
+  { // ATA-106N
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-106N`,
+    link: `/productos/ATA-106N`,
+    line: ``,
+    categories: [103], 
+    imgs: [
+      `/products/ATA-106N/img/1.webp`,
+      `/products/ATA-106N/img/2.webp`,
+      `/products/ATA-106N/img/3.webp`,
+      `/products/ATA-106N/img/4.webp`,
+      `/products/ATA-106N/img/5.webp`,
+      `/products/ATA-106N/img/6.webp`,
+      `/products/ATA-106N/img/7.webp`,
+      `/products/ATA-106N/img/8.webp`,
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "2º Generación",
     banners: [ 
-      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth106b.webp`,
+      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth106n.webp`,
       desc: `La última versión, te permiten transmitir datos con el doble de rapidez, y a mayor distancia. Podés sincronizarlos con cualquier dispositivo Bluetooth.` },
-      { title: `Larga autonomía`, img: fileserver + `/banners/energia106b.webp`,
+      { title: `Larga autonomía`, img: fileserver + `/banners/energia106n.webp`,
       desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
-      { title: `Controles Touch`, img: fileserver + `/banners/touch106b.webp`,
-      desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o usá un asistente de voz sin ninguna dificultad.` },
+      { title: `Controles Touch`, img: fileserver + `/banners/touch106n.webp`,
+      desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.` },
     ],
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
@@ -6822,7 +6984,7 @@ export const products = [
           { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
           { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
           { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
-          { name: 'Controles', value: `Canciones, Volumen y Manos Libres` }, // Controles
+          { name: 'Controles', value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
           { name: 'Dimensiones', value: `26,65 x 16,4 x 21,6 mm` }, // Dimension prod
           { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
         ]
@@ -6837,7 +6999,88 @@ export const products = [
           { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` }, // Dimension prod
           { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
           { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
-          { name: 'EAN', value: `7798111353384` }, // EAN
+          { name: 'EAN', value: `7798111354473` }, // EAN
+        ]
+      },
+    ],
+    includes: [
+      18, // Estuche de carga
+      16, // Almohadillas b
+      4, // MicroUSB
+      9, // Manual
+    ],
+    certNo: ``,
+    downloads: `https://drive.google.com/drive/folders/1Uu8rm2ALdiXv_fwNKk-SFXgBpZOJEkBY`,
+    variants: [],
+    colors: ['ATA-106B', 'ATA-106N']
+  },
+  { // ATA-106B
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-106B`,
+    link: `/productos/ATA-106B`,
+    line: ``,
+    categories: [103], 
+    imgs: [
+      `/products/ATA-106B/img/1.webp`,
+      `/products/ATA-106B/img/2.webp`,
+      `/products/ATA-106B/img/3.webp`,
+      `/products/ATA-106B/img/4.webp`,
+      `/products/ATA-106B/img/5.webp`,
+      `/products/ATA-106B/img/6.webp`,
+      `/products/ATA-106B/img/7.webp`,
+      `/products/ATA-106B/img/8.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: true,
+    gen: "2º Generación",
+    banners: [ 
+      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth106b.webp`,
+      desc: `La última versión, te permiten transmitir datos con el doble de rapidez, y a mayor distancia. Podés sincronizarlos con cualquier dispositivo Bluetooth.` },
+      { title: `Larga autonomía`, img: fileserver + `/banners/energia106b.webp`,
+      desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
+      { title: `Controles Touch`, img: fileserver + `/banners/touch106b.webp`,
+      desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.` },
+    ],
+    shortDesc: `Tu música donde quieras`,
+    longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
+    buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/264-auriculares-in-ear-inalambricos-aiwa-ata-106b-7798111354480.html`,
+    videos: [],
+    featuredFeatures: [
+      { id: 51 }, // Control de Volumen
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 54 }, // Controles canciones
+      { id: 55 }, // Estuche
+      { id: 56 }, // Almohadillas repuesto
+      { id: 49, value: `blanco y negro` }, // Colores
+    ],
+    features: [],
+    featuresSections: [
+      {
+        title: 'Auricular',
+        items: [
+          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
+          { name: 'Capacidad de Batería', value: `40mAh` }, // Batería
+          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
+          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
+          { name: 'Controles', value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: 'Dimensiones', value: `26,65 x 16,4 x 21,6 mm` }, // Dimension prod
+          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
+        ]
+      },
+      {
+        title: 'Estuche',
+        items: [
+          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
+          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
+          { name: 'Tiempo de Carga', value: `de 2h` }, // Tiempo de carga 
+          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` }, // Dimension prod
+          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
+          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
+          { name: 'EAN', value: `7798111354480` }, // EAN
         ]
       },
     ],
@@ -6850,6 +7093,6 @@ export const products = [
     certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1UlHBO7yRy7Bv_vOXgu4QNYmzjOJHRtnt`,
     variants: [],
-    colors: ['ATA-106B']
+    colors: ['ATA-106B', 'ATA-106N']
   },
 ]
