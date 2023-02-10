@@ -7236,7 +7236,7 @@ export const products = [
           { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` }, // Dimension prod
           { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
           { name: 'Peso', value: `38g` }, // Peso
-          { name: 'EAN', value: `7798111354145` }, // EAN
+          { name: 'EAN', value: `7798111354152` }, // EAN
         ]
       },
     ],
@@ -7392,7 +7392,7 @@ export const products = [
           { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` }, // Dimension prod
           { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
           { name: 'Peso', value: `38g` }, // Peso
-          { name: 'EAN', value: `7798111354145` }, // EAN
+          { name: 'EAN', value: `7798111354503` }, // EAN
         ]
       },
     ],
@@ -7488,5 +7488,171 @@ export const products = [
     downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
     variants: [],
     colors: []
+  },
+  { // ATA-406N
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-406N`,
+    link: `/productos/ATA-406N`,
+    line: ``,
+    categories: [103], 
+    imgs: [
+      `/products/ATA-406N/img/1.webp`,
+      `/products/ATA-406N/img/2.webp`,
+      `/products/ATA-406N/img/3.webp`,
+      `/products/ATA-406N/img/4.webp`,
+      `/products/ATA-406N/img/5.webp`,
+      `/products/ATA-406N/img/6.webp`,
+      `/products/ATA-406N/img/7.webp`,
+      `/products/ATA-406N/img/8.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: true,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `Controles Touch`, img: fileserver + `/banners/touch406n.webp`,
+      desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.` },
+      { title: `USB-C`, img: fileserver + `/banners/usbc406n.webp`,
+      desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.` },
+      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth406n.webp`,
+      desc: `La última versión, te permiten transmitir datos con el doble de rapidez, y a mayor distancia. Podés sincronizarlos con cualquier dispositivo Bluetooth.` },
+      { title: `Larga autonomía`, img: fileserver + `/banners/energia406n.webp`,
+      desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
+    ],
+    shortDesc: `Sonido sin límites`,
+    longDesc: "Impresionante calidad de sonido en un formato cómodo. Cancelación de ruido pasiva para que disfrutes sin distracciones.",
+    buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/328-auriculares-in-ear-inalambricos-aiwa-ata-406n.html`,
+    videos: [],
+    featuredFeatures: [
+      { id: 51 }, // Control de Volumen
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 54 }, // Controles canciones
+      { id: 55 }, // Estuche
+      { id: 56 }, // Almohadillas repuesto
+      { id: 49, value: `blanco y negro` }, // Colores
+    ],
+    features: [],
+    featuresSections: [
+      {
+        title: 'Auricular',
+        items: [
+          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
+          { name: 'Capacidad de Batería', value: `40mAh` }, // Batería
+          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
+          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
+          { name: 'Controles', value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: 'Dimensiones', value: `20 x 20 x 22,5 mm` }, // Dimension prod
+          { name: 'Peso', value: `5 g (cada uno)` }, // Peso
+        ]
+      },
+      {
+        title: 'Estuche',
+        items: [
+          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
+          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
+          { name: 'Tiempo de Carga', value: `2h` }, // Tiempo de carga 
+          { name: 'Dimensiones', value: `60 x 45 x 30 mm` }, // Dimension prod
+          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
+          { name: 'Peso', value: `40g` }, // Peso
+          { name: 'EAN', value: `7798111354527` }, // EAN
+        ]
+      },
+    ],
+    includes: [
+      23, // Estuche de carga
+      16, // Almohadillas 
+      6, // USBC
+      9, // Manual
+    ],
+    certNo: ``,
+    downloads: `https://drive.google.com/drive/folders/1X1kjKXFrCMsob_Egu_YJDR19gRJHlIT5`,
+    variants: [],
+    colors: ['ATA-406B', 'ATA-406N']
+  },
+  { // ATA-406B
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-406B`,
+    link: `/productos/ATA-406B`,
+    line: ``,
+    categories: [103], 
+    imgs: [
+      `/products/ATA-406B/img/1.webp`,
+      `/products/ATA-406B/img/2.webp`,
+      `/products/ATA-406B/img/3.webp`,
+      `/products/ATA-406B/img/4.webp`,
+      `/products/ATA-406B/img/5.webp`,
+      `/products/ATA-406B/img/6.webp`,
+      `/products/ATA-406B/img/7.webp`,
+      `/products/ATA-406B/img/8.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: true,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `Controles Touch`, img: fileserver + `/banners/touch406b.webp`,
+      desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.` },
+      { title: `Conexión Bluetooth 5.0`, img: fileserver + `/banners/bluetooth406b.webp`,
+      desc: `La última versión, te permiten transmitir datos con el doble de rapidez, y a mayor distancia. Podés sincronizarlos con cualquier dispositivo Bluetooth.` },
+      { title: `USB-C`, img: fileserver + `/banners/usbc406b.webp`,
+      desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.` },
+      { title: `Larga autonomía`, img: fileserver + `/banners/energia406b.webp`,
+      desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
+    ],
+    shortDesc: `Sonido sin límites`,
+    longDesc: "Impresionante calidad de sonido en un formato cómodo. Cancelación de ruido pasiva para que disfrutes sin distracciones.",
+    buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/327-auriculares-in-ear-inalambricos-aiwa-ata-406b-7798111354534.html`,
+    videos: [],
+    featuredFeatures: [
+      { id: 51 }, // Control de Volumen
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 54 }, // Controles canciones
+      { id: 55 }, // Estuche
+      { id: 56 }, // Almohadillas repuesto
+      { id: 49, value: `blanco y negro` }, // Colores
+    ],
+    features: [],
+    featuresSections: [
+      {
+        title: 'Auricular',
+        items: [
+          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
+          { name: 'Capacidad de Batería', value: `40mAh` }, // Batería
+          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
+          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
+          { name: 'Controles', value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: 'Dimensiones', value: `20 x 20 x 22,5 mm` }, // Dimension prod
+          { name: 'Peso', value: `5 g (cada uno)` }, // Peso
+        ]
+      },
+      {
+        title: 'Estuche',
+        items: [
+          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
+          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
+          { name: 'Tiempo de Carga', value: `2h` }, // Tiempo de carga 
+          { name: 'Dimensiones', value: `60 x 45 x 30 mm` }, // Dimension prod
+          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
+          { name: 'Peso', value: `40g` }, // Peso
+          { name: 'EAN', value: `7798111354534` }, // EAN
+        ]
+      },
+    ],
+    includes: [
+      22, // Estuche de carga
+      15, // Almohadillas 
+      20, // USBC
+      9, // Manual
+    ],
+    certNo: ``,
+    downloads: `https://drive.google.com/drive/folders/1WuUfgOnQsZbcCmCks9yM9-XE5l4-0k0i`,
+    variants: [],
+    colors: ['ATA-406B', 'ATA-406N']
   },
 ]
