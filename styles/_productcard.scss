@@ -42,7 +42,6 @@
         }
       }
       @include flex(column);
-      height: 110px;
       margin-top: 5px;
       @include mobile {
         align-items: flex-start;
@@ -82,7 +81,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 5px 0 15px 0;
+        margin: 5px 0 5px 0; 
         span {
           margin-top: 5px;
           display: flex;
