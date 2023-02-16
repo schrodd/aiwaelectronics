@@ -7783,7 +7783,7 @@ export const products = [
     ],
     certNo: `0Q-AR-01307-T-0`,
     downloads: `https://drive.google.com/drive/folders/1XLVGUK5qp2FQiVr94GrXz_uPG643jARP`,
-    variants: [],
+    variants: ['CA-141', 'CA141-CO', 'CA141-C'],
     colors: []
   },
   { // CA141-C
@@ -7849,7 +7849,7 @@ export const products = [
     ],
     certNo: `0Q-AR-01307-T-0`,
     downloads: `https://drive.google.com/drive/folders/16DAMs5p9bKVcBuWSZjz-ANUnAit9Vn5b`,
-    variants: ['CA-141', 'CA141-CO', 'CA141-C'],
+    variants: [],
     colors: []
   },
   { // NA-1413
@@ -7988,7 +7988,7 @@ export const products = [
     ],
     certNo: `0Q-AR-01307-T-0`,
     downloads: `https://drive.google.com/drive/folders/1SvItrVBtKP31e7--X336swDLvI326g3O`,
-    variants: ['NA-1413', 'NA-1431'],
+    variants: [],
     colors: []
   }
 ]
