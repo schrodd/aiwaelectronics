@@ -6,19 +6,23 @@ import buds from '../public/svg/buds.svg'
 import cable from '../public/svg/cable.svg'
 import canciones from '../public/svg/canciones.svg'
 import carryon from '../public/svg/carryon.svg'
+import chip from '../public/svg/chip.svg'
 import color from '../public/svg/color.svg'
 import estuche from '../public/svg/estuche.svg'
 import fingerprint from '../public/svg/fingerprint.svg'
+import funda from '../public/svg/funda.svg'
 import fx from '../public/svg/fx.svg'
 import guitar from '../public/svg/guitar.svg'
 import guitmic from '../public/svg/guitmic.svg'
 import handle from '../public/svg/handle.svg'
 import horizontal from '../public/svg/horizontal.svg'
+import kensington from '../public/svg/kensington.svg'
 import lights from '../public/svg/lights.svg'
 import megabass from '../public/svg/megabass.svg'
 import mic from '../public/svg/mic.svg'
 import micauris from '../public/svg/micauris.svg'
 import micreg from '../public/svg/micreg.svg'
+import monitorext from '../public/svg/monitorext.svg'
 import phone from '../public/svg/phone.svg'
 import plegable from '../public/svg/plegable.svg'
 import plug from '../public/svg/plug.svg'
@@ -27,13 +31,16 @@ import potencia from '../public/svg/potencia.svg'
 import powerbank from '../public/svg/powerbank.svg'
 import powerusb from '../public/svg/powerusb.svg'
 import radio from '../public/svg/radio.svg'
+import ram from '../public/svg/ram.svg'
 import rec from '../public/svg/rec.svg'
+import reso from '../public/svg/reso.svg'
 import reg from '../public/svg/reg.svg'
 import remote from '../public/svg/remote.svg'
 import sd from '../public/svg/sd.svg'
 import soft from '../public/svg/soft.svg'
 import speaker from '../public/svg/speaker.svg'
 import speaker2 from '../public/svg/speaker2.svg'
+import tecladoesp from '../public/svg/tecladoesp.svg'
 import touch from '../public/svg/touch.svg'
 import tripod from '../public/svg/tripod.svg'
 import tws from '../public/svg/tws.svg'
@@ -42,7 +49,9 @@ import usbc from '../public/svg/usbc.svg'
 import usbsd from '../public/svg/usbsd.svg'
 import voice from '../public/svg/voice.svg'
 import volumen from '../public/svg/volumen.svg'
+import webcam from '../public/svg/webcam.svg'
 import wheel from '../public/svg/wheel.svg'
+import windows from '../public/svg/windows.svg'
 import wireless from '../public/svg/wireless.svg'
 import wirelessmic from '../public/svg/wirelessmic.svg'
 import wood from '../public/svg/wood.svg'
@@ -247,6 +256,42 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   desc: 'Incluye 3 pares de almohadillas de distintos tamaños (S, M, L) para que puedas usar el que mejor se adapte a vos.' },
   { id: 49, name: 'Colores', icon: color,
   customDesc: colores => `Seleccioná alguno de los colores disponibles y personalizá tu experiencia auditiva. Disponible en ${colores}.` },
+
+  // Notebooks
+
+  { id: 60, name: 'Windows 10', icon: windows,
+  desc: 'Sistema Operativo Windows 10 incluido con licencia original.' },
+  { id: 61, name: 'Windows 11', icon: windows,
+  desc: '¡El nuevo Windows ya está aqui! Windows 11 incluido con licencia original. Aprovechá la mejora de rendimiento y funcionalidades que trae consigo.' },
+  { id: 63, name: 'Procesador', icon: chip, // poca potencia, cloud y note 1413
+  customDesc: proc => `Posee el modelo ${proc}, ideal para tareas de oficina y navegar por Internet.`},
+  { id: 71, name: 'Procesador', icon: chip, // mas potente, 1431
+  customDesc: proc => `Posee el modelo ${proc}, lo suficientemente potente para todas tus actividades.`},
+  { id: 64, name: 'Memoria RAM', icon: ram,
+  customDesc: gb => `Incluye ${gb} de RAM, más que suficiente para tus actividades diarias.`},
+  { id: 65, name: 'Tamaño de pantalla', icon: reso,
+  customDesc: ([pulg, reso]) => `Pantalla de ${pulg} con resolución de ${reso}.`},
+  { id: 72, name: 'Puerto USBC', icon: usbc,
+  desc: 'Transferí archivos a máxima velocidad utilizando el puerto USB Tipo C integrado.'},
+  { id: 62, name: 'Cámara Frontal', icon: webcam,
+  desc: 'Hacé videollamadas, grabá videos o hacé streams usando la webcam integrada de 0.3MP.'},
+  { id: 66, name: 'Lector de Memoria', icon: sd,
+    desc: '¡Expandí tus posibilidades! Posee lector de memorias SD para que puedas guardar tus archivos de la forma más cómoda.'
+  },
+  { id: 69, name: 'Salida de video', icon: monitorext,
+  customDesc: p => `Tiene puerto ${p}, conectá un segundo monitor y trabajá de forma mucho más eficiente.`},
+  { id: 68, name: 'Puertos USB', icon: usb,
+    customDesc: n => `Posee ${n} puerto${n > 1 ? 's' : ''} USB para que conectes tu pendrive o dispositivo.`
+  },
+  { id: 67, name: 'Funda protectora', icon: funda,
+    desc: 'Incluye funda protectora para que puedas trasladar tu equipo de forma segura.'
+  },
+  { id: 70, name: 'Puerto Kensington', icon: kensington,
+  desc: 'Usando este puerto podrás proteger tu Notebook de robos (candado Kensington no incluido).'},
+  { id: 73, name: 'Batería', icon: battery,
+  customDesc: n => `Posee batería interna de hasta ${n} horas de duración.`},
+  { id: 74, name: 'Teclado Español', icon: tecladoesp,
+  desc: 'Posee teclado 100% en español.'},
 ]
 
 export default featuredFeatures

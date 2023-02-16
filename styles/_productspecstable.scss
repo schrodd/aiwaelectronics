@@ -19,7 +19,7 @@ section#prod-specs {
         padding: 10px;
         width: 150px;
         //height: 160px;
-        border-radius: 10px;
+        border-radius: 4px;
         @include flex(column, flex-start);
         box-shadow: $shadow;
         p {
@@ -144,6 +144,10 @@ section#prod-specs {
         border-radius: 4px;
         margin: 0 15px 10px 0;
         @include flex;
+        &:hover {
+          background-color: $alt;
+          transform: translateY(-5px);
+        }
         svg {
           color: ghostwhite;
           margin-right: 5px;

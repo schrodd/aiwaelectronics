@@ -83,6 +83,7 @@ section.product-features {
       right: -50px;
       opacity: .07;
       svg {
+        width: 450px;
         height: 450px;
         @include mobile {
           width: 150px;
@@ -92,8 +93,8 @@ section.product-features {
     div.content {
       @include flex;
       svg {
-        width: 150px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
         color: $alt !important;
         fill: $alt !important;
         margin-bottom: -10px;

@@ -1,4 +1,14 @@
 const features = [ // Características de productos ORDENADAS
+
+  // Notebooks
+  { id: 41, name: 'Tamaño de pantalla'},
+  { id: 42, name: 'Resolución'},
+  { id: 43, name: 'Procesador'},
+  { id: 44, name: 'Memoria RAM'},
+  { id: 45, name: 'Almacenamiento'},
+  { id: 46, name: 'Cámara'},
+  { id: 47, name: 'Sistema Operativo'},
+
   // Auriculares
   { id: 27, name: 'Controles' },
   { id: 28, name: 'Tipo de conexión' },
