@@ -7717,7 +7717,7 @@ export const products = [
     ],
     certNo: `0Q-AR-01307-T-0`,
     downloads: `https://drive.google.com/drive/folders/1KB-EqgUn_6l5fBzhydm_y5cqUJBRMUzT`,
-    variants: [],
+    variants: ['CA-141', 'CA141-CO', 'CA141-C'],
     colors: []
   },
   { // CA141-CO
