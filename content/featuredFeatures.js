@@ -8,6 +8,7 @@ import canciones from '../public/svg/canciones.svg'
 import carryon from '../public/svg/carryon.svg'
 import chip from '../public/svg/chip.svg'
 import color from '../public/svg/color.svg'
+import doblemic from '../public/svg/doblemic.svg'
 import estuche from '../public/svg/estuche.svg'
 import fingerprint from '../public/svg/fingerprint.svg'
 import funda from '../public/svg/funda.svg'
@@ -66,7 +67,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   {
     id: 3, name: 'Woofers', icon: speaker,
     customDesc(input) {
-      return `El poder está en los Woofers. Posee ${input}. ¡Cuidado con las vibraciones!.`
+      return `El poder está en los Woofers. Posee ${input}. ¡Cuidado con las vibraciones!`
     }
   },
   {
@@ -91,7 +92,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     desc: '¡Cargá tu celular mientras escuchas música! Gracias a la función de Power Bank, podés escuchar tus temas favoritos durante varias horas, sin que se le agote la batería a tu celular en medio de la fiesta.'
   },
   { id: 31, name: 'Mega Bass', icon: megabass,
-    desc: '¿Querés potenciar y sentir aún mas los graves? ¡Hacelo con la función Mega Bass!.'
+    desc: '¿Querés potenciar y sentir aún mas los graves? ¡Hacelo con la función Mega Bass!'
   },
   { id: 22, name: 'Regulador de Graves y Agudos', icon: reg,
     desc: 'Regulá a tu gusto los niveles de Graves y Agudos de tu música.'
@@ -134,11 +135,11 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     desc:'Con el micrófono incluido podés tener sesiones de Karaoke con tus amigos y disfrutar al máximo.',
   },
   { id: 14, name: 'Micrófono Inalámbrico', icon: wirelessmic,
-    desc: 'Con el Micrófono Inalámbrico AIWA podés moverte con total libertad y soltura sin tropezarte con cables ¡Cantá, rapéa, improvisá a todo pulmón junto con tus amigos!.'
+    desc: 'Con el Micrófono Inalámbrico AIWA podés moverte con total libertad y soltura sin tropezarte con cables ¡Cantá, rapéa, improvisá a todo pulmón junto con tus amigos!'
   },
   {
     id: 10, name: 'Trípode', icon: tripod,
-    desc: 'Incluye sólido trípode, realizá presentaciones profesionales ¡y llevá tus sonido más lejos!.'
+    desc: 'Incluye sólido trípode, realizá presentaciones profesionales ¡y llevá tus sonido más lejos!'
   },
   {id: 41, name: 'Ranura para trípode', icon: tripod,
   desc: '¡Sumá un trípode y elevá tu sonido! Trípode no incluido.'
@@ -147,7 +148,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     desc: 'La distancia no es problema, controlá cómodamente desde la distancia.'
   },
   { id: 15, name: 'Entrada para Guitarra', icon: guitar,
-    desc: '¡Conectá una guitarra y comenzá a rockear!.'
+    desc: '¡Conectá una guitarra y comenzá a rockear!'
   },
   { id: 16, name: 'Entrada para Micrófono', icon: mic,
     desc: 'Conectá un micrófono y activá el karaoke en tu casa.'
@@ -155,8 +156,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   { id: 21, name: 'Entrada para Micrófono y Guitarra', icon: guitmic,
     desc: '¡Tocá donde quieras! Posee entradas para micrófono y guitarra con reguladores independientes. No necesitás nada más para tu evento.'
   },
-  { id: 27, name: '2 Entradas para Micrófono', icon: mic,
-    desc: 'Gracias a la de Entrada de Micrófono con cable, tenés la posibilidad de conectar hasta dos micrófonos a la vez y convertir tu fiesta en un verdadero karaoke para divertirte durante toda la noche.'
+  { id: 27, name: '2 Entradas para Micrófono', icon: doblemic,
+    desc: 'Tenés la posibilidad de conectar hasta dos micrófonos a la vez y convertir tu fiesta en un verdadero karaoke para divertirte durante toda la noche.'
   },
   { id: 33, name: 'Conexión USB', icon: usb,
     desc: 'Posee puerto USB para que conectes tu pendrive o dispositivo.'
@@ -166,7 +167,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   },
   {
     id: 37, name: 'Puerto USB + Ranura MicroSD', icon: usbsd,
-    desc: 'Posee puerto USB para que conectes tu pendrive o dispositivo, ¡y también posee ranura MicroSD!.'
+    desc: 'Posee puerto USB para que conectes tu pendrive o dispositivo, ¡y también posee ranura MicroSD!'
   },
   { id: 17, name: 'Entrada Auxiliar', icon: plug,
     desc: 'Conectá tu celular o dispositivo a través de la entrada auxiliar 3.5mm.'
@@ -175,7 +176,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     desc: 'Sintonizá cualquier emisora, disfrutá en la mejor calidad de sonido.'
   },
   { id: 34, name: 'Función REC', icon: rec,
-    desc: 'Grabá tu música favorita, sumá un micrófono o guitarra ¡y creá contenido nuevo!.'
+    desc: 'Grabá tu música favorita, sumá un micrófono o guitarra ¡y creá contenido nuevo!'
   },
   { 
     id: 7, name: 'Batería Recargable', icon: battery,
@@ -186,7 +187,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   { 
     id: 8, name: 'Duración de Batería', icon: batterybars,
     customDesc(input) {
-      return `Tiene la capacidad de estar encendido y en uso hasta por ${input} y además podés usarlo conectado. ¡Que la fiesta no pare!.`
+      return `Tiene la capacidad de estar encendido y en uso hasta por ${input} y además podés usarlo conectado. ¡Que la fiesta no pare!`
     }
   },
   { 

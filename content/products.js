@@ -5572,6 +5572,522 @@ export const products = [
     downloads: `https://drive.google.com/drive/folders/188BCWXjwtJWRqXjNcz4YEuZVjhnEjcsA`,
     variants: []
   },
+  {// AW-T2202
+    name: `Torre de Sonido Bluetooth Infinit 8500W`,
+    sku: `AW-T2202`,
+    link: `/productos/AW-T2202`,
+    line: `infinit`,
+    categories: [102], 
+    imgs: [
+      `/products/AW-T2202/img/1.webp`,
+      `/products/AW-T2202/img/2.webp`,
+      `/products/AW-T2202/img/3.webp`,
+      `/products/AW-T2202/img/4.webp`,
+      `/products/AW-T2202/img/5.webp`,
+      `/products/AW-T2202/img/6.webp`,
+      `/products/AW-T2202/img/7.webp`,
+      `/products/AW-T2202/img/8.webp`,
+      `/products/AW-T2202/img/9.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: false,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
+        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
+    ],
+    shortDesc: `Cargá y reproducí`,
+    longDesc: "Gracias a su función Power Bank, cargá tus dispositivos mientras reproducís tus canciones favoritas. ¡Disfrutalo en interiores o exteriores! Posee batería recargable de larga duración.",
+    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/336-parlante-torre-bluetooth-power-bank-8500w-aiwa-aw-t2202-7798111354664.html`,
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: `8500W PMPO`
+      },
+      { // Woofer
+        id: 3,
+        value: `2 de 8"`
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Eco y Vol Mic
+        id: 28,
+      },
+      { // Entrada Mic 
+        id: 16,
+      },
+      { // Tweeter
+        id: 35,
+        value: `1 de 2"`
+      },
+      { // Mobile Holder
+        id: 29,
+      },
+      { // Duracion Batería
+        id: 8,
+        value: `6 horas (según su uso)`
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      },
+      { // Power Bank
+        id: 13,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "8500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Funciones
+        id: 13,
+        value: "Bluetooth, TWS, Power Bank",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Eco y Volumen de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, Auxiliar",
+      },
+      { // Efectos
+        id: 23,
+        value: "De luces RGB",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte y Ruedas",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "25 x 59 x 24 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "33 x 62 x 33 cm",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354466",
+      },
+    ],
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: `RA 4183955 E`,
+    downloads: `https://drive.google.com/drive/folders/1J-Us5t2Ibxg-XO-EvggbG9Ks6KXUqYia`,
+    variants: []
+  },
+  {// AW-T2302
+    name: `Torre de Sonido Bluetooth Infinit 8500W`,
+    sku: `AW-T2302`,
+    link: `/productos/AW-T2302`,
+    line: `infinit`,
+    categories: [102], 
+    imgs: [
+      `/products/AW-T2302/img/1.webp`,
+      `/products/AW-T2302/img/2.webp`,
+      `/products/AW-T2302/img/3.webp`,
+      `/products/AW-T2302/img/4.webp`,
+      `/products/AW-T2302/img/5.webp`,
+      `/products/AW-T2302/img/6.webp`,
+      `/products/AW-T2302/img/7.webp`,
+      `/products/AW-T2302/img/8.webp`,
+      `/products/AW-T2302/img/9.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: false,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
+        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
+    ],
+    shortDesc: `Cargá y reproducí`,
+    longDesc: "Gracias a su función Power Bank, cargá tus dispositivos mientras reproducís tus canciones favoritas. ¡Disfrutalo en interiores o exteriores! Posee batería recargable de larga duración.",
+    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/340-parlante-torre-bluetooth-power-bank-8500w-aiwa-aw-t2302-7798111354688.html`,
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: `8500W PMPO`
+      },
+      { // Woofer
+        id: 3,
+        value: `2 de 8"`
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Eco y Vol Mic
+        id: 28,
+      },
+      { // Entrada Mic 
+        id: 16,
+      },
+      { // Tweeter
+        id: 35,
+        value: `1 de 2"`
+      },
+      { // Mobile Holder
+        id: 29,
+      },
+      { // Duracion Batería
+        id: 8,
+        value: `6 horas (según su uso)`
+      },
+      { // Reg Graves y Agudos
+        id: 22,
+      },
+      { // Power Bank
+        id: 13,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 8"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "8500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7.4V / 3600mAh",
+      },
+      { // Funciones
+        id: 13,
+        value: "Bluetooth, TWS, Power Bank",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Eco y Volumen de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, Auxiliar",
+      },
+      { // Efectos
+        id: 23,
+        value: "De luces RGB",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de Transporte y Ruedas",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "25 x 59 x 24 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "33 x 62 x 33 cm",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354664",
+      },
+    ],
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: `RA 4183955 E`,
+    downloads: `https://drive.google.com/drive/folders/1_RGkWGhk25SpmSqFyJgq56kcWI4O06EL`,
+    variants: []
+  },
+  {// AW-T2203
+    name: `Torre de Sonido Bluetooth Infinit 8500W`,
+    sku: `AW-T2203`,
+    link: `/productos/AW-T2203`,
+    line: `infinit`,
+    categories: [102], 
+    imgs: [
+      `/products/AW-T2203/img/1.webp`,
+      `/products/AW-T2203/img/2.webp`,
+      `/products/AW-T2203/img/3.webp`,
+      `/products/AW-T2203/img/4.webp`,
+      `/products/AW-T2203/img/5.webp`,
+      `/products/AW-T2203/img/6.webp`,
+      `/products/AW-T2203/img/7.webp`,
+      `/products/AW-T2203/img/8.webp`,
+      `/products/AW-T2203/img/9.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: false,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
+        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
+    ],
+    shortDesc: `Potencia portátil`,
+    longDesc: "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
+    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/339-parlante-torre-bluetooth-carry-on-12500w-aiwa-aw-t2203-7798111354671.html`,
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: `12.500W PMPO`
+      },
+      { // Woofer
+        id: 3,
+        value: `2 de 10"`
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Todos
+        id: 40,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Tweeter
+        id: 35,
+        value: `1 de 2"`
+      },
+      { // Carry-on
+        id: 9,
+      },
+      { // Duracion Batería
+        id: 8,
+        value: `5 horas (según su uso)`
+      },
+      { // Doble Entrada Mic
+        id: 27
+      },
+      { // Power Bank
+        id: 13,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 10"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "12.500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 12V / 7.5 Ah",
+      },
+      { // Funciones
+        id: 13,
+        value: "Bluetooth, TWS, Power Bank",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Eco y Volumen de Micrófono, Volumen de Guitarra",
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, Auxiliar, Guitarra",
+      },
+      { // Efectos
+        id: 23,
+        value: "De luces RGB",
+      },
+      { // Otras características
+        id: 15,
+        value: "Manija extensible y Ruedas",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "34 x 73 x 32 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "38 x 78 x 38 cm",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354671",
+      },
+    ],
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: `Q-AR-01590-T-2`,
+    downloads: `https://drive.google.com/drive/folders/1LWDgrClDIxr8AivGY2HqydFlypgeM-Qs`,
+    variants: []
+  },
+  {// AW-T2303
+    name: `Torre de Sonido Bluetooth Infinit 8500W`,
+    sku: `AW-T2303`,
+    link: `/productos/AW-T2303`,
+    line: `infinit`,
+    categories: [102], 
+    imgs: [
+      `/products/AW-T2303/img/1.webp`,
+      `/products/AW-T2303/img/2.webp`,
+      `/products/AW-T2303/img/3.webp`,
+      `/products/AW-T2303/img/4.webp`,
+      `/products/AW-T2303/img/5.webp`,
+      `/products/AW-T2303/img/6.webp`,
+      `/products/AW-T2303/img/7.webp`,
+      `/products/AW-T2303/img/8.webp`,
+      `/products/AW-T2303/img/9.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: false,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
+        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
+    ],
+    shortDesc: `Potencia portátil`,
+    longDesc: "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
+    buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/341-parlante-torre-bluetooth-carry-on-12500w-aiwa-2303-7798111354695.html`,
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: `12.500W PMPO`
+      },
+      { // Woofer
+        id: 3,
+        value: `2 de 10"`
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Todos
+        id: 40,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Tweeter
+        id: 35,
+        value: `1 de 2"`
+      },
+      { // Carry-on
+        id: 9,
+      },
+      { // Duracion Batería
+        id: 8,
+        value: `5 horas (según su uso)`
+      },
+      { // Doble Entrada Mic
+        id: 27
+      },
+      { // Power Bank
+        id: 13,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `2 de 10"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 2"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "12.500W PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 12V / 7.5 Ah",
+      },
+      { // Funciones
+        id: 13,
+        value: "Bluetooth, TWS, Power Bank",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Eco y Volumen de Micrófono, Volumen de Guitarra",
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, Auxiliar, Guitarra",
+      },
+      { // Efectos
+        id: 23,
+        value: "De luces RGB",
+      },
+      { // Otras características
+        id: 15,
+        value: "Manija extensible y Ruedas",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "34 x 73 x 32 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "38 x 78 x 38 cm",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354688",
+      },
+    ],
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: `Q-AR-01590-T-2`,
+    downloads: `https://drive.google.com/drive/folders/1uj7TxKU1pmHBsFiA1wndqz_H62iZA-6o`,
+    variants: []
+  },
   
   /////////////// LINEA FLAMA ////////////////
 
@@ -7572,7 +8088,7 @@ export const products = [
     variants: [],
     colors: ['ATA-406B', 'ATA-406N']
   },
-  { // ATA-406BNA-1413
+  { // ATA-406B
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-406B`,
     link: `/productos/ATA-406B`,
