@@ -11,6 +11,7 @@ const includes = [
   { id: 7, name: 'Control remoto', img: '/images/includes/control.jpg' }, // Gris
   { id: 8, name: 'Control remoto', img: '/images/includes/controln.jpg' }, // Negro
   { id: 9, name: 'Manual de Usuario y Garantía', img: '/images/includes/manual.jpg' },
+  { id: 25, name: 'Certificado de Garantía', img: '/images/includes/manual.jpg' },
   { id: 10, name: 'Trípode 1.2m', img: '/images/includes/tripode.jpg' },
   { id: 11, name: 'Correa de Transporte', img: '/images/includes/correa.jpg' },
   { id: 12, name: 'Cable de Alimentación*', img: '/images/includes/cablealim.jpg'},

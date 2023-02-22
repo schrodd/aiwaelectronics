@@ -7047,7 +7047,7 @@ export const products = [
   /////////////// AURICULARES ////////////////
 
   {// AVA-102N
-    name: `Auriculares con Vincha y Cable Removible`,
+    name: `Auricular Vincha On-Ear y Cable Removible`,
     sku: `AVA-102N`,
     link: `/productos/AVA-102N`,
     line: ``,
@@ -7066,18 +7066,18 @@ export const products = [
     top: false,
     360: true,
     gen: "1º Generación",
-    banners: [ 
-      { title: `Diseño Ultraligero`, img: fileserver + '/banners/ligero102b.webp', 
-        desc: 'Pesan tan sólo 146g. ¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },  
-      { title: `Mantené el control`, img: fileserver + '/banners/cable102n.webp', 
-        desc: 'Cable extraíble para tu comodidad, con micrófono y botón para atender llamadas. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
+    banners: [   
       { title: `Almohadillas Soft`, img: fileserver + '/banners/almohadillas102n.webp',
-        desc: 'Sus almohadillas son suaves, muy cómodas, y se adaptan a cualquier tipo de oreja.' },
+      desc: 'Sus almohadillas son suaves, muy cómodas, y se adaptan a cualquier tipo de oreja.' },
+      { title: `Mantené el control`, img: fileserver + '/banners/cable102n.webp', 
+      desc: 'Cable extraíble para tu comodidad, con micrófono y botón para atender llamadas. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
       { title: `Vincha Plegable`, img: fileserver + '/banners/diseñocalidad102n.webp',
-        desc: '¡Nunca fué tan fácil transportar tus auriculares! Doblá sus extremos y remové el cable para poder llevarlos en cualquier bolsillo.' },
+      desc: '¡Nunca fué tan fácil transportar tus auriculares! Doblá sus extremos y remové el cable para poder llevarlos en cualquier bolsillo.' },
+      { title: `Diseño Ultraligero`, img: fileserver + '/banners/ligero102b.webp', 
+      desc: 'Pesan tan sólo 146g. ¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },
     ],
     shortDesc: `Tu compañía indispensable`,
-    longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
+    longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad. Posee cable extraíble con micrófono para que puedas retirarlo, y guardarlo o reemplazarlo.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/auriculares/89-auriculares-aiwa-vincha-plegable-ava-102-manos-libres-7798111353421.html`,
     videos: [],
     featuredFeatures: [
@@ -7095,7 +7095,6 @@ export const products = [
       { id: 28, value: `3,5 mm` }, // Tipo de conex
       { id: 2, value: `50mW` }, // Potencia
       { id: 29, value: `1,2m aprox.` }, // Longitud cable
-      { id: 39, value: `20Hz ~ 20KHz` }, // Frecuencia
       { id: 31, value: `32Ω` }, // Impedancia
       { id: 32, value: `110dB±3dB` }, // Sensibilidad
       { id: 33, value: `-42dB±3dB` }, // Sens. Mic
@@ -7107,7 +7106,7 @@ export const products = [
     ],
     includes: [
       14, // Aux c mic n
-      9, // Manual
+      25, // Garantia
     ],
     certNo: ``,
     downloads: `https://drive.google.com/drive/folders/188QHcTvUUNE4HttH4Nwfv7h4Gi59RSpr`,
@@ -7115,7 +7114,7 @@ export const products = [
     colors: [`AVA-102N`, `AVA-102B`]
   },
   { // AVA-102B
-    name: `Auriculares con Vincha y Cable Removible`,
+    name: `Auricular Vincha On-Ear y Cable Removible`,
     sku: `AVA-102B`,
     link: `/productos/AVA-102B`,
     line: ``,
@@ -7133,17 +7132,17 @@ export const products = [
     360: true,
     gen: "1º Generación",
     banners: [ 
-      { title: `Diseño Ultraligero`, img: fileserver + '/banners/ligero102b.webp', 
-        desc: 'Pesan tan sólo 146g. ¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },  
-      { title: `Mantené el control`, img: fileserver + '/banners/cable102b.webp', 
-        desc: 'Cable extraíble para tu comodidad, con micrófono y botón para atender llamadas. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
       { title: `Almohadillas Soft`, img: fileserver + '/banners/almohadillas102n.webp',
-        desc: 'Sus almohadillas son suaves, muy cómodas, y se adaptan a cualquier tipo de oreja.' },
+      desc: 'Sus almohadillas son suaves, muy cómodas, y se adaptan a cualquier tipo de oreja.' },
+      { title: `Mantené el control`, img: fileserver + '/banners/cable102b.webp', 
+      desc: 'Cable extraíble para tu comodidad, con micrófono y botón para atender llamadas. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
       { title: `Vincha Plegable`, img: fileserver + '/banners/diseñocalidad102b.webp',
-        desc: '¡Nunca fué tan fácil transportar tus auriculares! Doblá sus extremos y remové el cable para poder llevarlos en cualquier bolsillo.' },
+      desc: '¡Nunca fué tan fácil transportar tus auriculares! Doblá sus extremos y remové el cable para poder llevarlos en cualquier bolsillo.' },
+      { title: `Diseño Ultraligero`, img: fileserver + '/banners/ligero102b.webp', 
+      desc: 'Pesan tan sólo 146g. ¡Apenas sentirás que los tenés puestos! Podés usarlos sin parar durante horas.' },  
     ],
     shortDesc: `Tu compañía indispensable`,
-    longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
+    longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad. Posee cable extraíble con micrófono para que puedas retirarlo, y guardarlo o reemplazarlo.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/cableado/89-auriculares-aiwa-vincha-plegable-ava-102-manos-libres-7798111353421.html`,
     videos: [],
     featuredFeatures: [
@@ -7161,7 +7160,6 @@ export const products = [
       { id: 28, value: `3,5 mm` }, // Tipo de conex
       { id: 2, value: `50mW` }, // Potencia
       { id: 29, value: `1,2m aprox.` }, // Longitud cable
-      { id: 39, value: `20Hz ~ 20KHz` }, // Frecuencia
       { id: 31, value: `32Ω` }, // Impedancia
       { id: 32, value: `110dB±3dB` }, // Sensibilidad
       { id: 33, value: `-42dB±3dB` }, // Sens. Mic
@@ -7173,7 +7171,7 @@ export const products = [
     ],
     includes: [
       13, // Cable 3.5mm + mic b
-      9, // Manual
+      25, // Garantia
     ],
     certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1gZAzU6_u-LxAjnrBnZgukRYBP0V3aYNW`,
