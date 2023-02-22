@@ -4747,7 +4747,7 @@ export const products = [
       },
       { // Luces
         id: 12,
-        value: "En Panel Superior y alrededor del Woofer ON / OFF",
+        value: "En Panel Superior y alrededor del Woofer",
       },
       { // Conectividad
         id: 9,
@@ -4920,9 +4920,9 @@ export const products = [
         id: 8,
         value: "Auxiliar, Micrófono x2",
       },
-      { // Display
-        id: 6,
-        value: "Si",
+      { // Efectos
+        id: 23,
+        value: "De luces",
       },
       { // Otras características
         id: 15,
