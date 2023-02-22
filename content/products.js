@@ -2809,6 +2809,9 @@ export const products = [
       `/products/AW-P1200D/img/4.webp`,
       `/products/AW-P1200D/img/5.webp`,
       `/products/AW-P1200D/img/6.webp`,
+      `/products/AW-P1200D/img/7.webp`,
+      `/products/AW-P1200D/img/8.webp`,
+      `/products/AW-P1200D/img/9.webp`,
     ].map(e => fileserver + e),
     top: false,
     360: false,
@@ -2988,6 +2991,9 @@ export const products = [
       `/products/AW-P1200D-SA/img/4.webp`,
       `/products/AW-P1200D-SA/img/5.webp`,
       `/products/AW-P1200D-SA/img/6.webp`,
+      `/products/AW-P1200D-SA/img/7.webp`,
+      `/products/AW-P1200D-SA/img/8.webp`,
+      `/products/AW-P1200D-SA/img/9.webp`,
     ].map(e => fileserver + e),
     top: false,
     360: false,
@@ -3158,15 +3164,22 @@ export const products = [
       `/products/AW-P1200D-SN/img/4.webp`,
       `/products/AW-P1200D-SN/img/5.webp`,
       `/products/AW-P1200D-SN/img/6.webp`,
+      `/products/AW-P1200D-SN/img/7.webp`,
+      `/products/AW-P1200D-SN/img/8.webp`,
+      `/products/AW-P1200D-SN/img/9.webp`,
     ].map(e => fileserver + e),
     top: false,
     360: true,
     gen: "3º Generación",
     banners: [
+      { title: 'Controlá a tu gusto', img: fileserver + `/banners/reguladores1200sn.webp`,
+      desc: `Posee reguladores independientes de Eco, Volumen General y Volumen de Micrófono.`},
       { title: 'True Wireless Stereo', img: fileserver + `/banners/tws1200.webp`,
         desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!` },
       { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil1200.webp`,
-        desc: 'Posee batería interna, por lo que podrás escuchar música donde quiera que vayas.' }
+      desc: `Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas` },
+      { title: `Elevá tu sonido`, img: fileserver + `/banners/tripode1200.webp`,
+      desc: `¡Posee ranura para trípode! Sumá uno, y de esa forma podés posicionarlo mejor y hacer que el sonido llegue más lejos. Trípode no incluido.`}
     ],
     shortDesc: `El alma de la fiesta`,
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
@@ -3218,87 +3231,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 12"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        
       },
       { // Potencia
         id: 2,
-        value: "6000W PMPO",
-        
+        value: "6000W PMPO", 
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        
       },
-      { // Display
-        id: 6,
+      { // Carry-On
+        id: 26,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "34 x 53 x 29 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "38 x 54 x 32 cm",
-        
       },
       { // Peso
         id: 18,
-        value: "5 Kg",
-        
+        value: "4,5 Kg",
       },
       { // EAN
         id: 19,
         value: "7798111354336",
-        
       },
     ],
     includes: [
@@ -5593,8 +5589,14 @@ export const products = [
     360: false,
     gen: "1º Generación",
     banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
+      { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
+        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
+      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws2202.webp`,
+      desc: 'Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!.' },
+      { title: `Batería de larga duración`, img: fileserver + `/banners/bateria2202.webp`,
+      desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.`},
+      { title: `Conectá y escuchá`, img: fileserver + `/banners/panel2x22.webp`,
+      desc: `Posee una entrada para micrófono, una para guitarra, y una entrada auxiliar para que traigas tu sonido de donde quieras.`}
     ],
     shortDesc: `Cargá y reproducí`,
     longDesc: "Gracias a su función Power Bank, cargá tus dispositivos mientras reproducís tus canciones favoritas. ¡Disfrutalo en interiores o exteriores! Posee batería recargable de larga duración.",
@@ -5722,8 +5724,14 @@ export const products = [
     360: false,
     gen: "1º Generación",
     banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
+      { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
+        desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
+      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws2302.webp`,
+      desc: 'Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!.' },
+      { title: `Batería de larga duración`, img: fileserver + `/banners/bateria2302.webp`,
+      desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.`},
+      { title: `Conectá y escuchá`, img: fileserver + `/banners/panel2x22.webp`,
+      desc: `Posee una entrada para micrófono, una para guitarra, y una entrada auxiliar para que traigas tu sonido de donde quieras.`}
     ],
     shortDesc: `Cargá y reproducí`,
     longDesc: "Gracias a su función Power Bank, cargá tus dispositivos mientras reproducís tus canciones favoritas. ¡Disfrutalo en interiores o exteriores! Posee batería recargable de larga duración.",
@@ -5850,9 +5858,17 @@ export const products = [
     top: false,
     360: false,
     gen: "1º Generación",
-    banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
+    banners: [
+      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
+      desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!`},
+      { title: `Conectá y escuchá`, img: fileserver + `/banners/panel2x23.webp`,
+      desc: `Posee una entrada para micrófono, una para guitarra, y una entrada auxiliar para que traigas tu sonido de donde quieras.`},
+      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws2203.webp`,
+      desc: 'Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!.' },
+      { title: `Batería de larga duración`, img: fileserver + `/banners/bateria2203.webp`,
+      desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.`},
+      { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
+      desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
     ],
     shortDesc: `Potencia portátil`,
     longDesc: "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
@@ -5894,7 +5910,8 @@ export const products = [
         value: `5 horas (según su uso)`
       },
       { // Doble Entrada Mic
-        id: 27
+        id: 16,
+        value: true
       },
       { // Power Bank
         id: 13,
@@ -5951,6 +5968,7 @@ export const products = [
       },
     ],
     includes: [
+      1, // Mic Inalam
       3, // Aux
       5, // Fuente
       9, // Manual
@@ -5980,8 +5998,16 @@ export const products = [
     360: false,
     gen: "1º Generación",
     banners: [ 
-      { title: `¡Pasate a Horizontal!`, img: fileserver + `/banners/horizontal506.webp`,
-        desc: 'Este parlante tiene la posibilidad de utilizarse como barra. Es decir que si tenés espacios reducidos o con otro tipo de disposición, podés siempre encontrar el lugar óptimo para tu parlante.' },
+      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
+      desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!`},
+      { title: `Conectá y escuchá`, img: fileserver + `/banners/panel2x23.webp`,
+      desc: `Posee una entrada para micrófono, una para guitarra, y una entrada auxiliar para que traigas tu sonido de donde quieras.`},
+      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws2303.webp`,
+      desc: 'Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!.' },
+      { title: `Batería de larga duración`, img: fileserver + `/banners/bateria2303.webp`,
+      desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.`},
+      { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
+      desc: '¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.' },
     ],
     shortDesc: `Potencia portátil`,
     longDesc: "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
@@ -6023,7 +6049,8 @@ export const products = [
         value: `5 horas (según su uso)`
       },
       { // Doble Entrada Mic
-        id: 27
+        id: 16,
+        value: true
       },
       { // Power Bank
         id: 13,
@@ -6080,6 +6107,7 @@ export const products = [
       },
     ],
     includes: [
+      1, // Micrófono inalámbrico
       3, // Aux
       5, // Fuente
       9, // Manual

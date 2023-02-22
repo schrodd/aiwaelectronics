@@ -151,7 +151,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     desc: '¡Conectá una guitarra y comenzá a rockear!'
   },
   { id: 16, name: 'Entrada para Micrófono', icon: mic,
-    desc: 'Conectá un micrófono y activá el karaoke en tu casa.'
+    customDesc: (val) => `Conectá un micrófono y activá el karaoke donde quieras. ${val ? '¡Usando el micrófono inalámbrico incluido podés cantar en pareja!' : ''}`
   },
   { id: 21, name: 'Entrada para Micrófono y Guitarra', icon: guitmic,
     desc: '¡Tocá donde quieras! Posee entradas para micrófono y guitarra con reguladores independientes. No necesitás nada más para tu evento.'
