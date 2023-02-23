@@ -4490,7 +4490,7 @@ export const products = [
     downloads: `https://drive.google.com/drive/folders/1FyB2FsIgxRZDRe_pSfftnQzz7lOFPRDg`,
     variants: []
   },
-  {// AW-T2022
+  {// AW-T2022T2303
     name: `Torre de Sonido Bluetooth Infinit 8500W`,
     sku: `AW-T2022`,
     link: `/productos/AW-T2022`,
@@ -6081,6 +6081,136 @@ export const products = [
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Eco y Volumen de Micrófono, Volumen de Guitarra",
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono, Auxiliar, Guitarra",
+      },
+      { // Efectos
+        id: 23,
+        value: "De luces RGB",
+      },
+      { // Otras características
+        id: 15,
+        value: "Manija extensible y Ruedas",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "34 x 73 x 32 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "38 x 78 x 38 cm",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354688",
+      },
+    ],
+    includes: [
+      1, // Micrófono inalámbrico
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: `Q-AR-01590-T-2`,
+    downloads: `https://drive.google.com/drive/folders/1uj7TxKU1pmHBsFiA1wndqz_H62iZA-6o`,
+    variants: []
+  },
+  {// AW-P2016A
+    name: `Torre de Sonido Bluetooth Infinit 8500W`,
+    sku: `AW-P2016A`,
+    link: `/productos/AW-P2016A`,
+    line: `infinit`,
+    categories: [102], 
+    imgs: [
+      `/products/AW-P2016A/img/1.webp`,
+      `/products/AW-P2016A/img/2.webp`,
+      `/products/AW-P2016A/img/3.webp`,
+      `/products/AW-P2016A/img/4.webp`,
+      `/products/AW-P2016A/img/5.webp`,
+      `/products/AW-P2016A/img/6.webp`,
+      `/products/AW-P2016A/img/7.webp`,
+      `/products/AW-P2016A/img/8.webp`,
+    ].map(e => fileserver + e),
+    top: false,
+    360: true,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
+      desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!`},
+    ],
+    shortDesc: `Potencia portátil`,
+    longDesc: "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
+    buyLink: ``,
+    videos: [],
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: `12.500W PMPO`
+      },
+      { // Woofer
+        id: 3,
+        value: `2 de 10"`
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg Todos
+        id: 40,
+      },
+      { // Entrada Guitarra
+        id: 15,
+      },
+      { // Tweeter
+        id: 35,
+        value: `1 de 2"`
+      },
+      { // Carry-on
+        id: 9,
+      },
+      { // Duracion Batería
+        id: 8,
+        value: `5 horas (según su uso)`
+      },
+      { // Doble Entrada Mic
+        id: 16,
+        value: true
+      },
+      { // Power Bank
+        id: 13,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1,5"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "5000 PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 12V / 7.5 Ah",
+      },
+      { // Funciones
+        id: 13,
+        value: "Bluetooth, TWS",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos",
       },
       { // Entradas
         id: 8,
