@@ -51,7 +51,7 @@ export default function ProductContent({prod}) {
               <span className='pc-only'>FOTOS</span>
             </button>
           )}
-          {mode != 3 && prod.videos.length > 0 && (
+          {mode != 3 && prod.videos && prod.videos.length > 0 && (
             <button className='to-right' onClick={() => setMode(3)}><VideocamIcon />
               <span className='pc-only'>VIDEOS</span>
             </button>
@@ -70,7 +70,7 @@ export default function ProductContent({prod}) {
           )}
         </div>
         {mode == 0 && (
-        <div className='default' linea={prod.line}>
+        <div className={`default${prod.altBackground ? ' bg-alt' : ''}`} linea={prod.line}>
           <div className='text-wrapper'>
             <div className='text'>
               {prod.line && (

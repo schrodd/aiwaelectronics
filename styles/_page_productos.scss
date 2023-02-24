@@ -11,12 +11,18 @@ section.product-page {
       background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/sin-linea.webp');
       background-position: center;
       background-size: cover;
+      &.bg-alt {
+        background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/sin-linea-alt.webp');
+      }
       @include mobile {
         background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/sin-linea-mob.webp');
         background-position: center;
         background-repeat: no-repeat;
         align-items: center;
         flex-direction: column-reverse;
+        &.bg-alt {
+          background-image: url('https://aiwaelectronics.com.ar/fileserver/backgrounds/sin-linea-mob-alt.webp');
+        }
       }
       @include pc {
         padding-left: 20%;

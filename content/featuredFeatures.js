@@ -223,9 +223,9 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   // Auriculares
   { id: 55, name: 'Estuche de carga', icon: estuche,
   desc: 'Cuentan con un estuche de carga portátil, siempre que estén en el mismo, van a estar cargándose.' },
-  { id: 53, name: 'Botón Touch', icon: fingerprint,
+  { id: 53, name: 'Sensor Touch', icon: touch,
   desc: 'Atendé llamadas o pausá canciones con un suave toque usando el botón Touch multifunción incorporado.' },
-  { id: 52, name: 'Batería de larga duración', icon: battery,
+  { id: 52, name: 'Batería de larga duración', icon: batterybars,
   desc: 'Posee la autonomía suficiente para disfrutar tu música por horas' },
   { id: 42, name: 'Plegable', icon: plegable,
   desc: '¡Llevalo a todas partes! Se puede plegar para caber en cualquier bolsillo.' },

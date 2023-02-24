@@ -9,7 +9,10 @@ import React from 'react';
 export default function ProductSpecsTable({prod}) {
   const prodFeatures = []
   features.forEach(e => {
-    const prodFeature = prod.features.find(f => f.id == e.id)
+    let prodFeature
+    if (prod.features) {
+      prodFeature = prod.features.find(f => f.id == e.id)
+    }
     if (prodFeature){
       prodFeatures.push({...prodFeature, name: e.name})
     }
@@ -56,24 +59,24 @@ export default function ProductSpecsTable({prod}) {
         <div className='download-items'>
             <a href={prod.downloads} target='_blank' rel="noreferrer">
               <LaunchIcon />
-              Accedé al manual, imágenes y ficha del producto
+              {prod.noManual ? 'Accedé a las imágenes y ficha del producto' : 'Accedé al manual, imágenes y ficha del producto'}
             </a>
         </div>
       </AccordionItem>
-      {prod.variants.length > 0 && (
-        <AccordionItem classes='prod-specs-table variants' name='Generaciones' open>
+      {prod.colors && prod.colors.length > 0 && (
+        <AccordionItem classes='prod-specs-table variants' name='Colores' open>
             <div className="wrapper">
-              {prod.variants.map((e,i) => (
-                <ProductCard key={i} sku={e} showName showSku showGen showTags/>
+              {prod.colors.map((e,i) => (
+                <ProductCard key={i} sku={e} showName showSku/>
               ))}
             </div>
         </AccordionItem>
       )}
-      {prod.colors && prod.colors.length > 0 && (
-        <AccordionItem classes='prod-specs-table variants' name='Colores'>
+      {prod.variants && prod.variants.length > 0 && (
+        <AccordionItem classes='prod-specs-table variants' name='Generaciones' open>
             <div className="wrapper">
-              {prod.colors.map((e,i) => (
-                <ProductCard key={i} sku={e} showName showSku/>
+              {prod.variants.map((e,i) => (
+                <ProductCard key={i} sku={e} showName showSku showGen showTags/>
               ))}
             </div>
         </AccordionItem>

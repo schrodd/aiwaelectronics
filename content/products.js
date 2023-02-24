@@ -34,7 +34,7 @@ export const products = [
     shortDesc: `Sonido Robusto`,
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
     buyLink: ``,
-    videos: [], // obj array, each with props: id, title, link
+     // obj array, each with props: id, title, link
     featuredFeatures: [
       { id: 2, value: `12000W PMPO` }, // Potencia
       { id: 3, value: `2 de 8"` }, // Woofer
@@ -116,7 +116,6 @@ export const products = [
     shortDesc: `Sonido Robusto`,
     longDesc: "Está preparado para estar a la altura de tus fiestas. No te preocupes por su tamaño, llevalo a todos lados usando sus ruedas.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/211-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2008-pb.html`,
-    videos: [],
     featuredFeatures: [
       { id: 2, value: `13000W PMPO` }, // Potencia
       { id: 11 }, // TWS
@@ -193,7 +192,6 @@ export const products = [
     shortDesc: `Potencia y Calidad`,
     longDesc: "Con dos parlantes Woofer de 10 pulgadas cada uno, vas a poder tirar tu casa por la ventana.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -244,97 +242,78 @@ export const products = [
       {
         id: 3,
         value: `2 de 10"`,
-        
       },
       {
         id: 4,
         value: `1 de 2"`,
-        
       },
       {
         id: 2,
         value: "13500W PMPO",
-        
       },
       {
         id: 10,
         value: "Interna Recargable 12V / 7.5Ah",
-        
       },
       {
         id: 11,
         value: "6 horas (según su uso)",
-        
       },
       {
         id: 20,
         value: "Si",
-        
       },
       {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
-        
       },
       {
         id: 9,
         value: "Bluetooth v5.0",
-        
       },
       {
         id: 13,
         value: "TWS, Radio FM, REC",
-        
       },
       {
         id: 5,
         value: "Graves, Agudos y Eco de Micrófono",
-        
       },
       {
         id: 7,
         value: "Si, 3",
-        
       },
       {
         id: 8,
         value: "Guitarra,  Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       {
         id: 1,
         value: "Si, inalámbrico",
-        
       },
       {
         id: 14,
         value: "Madera",
-        
       },
       {
         id: 15,
         value: "Ruedas / Empuñaduras de Transporte",
-        
       },
       {
         id: 16,
         value: "31 x 108 x 31 cm",
-        
       },
       {
         id: 17,
         value: "35,5 x 112 x 35,5 cm",
-        
       },
       {
         id: 18,
         value: "15,5 Kg",
-        
       },
       {
         id: 19,
         value: "7798111353964",
-        
       },
     ],
     includes: [
@@ -435,97 +414,78 @@ export const products = [
       {
         id: 3,
         value: `2 de 10"`,
-        
       },
       {
         id: 4,
         value: `1 de 2"`,
-        
       },
       {
         id: 2,
         value: "14500W PMPO",
-        
       },
       {
         id: 10,
         value: "Interna Recargable 12V / 7.5Ah",
-        
       },
       {
         id: 11,
         value: "6 horas (según su uso)",
-        
       },
       {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
-        
       },
       {
         id: 9,
         value: "Bluetooth v5.0",
-        
       },
       {
         id: 13,
         value: "TWS, Power Bank (Cargá tus dispositivos)",
-        
       },
       {
         id: 5,
         value: "Graves, Agudos y Eco de Micrófono",
-        
       },
       {
         id: 7,
         value: "Si, 3",
-        
       },
       {
         id: 8,
         value: "Guitarra, Micrófono y Auxiliar",
-        
       },
       {
         id: 1,
         value: "Si, inalámbrico",
-        
       },
       {
         id: 23,
         value: "De luces",
-        
       },
       {
         id: 14,
         value: "Madera",
-        
       },
       {
         id: 15,
         value: "Ruedas / Empuñaduras de Transporte",
-        
       },
       {
         id: 16,
         value: "31 x 108 x 31 cm",
-        
       },
       {
         id: 17,
         value: "35,5 x 112 x 35,5 cm",
-        
       },
       {
         id: 18,
         value: "15,5 Kg",
-        
       },
       {
         id: 19,
         value: "7798111354374",
-        
       },
     ],
     includes: [
@@ -573,7 +533,6 @@ export const products = [
     shortDesc: `Sonido Colosal`,
     longDesc: "Caja con cuerpo de madera, 1,49 centímetros de altura. Una gran torre en todo sentido de la palabra.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/253-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2012.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -619,97 +578,78 @@ export const products = [
       {
         id: 3,
         value: `3 de 10"`,
-        
       },
       {
         id: 4,
         value: `1 de 2"`,
-        
       },
       {
         id: 2,
         value: "16000W PMPO",
-        
       },
       {
         id: 10,
         value: "Interna Recargable 12V / 7.5Ah",
-        
       },
       {
         id: 11,
         value: "6 horas (según su uso)",
-        
       },
       {
         id: 12,
         value: "En panel frontal alrededor del Woofer y en panel superior",
-        
       },
       {
         id: 9,
         value: "Bluetooth v5.0",
-        
       },
       {
         id: 13,
         value: "TWS, Power Bank",
-        
       },
       {
         id: 5,
         value: "Graves, Agudos y Eco de Micrófono",
-        
       },
       {
         id: 7,
         value: "Si",
-        
       },
       {
         id: 8,
         value: "Guitarra,  Micrófono y Auxiliar",
-        
       },
       {
         id: 1,
         value: "Si, inalámbrico",
-        
       },
       {
         id: 23,
         value: "De luces",
-        
       },
       {
         id: 14,
         value: "Madera",
-        
       },
       {
         id: 15,
         value: "Ruedas / Empuñaduras de Transporte",
-        
       },
       {
         id: 16,
         value: "31 x 149 x 31 cm",
-        
       },
       {
         id: 17,
         value: "35,5 x 154 x 35,5 cm",
-        
       },
       {
         id: 18,
         value: "20,7 Kg",
-        
       },
       {
         id: 19,
         value: "7798111354442",
-        
       },
     ],
     includes: [
@@ -742,7 +682,6 @@ export const products = [
       `/products/AW-P240D/img/2.webp`,
       `/products/AW-P240D/img/3.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [
@@ -812,87 +751,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 8"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `No`,
-        
       },
       { // Potencia
         id: 2,
         value: "2500W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        
       },
       { // Radio FM
         id: 20,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "25 x 36 x 19 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 38 x 21 cm",
-        
       },
       { // Peso
         id: 18,
         value: "2 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111353308",
-        
       },
     ],
     includes: [
@@ -902,7 +824,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1SkL0B6U6qEuWoQbGNK2aL4IVoeNyAE7R`,
     variants: [`AW-P240D`, `AW-P240D-SA`,`AW-P240D-SN`]
   },
@@ -922,7 +843,6 @@ export const products = [
       `/products/AW-P240D-SA/img/7.webp`,
       `/products/AW-P240D-SA/img/8.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "2º Generación",
     banners: [
@@ -938,7 +858,6 @@ export const products = [
     shortDesc: `Musicalizá tu día`,
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -984,87 +903,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 8"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `No`,
-        
       },
       { // Potencia
         id: 2,
         value: "2500W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        
       },
       { // Radio
         id: 20,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "25 x 36 x 19 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 38 x 21 cm",
-        
       },
       { // Peso
         id: 18,
         value: "2 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354084",
-        
       },
     ],
     includes: [
@@ -1072,7 +974,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1-UQ3H-GaeaCwa56k3rGV0KSMxKdPQmI_`,
     variants: [`AW-P240D`,`AW-P240D-SA`,`AW-P240D-SN`]
   },
@@ -1093,7 +994,6 @@ export const products = [
       `/products/AW-P240D-SN/img/8.webp`,
       `/products/AW-P240D-SN/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "3º Generación",
     banners: [
@@ -1109,7 +1009,6 @@ export const products = [
     shortDesc: `Musicalizá tu día`,
     longDesc: "Debido a su gran portabilidad y liviano peso, este parlante es un compañero de viajes, de rutas, y de estudio ideal. Transformá los momentos cotidianos en una ocasión especial",
     buyLink: `https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/331-parlante-bluetooth-portatil-2500w-aiwa-aw-p240d-sn.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -1156,87 +1055,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 8"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `No`,
-        
       },
       { // Potencia
         id: 2,
         value: "2500W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        
       },
       { // Radio FM
         id: 20,
         value: "No",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "25 x 36 x 19 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 38 x 21 cm",
-        
       },
       { // Peso
         id: 18,
         value: "2 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354299",
-        
       },
     ],
     includes: [
@@ -1244,7 +1126,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1AkUOXIGyh1tLjEGlNq2iN2CHEIodiBFY`,
     variants: []
   },
@@ -1264,7 +1145,6 @@ export const products = [
       `/products/AW-P450D/img/9.webp`,
       `/products/AW-P450D/img/5.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [
@@ -1334,87 +1214,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `No`,
-        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        
       },
       { // Radio
         id: 20,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte y Ranura para Trípode",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "23 x 39 x 21 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "25 x 42 x 24 cm",
-        
       },
       { // Peso
         id: 18,
         value: "3 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111353292",
-        
       },
     ],
     includes: [
@@ -1424,7 +1287,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/11HuAZNrU_0t1Ri1lf79m_4gef_ICWMbR`,
     variants: [`AW-P450D`, `AW-P450D-SA`, `AW-P450D-SN`]
   },
@@ -1444,7 +1306,6 @@ export const products = [
       `/products/AW-P450D-SA/img/8.webp`,
       `/products/AW-P450D-SA/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "2º Generación",
     banners: [
@@ -1460,7 +1321,6 @@ export const products = [
     shortDesc: `Tu compañía indispensable`,
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -1506,87 +1366,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `No`,
-        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        
       },
       { // Radio
         id: 20,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte y Ranura para Trípode",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "23 x 39 x 21 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "25 x 42 x 24 cm",
-        
       },
       { // Peso
         id: 18,
         value: "3 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354206",
-        
       },
     ],
     includes: [
@@ -1594,7 +1437,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/126X1HtcyfECqgoFRFaqpEV94gAZ2c4Xc`,
     variants: [`AW-P450D`, `AW-P450D-SA`, `AW-P450D-SN`]
   },
@@ -1614,7 +1456,6 @@ export const products = [
       `/products/AW-P450D-SN/img/7.webp`,
       `/products/AW-P450D-SN/img/8.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "3º Generación",
     banners: [
@@ -1630,7 +1471,6 @@ export const products = [
     shortDesc: `Tu compañía indispensable`,
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/252-parlante-portatil-bluetooth-aiwa-aw-p450d-sn.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -1677,87 +1517,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `No`,
-        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        
       },
       { // Radio
         id: 20,
         value: "No",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte y Ranura para Trípode",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "23 x 39 x 21 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "25 x 42 x 24 cm",
-        
       },
       { // Peso
         id: 18,
         value: "3 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354305",
-        
       },
     ],
     includes: [
@@ -1765,7 +1588,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1TxmR_vMk0uC10q29mnngRGS8rRKmRTBe`,
     variants: []
   },
@@ -1855,87 +1677,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `No`,
-        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        
       },
       { // Radio FM
         id: 20,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Mobile Holder",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "21 x 58 x 21 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 63 x 26 cm",
-        
       },
       { // Peso
         id: 18,
         value: "4 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111353278",
-        
       },
     ],
     includes: [
@@ -1945,7 +1750,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1_jqaumAFlrCm0kDam7RewKtMBY5PLCrw`,
     variants: [`AW-T451D`, `AW-T451D-SA`, `AW-T451D-SN`]
   },
@@ -1981,7 +1785,6 @@ export const products = [
     shortDesc: `La potencia que estabas esperando`,
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -2028,87 +1831,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `No`,
-        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono incluido
         id: 1,
         value: "No",
-        
       },
       { // Radio
         id: 20,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Mobile Holder",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "21 x 58 x 21 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 63 x 26 cm",
-        
       },
       { // Peso
         id: 18,
         value: "4 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354077",
-        
       },
     ],
     includes: [
@@ -2116,7 +1902,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1-mGYda-uVaWyDputWWobMvJxvFIX-1Hs`,
     variants: [`AW-T451D`, `AW-T451D-SA`, `AW-T451D-SN`]
   },
@@ -2151,7 +1936,6 @@ export const products = [
     shortDesc: `La potencia que estabas esperando`,
     longDesc: "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -2198,57 +1982,46 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 6,5"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `No`,
-        
       },
       { // Potencia
         id: 2,
         value: "4500W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        
       },
       { // Radio
         id: 20,
         value: "No",
-        
       },
       { // Otras características
         id: 15,
@@ -2257,22 +2030,18 @@ export const products = [
       { // Medidas del producto
         id: 16,
         value: "21 x 58 x 21 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "26 x 63 x 26 cm",
-        
       },
       { // Peso
         id: 18,
         value: "4 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354312",
-        
       },
     ],
     includes: [
@@ -2280,7 +2049,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/15kC-dwt90ybZ5ax-91uWvisOVJYDAfPH`,
     variants: []
   },
@@ -2369,57 +2137,46 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        
       },
       { // Potencia
         id: 2,
         value: "5000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 7.4V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        
       },
       { // Radio
         id: 20,
@@ -2428,27 +2185,22 @@ export const products = [
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Mobile Holder",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "28 x 80,5 x 28 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "33 x 88 x 33 cm",
-        
       },
       { // Peso
         id: 18,
         value: "6,5 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111353285",
-        
       },
     ],
     includes: [
@@ -2492,7 +2244,6 @@ export const products = [
     shortDesc: `El aliado en tus fiestas`,
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -2538,67 +2289,54 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        
       },
       { // Potencia
         id: 2,
         value: "5000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 7.4V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        
       },
       { // Radio
         id: 20,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Mobile Holder",
-        
       },
       { // Medidas del producto
         id: 16,
@@ -2611,12 +2349,10 @@ export const products = [
       { // Peso
         id: 18,
         value: "6,5 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354060",
-        
       },
     ],
     includes: [
@@ -2660,7 +2396,6 @@ export const products = [
     shortDesc: `El aliado en tus fiestas`,
     longDesc: "Una torre de sonido es sinónimo de potencia. Y este parlante, está preparado para aceptar el desafío. Tus momentos van a ser recordados por siempre.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/266-parlante-portatil-bluetooth-aiwa-aw-t600d-sn.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -2707,67 +2442,54 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        
       },
       { // Potencia
         id: 2,
         value: "5000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 7.4V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        
       },
       { // Display
         id: 6,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Mobile Holder",
-        
       },
       { // Medidas del producto
         id: 16,
@@ -2780,12 +2502,10 @@ export const products = [
       { // Peso
         id: 18,
         value: "6,5 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354329",
-        
       },
     ],
     includes: [
@@ -2814,7 +2534,6 @@ export const products = [
       `/products/AW-P1200D/img/8.webp`,
       `/products/AW-P1200D/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [
@@ -2885,87 +2604,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 12"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "Si, con cable",
-        
       },
       { // Carry On
         id: 26,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "34 x 53 x 29 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "38 x 54 x 32 cm",
-        
       },
       { // Peso
         id: 18,
         value: "4,5 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111353537",
-        
       },
     ],
     includes: [
@@ -2996,7 +2698,6 @@ export const products = [
       `/products/AW-P1200D-SA/img/8.webp`,
       `/products/AW-P1200D-SA/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "2º Generación",
     banners: [
@@ -3060,87 +2761,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 12"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 3.7V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Volumen y Eco de Micrófono",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "No",
-        
       },
       { // Carry On
         id: 26,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "34 x 53 x 29 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "38 x 54 x 32 cm",
-        
       },
       { // Peso
         id: 18,
         value: "4,5 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354091",
-        
       },
     ],
     includes: [
@@ -3169,7 +2853,6 @@ export const products = [
       `/products/AW-P1200D-SN/img/8.webp`,
       `/products/AW-P1200D-SN/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "3º Generación",
     banners: [
@@ -3185,7 +2868,6 @@ export const products = [
     shortDesc: `El alma de la fiesta`,
     longDesc: "Un sonido potente, y bajos profundos, hacen que tu fiesta sea una experiencia donde tus invitados puedan sumergirse y hacer de ella un recuerdo inolvidable.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/217-parlante-portatil-aiwa-12-pulgadas-bluetooth-aw-p1200d.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -3392,87 +3074,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 15"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        
       },
       { // Potencia
         id: 2,
         value: "7000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 7.4V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Radio FM",
-        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Volumen y Eco de Mic",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, Guitarra, USB, MicroSD y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "Si, inalámbrico",
-        
       },
       { // Display
         id: 6,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "40 x 61 x 30 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "41 x 67 x 34,5 cm",
-        
       },
       { // Peso
         id: 18,
         value: "5 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111353544",
-        
       },
     ],
     includes: [
@@ -3518,7 +3183,6 @@ export const products = [
     shortDesc: `La distancia no es problema`,
     longDesc: "Este producto cuenta con un micrófono inalámbrico muy útil en distintos escenarios, ya sea para dar conferencias, cantar con su modo Karaoke, para musicalizar tu negocio o animar tu fiesta.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/95-parlante-portatil-aiwa-15-pulgadas-bluetooth-aw-p1510d-7798111353544.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -3565,87 +3229,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 15"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 1"`,
-        
       },
       { // Potencia
         id: 2,
         value: "7000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 7.4V / 1800mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "3 horas (máximo volumen)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS",
-        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Volumen y Eco de Mic",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono, Guitarra y Auxiliar",
-        
       },
       { // Micrófono
         id: 1,
         value: "Si, inalámbrico",
-        
       },
       { // Display
         id: 6,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "40 x 61 x 30 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "41 x 67 x 34,5 cm",
-        
       },
       { // Peso
         id: 18,
         value: "5 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354343",
-        
       },
     ],
     includes: [
@@ -3745,87 +3392,70 @@ export const products = [
       { // Woofers
         id: 3,
         value: `1 de 15"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 25mm`,
-        
       },
       { // Potencia
         id: 2,
         value: "9000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Interna Recargable 12V / 4500mAh",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer (ON/OFF)",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, REC",
-        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Vol. de Mic, Vol. de Guitarra, Eco de Mic/Guitarra",
-        
       },
       { // Entradas
         id: 8,
         value: "Guitarra, Micrófono, USB, MicroSD, Auxiliar y de línea",
-        
       },
       { // Altura de Tripode
         id: 21,
         value: "Mín. 70 cm - Máx. 120 cm",
-        
       },
       { // Micrófono
         id: 1,
         value: "Si, inalámbrico",
-        
       },
       { // Radio
         id: 20,
         value: "Si",
-        
       },
       { // Otras características
         id: 15,
         value: "Carry-on, ranura para trípode",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "41 x 65,5 x 36 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "48 x 75 x 44,5 cm",
-        
       },
       { // Peso
         id: 18,
         value: "13 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111353438",
-        
       },
     ],
     includes: [
@@ -3872,7 +3502,6 @@ export const products = [
     shortDesc: `Show luminoso`,
     longDesc: "Cautivá a tus invitados con variados y coloridos efectos de Luz durante toda la noche.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/254-parlante-torre-bluetooth-power-bank-aiwa-aw-t2040-7798111354398.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -3918,52 +3547,42 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 2"`,
-        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Litio 3,7v / 3600mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "Hasta 8 horas (según su uso)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth 5.0",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Power Bank",
-        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Vol. y Eco de Mic",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono x2, Auxiliar",
-        
       },
       { // Efectos
         id: 23,
@@ -3972,27 +3591,22 @@ export const products = [
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Mobile Holder",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "27,5 x 72,5 x 26,5 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "32 x 77 x 30,5 cm",
-        
       },
       { // Peso
         id: 18,
         value: "4,2 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354398",
-        
       },
     ],
     includes: [
@@ -4000,7 +3614,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1QSNSdv4YxPuPEPFxA9K4DPOt-UkdISBk`,
     variants: []
   },
@@ -4036,7 +3649,6 @@ export const products = [
     shortDesc: `En todo momento`,
     longDesc: "Una torre lista para acompañarte durante largas horas en todo momento y lugar. Te permite llevar tu música junto a un variado show luminoso.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/255-parlante-torre-bluetooth-power-bank-aiwa-aw-t2042.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -4082,52 +3694,42 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 2"`,
-        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Litio 3,7v / 3600mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "Hasta 8 horas (según su uso)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth 5.0",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Power Bank",
-        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Vol. y Eco de Mic",
-        
       },
       { // Entradas
         id: 8,
         value: "Micrófono x2, Auxiliar",
-        
       },
       { // Efectos
         id: 23,
@@ -4136,27 +3738,22 @@ export const products = [
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Mobile Holder",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "27,5 x 72,5 x 26,5 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "32 x 77 x 30,5 cm",
-        
       },
       { // Peso
         id: 18,
         value: "4,2 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354402",
-        
       },
     ],
     includes: [
@@ -4164,7 +3761,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1QXDROpyb9KKtipho2ldRwI1rJoiBXzgT`,
     variants: []
   },
@@ -4200,7 +3796,6 @@ export const products = [
     shortDesc: `Coloreá tus fiestas`,
     longDesc: "Preparada para llenar de colores toda la noche. Su Empuñadura de Fácil Transporte y su liviano peso te permiten llevar tu música junto a un variado show luminoso.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/256-parlante-torre-bluetooth-power-bank-aiwa-aw-t2044.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -4246,47 +3841,38 @@ export const products = [
       { // Woofers
         id: 3,
         value: `2 de 8"`,
-        
       },
       { // Tweeters
         id: 4,
         value: `1 de 2"`,
-        
       },
       { // Potencia
         id: 2,
         value: "6000W PMPO",
-        
       },
       { // Batería
         id: 10,
         value: "Litio 3,7v / 3600mAh",
-        
       },
       { // Duración de batería
         id: 11,
         value: "Hasta 8 horas (según su uso)",
-        
       },
       { // Luces
         id: 12,
         value: "RGB en woofer",
-        
       },
       { // Conectividad
         id: 9,
         value: "Bluetooth 5.0",
-        
       },
       { // Funciones
         id: 13,
         value: "TWS, Power Bank",
-        
       },
       { // Reguladores
         id: 5,
         value: "Graves, Agudos, Vol. y Eco de Mic",
-        
       },
       { // Entradas
         id: 8,
@@ -4300,27 +3886,22 @@ export const products = [
       { // Otras características
         id: 15,
         value: "Empuñadura de Transporte, Mobile Holder",
-        
       },
       { // Medidas del producto
         id: 16,
         value: "27,5 x 72,5 x 26,5 cm",
-        
       },
       { // Medidas de la caja
         id: 17,
         value: "32 x 77 x 30,5 cm",
-        
       },
       { // Peso
         id: 18,
         value: "4,2 Kg",
-        
       },
       { // EAN
         id: 19,
         value: "7798111354411",
-        
       },
     ],
     includes: [
@@ -4328,7 +3909,6 @@ export const products = [
       4, // Cable microusb
       9, // Manual de usuario
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1QOPtS-kaZzgK9-kD-SFT8decnb82PeFx`,
     variants: []
   },
@@ -4367,7 +3947,6 @@ export const products = [
     shortDesc: `Ecualizador preciso`,
     longDesc: "Efectos de luces en forma de anillos Led agregarán un toque fantástico a donde los lleves. Podrás ajustar el sonido a gusto como un verdadero Dj.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/214-parlante-torre-bluetooth-power-bank-aiwa-aw-t2021.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -4490,7 +4069,7 @@ export const products = [
     downloads: `https://drive.google.com/drive/folders/1FyB2FsIgxRZDRe_pSfftnQzz7lOFPRDg`,
     variants: []
   },
-  {// AW-T2022T2303
+  {// AW-T2022
     name: `Torre de Sonido Bluetooth Infinit 8500W`,
     sku: `AW-T2022`,
     link: `/productos/AW-T2022`,
@@ -4524,7 +4103,6 @@ export const products = [
     shortDesc: `Transportá tu música`,
     longDesc: "Con la Correa de fácil transporte podés moverte con tu música de la terraza, a la playa o en donde mas gustes. Práctica, liviana y portatil, con un sonido potente.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/215-parlante-torre-bluetooth-power-bank-aiwa-aw-t2022.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -4680,7 +4258,6 @@ export const products = [
     shortDesc: `Llevalo con vos`,
     longDesc: "Una torre práctica y portátil, con un sonido potente. Con la Empuñadura de Fácil Transporte podés moverte con tu música por donde más gustes.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/213-parlante-torre-bluetooth-power-bank-aiwa-aw-t2018r.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -4835,7 +4412,6 @@ export const products = [
     shortDesc: `Fiesta donde vayas`,
     longDesc: "Una torre liviana, práctica y portatil, con un sonido potente. Sus deslumbrantes efectos de luces en forma de anillos le darán ese toque mágico a todos tus momentos.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/216-parlante-torre-bluetooth-power-bank-aiwa-aw-t2050r.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -4992,7 +4568,6 @@ export const products = [
     shortDesc: `Más versatilidad`,
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -5147,7 +4722,6 @@ export const products = [
     shortDesc: `Más versatilidad`,
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -5301,7 +4875,6 @@ export const products = [
     shortDesc: `Más versatilidad`,
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -5450,7 +5023,6 @@ export const products = [
     shortDesc: `Más versatilidad`,
     longDesc: "Práctico. Ideal para escuchar música en cualquier formato. Potente y altamente portable. Se puede utilizar tanto en vertical como en horizontal.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/210-parlante-torre-bluetooth-aiwa-25w-power-bank.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -5586,7 +5158,6 @@ export const products = [
       `/products/AW-T2202/img/8.webp`,
       `/products/AW-T2202/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [ 
@@ -5602,7 +5173,6 @@ export const products = [
     shortDesc: `Cargá y reproducí`,
     longDesc: "Gracias a su función Power Bank, cargá tus dispositivos mientras reproducís tus canciones favoritas. ¡Disfrutalo en interiores o exteriores! Posee batería recargable de larga duración.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/336-parlante-torre-bluetooth-power-bank-8500w-aiwa-aw-t2202-7798111354664.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -5721,7 +5291,6 @@ export const products = [
       `/products/AW-T2302/img/8.webp`,
       `/products/AW-T2302/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [ 
@@ -5737,7 +5306,6 @@ export const products = [
     shortDesc: `Cargá y reproducí`,
     longDesc: "Gracias a su función Power Bank, cargá tus dispositivos mientras reproducís tus canciones favoritas. ¡Disfrutalo en interiores o exteriores! Posee batería recargable de larga duración.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/340-parlante-torre-bluetooth-power-bank-8500w-aiwa-aw-t2302-7798111354688.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -5840,7 +5408,7 @@ export const products = [
     variants: []
   },
   {// AW-T2203
-    name: `Torre de Sonido Bluetooth Infinit 8500W`,
+    name: `Torre de Sonido Bluetooth Infinit 12.500W`,
     sku: `AW-T2203`,
     link: `/productos/AW-T2203`,
     line: `infinit`,
@@ -5856,7 +5424,6 @@ export const products = [
       `/products/AW-T2203/img/8.webp`,
       `/products/AW-T2203/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [
@@ -5874,7 +5441,6 @@ export const products = [
     shortDesc: `Potencia portátil`,
     longDesc: "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/339-parlante-torre-bluetooth-carry-on-12500w-aiwa-aw-t2203-7798111354671.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -5979,7 +5545,7 @@ export const products = [
     variants: []
   },
   {// AW-T2303
-    name: `Torre de Sonido Bluetooth Infinit 8500W`,
+    name: `Torre de Sonido Bluetooth Infinit 12.500W`,
     sku: `AW-T2303`,
     link: `/productos/AW-T2303`,
     line: `infinit`,
@@ -5995,7 +5561,6 @@ export const products = [
       `/products/AW-T2303/img/8.webp`,
       `/products/AW-T2303/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [ 
@@ -6013,7 +5578,6 @@ export const products = [
     shortDesc: `Potencia portátil`,
     longDesc: "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/341-parlante-torre-bluetooth-carry-on-12500w-aiwa-2303-7798111354695.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -6118,7 +5682,7 @@ export const products = [
     variants: []
   },
   {// AW-P2016A
-    name: `Torre de Sonido Bluetooth Infinit 8500W`,
+    name: `Parlante portátil 5000W`,
     sku: `AW-P2016A`,
     link: `/productos/AW-P2016A`,
     line: `infinit`,
@@ -6133,25 +5697,28 @@ export const products = [
       `/products/AW-P2016A/img/7.webp`,
       `/products/AW-P2016A/img/8.webp`,
     ].map(e => fileserver + e),
-    top: false,
+    top: true,
     360: true,
     gen: "1º Generación",
     banners: [ 
-      { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
-      desc: `¿Karaoke? ¡de una! Con el micrófono incluido podrás tener increíbles sesiones de Karaoke con tus amigos. ¡Que la fiesta no pare!`},
+      { title: `Efectos de Luces`, img: fileserver + `/banners/luces2016.webp`,
+      desc: `Elegí si queres acompañar tu música con sus brillantes luces rgb, posee varios modos para que seleccionés el que va más con vos.`},
+      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws2016.webp`,
+      desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!`},
+      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil2016a.webp`,
+      desc: `Es ligero y posee batería interna, por lo que podrás escuchar música donde quiera que vayas.`},
     ],
-    shortDesc: `Potencia portátil`,
-    longDesc: "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
+    shortDesc: `Sonido compacto`,
+    longDesc: "Imprescindible para tus salidas al aire libre. Altamente portátil, y ofrece un sonido fuerte e impecable. Sus luces RGB son la mejor compañía para cualquier canción.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
-        value: `12.500W PMPO`
+        value: `5000W PMPO`
       },
       { // Woofer
         id: 3,
-        value: `2 de 10"`
+        value: `1 de 6,5"`
       },
       { // Bluetooth
         id: 12,
@@ -6162,29 +5729,28 @@ export const products = [
       { // Efectos luz
         id: 6,
       },
-      { // Reg Todos
-        id: 40,
+      { // Reg G/A
+        id: 22,
       },
-      { // Entrada Guitarra
-        id: 15,
+      { // Reg Eco/Vol Mic
+        id: 28,
       },
       { // Tweeter
         id: 35,
-        value: `1 de 2"`
+        value: `1 de 1,5"`
       },
-      { // Carry-on
-        id: 9,
+      { // Emp Transp
+        id: 30,
       },
       { // Duracion Batería
-        id: 8,
-        value: `5 horas (según su uso)`
+        id: 7,
+        value: `de 7,4v / 2400 mAh`
       },
       { // Doble Entrada Mic
         id: 16,
-        value: true
       },
-      { // Power Bank
-        id: 13,
+      { // Mobile Holder
+        id: 29,
       }
     ],
     features: [
@@ -6202,7 +5768,7 @@ export const products = [
       },
       { // Batería
         id: 10,
-        value: "Interna Recargable 12V / 7.5 Ah",
+        value: "Interna Recargable 7,4v / 2400mAh",
       },
       { // Funciones
         id: 13,
@@ -6210,11 +5776,11 @@ export const products = [
       },
       { // Reguladores
         id: 5,
-        value: "Graves, Agudos",
+        value: "Graves, Agudos, Volumen y Eco de Micrófono",
       },
       { // Entradas
         id: 8,
-        value: "Micrófono, Auxiliar, Guitarra",
+        value: "Micrófono y Auxiliar",
       },
       { // Efectos
         id: 23,
@@ -6222,15 +5788,15 @@ export const products = [
       },
       { // Otras características
         id: 15,
-        value: "Manija extensible y Ruedas",
+        value: "Empuñadura de transporte, Mobile Holder",
       },
       { // Medidas del producto
         id: 16,
-        value: "34 x 73 x 32 cm",
+        value: "24 x 29.5 x 23 cm",
       },
       { // Medidas de la caja
         id: 17,
-        value: "38 x 78 x 38 cm",
+        value: "28.6 x 37.6 x 27.6 cm",
       },
       { // EAN
         id: 19,
@@ -6238,13 +5804,143 @@ export const products = [
       },
     ],
     includes: [
-      1, // Micrófono inalámbrico
       3, // Aux
       5, // Fuente
       9, // Manual
     ],
-    certNo: `Q-AR-01590-T-2`,
-    downloads: `https://drive.google.com/drive/folders/1uj7TxKU1pmHBsFiA1wndqz_H62iZA-6o`,
+    certNo: `A-AR-01984-T0`,
+    downloads: `https://drive.google.com/drive/folders/1fqvhM9smX2drb6kmQJZUYXmjO3KzzSgB`,
+    variants: []
+  },
+  {// AW-P2016B
+    name: `Parlante portátil 5000W`,
+    sku: `AW-P2016B`,
+    link: `/productos/AW-P2016B`,
+    line: `infinit`,
+    categories: [102], 
+    imgs: [
+      `/products/AW-P2016B/img/1.webp`,
+      `/products/AW-P2016B/img/2.webp`,
+      `/products/AW-P2016B/img/3.webp`,
+      `/products/AW-P2016B/img/4.webp`,
+      `/products/AW-P2016B/img/5.webp`,
+      `/products/AW-P2016B/img/6.webp`,
+      `/products/AW-P2016B/img/7.webp`,
+      `/products/AW-P2016B/img/8.webp`,
+    ].map(e => fileserver + e),
+    top: true,
+    360: true,
+    gen: "1º Generación",
+    banners: [ 
+      { title: `Efectos de Luces`, img: fileserver + `/banners/luces2016.webp`,
+      desc: `Elegí si queres acompañar tu música con sus brillantes luces rgb, posee varios modos para que seleccionés el que va más con vos.`},
+      { title: `True Wireless Stereo`, img: fileserver + `/banners/tws2016.webp`,
+      desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!`},
+      { title: `¡Llevalo a todos lados!`, img: fileserver + `/banners/portatil2016b.webp`,
+      desc: `Es ligero y posee batería interna, por lo que podrás escuchar música donde quiera que vayas.`},
+    ],
+    shortDesc: `Sonido compacto`,
+    longDesc: "Imprescindible para tus salidas al aire libre. Altamente portátil, y ofrece un sonido fuerte e impecable. Sus luces RGB son la mejor compañía para cualquier canción.",
+    buyLink: ``,
+    featuredFeatures: [
+      { // Potencia
+        id: 2,
+        value: `5000W PMPO`
+      },
+      { // Woofer
+        id: 3,
+        value: `1 de 6,5"`
+      },
+      { // Bluetooth
+        id: 12,
+      },
+      { // TWS
+        id: 11,
+      },
+      { // Efectos luz
+        id: 6,
+      },
+      { // Reg G/A
+        id: 22,
+      },
+      { // Reg Eco/Vol Mic
+        id: 28,
+      },
+      { // Tweeter
+        id: 35,
+        value: `1 de 1,5"`
+      },
+      { // Emp Transp
+        id: 30,
+      },
+      { // Duracion Batería
+        id: 7,
+        value: `de 7,4v / 2400 mAh`
+      },
+      { // Doble Entrada Mic
+        id: 16,
+      },
+      { // Mobile Holder
+        id: 29,
+      }
+    ],
+    features: [
+      { // Woofers
+        id: 3,
+        value: `1 de 6,5"`,
+      },
+      { // Tweeters
+        id: 4,
+        value: `1 de 1,5"`,
+      },
+      { // Potencia
+        id: 2,
+        value: "5000 PMPO",
+      },
+      { // Batería
+        id: 10,
+        value: "Interna Recargable 7,4v / 2400mAh",
+      },
+      { // Funciones
+        id: 13,
+        value: "Bluetooth, TWS",
+      },
+      { // Reguladores
+        id: 5,
+        value: "Graves, Agudos, Volumen y Eco de Micrófono",
+      },
+      { // Entradas
+        id: 8,
+        value: "Micrófono y Auxiliar",
+      },
+      { // Efectos
+        id: 23,
+        value: "De luces RGB",
+      },
+      { // Otras características
+        id: 15,
+        value: "Empuñadura de transporte, Mobile Holder",
+      },
+      { // Medidas del producto
+        id: 16,
+        value: "24 x 29.5 x 23 cm",
+      },
+      { // Medidas de la caja
+        id: 17,
+        value: "28.6 x 37.6 x 27.6 cm",
+      },
+      { // EAN
+        id: 19,
+        value: "7798111354688",
+      },
+    ],
+    includes: [
+      3, // Aux
+      5, // Fuente
+      9, // Manual
+    ],
+    certNo: `A-AR-01984-T0`,
+    downloads: `https://drive.google.com/drive/folders/1fqvhM9smX2drb6kmQJZUYXmjO3KzzSgB`,
     variants: []
   },
   
@@ -6264,7 +5960,6 @@ export const products = [
       `/products/AW-T604F/img/5.webp`,
       `/products/AW-T604F/img/6.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -6282,7 +5977,6 @@ export const products = [
     shortDesc: `Llevate fuego`,
     longDesc: "Su práctico tamaño te permitirá llevar el fuego y la diversión a todas partes.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/209-parlante-bluetooth-portatil-serie-flama-6500w.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -6439,7 +6133,6 @@ export const products = [
     shortDesc: `Diversión al máximo`,
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -6591,7 +6284,6 @@ export const products = [
     shortDesc: `Diversión al máximo`,
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -6743,7 +6435,6 @@ export const products = [
     shortDesc: `Diversión al máximo`,
     longDesc: "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/103-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t806f-7798111353995.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -6899,7 +6590,6 @@ export const products = [
     shortDesc: `Acercate al fuego`,
     longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -7055,7 +6745,6 @@ export const products = [
     shortDesc: `Acercate al fuego`,
     longDesc: "No solo podrás reproducir música desde cualquier dispositivo, sino que hasta 3 micrófonos pueden conectarse al parlante para poder disfrutar de una noche FLAMA.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/98-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t1008f-7798111354008.html`,
-    videos: [],
     featuredFeatures: [
       { // Potencia
         id: 2,
@@ -7176,11 +6865,10 @@ export const products = [
 
   /////////////// AURICULARES ////////////////
 
-  {// AVA-102N
+  { // AVA-102N
     name: `Auricular Vincha On-Ear y Cable Removible`,
     sku: `AVA-102N`,
     link: `/productos/AVA-102N`,
-    line: ``,
     categories: [104], 
     imgs: [
       `/products/AVA-102N/img/1.webp`,
@@ -7193,7 +6881,6 @@ export const products = [
       `/products/AVA-102N/img/8.webp`,
       `/products/AVA-102N/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "1º Generación",
     banners: [   
@@ -7209,7 +6896,6 @@ export const products = [
     shortDesc: `Tu compañía indispensable`,
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad. Posee cable extraíble con micrófono para que puedas retirarlo, y guardarlo o reemplazarlo.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/auriculares/89-auriculares-aiwa-vincha-plegable-ava-102-manos-libres-7798111353421.html`,
-    videos: [],
     featuredFeatures: [
       { id: 42 }, // Plegable
       { id: 43 }, // Almohadilla
@@ -7238,17 +6924,16 @@ export const products = [
       14, // Aux c mic n
       25, // Garantia
     ],
-    certNo: ``,
+    noManual: true,
     downloads: `https://drive.google.com/drive/folders/188QHcTvUUNE4HttH4Nwfv7h4Gi59RSpr`,
-    variants: [],
     colors: [`AVA-102N`, `AVA-102B`]
   },
   { // AVA-102B
     name: `Auricular Vincha On-Ear y Cable Removible`,
     sku: `AVA-102B`,
     link: `/productos/AVA-102B`,
-    line: ``,
     categories: [104], 
+    altBackground: true,
     imgs: [
       `/products/AVA-102B/img/1.webp`,
       `/products/AVA-102B/img/2.webp`,
@@ -7258,7 +6943,6 @@ export const products = [
       `/products/AVA-102B/img/6.webp`,
       `/products/AVA-102B/img/7.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -7274,7 +6958,6 @@ export const products = [
     shortDesc: `Tu compañía indispensable`,
     longDesc: "A donde vayas, lo llevas para que tu música preferida suene en alta fidelidad. Posee cable extraíble con micrófono para que puedas retirarlo, y guardarlo o reemplazarlo.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/cableado/89-auriculares-aiwa-vincha-plegable-ava-102-manos-libres-7798111353421.html`,
-    videos: [],
     featuredFeatures: [
       { id: 42 }, // Plegable
       { id: 43 }, // Almohadilla
@@ -7303,16 +6986,13 @@ export const products = [
       13, // Cable 3.5mm + mic b
       25, // Garantia
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1gZAzU6_u-LxAjnrBnZgukRYBP0V3aYNW`,
-    variants: [],
     colors: [`AVA-102N`, `AVA-102B`]
   },
   { // AVA-BT301N
     name: `Auriculares On-ear Bluetooth`,
     sku: `AVA-BT301N`,
     link: `/productos/AVA-BT301N`,
-    line: ``,
     categories: [104], 
     imgs: [
       `/products/AVA-BT301N/img/1.webp`,
@@ -7320,8 +7000,11 @@ export const products = [
       `/products/AVA-BT301N/img/3.webp`,
       `/products/AVA-BT301N/img/4.webp`,
       `/products/AVA-BT301N/img/5.webp`,
+      `/products/AVA-BT301N/img/6.webp`,
+      `/products/AVA-BT301N/img/7.webp`,
+      `/products/AVA-BT301N/img/8.webp`,
     ].map(e => fileserver + e),
-    top: false,
+    top: true,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -7337,7 +7020,6 @@ export const products = [
     shortDesc: `Tu música y vos, sin intermediarios`,
     longDesc: "Desplazate sin restricciones, tu música siempre te va acompañar. Ideal para quienes quieran realizar actividad física, viajar o trabajar.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/auriculares/91-auricular-bluetooth-aiwa-plegable-ava-bt301-mic-7798111353384.html`,
-    videos: [],
     featuredFeatures: [
       { id: 42 }, // Plegable
       { id: 43 }, // Almohadilla
@@ -7346,7 +7028,7 @@ export const products = [
       { id: 46 }, // Manos libres
       { id: 52 }, // Batería larga duración
       { id: 48 }, // Boton incorporado
-      { id: 49, value: `blanco y negro` }, // Colores
+      { id: 54 }, // Ctrl. Canciones
     ],
     features: [
       { id: 11, value: `Uso: 8h / Stand-by: 600h` }, // Duración Batería
@@ -7364,32 +7046,34 @@ export const products = [
       { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
       { id: 18, value: `200g` }, // Peso
       { id: 19, value: `7798111353384` }, // EAN
-      { id: 15, value: `Plegable, Uso con cable (opcional)` }, // Otras caracteristicas
+      { id: 15, value: `Plegable, Uso con cable (opcional), Reg. Altura` }, // Otras caracteristicas
     ],
     includes: [
       4, // Cable USB
       3, // Cable aux
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1Tg2oFaysAoXIMu-ZvrOF2YnFEF7bVRKA`,
-    variants: [],
     colors: ['AVA-BT301B', 'AVA-BT301N']
   },
   { // AVA-BT301B
     name: `Auriculares On-ear Bluetooth`,
     sku: `AVA-BT301B`,
     link: `/productos/AVA-BT301B`,
-    line: ``,
-    categories: [104], 
+    categories: [104],
+    altBackground: true,
     imgs: [
       `/products/AVA-BT301B/img/1.webp`,
       `/products/AVA-BT301B/img/2.webp`,
       `/products/AVA-BT301B/img/3.webp`,
       `/products/AVA-BT301B/img/4.webp`,
       `/products/AVA-BT301B/img/5.webp`,
+      `/products/AVA-BT301B/img/6.webp`,
+      `/products/AVA-BT301B/img/7.webp`,
+      `/products/AVA-BT301B/img/8.webp`,
+      `/products/AVA-BT301B/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
+    top: true,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -7405,7 +7089,6 @@ export const products = [
     shortDesc: `Tu música y vos, sin intermediarios`,
     longDesc: "Desplazate sin restricciones, tu música siempre te va acompañar. Ideal para quienes quieran realizar actividad física, viajar o trabajar.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/auriculares/90-auricular-bluetooth-aiwa-plegable-ava-bt301-mic-7798111353391.html`,
-    videos: [],
     featuredFeatures: [
       { id: 42 }, // Plegable
       { id: 43 }, // Almohadilla
@@ -7414,7 +7097,7 @@ export const products = [
       { id: 46 }, // Manos libres
       { id: 52 }, // Batería larga duración
       { id: 48 }, // Boton incorporado
-      { id: 49, value: `blanco y negro` }, // Colores
+      { id: 54 }, // Ctrl. Canciones
     ],
     features: [
       { id: 11, value: `Uso: 8h / Stand-by: 600h` }, // Duración Batería
@@ -7432,23 +7115,20 @@ export const products = [
       { id: 17, value: `201 * 230 * 61 mm` }, // Dimension caja
       { id: 18, value: `200g` }, // Peso
       { id: 19, value: `7798111353391` }, // EAN
-      { id: 15, value: `Plegable, Uso con cable (opcional)` }, // Otras caracteristicas
+      { id: 15, value: `Plegable, Uso con cable (opcional), Reg. Altura` }, // Otras caracteristicas
     ],
     includes: [
       4, // Cable USB
       3, // Cable aux
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1v8HOmraKEBIoSlQCZCs2kBfQAVlSdySF`,
-    variants: [],
     colors: ['AVA-BT301B', 'AVA-BT301N']
   },
   { // ATA-105N
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-105N`,
     link: `/productos/ATA-105N`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/ATA-105N/img/1.webp`,
@@ -7459,8 +7139,8 @@ export const products = [
       `/products/ATA-105N/img/6.webp`,
       `/products/ATA-105N/img/7.webp`,
       `/products/ATA-105N/img/8.webp`,
+      `/products/ATA-105N/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -7474,7 +7154,6 @@ export const products = [
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 57 }, // Cable usb carga
       { id: 46 }, // Manos libres
@@ -7485,7 +7164,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -7503,14 +7181,23 @@ export const products = [
       {
         title: 'Estuche',
         items: [
-          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
-          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
-          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
-          { name: 'Tiempo de Carga', value: `de 2h` }, // Tiempo de carga 
-          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` }, // Dimension prod
-          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
-          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
-          { name: 'EAN', value: `7798111354145` }, // EAN
+          { name: 'Indicador de Carga', value: `Si, Digital LED` },
+          { name: 'Capacidad de Batería', value: `300mAh` },
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` },
+          { name: 'Entrada / Salida', value: `DC 5V 500mAh / 150mAh` },
+          { name: 'Tiempo de Carga', value: `2h` },
+          { name: 'Tiempo en Stand-by', value: `4 meses` },
+          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` },
+          { name: 'Peso', value: `32,5g` },
+        ]
+      },
+      {
+        title: 'Pack',
+        items: [
+          { name: 'Color', value: `Negro` },
+          { name: 'Dimensiones', value: `10 x 10 x 3,5` },
+          { name: 'Peso', value: `110g` },
+          { name: 'EAN', value: `7798111354145` },
         ]
       },
     ],
@@ -7520,7 +7207,6 @@ export const products = [
       4, // MicroUSB
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1HannaUT0NFv5IMiIxnIhFZS84VR8uLv2`,
     variants: ['ATA-105N', 'ATA-106N'],
     colors: ['ATA-105B', 'ATA-105N']
@@ -7529,8 +7215,8 @@ export const products = [
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-105B`,
     link: `/productos/ATA-105B`,
-    line: ``,
-    categories: [103], 
+    categories: [103],
+    altBackground: true,
     imgs: [
       `/products/ATA-105B/img/1.webp`,
       `/products/ATA-105B/img/2.webp`,
@@ -7540,8 +7226,8 @@ export const products = [
       `/products/ATA-105B/img/6.webp`,
       `/products/ATA-105B/img/7.webp`,
       `/products/ATA-105B/img/8.webp`,
+      `/products/ATA-105B/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -7555,7 +7241,6 @@ export const products = [
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 57 }, // Cable usb carga
       { id: 46 }, // Manos libres
@@ -7566,7 +7251,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -7584,14 +7268,23 @@ export const products = [
       {
         title: 'Estuche',
         items: [
-          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
-          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
-          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
-          { name: 'Tiempo de Carga', value: `de 2h` }, // Tiempo de carga 
-          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` }, // Dimension prod
-          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
-          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
-          { name: 'EAN', value: `7798111354138` }, // EAN
+          { name: 'Indicador de Carga', value: `Si, Digital LED` },
+          { name: 'Capacidad de Batería', value: `300mAh` },
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` },
+          { name: 'Entrada / Salida', value: `DC 5V 500mAh / 150mAh` },
+          { name: 'Tiempo de Carga', value: `2h` },
+          { name: 'Tiempo en Stand-by', value: `4 meses` },
+          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` },
+          { name: 'Peso', value: `32,5g` },
+        ]
+      },
+      {
+        title: 'Pack',
+        items: [
+          { name: 'Color', value: `Blanco` },
+          { name: 'Dimensiones del paquete', value: `10 x 10 x 3,5` },
+          { name: 'Peso', value: `110g` },
+          { name: 'EAN', value: `7798111354138` }, 
         ]
       },
     ],
@@ -7601,7 +7294,6 @@ export const products = [
       21, // MicroUSB
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1I4WOc5v36nqEq-qFmAqHXDS7QryypHZU`,
     variants: ['ATA-105B', 'ATA-106B'],
     colors: ['ATA-105B', 'ATA-105N']
@@ -7610,7 +7302,6 @@ export const products = [
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-106N`,
     link: `/productos/ATA-106N`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/ATA-106N/img/1.webp`,
@@ -7621,8 +7312,8 @@ export const products = [
       `/products/ATA-106N/img/6.webp`,
       `/products/ATA-106N/img/7.webp`,
       `/products/ATA-106N/img/8.webp`,
+      `/products/ATA-106N/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "2º Generación",
     banners: [ 
@@ -7636,7 +7327,6 @@ export const products = [
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/250-auriculares-in-ear-inalambricos-aiwa-ata-106n-7798111354473.html`,
-    videos: [],
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -7647,7 +7337,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -7665,14 +7354,23 @@ export const products = [
       {
         title: 'Estuche',
         items: [
-          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
-          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
-          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
-          { name: 'Tiempo de Carga', value: `de 2h` }, // Tiempo de carga 
-          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` }, // Dimension prod
-          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
-          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
-          { name: 'EAN', value: `7798111354473` }, // EAN
+          { name: 'Indicador de Carga', value: `Si, Digital LED` },
+          { name: 'Capacidad de Batería', value: `300mAh` },
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` },
+          { name: 'Entrada / Salida', value: `DC 5V 500mAh / 150mAh` },
+          { name: 'Tiempo de Carga', value: `2h` },
+          { name: 'Tiempo en Stand-by', value: `4 meses` },
+          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` },
+          { name: 'Peso', value: `32,5g` },
+        ]
+      },
+      {
+        title: 'Pack',
+        items: [
+          { name: 'Color', value: `Negro` },
+          { name: 'Dimensiones del paquete', value: `10 x 10 x 3,5` },
+          { name: 'Peso', value: `110g` },
+          { name: 'EAN', value: `7798111354473` }, 
         ]
       },
     ],
@@ -7682,17 +7380,15 @@ export const products = [
       4, // MicroUSB
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1Uu8rm2ALdiXv_fwNKk-SFXgBpZOJEkBY`,
-    variants: [],
     colors: ['ATA-106B', 'ATA-106N']
   },
   { // ATA-106B
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-106B`,
     link: `/productos/ATA-106B`,
-    line: ``,
-    categories: [103], 
+    categories: [103],
+    altBackground: true, 
     imgs: [
       `/products/ATA-106B/img/1.webp`,
       `/products/ATA-106B/img/2.webp`,
@@ -7702,8 +7398,8 @@ export const products = [
       `/products/ATA-106B/img/6.webp`,
       `/products/ATA-106B/img/7.webp`,
       `/products/ATA-106B/img/8.webp`,
+      `/products/ATA-106B/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "2º Generación",
     banners: [ 
@@ -7717,7 +7413,6 @@ export const products = [
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/264-auriculares-in-ear-inalambricos-aiwa-ata-106b-7798111354480.html`,
-    videos: [],
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -7728,7 +7423,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -7746,14 +7440,23 @@ export const products = [
       {
         title: 'Estuche',
         items: [
-          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
-          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
-          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
-          { name: 'Tiempo de Carga', value: `de 2h` }, // Tiempo de carga 
-          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` }, // Dimension prod
-          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
-          { name: 'Peso', value: `4,1 g (cada uno)` }, // Peso
-          { name: 'EAN', value: `7798111354480` }, // EAN
+          { name: 'Indicador de Carga', value: `Si, Digital LED` },
+          { name: 'Capacidad de Batería', value: `300mAh` },
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` },
+          { name: 'Entrada / Salida', value: `DC 5V 500mAh / 150mAh` },
+          { name: 'Tiempo de Carga', value: `2h` },
+          { name: 'Tiempo en Stand-by', value: `4 meses` },
+          { name: 'Dimensiones', value: `62 x 40 x 27,2 mm` },
+          { name: 'Peso', value: `32,5g` },
+        ]
+      },
+      {
+        title: 'Pack',
+        items: [
+          { name: 'Color', value: `Blanco` },
+          { name: 'Dimensiones del paquete', value: `10 x 10 x 3,5` },
+          { name: 'Peso', value: `110g` },
+          { name: 'EAN', value: `7798111354480` }, 
         ]
       },
     ],
@@ -7763,23 +7466,19 @@ export const products = [
       21, // MicroUSB
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1UlHBO7yRy7Bv_vOXgu4QNYmzjOJHRtnt`,
-    variants: [],
     colors: ['ATA-106B', 'ATA-106N']
   },
   { // ATA-205N
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-205N`,
     link: `/productos/ATA-205N`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/ATA-205N/img/1.webp`,
       `/products/ATA-205N/img/2.webp`,
       `/products/ATA-205N/img/3.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [ 
@@ -7795,7 +7494,6 @@ export const products = [
     shortDesc: `Sumergite en tu música`,
     longDesc: "Su delicado diseño permite una verdadera experiencia de sonido envolvente. Gracias a sus almohadillas de silicona suaves y flexibles, el ajuste es personalizado y se adaptarán perfectamente a tu oído.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 59 }, // Cable usb carga
       { id: 46 }, // Manos libres
@@ -7806,7 +7504,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -7841,7 +7538,6 @@ export const products = [
       6, // USBC
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/162INfmrVv8p8pPnueX_CPHcq941OLXmS`,
     variants: ['ATA-205N', 'ATA-206N'],
     colors: ['ATA-205B', 'ATA-205N']
@@ -7850,14 +7546,13 @@ export const products = [
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-205B`,
     link: `/productos/ATA-205B`,
-    line: ``,
     categories: [103], 
+    altBackground: true,
     imgs: [
       `/products/ATA-205B/img/1.webp`,
       `/products/ATA-205B/img/2.webp`,
       `/products/ATA-205B/img/3.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [ 
@@ -7873,7 +7568,6 @@ export const products = [
     shortDesc: `Sumergite en tu música`,
     longDesc: "Su delicado diseño permite una verdadera experiencia de sonido envolvente. Gracias a sus almohadillas de silicona suaves y flexibles, el ajuste es personalizado y se adaptarán perfectamente a tu oído.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 59 }, // Cable usb carga
       { id: 46 }, // Manos libres
@@ -7884,7 +7578,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -7919,7 +7612,6 @@ export const products = [
       20, // USBC
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1VVvRs6BlRtF3kKoIFIqXkvb4f9Za5W5t`,
     variants: ['ATA-205B', 'ATA-206B'],
     colors: ['ATA-205B', 'ATA-205N']
@@ -7928,14 +7620,12 @@ export const products = [
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-206N`,
     link: `/productos/ATA-206N`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/ATA-205N/img/1.webp`,
       `/products/ATA-205N/img/2.webp`,
       `/products/ATA-205N/img/3.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "2º Generación",
     banners: [ 
@@ -7951,7 +7641,6 @@ export const products = [
     shortDesc: `Sumergite en tu música`,
     longDesc: "Su delicado diseño permite una verdadera experiencia de sonido envolvente. Gracias a sus almohadillas de silicona suaves y flexibles, el ajuste es personalizado y se adaptarán perfectamente a tu oído.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -7962,7 +7651,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -7997,23 +7685,20 @@ export const products = [
       6, // USBC
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/162INfmrVv8p8pPnueX_CPHcq941OLXmS`,
-    variants: [],
     colors: ['ATA-206B', 'ATA-206N']
   },
   { // ATA-206B
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-206B`,
     link: `/productos/ATA-206B`,
-    line: ``,
     categories: [103], 
+    altBackground: true,
     imgs: [
       `/products/ATA-205B/img/1.webp`,
       `/products/ATA-205B/img/2.webp`,
       `/products/ATA-205B/img/3.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "2º Generación",
     banners: [ 
@@ -8029,7 +7714,6 @@ export const products = [
     shortDesc: `Sumergite en tu música`,
     longDesc: "Su delicado diseño permite una verdadera experiencia de sonido envolvente. Gracias a sus almohadillas de silicona suaves y flexibles, el ajuste es personalizado y se adaptarán perfectamente a tu oído.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -8040,7 +7724,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -8075,17 +7758,15 @@ export const products = [
       20, // USBC
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1VVvRs6BlRtF3kKoIFIqXkvb4f9Za5W5t`,
-    variants: [],
     colors: ['ATA-206B', 'ATA-206N']
   },
   { // ATA-306B
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-306B`,
     link: `/productos/ATA-306B`,
-    line: ``,
     categories: [103], 
+    altBackground: true,
     imgs: [
       `/products/ATA-306B/img/1.webp`,
       `/products/ATA-306B/img/2.webp`,
@@ -8095,7 +7776,6 @@ export const products = [
       `/products/ATA-306B/img/6.webp`,
       `/products/ATA-306B/img/7.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -8111,7 +7791,6 @@ export const products = [
     shortDesc: `Sonido sin igual`,
     longDesc: "Impresionante calidad de sonido en un formato cómodo. Escuchá tu música preferida donde sea, sin limitaciones.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/251-auriculares-in-ear-inalambricos-aiwa-ata-306b-7798111354510.html`,
-    videos: [],
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -8122,7 +7801,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 59 }, // USBC
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -8157,16 +7835,13 @@ export const products = [
       20, // USB tipo C
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
-    variants: [],
     colors: []
   },
   { // ATA-406N
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-406N`,
     link: `/productos/ATA-406N`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/ATA-406N/img/1.webp`,
@@ -8178,7 +7853,6 @@ export const products = [
       `/products/ATA-406N/img/7.webp`,
       `/products/ATA-406N/img/8.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -8194,7 +7868,6 @@ export const products = [
     shortDesc: `Sonido sin límites`,
     longDesc: "Impresionante calidad de sonido en un formato cómodo. Cancelación de ruido pasiva para que disfrutes sin distracciones.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/328-auriculares-in-ear-inalambricos-aiwa-ata-406n.html`,
-    videos: [],
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -8205,7 +7878,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -8240,17 +7912,15 @@ export const products = [
       6, // USBC
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1X1kjKXFrCMsob_Egu_YJDR19gRJHlIT5`,
-    variants: [],
     colors: ['ATA-406B', 'ATA-406N']
   },
   { // ATA-406B
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-406B`,
     link: `/productos/ATA-406B`,
-    line: ``,
     categories: [103], 
+    altBackground: true,
     imgs: [
       `/products/ATA-406B/img/1.webp`,
       `/products/ATA-406B/img/2.webp`,
@@ -8261,7 +7931,6 @@ export const products = [
       `/products/ATA-406B/img/7.webp`,
       `/products/ATA-406B/img/8.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -8277,7 +7946,6 @@ export const products = [
     shortDesc: `Sonido sin límites`,
     longDesc: "Impresionante calidad de sonido en un formato cómodo. Cancelación de ruido pasiva para que disfrutes sin distracciones.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/327-auriculares-in-ear-inalambricos-aiwa-ata-406b-7798111354534.html`,
-    videos: [],
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -8288,7 +7956,6 @@ export const products = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
     featuresSections: [
       {
         title: 'Auricular',
@@ -8323,9 +7990,7 @@ export const products = [
       20, // USBC
       9, // Manual
     ],
-    certNo: ``,
     downloads: `https://drive.google.com/drive/folders/1WuUfgOnQsZbcCmCks9yM9-XE5l4-0k0i`,
-    variants: [],
     colors: ['ATA-406B', 'ATA-406N']
   },
 
@@ -8335,7 +8000,6 @@ export const products = [
     name: `Cloudbook Dual-core 4GB RAM Win 10`,
     sku: `CA-141`,
     link: `/productos/CA-141`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/CA-141/img/1.webp`,
@@ -8346,7 +8010,6 @@ export const products = [
       `/products/CA-141/img/6.webp`,
       `/products/CA-141/img/7.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "1º Generación",
     banners: [ 
@@ -8358,7 +8021,6 @@ export const products = [
     shortDesc: `Con vos siempre `,
     longDesc: "Editá, Hacé Streaming, Escribí, Trabajá. La Nube se encarga del resto. Una cloudbook es la computadora de quienes necesitan estar siempre listos para conectarse.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 60 }, // Windows
       { id: 62 }, // Camara frontal
@@ -8397,7 +8059,6 @@ export const products = [
     name: `Cloudbook Dual-core 4GB RAM Win 10 + Funda`,
     sku: `CA141-CO`,
     link: `/productos/CA141-CO`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/CA141-CO/img/1.webp`,
@@ -8409,7 +8070,6 @@ export const products = [
       `/products/CA141-CO/img/7.webp`,
       `/products/CA141-CO/img/8.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "2º Generación",
     banners: [ 
@@ -8423,7 +8083,6 @@ export const products = [
     shortDesc: `Con vos siempre `,
     longDesc: "Editá, Hacé Streaming, Escribí, Trabajá. La Nube se encarga del resto. Una cloudbook es la computadora de quienes necesitan estar siempre listos para conectarse.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 60 }, // Windows
       { id: 62 }, // Camara frontal
@@ -8463,7 +8122,6 @@ export const products = [
     name: `Cloudbook Dual-core 4GB RAM Win 11 + Funda`,
     sku: `CA141-C`,
     link: `/productos/CA141-C`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/CA141-C/img/1.webp`,
@@ -8475,7 +8133,6 @@ export const products = [
       `/products/CA141-C/img/7.webp`,
       `/products/CA141-C/img/8.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: true,
     gen: "3º Generación",
     banners: [ 
@@ -8489,7 +8146,6 @@ export const products = [
     shortDesc: `Con vos siempre `,
     longDesc: "Editá, Hacé Streaming, Escribí, Trabajá. La Nube se encarga del resto. Una cloudbook es la computadora de quienes necesitan estar siempre listos para conectarse.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/notebooks/332-notebook-cloudbook-14-dual-core-4gb-ram-win11-aiwa-funda-ca141-c-7798111354589.html`,
-    videos: [],
     featuredFeatures: [
       { id: 61 }, // Windows
       { id: 62 }, // Camara frontal
@@ -8522,14 +8178,12 @@ export const products = [
     ],
     certNo: `0Q-AR-01307-T-0`,
     downloads: `https://drive.google.com/drive/folders/16DAMs5p9bKVcBuWSZjz-ANUnAit9Vn5b`,
-    variants: [],
     colors: []
   },
   { // NA-1413
     name: `Notebook Core i3 4GB RAM Win 10`,
     sku: `NA-1413`,
     link: `/productos/NA-1413`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/NA-1413/img/1.webp`,
@@ -8542,7 +8196,6 @@ export const products = [
       `/products/NA-1413/img/8.webp`,
       `/products/NA-1413/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "1º Generación",
     banners: [ 
@@ -8554,7 +8207,6 @@ export const products = [
     shortDesc: `La solución de tu día a día`,
     longDesc: "Una herramienta, un medio de comunicación, de entretenimiento, todo para que tu rutina sea lo más amena posible.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 60 }, // Windows
       { id: 62 }, // Camara frontal
@@ -8597,7 +8249,6 @@ export const products = [
     name: `Notebook Core i3 8GB RAM Win 10`,
     sku: `NA-1431`,
     link: `/productos/NA-1431`,
-    line: ``,
     categories: [103], 
     imgs: [
       `/products/NA-1431/img/1.webp`,
@@ -8610,7 +8261,6 @@ export const products = [
       `/products/NA-1431/img/8.webp`,
       `/products/NA-1431/img/9.webp`,
     ].map(e => fileserver + e),
-    top: false,
     360: false,
     gen: "2º Generación",
     banners: [ 
@@ -8624,7 +8274,6 @@ export const products = [
     shortDesc: `La velocidad que necesitás`,
     longDesc: "Con novedoso hardware que posibilita que tu flujo de trabajo tenga la rapidez y fluidez dignas de un profesional digital.",
     buyLink: ``,
-    videos: [],
     featuredFeatures: [
       { id: 60 }, // Windows
       { id: 62 }, // Camara frontal
@@ -8661,7 +8310,6 @@ export const products = [
     ],
     certNo: `0Q-AR-01307-T-0`,
     downloads: `https://drive.google.com/drive/folders/1SvItrVBtKP31e7--X336swDLvI326g3O`,
-    variants: [],
     colors: []
   }
 ]
