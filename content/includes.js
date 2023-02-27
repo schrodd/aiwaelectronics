@@ -26,7 +26,8 @@ const includes = [
   { id: 22, name: 'Estuche de carga', img: '/images/includes/case205b.jpg' }, // 205 206 Blanco
   { id: 23, name: 'Estuche de carga', img: '/images/includes/case205n.jpg' }, // 205 206 Negro
   { id: 19, name: 'Estuche de carga', img: '/images/includes/case306b.jpg' }, // 306
-  // Faltan estuches 406
+  { id: 26, name: 'Estuche de carga', img: '/images/includes/case406b.jpg' }, // 406 Blanco
+  { id: 27, name: 'Estuche de carga', img: '/images/includes/case406n.jpg' }, // 406 Negro
 
   // Notebooks
   { id: 24, name: 'Funda de Neoprene', img: '/images/includes/fundaneoprene.jpg',}

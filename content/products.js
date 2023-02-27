@@ -5289,7 +5289,6 @@ export const products = [
       `/products/AW-T2302/img/6.webp`,
       `/products/AW-T2302/img/7.webp`,
       `/products/AW-T2302/img/8.webp`,
-      `/products/AW-T2302/img/9.webp`,
     ].map(e => fileserver + e),
     360: false,
     gen: "1º Generación",
@@ -5558,8 +5557,6 @@ export const products = [
       `/products/AW-T2303/img/5.webp`,
       `/products/AW-T2303/img/6.webp`,
       `/products/AW-T2303/img/7.webp`,
-      `/products/AW-T2303/img/8.webp`,
-      `/products/AW-T2303/img/9.webp`,
     ].map(e => fileserver + e),
     360: false,
     gen: "1º Generación",
@@ -7943,7 +7940,7 @@ export const products = [
       },
     ],
     includes: [
-      23, // Estuche de carga
+      27, // Estuche de carga
       16, // Almohadillas 
       6, // USBC
       9, // Manual
@@ -8021,7 +8018,7 @@ export const products = [
       },
     ],
     includes: [
-      22, // Estuche de carga
+      26, // Estuche de carga
       15, // Almohadillas 
       20, // USBC
       9, // Manual
