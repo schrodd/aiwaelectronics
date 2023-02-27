@@ -8,6 +8,7 @@ import canciones from '../public/svg/canciones.svg'
 import carryon from '../public/svg/carryon.svg'
 import chip from '../public/svg/chip.svg'
 import color from '../public/svg/color.svg'
+import display from '../public/svg/display.svg'
 import doblemic from '../public/svg/doblemic.svg'
 import estuche from '../public/svg/estuche.svg'
 import fingerprint from '../public/svg/fingerprint.svg'
@@ -25,6 +26,7 @@ import micauris from '../public/svg/micauris.svg'
 import micreg from '../public/svg/micreg.svg'
 import monitorext from '../public/svg/monitorext.svg'
 import phone from '../public/svg/phone.svg'
+import play from '../public/svg/play.svg'
 import plegable from '../public/svg/plegable.svg'
 import plug from '../public/svg/plug.svg'
 import pluma from '../public/svg/pluma.svg'
@@ -37,6 +39,7 @@ import rec from '../public/svg/rec.svg'
 import reso from '../public/svg/reso.svg'
 import reg from '../public/svg/reg.svg'
 import remote from '../public/svg/remote.svg'
+import running from '../public/svg/running.svg'
 import sd from '../public/svg/sd.svg'
 import soft from '../public/svg/soft.svg'
 import speaker from '../public/svg/speaker.svg'
@@ -237,12 +240,16 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   desc: 'Subí o bajá el volumen de tu música fácilmente usando los botones integrados.'},
   { id: 54, name: 'Control de Canciones', icon: canciones,
   desc: '¡Navegá tu lista de reproducción libremente!'},
+  { id: 77, name: 'Display Digital Led', icon: display,
+  desc: 'Posee indicador de carga digital LED, para que sepas exactamente cuánto te queda de batería.'},
   { id: 58, name: 'Amplio alcance', icon: wireless,
   desc: 'Tiene un alcance total (aproximado) de 10 metros hasta el dispositivo emisor.'},
   { id: 57, name: 'Cable USB incluido', icon: powerusb,
   desc: 'Incluye cable MicroUSB (sólo para carga). Es tan simple como conectarlo a cualquier adaptador o puerto de tu pc.'},
   { id: 59, name: 'Cable USB-C incluido', icon: usbc,
   desc: 'Incluye cable USB Tipo C (sólo para carga). Es tan simple como conectarlo a cualquier adaptador o puerto de tu pc.'},
+  { id: 75, name: 'Control de Canciones', icon: play,
+  desc: '¡Pausá y reproducí tus canciones al instante con un toque!'},
   { id: 45, name: 'Cable desmontable', icon: plug, // Flat AVA-102B/N
   desc: 'Cable extraíble para tu comodidad. No te preocupes por cables enredados, su sistema flat-cable evita las torceduras.' },
   { id: 50, name: 'Cable desmontable', icon: plug, // No flat BT301B/N
@@ -255,6 +262,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   desc: 'Posee un cable lo suficientemente largo para que no tengas que preocuparte por ello.' },
   { id: 56, name: 'Almohadillas de repuesto', icon: buds,
   desc: 'Incluye 3 pares de almohadillas de distintos tamaños (S, M, L) para que puedas usar el que mejor se adapte a vos.' },
+  { id: 76, name: 'Aliado Fitness', icon: running,
+  desc: '¡Hacé deporte con ellos! poseen una fuerte sujeción y resistencia ante polvo y salpicaduras.'},
   { id: 49, name: 'Colores', icon: color,
   customDesc: colores => `Seleccioná alguno de los colores disponibles y personalizá tu experiencia auditiva. Disponible en ${colores}.` },
 

@@ -7150,6 +7150,10 @@ export const products = [
       desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
       { title: `Controles Touch`, img: fileserver + `/banners/touch106n.webp`,
       desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, reproducí/pausá canciones o usá un asistente de voz sin ninguna dificultad.` },
+      { title: `Aliado Fitness`, img: fileserver + `/banners/running106n.webp`,
+      desc: `Podés usarlos para hacer deporte ya que son extremadamente ligeros, además son resistentes al polvo y las salpicaduras o ligeras lloviznas.` },
+      { title: `3 Simples pasos`, img: fileserver + `/banners/pasos106n.webp`,
+      desc: `Encendé, conectá y disfrutá. Nunca fué tan fácil escuchar música. El emparejamiento se hace por única vez, y luego, simplemente al sacarlos del estuche estarán conectados y listos para el uso.` },
     ],
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
@@ -7163,6 +7167,10 @@ export const products = [
       { id: 55 }, // Estuche
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
+      { id: 75 }, // Play/pausa
+      { id: 77 }, // Display LED
+      { id: 44 }, // Ligero
+      { id: 76 }, // Aliado Fitness
     ],
     featuresSections: [
       {
@@ -7237,6 +7245,10 @@ export const products = [
       desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
       { title: `Controles Touch`, img: fileserver + `/banners/touch106b.webp`,
       desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, reproducí/pausá canciones o usá un asistente de voz sin ninguna dificultad.` },
+      { title: `Aliado Fitness`, img: fileserver + `/banners/running106b.webp`,
+      desc: `Podés usarlos para hacer deporte ya que son extremadamente ligeros, además son resistentes al polvo y las salpicaduras o ligeras lloviznas.` },
+      { title: `3 Simples pasos`, img: fileserver + `/banners/pasos106b.webp`,
+      desc: `Encendé, conectá y disfrutá. Nunca fué tan fácil escuchar música. El emparejamiento se hace por única vez, y luego, simplemente al sacarlos del estuche estarán conectados y listos para el uso.` },
     ],
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
@@ -7250,6 +7262,10 @@ export const products = [
       { id: 55 }, // Estuche
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
+      { id: 75 }, // Play/pausa
+      { id: 77 }, // Display LED
+      { id: 44 }, // Ligero
+      { id: 76 }, // Aliado Fitness
     ],
     featuresSections: [
       {
@@ -7323,6 +7339,10 @@ export const products = [
       desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
       { title: `Controles Touch`, img: fileserver + `/banners/touch106n.webp`,
       desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.` },
+      { title: `Aliado Fitness`, img: fileserver + `/banners/running106n.webp`,
+      desc: `Podés usarlos para hacer deporte ya que son extremadamente ligeros, además son resistentes al polvo y las salpicaduras o ligeras lloviznas.` },
+      { title: `3 Simples pasos`, img: fileserver + `/banners/pasos106n.webp`,
+      desc: `Encendé, conectá y disfrutá. Nunca fué tan fácil escuchar música. El emparejamiento se hace por única vez, y luego, simplemente al sacarlos del estuche estarán conectados y listos para el uso.` },
     ],
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
@@ -7336,6 +7356,10 @@ export const products = [
       { id: 55 }, // Estuche
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
+      { id: 58 }, // Amplio alcance
+      { id: 77 }, // Display LED
+      { id: 44 }, // Ligero
+      { id: 76 }, // Aliado Fitness
     ],
     featuresSections: [
       {
@@ -7409,6 +7433,10 @@ export const products = [
       desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.` },
       { title: `Controles Touch`, img: fileserver + `/banners/touch106b.webp`,
       desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.` },
+      { title: `Aliado Fitness`, img: fileserver + `/banners/running106b.webp`,
+      desc: `Podés usarlos para hacer deporte ya que son extremadamente ligeros, además son resistentes al polvo y las salpicaduras o ligeras lloviznas.` },
+      { title: `3 Simples pasos`, img: fileserver + `/banners/pasos106b.webp`,
+      desc: `Encendé, conectá y disfrutá. Nunca fué tan fácil escuchar música. El emparejamiento se hace por única vez, y luego, simplemente al sacarlos del estuche estarán conectados y listos para el uso.` },
     ],
     shortDesc: `Tu música donde quieras`,
     longDesc: "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
@@ -7422,6 +7450,10 @@ export const products = [
       { id: 55 }, // Estuche
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
+      { id: 58 }, // Amplio alcance
+      { id: 77 }, // Display LED
+      { id: 44 }, // Ligero
+      { id: 76 }, // Aliado Fitness
     ],
     featuresSections: [
       {
