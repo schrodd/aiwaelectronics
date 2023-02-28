@@ -5158,7 +5158,7 @@ export const products = [
       `/products/AW-T2202/img/8.webp`,
       `/products/AW-T2202/img/9.webp`,
     ].map(e => fileserver + e),
-    360: false,
+    360: true,
     gen: "1º Generación",
     banners: [ 
       { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
@@ -5289,8 +5289,9 @@ export const products = [
       `/products/AW-T2302/img/6.webp`,
       `/products/AW-T2302/img/7.webp`,
       `/products/AW-T2302/img/8.webp`,
+      `/products/AW-T2302/img/9.webp`,
     ].map(e => fileserver + e),
-    360: false,
+    360: true,
     gen: "1º Generación",
     banners: [ 
       { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
@@ -5423,7 +5424,7 @@ export const products = [
       `/products/AW-T2203/img/8.webp`,
       `/products/AW-T2203/img/9.webp`,
     ].map(e => fileserver + e),
-    360: false,
+    360: true,
     gen: "1º Generación",
     banners: [
       { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
@@ -5557,8 +5558,10 @@ export const products = [
       `/products/AW-T2303/img/5.webp`,
       `/products/AW-T2303/img/6.webp`,
       `/products/AW-T2303/img/7.webp`,
+      `/products/AW-T2303/img/8.webp`,
+      `/products/AW-T2303/img/9.webp`,
     ].map(e => fileserver + e),
-    360: false,
+    360: true,
     gen: "1º Generación",
     banners: [ 
       { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
