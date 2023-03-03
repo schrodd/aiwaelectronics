@@ -1,6 +1,7 @@
 const includes = [
   // Parlantes
   { id: 1, name: 'Micrófono Inalámbrico', img: '/images/includes/micinalam.jpg' },
+  { id: 28, name: 'Micrófono Inalámbrico UHD', img: '/images/includes/micuhd.jpg' },
   { id: 2, name: 'Micrófono con cable', img: '/images/includes/mic.jpg' },
   { id: 3, name: 'Cable Auxiliar', img: '/images/includes/aux2.jpg' },
   { id: 4, name: 'Cable MicroUSB', img: '/images/includes/microusbcerca.jpg' },

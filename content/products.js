@@ -3460,7 +3460,7 @@ export const products = [
     ],
     includes: [
       10, // Tripode
-      1, // Mic inalam
+      28, // Mic inalam
       7, // Control
       3, // Cable aux
       12, // Cable 
@@ -5159,6 +5159,7 @@ export const products = [
       `/products/AW-T2202/img/9.webp`,
     ].map(e => fileserver + e),
     360: true,
+    top: true,
     gen: "1º Generación",
     banners: [ 
       { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
@@ -5168,7 +5169,7 @@ export const products = [
       { title: `Batería de larga duración`, img: fileserver + `/banners/bateria2202.webp`,
       desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.`},
       { title: `Conectá y escuchá`, img: fileserver + `/banners/panel2x22.webp`,
-      desc: `Posee una entrada para micrófono, una para guitarra, y una entrada auxiliar para que traigas tu sonido de donde quieras.`}
+      desc: `Posee Bluetooth, una entrada para micrófono, y una entrada auxiliar para que traigas tu sonido de donde quieras.`}
     ],
     shortDesc: `Cargá y reproducí`,
     longDesc: "Gracias a su función Power Bank, cargá tus dispositivos mientras reproducís tus canciones favoritas. ¡Disfrutalo en interiores o exteriores! Posee batería recargable de larga duración.",
@@ -5292,6 +5293,7 @@ export const products = [
       `/products/AW-T2302/img/9.webp`,
     ].map(e => fileserver + e),
     360: true,
+    top: true,
     gen: "1º Generación",
     banners: [ 
       { title: `Power Bank`, img: fileserver + `/banners/powerbank.webp`,
@@ -5301,7 +5303,7 @@ export const products = [
       { title: `Batería de larga duración`, img: fileserver + `/banners/bateria2302.webp`,
       desc: `Increíble batería de larga duración para que nunca te quedes sin escuchar la música que más te gusta.`},
       { title: `Conectá y escuchá`, img: fileserver + `/banners/panel2x22.webp`,
-      desc: `Posee una entrada para micrófono, una para guitarra, y una entrada auxiliar para que traigas tu sonido de donde quieras.`}
+      desc: `Posee Bluetooth, una entrada para micrófono, y una entrada auxiliar para que traigas tu sonido de donde quieras.`}
     ],
     shortDesc: `Cargá y reproducí`,
     longDesc: "Gracias a su función Power Bank, cargá tus dispositivos mientras reproducís tus canciones favoritas. ¡Disfrutalo en interiores o exteriores! Posee batería recargable de larga duración.",
@@ -5425,6 +5427,7 @@ export const products = [
       `/products/AW-T2203/img/9.webp`,
     ].map(e => fileserver + e),
     360: true,
+    top: true,
     gen: "1º Generación",
     banners: [
       { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
@@ -5562,6 +5565,7 @@ export const products = [
       `/products/AW-T2303/img/9.webp`,
     ].map(e => fileserver + e),
     360: true,
+    top: true,
     gen: "1º Generación",
     banners: [ 
       { title: `Micrófono inalámbrico incluido`, img: fileserver + `/banners/microfono.webp`,
@@ -5696,6 +5700,7 @@ export const products = [
       `/products/AW-P2016A/img/6.webp`,
       `/products/AW-P2016A/img/7.webp`,
       `/products/AW-P2016A/img/8.webp`,
+      `/products/AW-P2016A/img/9.webp`,
     ].map(e => fileserver + e),
     top: true,
     360: true,
@@ -5827,6 +5832,7 @@ export const products = [
       `/products/AW-P2016B/img/6.webp`,
       `/products/AW-P2016B/img/7.webp`,
       `/products/AW-P2016B/img/8.webp`,
+      `/products/AW-P2016B/img/9.webp`,
     ].map(e => fileserver + e),
     top: true,
     360: true,
@@ -7514,6 +7520,8 @@ export const products = [
       `/products/ATA-205N/img/1.webp`,
       `/products/ATA-205N/img/2.webp`,
       `/products/ATA-205N/img/3.webp`,
+      `/products/ATA-205N/img/4.webp`,
+      `/products/ATA-205N/img/5.webp`,
     ].map(e => fileserver + e),
     360: false,
     gen: "1º Generación",
@@ -7544,27 +7552,36 @@ export const products = [
       {
         title: 'Auricular',
         items: [
-          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
-          { name: 'Capacidad de Batería', value: `30mAh` }, // Batería
-          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
-          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
-          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
-          { name: 'Controles', value: `Reproducir/Pausar, Manos Libres y Asistente de voz` }, // Controles
-          { name: 'Dimensiones', value: `32 x 23 x 23,4 mm` }, // Dimension prod
-          { name: 'Peso', value: `4 g (cada uno)` }, // Peso
+          { name: 'Duración de Batería', value: `5h aprox.` }, 
+          { name: 'Capacidad de Batería', value: `30mAh` }, 
+          { name: 'Alcance de Bluetooth', value: `10m` }, 
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, 
+          { name: 'Versión de Bluetooth', value: `V5.0` }, 
+          { name: 'Controles', value: `Reproducir/Pausar, Manos Libres y Asistente de voz` }, 
+          { name: 'Dimensiones', value: `32 x 23 x 23,4 mm` }, 
+          { name: 'Peso', value: `4 g (cada uno)` }, 
         ]
       },
       {
         title: 'Estuche',
         items: [
-          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
-          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
-          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
-          { name: 'Tiempo de Carga', value: `2h` }, // Tiempo de carga 
-          { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` }, // Dimension prod
-          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
-          { name: 'Peso', value: `38g` }, // Peso
-          { name: 'EAN', value: `7798111354145` }, // EAN
+          { name: 'Indicador de Carga', value: `Si` },
+          { name: 'Capacidad de Batería', value: `300mAh` },
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` },
+          { name: 'Entrada / Salida', value: 'DC 5V 500mAh / 150 mAh'},
+          { name: 'Tiempo de Carga', value: `2h` },  
+          { name: 'Tiempo en Stand-by', value: `4 meses` },
+          { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` },
+          { name: 'Peso', value: `38g` },
+        ]
+      },
+      {
+        title: 'Pack',
+        items: [
+          { name: 'Color', value: `Negro` }, 
+          { name: 'Dimensiones del paquete', value: `10 x 10 x 3,5 cm` }, 
+          { name: 'Peso', value: `110g` }, 
+          { name: 'EAN', value: `7798111354169` }, 
         ]
       },
     ],
@@ -7588,6 +7605,8 @@ export const products = [
       `/products/ATA-205B/img/1.webp`,
       `/products/ATA-205B/img/2.webp`,
       `/products/ATA-205B/img/3.webp`,
+      `/products/ATA-205B/img/4.webp`,
+      `/products/ATA-205B/img/5.webp`,
     ].map(e => fileserver + e),
     360: false,
     gen: "1º Generación",
@@ -7618,27 +7637,36 @@ export const products = [
       {
         title: 'Auricular',
         items: [
-          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
-          { name: 'Capacidad de Batería', value: `30mAh` }, // Batería
-          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
-          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
-          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
-          { name: 'Controles', value: `Reproducir/Pausar, Manos Libres y Asistente de voz` }, // Controles
-          { name: 'Dimensiones', value: `32 x 23 x 23,4 mm` }, // Dimension prod
-          { name: 'Peso', value: `4 g (cada uno)` }, // Peso
+          { name: 'Duración de Batería', value: `5h aprox.` }, 
+          { name: 'Capacidad de Batería', value: `30mAh` }, 
+          { name: 'Alcance de Bluetooth', value: `10m` }, 
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, 
+          { name: 'Versión de Bluetooth', value: `V5.0` }, 
+          { name: 'Controles', value: `Reproducir/Pausar, Manos Libres y Asistente de voz` }, 
+          { name: 'Dimensiones', value: `32 x 23 x 23,4 mm` }, 
+          { name: 'Peso', value: `4 g (cada uno)` }, 
         ]
       },
       {
         title: 'Estuche',
         items: [
-          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
-          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
-          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
-          { name: 'Tiempo de Carga', value: `2h` }, // Tiempo de carga 
-          { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` }, // Dimension prod
-          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
-          { name: 'Peso', value: `38g` }, // Peso
-          { name: 'EAN', value: `7798111354152` }, // EAN
+          { name: 'Indicador de Carga', value: `Si` },
+          { name: 'Capacidad de Batería', value: `300mAh` },
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` },
+          { name: 'Entrada / Salida', value: 'DC 5V 500mAh / 150 mAh'},
+          { name: 'Tiempo de Carga', value: `2h` },  
+          { name: 'Tiempo en Stand-by', value: `4 meses` },
+          { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` },
+          { name: 'Peso', value: `38g` },
+        ]
+      },
+      {
+        title: 'Pack',
+        items: [
+          { name: 'Color', value: `Blanco` }, 
+          { name: 'Dimensiones del paquete', value: `10 x 10 x 3,5 cm` }, 
+          { name: 'Peso', value: `110g` }, 
+          { name: 'EAN', value: `7798111354152` }, 
         ]
       },
     ],
@@ -7648,7 +7676,7 @@ export const products = [
       20, // USBC
       9, // Manual
     ],
-    downloads: `https://drive.google.com/drive/folders/1VVvRs6BlRtF3kKoIFIqXkvb4f9Za5W5t`,
+    downloads: `https://drive.google.com/drive/folders/1638KQqlDPwWhcGHtTbYGM9a0dWiJI2C1`,
     variants: ['ATA-205B', 'ATA-206B'],
     colors: ['ATA-205B', 'ATA-205N']
   },
@@ -7661,6 +7689,8 @@ export const products = [
       `/products/ATA-205N/img/1.webp`,
       `/products/ATA-205N/img/2.webp`,
       `/products/ATA-205N/img/3.webp`,
+      `/products/ATA-205N/img/4.webp`,
+      `/products/ATA-205N/img/5.webp`,
     ].map(e => fileserver + e),
     360: false,
     gen: "2º Generación",
@@ -7676,7 +7706,7 @@ export const products = [
     ],
     shortDesc: `Sumergite en tu música`,
     longDesc: "Su delicado diseño permite una verdadera experiencia de sonido envolvente. Gracias a sus almohadillas de silicona suaves y flexibles, el ajuste es personalizado y se adaptarán perfectamente a tu oído.",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -7691,27 +7721,36 @@ export const products = [
       {
         title: 'Auricular',
         items: [
-          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
-          { name: 'Capacidad de Batería', value: `30mAh` }, // Batería
-          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
-          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
-          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
-          { name: 'Controles', value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
-          { name: 'Dimensiones', value: `32 x 23 x 23,4 mm` }, // Dimension prod
-          { name: 'Peso', value: `4 g (cada uno)` }, // Peso
+          { name: 'Duración de Batería', value: `5h aprox.` }, 
+          { name: 'Capacidad de Batería', value: `30mAh` }, 
+          { name: 'Alcance de Bluetooth', value: `10m` }, 
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, 
+          { name: 'Versión de Bluetooth', value: `V5.0` }, 
+          { name: 'Controles', value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, 
+          { name: 'Dimensiones', value: `32 x 23 x 23,4 mm` }, 
+          { name: 'Peso', value: `4 g (cada uno)` }, 
         ]
       },
       {
         title: 'Estuche',
         items: [
-          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
-          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
-          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
-          { name: 'Tiempo de Carga', value: `2h` }, // Tiempo de carga 
-          { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` }, // Dimension prod
-          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
-          { name: 'Peso', value: `38g` }, // Peso
-          { name: 'EAN', value: `7798111354145` }, // EAN
+          { name: 'Indicador de Carga', value: `Si` },
+          { name: 'Capacidad de Batería', value: `300mAh` },
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` },
+          { name: 'Entrada / Salida', value: 'DC 5V 500mAh / 150 mAh'},
+          { name: 'Tiempo de Carga', value: `2h` },  
+          { name: 'Tiempo en Stand-by', value: `4 meses` },
+          { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` },
+          { name: 'Peso', value: `38g` },
+        ]
+      },
+      {
+        title: 'Pack',
+        items: [
+          { name: 'Color', value: `Negro` }, 
+          { name: 'Dimensiones del paquete', value: `10 x 10 x 3,5 cm` }, 
+          { name: 'Peso', value: `110g` }, 
+          { name: 'EAN', value: `7798111354497` }, 
         ]
       },
     ],
@@ -7721,7 +7760,7 @@ export const products = [
       6, // USBC
       9, // Manual
     ],
-    downloads: `https://drive.google.com/drive/folders/162INfmrVv8p8pPnueX_CPHcq941OLXmS`,
+    downloads: `https://drive.google.com/drive/folders/1ViUSBo9XZ3Ii7yrGtZ4Y5MadW7cBmBAB`,
     colors: ['ATA-206B', 'ATA-206N']
   },
   { // ATA-206B
@@ -7734,6 +7773,8 @@ export const products = [
       `/products/ATA-205B/img/1.webp`,
       `/products/ATA-205B/img/2.webp`,
       `/products/ATA-205B/img/3.webp`,
+      `/products/ATA-205B/img/4.webp`,
+      `/products/ATA-205B/img/5.webp`,
     ].map(e => fileserver + e),
     360: false,
     gen: "2º Generación",
@@ -7749,7 +7790,7 @@ export const products = [
     ],
     shortDesc: `Sumergite en tu música`,
     longDesc: "Su delicado diseño permite una verdadera experiencia de sonido envolvente. Gracias a sus almohadillas de silicona suaves y flexibles, el ajuste es personalizado y se adaptarán perfectamente a tu oído.",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -7764,27 +7805,36 @@ export const products = [
       {
         title: 'Auricular',
         items: [
-          { name: 'Duración de Batería', value: `5h aprox.` }, // Duración Batería 
-          { name: 'Capacidad de Batería', value: `30mAh` }, // Batería
-          { name: 'Alcance de Bluetooth', value: `10m` }, // Alcance BT
-          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, // Formatos BT
-          { name: 'Versión de Bluetooth', value: `V5.0` }, // Version BT
-          { name: 'Controles', value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
-          { name: 'Dimensiones', value: `32 x 23 x 23,4 mm` }, // Dimension prod
-          { name: 'Peso', value: `4 g (cada uno)` }, // Peso
+          { name: 'Duración de Batería', value: `5h aprox.` }, 
+          { name: 'Capacidad de Batería', value: `30mAh` }, 
+          { name: 'Alcance de Bluetooth', value: `10m` }, 
+          { name: 'Formatos de Bluetooth', value: `HSP / HFP / A2DP / AVRCP`}, 
+          { name: 'Versión de Bluetooth', value: `V5.0` }, 
+          { name: 'Controles', value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, 
+          { name: 'Dimensiones', value: `32 x 23 x 23,4 mm` }, 
+          { name: 'Peso', value: `4 g (cada uno)` }, 
         ]
       },
       {
         title: 'Estuche',
         items: [
-          { name: 'Indicador de Carga', value: `Si` }, // Indicador de carga
-          { name: 'Capacidad de Batería', value: `300mAh` }, // Batería
-          { name: 'Tipo de Batería', value: `Polímero de iones de litio` }, // Tipo de batería
-          { name: 'Tiempo de Carga', value: `2h` }, // Tiempo de carga 
-          { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` }, // Dimension prod
-          { name: 'Dimensiones del paquete', value: `80 x 80 x 40 mm` }, // Dimension caja
-          { name: 'Peso', value: `38g` }, // Peso
-          { name: 'EAN', value: `7798111354503` }, // EAN
+          { name: 'Indicador de Carga', value: `Si` },
+          { name: 'Capacidad de Batería', value: `300mAh` },
+          { name: 'Tipo de Batería', value: `Polímero de iones de litio` },
+          { name: 'Entrada / Salida', value: 'DC 5V 500mAh / 150 mAh'},
+          { name: 'Tiempo de Carga', value: `2h` },  
+          { name: 'Tiempo en Stand-by', value: `4 meses` },
+          { name: 'Dimensiones', value: `59,5 x 45,6 x 24,3 mm` },
+          { name: 'Peso', value: `38g` },
+        ]
+      },
+      {
+        title: 'Pack',
+        items: [
+          { name: 'Color', value: `Blanco` }, 
+          { name: 'Dimensiones del paquete', value: `10 x 10 x 3,5 cm` }, 
+          { name: 'Peso', value: `110g` }, 
+          { name: 'EAN', value: `7798111354503` }, 
         ]
       },
     ],
