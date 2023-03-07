@@ -5271,7 +5271,7 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `RA 4183955 E`,
+    certNo: `RA 4184359 E`,
     downloads: `https://drive.google.com/drive/folders/1J-Us5t2Ibxg-XO-EvggbG9Ks6KXUqYia`,
     variants: []
   },
@@ -5405,7 +5405,7 @@ export const products = [
       5, // Fuente
       9, // Manual
     ],
-    certNo: `RA 4183955 E`,
+    certNo: `RA 4184359 E`,
     downloads: `https://drive.google.com/drive/folders/1_RGkWGhk25SpmSqFyJgq56kcWI4O06EL`,
     variants: []
   },
