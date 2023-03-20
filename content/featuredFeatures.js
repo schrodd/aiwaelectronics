@@ -41,6 +41,8 @@ import reg from '../public/svg/reg.svg'
 import remote from '../public/svg/remote.svg'
 import running from '../public/svg/running.svg'
 import sd from '../public/svg/sd.svg'
+import ssd from '../public/svg/ssd.svg'
+import ssdlabel from '../public/svg/ssdlabel.svg'
 import soft from '../public/svg/soft.svg'
 import speaker from '../public/svg/speaker.svg'
 import speaker2 from '../public/svg/speaker2.svg'
@@ -230,6 +232,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   desc: 'Atendé llamadas o pausá canciones con un suave toque usando el botón Touch multifunción incorporado.' },
   { id: 52, name: 'Batería de larga duración', icon: batterybars,
   desc: 'Posee la autonomía suficiente para disfrutar tu música por horas' },
+  { id: 78, name: 'Carga rápida', icon: battery,
+  customDesc: e => `Carga su batería completamente en tan sólo ${e}.` },
   { id: 42, name: 'Plegable', icon: plegable,
   desc: '¡Llevalo a todas partes! Se puede plegar para caber en cualquier bolsillo.' },
   { id: 46, name: 'Manos libres', icon: micauris,
@@ -269,16 +273,20 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
 
   // Notebooks
 
-  { id: 60, name: 'Windows 10', icon: windows,
-  desc: 'Sistema Operativo Windows 10 incluido con licencia original.' },
-  { id: 61, name: 'Windows 11', icon: windows,
-  desc: '¡El nuevo Windows ya está aqui! Windows 11 incluido con licencia original. Aprovechá la mejora de rendimiento y funcionalidades que trae consigo.' },
+  { id: 60, name: 'Windows 10 Home', icon: windows,
+  desc: 'Sistema Operativo Windows 10 Home incluido con licencia original.' },
+  { id: 61, name: 'Windows 11 Home', icon: windows,
+  desc: '¡El nuevo Windows ya está aqui! Windows 11 Home incluido con licencia original. Aprovechá la mejora de rendimiento y funcionalidades que trae consigo.' },
   { id: 63, name: 'Procesador', icon: chip, // poca potencia, cloud y note 1413
   customDesc: proc => `Posee el modelo ${proc}, ideal para tareas de oficina y navegar por Internet.`},
   { id: 71, name: 'Procesador', icon: chip, // mas potente, 1431
   customDesc: proc => `Posee el modelo ${proc}, lo suficientemente potente para todas tus actividades.`},
   { id: 64, name: 'Memoria RAM', icon: ram,
   customDesc: gb => `Incluye ${gb} de RAM, más que suficiente para tus actividades diarias.`},
+  { id: 79, name: 'Almacenamiento', icon: ssd,
+  customDesc: gb => `Incluye ${gb} de memoria interna.`},
+  { id: 80, name: 'Batería de larga duración', icon: batterybars,
+  customDesc: hs => `Posee hasta ${hs} de autonomía (según el uso).`},
   { id: 65, name: 'Tamaño de pantalla', icon: reso,
   customDesc: ([pulg, reso]) => `Pantalla de ${pulg} con resolución de ${reso}.`},
   { id: 72, name: 'Puerto USBC', icon: usbc,
@@ -302,6 +310,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   customDesc: n => `Posee batería interna de hasta ${n} horas de duración.`},
   { id: 74, name: 'Teclado Español', icon: tecladoesp,
   desc: 'Posee teclado 100% en español.'},
+  { id: 81, name: 'Bluetooth', icon: bluetooth,
+  desc: 'Conectá todo tipo de dispositivos inalámbricos.' },
 ]
 
 export default featuredFeatures
