@@ -10347,7 +10347,7 @@ export const products = [
       { id: 62 }, // Camara frontal
       { id: 63, value: "Intel Celeron N3350 Dual-Core" }, // Procesador
       { id: 64, value: "4GB" }, // Memoria RAM
-      { id: 65, value: ['14"', "1366x768px"] }, // Pantalla
+      { id: 65, value: ['14.1"', "1366x768px"] }, // Pantalla
       { id: 66 }, // SD
       { id: 69, value: "HDMI Mini" }, // Salida monitor
       { id: 68, value: 2 }, // Puertos USB
@@ -10364,8 +10364,12 @@ export const products = [
       { id: 45, value: `64GB` }, // Almacenamiento
       { id: 46, value: `Frontal (0.3MP)` }, // Cámara
       { id: 36, value: `v4.0` }, // Versión BT
+      { id: 48, value: 'a/b/g/n/ac' }, // Wifi
+      { id: 49, value: '8Ω/1W x2' }, // Parlantes
+      { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, USB x2 (2.0 y 3.0), Auxiliar y Mini HDMI` }, // Entradas
       { id: 47, value: `Windows 10 Home` }, // Sistema operativo
+      { id: 51, value: 'Polímero de Litio 7.4V/5000mAh' }, // Bateria
       { id: 16, value: `32,8 x 21,7 x 2,2 cm` }, // Dimensiones
       { id: 18, value: `1,34Kg` }, // Peso
       { id: 19, value: `7798111353476` }, // EAN
@@ -10434,7 +10438,7 @@ export const products = [
       { id: 62 }, // Camara frontal
       { id: 63, value: "Intel Celeron N3350 Dual-Core" }, // Procesador
       { id: 64, value: "4GB" }, // Memoria RAM
-      { id: 65, value: ['14"', "1366x768px"] }, // Pantalla
+      { id: 65, value: ['14.1"', "1366x768px"] }, // Pantalla
       { id: 66 }, // SD
       { id: 69, value: "HDMI Mini" }, // Salida monitor
       { id: 67 }, // Funda
@@ -10451,8 +10455,12 @@ export const products = [
       { id: 45, value: `64GB` }, // Almacenamiento
       { id: 46, value: `Frontal (0.3MP)` }, // Cámara
       { id: 36, value: `v4.2` }, // Versión BT
+      { id: 48, value: 'a/b/g/n/ac' }, // Wifi
+      { id: 49, value: '8Ω/1W x2' }, // Parlantes
+      { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, USB x2 (2.0 y 3.0), Auxiliar y Mini HDMI` }, // Entradas
       { id: 47, value: `Windows 10 Home` }, // Sistema operativo
+      { id: 51, value: 'Polímero de Litio 7.4V/5000mAh' }, // Bateria
       { id: 16, value: `32,8 x 21,7 x 2,2 cm` }, // Dimensiones
       { id: 18, value: `1,34Kg` }, // Peso
       { id: 19, value: `7798111353759` }, // EAN
@@ -10522,7 +10530,7 @@ export const products = [
       { id: 62 }, // Camara frontal
       { id: 63, value: "Intel Celeron N4020 Dual-Core" }, // Procesador
       { id: 64, value: "4GB" }, // Memoria RAM
-      { id: 65, value: ['14"', "1366x768px"] }, // Pantalla
+      { id: 65, value: ['14.1"', "1366x768px"] }, // Pantalla
       { id: 66 }, // SD
       { id: 69, value: "HDMI Mini" }, // Salida monitor
       { id: 67 }, // Funda
@@ -10539,8 +10547,12 @@ export const products = [
       { id: 45, value: `SSD 128GB` }, // Almacenamiento
       { id: 46, value: `Frontal (0.3MP)` }, // Cámara
       { id: 36, value: `v4.2` }, // Versión BT
+      { id: 48, value: 'a/b/g/n/ac' }, // Wifi
+      { id: 49, value: '8Ω/1W x2' }, // Parlantes
+      { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, USB x2 (2.0 y 3.0), Auxiliar y Mini HDMI` }, // Entradas
       { id: 47, value: `Windows 11` }, // Sistema operativo
+      { id: 51, value: 'Polímero de Litio 7.4V/5000mAh' }, // Bateria
       { id: 16, value: `32,8 x 21,7 x 2,2 cm` }, // Dimensiones
       { id: 18, value: `1,34Kg` }, // Peso
       { id: 19, value: `7798111354589` }, // EAN
