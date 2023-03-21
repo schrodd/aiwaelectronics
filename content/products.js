@@ -10323,6 +10323,16 @@ export const products = [
         desc: `El almacenamiento local ha quedado en el pasado, almacená tus archivos en la nube y accedé a ellos fácilmente desde cualquier sitio.`,
       },
       {
+        title: `Más pantalla`,
+        img: fileserver + `/banners/pantalla-cloud.webp`,
+        desc: `Su pantalla posee bordes finos para que el contenido que te interesa esté más visible. Alta definición y millones de colores para que tengas una experiencia única.`,
+      },
+      {
+        title: `Cámara web`,
+        img: fileserver + `/banners/camara-cloud.webp`,
+        desc: `Podés tener reuniones de trabajo, ver clases online, hacer un meet con tus amigos y familiares, y mucho más.`,
+      },
+      {
         title: `¡Conectate!`,
         img: fileserver + `/banners/puertosca141.webp`,
         desc: `Posee 2 puertos USB, 1 puerto HDMI Mini, slot para tarjetas TF/MicroSD y puerto para auriculares 3.5mm (Audio y micrófono).`,
@@ -10393,6 +10403,16 @@ export const products = [
         title: `Accedé a la nube`,
         img: fileserver + `/banners/cloud.webp`,
         desc: `El almacenamiento local ha quedado en el pasado, almacená tus archivos en la nube y accedé a ellos fácilmente desde cualquier sitio.`,
+      },
+      {
+        title: `Más pantalla`,
+        img: fileserver + `/banners/pantalla-cloud.webp`,
+        desc: `Su pantalla posee bordes finos para que el contenido que te interesa esté más visible. Alta definición y millones de colores para que tengas una experiencia única.`,
+      },
+      {
+        title: `Cámara web`,
+        img: fileserver + `/banners/camara-cloud.webp`,
+        desc: `Podés tener reuniones de trabajo, ver clases online, hacer un meet con tus amigos y familiares, y mucho más.`,
       },
       {
         title: `¡Conectate!`,
@@ -10471,6 +10491,16 @@ export const products = [
         title: `Accedé a la nube`,
         img: fileserver + `/banners/cloud.webp`,
         desc: `El almacenamiento local ha quedado en el pasado, almacená tus archivos en la nube y accedé a ellos fácilmente desde cualquier sitio.`,
+      },
+      {
+        title: `Más pantalla`,
+        img: fileserver + `/banners/pantalla-cloud.webp`,
+        desc: `Su pantalla posee bordes finos para que el contenido que te interesa esté más visible. Alta definición y millones de colores para que tengas una experiencia única.`,
+      },
+      {
+        title: `Cámara web`,
+        img: fileserver + `/banners/camara-cloud.webp`,
+        desc: `Podés tener reuniones de trabajo, ver clases online, hacer un meet con tus amigos y familiares, y mucho más.`,
       },
       {
         title: `¡Conectate!`,
