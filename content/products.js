@@ -10364,7 +10364,7 @@ export const products = [
       { id: 45, value: `64GB` }, // Almacenamiento
       { id: 46, value: `Frontal (0.3MP)` }, // Cámara
       { id: 36, value: `v4.0` }, // Versión BT
-      { id: 48, value: 'a/b/g/n/ac' }, // Wifi
+      { id: 48, value: 'a/b/g/n/ac' }, // Wifi 
       { id: 49, value: '8Ω/1W x2' }, // Parlantes
       { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, USB x2 (2.0 y 3.0), Auxiliar y Mini HDMI` }, // Entradas
@@ -10376,7 +10376,7 @@ export const products = [
     ],
     featuresSections: false,
     includes: [
-      5, // Fuente de Alimentación
+      29, // Fuente de Alimentación
       9, // Manual y garantía
     ],
     certNo: `0Q-AR-01307-T-0`,
@@ -10468,7 +10468,7 @@ export const products = [
     featuresSections: false,
     includes: [
       24, // Funda de Neoprene
-      5, // Fuente de Alimentación
+      29, // Fuente de Alimentación
       9, // Manual y garantía
     ],
     certNo: `0Q-AR-01307-T-0`,
@@ -10560,7 +10560,7 @@ export const products = [
     featuresSections: false,
     includes: [
       24, // Funda de Neoprene
-      5, // Fuente de Alimentación
+      29, // Fuente de Alimentación
       9, // Manual y garantía
     ],
     certNo: `0Q-AR-01307-T-0`,
@@ -10608,13 +10608,13 @@ export const products = [
       { id: 63, value: "Intel Core i3 6157U" }, // Procesador
       { id: 64, value: "4GB" }, // Memoria RAM
       { id: 65, value: ['14"', "1920x1080"] }, // Pantalla
-      { id: 66 }, // SD
       { id: 69, value: "HDMI" }, // Salida monitor
       { id: 74 }, // Teclado Esp
       { id: 72 }, // USBC
-      { id: 73, value: 6 }, // Bateria
+      { id: 83, value: 'Posee batería de Polímero de Litio 11.4V / 3400mAh con hasta 4   horas de duración' }, // Bateria
+      { id: 79, value: "500 Gb" }, // Almacenamiento
       { id: 70 }, // Kensington
-      { id: 68, value: 2 }, // Puertos USB
+      { id: 82 }, // SD usb 
     ],
     features: [
       { id: 41, value: `14"` }, // Tamaño de pantalla
@@ -10623,6 +10623,10 @@ export const products = [
       { id: 44, value: `4GB` }, // Memoria RAM
       { id: 45, value: `500 GigaBytes (HDD)` }, // Almacenamiento
       { id: 46, value: `Frontal (0.3MP)` }, // Cámara
+      { id: 48, value: `a/b/g/n/ac+RJ45` }, // Wifi
+      { id: 49, value: `8R/1W*2` }, // Parlante
+      { id: 50, value: `Si` }, // Mic
+      { id: 52, value: `4 horas` }, // Tiempo de uso
       { id: 36, value: `v4.2` }, // Versión BT
       {
         id: 8,
@@ -10635,7 +10639,7 @@ export const products = [
     ],
     featuresSections: false,
     includes: [
-      5, // Fuente de Alimentación
+      29, // Fuente de Alimentación
       9, // Manual y garantía
     ],
     certNo: `0Q-AR-01307-T-0`,
@@ -10689,13 +10693,13 @@ export const products = [
       { id: 63, value: "Intel Core i3 1005G1" }, // Procesador
       { id: 64, value: "8GB" }, // Memoria RAM
       { id: 65, value: ['14"', "1920x1080"] }, // Pantalla
-      { id: 66 }, // SD
+      { id: 83, value: 'Posee batería de Polímero de Litio 11.4V / 3400mAh con hasta 4 horas de duración' }, // Bateria
       { id: 69, value: "HDMI" }, // Salida monitor
       { id: 67 }, // Funda
       { id: 72 }, // USBC
-      { id: 73, value: 6 }, // Bateria
+      { id: 79, value: "256 Gb (SSD)" }, // Almacenamiento
       { id: 70 }, // Kensington
-      { id: 68, value: 2 }, // Puertos USB
+      { id: 82 }, // SD usb 
     ],
     features: [
       { id: 41, value: `14"` }, // Tamaño de pantalla
@@ -10705,10 +10709,11 @@ export const products = [
       { id: 45, value: `256 GigaBytes (SSD)` }, // Almacenamiento
       { id: 46, value: `Frontal (0.3MP)` }, // Cámara
       { id: 36, value: `v4.2` }, // Versión BT
-      {
-        id: 8,
-        value: `TF card, USB 3,0x2 y tipo C, Auxiliar, Puerto de Red y HDMI`,
-      }, // Entradas
+      { id: 48, value: `a/b/g/n/ac+RJ45` }, // Wifi
+      { id: 49, value: `8R/1W*2` }, // Parlante
+      { id: 50, value: `Si` }, // Mic
+      { id: 52, value: `4 horas` }, // Tiempo de uso
+      { id: 8, value: `TF card, USB 3,0x2 y tipo C, Auxiliar, Puerto de Red y HDMI`}, // Entradas
       { id: 47, value: `Windows 10 Home` }, // Sistema operativo
       { id: 16, value: `37cm x 32 cm x 5,8cm` }, // Dimensiones
       { id: 18, value: `1,41Kg` }, // Peso
@@ -10717,7 +10722,7 @@ export const products = [
     featuresSections: false,
     includes: [
       24, // Funda
-      5, // Fuente de Alimentación
+      29, // Fuente de Alimentación
       9, // Manual y garantía
     ],
     certNo: `0Q-AR-01307-T-0`,

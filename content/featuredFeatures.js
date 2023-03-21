@@ -296,6 +296,9 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   { id: 66, name: 'Lector de Memoria', icon: sd,
     desc: '¡Expandí tus posibilidades! Posee lector de memorias SD para que puedas guardar tus archivos de la forma más cómoda.'
   },
+  { id: 82, name: 'USB + TF', icon: usbsd,
+    desc: '¡Expandí tus posibilidades! Posee lector de memorias SD y puertos USB.'
+  },
   { id: 69, name: 'Salida de video', icon: monitorext,
   customDesc: p => `Tiene puerto ${p}, conectá un segundo monitor y trabajá de forma mucho más eficiente.`},
   { id: 68, name: 'Puertos USB', icon: usb,
@@ -308,6 +311,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   desc: 'Usando este puerto podrás proteger tu Notebook de robos (candado Kensington no incluido).'},
   { id: 73, name: 'Batería', icon: battery,
   customDesc: n => `Posee batería interna de hasta ${n} horas de duración.`},
+  { id: 83, name: 'Batería', icon: battery,
+  customDesc: desc => desc },
   { id: 74, name: 'Teclado Español', icon: tecladoesp,
   desc: 'Posee teclado 100% en español.'},
   { id: 81, name: 'Bluetooth', icon: bluetooth,

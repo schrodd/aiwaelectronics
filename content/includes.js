@@ -31,7 +31,8 @@ const includes = [
   { id: 27, name: 'Estuche de carga', img: '/images/includes/case406n.jpg' }, // 406 Negro
 
   // Notebooks
-  { id: 24, name: 'Funda de Neoprene', img: '/images/includes/fundaneoprene.jpg',}
+  { id: 24, name: 'Funda de Neoprene', img: '/images/includes/fundaneoprene.jpg',},
+  { id: 29, name: 'Fuente de Alimentación*', img: '/images/includes/trafonote.jpg',}
 ]
 
 export default includes;

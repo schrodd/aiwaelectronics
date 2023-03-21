@@ -7,7 +7,12 @@ const features = [ // Características de productos ORDENADAS
   { id: 44, name: 'Memoria RAM'},
   { id: 45, name: 'Almacenamiento'},
   { id: 46, name: 'Cámara'},
+  { id: 48, name: 'Wifi'},
+  { id: 49, name: 'Parlantes'},
+  { id: 50, name: 'Micrófono'},
   { id: 47, name: 'Sistema Operativo'},
+  { id: 51, name: 'Batería'},
+  { id: 52, name: 'Tiempo de uso'},
 
   // Auriculares
   { id: 27, name: 'Controles' },
