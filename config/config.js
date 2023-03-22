@@ -1,0 +1,1 @@
+export const fileserver = `https://aiwaelectronics.com.ar/fileserver`
