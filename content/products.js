@@ -7258,6 +7258,16 @@ export const products = [
         desc: `Elegí si queres acompañar tu música con sus brillantes luces rgb, posee varios modos para que seleccionés el que va más con vos.`,
       },
       {
+        title: `Entrada para Micrófono`,
+        img: fileserver + `/banners/mic2016a.webp`,
+        desc: `Sumá un micrófono y disfrutá con tus amigos bailando y cantando toda la noche.`,
+      },
+      {
+        title: `Controlá todo`,
+        img: fileserver + `/banners/reg2016a.webp`,
+        desc: `Posee una gran cantidad de reguladores para que tu música suene exactamente como esperás.`,
+      },
+      {
         title: `True Wireless Stereo`,
         img: fileserver + `/banners/tws2016.webp`,
         desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!`,
@@ -7340,17 +7350,12 @@ export const products = [
       {
         // Potencia
         id: 2,
-        value: "5000 PMPO",
+        value: "5000W PMPO",
       },
       {
         // Batería
         id: 10,
         value: "Interna Recargable 7,4v / 2400mAh",
-      },
-      {
-        // Funciones
-        id: 13,
-        value: "Bluetooth, TWS",
       },
       {
         // Reguladores
@@ -7368,11 +7373,6 @@ export const products = [
         value: "De luces RGB",
       },
       {
-        // Otras características
-        id: 15,
-        value: "Empuñadura de transporte, Mobile Holder",
-      },
-      {
         // Medidas del producto
         id: 16,
         value: "24 x 29.5 x 23 cm",
@@ -7382,10 +7382,16 @@ export const products = [
         id: 17,
         value: "28.6 x 37.6 x 27.6 cm",
       },
+      { id: 18, value: "3 kg" }, // Peso
+      { id: 54, value: "Bluetooth 5.0" }, // Bluetooth
+      { id: 53, value: "Si" }, // Funcion
+      { id: 55, value: "Si" }, // Peso
+      { id: 56, value: "Si" }, // Emp de Transp
+      { id: 6, value: "Si, LED" }, // Mobile Holder
       {
         // EAN
         id: 19,
-        value: "7798111354688",
+        value: "7798111354701",
       },
     ],
     includes: [
@@ -7423,6 +7429,16 @@ export const products = [
         title: `Efectos de Luces`,
         img: fileserver + `/banners/luces2016.webp`,
         desc: `Elegí si queres acompañar tu música con sus brillantes luces rgb, posee varios modos para que seleccionés el que va más con vos.`,
+      },
+      {
+        title: `Entrada para Micrófono`,
+        img: fileserver + `/banners/mic2016b.webp`,
+        desc: `Sumá un micrófono y disfrutá con tus amigos bailando y cantando toda la noche.`,
+      },
+      {
+        title: `Controlá todo`,
+        img: fileserver + `/banners/reg2016b.webp`,
+        desc: `Posee una gran cantidad de reguladores para que tu música suene exactamente como esperás.`,
       },
       {
         title: `True Wireless Stereo`,
@@ -7507,17 +7523,12 @@ export const products = [
       {
         // Potencia
         id: 2,
-        value: "5000 PMPO",
+        value: "5000W PMPO",
       },
       {
         // Batería
         id: 10,
         value: "Interna Recargable 7,4v / 2400mAh",
-      },
-      {
-        // Funciones
-        id: 13,
-        value: "Bluetooth, TWS",
       },
       {
         // Reguladores
@@ -7535,11 +7546,6 @@ export const products = [
         value: "De luces RGB",
       },
       {
-        // Otras características
-        id: 15,
-        value: "Empuñadura de transporte, Mobile Holder",
-      },
-      {
         // Medidas del producto
         id: 16,
         value: "24 x 29.5 x 23 cm",
@@ -7549,10 +7555,16 @@ export const products = [
         id: 17,
         value: "28.6 x 37.6 x 27.6 cm",
       },
+      { id: 18, value: "3 kg" }, // Peso
+      { id: 54, value: "Bluetooth 5.0" }, // Bluetooth
+      { id: 53, value: "Si" }, // Funcion
+      { id: 55, value: "Si" }, // Peso
+      { id: 56, value: "Si" }, // Emp de Transp
+      { id: 6, value: "Si, LED" }, // Mobile Holder
       {
         // EAN
         id: 19,
-        value: "7798111354688",
+        value: "7798111354718",
       },
     ],
     includes: [
@@ -10593,6 +10605,21 @@ export const products = [
         desc: `Peso ligero y medidas compactas permiten un uso práctico y un transporte sencillo. Podés disfrutar de pelis estés donde estés, o participar de tus reuniones de trabajo con todos tus archivos a tu alcance.`,
       },
       {
+        title: `+Potencia, +Memoria`,
+        img: fileserver + `/banners/proce1413.webp`,
+        desc: `Posee la potencia suficiente para tus tareas diarias ¡y más! Almacená miles de fotos, videos, audios y documentos.`,
+      },
+      {
+        title: `Más pantalla`,
+        img: fileserver + `/banners/pantalla-note.webp`,
+        desc: `Su pantalla posee bordes finos para que el contenido que te interesa esté más visible. Alta definición y millones de colores para que tengas una experiencia única.`,
+      },
+      {
+        title: `Cámara web`,
+        img: fileserver + `/banners/camaranote.webp`,
+        desc: `Podés tener reuniones de trabajo, ver clases online, hacer un meet con tus amigos y familiares, y mucho más.`,
+      },
+      {
         title: `¡Conectate!`,
         img: fileserver + `/banners/puertosna1431.webp`,
         desc: `Posee 3 puertos USB (2 tipo A, 1 tipo C), 1 puerto HDMI, slot para tarjetas TF/MicroSD, 1 puerto de red Ethernet, ranura para candados Kensington y puerto para auriculares 3.5mm (Audio y micrófono).`,
@@ -10617,7 +10644,7 @@ export const products = [
       { id: 82 }, // SD usb 
     ],
     features: [
-      { id: 41, value: `14"` }, // Tamaño de pantalla
+      { id: 41, value: `14.1"` }, // Tamaño de pantalla
       { id: 42, value: `1920*1080` }, // Resolucion
       { id: 43, value: `Intel Core i3 - 6157U (2.4GHz)` }, // Procesador
       { id: 44, value: `4GB` }, // Memoria RAM
@@ -10673,6 +10700,21 @@ export const products = [
         desc: `Posee 3 puertos USB (2 tipo A, 1 tipo C), 1 puerto HDMI, slot para tarjetas TF/MicroSD, 1 puerto de red Ethernet, ranura para candados Kensington y puerto para auriculares 3.5mm (Audio y micrófono).`,
       },
       {
+        title: `+Potencia, +Memoria`,
+        img: fileserver + `/banners/proce1431.webp`,
+        desc: `Posee la potencia suficiente para tus tareas diarias ¡y más! Almacená miles de fotos, videos, audios y documentos.`,
+      },
+      {
+        title: `Más pantalla`,
+        img: fileserver + `/banners/pantalla-note.webp`,
+        desc: `Su pantalla posee bordes finos para que el contenido que te interesa esté más visible. Alta definición y millones de colores para que tengas una experiencia única.`,
+      },
+      {
+        title: `Cámara web`,
+        img: fileserver + `/banners/camaranote.webp`,
+        desc: `Podés tener reuniones de trabajo, ver clases online, hacer un meet con tus amigos y familiares, y mucho más.`,
+      },
+      {
         title: "Potencia de sobra",
         img: fileserver + "/banners/poderna1431.webp",
         desc: "Está equipada con hardware de última generación. Instalá y usá tus programas preferidos sin inconvenientes.",
@@ -10702,7 +10744,7 @@ export const products = [
       { id: 82 }, // SD usb 
     ],
     features: [
-      { id: 41, value: `14"` }, // Tamaño de pantalla
+      { id: 41, value: `14.1"` }, // Tamaño de pantalla
       { id: 42, value: `1920*1080` }, // Resolucion
       { id: 43, value: `Intel Core i3 1005G1 10th Gen. 3.4GHz` }, // Procesador
       { id: 44, value: `8GB` }, // Memoria RAM
