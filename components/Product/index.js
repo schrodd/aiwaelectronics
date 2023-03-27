@@ -8,13 +8,13 @@ export default function Product({product, index}){
   return (
     <div className={classes}>
       <figure className='image'>
-        <Image width='500' height='500' src={product.imgs[0]} alt={product.name} placeholder='blur' blurDataURL='/ph.png' priority/>
+        <Image src={product.imgs[0]} alt={product.name} placeholder='blur' blurDataURL='/ph.png' priority fill/>
       </figure>
       <div className='text'>
-        <div className='line-image-wrapper'>
+        { linea && <div className='line-image-wrapper'>
           <Image src={linea.logo} alt={`Logo línea ${linea.name}`} layout='fill' objectFit='contain' 
           objectPosition={index % 2 === 0 ? 'right' : 'left'}/>
-        </div>
+        </div> }
         <p className='sku'>{product.sku}</p>
         <h3>{product.shortDesc}</h3>
         <h4>{product.longDesc}</h4>

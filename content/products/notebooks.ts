@@ -6,7 +6,7 @@ export const notebooks: Product[] = [
     name: `Cloudbook Dual-core 4GB RAM Win 10`,
     sku: `CA-141`,
     link: `/productos/CA-141`,
-    categories: [103],
+    categories: [107],
     imgs: [
       `/products/CA-141/img/1.webp`,
       // `/products/CA-141/img/2.webp`,
@@ -89,7 +89,7 @@ export const notebooks: Product[] = [
     name: `Cloudbook Dual-core 4GB RAM Win 10 + Funda`,
     sku: `CA141-CO`,
     link: `/productos/CA141-CO`,
-    categories: [103],
+    categories: [107],
     imgs: [
       `/products/CA141-CO/img/1.webp`,
       // `/products/CA141-CO/img/2.webp`,
@@ -179,7 +179,7 @@ export const notebooks: Product[] = [
     name: `Cloudbook Dual-core 4GB RAM Win 11 + Funda`,
     sku: `CA141-C`,
     link: `/productos/CA141-C`,
-    categories: [103],
+    categories: [107],
     imgs: [
       `/products/CA141-C/img/1.webp`,
       // `/products/CA141-C/img/2.webp`,
@@ -268,7 +268,7 @@ export const notebooks: Product[] = [
     name: `Notebook Core i3 4GB RAM Win 10`,
     sku: `NA-1413`,
     link: `/productos/NA-1413`,
-    categories: [103],
+    categories: [107],
     imgs: [
       `/products/NA-1413/img/1.webp`,
       `/products/NA-1413/img/2.webp`,
@@ -361,7 +361,7 @@ export const notebooks: Product[] = [
     name: `Notebook Core i3 8GB RAM Win 10`,
     sku: `NA-1431`,
     link: `/productos/NA-1431`,
-    categories: [103],
+    categories: [107],
     imgs: [
       `/products/NA-1431/img/1.webp`,
       `/products/NA-1431/img/2.webp`,
@@ -410,7 +410,7 @@ export const notebooks: Product[] = [
     shortDesc: `La velocidad que necesitás`,
     longDesc:
       "Con novedoso hardware que posibilita que tu flujo de trabajo tenga la rapidez y fluidez dignas de un profesional digital.",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       { id: 60 }, // Windows
       { id: 62 }, // Camara frontal

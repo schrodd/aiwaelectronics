@@ -12,10 +12,10 @@ const menus = [
         name: 'Torres de sonido',
         link: '/categorias/torres-de-sonido'
       },
-      {
+      /* {
         name: 'Portable',
         link: '/categorias/portable'
-      }
+      } */
     ]
   },
   {
@@ -42,18 +42,18 @@ const menus = [
         name: 'Notebooks',
         link: '/categorias/notebooks'
       },
-      {
+      /* {
         name: 'Tablets',
         link: '/categorias/tablets'
-      }
+      } */
     ]
   },
-  {
+  /* {
     name: 'Televisores',
     id: 4,
     isPopup: false,
     link: '/categorias/tv'
-  },
+  }, */
   {
     name: 'Gaming',
     id: 5,

@@ -25,7 +25,7 @@ const mainBanners = [
       valign: 'center', // center (default) | top | bottom - affects both pc and mobile
     } 
   },
-  {
+  /* {
     img: '/banners/ring.jpg',
     mobileImg: '/banners/ring-m.jpg',
     link: '/categorias',
@@ -37,7 +37,7 @@ const mainBanners = [
       align: 'left', // horizontal - center (default) | right | left - affects pc only
       valign: 'center', // vertical - center (default) | top | bottom - affects both pc and mobile
     } 
-  },
+  }, */
 ]
 
 export default mainBanners

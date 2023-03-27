@@ -12,7 +12,7 @@ export default function Category(){
   const { cat } = url.query
   const category = lvTwoCat.find(e => e.route === `/categorias/${cat}`)
   if (category === undefined) {return <NotFound desc={`No se ha encontrado la categoría "${cat}"`}/>}
-  const prod = products.filter(e => e.categories.includes(category.id))
+  const prod = products.filter(e => e.categories.includes(category.id) && e.buyLink)
   const categoryObj = { // Formatea la data para el componente MainBanner
     img: category.img,
     mobileImg: category.mobileImg,
