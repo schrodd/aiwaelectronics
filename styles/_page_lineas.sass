@@ -4,33 +4,86 @@ main.linea
   section.line-banner
     position: relative
     width: 100%
-    min-height: 300px
+    min-height: 350px
+    @include flex(column)
+    @include mobile
+      min-height: 650px
+      justify-content: flex-start
+      padding-top: 50px
+    .logo
+      position: relative
+      width: 220px
+      height: 120px
+      margin-bottom: 10px
+      img
+        object-fit: contain
+    .logo, h3
+      z-index: 1
+      color: white
+    h3
+      font-size: 22px
+      font-weight: 300
     img
       object-fit: cover
   section.line-products
-    padding: 50px 0
-    @include flex(row, center, center)
+    position: relative
     flex-wrap: wrap
     gap: 30px
+    @include flex(row, center, center)
+    @include pc
+      padding: 50px 10%
+    @include mobile
+      background-size: 120%
+      flex-direction: column
+    div.section-bg
+      position: absolute
+      width: 100%
+      height: 100%
+      z-index: -1
+      img
+        object-fit: cover
+        filter: blur(5px)
+        transform: scale(1.1)
     div.line-product
-      max-width: 30%
-      @include flex(column)
       text-align: center
-      background: rgba(0,0,0,.55)
       border-radius: 10px
       color: white
-      padding: 20px
+      padding: 30px
       overflow: visible
+      position: relative
+      filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, .5))
+      @include flex(column)
+      @include pc
+        max-width: 30%
+      div.bg
+        position: absolute
+        width: 100%
+        height: 55%
+        bottom: 55px
+        background: rgba(0,0,0,.55)
+        border-radius: 10px
       p
         margin-bottom: 10px
+        z-index: 1
       p.sku
         font-size: 14px
+        padding: 10px
+        width: 50%
+        border-bottom: 2px solid $alt
       p.title
         font-size: 28px
+        padding: 5px
+      p.desc
+        font-size: 14px
+      a.button
+        @include btn($altDeg, white)
+        border-radius: 5px
+        z-index: 1
+        padding: 8px 25px
       div.image
         position: relative
         width: 100%
-        height: 400px
+        height: 350px
         img
-          object-fit: cover
+          object-fit: contain
           overflow: visible

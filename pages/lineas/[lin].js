@@ -1,4 +1,4 @@
-import Image from "next/legacy/image"
+import Image from "next/image"
 import { useRouter } from "next/router"
 import MainBanner from '../../components/MainBanner'
 import Product from "../../components/Product"
@@ -14,9 +14,8 @@ export default function Lines(){
   const { lin } = url.query
   const linea = lineas.find(e => e.link === `/lineas/${lin}`)
   if (linea === undefined) {return <NotFound desc={`No se ha encontrado la línea "${lin}"`}/>}
-  const prod = products.filter(e => e.line === (linea.name))
+  const prod = products.filter(e => e.line === (linea.name) && e.buyLink)
 
-  
   return (
     <>
       <Head>
@@ -26,6 +25,9 @@ export default function Lines(){
         <LineBanner line={linea}/>
         <section className='line-products'>
           {prod.map((e,i) => <LineProductCard prod={e} key={i}/>)}
+          <div className="section-bg">
+            <Image src={linea.background} fill/>
+          </div>
         </section>
       </main>
     </>

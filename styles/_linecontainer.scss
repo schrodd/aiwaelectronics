@@ -3,8 +3,6 @@
 section.lines {
   @include flex;
   flex-wrap: wrap;
-  background: black;
-  
   .line-container {
     @include flex(column, flex-start, center);
     box-shadow: inset 0px 0px 15px rgb(0 0 0 / 60%);
@@ -15,41 +13,32 @@ section.lines {
     min-width: 50%;
     max-width: 100%;
     flex-grow: 1;
-    transition: all 1s ease;
-
-    &:hover {
-      background-size: 110%;
+    position: relative;
+    overflow: hidden;
+    &:hover > img.bg {
+      transform: scale(1.1);
     }
-
     @include mobile {
       min-width: 100%;
     }
-
+    img.bg {
+      object-fit: cover;
+      z-index: -1;
+      transition: all 1s ease;
+    }
     button {
       @include btn(rgba(0,0,0,.5), white);
       border: 1px solid white;
     }
-
     .line-image-wrapper {
-      width: 300px;
-      height: 100px;
+      width: 220px;
+      height: 120px;
       position: relative;
       margin-top: 50px;
       margin-bottom: 10px;
-    }
-
-    // Backgrounds
-    &.flama {
-      background-image: url('/lineas/flama/bg.png');
-    }
-    &.ring {
-      background-image: url('/lineas/ring/bg.png');
-    }
-    &.infinit {
-      background-image: url('/lineas/infinit/bg.png');
-    }
-    &.party {
-      background-image: url('/lineas/party/bg.jpg');
+      img {
+        object-fit: contain;
+      }
     }
   }
 }
