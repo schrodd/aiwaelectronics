@@ -1,0 +1,25 @@
+@import 'variables'
+
+section.swiper-categorias
+  section.line-swiper
+    background: $whiteDeg
+    padding: 0 60px
+    height: 400px
+    div.product
+      @include flex
+      width: 51vw
+      div.left
+        max-width: 300px
+        p
+          text-align: right
+          margin: 10px
+        p.sku
+          font-weight: bold
+        p.title
+          font-size: 25px
+      div.right
+        position: relative
+        height: 400px
+        width: 300px
+        img
+          object-fit: contain
