@@ -37,7 +37,7 @@ export default function Footer(){
               <li key={i}>
                 <button onClick={() => toggleMenu(e.id) }>{e.name}</button>
                 <ul className={`lv-two id${e.id}`}>
-                  {lvTwoCat.filter(f => f.parent == e.id).map((g,i) => (
+                  {lvTwoCat.filter(f => f.parent == e.id && !f.hidden).map((g,i) => (
                     <li key={i}>
                       <Link href={g.route}>{g.name}</Link>
                     </li>

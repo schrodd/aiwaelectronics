@@ -22,7 +22,8 @@ export const lvOneCat = [
   {
     name: 'Hogar',
     id: 3,
-    route: '/categorias/hogar'
+    route: '/categorias/hogar',
+    hidden: true,
   },
   {
     name: 'Discontinuos',
@@ -83,7 +84,7 @@ export const lvTwoCat = [
     id: 105,
     parent: 1,
     route: '/categorias/portable',
-    hidden: false,
+    hidden: true,
     cover: '/images/categories/cover/portable.png',
     img: '/images/categories/banner/parlantes.jpg',
     mobileImg: '/images/categories/banner/parlantes.jpg'
@@ -94,7 +95,7 @@ export const lvTwoCat = [
     id: 106,
     parent: 2,
     route: '/categorias/tablets',
-    hidden: false,
+    hidden: true,
     cover: '/images/categories/cover/tablets.png',
     img: '/images/categories/banner/parlantes.jpg',
     mobileImg: '/images/categories/banner/parlantes.jpg'

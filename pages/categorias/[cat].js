@@ -1,23 +1,23 @@
-import { useRouter } from "next/router";
-import MainBanner from "../../components/MainBanner";
-import { lvTwoCat } from "../../content/categories";
-import { products } from "../../content/products";
-import NotFound from "../../components/NotFound";
-import Head from "next/head";
-import CategoryLineSwiper from "../../components/CategoryLineSwiper";
-import CategorySwiper from "../../components/CategorySwiper";
-import { productGroups } from "../../content/products/groups";
+import { useRouter } from "next/router"
+import MainBanner from "../../components/MainBanner"
+import { lvTwoCat } from "../../content/categories"
+import { products } from "../../content/products"
+import NotFound from "../../components/NotFound"
+import Head from "next/head"
+import CategoryLineSwiper from "../../components/CategoryLineSwiper"
+import CategorySwiper from "../../components/CategorySwiper"
+import { productGroups } from "../../content/products/groups"
 
 export default function Category() {
-  const url = useRouter();
-  const { cat } = url.query;
-  const category = lvTwoCat.find((e) => e.route === `/categorias/${cat}`);
+  const url = useRouter()
+  const { cat } = url.query
+  const category = lvTwoCat.find((e) => e.route === `/categorias/${cat}`)
   if (category === undefined) {
-    return <NotFound desc={`No se ha encontrado la categoría "${cat}"`} />;
+    return <NotFound desc={`No se ha encontrado la categoría "${cat}"`} />
   }
   const prod = products.filter(
     (e) => e.categories.includes(category.id) && e.buyLink
-  );
+  )
   const categoryObj = {
     // Formatea la data para el componente MainBanner
     img: category.img,
@@ -31,9 +31,9 @@ export default function Category() {
       align: "left",
       valign: "center",
     },
-  };
+  }
   function selectGroup(cat, groups) {
-    switch (cat){
+    switch (cat) {
       case 'in-ear':
         return groups.in_ear
       case 'on-ear':
@@ -51,7 +51,7 @@ export default function Category() {
       }
     })
   } else {
-    console.log("no lines");
+    console.log("no lines")
   }
 
   return (
@@ -62,15 +62,15 @@ export default function Category() {
       <main id={`categorias ${cat}`}>
         <MainBanner banner={categoryObj} />
         <section className="swiper-categorias">
-          {lineArr.length > 0 
-          ? lineArr.map((e,i) => {
-            const prods = prod.filter(f => e == f.line)
-            return <CategoryLineSwiper products={prods} key={i}/>
-          })
-          : <CategorySwiper skus={selectGroup(cat, productGroups)}/>
-        }
+          {lineArr.length > 0
+            ? lineArr.map((e, i) => {
+              const prods = prod.filter(f => e == f.line)
+              return <CategoryLineSwiper products={prods} key={i} />
+            })
+            : <CategorySwiper skus={selectGroup(cat, productGroups)} />
+          }
         </section>
       </main>
     </>
-  );
+  )
 }
