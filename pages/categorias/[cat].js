@@ -5,6 +5,8 @@ import { products } from "../../content/products";
 import NotFound from "../../components/NotFound";
 import Head from "next/head";
 import CategoryLineSwiper from "../../components/CategoryLineSwiper";
+import CategorySwiper from "../../components/CategorySwiper";
+import { productGroups } from "../../content/products/groups";
 
 export default function Category() {
   const url = useRouter();
@@ -30,11 +32,20 @@ export default function Category() {
       valign: "center",
     },
   };
+  function selectGroup(cat, groups) {
+    switch (cat){
+      case 'in-ear':
+        return groups.in_ear
+      case 'on-ear':
+        return groups.on_ear
+      case 'notebooks':
+        return groups.notebooks
+    }
+  }
   let lineArr = []
   if (prod.every(e => e.line)) { // If all products have line assigned
     prod.forEach(e => {
       const line = lineArr.find(f => f == e.line)
-      console.log(line)
       if (!line) {
         lineArr.push(e.line)
       }
@@ -51,10 +62,13 @@ export default function Category() {
       <main id={`categorias ${cat}`}>
         <MainBanner banner={categoryObj} />
         <section className="swiper-categorias">
-          {lineArr && lineArr.map((e,i) => {
+          {lineArr.length > 0 
+          ? lineArr.map((e,i) => {
             const prods = prod.filter(f => e == f.line)
             return <CategoryLineSwiper products={prods} key={i}/>
-          })}
+          })
+          : <CategorySwiper skus={selectGroup(cat, productGroups)}/>
+        }
         </section>
       </main>
     </>

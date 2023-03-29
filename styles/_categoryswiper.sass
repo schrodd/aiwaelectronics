@@ -1,0 +1,42 @@
+@import 'variables'
+
+section.swiper-categorias
+  section.cat-product-swiper
+    --swiper-theme-color: grey
+    --swiper-pagination-bullet-inactive-color: grey
+    background: $whiteDeg
+    div.main-banner-slide
+      &.dark
+        background: $mainDeg
+        & div.product
+          div.left
+            a
+              @include btn(transparent, white, 1px solid white)
+              margin-right: 0
+          & *
+            color: white
+      div.product
+        @include flex
+        filter: drop-shadow(0px 5px 25px rgba(0, 0, 0, .2))
+        div.left
+          @include flex(column, center, flex-end)
+          max-width: 38%
+          margin-right: 50px
+          & *
+            margin-bottom: 10px
+            text-align: right
+            // color: white
+          p.title
+            font-size: 32px
+          a
+            @include btn(transparent, $main, 1px solid $main)
+            color: inherit
+            margin-right: 0px
+        div.right
+          position: relative
+          height: 500px
+          width: 500px
+          img
+            overflow: visible
+            object-fit: cover
+  

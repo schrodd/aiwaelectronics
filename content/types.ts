@@ -42,11 +42,11 @@ export interface Product {
   banners: Banner[];
   shortDesc: string;
   longDesc: string;
-  buyLink: string;
   featuredFeatures: FeatureIcon[];
   includes: number[];
   downloads: string;
   features: Feature[];
+  buyLink?: string;
   featuresSections?: Section[]; // If present, pls leave features: []
   line?: string;
   variants?: string[];

@@ -2286,7 +2286,7 @@ export const infinit: Product[] = [
     sku: `AW-P2016A`,
     link: `/productos/AW-P2016A`,
     line: `infinit`,
-    categories: [102],
+    categories: [101],
     imgs: [
       `/products/AW-P2016A/img/1.webp`,
       `/products/AW-P2016A/img/2.webp`,
@@ -2332,7 +2332,7 @@ export const infinit: Product[] = [
     shortDesc: `Sonido compacto`,
     longDesc:
       "Imprescindible para tus salidas al aire libre. Altamente portátil, y ofrece un sonido fuerte e impecable. Sus luces RGB son la mejor compañía para cualquier canción.",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       {
         // Potencia
@@ -2459,7 +2459,7 @@ export const infinit: Product[] = [
     sku: `AW-P2016B`,
     link: `/productos/AW-P2016B`,
     line: `infinit`,
-    categories: [102],
+    categories: [101],
     imgs: [
       `/products/AW-P2016B/img/1.webp`,
       `/products/AW-P2016B/img/2.webp`,
@@ -2505,7 +2505,7 @@ export const infinit: Product[] = [
     shortDesc: `Sonido compacto`,
     longDesc:
       "Imprescindible para tus salidas al aire libre. Altamente portátil, y ofrece un sonido fuerte e impecable. Sus luces RGB son la mejor compañía para cualquier canción.",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       {
         // Potencia

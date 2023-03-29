@@ -1,25 +1,76 @@
 @import 'variables'
 
 section.swiper-categorias
+  border-top: $divider
   section.line-swiper
-    background: $whiteDeg
-    padding: 0 60px
+    position: relative
     height: 400px
-    div.product
-      @include flex
-      width: 51vw
-      div.left
-        max-width: 300px
-        p
-          text-align: right
-          margin: 10px
-        p.sku
-          font-weight: bold
-        p.title
-          font-size: 25px
-      div.right
-        position: relative
-        height: 400px
-        width: 300px
-        img
-          object-fit: contain
+    @include mobile
+      height: auto
+    &:hover > img.line-background
+      transform: scale(1.2)
+    img.line-background
+      object-fit: cover
+      z-index: -1
+      filter: blur(3px) brightness(.8)
+      transform: scale(1.03)
+      transition: all 1s ease-out
+    div.main-banner-slide
+      div.product
+        @include flex
+        @include pc
+          width: 51vw
+          &:hover
+            transform: scale(1.05)
+        @include mobile
+          flex-direction: column
+          padding: 30px 20px
+        transition: all 1s ease-out
+        filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, .5))
+        div.left
+          @include flex(column, center, flex-end)
+          @include mobile
+            order: 1
+            max-width: 100vw
+            align-items: center
+          @include pc
+            max-width: 40%
+            margin-right: 20px
+          a 
+            @include btn(transparent, white, 1px solid white)
+            margin-right: 0px
+          div.line-logo-wrapper
+            position: relative
+            width: 150px
+            height: 50px
+            margin-bottom: 15px
+            filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.3))
+            img
+              overflow: visible
+              object-fit: contain
+              @include pc
+                object-position: right
+          p
+            @include pc
+              text-align: right
+            @include mobile
+              text-align: center
+            color: white
+          p.sku
+            font-weight: bold
+            font-size: 14px
+          p.title
+            margin: 10px 0
+            font-size: 25px
+          p.desc
+            font-size: 15px
+            margin-bottom: 10px
+        div.right
+          position: relative
+          height: 400px
+          width: 250px
+          img
+            object-fit: contain
+            transform: scale(1.35)
+            &[hor='true']
+              transform: scale(1.2)

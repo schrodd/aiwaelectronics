@@ -18,6 +18,7 @@ export const notebooks: Product[] = [
     ].map((e) => fileserver + e),
     360: true,
     gen: "1º Generación",
+    altBackground: true,
     banners: [
       {
         title: `Accedé a la nube`,
@@ -102,6 +103,7 @@ export const notebooks: Product[] = [
     ].map((e) => fileserver + e),
     360: true,
     gen: "2º Generación",
+    altBackground: true,
     banners: [
       {
         title: `Accedé a la nube`,
@@ -192,6 +194,7 @@ export const notebooks: Product[] = [
     ].map((e) => fileserver + e),
     360: true,
     gen: "3º Generación",
+    altBackground: true,
     banners: [
       {
         title: `Accedé a la nube`,
