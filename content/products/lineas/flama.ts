@@ -47,7 +47,7 @@ export const flama: Product[] = [
     ],
     shortDesc: `Llevate fuego`,
     longDesc:
-      "Su práctico tamaño te permitirá llevar el fuego y la diversión a todas partes.",
+      "Su práctico tamaño te permitirá llevar el fuego y la diversión a todas partes ¡Que el tamaño no te engañe! posee 6500W PMPO de puro poder.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/209-parlante-bluetooth-portatil-serie-flama-6500w.html`,
     featuredFeatures: [
       {
@@ -637,7 +637,7 @@ export const flama: Product[] = [
     ],
     shortDesc: `Diversión al máximo`,
     longDesc:
-      "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta.",
+      "Efectos de luz que van a llamar la atención de todos tus amigos. Llevá con vos esta torre y serás el alma de la fiesta. Prendé el karaoke y animá cualquier celebración.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/103-parlante-torre-bluetooth-portatil-flama-luces-aiwa-aw-t806f-7798111353995.html`,
     featuredFeatures: [
       {

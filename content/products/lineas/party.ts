@@ -1638,7 +1638,7 @@ export const party: Product[] = [
     ],
     shortDesc: `La potencia que estabas esperando`,
     longDesc:
-      "Esta torre fue diseñada para lograr la mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
+      "La mejor relación entre potencia y tamaño. Liviana, y de fácil uso, sus múltiples modos de conexión la convierten en una opción muy práctica cuando se trata de poner ritmo y alegría a tus fiestas.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/257-parlante-portatil-torre-bluetooth-aiwa-aw-t451d-sn.html`,
     featuredFeatures: [
       {
@@ -3628,7 +3628,7 @@ export const party: Product[] = [
     ],
     shortDesc: `Show luminoso`,
     longDesc:
-      "Cautivá a tus invitados con variados y coloridos efectos de Luz durante toda la noche.",
+      "Cautivá a tus invitados con variados y coloridos efectos de Luz durante toda la noche. Reproducí lo que sea, sin parar, por horas.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/254-parlante-torre-bluetooth-power-bank-aiwa-aw-t2040-7798111354398.html`,
     featuredFeatures: [
       {

@@ -1941,7 +1941,6 @@ export const infinit: Product[] = [
     360: true,
     top: true,
     gen: "1º Generación",
-    
     banners: [
       {
         title: `Micrófono inalámbrico incluido`,
@@ -1970,8 +1969,7 @@ export const infinit: Product[] = [
       },
     ],
     shortDesc: `Potencia portátil`,
-    longDesc:
-      "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
+    longDesc: "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Es completamente portátil e incluye un micrófono inalámbrico para que lleves la fiesta con vos sin necesidad de cables.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/339-parlante-torre-bluetooth-carry-on-12500w-aiwa-aw-t2203-7798111354671.html`,
     featuredFeatures: [
       {
@@ -2121,7 +2119,6 @@ export const infinit: Product[] = [
     360: true,
     top: true,
     gen: "1º Generación",
-    
     banners: [
       {
         title: `Micrófono inalámbrico incluido`,
@@ -2149,9 +2146,8 @@ export const infinit: Product[] = [
         desc: "¡Cargá tu celular o tu dispositivo mientras escuchás música! Ahora podés escuchar tu música favorita, sin que se le agote la batería a tu celular en medio de la fiesta.",
       },
     ],
-    shortDesc: `Potencia portátil`,
-    longDesc:
-      "Posee 12.500W PMPO de puro poder ¡Cuidado con las vibraciones! Además es completamente portátil e incluye un micrófono inalámbrico para que se arme la fiesta donde quiera que estés, sin necesidad de cables.",
+    shortDesc: `Poder portátil`,
+    longDesc: "12.500W PMPO de pura potencia ¡Cuidado con las vibraciones! Además es 100% portátil e incluye micrófono inalámbrico ¡Armá la fiesta donde quieras sin necesidad de cables!",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/341-parlante-torre-bluetooth-carry-on-12500w-aiwa-2303-7798111354695.html`,
     featuredFeatures: [
       {

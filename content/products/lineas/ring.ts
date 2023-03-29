@@ -244,7 +244,7 @@ export const ring: Product[] = [
     ],
     shortDesc: `Potencia y Calidad`,
     longDesc:
-      "Con dos parlantes Woofer de 10 pulgadas cada uno, vas a poder tirar tu casa por la ventana.",
+      "Con dos parlantes Woofer de 10 pulgadas cada uno y 13.500W de puro poder, vas a poder tirar tu casa por la ventana ¡Cuidado con las vibraciones!",
     buyLink: ``,
     featuredFeatures: [
       { id: 2, value: `13500W PMPO` }, // Potencia
@@ -439,7 +439,7 @@ export const ring: Product[] = [
     ],
     shortDesc: `Sonido Colosal`,
     longDesc:
-      "Caja con cuerpo de madera, 1,49 centímetros de altura. Una gran torre en todo sentido de la palabra.",
+      "Caja con cuerpo de madera, 1,49 centímetros de altura. Una gran torre en todo sentido de la palabra. 16.000W de fuerza bruta, más que suficiente para cualquier escenario.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/253-parlante-torre-bluetooth-ring-power-bank-aiwa-aw-t2012.html`,
     featuredFeatures: [
       { id: 2, value: `16000W PMPO` }, // Potencia
