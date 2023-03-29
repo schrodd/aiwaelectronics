@@ -18,10 +18,17 @@ section.swiper-categorias
       div.product
         @include flex
         filter: drop-shadow(0px 5px 25px rgba(0, 0, 0, .2))
+        @include mobile
+          flex-direction: column
+          padding: 20px 50px 50px 50px
+          & *
+            text-align: center !important
         div.left
-          @include flex(column, center, flex-end)
-          max-width: 38%
-          margin-right: 50px
+          @include flex(column)
+          @include pc
+            align-items: flex-end
+            max-width: 38%
+            margin-right: 50px
           & *
             margin-bottom: 10px
             text-align: right
@@ -36,7 +43,10 @@ section.swiper-categorias
           position: relative
           height: 500px
           width: 500px
+          @include mobile
+            order: -1
+            height: 400px
+            width: 400px
           img
             overflow: visible
             object-fit: cover
-  
