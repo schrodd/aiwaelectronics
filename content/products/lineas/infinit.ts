@@ -1792,9 +1792,8 @@ export const infinit: Product[] = [
         desc: `Posee Bluetooth, una entrada para micrófono, y una entrada auxiliar para que traigas tu sonido de donde quieras.`,
       },
     ],
-    shortDesc: `Cargá y reproducí`,
-    longDesc:
-      "Gracias a su función Power Bank, cargá tus dispositivos mientras reproducís tus canciones favoritas. ¡Disfrutalo en interiores o exteriores! Posee batería recargable de larga duración.",
+    shortDesc: `Energía portátil`,
+    longDesc: "Carga tus dispositivos mientras disfrutas de tus canciones favoritas en interiores o exteriores gracias a su función Power Bank. Además, su batería recargable de larga duración te permite usarlo por mucho tiempo sin preocupaciones.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/torres-de-sonido/340-parlante-torre-bluetooth-power-bank-8500w-aiwa-aw-t2302-7798111354688.html`,
     featuredFeatures: [
       {
@@ -2499,8 +2498,7 @@ export const infinit: Product[] = [
       },
     ],
     shortDesc: `Sonido compacto`,
-    longDesc:
-      "Imprescindible para tus salidas al aire libre. Altamente portátil, y ofrece un sonido fuerte e impecable. Sus luces RGB son la mejor compañía para cualquier canción.",
+    longDesc: "Perfecto para tus aventuras al aire libre, este altavoz es altamente portátil y produce un sonido potente y de alta calidad. Además, sus luces RGB te ofrecen la mejor experiencia visual para acompañar cualquier canción.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       {

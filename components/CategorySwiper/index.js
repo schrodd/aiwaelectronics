@@ -20,17 +20,20 @@ export default function CategorySwiper({skus}) {
           {group.map((sku,i) => {
             const prod = products.find(prod => prod.sku == sku)
             return (
-              <SwiperSlide className={`main-banner-slide${prod.altBackground ? ' dark' : ''}`} key={i}> 
+              <SwiperSlide className={`main-banner-slide`} key={i}> 
                 <div className="product">
                   <div className="left">
-                    <p className="sku">{prod.sku}</p>
-                    <p className="title">{prod.shortDesc}</p>
-                    <p className="desc">{prod.longDesc}</p>
-                    <Link href={prod.link ? prod.link : '#'}>
-                      Ver más
-                    </Link>
+                    <div className="wrapper">
+                      <p className="title">{prod.shortDesc}</p>
+                      <p className="sku">{prod.sku}</p>
+                      <p className="desc">{prod.longDesc}</p>
+                      <Link href={prod.link ? prod.link : '#'}>
+                        VER MÁS
+                      </Link>
+                    </div>
+                    <Image src={`/components/CategorySwiper/patron-${prod.altBackground ? 'b' : 'n'}.png`} alt='background' fill/>
                   </div>
-                  <div className="right">
+                  <div className={`right${prod.altBackground ? ' dark' : ''}`}>
                     <Image src={prod.imgs[0]} alt={prod.sku} fill/>
                   </div>
                 </div>

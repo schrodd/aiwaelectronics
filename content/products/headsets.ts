@@ -712,9 +712,8 @@ export const headsets: Product[] = [
         desc: `Encendé, conectá y disfrutá. Nunca fué tan fácil escuchar música. El emparejamiento se hace por única vez, y luego, simplemente al sacarlos del estuche estarán conectados y listos para el uso.`,
       },
     ],
-    shortDesc: `Tu música donde quieras`,
-    longDesc:
-      "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
+    shortDesc: `Llevá tu música con vos`,
+    longDesc: "Con las almohadillas siliconadas cómodas de los auriculares AIWA in-ear, puedes conectarte a tus temas favoritos en un nivel más profundo y disminuir significativamente el ruido del entorno. Su tamaño práctico te permite disfrutar de esta experiencia en cualquier lugar.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/264-auriculares-in-ear-inalambricos-aiwa-ata-106b-7798111354480.html`,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
@@ -1120,9 +1119,9 @@ export const headsets: Product[] = [
         desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.`,
       },
     ],
-    shortDesc: `Sumergite en tu música`,
+    shortDesc: `Sonido excepcional`,
     longDesc:
-      "Su delicado diseño permite una verdadera experiencia de sonido envolvente. Gracias a sus almohadillas de silicona suaves y flexibles, el ajuste es personalizado y se adaptarán perfectamente a tu oído.",
+      "Gracias a su diseño delicado, puedes disfrutar de una experiencia de sonido envolvente auténtica. Sus almohadillas de silicona suaves y flexibles permiten un ajuste personalizado que se adapta perfectamente a tus oídos.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
@@ -1467,9 +1466,9 @@ export const headsets: Product[] = [
         desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.`,
       },
     ],
-    shortDesc: `Sonido sin límites`,
+    shortDesc: `Sonido sin fronteras`,
     longDesc:
-      "Impresionante calidad de sonido en un formato cómodo. Cancelación de ruido pasiva para que disfrutes sin distracciones.",
+      "Disfruta de una calidad de sonido impresionante en un formato cómodo, con cancelación de ruido pasiva para una experiencia libre de distracciones.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/bluetooth/327-auriculares-in-ear-inalambricos-aiwa-ata-406b-7798111354534.html`,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
