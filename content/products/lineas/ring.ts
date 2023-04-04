@@ -97,7 +97,6 @@ export const ring: Product[] = [
     certNo: `Q-AR-01590-T-0`,
     downloads: `https://drive.google.com/drive/folders/1NCXXr0mqb4YUkrGyHsUpOJ5RYlsIL_2v`,
     variants: [`AW-T2008`, `AW-T2008-PB`],
-    
   },
   { // AW-T2008-PB
     name: `Torre de Sonido Bluetooth Ring 13000W`,
@@ -197,7 +196,12 @@ export const ring: Product[] = [
     certNo: `Q-AR-01590-T-0`,
     downloads: `https://drive.google.com/drive/folders/1CFO0ECLhRM5A4eT3pAoPxnhWlMJgyN95`,
     variants: [],
-    
+    videos: [
+      {
+        title: 'Presentacion 2008',
+        youtubeId: 'l7nJWb8pC9o'
+      }
+    ]
   },
   { // AW-T2010
     name: `Torre de Sonido Bluetooth Ring 13500W`,
@@ -389,6 +393,12 @@ export const ring: Product[] = [
     certNo: `Q-AR-01590-T-0`,
     downloads: `https://drive.google.com/drive/folders/1Cemu-urtrh7h1eOF0ZXxn7vKxMVldKJv`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 2010',
+        youtubeId: 'Iwha5SdDhdc'
+      }
+    ]
   },
   { // AW-T2012
     name: `Torre de Sonido Bluetooth Ring 16000W`,
@@ -485,6 +495,11 @@ export const ring: Product[] = [
     certNo: `Q-AR-01590-T-0`,
     downloads: `https://drive.google.com/drive/folders/1LC8zxO0Wveyy-OQk7pDL8D1q80NvccJw`,
     variants: [],
-    
+    videos: [
+      {
+        title: 'Presentacion 2012',
+        youtubeId: 'ojsKMgmxZ4A'
+      }
+    ]
   },
 ]

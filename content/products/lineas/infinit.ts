@@ -198,6 +198,12 @@ export const infinit: Product[] = [
     certNo: `Q-AR-01590-T-1`,
     downloads: `https://drive.google.com/drive/folders/1FyB2FsIgxRZDRe_pSfftnQzz7lOFPRDg`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 2021',
+        youtubeId: 'OxQeHEFTu4Q'
+      }
+    ]
   },
   { // AW-T2022
     name: `Torre de Sonido Bluetooth Infinit 8500W`,
@@ -401,6 +407,12 @@ export const infinit: Product[] = [
     certNo: `Q-AR-01590-T-1`,
     downloads: `https://drive.google.com/drive/folders/1G-0ZfmHeh3HiECKxeV1--6Zo8ObYh1tc`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 2022',
+        youtubeId: 'liW0rBW12qg'
+      }
+    ]
   },
   { // AW-T2018R
     name: `Torre de Sonido Bluetooth Infinit 8000W`,
@@ -598,6 +610,12 @@ export const infinit: Product[] = [
     certNo: `Q-AR-01590-T-2`,
     downloads: `https://drive.google.com/drive/folders/1GE6Z6B6kaWc8rHWDrsOloDgEDlfbAYmN`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 2018',
+        youtubeId: 'Ek5jN1nZ270'
+      }
+    ]
   },
   { // AW-T2050R
     name: `Torre de Sonido Bluetooth Infinit 8000W`,
@@ -795,6 +813,12 @@ export const infinit: Product[] = [
     certNo: `RA 4183955 E`,
     downloads: `https://drive.google.com/drive/folders/1Gzi7xqLXOCRYK42Zz3Jv3C_bDA7E8SBA`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 2050',
+        youtubeId: 'WV8XWDCp0gk'
+      }
+    ]
   },
   { // AW-T506R
     name: `Torre de Sonido Bluetooth Infinit 6500W`,
@@ -1576,6 +1600,12 @@ export const infinit: Product[] = [
     certNo: `00Q-AR-01223-T-1`,
     downloads: `https://drive.google.com/drive/folders/188BCWXjwtJWRqXjNcz4YEuZVjhnEjcsA`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 506',
+        youtubeId: 'js2_QWJY7iQ'
+      }
+    ]
   },
   { // AW-T2202
     name: `Torre de Sonido Bluetooth Infinit 8500W`,

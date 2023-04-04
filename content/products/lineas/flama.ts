@@ -198,6 +198,12 @@ export const flama: Product[] = [
     certNo: `00Q-AR-01223-T-1`,
     downloads: `https://drive.google.com/drive/folders/10omQmKKjtEd40bO4OimLYlHeZM_Oqskf`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 604',
+        youtubeId: 'unEBEB5FnHg'
+      }
+    ]
   },
   { // AW-T806F
     name: `Torre de Sonido Bluetooth Flama 8000W`,
@@ -783,6 +789,12 @@ export const flama: Product[] = [
     certNo: `00Q-AR-01223-T-1`,
     downloads: `https://drive.google.com/drive/folders/19pctxOL_BvlxooIZqpQSDT-RmdGa6LQV`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 806',
+        youtubeId: 'u74pGf74XzI'
+      }
+    ]
   },
   { // AW-T1008F
     name: `Torre de Sonido Bluetooth Flama 9500W`,
@@ -1184,5 +1196,11 @@ export const flama: Product[] = [
     certNo: `00Q-AR-01223-T-1`,
     downloads: `https://drive.google.com/drive/folders/19O4ElAPI5VeQy71U01Y9U17tnsG-KUn-`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 1008',
+        youtubeId: 'bxFrsGpLGAc'
+      }
+    ]
   },
 ]

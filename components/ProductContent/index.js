@@ -26,7 +26,7 @@ export default function ProductContent({prod}) {
   return (
     <>
       <section className='top-wrapper' fullscreen={fullscreen ? "true" : "false"}>
-        <div className='always-on-top'>
+        <div className={`always-on-top ${mode == 3 && 'video-open'}`}>
           {(mode == 0 || mode == 2) && prod[360] && (
           <>
             <button className='video pc-only' onClick={() => setMode(1)}>

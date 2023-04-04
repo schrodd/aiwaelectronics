@@ -1,4 +1,5 @@
-export default function soporte(){
+export default function soporte() {
+  
   return (
     <h1>Soporte</h1>
   )

@@ -14,7 +14,7 @@ export default function ProductVideos({videos}) {
       >
         {videos.map((e,i) => (
           <SwiperSlide key={i} className='product-videos-slide'>
-            <iframe src={e.link} title={e.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            <iframe src={`https://www.youtube.com/embed/${e.youtubeId}`} title={e.title} frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
           </SwiperSlide>
         ))}
       </Swiper>

@@ -1,0 +1,80 @@
+@import 'variables'
+
+@keyframes support-fade
+  0%
+    opacity: 1
+  5%
+    opacity: 0
+  50%
+    opacity: 0
+  55%
+    opacity: 1
+
+main.support
+  width: 100%
+  @include flex
+  @include mobile
+    flex-direction: column
+  div.left
+    align-self: stretch
+    position: relative
+    @include pc
+      width: 60%
+    @include mobile
+      height: 300px
+    img
+      object-fit: cover
+      &.support-fade
+        animation: support-fade 15s infinite both
+  div.right
+    @include pc
+      width: 40%
+    background: white
+    padding: 40px
+    min-height: 700px
+    .form-text
+      margin-top: 15px
+    *
+      color: $main
+    h1
+      font-size: 40px
+      margin-bottom: 20px
+    h2
+      margin-bottom: 20px
+    h1, h2
+      font-family: DINPRO
+    p.disclaimer
+      font-style: italic
+      opacity: .8
+      font-size: 14px
+      margin: 20px 0 30px 0
+    h3
+      font-size: 18px
+      margin-top: 20px
+    a
+      color: $alt
+    a.btn
+      @include btn($altDeg, white)
+      font-size: 13px
+      margin-left: 0
+      padding: 5px 15px
+      width: max-content
+    .MuiFormControlLabel-label
+      font-size: 14px
+    p.rrhh-text
+      margin-top: 10px
+    button
+      border: none
+      font-size: 16px
+      padding: 10px 0
+      background: $altDeg
+      border-radius: 0
+      font-family: Inter
+      width: 100%
+      margin-top: 10px
+      color: white
+      transition: all .3s ease-out
+      &:hover
+        transform: scale(1.05)
+      &:active
+        transform: scale(1)

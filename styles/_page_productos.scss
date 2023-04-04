@@ -153,6 +153,11 @@ section.product-page {
       @include pc {
         right: 5px;
         justify-content: center;
+        &.video-open {
+          justify-content: flex-start;
+          margin-top: 70px;
+          height: auto;
+        }
       }
       button {
         margin-bottom: 5px;

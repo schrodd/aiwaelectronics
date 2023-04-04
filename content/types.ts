@@ -16,9 +16,8 @@ interface Feature {
 }
 
 interface Video {
-  id: number;
   title: string;
-  link: string;
+  youtubeId: string;
 }
 
 interface Section {

@@ -6,7 +6,7 @@ import NotFound from "../../components/NotFound"
 import Head from "next/head"
 import CategoryLineSwiper from "../../components/CategoryLineSwiper"
 import CategorySwiper from "../../components/CategorySwiper"
-import { productGroups } from "../../content/products/groups"
+import { productGroups } from "../../content/groups"
 
 export default function Category() {
   const url = useRouter()

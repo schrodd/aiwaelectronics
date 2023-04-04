@@ -54,9 +54,8 @@ export const party: Product[] = [
     buyLink: ``,
     videos: [
       {
-        id: 1,
         title: "Título del video",
-        link: "https://www.youtube.com/embed/4IN_K5HtEOI",
+        youtubeId: "4IN_K5HtEOI",
       },
     ],
     featuredFeatures: [
@@ -594,6 +593,12 @@ export const party: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1AkUOXIGyh1tLjEGlNq2iN2CHEIodiBFY`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 240',
+        youtubeId: 'p6Ti8ZpU288'
+      }
+    ]
   },
   { // AW-P450D
     name: `Parlante Portátil Bluetooth Party 4500W`,
@@ -647,9 +652,8 @@ export const party: Product[] = [
     buyLink: ``,
     videos: [
       {
-        id: 1,
         title: "Título del video",
-        link: "https://www.youtube.com/embed/3lIKM_uQuqk",
+        youtubeId: "3lIKM_uQuqk",
       },
     ],
     featuredFeatures: [
@@ -1186,6 +1190,12 @@ export const party: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1TxmR_vMk0uC10q29mnngRGS8rRKmRTBe`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 450',
+        youtubeId: 'T9fNF01O2vY'
+      }
+    ]
   },
   { // AW-T451D
     name: `Torre de Sonido Portátil Bluetooth Party 4500W`,
@@ -1241,9 +1251,8 @@ export const party: Product[] = [
     buyLink: ``,
     videos: [
       {
-        id: 1,
         title: "Título del video",
-        link: "https://www.youtube.com/embed/lEUuZtKHCUI",
+        youtubeId: "lEUuZtKHCUI",
       },
     ],
     featuredFeatures: [
@@ -1783,6 +1792,12 @@ export const party: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/15kC-dwt90ybZ5ax-91uWvisOVJYDAfPH`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 451',
+        youtubeId: '2qk7V0b8_IE'
+      }
+    ]
   },
   { // AW-T600D
     name: `Torre de Sonido Portátil Bluetooth Party 5000W`,
@@ -1832,9 +1847,8 @@ export const party: Product[] = [
     buyLink: ``,
     videos: [
       {
-        id: 1,
         title: "Título del video",
-        link: "https://www.youtube.com/embed/eOWUeIdJV58",
+        youtubeId: "eOWUeIdJV58",
       },
     ],
     featuredFeatures: [
@@ -2373,6 +2387,12 @@ export const party: Product[] = [
     certNo: `00Q-AR-01223-T-1`,
     downloads: `https://drive.google.com/drive/folders/1LOrmrc6dboTou4qxp9cyD4-n62oy04NL`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 600',
+        youtubeId: 'HwGOxxNqPjA'
+      }
+    ]
   },
   { // AW-P1200D
     name: `Parlante Portátil Bluetooth Party 6000W`,
@@ -2426,9 +2446,8 @@ export const party: Product[] = [
     buyLink: ``,
     videos: [
       {
-        id: 1,
         title: "Título del video",
-        link: "https://www.youtube.com/embed/TMV3Btqij7M",
+        youtubeId: "TMV3Btqij7M",
       },
     ],
     featuredFeatures: [
@@ -2973,6 +2992,12 @@ export const party: Product[] = [
     certNo: `Q-AR-01374-T-0`,
     downloads: `https://drive.google.com/drive/folders/15GtEvArmGnIgG4S7qyJzjPUqpDnSR-jR`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 1200',
+        youtubeId: 'f92i4iq-YXs'
+      }
+    ]
   },
   { // AW-P1510D
     name: `Parlante Portátil Bluetooth Party 7000W`,
@@ -3021,9 +3046,8 @@ export const party: Product[] = [
     buyLink: ``,
     videos: [
       {
-        id: 1,
         title: "Título del video",
-        link: "https://www.youtube.com/embed/tLHabla-j4o",
+        youtubeId: "tLHabla-j4o",
       },
     ],
     featuredFeatures: [
@@ -3373,6 +3397,12 @@ export const party: Product[] = [
     certNo: `00Q-AR-01223-T-1`,
     downloads: `https://drive.google.com/drive/folders/15G8xiA9_vbWH8G5a8oBL76t7icFDRjMh`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 1510',
+        youtubeId: 'knnYq2otKPo'
+      }
+    ]
   },
   { // AW-P1500PS
     name: `Parlante Portátil Bluetooth Party 9000W`,
@@ -3427,9 +3457,8 @@ export const party: Product[] = [
     buyLink: `https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/94-parlante-aiwa-bluetooth-portatil-con-tripode-aw-p1500ps-7798111353438.html`,
     videos: [
       {
-        id: 1,
         title: "Título del video",
-        link: "https://www.youtube.com/embed/UVKHkHIiFIk",
+        youtubeId: "UVKHkHIiFIk",
       },
     ],
     featuredFeatures: [
@@ -3584,6 +3613,12 @@ export const party: Product[] = [
     certNo: `00Q-AR-01388-T-1`,
     downloads: `https://drive.google.com/drive/folders/1EeW6E5-uS2S-lLUHG4TtRtcjswgjlr84`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 1500',
+        youtubeId: 'Rbqr5Aavi38'
+      }
+    ]
   },
   { // AW-T2040
     name: `Torre de Sonido Bluetooth Party 6000W`,
@@ -3772,6 +3807,12 @@ export const party: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1QSNSdv4YxPuPEPFxA9K4DPOt-UkdISBk`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 2040',
+        youtubeId: 'FYuy2SjAnQg'
+      }
+    ]
   },
   { // AW-T2042
     name: `Torre de Sonido Bluetooth Party 6000W`,
@@ -3960,6 +4001,12 @@ export const party: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1QXDROpyb9KKtipho2ldRwI1rJoiBXzgT`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 2042',
+        youtubeId: 'K2x0Ha8Yeqk'
+      }
+    ]
   },
   { // AW-T2044
     name: `Torre de Sonido Bluetooth Party 6000W`,
@@ -4148,5 +4195,11 @@ export const party: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1QOPtS-kaZzgK9-kD-SFT8decnb82PeFx`,
     variants: [],
+    videos: [
+      {
+        title: 'Presentacion 2044',
+        youtubeId: '5Ruiv4oZXUE'
+      }
+    ]
   },
 ];
