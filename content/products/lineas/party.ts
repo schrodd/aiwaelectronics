@@ -3455,12 +3455,6 @@ export const party: Product[] = [
     longDesc:
       "Está listo para conectar una guitarra, un micrófono y tocar o cantar en vivo. Hace llegar a todos la música que sale de tu corazón. También Incluye la función Karaoke con la cual podés pasar horas divirtiéndote sin parar con tu familia y amigos.",
     buyLink: `https://tienda.aiwaelectronics.com.ar/parlantes-portatiles/94-parlante-aiwa-bluetooth-portatil-con-tripode-aw-p1500ps-7798111353438.html`,
-    videos: [
-      {
-        title: "Título del video",
-        youtubeId: "UVKHkHIiFIk",
-      },
-    ],
     featuredFeatures: [
       {
         // Potencia
@@ -3614,6 +3608,10 @@ export const party: Product[] = [
     downloads: `https://drive.google.com/drive/folders/1EeW6E5-uS2S-lLUHG4TtRtcjswgjlr84`,
     variants: [],
     videos: [
+      {
+        title: "Video 1",
+        youtubeId: "UVKHkHIiFIk",
+      },
       {
         title: 'Presentacion 1500',
         youtubeId: 'Rbqr5Aavi38'
