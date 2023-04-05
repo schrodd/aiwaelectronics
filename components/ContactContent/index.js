@@ -12,10 +12,10 @@ export default function ContactContent(){
   const [cc, setCc] = useState('')
 
   const reasonsConfig = [
-    { value: 'soporte', desc: 'Soporte Técnico', to: 'fe90a362e67d5bec0dae4a99224c6e5c', cc: 'andres_alejandro_rodriguez@hotmail.com,gelupeyi@mailgolem.com'},
-    { value: 'postventa', desc: 'Postventa (Atención al Retail)', to: 'amolina@totalhome.com.ar', cc: ''},
-    { value: 'atencion', desc: 'Atención al Cliente', to: 'amolina@totalhome.com.ar', cc: ''},
-    { value: 'comercial', desc: 'Comercial', to: 'amolina@totalhome.com.ar', cc: ''},
+    { value: 'soporte', desc: 'Soporte Técnico', to: 'soporte@totalhome.com.ar', cc: ''},
+    { value: 'postventa', desc: 'Postventa (Atención al Retail)', to: 'postventa@totalhome.com.ar', cc: ''},
+    { value: 'atencion', desc: 'Atención al Cliente', to: 'consultas@totalhome.com.ar', cc: ''},
+    { value: 'comercial', desc: 'Comercial', to: 'dcanton@totalhome.com.ar', cc: 'ventas@totalhome.com.ar'},
     { value: 'marketing', desc: 'Propuestas / Marketing', to: 'arodriguez@totalhome.com.ar', cc: ''},
     { value: 'recursos', desc: 'Recursos Humanos', to: 'rrhh@totalhome.com.ar', cc: ''},
   ]
@@ -53,11 +53,10 @@ export default function ContactContent(){
               {reasonsConfig.map((e,i) => <MenuItem key={i} value={e.value}>{e.desc}</MenuItem>)}
             </Select>
             <SupportForms type={reason}/>
-            <input type="hidden" name="_cc" value={cc}/>
-            <input type="hidden" name="_next" value="https://aiwaelectronics.com.ar"/>
-            <input type="hidden" name="_captcha" value="false"/>
-            <input type="hidden" name="_template" value="box"/>
           </FormControl>
+          <input type="hidden" name="_cc" value={cc}></input>
+          <input type="hidden" name="_next" value="https://aiwaelectronics.vercel.app/contacto/gracias"></input>
+          <input type="hidden" name="_captcha" value="false"></input>
         </form>
       </div>
     </main>
