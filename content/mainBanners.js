@@ -2,7 +2,7 @@ const mainBanners = [
   {
     img: '/banners/ata.jpg',
     mobileImg: '/banners/ata-m.jpg',
-    link: '/lineas',
+    link: '/categorias/in-ear',
     alt: 'Banner ATA',
     text: {
       title: 'IN EAR',
@@ -15,7 +15,7 @@ const mainBanners = [
   {
     img: '/banners/flama.jpg',
     mobileImg: '/banners/flama-m.jpg',
-    link: '/categorias',
+    link: '/lineas/flama',
     alt: 'Banner FLAMA',
     text: {
       title: 'Pasala FLAMA',
