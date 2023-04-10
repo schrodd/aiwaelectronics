@@ -12,12 +12,12 @@ export default function ContactContent(){
   const [cc, setCc] = useState('')
 
   const reasonsConfig = [
-    { value: 'soporte', desc: 'Soporte Técnico', to: 'soporte@totalhome.com.ar', cc: ''},
-    { value: 'postventa', desc: 'Postventa (Atención al Retail)', to: 'postventa@totalhome.com.ar', cc: ''},
-    { value: 'atencion', desc: 'Atención al Cliente', to: 'consultas@totalhome.com.ar', cc: ''},
+    { value: 'soporte', desc: 'Soporte Técnico', to: 'cf78534e463a7d8cac5d30b855e7d11f', cc: ''},
+    { value: 'postventa', desc: 'Postventa (Atención al Retail)', to: 'f6398e7660629c8d5cfdc8f748eeafa0', cc: ''},
+    { value: 'atencion', desc: 'Atención al Cliente', to: '3b5c7741de00a4e8ff2ef3181952b06b', cc: ''},
     { value: 'comercial', desc: 'Comercial', to: 'dcanton@totalhome.com.ar', cc: 'ventas@totalhome.com.ar'},
     { value: 'marketing', desc: 'Propuestas / Marketing', to: 'arodriguez@totalhome.com.ar', cc: ''},
-    { value: 'recursos', desc: 'Recursos Humanos', to: 'rrhh@totalhome.com.ar', cc: ''},
+    { value: 'recursos', desc: 'Recursos Humanos', to: '', cc: ''},
   ]
 
   function changeReason(value){
@@ -54,6 +54,7 @@ export default function ContactContent(){
             </Select>
             <SupportForms type={reason}/>
           </FormControl>
+          <input type="hidden" name="_subject" value="Nueva consulta en formulario de contacto - aiwaelectronics.com.ar"></input>
           <input type="hidden" name="_cc" value={cc}></input>
           <input type="hidden" name="_next" value="https://aiwaelectronics.vercel.app/contacto/gracias"></input>
           <input type="hidden" name="_captcha" value="false"></input>

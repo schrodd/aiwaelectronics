@@ -1627,7 +1627,7 @@ export const infinit: Product[] = [
     360: true,
     top: true,
     gen: "1º Generación",
-    
+    videos: [{ title: 'Presentación', youtubeId: '6XV_gGCoxsU' }],
     banners: [
       {
         title: `Power Bank`,
@@ -1799,7 +1799,7 @@ export const infinit: Product[] = [
     360: true,
     top: true,
     gen: "1º Generación",
-    
+    videos: [{ title: 'Presentación', youtubeId: 'Ozv2rh2vL9M' }],
     banners: [
       {
         title: `Power Bank`,
@@ -1970,6 +1970,7 @@ export const infinit: Product[] = [
     360: true,
     top: true,
     gen: "1º Generación",
+    videos: [{ title: 'Presentación', youtubeId: '9R3RKfKgdro' }],
     banners: [
       {
         title: `Micrófono inalámbrico incluido`,
@@ -2148,6 +2149,7 @@ export const infinit: Product[] = [
     360: true,
     top: true,
     gen: "1º Generación",
+    videos: [{ title: 'Presentación', youtubeId: 'EvOkvW7QHQs' }],
     banners: [
       {
         title: `Micrófono inalámbrico incluido`,
@@ -2326,7 +2328,7 @@ export const infinit: Product[] = [
     top: true,
     360: true,
     gen: "1º Generación",
-    
+    videos: [{ title: 'Presentación', youtubeId: '8EzwWm7IzJI' }],
     banners: [
       {
         title: `Efectos de Luces`,
@@ -2499,7 +2501,7 @@ export const infinit: Product[] = [
     top: true,
     360: true,
     gen: "1º Generación",
-    
+    videos: [{ title: 'Presentación', youtubeId: 'UGvUocMmsMQ' }],
     banners: [
       {
         title: `Efectos de Luces`,

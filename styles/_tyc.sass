@@ -1,0 +1,75 @@
+@import variables
+
+$lightOp: rgba(50,50,50,.5)
+
+main.terms-and-conditions
+  @include flex(row, flex-start)
+  position: relative
+  padding: 50px 50px 100px 50px
+  background: black
+  @include mobile
+    padding: 300px 20px 40px 20px
+  div.wrapper
+    background: $lightOp
+    padding: 60px
+    border-radius: 7px
+    border: 1px solid $lightOp
+    box-shadow: 0px 0px 20px $lightOp
+    backdrop-filter: blur(10px)
+    position: relative
+    z-index: 1
+    @include pc
+      max-width: 70%
+    @include mobile
+      padding: 30px
+    div.title
+      @include flex(row, flex-start, center)
+      margin-bottom: 30px
+      @include mobile
+        margin-top: -65px
+        flex-direction: column
+        align-items: flex-start
+        margin-bottom: 40px
+      svg
+        width: 80px
+        height: 80px
+        margin-right: 20px
+        @include mobile
+          margin-left: -10px
+      div.text
+        h2
+        @include mobile
+            margin-top: 5px
+        h1, h2
+          font-family: DINPRO
+    &>*
+      color: white
+      margin-bottom: 10px
+      filter: drop-shadow(0px 2px 3px rgba(0,0,0,.3))
+    p, li
+      line-height: 20px
+    li
+      list-style-type: decimal
+      list-style-position: inside
+    h3
+      margin-top: 30px
+    div.buttons
+      @include flex(row, flex-end)
+      margin-top: 50px
+      gap: 10px
+      a
+        button
+          @include flex
+          @include btn($main, white, 1px solid $lightOp)
+          font-weight: 300
+          margin: 0
+          &.main
+            @include btn($altDeg, white)
+          svg
+            margin-right: 5px
+  img
+    position: absolute
+    top: 0
+    left: 0
+    object-fit: contain
+    object-position: top right

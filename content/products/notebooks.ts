@@ -195,6 +195,7 @@ export const notebooks: Product[] = [
     360: true,
     gen: "3º Generación",
     altBackground: true,
+    videos: [{title: 'Presentacion', youtubeId: 'aOgzxYwHmUU'}],
     banners: [
       {
         title: `Accedé a la nube`,
