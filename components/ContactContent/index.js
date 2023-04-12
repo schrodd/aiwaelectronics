@@ -8,58 +8,53 @@ import SupportForms from '../../components/SupportForms';
 
 export default function ContactContent(){
   const [reason, setReason] = useState('')
-  const [email, setEmail] = useState('')
-  const [cc, setCc] = useState('')
+  const [action, setAction] = useState('')
 
   const reasonsConfig = [
-    { value: 'soporte', desc: 'Soporte Técnico', to: 'cf78534e463a7d8cac5d30b855e7d11f', cc: ''},
-    { value: 'postventa', desc: 'Postventa (Atención al Retail)', to: 'f6398e7660629c8d5cfdc8f748eeafa0', cc: ''},
-    { value: 'atencion', desc: 'Atención al Cliente', to: '3b5c7741de00a4e8ff2ef3181952b06b', cc: ''},
-    { value: 'comercial', desc: 'Comercial', to: 'dcanton@totalhome.com.ar', cc: 'ventas@totalhome.com.ar'},
-    { value: 'marketing', desc: 'Propuestas / Marketing', to: 'arodriguez@totalhome.com.ar', cc: ''},
-    { value: 'recursos', desc: 'Recursos Humanos', to: '', cc: ''},
+    { value: 'soporte', desc: 'Soporte Técnico', action: '/mail/soporte_tecnico.php'},
+    { value: 'postventa', desc: 'Postventa (Atención al Retail)', action: '/mail/postventa.php'},
+    { value: 'atencion', desc: 'Atención al Cliente', action: '/mail/atencion_al_cliente.php'},
+    { value: 'comercial', desc: 'Comercial', action: '/mail/comercial.php'},
+    { value: 'marketing', desc: 'Propuestas / Marketing', action: '/mail/marketing.php'},
+    { value: 'recursos', desc: 'Recursos Humanos', action: ''},
   ]
 
   function changeReason(value){
     setReason(value)
-    setEmail(reasonsConfig.find(e => e.value == value).to)
-    setCc(reasonsConfig.find(e => e.value == value).cc)
+    setAction(reasonsConfig.find(e => e.value == value).action)
   }
 
   return (
-    <main className="support">
-      <div className="left">
-        <Image src='/components/Support/contacto1.jpg' alt='contacto' fill/>
-        <Image src='/components/Support/contacto2.jpg' alt='contacto' className='support-fade' fill/>
-      </div>
-      <div className="right">
-        <h1>Contactanos</h1>
-        <p>Podés contactarnos, si necesitás ayuda, asesoramiento o sumarte a nuestro equipo.</p>
-        <p className="disclaimer">
-          aiwaelectronics.com.ar es representante de la marca AIWA <b>únicamente en Argentina.</b> Para los productos AIWA adquiridos fuera del país no tiene la responsabilidad de la garantía y no cuenta con la información técnica y ni de soporte. Por favor, contactarse con el distribuidor de AIWA correspondiente a su país.
-        </p>
-        <h2>Escribinos</h2>
-        <form action={`https://formsubmit.co/${email}`} method='POST'>
-          <FormControl fullWidth variant='standard'>
-            <InputLabel id="motivo-label">Motivo</InputLabel>
-            <Select
+    <>
+      <main className="support">
+        <div className="left">
+          <Image src='/components/Support/contacto1.jpg' alt='contacto' fill/>
+          <Image src='/components/Support/contacto2.jpg' alt='contacto' className='support-fade' fill/>
+        </div>
+        <div className="right">
+          <h1>Contactanos</h1>
+          <p>Podés contactarnos, si necesitás ayuda, asesoramiento o sumarte a nuestro equipo.</p>
+          <p className="disclaimer">
+            aiwaelectronics.com.ar es representante de la marca AIWA <b>únicamente en Argentina.</b> Para los productos AIWA adquiridos fuera del país no tiene la responsabilidad de la garantía y no cuenta con la información técnica y ni de soporte. Por favor, contactarse con el distribuidor de AIWA correspondiente a su país.
+          </p>
+          <h2>Escribinos</h2>
+          <form action={action} method='POST' id='contact-form'>
+            <FormControl fullWidth variant='standard'>
+              <InputLabel id="motivo-label">Motivo</InputLabel>
+              <Select
               labelId='motivo-label'
               value={reason}
               name='tipoConsulta'
               defaultValue='none'
               label="Motivo"
-              onChange={e => changeReason(e.target.value)}
-            >
-              {reasonsConfig.map((e,i) => <MenuItem key={i} value={e.value}>{e.desc}</MenuItem>)}
-            </Select>
-            <SupportForms type={reason}/>
-          </FormControl>
-          <input type="hidden" name="_subject" value="Nueva consulta en formulario de contacto - aiwaelectronics.com.ar"></input>
-          <input type="hidden" name="_cc" value={cc}></input>
-          <input type="hidden" name="_next" value="https://aiwaelectronics.vercel.app/contacto/gracias"></input>
-          <input type="hidden" name="_captcha" value="false"></input>
-        </form>
-      </div>
-    </main>
+              onChange={e => changeReason(e.target.value)}>
+                {reasonsConfig.map((e,i) => <MenuItem key={i} value={e.value}>{e.desc}</MenuItem>)}
+              </Select>
+              <SupportForms type={reason}/>
+            </FormControl>
+          </form>
+        </div>
+      </main>
+    </>
   )
 }

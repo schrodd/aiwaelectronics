@@ -9,7 +9,6 @@ import { useRouter } from 'next/router';
 export default function ProductCard({sku, showName, showSku, showDesc, showButton, showGen, showTags, showViewing}){
   const router = useRouter()
   const activePath = router.asPath
-  console.log(activePath)
   const product = products.find(e => e.sku == sku)
   return (
     <div className='product-card'>

@@ -59,7 +59,6 @@ export default function SupportForms({type}){
         <TextField className="form-text email" {...config.inputEmail}/>
         <TextField className="form-text phone" {...config.inputPhone}/>
         <TextField className="form-text message" {...config.inputMessage}/>
-        <button type='submit'>Enviar</button>
        </>
       )}
       {type == 'postventa' && (
@@ -69,7 +68,6 @@ export default function SupportForms({type}){
           <TextField className="form-text email" {...config.inputEmail}/>
           <TextField className="form-text phone" {...config.inputPhone}/>
           <TextField className="form-text message" {...config.inputMessage}/>
-          <button type='submit'>Enviar</button>
         </>
       )}
       {type == 'atencion' && (
@@ -80,7 +78,6 @@ export default function SupportForms({type}){
           <TextField className="form-text email" {...config.inputEmail}/>
           <TextField className="form-text phone" {...config.inputPhone}/>
           <TextField className="form-text message" {...config.inputMessage}/>
-          <button type='submit'>Enviar</button>
         </>
       )}
       {type == 'comercial' && (
@@ -99,7 +96,6 @@ export default function SupportForms({type}){
               <TextField className="form-text email" {...config.inputEmail}/>
               <TextField className="form-text phone" {...config.inputPhone}/>
               <TextField className="form-text message" {...config.inputMessage}/>
-              <button type='submit'>Enviar</button>
             </>
           }
         </>
@@ -111,7 +107,6 @@ export default function SupportForms({type}){
           <TextField className="form-text email" {...config.inputEmail}/>
           <TextField className="form-text phone" {...config.inputPhone}/>
           <TextField className="form-text message" {...config.inputMessage}/>
-          <button type='submit'>Enviar</button>
         </>
       )}
       {type == 'recursos' && (
@@ -121,6 +116,9 @@ export default function SupportForms({type}){
           Compartinos tu CV vía e-mail a a <a href='mailto:rrhh@totalhome.com.ar'>rrhh@totalhome.com.ar</a> indicando en el asunto el área de interés (Administración y Finanzas, Logística y Depósito, Comercio Exterior, Marketing y Diseño o Atención al Cliente/Recepción)
           </p>
         </>
+      )}
+      {type && type != 'recursos' && (
+        <button type='submit'>Enviar</button>
       )}
     </>
   )

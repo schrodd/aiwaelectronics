@@ -12,6 +12,7 @@ module.exports = nextConfig
 */
 
 module.exports = {
+  //basePath: '/next',
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/,
@@ -25,5 +26,5 @@ module.exports = {
   images: {
     domains: ['aiwaelectronics.com.ar', 'www.aiwaelectronics.com.ar'],
     unoptimized: true
-  }
+  },
 };
