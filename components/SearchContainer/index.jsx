@@ -19,7 +19,7 @@ export default function SearchContainer() {
   const [selectedValue, setSelectedValue] = useState('')
   const [showDiscontinued, setShowDiscontinued] = useState(true)
   const [showBackToTop, setShowBackToTop] = useState(false)
-  const [mobileMenu, setMobileMenu] = useState(false)
+  const [mobileMenu, setMobileMenu] = useState(true)
   let finalProducts, finalFeatures, finalValues
 
   function sortAlphabetically(data, prop){ // Accepts both arrays and objects
@@ -55,21 +55,31 @@ export default function SearchContainer() {
     setSelectedCategory(e.target.value)
     setSelectedFeature('')
     setSelectedValue('')
+    scrollToTop()
   }
   function selectFeature(e) {
     setSelectedFeature(e.target.value)
     setSelectedValue('')
+    scrollToTop()
   }
   function selectValue(e) {
     setSelectedValue(e.target.value)
+    scrollToTop()
+    setMobileMenu(false)
   }
   function toggleShowDiscontinued() {
     setShowDiscontinued(e => !e)
+    scrollToTop()
   }
-  function clearFields(){
+  function clearFields() {
     setSelectedCategory('')
     setSelectedFeature('')
     setSelectedValue('')
+    scrollToTop()
+  }
+  function openMobileMenu() {
+    setMobileMenu(e => !e)
+    scrollToTop()
   }
 
   // Scroll to top
@@ -91,7 +101,7 @@ export default function SearchContainer() {
   return (
     <main className="search">
       <aside className="filters">
-        <button className={`mobile-open ${mobileMenu && 'open'}`} onClick={() => setMobileMenu(e => !e)}><ArrowUpwardIcon/></button>
+        <button className={`mobile-open ${mobileMenu && 'open'}`} onClick={openMobileMenu}><ArrowUpwardIcon/></button>
         <div className={`wrapper ${mobileMenu && 'open'}`}>
           <h1>Búsqueda de productos</h1>
           <FormControl fullWidth>
