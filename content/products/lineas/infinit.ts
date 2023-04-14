@@ -126,7 +126,7 @@ export const infinit: Product[] = [
       {
         // Duración de batería
         id: 11,
-        value: "Hasta 5 horas (según su uso)",
+        value: "5 horas (según su uso)",
       },
       {
         // Luces
@@ -151,7 +151,7 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Auxiliar, Micrófono y Guitarra",
+        value: "Auxiliar, Micrófono, Guitarra",
       },
       {
         // Efectos
@@ -335,7 +335,7 @@ export const infinit: Product[] = [
       {
         // Duración de batería
         id: 11,
-        value: "Hasta 5 horas (según su uso)",
+        value: "5 horas (según su uso)",
       },
       {
         // Luces
@@ -360,7 +360,7 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Auxiliar, Micrófono y Guitarra",
+        value: "Auxiliar, Micrófono, Guitarra",
       },
       {
         // Efectos
@@ -539,7 +539,7 @@ export const infinit: Product[] = [
       {
         // Duración de batería
         id: 11,
-        value: "Hasta 6 horas (según su uso)",
+        value: "6 horas (según su uso)",
       },
       {
         // Luces
@@ -559,12 +559,12 @@ export const infinit: Product[] = [
       {
         // Reguladores
         id: 5,
-        value: "Graves, Agudos y Eco de Micrófono",
+        value: "Graves, Agudos y Eco de Mic",
       },
       {
         // Entradas
         id: 8,
-        value: "Micrófono x2, Auxiliar",
+        value: "Auxiliar, Micrófono x2",
       },
       {
         // Display
@@ -742,7 +742,7 @@ export const infinit: Product[] = [
       {
         // Duración de batería
         id: 11,
-        value: "Hasta 8 horas (según su uso)",
+        value: "8 horas (según su uso)",
       },
       {
         // Luces
@@ -762,7 +762,7 @@ export const infinit: Product[] = [
       {
         // Reguladores
         id: 5,
-        value: "Graves, Agudos y Eco de Micrófono",
+        value: "Graves, Agudos y Eco de Mic",
       },
       {
         // Entradas
@@ -825,7 +825,7 @@ export const infinit: Product[] = [
     sku: `AW-T506R`,
     link: `/productos/AW-T506R`,
     line: `infinit`,
-    categories: [102],
+    categories: [102,110],
     imgs: [
       `/products/AW-T506R/img/1.webp`,
       `/products/AW-T506R/img/2.webp`,
@@ -970,7 +970,7 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Auxiliar, USB, Micro SD, Micrófono x2",
+        value: "Auxiliar, Micrófono x2, USB, MicroSD",
       },
       {
         // Efectos
@@ -1024,7 +1024,7 @@ export const infinit: Product[] = [
     sku: `AW-T265SF`,
     link: `/productos/AW-T265SF`,
     line: `infinit`,
-    categories: [102],
+    categories: [102,110],
     imgs: [
       `/products/AW-T265SF/img/1.webp`,
       `/products/AW-T265SF/img/2.webp`,
@@ -1173,12 +1173,12 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono x2, Auxiliar, USB, Micro SD",
+        value: "Auxiliar, Micrófono x2, USB, MicroSD",
       },
       {
         // Radio
         id: 20,
-        value: "No posee",
+        value: "No",
       },
       {
         // Efectos
@@ -1222,7 +1222,7 @@ export const infinit: Product[] = [
     sku: `AW-T265SF-SA`,
     link: `/productos/AW-T265SF-SA`,
     line: `infinit`,
-    categories: [102],
+    categories: [102,110],
     imgs: [
       `/products/AW-T265SF-SA/img/1.webp`,
       `/products/AW-T265SF-SA/img/2.webp`,
@@ -1371,12 +1371,12 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono x2, Auxiliar, USB, Micro SD",
+        value: "Auxiliar, Micrófono x2, USB, MicroSD",
       },
       {
         // Radio
         id: 20,
-        value: "No posee",
+        value: "No",
       },
       {
         // Efectos
@@ -1554,7 +1554,7 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono x2, Auxiliar",
+        value: "Auxiliar, Micrófono x2",
       },
       {
         // Efectos
@@ -1742,7 +1742,7 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, Auxiliar",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Efectos
@@ -1913,7 +1913,7 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, Auxiliar",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Efectos
@@ -2070,12 +2070,12 @@ export const infinit: Product[] = [
       {
         // Potencia
         id: 2,
-        value: "12.500W PMPO",
+        value: "12500W PMPO",
       },
       {
         // Batería
         id: 10,
-        value: "Interna Recargable 12V / 7.5 Ah",
+        value: "Interna Recargable 12V / 7.5Ah",
       },
       {
         // Funciones
@@ -2091,7 +2091,7 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, Auxiliar, Guitarra",
+        value: "Auxiliar, Micrófono, Guitarra",
       },
       {
         // Efectos
@@ -2249,12 +2249,12 @@ export const infinit: Product[] = [
       {
         // Potencia
         id: 2,
-        value: "12.500W PMPO",
+        value: "12500W PMPO",
       },
       {
         // Batería
         id: 10,
-        value: "Interna Recargable 12V / 7.5 Ah",
+        value: "Interna Recargable 12V / 7.5Ah",
       },
       {
         // Funciones
@@ -2270,7 +2270,7 @@ export const infinit: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, Auxiliar, Guitarra",
+        value: "Auxiliar, Micrófono, Guitarra",
       },
       {
         // Efectos
@@ -2403,7 +2403,7 @@ export const infinit: Product[] = [
       {
         // Duracion Batería
         id: 7,
-        value: `de 7,4v / 2400 mAh`,
+        value: `de 7.4v / 2400 mAh`,
       },
       {
         // Doble Entrada Mic
@@ -2433,17 +2433,17 @@ export const infinit: Product[] = [
       {
         // Batería
         id: 10,
-        value: "Interna Recargable 7,4v / 2400mAh",
+        value: "Interna Recargable 7.4v / 2400mAh",
       },
       {
         // Reguladores
         id: 5,
-        value: "Graves, Agudos, Volumen y Eco de Micrófono",
+        value: "Graves, Agudos, Volumen y Eco de Mic",
       },
       {
         // Entradas
         id: 8,
-        value: "Micrófono y Auxiliar",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Efectos
@@ -2461,7 +2461,7 @@ export const infinit: Product[] = [
         value: "28.6 x 37.6 x 27.6 cm",
       },
       { id: 18, value: "3 kg" }, // Peso
-      { id: 54, value: "Bluetooth 5.0" }, // Bluetooth
+      { id: 9, value: "Bluetooth 5.0" }, // Bluetooth
       { id: 53, value: "Si" }, // Funcion
       { id: 55, value: "Si" }, // Peso
       { id: 56, value: "Si" }, // Emp de Transp
@@ -2575,7 +2575,7 @@ export const infinit: Product[] = [
       {
         // Duracion Batería
         id: 7,
-        value: `de 7,4v / 2400 mAh`,
+        value: `de 7.4v / 2400 mAh`,
       },
       {
         // Doble Entrada Mic
@@ -2605,17 +2605,17 @@ export const infinit: Product[] = [
       {
         // Batería
         id: 10,
-        value: "Interna Recargable 7,4v / 2400mAh",
+        value: "Interna Recargable 7.4v / 2400mAh",
       },
       {
         // Reguladores
         id: 5,
-        value: "Graves, Agudos, Volumen y Eco de Micrófono",
+        value: "Graves, Agudos, Volumen y Eco de Mic",
       },
       {
         // Entradas
         id: 8,
-        value: "Micrófono y Auxiliar",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Efectos
@@ -2633,7 +2633,7 @@ export const infinit: Product[] = [
         value: "28.6 x 37.6 x 27.6 cm",
       },
       { id: 18, value: "3 kg" }, // Peso
-      { id: 54, value: "Bluetooth 5.0" }, // Bluetooth
+      { id: 9, value: "Bluetooth 5.0" }, // Bluetooth
       { id: 53, value: "Si" }, // Funcion
       { id: 55, value: "Si" }, // Peso
       { id: 56, value: "Si" }, // Emp de Transp

@@ -147,7 +147,7 @@ export const flama: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Auxiliar y Micrófono",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Display
@@ -210,7 +210,7 @@ export const flama: Product[] = [
     sku: `AW-T806F`,
     link: `/productos/AW-T806F`,
     line: `flama`,
-    categories: [102],
+    categories: [102,110],
     imgs: [
       `/products/AW-T806F/img/1.webp`,
       `/products/AW-T806F/img/2.webp`,
@@ -353,7 +353,7 @@ export const flama: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Guitarra, USB, Micro SD, Auxiliar y Micrófono",
+        value: "Auxiliar, Micrófono, Guitarra, USB, MicroSD",
       },
       {
         // Cuerpo madera
@@ -407,7 +407,7 @@ export const flama: Product[] = [
     sku: `AW-T806F-SA`,
     link: `/productos/AW-T806F-SA`,
     line: `flama`,
-    categories: [102],
+    categories: [102,110],
     imgs: [
       `/products/AW-T806F-SA/img/1.webp`,
       `/products/AW-T806F-SA/img/2.webp`,
@@ -548,7 +548,7 @@ export const flama: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Guitarra, USB, Micro SD, Auxiliar y Micrófono",
+        value: "Auxiliar, Micrófono, Guitarra, USB, MicroSD",
       },
       {
         // Display
@@ -744,7 +744,7 @@ export const flama: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Guitarra, Auxiliar y Micrófono",
+        value: "Auxiliar, Micrófono, Guitarra",
       },
       {
         // Cuerpo Madera
@@ -801,7 +801,7 @@ export const flama: Product[] = [
     sku: `AW-T1008F`,
     link: `/productos/AW-T1008F`,
     line: `flama`,
-    categories: [102],
+    categories: [102,110],
     imgs: [
       `/products/AW-T1008F/img/1.webp`,
       `/products/AW-T1008F/img/2.webp`,
@@ -950,7 +950,7 @@ export const flama: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "USB, Micro SD, Auxiliar y Micrófono x2",
+        value: "Auxiliar, Micrófono x2, USB, MicroSD",
       },
       {
         // Display
@@ -1129,7 +1129,7 @@ export const flama: Product[] = [
       {
         // Luces
         id: 12,
-        value: "En Todo el Panel Frontal (6 efectos)",
+        value: "En Todo el Panel Frontal, 6 efectos",
       },
       {
         // Conectividad
@@ -1149,7 +1149,7 @@ export const flama: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Auxiliar y Micrófono x2",
+        value: "Auxiliar, Micrófono x2",
       },
       {
         // Display

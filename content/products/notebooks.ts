@@ -6,7 +6,7 @@ export const notebooks: Product[] = [
     name: `Cloudbook Dual-core 4GB RAM Win 10`,
     sku: `CA-141`,
     link: `/productos/CA-141`,
-    categories: [107],
+    categories: [107,110],
     imgs: [
       `/products/CA-141/img/1.webp`,
       // `/products/CA-141/img/2.webp`,
@@ -90,7 +90,7 @@ export const notebooks: Product[] = [
     name: `Cloudbook Dual-core 4GB RAM Win 10 + Funda`,
     sku: `CA141-CO`,
     link: `/productos/CA141-CO`,
-    categories: [107],
+    categories: [107,110],
     imgs: [
       `/products/CA141-CO/img/1.webp`,
       // `/products/CA141-CO/img/2.webp`,
@@ -272,7 +272,7 @@ export const notebooks: Product[] = [
     name: `Notebook Core i3 4GB RAM Win 10`,
     sku: `NA-1413`,
     link: `/productos/NA-1413`,
-    categories: [107],
+    categories: [107,110],
     imgs: [
       `/products/NA-1413/img/1.webp`,
       `/products/NA-1413/img/2.webp`,

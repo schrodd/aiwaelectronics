@@ -328,7 +328,7 @@ export const headsets: Product[] = [
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-105N`,
     link: `/productos/ATA-105N`,
-    categories: [103],
+    categories: [103,110],
     imgs: [
       `/products/ATA-105N/img/1.webp`,
       `/products/ATA-105N/img/2.webp`,
@@ -442,7 +442,7 @@ export const headsets: Product[] = [
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-105B`,
     link: `/productos/ATA-105B`,
-    categories: [103],
+    categories: [103,110],
     altBackground: true,
     imgs: [
       `/products/ATA-105B/img/1.webp`,
@@ -783,7 +783,7 @@ export const headsets: Product[] = [
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-205N`,
     link: `/productos/ATA-205N`,
-    categories: [103],
+    categories: [103,110],
     imgs: [
       `/products/ATA-205N/img/1.webp`,
       `/products/ATA-205N/img/2.webp`,
@@ -884,7 +884,7 @@ export const headsets: Product[] = [
     name: `Auriculares In-ear Bluetooth`,
     sku: `ATA-205B`,
     link: `/productos/ATA-205B`,
-    categories: [103],
+    categories: [103,110],
     altBackground: true,
     imgs: [
       `/products/ATA-205B/img/1.webp`,

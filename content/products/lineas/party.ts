@@ -7,7 +7,7 @@ export const party: Product[] = [
     sku: `AW-P240D`,
     link: `/productos/AW-P240D`,
     line: `party`,
-    categories: [110],
+    categories: [101,110],
     imgs: [
       `/products/AW-P240D/img/7.webp`,
       `/products/AW-P240D/img/8.webp`,
@@ -160,7 +160,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono
@@ -213,7 +213,7 @@ export const party: Product[] = [
     sku: `AW-P240D-SA`,
     link: `/productos/AW-P240D-SA`,
     line: `party`,
-    categories: [110],
+    categories: [101,110],
     imgs: [
       `/products/AW-P240D-SA/img/1.webp`,
       `/products/AW-P240D-SA/img/2.webp`,
@@ -356,7 +356,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono
@@ -548,7 +548,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono y Auxiliar",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Micrófono
@@ -605,7 +605,7 @@ export const party: Product[] = [
     sku: `AW-P450D`,
     link: `/productos/AW-P450D`,
     line: `party`,
-    categories: [110],
+    categories: [101,110],
     imgs: [
       `/products/AW-P450D/img/1.webp`,
       `/products/AW-P450D/img/2.webp`,
@@ -758,7 +758,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono
@@ -811,7 +811,7 @@ export const party: Product[] = [
     sku: `AW-P450D-SA`,
     link: `/productos/AW-P450D-SA`,
     line: `party`,
-    categories: [110],
+    categories: [101,110],
     imgs: [
       `/products/AW-P450D-SA/img/1.webp`,
       `/products/AW-P450D-SA/img/2.webp`,
@@ -954,7 +954,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono
@@ -1145,7 +1145,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono y Auxiliar",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Micrófono
@@ -1202,7 +1202,7 @@ export const party: Product[] = [
     sku: `AW-T451D`,
     link: `/productos/AW-T451D`,
     line: `party`,
-    categories: [110],
+    categories: [102,110],
     imgs: [
       `/products/AW-T451D/img/1.webp`,
       `/products/AW-T451D/img/2.webp`,
@@ -1358,7 +1358,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono
@@ -1411,7 +1411,7 @@ export const party: Product[] = [
     sku: `AW-T451D-SA`,
     link: `/productos/AW-T451D-SA`,
     line: `party`,
-    categories: [110],
+    categories: [102,110],
     imgs: [
       `/products/AW-T451D-SA/img/1.webp`,
       `/products/AW-T451D-SA/img/2.webp`,
@@ -1558,7 +1558,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono incluido
@@ -1752,7 +1752,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono y Auxiliar",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Radio
@@ -1804,7 +1804,7 @@ export const party: Product[] = [
     sku: `AW-T600D`,
     link: `/productos/AW-T600D`,
     line: `party`,
-    categories: [110],
+    categories: [102,110],
     imgs: [
       `/products/AW-T600D/img/1.webp`,
       `/products/AW-T600D/img/2.webp`,
@@ -1953,7 +1953,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono
@@ -2007,7 +2007,7 @@ export const party: Product[] = [
     sku: `AW-T600D-SA`,
     link: `/productos/AW-T600D-SA`,
     line: `party`,
-    categories: [110],
+    categories: [102,110],
     imgs: [
       `/products/AW-T600D/img/2.webp`,
       `/products/AW-T600D/img/3.webp`,
@@ -2148,7 +2148,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono
@@ -2341,7 +2341,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono y Auxiliar",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Micrófono
@@ -2399,7 +2399,7 @@ export const party: Product[] = [
     sku: `AW-P1200D`,
     link: `/productos/AW-P1200D`,
     line: `party`,
-    categories: [110],
+    categories: [101,110],
     imgs: [
       `/products/AW-P1200D/img/1.webp`,
       `/products/AW-P1200D/img/2.webp`,
@@ -2553,7 +2553,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono
@@ -2607,7 +2607,7 @@ export const party: Product[] = [
     sku: `AW-P1200D-SA`,
     link: `/productos/AW-P1200D-SA`,
     line: `party`,
-    categories: [110],
+    categories: [101,110],
     imgs: [
       `/products/AW-P1200D-SA/img/1.webp`,
       `/products/AW-P1200D-SA/img/2.webp`,
@@ -2751,7 +2751,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, USB, MicroSD",
       },
       {
         // Micrófono
@@ -2946,7 +2946,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono y Auxiliar",
+        value: "Auxiliar, Micrófono",
       },
       {
         // Micrófono
@@ -3004,7 +3004,7 @@ export const party: Product[] = [
     sku: `AW-P1510D`,
     link: `/productos/AW-P1510D`,
     line: `party`,
-    categories: [110],
+    categories: [101,110],
     imgs: [
       `/products/AW-P1510D/img/1.webp`,
       `/products/AW-P1510D/img/2.webp`,
@@ -3153,7 +3153,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, Guitarra, USB, MicroSD y Auxiliar",
+        value: "Auxiliar, Micrófono, Guitarra, USB, MicroSD",
       },
       {
         // Micrófono
@@ -3350,7 +3350,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono, Guitarra y Auxiliar",
+        value: "Auxiliar, Micrófono, Guitarra",
       },
       {
         // Micrófono
@@ -3553,7 +3553,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Guitarra, Micrófono, USB, MicroSD, Auxiliar y de línea",
+        value: "Auxiliar, Micrófono, Guitarra, USB, MicroSD, De línea",
       },
       {
         // Altura de Tripode
@@ -3735,12 +3735,12 @@ export const party: Product[] = [
       {
         // Batería
         id: 10,
-        value: "Litio 3,7v / 3600mAh",
+        value: "Litio 3.7v / 3600mAh",
       },
       {
         // Duración de batería
         id: 11,
-        value: "Hasta 8 horas (según su uso)",
+        value: "8 horas (según su uso)",
       },
       {
         // Luces
@@ -3765,7 +3765,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono x2, Auxiliar",
+        value: "Auxiliar, Micrófono x2",
       },
       {
         // Efectos
@@ -3929,12 +3929,12 @@ export const party: Product[] = [
       {
         // Batería
         id: 10,
-        value: "Litio 3,7v / 3600mAh",
+        value: "Litio 3.7v / 3600mAh",
       },
       {
         // Duración de batería
         id: 11,
-        value: "Hasta 8 horas (según su uso)",
+        value: "8 horas (según su uso)",
       },
       {
         // Luces
@@ -3959,7 +3959,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono x2, Auxiliar",
+        value: "Auxiliar, Micrófono x2",
       },
       {
         // Efectos
@@ -4123,12 +4123,12 @@ export const party: Product[] = [
       {
         // Batería
         id: 10,
-        value: "Litio 3,7v / 3600mAh",
+        value: "Litio 3.7v / 3600mAh",
       },
       {
         // Duración de batería
         id: 11,
-        value: "Hasta 8 horas (según su uso)",
+        value: "8 horas (según su uso)",
       },
       {
         // Luces
@@ -4153,7 +4153,7 @@ export const party: Product[] = [
       {
         // Entradas
         id: 8,
-        value: "Micrófono x2, Auxiliar",
+        value: "Auxiliar, Micrófono x2",
       },
       {
         // Efectos
