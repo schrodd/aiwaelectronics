@@ -23,10 +23,16 @@ main.search
         box-shadow: $shadow
       .MuiFormControl-root
         margin-bottom: 20px
+      button
+        @include flex
+        svg
+          margin-right: 5px
       button.clear-fields
         @include btn($altDeg, white)
         width: 100%
         margin: 15px 0 0 0
+        &[disabled]
+          opacity: .5
       button.back-to-top
         @include btn(white, $black)
         font-size: 14px
@@ -36,6 +42,8 @@ main.search
         z-index: 99
         opacity: 0
         transition: all .3s ease-out
+        svg
+          fill: $black
         &.visible
           opacity: 1
   div.products

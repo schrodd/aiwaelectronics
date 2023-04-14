@@ -10,6 +10,8 @@ import ProductCard from '../ProductCard'
 import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
+import DeleteSweepIcon from '@mui/icons-material/DeleteSweep';
+import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 export default function SearchContainer() {
   const [selectedCategory, setSelectedCategory] = useState('')
@@ -131,8 +133,13 @@ export default function SearchContainer() {
           <FormGroup>
             <FormControlLabel control={<Checkbox value={showDiscontinued} defaultChecked/>} label="Mostrar descontinuados" onChange={toggleShowDiscontinued}/>
           </FormGroup>
-          <button className='clear-fields' onClick={clearFields} value=''>Limpiar campos</button>
-          <button className={`back-to-top ${showBackToTop && 'visible'}`} onClick={scrollToTop} value=''>Volver arriba</button>
+          <button className='clear-fields' onClick={clearFields} value='' disabled={Boolean(!selectedCategory)}>
+            <DeleteSweepIcon/>Limpiar campos
+          </button>
+          <button className={`back-to-top ${showBackToTop && 'visible'}`} onClick={scrollToTop} value=''>
+            <ArrowUpwardIcon fontSize='small'/>
+            Volver arriba
+          </button>
         </div>
       </aside>
       <div className="products">
