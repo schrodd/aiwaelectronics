@@ -7,7 +7,7 @@ export const productGroups = {
   ],
   on_ear: [
     ['AVA-BT301N', 'AVA-BT301B'],
-    ['AVA-102N', 'AVA-102N'],
+    ['AVA-102N', 'AVA-102B'],
   ],
   notebooks: [
     ['NA-1431'],

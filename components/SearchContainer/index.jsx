@@ -155,7 +155,7 @@ export default function SearchContainer() {
         </div>
       </aside>
       <div className="products">
-        <p className='results'>{finalProducts.length} resultados</p>
+        <p className='results'>Resultados: {finalProducts.length}</p>
         {finalProducts.map((e, i) => <ProductCard sku={e.sku} showName showSku showTags key={i} />)}
       </div>
     </main>
