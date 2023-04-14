@@ -4,20 +4,48 @@ $shadow: 0px 0px 10px rgba(0,0,0,.10)
 main.search
   min-height: 700px
   @include flex(row, stretch, stretch)
+  @include mobile
+    flex-direction: column-reverse
   aside.filters
     width: 25%
     min-width: 350px
     padding: 30px
     background: $black
     box-shadow: $shadow
+    @include mobile
+      position: sticky
+      z-index: 1
+      width: 100%
+      bottom: 0px
     *
       color: white
+    button.mobile-open
+      width: 100%
+      margin: -10px 0 15px
+      display: none
+      border: none
+      background: none
+      transform: rotate(180deg)
+      transition: all .3s ease-out
+      &.open
+        transform: rotate(0deg)
+      svg
+        fill: white
+      @include mobile
+        display: block
     .wrapper
       width: 100%
+      max-height: 999px
+      overflow: hidden
+      transition: all .5s ease-out
+      &.open
+        max-height: 0px
       h1
         font-family: DINPRO
         margin-bottom: 30px
         font-size: 40px
+        @include mobile
+          font-size: 22px
       .MuiInputBase-root
         background: $blackDeg
         box-shadow: $shadow
@@ -42,6 +70,8 @@ main.search
         z-index: 99
         opacity: 0
         transition: all .3s ease-out
+        @include mobile
+          display: none
         svg
           fill: $black
         &.visible
@@ -55,11 +85,18 @@ main.search
     width: 100%
     gap: 30px
     padding: 50px
+    @include mobile
+      padding: 60px 0
+      min-height: 78vh
     p.results
       color: grey
       position: absolute
       font-size: 14px
       top: 10px
       left: 10px
+      @include mobile
+        top: 15px
+        left: 15px
+        font-size: 20px
     &>h2, &>p
       color: white

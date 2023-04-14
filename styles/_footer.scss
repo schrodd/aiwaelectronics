@@ -1,6 +1,8 @@
 @import 'variables'; 
 
 footer {
+  position: relative;
+  z-index: 100;
   background: $black; 
   color:white;
   padding: 30px 15%;

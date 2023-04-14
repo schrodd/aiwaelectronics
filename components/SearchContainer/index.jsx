@@ -19,6 +19,7 @@ export default function SearchContainer() {
   const [selectedValue, setSelectedValue] = useState('')
   const [showDiscontinued, setShowDiscontinued] = useState(true)
   const [showBackToTop, setShowBackToTop] = useState(false)
+  const [mobileMenu, setMobileMenu] = useState(false)
   let finalProducts, finalFeatures, finalValues
 
   function sortAlphabetically(data, prop){ // Accepts both arrays and objects
@@ -90,7 +91,8 @@ export default function SearchContainer() {
   return (
     <main className="search">
       <aside className="filters">
-        <div className="wrapper">
+        <button className={`mobile-open ${mobileMenu && 'open'}`} onClick={() => setMobileMenu(e => !e)}><ArrowUpwardIcon/></button>
+        <div className={`wrapper ${mobileMenu && 'open'}`}>
           <h1>Búsqueda de productos</h1>
           <FormControl fullWidth>
             <InputLabel id="category-name">Categoría</InputLabel>
