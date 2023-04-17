@@ -41,7 +41,7 @@ export default function ProductCard({sku, showName, showSku, showDesc, showButto
             )}
           </div>
         )}
-        {showDownload && <a className='p-download-button' href={product.downloads} target='_blank'><OpenInNewIcon/>Descargas</a> }
+        {showDownload && <a className='p-download-button' href={product.downloads} target='_blank' rel="noreferrer"><OpenInNewIcon/>Descargas</a> }
       </div>
       {showButton && <button><Link href={product.link}>Ver más</Link></button>}
     </div>
