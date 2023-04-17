@@ -1,0 +1,102 @@
+@import 'variables'
+
+$line: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(220,220,220,1) 50%, rgba(255,255,255,1) 100%)
+
+.product-card
+  @include hoverScale(1.05)
+  background-color: white
+  width: 250px
+  border-radius: 5px
+  box-shadow: $shadow
+  padding: 20px
+  position: relative
+
+  & > svg
+    position: absolute
+    opacity: .2
+
+  @include mobile
+    width: 85%
+    padding: 10px
+
+  a 
+    @include flex
+    .image
+      @include flex
+      width: 150px
+      height: 150px
+      @include mobile
+        margin-right: 5px
+  .texts
+    @include flex(column)
+    margin-top: 5px
+    @include pc
+      &::before
+        content: ''
+        height: 2px
+        width: 100%
+        border-radius: 100%
+        background: $line
+    @include mobile
+      align-items: flex-start
+      margin-right: 15px
+    a.p-download-button
+      @include flex
+      font-size: 12px
+      font-weight: 600
+      margin-top: 5px
+      &:hover
+        text-decoration: underline
+      svg
+        margin-right: 5px
+        width: 15px
+        height: 15px
+    p
+      font-size: 13px
+      font-weight: bold
+      font-family: DINPRO
+      text-align: center
+      @include mobile
+        text-align: left
+      &.p-name
+        font-size: 16px
+        @include mobile
+          font-size: 20px
+      &.p-sku
+        margin-top: 10px
+        margin-bottom: 5px
+        font-size: 12px
+        color: $black
+        @include mobile
+          //display:none;
+      &.p-desc
+        font-weight: 500
+        font-size: 15px
+        color: grey
+    .p-tags
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      margin: 5px 0 5px 0
+      @include mobile
+        margin-bottom: 20px
+      span
+        margin-top: 5px
+        display: flex
+        align-items: center
+        font-size: 12px
+        border-radius: 100px
+        padding: 2px 8px
+        color: white !important
+        svg
+          fill: white !important
+          width: 14px
+          height: 14px
+          margin-right: 3px
+  button
+    @include btn(white, $black, 1px solid $black)
+    @include hoverScale(1)
+    margin-bottom: 20px
+    @include mobile
+      display: none

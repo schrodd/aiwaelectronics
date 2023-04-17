@@ -4,7 +4,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import { products } from '../../content/products';
 import features from '../../content/features'
-import { lvTwoCat } from '../../content/categories'
+import { lvOneCat, lvTwoCat } from '../../content/categories'
 import { useState, useEffect } from 'react';
 import ProductCard from '../ProductCard'
 import FormGroup from '@mui/material/FormGroup';
@@ -35,12 +35,17 @@ export default function SearchContainer() {
   function getPossibleSkus(products){
     return products.map(p => p.sku)
   }
+  function findProductsByMasterCategory(catId, products){
+    const categories = lvTwoCat.map(e => e.parent == catId && e.id) // Array [101, 102]
+    // Return filtered products if any of its categories matches any of the present in the array above
+    return products.filter(prod => prod.categories.some(prodCat => categories.some(cat => cat == prodCat)))
+  }
 
   if (!selectedCategory) { // Si no tocaste nada, ves todos los productos
     finalProducts = products
   } else { // Si seleccionaste categoria...
     // Filtras productos por categoría
-    finalProducts = products.filter(prod => prod.categories.some(cat => cat == selectedCategory))
+    finalProducts = findProductsByMasterCategory(selectedCategory, products)
     // Generas lista de características posibles
     const featureArray = features.filter(e => finalProducts.some(prod => prod.features.some(feat => feat.id == e.id && !e.hideInSearchPage)))
     finalFeatures = removeDuplicates(sortAlphabetically(featureArray, 'name'))
@@ -141,7 +146,7 @@ export default function SearchContainer() {
               label="Categoría"
               onChange={selectCategory}
             >
-              {lvTwoCat.map((e, i) => <MenuItem key={i} value={e.id}>{e.name}</MenuItem>)}
+              {lvOneCat.map((e, i) => <MenuItem key={i} value={e.id}>{e.name}</MenuItem>)}
             </Select>
           </FormControl>
           {selectedCategory && (
@@ -184,7 +189,7 @@ export default function SearchContainer() {
       </aside>
       <div className="products">
         <p className='results'>Resultados: {finalProducts.length}</p>
-        {finalProducts.map((e, i) => <ProductCard sku={e.sku} showName showSku showTags key={i} />)}
+        {finalProducts.map((e, i) => <ProductCard sku={e.sku} showName showSku showTags showDownload key={i} />)}
       </div>
     </main>
   )
