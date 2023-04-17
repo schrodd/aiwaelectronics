@@ -61,12 +61,12 @@ const menus = [
     link: 'https://www.constrictor.com.ar/',
     targetBlank: true
   },
-  {
+  /* {
     name: 'Soporte',
     id: 6,
     isPopup: false,
     link: '/soporte'
-  },
+  }, */
   {
     name: 'Contacto',
     id: 7,

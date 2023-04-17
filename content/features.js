@@ -57,8 +57,8 @@ const features = [ // Características de productos ORDENADAS
   { id: 18, name: 'Peso', hideInSearchPage: true },
   { id: 19, name: 'EAN', hideInSearchPage: true },
   
-  /* 
   { id: 1, name: 'Micrófono' }, 
+  /*
   { id: 7, name: 'Efectos de Luces' },
   { id: 14, name: 'Caja (cuerpo)' },
   { id: 20, name: 'Power Bank' },

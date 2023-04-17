@@ -373,7 +373,15 @@ export const headsets: Product[] = [
     longDesc:
       "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
     buyLink: ``,
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Manos Libres y Asistente de voz' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si, Digital LED' }, // Display
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+    ],
     featuredFeatures: [
       { id: 57 }, // Cable usb carga
       { id: 46 }, // Manos libres
@@ -488,7 +496,15 @@ export const headsets: Product[] = [
     longDesc:
       "Gracias a las cómodas almohadillas siliconadas de los auriculares AIWA in-ear, podes conectar a un mayor nivel con tus temas favoritos, disminuyendo en gran cantidad el ruido del entorno. Su práctico tamaño te permiten vivir de esta experiencia en cualquier lugar.",
     buyLink: ``,
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Manos Libres y Asistente de voz' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si, Digital LED' }, // Display
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+    ],
     featuredFeatures: [
       { id: 57 }, // Cable usb carga
       { id: 46 }, // Manos libres
@@ -616,7 +632,16 @@ export const headsets: Product[] = [
       { id: 44 }, // Ligero
       { id: 76 }, // Aliado Fitness
     ],
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si, Digital LED' }, // Display
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
     featuresSections: [
       {
         title: "Auricular",
@@ -729,7 +754,16 @@ export const headsets: Product[] = [
       { id: 44 }, // Ligero
       { id: 76 }, // Aliado Fitness
     ],
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si, Digital LED' }, // Display
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
     featuresSections: [
       {
         title: "Auricular",
@@ -829,7 +863,16 @@ export const headsets: Product[] = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
     featuresSections: [
       {
         title: "Auricular",
@@ -931,7 +974,16 @@ export const headsets: Product[] = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
     featuresSections: [
       {
         title: "Auricular",
@@ -1032,7 +1084,16 @@ export const headsets: Product[] = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
     featuresSections: [
       {
         title: "Auricular",
@@ -1133,7 +1194,16 @@ export const headsets: Product[] = [
       { id: 56 }, // Almohadillas repuesto
       { id: 49, value: `blanco y negro` }, // Colores
     ],
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
     featuresSections: [
       {
         title: "Auricular",
@@ -1250,7 +1320,16 @@ export const headsets: Product[] = [
       { id: 12 }, // Bluetooth
       { id: 78, value: "dos horas" }, // Carga rápida
     ],
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
     featuresSections: [
       {
         title: "Auricular",
@@ -1366,7 +1445,16 @@ export const headsets: Product[] = [
       { id: 58 }, // Alcance
       { id: 59 }, // USBC
     ],
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
     featuresSections: [
       {
         title: "Auricular",
@@ -1484,7 +1572,16 @@ export const headsets: Product[] = [
       { id: 58 }, // Alcance
       { id: 59 }, // USBC
     ],
-    features: [],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
     featuresSections: [
       {
         title: "Auricular",

@@ -142,7 +142,7 @@ export default function ThreeSixty({sku, top, shortDesc, fs, setFs}){ // sku (st
             <Image src={`https://www.aiwaelectronics.com.ar/fileserver/products/${sku}/360/${idx}-hq.webp`} className='not-draggable zoomed'alt='360-image-zoomed' fill unoptimized priority/>
           </TransformComponent>
         </TransformWrapper>)}
-      <div className='controls'>
+      <div className={`controls ${zoom && 'active'}`}>
         <Slider
           disabled={highlightOpen}
           className='slider'

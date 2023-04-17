@@ -2,7 +2,17 @@
 
 a.main-banner {
   position: relative;
+  figure {
+    position: relative;
+    img {
+      object-fit: cover;
+    }
+  }
+  figure.desktop {
+    height: 350px;
+  }
   figure.mobile {
+    height: 600px;
     display:none !important;
   }
   @include mobile {

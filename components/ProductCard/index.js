@@ -7,7 +7,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { useRouter } from 'next/router';
 
-export default function ProductCard({sku, showName, showSku, showDesc, showButton, showGen, showTags, showViewing, showDownload}){
+export default function ProductCard({sku, showName, showSku, showDesc, showButton, showGen, showTags, showDownload}){
   const router = useRouter()
   const activePath = router.asPath
   const product = products.find(e => e.sku == sku)

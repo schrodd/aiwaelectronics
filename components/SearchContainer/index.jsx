@@ -15,7 +15,6 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 
-
 export default function SearchContainer() {
   const [selectedCategory, setSelectedCategory] = useState('')
   const [selectedFeature, setSelectedFeature] = useState('')

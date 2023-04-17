@@ -66,6 +66,7 @@ div#threeSixtyContainer {
   }
   .react-transform-wrapper {
     border-radius: 2px;
+    overflow: visible;
     .react-transform-component {
       height: 460px;
       width: 460px;
@@ -85,12 +86,25 @@ div#threeSixtyContainer {
     }
   }
   .controls {
+    @include flex(row, center, center);
     margin: 20px 0;
     min-width: 300px;
     min-height: 50px;
-    @include flex(row, center, center);
     flex-wrap: wrap;
     gap: 15px;
+    z-index: 1;
+    &.active {
+      background: rgba(255,255,255,.2);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      @include pc {
+        padding-right: 20px;
+        margin-right: -20px;
+      }
+      @include mobile {
+        padding: 10px 0;
+      }
+    }
     .slider {
       width: 200px;
       margin: 0 30px;

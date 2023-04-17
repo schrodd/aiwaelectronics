@@ -64,7 +64,7 @@ export const lvTwoCat = [
     route: '/categorias/in-ear',
     hidden: false,
     cover: '/images/categories/cover/inear.png',
-    img: '/images/categories/banner/parlantes.jpg',
+    img: '/images/categories/banner/inear.jpg',
     mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
@@ -75,7 +75,7 @@ export const lvTwoCat = [
     route: '/categorias/on-ear',
     hidden: false,
     cover: '/images/categories/cover/onear.png',
-    img: '/images/categories/banner/parlantes.jpg',
+    img: '/images/categories/banner/onear.jpg',
     mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
@@ -108,7 +108,7 @@ export const lvTwoCat = [
     route: '/categorias/notebooks',
     hidden: false,
     cover: '/images/categories/cover/notebooks.png',
-    img: '/images/categories/banner/parlantes.jpg',
+    img: '/images/categories/banner/notebooks.jpg',
     mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
