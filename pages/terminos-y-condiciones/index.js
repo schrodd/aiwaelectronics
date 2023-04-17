@@ -44,10 +44,17 @@ export default function tyc(){
         <p>Un pixel es un punto único en una imagen gráfica. Las pantallas LCD muestran las imágenes dividiendo la pantalla en millones de píxeles, ordenados en líneas y columnas. Los píxeles son colocados a corta distancia, unos con otros, de modo que parecen conectados, para así generar la sensación de continuidad lineal en una imagen o reproducción de video.</p>
         <p><b>¿Cómo está conformado un pixel?</b></p>
         <p>Está conformado por tres sub píxeles: uno rojo, uno verde y uno azul (ver fig.1). La mezcla de estos tres colores a diferente intensidad da lugar a millones de colores que muestran las pantallas.</p>
+        <div className="fig">
+          <Image src='/images/pages/tyc/px.jpg' width={160} height={160} alt='pixels'/>
+          <p><small>Fig. 1</small></p>
+        </div>
         <p>Durante el proceso de fabricación de las pantallas LCD, pueden quedar sub píxeles oscuros o brillantes, que no afectan la funcionalidad de la pantalla, aunque pueden llegar a causar en algunas imágenes cierta contaminación visual, que puede llegar a ser visible en ciertas ocasiones, de manera temporal o de manera continua. Sin embargo, esto no se considera como un defecto de fabricación, a menos que el número de sub píxeles o píxeles defectuosos exceda el máximo permitido por las normas internacionales que regulan las políticas y los procesos productivos de pantallas LCD (Norma UNE-EN ISO 13406-2). Por consiguiente, Aiwa Electronics adopta para sus pantallas, la siguiente política de máximo número de pixeles defectuosos, antes de considerar dañado el producto.</p>
         <p><b>DEFECTO TIPO I:</b> Es cuando los tres sub pixeles están encendidos, obteniendo un punto blanco.</p>
         <p><b>DEFECTO TIPO II:</b> Es cuando los tres sub pixeles están apagados, obteniendo un punto negro.</p>
         <p><b>DEFECTO TIPO III:</b> Es cuando algún sub pixel parpadea, está encendido o está apagado, obteniendo puntos de color fijos, intermitentes o apagados.</p>
+        <div className="fig table">
+          <Image src='/images/pages/tyc/tabla.png' fill alt='tabla pixeles'/>
+        </div>
         <p>Ante cualquier duda, puede comunicarse con nosotros al 0800-444-1212, o por mail a soporte@totalhome.com.ar</p>
         <div className="buttons">
           <Link href='/'><button><ArrowBackIcon/>Volver al inicio</button></Link>

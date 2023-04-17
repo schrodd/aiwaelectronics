@@ -53,7 +53,7 @@ export const lvTwoCat = [
     route: '/categorias/torres-de-sonido',
     hidden: false,
     cover: '/images/categories/cover/torres.png',
-    img: '/images/categories/banner/parlantes.jpg',
+    img: '/images/categories/banner/torres.jpg',
     mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {

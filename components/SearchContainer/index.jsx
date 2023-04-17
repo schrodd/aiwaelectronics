@@ -134,7 +134,7 @@ export default function SearchContainer() {
             onSelect={changeSku}
             value={skuInput}
             isOptionEqualToValue={(a, b) => true} // this is only for the console to STFU
-            renderInput={(params) => <TextField {...params} onChange={changeSku} label="SKU"/>}
+            renderInput={(params) => <TextField {...params} onChange={changeSku} label="Modelo"/>}
           />
           <FormControl fullWidth>
             <InputLabel id="category-name">Categoría</InputLabel>
