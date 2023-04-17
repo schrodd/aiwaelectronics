@@ -12,6 +12,9 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import DeleteSweepIcon from '@mui/icons-material/DeleteSweep';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
+import TextField from '@mui/material/TextField';
+import Autocomplete from '@mui/material/Autocomplete';
+
 
 export default function SearchContainer() {
   const [selectedCategory, setSelectedCategory] = useState('')
@@ -20,10 +23,17 @@ export default function SearchContainer() {
   const [showDiscontinued, setShowDiscontinued] = useState(true)
   const [showBackToTop, setShowBackToTop] = useState(false)
   const [mobileMenu, setMobileMenu] = useState(true)
+  const [skuInput, setSkuInput] = useState('')
   let finalProducts, finalFeatures, finalValues
 
   function sortAlphabetically(data, prop){ // Accepts both arrays and objects
     return prop ? data.sort((a,b) => a[prop] >= b[[prop]] ? 1 : -1) : data.sort((a,b) => a >= b ? 1 : -1)
+  }
+  function removeDuplicates(arr){
+    return Array.from(new Set(arr))
+  }
+  function getPossibleSkus(products){
+    return products.map(p => p.sku)
   }
 
   if (!selectedCategory) { // Si no tocaste nada, ves todos los productos
@@ -33,14 +43,14 @@ export default function SearchContainer() {
     finalProducts = products.filter(prod => prod.categories.some(cat => cat == selectedCategory))
     // Generas lista de características posibles
     const featureArray = features.filter(e => finalProducts.some(prod => prod.features.some(feat => feat.id == e.id && !e.hideInSearchPage)))
-    finalFeatures = Array.from(new Set(sortAlphabetically(featureArray, 'name')))
+    finalFeatures = removeDuplicates(sortAlphabetically(featureArray, 'name'))
     if (selectedFeature) { // Si seleccionaste característica, generas lista de valores posibles
       const featValues = [] // Array temporal de valores posibles
       finalProducts.forEach(prod => { // Por cada producto...
         const match = prod.features.find(feat => feat.id == selectedFeature) // Busca la feature seleccionada
         if (match) featValues.push(match.value) // Si hay coincidencia, incluye su valor en el array temporal
       })
-      finalValues = Array.from(new Set(sortAlphabetically(featValues))) // Genera los valores posibles sin repetir
+      finalValues = removeDuplicates(sortAlphabetically(featValues)) // Genera los valores posibles sin repetir
       if (selectedValue) {
         finalProducts = finalProducts.filter(prod => prod.features.some(feat => feat.id == selectedFeature && feat.value == selectedValue)) // Filtra por valor seleccionado
       }
@@ -48,6 +58,9 @@ export default function SearchContainer() {
   }
   if (!showDiscontinued) {
     finalProducts = finalProducts.filter(prod => !prod.categories.some(cat => cat == 110))
+  }
+  if (skuInput) {
+    finalProducts = finalProducts.filter(prod => prod.sku.includes(skuInput))
   }
 
   // Handlers
@@ -75,11 +88,15 @@ export default function SearchContainer() {
     setSelectedCategory('')
     setSelectedFeature('')
     setSelectedValue('')
+    setSkuInput('')
     scrollToTop()
   }
   function openMobileMenu() {
     setMobileMenu(e => !e)
     scrollToTop()
+  }
+  function changeSku(e) {
+    setSkuInput(e.target.value)
   }
 
   // Scroll to top
@@ -104,6 +121,17 @@ export default function SearchContainer() {
         <button className={`mobile-open ${mobileMenu && 'open'}`} onClick={openMobileMenu}><ArrowUpwardIcon/></button>
         <div className={`wrapper ${mobileMenu && 'open'}`}>
           <h1>Búsqueda de productos</h1>
+          <Autocomplete
+            disablePortal
+            id="sku-input"
+            options={getPossibleSkus(finalProducts)}
+            fullWidth
+            disableClearable
+            onSelect={changeSku}
+            value={skuInput}
+            isOptionEqualToValue={(a, b) => true} // this is only for the console to STFU
+            renderInput={(params) => <TextField {...params} onChange={changeSku} label="SKU"/>}
+          />
           <FormControl fullWidth>
             <InputLabel id="category-name">Categoría</InputLabel>
             <Select
@@ -145,7 +173,7 @@ export default function SearchContainer() {
           <FormGroup>
             <FormControlLabel control={<Checkbox value={showDiscontinued} defaultChecked/>} label="Mostrar descontinuados" onChange={toggleShowDiscontinued}/>
           </FormGroup>
-          <button className='clear-fields' onClick={clearFields} value='' disabled={Boolean(!selectedCategory)}>
+          <button className='clear-fields' onClick={clearFields} value=''>
             <DeleteSweepIcon/>Limpiar campos
           </button>
           <button className={`back-to-top ${showBackToTop && 'visible'}`} onClick={scrollToTop} value=''>
