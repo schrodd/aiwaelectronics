@@ -3,6 +3,7 @@
 $line: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(220,220,220,1) 50%, rgba(255,255,255,1) 100%)
 
 .product-card
+  @include flex(column)
   @include hoverScale(1.05)
   background-color: white
   width: 250px
@@ -10,15 +11,13 @@ $line: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(220,220,220,1) 50%, r
   box-shadow: $shadow
   padding: 20px
   position: relative
-
+  @include mobile
+    flex-direction: row
+    width: 85%
+    padding: 10px
   & > svg
     position: absolute
     opacity: .2
-
-  @include mobile
-    width: 85%
-    padding: 10px
-
   a 
     @include flex
     .image
@@ -44,7 +43,11 @@ $line: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(220,220,220,1) 50%, r
       @include flex
       font-size: 12px
       font-weight: 600
-      margin-top: 5px
+      @include mobile
+        margin-top: -5px
+        margin-bottom: 10px
+      @include pc
+        margin-top: 5px
       &:hover
         text-decoration: underline
       svg
