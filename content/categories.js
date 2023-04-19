@@ -123,17 +123,6 @@ export const lvTwoCat = [
     mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
-    name: 'Gaming',
-    desc: 'Competí y ganá con Constrictor.',
-    id: 109,
-    parent: 2,
-    route: 'https://www.constrictor.com.ar/',
-    hidden: false,
-    cover: '/images/categories/cover/gaming.png',
-    img: '/images/categories/banner/parlantes.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
-  },
-  {
     name: 'Discontinuos',
     desc: 'Productos que ya no se distribuyen comercialmente',
     id: 110,

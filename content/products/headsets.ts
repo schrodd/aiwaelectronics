@@ -236,6 +236,9 @@ export const headsets: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1Tg2oFaysAoXIMu-ZvrOF2YnFEF7bVRKA`,
     colors: ["AVA-BT301B", "AVA-BT301N"],
+    videos: [
+      { title: 'Presentación', youtubeId: 'pdUqlG7nsHY' }
+    ]
   },
   { // AVA-BT301B
     name: `Auriculares On-ear Bluetooth`,
@@ -323,6 +326,9 @@ export const headsets: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1v8HOmraKEBIoSlQCZCs2kBfQAVlSdySF`,
     colors: ["AVA-BT301B", "AVA-BT301N"],
+    videos: [
+      { title: 'Presentación', youtubeId: 'pdUqlG7nsHY' }
+    ]
   },
   { // ATA-105N
     name: `Auriculares In-ear Bluetooth`,
@@ -688,6 +694,9 @@ export const headsets: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1Uu8rm2ALdiXv_fwNKk-SFXgBpZOJEkBY`,
     colors: ["ATA-106B", "ATA-106N"],
+    videos: [
+      { title: 'Presentación', youtubeId: 'NRrKMhH-yaY' }
+    ]
   },
   { // ATA-106B
     name: `Auriculares In-ear Bluetooth`,
@@ -807,6 +816,9 @@ export const headsets: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1UlHBO7yRy7Bv_vOXgu4QNYmzjOJHRtnt`,
     colors: ["ATA-106B", "ATA-106N"],
+    videos: [
+      { title: 'Presentación', youtubeId: 'NRrKMhH-yaY' }
+    ]
   },
   { // ATA-205N
     name: `Auriculares In-ear Bluetooth`,
@@ -1357,6 +1369,9 @@ export const headsets: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
     colors: [],
+    videos: [
+      { title: 'Presentación', youtubeId: '0TuNb8C5-zg' }
+    ]
   },
   { // ATA-406N
     name: `Auriculares In-ear Bluetooth`,
@@ -1480,6 +1495,9 @@ export const headsets: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1X1kjKXFrCMsob_Egu_YJDR19gRJHlIT5`,
     colors: ["ATA-406B", "ATA-406N"],
+    videos: [
+      { title: 'Presentación', youtubeId: 'dESiqsi_kYk' }
+    ]
   },
   { // ATA-406B
     name: `Auriculares In-ear Bluetooth`,
@@ -1604,5 +1622,8 @@ export const headsets: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1WuUfgOnQsZbcCmCks9yM9-XE5l4-0k0i`,
     colors: ["ATA-406B", "ATA-406N"],
+    videos: [
+      { title: 'Presentación', youtubeId: 'dESiqsi_kYk' }
+    ]
   },
 ]

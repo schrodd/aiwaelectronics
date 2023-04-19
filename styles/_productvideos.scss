@@ -1,18 +1,26 @@
 @import 'variables';
 
+$mult: 0.7;
+
 .product-videos-swiper {
   position: relative;
   .product-videos-slide {
+    @include flex;
+    background-color: black;
     iframe {
       position: relative;
       z-index: 0;
-      width: 100%;
-      height: 800px;
+      width: 1280px * $mult;
+      height: 720px * $mult;
       * {
         position: relative;
         z-index: 0;
       }
     }
+  }
+  .swiper-button-next, .swiper-button-prev {
+    top: auto;
+    bottom: 100px;
   }
   .swiper-button-prev {
     left: 30px;
