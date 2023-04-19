@@ -141,8 +141,8 @@ export const lvTwoCat = [
     route: '/categorias/discontinuos',
     hidden: true,
     cover: '',
-    img: '',
-    mobileImg: ''
+    img: '/images/categories/banner/torres.jpg',
+    mobileImg: '/images/categories/banner/torres.jpg'
   },
   {
     name: 'Barras de Sonido',

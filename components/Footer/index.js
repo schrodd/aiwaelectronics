@@ -61,11 +61,6 @@ export default function Footer(){
               </Link>
             </li>
             <li>
-              <Link href='/activacion-windows'>
-                Activación Windows
-              </Link>
-            </li>
-            <li>
               <Link href='/preguntas-frecuentes'>
                 Preguntas frecuentes
               </Link>

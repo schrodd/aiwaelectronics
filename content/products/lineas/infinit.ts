@@ -567,8 +567,8 @@ export const infinit: Product[] = [
         value: "Auxiliar, Micrófono x2",
       },
       {
-        // Display
-        id: 6,
+        // Efectos de luces
+        id: 54,
         value: "Si",
       },
       {
@@ -1732,7 +1732,7 @@ export const infinit: Product[] = [
       {
         // Funciones
         id: 13,
-        value: "Bluetooth, TWS, Power Bank",
+        value: "TWS, Power Bank",
       },
       {
         // Reguladores
@@ -1903,7 +1903,7 @@ export const infinit: Product[] = [
       {
         // Funciones
         id: 13,
-        value: "Bluetooth, TWS, Power Bank",
+        value: "TWS, Power Bank",
       },
       {
         // Reguladores
@@ -2080,7 +2080,7 @@ export const infinit: Product[] = [
       {
         // Funciones
         id: 13,
-        value: "Bluetooth, TWS, Power Bank",
+        value: "TWS, Power Bank",
       },
       {
         // Reguladores
@@ -2259,7 +2259,7 @@ export const infinit: Product[] = [
       {
         // Funciones
         id: 13,
-        value: "Bluetooth, TWS, Power Bank",
+        value: "TWS, Power Bank",
       },
       {
         // Reguladores

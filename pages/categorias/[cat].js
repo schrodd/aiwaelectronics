@@ -16,7 +16,7 @@ export default function Category() {
     return <NotFound desc={`No se ha encontrado la categoría "${cat}"`} />
   }
   const prod = products.filter(
-    (e) => e.categories.includes(category.id) && e.buyLink
+    (e) => e.categories.includes(category.id)
   )
   const categoryObj = {
     // Formatea la data para el componente MainBanner
@@ -40,6 +40,8 @@ export default function Category() {
         return groups.on_ear
       case 'notebooks':
         return groups.notebooks
+      case 'discontinuos':
+        return groups.discontinuos
     }
   }
   let lineArr = []

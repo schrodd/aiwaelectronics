@@ -5,6 +5,16 @@ section.swiper-categorias
     --swiper-theme-color: grey
     --swiper-pagination-bullet-inactive-color: grey
     background: $whiteDeg
+    @include pc
+      &.to-right
+        div.main-banner-slide
+          div.product
+            div.left
+              order: 1
+              div.wrapper
+                left: 0
+                margin-left: -100px
+                margin-right: 50px
     div.main-banner-slide
       &.dark
         background: $mainDeg

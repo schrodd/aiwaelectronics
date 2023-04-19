@@ -3074,8 +3074,8 @@ export const party: Product[] = [
         id: 21,
       },
       {
-        // Entrada Auxiliar
-        id: 17,
+        // USB
+        id: 25,
       },
       {
         // Luces LED
@@ -3091,9 +3091,8 @@ export const party: Product[] = [
         value: "Interna Recargable 7.4V / 1800mAh",
       },
       {
-        // Duracion Bateria
-        id: 8,
-        value: "3 horas (máximo volumen)",
+        // USB + TF
+        id: 37,
       },
       {
         // Reg Graves y Agudos
@@ -3126,9 +3125,9 @@ export const party: Product[] = [
         value: "Interna Recargable 7.4V / 1800mAh",
       },
       {
-        // Duración de batería
-        id: 11,
-        value: "3 horas (máximo volumen)",
+        // Radio FM
+        id: 20,
+        value: "Si",
       },
       {
         // Luces
@@ -3143,7 +3142,7 @@ export const party: Product[] = [
       {
         // Funciones
         id: 13,
-        value: "TWS, Radio FM",
+        value: "TWS",
       },
       {
         // Reguladores
@@ -3161,8 +3160,8 @@ export const party: Product[] = [
         value: "Si, inalámbrico",
       },
       {
-        // Display
-        id: 6,
+        // Carry on
+        id: 26,
         value: "Si",
       },
       {
@@ -3358,14 +3357,14 @@ export const party: Product[] = [
         value: "Si, inalámbrico",
       },
       {
-        // Display
-        id: 6,
+        // Carry on
+        id: 26,
         value: "Si",
       },
       {
         // Otras características
         id: 15,
-        value: "Empuñadura de Transporte, Ruedas y Ranura para trípode",
+        value: "Empuñadura de Transporte y Ranura para trípode",
       },
       {
         // Medidas del producto
@@ -3431,14 +3430,14 @@ export const party: Product[] = [
         desc: "Posee Radio, puerto USB, entrada Auxiliar y puerto para tarjetas TF/MicroSD.",
       },
       {
-        title: "Micrófono Inalámbrico Incluido",
-        img: fileserver + "/banners/microfono.webp",
-        desc: `¡Diversión sin cables! Incluye micrófono inalámbrico UHF (Ultra High Frequency) y control remoto.`,
-      },
-      {
         title: `Elevá tu sonido`,
         img: fileserver + "/banners/tripode1500.webp",
         desc: "Viene con un soporte de 120cm de alto. ¡Elevá la calidad de tus presentaciones!",
+      },
+      {
+        title: "Micrófono Inalámbrico Incluido",
+        img: fileserver + "/banners/microfono.webp",
+        desc: `¡Diversión sin cables! Incluye micrófono inalámbrico UHF (Ultra High Frequency) y control remoto.`,
       },
       {
         title: "True Wireless Stereo",
@@ -3448,7 +3447,7 @@ export const party: Product[] = [
       {
         title: `¡Llevalo a todos lados!`,
         img: fileserver + `/banners/portatil1500.webp`,
-        desc: `Gracias a su sistema Carry-on y a su batería interna podrás escuchar música donde quiera que vayas`,
+        desc: `Gracias a sus ruedas, manija extensible y su batería interna podrás escuchar música donde quiera que vayas`,
       },
     ],
     shortDesc: `¡Listo para tocar!`,
@@ -3609,12 +3608,12 @@ export const party: Product[] = [
     variants: [],
     videos: [
       {
-        title: "Video 1",
-        youtubeId: "UVKHkHIiFIk",
-      },
-      {
         title: 'Presentacion 1500',
         youtubeId: 'Rbqr5Aavi38'
+      },
+      {
+        title: "Video 1",
+        youtubeId: "UVKHkHIiFIk",
       }
     ]
   },

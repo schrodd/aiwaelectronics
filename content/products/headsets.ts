@@ -29,7 +29,7 @@ export const headsets: Product[] = [
       {
         title: `Mantené el control`,
         img: fileserver + "/banners/cable102n.webp",
-        desc: "Cable extraíble, con micrófono y botón para atender llamadas. Sin el cable no los podés usar, pero al plegarlos y quedar más compactos, ¡lo podés guardar más fácil!",
+        desc: "Auricular con cable y botón para control de llamadas. Lo mejor de ellos es que su cable es desmontable para una mayor durabilidad y facilitar su guardado.",
       },
       {
         title: `Vincha Plegable`,
@@ -104,7 +104,7 @@ export const headsets: Product[] = [
       {
         title: `Mantené el control`,
         img: fileserver + "/banners/cable102b.webp",
-        desc: "Cable extraíble, con micrófono y botón para atender llamadas. Sin el cable no los podés usar, pero al plegarlos y quedar más compactos, ¡lo podés guardar más fácil!",
+        desc: "Auricular con cable y botón para control de llamadas. Lo mejor de ellos es que su cable es desmontable para una mayor durabilidad y facilitar su guardado.",
       },
       {
         title: `Vincha Plegable`,
@@ -172,7 +172,7 @@ export const headsets: Product[] = [
     gen: "1º Generación",
     banners: [
       {
-        title: `Controlá todo`,
+        title: `Botón M`,
         img: fileserver + `/banners/botones301n.webp`,
         desc: `Posee botones para realizar cualquier acción que necesités, pasá canciones, cambiá el volumen ¡y mucho más! Consultá el manual para más información.`,
       },
@@ -187,14 +187,14 @@ export const headsets: Product[] = [
         desc: `¡Llevalo a donde quieras! Su sistema de vincha plegable facilita el guardado y el traslado`,
       },
       {
-        title: `Almohadillas Soft`,
-        img: fileserver + `/banners/almohadillas301n.webp`,
-        desc: `Las suaves almohadillas hacen que los auriculares sean cómodos durante largos períodos. Con altura e inclinación regulable, se adapta perfectamente a vos.`,
-      },
-      {
         title: `¿Sin batería?`,
         img: fileserver + `/banners/cable301n.webp`,
         desc: `¡No hay problema! Conectá el cable auxiliar incluido y seguí escuchando el tiempo que quieras.`,
+      },
+      {
+        title: `Almohadillas Soft`,
+        img: fileserver + `/banners/almohadillas301n.webp`,
+        desc: `Las suaves almohadillas hacen que los auriculares sean cómodos durante largos períodos. Con altura e inclinación regulable, se adapta perfectamente a vos.`,
       },
     ],
     shortDesc: `Tu música y vos, sin intermediarios`,
@@ -259,7 +259,7 @@ export const headsets: Product[] = [
     gen: "1º Generación",
     banners: [
       {
-        title: `Controlá todo`,
+        title: `Botón M`,
         img: fileserver + `/banners/botones301b.webp`,
         desc: `Posee botones para realizar cualquier acción que necesités, pasá canciones, cambiá el volumen ¡y mucho más! Consultá el manual para más información.`,
       },
@@ -274,14 +274,14 @@ export const headsets: Product[] = [
         desc: `Los auriculares AIWA cuentan con la nueva tecnología Bluetooth versión 5.0 que te permiten transmitir datos con el doble de rapidez, y a una distancia mucho mayor que la versión anterior.`,
       },
       {
-        title: `Almohadillas Soft`,
-        img: fileserver + `/banners/almohadillas301b.webp`,
-        desc: `Las suaves almohadillas hacen que los auriculares sean cómodos durante largos períodos. Con altura e inclinación regulable, se adapta perfectamente a vos.`,
-      },
-      {
         title: `¿Sin batería?`,
         img: fileserver + `/banners/cable301b.webp`,
         desc: `¡No hay problema! Conectá el cable auxiliar incluido y seguí escuchando el tiempo que quieras.`,
+      },
+      {
+        title: `Almohadillas Soft`,
+        img: fileserver + `/banners/almohadillas301b.webp`,
+        desc: `Las suaves almohadillas hacen que los auriculares sean cómodos durante largos períodos. Con altura e inclinación regulable, se adapta perfectamente a vos.`,
       },
     ],
     shortDesc: `Tu música y vos, sin intermediarios`,
@@ -400,15 +400,15 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
-          { name: "Capacidad de Batería", value: `40mAh` }, // Batería
-          { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
-          { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
-          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
           {
             name: "Controles",
             value: `Reproducir/Pausar, Manos Libres y Asistente de voz`,
           }, // Controles
+          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
+          { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
+          { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
+          { name: "Capacidad de Batería", value: `40mAh` }, // Batería
+          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
           { name: "Dimensiones", value: `26,65 x 16,4 x 21,6 mm` }, // Dimension prod
           { name: "Peso", value: `4,1 g (cada uno)` }, // Peso
         ],
@@ -416,12 +416,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si, Digital LED` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
+          { name: "Indicador de Carga", value: `Si, Digital LED` },
           { name: "Dimensiones", value: `62 x 40 x 27,2 mm` },
           { name: "Peso", value: `32,5g` },
         ],
@@ -429,7 +429,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: `Negro` },
+          { name: "Color del producto", value: `Negro` },
           { name: "Dimensiones", value: `10 x 10 x 3,5` },
           { name: "Peso", value: `110g` },
           { name: "EAN", value: `7798111354145` },
@@ -523,15 +523,15 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
-          { name: "Capacidad de Batería", value: `40mAh` }, // Batería
-          { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
-          { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
-          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
           {
             name: "Controles",
             value: `Reproducir/Pausar, Manos Libres y Asistente de voz`,
           }, // Controles
+          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
+          { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
+          { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
+          { name: "Capacidad de Batería", value: `40mAh` }, // Batería
+          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
           { name: "Dimensiones", value: `26,65 x 16,4 x 21,6 mm` }, // Dimension prod
           { name: "Peso", value: `4,1 g (cada uno)` }, // Peso
         ],
@@ -539,12 +539,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si, Digital LED` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
+          { name: "Indicador de Carga", value: `Si, Digital LED` },
           { name: "Dimensiones", value: `62 x 40 x 27,2 mm` },
           { name: "Peso", value: `32,5g` },
         ],
@@ -552,7 +552,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: `Blanco` },
+          { name: "Color del producto", value: `Blanco` },
           { name: "Dimensiones del paquete", value: `10 x 10 x 3,5` },
           { name: "Peso", value: `110g` },
           { name: "EAN", value: `7798111354138` },
@@ -646,15 +646,13 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
-          { name: "Capacidad de Batería", value: `40mAh` }, // Batería
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres`}, // Controles
+          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
           { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
           { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
-          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
-          {
-            name: "Controles",
-            value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres`,
-          }, // Controles
+          { name: "Capacidad de Batería", value: `40mAh` }, // Batería
+          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
+          
           { name: "Dimensiones", value: `26,65 x 16,4 x 21,6 mm` }, // Dimension prod
           { name: "Peso", value: `4,1 g (cada uno)` }, // Peso
         ],
@@ -662,12 +660,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si, Digital LED` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
+          { name: "Indicador de Carga", value: `Si, Digital LED` },
           { name: "Dimensiones", value: `62 x 40 x 27,2 mm` },
           { name: "Peso", value: `32,5g` },
         ],
@@ -675,7 +673,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: `Negro` },
+          { name: "Color del producto", value: `Negro` },
           { name: "Dimensiones del paquete", value: `10 x 10 x 3,5` },
           { name: "Peso", value: `110g` },
           { name: "EAN", value: `7798111354473` },
@@ -768,15 +766,12 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
-          { name: "Capacidad de Batería", value: `40mAh` }, // Batería
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
           { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
           { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
-          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
-          {
-            name: "Controles",
-            value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres`,
-          }, // Controles
+          { name: "Capacidad de Batería", value: `40mAh` }, // Batería
+          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
           { name: "Dimensiones", value: `26,65 x 16,4 x 21,6 mm` }, // Dimension prod
           { name: "Peso", value: `4,1 g (cada uno)` }, // Peso
         ],
@@ -784,12 +779,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si, Digital LED` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
+          { name: "Indicador de Carga", value: `Si, Digital LED` },
           { name: "Dimensiones", value: `62 x 40 x 27,2 mm` },
           { name: "Peso", value: `32,5g` },
         ],
@@ -797,7 +792,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: `Blanco` },
+          { name: "Color del producto", value: `Blanco` },
           { name: "Dimensiones del paquete", value: `10 x 10 x 3,5` },
           { name: "Peso", value: `110g` },
           { name: "EAN", value: `7798111354480` },
@@ -877,15 +872,12 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` },
-          { name: "Capacidad de Batería", value: `30mAh` },
+          { name: "Controles", value: `Reproducir/Pausar, Manos Libres y Asistente de voz` },
+          { name: "Versión de Bluetooth", value: `V5.0` },
           { name: "Alcance de Bluetooth", value: `10m` },
           { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` },
-          { name: "Versión de Bluetooth", value: `V5.0` },
-          {
-            name: "Controles",
-            value: `Reproducir/Pausar, Manos Libres y Asistente de voz`,
-          },
+          { name: "Capacidad de Batería", value: `30mAh` },
+          { name: "Duración de Batería", value: `5h aprox.` },
           { name: "Dimensiones", value: `32 x 23 x 23,4 mm` },
           { name: "Peso", value: `4 g (cada uno)` },
         ],
@@ -893,12 +885,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: "DC 5V 500mAh / 150 mAh" },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: "DC 5V 500mAh / 150 mAh" },
+          { name: "Indicador de Carga", value: `Si` },
           { name: "Dimensiones", value: `59,5 x 45,6 x 24,3 mm` },
           { name: "Peso", value: `38g` },
         ],
@@ -906,7 +898,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: `Negro` },
+          { name: "Color del producto", value: `Negro` },
           { name: "Dimensiones del paquete", value: `10 x 10 x 3,5 cm` },
           { name: "Peso", value: `110g` },
           { name: "EAN", value: `7798111354169` },
@@ -988,15 +980,12 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` },
-          { name: "Capacidad de Batería", value: `30mAh` },
+          { name: "Controles", value: `Reproducir/Pausar, Manos Libres y Asistente de voz` },
+          { name: "Versión de Bluetooth", value: `V5.0` },
           { name: "Alcance de Bluetooth", value: `10m` },
           { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` },
-          { name: "Versión de Bluetooth", value: `V5.0` },
-          {
-            name: "Controles",
-            value: `Reproducir/Pausar, Manos Libres y Asistente de voz`,
-          },
+          { name: "Capacidad de Batería", value: `30mAh` },
+          { name: "Duración de Batería", value: `5h aprox.` },
           { name: "Dimensiones", value: `32 x 23 x 23,4 mm` },
           { name: "Peso", value: `4 g (cada uno)` },
         ],
@@ -1004,12 +993,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: "DC 5V 500mAh / 150 mAh" },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: "DC 5V 500mAh / 150 mAh" },
+          { name: "Indicador de Carga", value: `Si` },
           { name: "Dimensiones", value: `59,5 x 45,6 x 24,3 mm` },
           { name: "Peso", value: `38g` },
         ],
@@ -1017,7 +1006,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: `Blanco` },
+          { name: "Color del producto", value: `Blanco` },
           { name: "Dimensiones del paquete", value: `10 x 10 x 3,5 cm` },
           { name: "Peso", value: `110g` },
           { name: "EAN", value: `7798111354152` },
@@ -1098,15 +1087,12 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` },
-          { name: "Capacidad de Batería", value: `30mAh` },
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` },
+          { name: "Versión de Bluetooth", value: `V5.0` },
           { name: "Alcance de Bluetooth", value: `10m` },
           { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` },
-          { name: "Versión de Bluetooth", value: `V5.0` },
-          {
-            name: "Controles",
-            value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres`,
-          },
+          { name: "Capacidad de Batería", value: `30mAh` },
+          { name: "Duración de Batería", value: `5h aprox.` },
           { name: "Dimensiones", value: `32 x 23 x 23,4 mm` },
           { name: "Peso", value: `4 g (cada uno)` },
         ],
@@ -1114,12 +1100,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: "DC 5V 500mAh / 150 mAh" },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: "DC 5V 500mAh / 150 mAh" },
+          { name: "Indicador de Carga", value: `Si` },
           { name: "Dimensiones", value: `59,5 x 45,6 x 24,3 mm` },
           { name: "Peso", value: `38g` },
         ],
@@ -1127,7 +1113,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: `Negro` },
+          { name: "Color del producto", value: `Negro` },
           { name: "Dimensiones del paquete", value: `10 x 10 x 3,5 cm` },
           { name: "Peso", value: `110g` },
           { name: "EAN", value: `7798111354497` },
@@ -1208,15 +1194,12 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` },
-          { name: "Capacidad de Batería", value: `30mAh` },
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` },
+          { name: "Versión de Bluetooth", value: `V5.0` },
           { name: "Alcance de Bluetooth", value: `10m` },
           { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` },
-          { name: "Versión de Bluetooth", value: `V5.0` },
-          {
-            name: "Controles",
-            value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres`,
-          },
+          { name: "Capacidad de Batería", value: `30mAh` },
+          { name: "Duración de Batería", value: `5h aprox.` },
           { name: "Dimensiones", value: `32 x 23 x 23,4 mm` },
           { name: "Peso", value: `4 g (cada uno)` },
         ],
@@ -1224,12 +1207,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: "DC 5V 500mAh / 150 mAh" },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: "DC 5V 500mAh / 150 mAh" },
+          { name: "Indicador de Carga", value: `Si` },
           { name: "Dimensiones", value: `59,5 x 45,6 x 24,3 mm` },
           { name: "Peso", value: `38g` },
         ],
@@ -1237,7 +1220,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: `Blanco` },
+          { name: "Color del producto", value: `Blanco` },
           { name: "Dimensiones del paquete", value: `10 x 10 x 3,5 cm` },
           { name: "Peso", value: `110g` },
           { name: "EAN", value: `7798111354503` },
@@ -1334,15 +1317,12 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
-          { name: "Capacidad de Batería", value: `30mAh` }, // Batería
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
           { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
           { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
-          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
-          {
-            name: "Controles",
-            value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres`,
-          }, // Controles
+          { name: "Capacidad de Batería", value: `30mAh` }, // Batería
+          { name: "Duración de Batería", value: `5h aprox.` }, // Duración Batería
           { name: "Dimensiones", value: `24,5 x 17 x 18 mm` }, // Dimension prod
           { name: "Peso", value: `4 g (cada uno)` }, // Peso
         ],
@@ -1350,12 +1330,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si` },
           { name: "Capacidad de Batería", value: `200mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: `80 x 80 x 40 mm` },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `80 x 80 x 40 mm` },
+          { name: "Indicador de Carga", value: `Si` },
           { name: "Dimensiones", value: `42 x 52 x 25,5 mm` },
           { name: "Peso", value: `36g` },
         ],
@@ -1363,7 +1343,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: "Blanco" },
+          { name: "Color del producto", value: "Blanco" },
           { name: "Dimensiones del paquete", value: "10 x 10 x 3,5 cm" },
           { name: "Peso", value: "110g" },
           { name: "EAN", value: "7798111354510" },
@@ -1459,15 +1439,12 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` },
-          { name: "Capacidad de Batería", value: `40mAh` },
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` },
+          { name: "Versión de Bluetooth", value: `V5.0` },
           { name: "Alcance de Bluetooth", value: `10m` },
           { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` },
-          { name: "Versión de Bluetooth", value: `V5.0` },
-          {
-            name: "Controles",
-            value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres`,
-          },
+          { name: "Capacidad de Batería", value: `40mAh` },
+          { name: "Duración de Batería", value: `5h aprox.` },
           { name: "Dimensiones", value: `20 x 20 x 22,5 mm` },
           { name: "Peso", value: `5 g (cada uno)` },
         ],
@@ -1475,12 +1452,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo de Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
+          { name: "Indicador de Carga", value: `Si` },
           { name: "Dimensiones", value: `60 x 45 x 30 mm` },
           { name: "Peso", value: `40g` },
         ],
@@ -1488,7 +1465,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: "Negro" },
+          { name: "Color del producto", value: "Negro" },
           { name: "Dimensiones del paquete", value: "10 x 10 x 3,5" },
           { name: "Peso", value: "110g" },
           { name: "EAN", value: "7798111354527" },
@@ -1586,15 +1563,12 @@ export const headsets: Product[] = [
       {
         title: "Auricular",
         items: [
-          { name: "Duración de Batería", value: `5h aprox.` },
-          { name: "Capacidad de Batería", value: `40mAh` },
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` },
+          { name: "Versión de Bluetooth", value: `V5.0` },
           { name: "Alcance de Bluetooth", value: `10m` },
           { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` },
-          { name: "Versión de Bluetooth", value: `V5.0` },
-          {
-            name: "Controles",
-            value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres`,
-          },
+          { name: "Capacidad de Batería", value: `40mAh` },
+          { name: "Duración de Batería", value: `5h aprox.` },
           { name: "Dimensiones", value: `20 x 20 x 22,5 mm` },
           { name: "Peso", value: `5 g (cada uno)` },
         ],
@@ -1602,12 +1576,12 @@ export const headsets: Product[] = [
       {
         title: "Estuche",
         items: [
-          { name: "Indicador de Carga", value: `Si` },
           { name: "Capacidad de Batería", value: `300mAh` },
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
-          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo de Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC 5V 500mAh / 150mAh` },
+          { name: "Indicador de Carga", value: `Si` },
           { name: "Dimensiones", value: `60 x 45 x 30 mm` },
           { name: "Peso", value: `40g` },
         ],
@@ -1615,7 +1589,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color", value: "Blanco" },
+          { name: "Color del producto", value: "Blanco" },
           { name: "Dimensiones del paquete", value: "10 x 10 x 3,5" },
           { name: "Peso", value: "110g" },
           { name: "EAN", value: "7798111354534" },

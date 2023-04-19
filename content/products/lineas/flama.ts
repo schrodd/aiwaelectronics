@@ -928,9 +928,9 @@ export const flama: Product[] = [
         value: "Interna Recargable 7.4V / 3600mAh",
       },
       {
-        // Luces
-        id: 12,
-        value: "En Todo el Panel Frontal, 6 efectos",
+        // Efectos
+        id: 23,
+        value: "6 de luces",
       },
       {
         // Conectividad
@@ -1127,9 +1127,9 @@ export const flama: Product[] = [
         value: "Interna Recargable 7.4V / 3600mAh",
       },
       {
-        // Luces
-        id: 12,
-        value: "En Todo el Panel Frontal, 6 efectos",
+        // Efectos
+        id: 23,
+        value: "6 de luces",
       },
       {
         // Conectividad
@@ -1139,7 +1139,7 @@ export const flama: Product[] = [
       {
         // Funciones
         id: 13,
-        value: "TWS, Power Bank, MEGA BASS",
+        value: "TWS, Power Bank, Mega Bass",
       },
       {
         // Reguladores

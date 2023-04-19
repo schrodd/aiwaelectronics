@@ -63,11 +63,6 @@ import wirelessmic from '../public/svg/wirelessmic.svg'
 import wood from '../public/svg/wood.svg'
 import woodwheel from '../public/svg/woodwheel.svg'
 
-/* //// Para cuando se necesite mostrar una característica entre un texto largo ////
-customDesc(input) {
-  return 'coso ' + input + ' cosa'
-} */
-
 const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   {
     id: 3, name: 'Woofers', icon: speaker,
@@ -109,7 +104,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     desc: 'Controlá a gusto los niveles de Eco y Volumen del micrófono.'
   },
   { id: 23, name: 'Regulador de Eco', icon: micreg,
-    desc: 'Controlá a gusto los niveles de Eco del micrófono.'
+    desc: 'Controlá a gusto los niveles de Eco del micrófono o guitarra.'
   },
   { id: 40, name: 'Reguladores', icon: reg,
     desc: 'Controlá a gusto los niveles de Volumen, Graves, Agudos, Volumen del micrófono, Eco del micrófono y Volumen de Guitarra.'
@@ -122,7 +117,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     }
   },
   { id: 20, name: 'Luces', icon: fx,
-    desc: 'Con sus luces LED anima cualquier ambiente fácilmente. Si lo preferís, las podés apagar.'
+    desc: 'Con sus luces LED anima cualquier ambiente fácilmente. Si lo preferís, las podés apagar para ahorrar batería.'
   },
   { 
     id: 5, name: 'Display', icon: lights,
@@ -159,7 +154,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
     customDesc: (val) => `Conectá un micrófono y activá el karaoke donde quieras. ${val ? '¡Usando el micrófono inalámbrico incluido podés cantar en pareja!' : ''}`
   },
   { id: 21, name: 'Entrada para Micrófono y Guitarra', icon: guitmic,
-    desc: '¡Tocá donde quieras! Posee entradas para micrófono y guitarra con reguladores independientes. No necesitás nada más para tu evento.'
+    desc: '¡Tocá donde quieras! Posee entradas para micrófono y guitarra con reguladores de volumen independientes. No necesitás nada más para tu evento.'
   },
   { id: 27, name: '2 Entradas para Micrófono', icon: doblemic,
     desc: 'Tenés la posibilidad de conectar hasta dos micrófonos a la vez y convertir tu fiesta en un verdadero karaoke para divertirte durante toda la noche.'
@@ -245,7 +240,7 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   { id: 54, name: 'Control de Canciones', icon: canciones,
   desc: '¡Navegá tu lista de reproducción libremente!'},
   { id: 77, name: 'Display Digital Led', icon: display,
-  desc: 'Posee indicador de carga digital LED, para que sepas exactamente cuánto te queda de batería.'},
+  desc: 'Posee indicador de carga digital LED, para que sepas cuánto te queda de batería.'},
   { id: 58, name: 'Amplio alcance', icon: wireless,
   desc: 'Tiene un alcance total (aproximado) de 10 metros hasta el dispositivo emisor.'},
   { id: 57, name: 'Cable USB incluido', icon: powerusb,
@@ -275,8 +270,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
 
   { id: 60, name: 'Windows 10 Home', icon: windows,
   desc: 'Sistema Operativo Windows 10 Home incluido con licencia original.' },
-  { id: 61, name: 'Windows 11 Home', icon: windows,
-  desc: '¡El nuevo Windows ya está aqui! Windows 11 Home incluido con licencia original. Aprovechá la mejora de rendimiento y funcionalidades que trae consigo.' },
+  { id: 61, name: 'Windows 11', icon: windows,
+  desc: '¡El nuevo Windows ya está aqui! Windows 11 incluido con licencia original. Aprovechá la mejora de rendimiento y funcionalidades que trae consigo.' },
   { id: 63, name: 'Procesador', icon: chip, // poca potencia, cloud y note 1413
   customDesc: proc => `Posee el modelo ${proc}, ideal para tareas de oficina y navegar por Internet.`},
   { id: 71, name: 'Procesador', icon: chip, // mas potente, 1431

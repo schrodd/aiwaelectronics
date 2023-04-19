@@ -10,7 +10,7 @@ export default function CategorySwiper({skus}) {
       {skus.map((group,i) => (
         <Swiper
         tag='section'
-        className='cat-product-swiper light'
+        className={`cat-product-swiper light ${i % 2 != 0 && 'to-right'}`}
         modules={[Navigation, Pagination, Autoplay]}
         autoplay={{delay: 6000}}
         navigation

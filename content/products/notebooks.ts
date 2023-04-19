@@ -78,7 +78,7 @@ export const notebooks: Product[] = [
       { id: 19, value: `7798111353476` }, // EAN
     ],
     includes: [
-      29, // Fuente de Alimentación
+      5, // Fuente de Alimentación
       9, // Manual y garantía
     ],
     certNo: `0Q-AR-01307-T-0`,
@@ -169,7 +169,7 @@ export const notebooks: Product[] = [
     ],
     includes: [
       24, // Funda de Neoprene
-      29, // Fuente de Alimentación
+      5, // Fuente de Alimentación
       9, // Manual y garantía
     ],
     certNo: `0Q-AR-01307-T-0`,
@@ -261,7 +261,7 @@ export const notebooks: Product[] = [
     ],
     includes: [
       24, // Funda de Neoprene
-      29, // Fuente de Alimentación
+      5, // Fuente de Alimentación
       9, // Manual y garantía
     ],
     certNo: `0Q-AR-01307-T-0`,
