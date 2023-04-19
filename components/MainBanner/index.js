@@ -15,10 +15,10 @@ export default function MainBanner({banner, isFirst}){
         </div>
       )}
       <figure className='desktop'>
-        <Image alt={banner.alt} src={banner.img} fill priority={isFirst}/>
+        <Image alt={banner.alt} src={banner.img} width={1350} height={315} priority={isFirst}/>
       </figure>
       <figure className='mobile'>
-        <Image alt={banner.alt} src={banner.mobileImg} fill priority={isFirst}/>
+        {/* <Image alt={banner.alt} src={banner.mobileImg} fill priority={isFirst}/> */}
       </figure>
     </Link>
   );

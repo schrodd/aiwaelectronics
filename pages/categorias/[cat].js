@@ -28,8 +28,8 @@ export default function Category() {
       title: category.name,
       subtitle: category.desc,
       cta: "",
-      align: "left",
-      valign: "center",
+      align: category.categoryBannerTextPos ? category.categoryBannerTextPos[1] : "left",
+      valign: category.categoryBannerTextPos ? category.categoryBannerTextPos[0] : "center",
     },
   }
   function selectGroup(cat, groups) {

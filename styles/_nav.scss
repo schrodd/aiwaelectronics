@@ -24,6 +24,14 @@
     background: none;
     border: none;
     color: white;
+    &.buscar {
+      margin-top: 8px;
+      margin-right: -5px;
+      svg {
+        width: 50px;
+        height: 50px;
+      }
+    }
   }
   li>button {
     font-size: 40px;

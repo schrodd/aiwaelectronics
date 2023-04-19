@@ -54,7 +54,8 @@ export const lvTwoCat = [
     hidden: false,
     cover: '/images/categories/cover/torres.png',
     img: '/images/categories/banner/torres.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
+    mobileImg: '/images/categories/banner/parlantes.jpg',
+    categoryBannerTextPos: ['top', 'left'],
   },
   {
     name: 'Auriculares In‑ear',

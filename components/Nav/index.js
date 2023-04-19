@@ -20,7 +20,7 @@ export default function Nav() {
       <div className={`modal ${!modalOpen && 'd-none'}`}>
         <button className='mobile-only' onClick={handleBurger}><CloseIcon fontSize="large"/></button>
         {menus.map((e,i) => <NavItem menu={e} key={i} activeTab={activeTab} setActive={setActiveTab} closeModal={handleBurger}/>)}
-        <SearchButton large/>
+        <SearchButton large closeModal={handleBurger}/>
         <SocialContainer mobile/>
       </div>
       <nav>
