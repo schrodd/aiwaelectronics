@@ -66,18 +66,20 @@ export const lvTwoCat = [
     hidden: false,
     cover: '/images/categories/cover/inear.png',
     img: '/images/categories/banner/inear.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
+    mobileImg: '/images/categories/banner/parlantes.jpg',
+    noTextOnCategoryBanner: true,
   },
   {
     name: 'Auriculares On‑ear',
-    desc: 'Diseño clásico. Disfrutá tu música donde sea, como sea.',
+    desc: 'Diseño clásico. Disfrutá tu música donde sea y como sea.',
     id: 104,
     parent: 5,
     route: '/categorias/on-ear',
     hidden: false,
     cover: '/images/categories/cover/onear.png',
     img: '/images/categories/banner/onear.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
+    mobileImg: '/images/categories/banner/parlantes.jpg',
+    categoryBannerTextPos: ['center', 'right'],
   },
   {
     name: 'Portable',

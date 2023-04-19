@@ -25,8 +25,8 @@ export default function Category() {
     link: category.route,
     alt: category.name,
     text: {
-      title: category.name,
-      subtitle: category.desc,
+      title: category.noTextOnCategoryBanner ? '' : category.name,
+      subtitle: category.noTextOnCategoryBanner ? '' : category.desc,
       cta: "",
       align: category.categoryBannerTextPos ? category.categoryBannerTextPos[1] : "left",
       valign: category.categoryBannerTextPos ? category.categoryBannerTextPos[0] : "center",
