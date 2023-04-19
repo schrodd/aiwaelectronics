@@ -6,7 +6,7 @@
   height: 100vh;
   background-color: $black;
   animation: .2s ease-out openModal;
-  z-index: 99;
+  z-index: 199;
   padding: 30px;
   @include flex(column, flex-start, flex-end);
   &>li:nth-of-type(1){ 

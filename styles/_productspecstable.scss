@@ -14,13 +14,16 @@ section#prod-specs {
       @include flex(row, flex-start);
       flex-wrap: wrap;
       margin-bottom: 10px;
+      @include mobile {
+        align-items: stretch;
+      }
       .includes-item {
+        @include flex(column, flex-start);
         margin: 10px;
+        flex: 1;
         padding: 10px;
         width: 150px;
-        //height: 160px;
         border-radius: 4px;
-        @include flex(column, flex-start);
         box-shadow: $shadow;
         p {
           height: 40px;
