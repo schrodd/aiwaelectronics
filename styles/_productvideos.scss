@@ -3,10 +3,10 @@
 $mult: 0.7;
 
 .product-videos-swiper {
+  background-color: black;
   position: relative;
   .product-videos-slide {
     @include flex;
-    background-color: black;
     iframe {
       position: relative;
       z-index: 0;
@@ -14,13 +14,9 @@ $mult: 0.7;
       height: 720px * $mult;
       * {
         position: relative;
-        z-index: 0;
+        z-index: -1;
       }
     }
-  }
-  .swiper-button-next, .swiper-button-prev {
-    top: auto;
-    bottom: 100px;
   }
   .swiper-button-prev {
     left: 30px;
@@ -29,7 +25,12 @@ $mult: 0.7;
     right: 30px;
   }
   .swiper-button-prev, .swiper-button-next {
-    /* color: $alt; */
-    filter: drop-shadow(0px 0px 5px rgba(0,0,0,.2))
+    z-index: 9;
+    top: auto;
+    bottom: 30px;
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,.2));
+    @include mobile {
+      display: none;
+    }
   }
 }

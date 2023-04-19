@@ -147,7 +147,7 @@ section.product-page {
       top: 5px;
       height: 100%;
       position: absolute;
-      z-index: 9;
+      z-index: 99;
       right: 0px;
       @include flex(column, flex-start, flex-end);
       @include pc {
