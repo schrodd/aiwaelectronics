@@ -15,7 +15,7 @@ export default function ContactContent(){
     { value: 'postventa', desc: 'Postventa (Atención al Retail)', action: '/mail/postventa.php'},
     { value: 'atencion', desc: 'Atención al Cliente', action: '/mail/atencion_al_cliente.php'},
     { value: 'comercial', desc: 'Comercial', action: '/mail/comercial.php'},
-    { value: 'marketing', desc: 'Propuestas / Marketing', action: '/mail/marketing.php'},
+    { value: 'marketing', desc: 'Marketing', action: '/mail/marketing.php'},
     { value: 'recursos', desc: 'Recursos Humanos', action: ''},
   ]
 
