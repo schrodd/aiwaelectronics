@@ -93,7 +93,7 @@ export const lvTwoCat = [
     id: 106,
     parent: 2,
     route: '/categorias/tablets',
-    hidden: true,
+    hidden: false,
     cover: '/images/categories/cover/tablets.png',
     img: '/images/categories/banner/tablets.jpg',
   },

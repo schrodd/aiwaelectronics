@@ -60,21 +60,21 @@ export default function Footer(){
                 Términos y condiciones
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href='/preguntas-frecuentes'>
                 Preguntas frecuentes
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className='footer-section'>
           <h3>SOBRE NOSOTROS</h3>
           <ul>
-            <li>
+            {/* <li>
               <Link href='/quienes-somos'>
                 Quiénes somos
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href='/contacto'>
                 Contacto
