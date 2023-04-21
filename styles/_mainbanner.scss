@@ -53,14 +53,14 @@ a.main-banner {
       }
     }
     h2 {
-      font-family: 'Barlow';
+      font-family: 'Barlow', sans-serif;
       font-size: 40px;
       @include mobile {
         font-size: 30px;
       }
     }
     h3 {
-      font-family: 'Open Sans';
+      font-family: 'Open Sans', sans-serif;
       font-weight: 400;
       font-size: 18px;
       max-width: 350px;
