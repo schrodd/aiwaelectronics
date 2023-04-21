@@ -42,10 +42,10 @@ const menus = [
         name: 'Notebooks',
         link: '/categorias/notebooks'
       },
-      /* {
+      {
         name: 'Tablets',
         link: '/categorias/tablets'
-      } */
+      }
     ]
   },
   /* {

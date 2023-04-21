@@ -113,7 +113,7 @@ export const lvTwoCat = [
     id: 108,
     parent: 3,
     route: '/categorias/tv',
-    hidden: false,
+    hidden: true,
     cover: '/images/categories/cover/tv.png',
     img: '/images/categories/banner/tv.jpg',
   },

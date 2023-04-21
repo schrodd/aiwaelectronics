@@ -38,6 +38,8 @@ export default function Category() {
         return groups.on_ear
       case 'notebooks':
         return groups.notebooks
+      case 'tablets':
+        return groups.tablets
       case 'discontinuos':
         return groups.discontinuos
     }

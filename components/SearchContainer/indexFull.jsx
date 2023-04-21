@@ -136,9 +136,50 @@ export default function SearchContainer() {
             isOptionEqualToValue={(a, b) => true} // this is only for the console to STFU
             renderInput={(params) => <TextField {...params} onChange={changeSku} label="Modelo"/>}
           />
+          <FormControl fullWidth>
+            <InputLabel id="category-name">Categoría</InputLabel>
+            <Select
+              labelId="category-name"
+              id="category-name"
+              value={selectedCategory}
+              label="Categoría"
+              onChange={selectCategory}
+            >
+              {lvOneCat.map((e, i) => <MenuItem key={i} value={e.id}>{e.name}</MenuItem>)}
+            </Select>
+          </FormControl>
+          {selectedCategory && (
+            <FormControl fullWidth>
+              <InputLabel id="feature-name">Característica</InputLabel>
+              <Select
+              labelId="feature-name"
+              id="feature-name"
+              value={selectedFeature}
+              label="Característica"
+              onChange={selectFeature}>
+                {finalFeatures && finalFeatures.map((e, i) => <MenuItem key={i} value={e.id}>{e.name}</MenuItem>)}
+              </Select>
+            </FormControl>
+          )}
+          {selectedFeature && (
+            <FormControl fullWidth>
+              <InputLabel id="demo-simple-select-label">Valor</InputLabel>
+              <Select
+                labelId="feature-value"
+                id="feature-value"
+                value={selectedValue}
+                label="Valor"
+                onChange={selectValue}>
+                {finalValues.map((e, i) => <MenuItem key={i} value={e}>{e}</MenuItem>)}
+              </Select>
+            </FormControl>
+          )}
           <FormGroup>
             <FormControlLabel control={<Checkbox value={showDiscontinued} defaultChecked/>} label="Mostrar descontinuados" onChange={toggleShowDiscontinued}/>
           </FormGroup>
+          <button className='clear-fields' onClick={clearFields} value=''>
+            <DeleteSweepIcon/>Limpiar campos
+          </button>
           <button className={`back-to-top ${showBackToTop && 'visible'}`} onClick={scrollToTop} value=''>
             <ArrowUpwardIcon fontSize='small'/>
             Volver arriba
