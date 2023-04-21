@@ -6,6 +6,8 @@ import Link from 'next/link';
 
 export default function CategoryLineSwiper({products}) {
   const line = lines.find(e => e.name == products[0].line)
+  // Filtro discontinuos
+  products = products.filter(e => !e.categories.some(f => f == 110))
   return (
     <Swiper
     tag='section'
