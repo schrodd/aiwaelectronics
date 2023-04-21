@@ -1,5 +1,5 @@
 import { useRouter } from "next/router"
-import MainBanner from "../../components/MainBanner"
+import CategoryMainBanner from "../../components/CategoryMainBanner"
 import { lvTwoCat } from "../../content/categories"
 import { products } from "../../content/products"
 import NotFound from "../../components/NotFound"
@@ -21,13 +21,11 @@ export default function Category() {
   const categoryObj = {
     // Formatea la data para el componente MainBanner
     img: category.img,
-    mobileImg: category.mobileImg,
-    link: category.route,
     alt: category.name,
+    noText: category.noTextOnCategoryBanner,
     text: {
-      title: category.noTextOnCategoryBanner ? '' : category.name,
-      subtitle: category.noTextOnCategoryBanner ? '' : category.desc,
-      cta: "",
+      title: category.name,
+      subtitle: category.desc,
       align: category.categoryBannerTextPos ? category.categoryBannerTextPos[1] : "left",
       valign: category.categoryBannerTextPos ? category.categoryBannerTextPos[0] : "center",
     },
@@ -62,7 +60,7 @@ export default function Category() {
         <title>{`${category.name} | Aiwa Electronics`}</title>
       </Head>
       <main id={`categorias ${cat}`}>
-        <MainBanner banner={categoryObj} />
+        <CategoryMainBanner banner={categoryObj} />
         <section className="swiper-categorias">
           {lineArr.length > 0
             ? lineArr.map((e, i) => {

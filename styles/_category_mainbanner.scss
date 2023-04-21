@@ -1,6 +1,6 @@
 @import 'variables';
 
-a.main-banner {
+div.category-main-banner {
   position: relative;
   figure {
     position: relative;
@@ -18,17 +18,12 @@ a.main-banner {
   figure.mobile {
     background: $mainDeg;
     height: 150px;
+    filter: brightness(.5);
     // height: 600px;
     display:none !important;
-    img {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
-    }
   }
   @include mobile {
     figure.mobile {
-      height: 600px;
       display:block !important;
     }
     figure.desktop {
@@ -45,8 +40,12 @@ a.main-banner {
     &.dark {
       color: $main;
     }
+    &.pc-hidden {
+      @include pc {
+        display: none;
+      }
+    }
     @include mobile {
-      margin-top: 30px;
       padding: 30px 50px;
       * {
         text-align: center;

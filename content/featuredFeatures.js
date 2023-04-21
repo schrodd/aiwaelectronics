@@ -1,4 +1,5 @@
 // Orden alfabético 
+import android from '../public/svg/android.svg'
 import battery from '../public/svg/battery.svg'
 import batterybars from '../public/svg/batterybars.svg'
 import bluetooth from '../public/svg/bluetooth.svg'
@@ -57,6 +58,7 @@ import voice from '../public/svg/voice.svg'
 import volumen from '../public/svg/volumen.svg'
 import webcam from '../public/svg/webcam.svg'
 import wheel from '../public/svg/wheel.svg'
+import wifi from '../public/svg/wifi.svg'
 import windows from '../public/svg/windows.svg'
 import wireless from '../public/svg/wireless.svg'
 import wirelessmic from '../public/svg/wirelessmic.svg'
@@ -266,8 +268,11 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   { id: 49, name: 'Colores', icon: color,
   customDesc: colores => `Seleccioná alguno de los colores disponibles y personalizá tu experiencia auditiva. Disponible en ${colores}.` },
 
-  // Notebooks
-
+  // Tablets y Notebooks
+  { id: 89, name: 'Android 10', icon: android,
+  desc: 'Sistema operativo Android en su versión 10, aprovechá las nuevas funcionalidades y el rendimiento superior.'},
+  { id: 84, name: 'Android 12', icon: android,
+  desc: '¡El nuevo Android 12 ya está aqui! Aprovechá la mejora de rendimiento y funcionalidades que trae consigo.'},
   { id: 60, name: 'Windows 10 Home', icon: windows,
   desc: 'Sistema Operativo Windows 10 Home incluido con licencia original.' },
   { id: 61, name: 'Windows 11', icon: windows,
@@ -288,30 +293,29 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   desc: 'Transferí archivos a máxima velocidad utilizando el puerto USB Tipo C integrado.'},
   { id: 62, name: 'Cámara Frontal', icon: webcam,
   desc: 'Hacé videollamadas, grabá videos o hacé streams usando la webcam integrada de 0.3MP.'},
+  { id: 87, name: '2 Cámaras', icon: webcam,
+  desc: 'Hacé videollamadas, grabá videos o hacé streams usando la cámara frontal, y tomá fotos o grabá un paisaje hermoso con la cámara trasera.'},
   { id: 66, name: 'Lector de Memoria', icon: sd,
-    desc: '¡Expandí tus posibilidades! Posee lector de memorias SD para que puedas guardar tus archivos de la forma más cómoda.'
-  },
-  { id: 82, name: 'USB + TF', icon: usbsd,
-    desc: '¡Expandí tus posibilidades! Posee lector de memorias SD y puertos USB.'
-  },
+    desc: '¡Expandí tus posibilidades! Posee lector de memorias SD para que puedas guardar tus archivos de la forma más cómoda.' },
+  { id: 82, name: 'USB + TF', icon: usbsd, desc: '¡Expandí tus posibilidades! Posee lector de memorias SD y puertos USB.' },
   { id: 69, name: 'Salida de video', icon: monitorext,
   customDesc: p => `Tiene puerto ${p}, conectá un segundo monitor y trabajá de forma mucho más eficiente.`},
   { id: 68, name: 'Puertos USB', icon: usb,
     customDesc: n => `Posee ${n} puerto${n > 1 ? 's' : ''} USB para que conectes tu pendrive o dispositivo.`
   },
-  { id: 67, name: 'Funda protectora', icon: funda,
-    desc: 'Incluye funda protectora para que puedas trasladar tu equipo de forma segura.'
-  },
+  { id: 67, name: 'Funda protectora', icon: funda, desc: 'Incluye funda protectora para que puedas trasladar tu equipo de  segura.' },
   { id: 70, name: 'Puerto Kensington', icon: kensington,
   desc: 'Usando este puerto podrás proteger tu Notebook de robos (candado Kensington no incluido).'},
   { id: 73, name: 'Batería', icon: battery,
   customDesc: n => `Posee batería interna de hasta ${n} horas de duración.`},
   { id: 83, name: 'Batería', icon: battery,
   customDesc: desc => desc },
-  { id: 74, name: 'Teclado Español', icon: tecladoesp,
-  desc: 'Posee teclado 100% en español.'},
-  { id: 81, name: 'Bluetooth', icon: bluetooth,
-  desc: 'Conectá todo tipo de dispositivos inalámbricos.' },
+  { id: 74, name: 'Teclado Español', icon: tecladoesp, desc: 'Posee teclado 100% en español.' },
+  { id: 81, name: 'Bluetooth', icon: bluetooth, desc: 'Conectá todo tipo de dispositivos inalámbricos.' },
+  { id: 85, name: 'Conexión Wi-Fi', icon: wifi, desc: 'Conectate a una red Wi-Fi y navegá por Internet'},
+  { id: 86, name: 'Entrada para auricular', icon: plug, desc: 'Conectá tus auriculares y escuchá tu música preferida'},
+  { id: 88, name: 'Ligera', icon: pluma,
+  desc: '¡Llevala a todos lados! Gracias a su escaso peso, podrás contar con tu tablet en todo momento.' },
 ]
 
 export default featuredFeatures

@@ -5,7 +5,7 @@ Nivel 2: Parlantes, Torres, Inear, Onear, Portable, etc
 
 export const lvOneCat = [
   {
-    name: 'Audio',
+    name: 'Audio',  
     id: 1,
     route: '/categorias/audio'
   },
@@ -43,7 +43,6 @@ export const lvTwoCat = [
     hidden: false,
     cover: '/images/categories/cover/parlantes.png',
     img: '/images/categories/banner/parlantes.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Torres de sonido',
@@ -54,7 +53,6 @@ export const lvTwoCat = [
     hidden: false,
     cover: '/images/categories/cover/torres.png',
     img: '/images/categories/banner/torres.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg',
     categoryBannerTextPos: ['top', 'left'],
   },
   {
@@ -66,7 +64,6 @@ export const lvTwoCat = [
     hidden: false,
     cover: '/images/categories/cover/inear.png',
     img: '/images/categories/banner/inear.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg',
     noTextOnCategoryBanner: true,
   },
   {
@@ -78,7 +75,6 @@ export const lvTwoCat = [
     hidden: false,
     cover: '/images/categories/cover/onear.png',
     img: '/images/categories/banner/onear.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg',
     categoryBannerTextPos: ['center', 'right'],
   },
   {
@@ -90,7 +86,6 @@ export const lvTwoCat = [
     hidden: true,
     cover: '/images/categories/cover/portable.png',
     img: '/images/categories/banner/parlantes.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'Tablets',
@@ -100,8 +95,7 @@ export const lvTwoCat = [
     route: '/categorias/tablets',
     hidden: true,
     cover: '/images/categories/cover/tablets.png',
-    img: '/images/categories/banner/parlantes.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/tablets.jpg',
   },
   {
     name: 'Notebooks',
@@ -112,7 +106,6 @@ export const lvTwoCat = [
     hidden: false,
     cover: '/images/categories/cover/notebooks.png',
     img: '/images/categories/banner/notebooks.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
   {
     name: 'TV',
@@ -122,8 +115,7 @@ export const lvTwoCat = [
     route: '/categorias/tv',
     hidden: false,
     cover: '/images/categories/cover/tv.png',
-    img: '/images/categories/banner/parlantes.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
+    img: '/images/categories/banner/tv.jpg',
   },
   {
     name: 'Discontinuos',
@@ -134,7 +126,6 @@ export const lvTwoCat = [
     hidden: true,
     cover: '',
     img: '/images/categories/banner/torres.jpg',
-    mobileImg: '/images/categories/banner/torres.jpg'
   },
   {
     name: 'Barras de Sonido',
@@ -145,6 +136,5 @@ export const lvTwoCat = [
     hidden: true,
     cover: '/images/categories/cover/tv.png',
     img: '/images/categories/banner/parlantes.jpg',
-    mobileImg: '/images/categories/banner/parlantes.jpg'
   },
 ]

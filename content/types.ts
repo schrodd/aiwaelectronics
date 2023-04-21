@@ -46,7 +46,7 @@ export interface Product {
   downloads: string;
   features: Feature[];
   buyLink?: string;
-  featuresSections?: Section[]; // If present, pls leave features: []
+  featuresSections?: Section[]; // If present, pls leave features: [] (TODO: fix this need)
   line?: string;
   variants?: string[];
   colors?: string[];
@@ -55,4 +55,19 @@ export interface Product {
   altBackground?: boolean;
   certNo?: string;
   noManual?: boolean;
+}
+
+export interface MainBanner {
+  img: string,
+  mobileImg: string,
+  link: string,
+  alt: string,
+  text?: {
+    title: string,
+    subtitle?: string,
+    cta?: string,
+    align?: 'left' | 'center' | 'right'
+    valign?: 'top' | 'center' | 'bottom'
+    dark?: boolean
+  }
 }

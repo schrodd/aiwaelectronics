@@ -16,7 +16,7 @@ export default function Home() {
         <title>{texts.aiwaElec}</title>
         <meta name="title" content="Aiwa Electronics"></meta>
       </Head>
-      <main>
+      <main className='index'>
         <Swiper
           tag='section'
           className='main-banner'

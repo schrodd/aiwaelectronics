@@ -1,12 +1,12 @@
 import Link from "next/link"
 import Image from "next/image"
 
-export default function MainBanner({banner, isFirst}){
+export default function CategoryMainBanner({banner, isFirst}){
   banner.link = banner.link ? banner.link : '/'
   return (
-    <Link href={banner.link} className='main-banner'>
+    <div className='category-main-banner'>
       {banner.text && (
-        <div className='text' align={banner.text.align} valign={banner.text.valign}>
+        <div className={`text ${banner.text.dark && 'dark'} ${banner.noText && 'mobile-only'}`} align={banner.text.align} valign={banner.text.valign}>
           <h2>{banner.text.title}</h2>
           <h3>{banner.text.subtitle}</h3>
           {banner.text.cta && (
@@ -18,8 +18,8 @@ export default function MainBanner({banner, isFirst}){
         <Image alt={banner.alt} src={banner.img} width={1350} height={315} priority={isFirst}/>
       </figure>
       <figure className='mobile'>
-        {/* <Image alt={banner.alt} src={banner.mobileImg} fill priority={isFirst}/> */}
+        <Image alt={banner.alt} src={banner.img} fill priority={isFirst}/>
       </figure>
-    </Link>
+    </div>
   );
 }

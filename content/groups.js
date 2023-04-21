@@ -13,6 +13,10 @@ export const productGroups = {
     ['NA-1431'],
     ['CA141-C']
   ],
+  tablets: [
+    ['TA-07-232'],
+    ['TA-10-232']
+  ],
   discontinuos: [
     ['AW-T2008', 'AW-T2010'],
     ['AW-T506R', 'AW-T265SF', 'AW-T265SF-SA'],
@@ -25,5 +29,7 @@ export const productGroups = {
     ['ATA-105N', 'ATA-105B'],
     ['ATA-205N', 'ATA-205B'],
     ['CA-141', 'CA141-CO', 'NA-1413'],
+    ['TA-07', 'TA07-2GB'],
+    ['TA-10', 'TA10-SO10']
   ]
 }

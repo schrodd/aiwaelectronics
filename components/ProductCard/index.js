@@ -28,7 +28,7 @@ export default function ProductCard({sku, showName, showSku, showDesc, showButto
         {showGen && <p className='p-desc'><small>{product.gen}</small></p>}
         {showTags && (
           <div className='p-tags'>
-            {product.buyLink ? (
+            {!product.categories.some(e => e == 110) ? (
               <span style={{background:'#54ac45'}}>
                 <CheckIcon/>
                 Disponible
