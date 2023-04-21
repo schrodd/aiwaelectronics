@@ -21,7 +21,7 @@ const mainBanners: MainBanner[] = [
     alt: 'Parlantes P2016A y P2016B',
     text: {
       title: 'Sonido compacto',
-      subtitle: 'Descubrí el balance perfecto entre potencia y tamaño. Sus luces deslumbrarán cualquier ambiente.',
+      subtitle: 'Descubrí el balance perfecto entre potencia y tamaño.',
       cta: '',
       align: 'left', // center (default) | right | left - affects pc only
       valign: 'top', // center (default) | top | bottom - affects both pc and mobile

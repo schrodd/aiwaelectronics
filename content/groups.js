@@ -29,7 +29,7 @@ export const productGroups = {
     ['ATA-105N', 'ATA-105B'],
     ['ATA-205N', 'ATA-205B'],
     ['CA-141', 'CA141-CO', 'NA-1413'],
-    ['TA-07', 'TA07-2GB'],
-    ['TA-10', 'TA10-SO10']
+    ['TA07-2GB'],
+    ['TA10-SO10']
   ]
 }

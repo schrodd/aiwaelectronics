@@ -21,22 +21,26 @@ export default function CategorySwiper({skus}) {
             const prod = products.find(prod => prod.sku == sku)
             return (
               <SwiperSlide className={`main-banner-slide`} key={i}> 
-                <div className="product">
-                  <div className="left">
-                    <div className="wrapper">
-                      <p className="title">{prod.shortDesc}</p>
-                      <p className="sku">{prod.sku}</p>
-                      <p className="desc">{prod.longDesc}</p>
-                      <Link href={prod.link ? prod.link : '#'}>
-                        VER MÁS
-                      </Link>
+                {prod ? (
+                  <div className="product">
+                    <div className="left">
+                      <div className="wrapper">
+                        <p className="title">{prod.shortDesc}</p>
+                        <p className="sku">{prod.sku}</p>
+                        <p className="desc">{prod.longDesc}</p>
+                        <Link href={prod.link ? prod.link : '#'}>
+                          VER MÁS
+                        </Link>
+                      </div>
+                      <Image src={`/components/CategorySwiper/patron-${prod.altBackground ? 'b' : 'n'}.png`} alt='background' fill/>
                     </div>
-                    <Image src={`/components/CategorySwiper/patron-${prod.altBackground ? 'b' : 'n'}.png`} alt='background' fill/>
+                    <div className={`right${prod.altBackground ? ' dark' : ''}`}>
+                      <Image src={prod.imgs[0]} alt={prod.sku} fill/>
+                    </div>
                   </div>
-                  <div className={`right${prod.altBackground ? ' dark' : ''}`}>
-                    <Image src={prod.imgs[0]} alt={prod.sku} fill/>
-                  </div>
-                </div>
+                ) : (
+                  <p>No se ha encontrado este producto</p>
+                )}
               </SwiperSlide>
             )
           })}

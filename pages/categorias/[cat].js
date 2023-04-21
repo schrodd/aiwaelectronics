@@ -50,9 +50,7 @@ export default function Category() {
         lineArr.push(e.line)
       }
     })
-  } else {
-    console.log("no lines")
-  }
+  } 
 
   return (
     <>
