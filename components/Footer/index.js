@@ -46,7 +46,7 @@ export default function Footer(){
               </li>
             ))}
             <li>
-              <Link href='/categorias/discontinuos'>
+              <Link href='/discontinuos'>
                 Discontinuos
               </Link>
             </li>
