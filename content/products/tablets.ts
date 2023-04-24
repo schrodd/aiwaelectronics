@@ -19,9 +19,24 @@ export const tablets: Product[] = [
     altBackground: false,
     banners: [
       {
-        title: `Accedé a la nube`,
-        img: fileserver + `/banners/cloud.webp`,
-        desc: `El almacenamiento local ha quedado en el pasado, almacená tus archivos en la nube y accedé a ellos fácilmente desde cualquier sitio.`,
+        title: `Ideal para el uso diario`,
+        img: fileserver + `/banners/caracteristicasta072gb.webp`,
+        desc: `Navegar en internet, usar redes sociales, ver videos, leer o abrir documentos... Podés hacer esto y mucho más.`,
+      },
+      {
+        title: `Doble cámara`,
+        img: fileserver + `/banners/camta07.webp`,
+        desc: `Hacé videollamadas, tomá fotos o hacé videos sin problema gracias a sus dos cámaras.`,
+      },
+      {
+        title: `Escuchalo todo`,
+        img: fileserver + `/banners/sonidota07.webp`,
+        desc: `Posee un potente parlante que te permitirá escuchar cada detalle de tu contenido multimedia favorito.`,
+      },
+      {
+        title: `Llevala con vos`,
+        img: fileserver + `/banners/compacta07.webp`,
+        desc: `Gracias a su elegante diseño delgado y sólido, además de su poco peso, es ideal para llevarla siempre con vos.`,
       }
     ],
     shortDesc: `Mil historias en tu mochila`,
@@ -83,9 +98,24 @@ export const tablets: Product[] = [
     altBackground: false,
     banners: [
       {
-        title: `Accedé a la nube`,
-        img: fileserver + `/banners/cloud.webp`,
-        desc: `El almacenamiento local ha quedado en el pasado, almacená tus archivos en la nube y accedé a ellos fácilmente desde cualquier sitio.`,
+        title: `Ideal para el uso diario`,
+        img: fileserver + `/banners/caracteristicasta07232.webp`,
+        desc: `Navegar en internet, usar redes sociales, ver videos, leer o abrir documentos... Podés hacer esto y mucho más.`,
+      },
+      {
+        title: `Doble cámara`,
+        img: fileserver + `/banners/camta07.webp`,
+        desc: `Hacé videollamadas, tomá fotos o hacé videos sin problema gracias a sus dos cámaras.`,
+      },
+      {
+        title: `Escuchalo todo`,
+        img: fileserver + `/banners/sonidota07.webp`,
+        desc: `Posee un potente parlante que te permitirá escuchar cada detalle de tu contenido multimedia favorito.`,
+      },
+      {
+        title: `Llevala con vos`,
+        img: fileserver + `/banners/compacta07232.webp`,
+        desc: `Gracias a su elegante diseño delgado y sólido, además de su poco peso, es ideal para llevarla siempre con vos.`,
       }
     ],
     shortDesc: `Mil historias en tu mochila`,
@@ -145,9 +175,24 @@ export const tablets: Product[] = [
     altBackground: true,
     banners: [
       {
-        title: `Accedé a la nube`,
-        img: fileserver + `/banners/cloud.webp`,
-        desc: `El almacenamiento local ha quedado en el pasado, almacená tus archivos en la nube y accedé a ellos fácilmente desde cualquier sitio.`,
+        title: `Ideal para el uso diario`,
+        img: fileserver + `/banners/caracteristicasta10so10.webp`,
+        desc: `Navegar en internet, usar redes sociales, ver videos, leer o abrir documentos... Podés hacer esto y mucho más.`,
+      },
+      {
+        title: `Doble cámara`,
+        img: fileserver + `/banners/camta10.webp`,
+        desc: `Hacé videollamadas, tomá fotos o hacé videos sin problema gracias a sus dos cámaras.`,
+      },
+      {
+        title: `Escuchalo todo`,
+        img: fileserver + `/banners/sonidota10.webp`,
+        desc: `Posee un potente sonido que te permitirá escuchar cada detalle de tu contenido multimedia favorito.`,
+      },
+      {
+        title: `Llevala con vos`,
+        img: fileserver + `/banners/compacta10so10.webp`,
+        desc: `Gracias a su elegante diseño delgado y sólido, además de su poco peso, es ideal para llevarla siempre con vos.`,
       }
     ],
     shortDesc: `Una caja de herramientas en tu mano`,
@@ -210,9 +255,24 @@ export const tablets: Product[] = [
     altBackground: true,
     banners: [
       {
-        title: `Accedé a la nube`,
-        img: fileserver + `/banners/cloud.webp`,
-        desc: `El almacenamiento local ha quedado en el pasado, almacená tus archivos en la nube y accedé a ellos fácilmente desde cualquier sitio.`,
+        title: `Ideal para el uso diario`,
+        img: fileserver + `/banners/caracteristicasta10232.webp`,
+        desc: `Navegar en internet, usar redes sociales, ver videos, leer o abrir documentos... Podés hacer esto y mucho más.`,
+      },
+      {
+        title: `Doble cámara`,
+        img: fileserver + `/banners/camta10.webp`,
+        desc: `Hacé videollamadas, tomá fotos o hacé videos sin problema gracias a sus dos cámaras.`,
+      },
+      {
+        title: `Escuchalo todo`,
+        img: fileserver + `/banners/sonidota10.webp`,
+        desc: `Posee un potente sonido que te permitirá escuchar cada detalle de tu contenido multimedia favorito.`,
+      },
+      {
+        title: `Llevala con vos`,
+        img: fileserver + `/banners/compacta10232.webp`,
+        desc: `Gracias a su elegante diseño delgado y sólido, además de su poco peso, es ideal para llevarla siempre con vos.`,
       }
     ],
     shortDesc: `Una caja de herramientas en tu mano`,

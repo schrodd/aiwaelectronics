@@ -1,6 +1,5 @@
 import ProductCard from '../ProductCard'
 import { products } from '../../content/products'
-import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
 
 export default function Discontinuous(){
   const prodDiscont = products.filter(e => e.categories.some(cat => cat == 110))
