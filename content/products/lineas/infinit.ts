@@ -2348,7 +2348,7 @@ export const infinit: Product[] = [
       {
         title: `True Wireless Stereo`,
         img: fileserver + `/banners/tws2016.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!`,
+        desc: `Con esta herramienta vas a poder conectar dos parlantes a través del bluetooth para conseguir un sonido estéreo verdadero. Apto para conectar dos parlantes P2016.`,
       },
       {
         title: `¡Llevalo a todos lados!`,
@@ -2462,7 +2462,7 @@ export const infinit: Product[] = [
       },
       { id: 18, value: "3 kg" }, // Peso
       { id: 9, value: "Bluetooth 5.0" }, // Bluetooth
-      { id: 53, value: "Si" }, // Funcion
+      { id: 13, value: "TWS" }, // Funcion
       { id: 55, value: "Si" }, // Peso
       { id: 56, value: "Si" }, // Emp de Transp
       { id: 6, value: "Si, LED" }, // Mobile Holder
@@ -2521,7 +2521,7 @@ export const infinit: Product[] = [
       {
         title: `True Wireless Stereo`,
         img: fileserver + `/banners/tws2016.webp`,
-        desc: `Conectá dos parlantes iguales y experimentá la combinación de potencia y sonido estéreo real, ¡no querrás volver a usar sólo uno!`,
+        desc: `Con esta herramienta vas a poder conectar dos parlantes a través del bluetooth para conseguir un sonido estéreo verdadero. Apto para conectar dos parlantes P2016.`,
       },
       {
         title: `¡Llevalo a todos lados!`,
@@ -2634,7 +2634,7 @@ export const infinit: Product[] = [
       },
       { id: 18, value: "3 kg" }, // Peso
       { id: 9, value: "Bluetooth 5.0" }, // Bluetooth
-      { id: 53, value: "Si" }, // Funcion
+      { id: 13, value: "TWS" }, // Funcion
       { id: 55, value: "Si" }, // Peso
       { id: 56, value: "Si" }, // Emp de Transp
       { id: 6, value: "Si, LED" }, // Mobile Holder

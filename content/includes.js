@@ -29,6 +29,10 @@ const includes = [
   { id: 19, name: 'Estuche de carga', img: '/images/includes/case306b.jpg' }, // 306
   { id: 26, name: 'Estuche de carga', img: '/images/includes/case406b.jpg' }, // 406 Blanco
   { id: 27, name: 'Estuche de carga', img: '/images/includes/case406n.jpg' }, // 406 Negro
+  { id: 30, name: 'Estuche de carga', img: '/images/includes/case506a.jpg' }, // 406 Negro
+  { id: 31, name: 'Estuche de carga', img: '/images/includes/case506l.jpg' }, // 406 Negro
+  { id: 32, name: 'Estuche de carga', img: '/images/includes/case506r.jpg' }, // 406 Negro
+  { id: 33, name: 'Estuche de carga', img: '/images/includes/case506v.jpg' }, // 406 Negro
 
   // Notebooks
   { id: 24, name: 'Funda de Neoprene', img: '/images/includes/fundaneoprene.jpg',},

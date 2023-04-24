@@ -3,7 +3,8 @@ export const productGroups = {
     ['ATA-106N', 'ATA-106B'],
     ['ATA-206N', 'ATA-206B'],
     ['ATA-306B'],
-    ['ATA-406N', 'ATA-406B']
+    ['ATA-406N', 'ATA-406B'],
+    ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V']
   ],
   on_ear: [
     ['AVA-BT301N', 'AVA-BT301B'],

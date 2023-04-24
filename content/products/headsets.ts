@@ -1346,7 +1346,7 @@ export const headsets: Product[] = [
           { name: "Tipo de Batería", value: `Polímero de iones de litio` },
           { name: "Tiempo de Carga", value: `2h` },
           { name: "Tiempo en Stand-by", value: `4 meses` },
-          { name: "Entrada / Salida", value: `80 x 80 x 40 mm` },
+          { name: "Entrada / Salida", value: `DC5V 500mAh / DC5V 150mAh` },
           { name: "Indicador de Carga", value: `Si` },
           { name: "Dimensiones", value: `42 x 52 x 25,5 mm` },
           { name: "Peso", value: `36g` },
@@ -1624,6 +1624,487 @@ export const headsets: Product[] = [
     colors: ["ATA-406B", "ATA-406N"],
     videos: [
       { title: 'Presentación', youtubeId: 'dESiqsi_kYk' }
+    ]
+  },
+  { // ATA-506A
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-506A`,
+    link: `/productos/ATA-506A`,
+    categories: [103],
+    imgs: [
+      `/products/ATA-506A/img/1.webp`,
+      `/products/ATA-506A/img/2.webp`,
+      `/products/ATA-506A/img/3.webp`,
+      `/products/ATA-506A/img/4.webp`,
+    ].map((e) => fileserver + e),
+    360: false,
+    gen: "1º Generación",
+    banners: [
+      {
+        title: `Controles Touch`,
+        img: fileserver + `/banners/touch306b.webp`,
+        desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
+      },
+      {
+        title: `Aliado Fitness`,
+        img: fileserver + `/banners/running506ba.webp`,
+        desc: `Podés usarlos para hacer deporte ya que son extremadamente ligeros, además son resistentes al polvo y las salpicaduras o ligeras lloviznas.`,
+      },
+      {
+        title: `Calidad de sonido`,
+        img: fileserver + `/banners/calidad506ba.webp`,
+        desc: `Disfrutá de la alta fidelidad y baja latencia que sólo AIWA te puede brindar.`,
+      },
+      {
+        title: `Rápido emparejamiento`,
+        img: fileserver + `/banners/emparejamiento506ba.webp`,
+        desc: `Comenzá a escuchar en pocos segundos ¡configurá una sola vez! Luego, tan sólo con sacarlos del estuche se conectarán.`,
+      },
+      {
+        title: `Larga autonomía`,
+        img: fileserver + `/banners/energia506ba.webp`,
+        desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.`,
+      },
+      {
+        title: `USB-C`,
+        img: fileserver + `/banners/usbc506ba.webp`,
+        desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.`,
+      },
+    ],
+    shortDesc: `Elegí tu estilo`,
+    longDesc:
+      "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
+    buyLink: ``,
+    featuredFeatures: [
+      { id: 51 }, // Control de Volumen
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 54 }, // Controles canciones
+      { id: 55 }, // Estuche
+      { id: 58 }, // Amplio alcance
+      { id: 59 }, // USBC
+      { id: 76 }, // Sport
+      { id: 44 }, // Ligero
+      { id: 12 }, // Bluetooth
+      { id: 78, value: "dos horas" }, // Carga rápida
+    ],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
+    featuresSections: [
+      {
+        title: "Auricular",
+        items: [
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
+          { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
+          { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
+          { name: "Capacidad de Batería", value: `30mAh` }, // Batería
+          { name: "Duración de Batería", value: `3 a 4h aprox.` }, // Duración Batería
+          { name: "Dimensiones", value: `24,5 x 17 x 18 mm` }, // Dimension prod
+          { name: "Peso", value: `15g (cada uno)` }, // Peso
+        ],
+      },
+      {
+        title: "Estuche",
+        items: [
+          { name: "Capacidad de Batería", value: `250mAh` },
+          { name: "Tipo de Batería", value: `Polímero de iones de litio` },
+          { name: "Tiempo de Carga", value: `2h aprox.` },
+          { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC5V 500mAh / DC5V 150mAh` },
+          { name: "Indicador de Carga", value: `Si` },
+          { name: "Dimensiones", value: `42 x 52 x 25,5 mm` },
+          { name: "Peso", value: `125g` },
+        ],
+      },
+      {
+        title: "Pack",
+        items: [
+          { name: "Color del producto", value: "Amarillo" },
+          { name: "Dimensiones del paquete", value: "10 x 10 x 3,5 cm" },
+          { name: "Peso", value: "110g" },
+          { name: "EAN", value: "7798111354756" },
+        ],
+      },
+    ],
+    includes: [
+      30, // Estuche de carga
+      20, // USB tipo C
+      9, // Manual
+    ],
+    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    colors: ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V'],
+  },
+  { // ATA-506L
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-506L`,
+    link: `/productos/ATA-506L`,
+    categories: [103],
+    imgs: [
+      `/products/ATA-506L/img/1.webp`,
+      `/products/ATA-506L/img/2.webp`,
+      `/products/ATA-506L/img/3.webp`,
+      `/products/ATA-506L/img/4.webp`,
+    ].map((e) => fileserver + e),
+    360: false,
+    gen: "1º Generación",
+    banners: [
+      {
+        title: `Controles Touch`,
+        img: fileserver + `/banners/touch306b.webp`,
+        desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
+      },
+      {
+        title: `Aliado Fitness`,
+        img: fileserver + `/banners/running506bl.webp`,
+        desc: `Podés usarlos para hacer deporte ya que son extremadamente ligeros, además son resistentes al polvo y las salpicaduras o ligeras lloviznas.`,
+      },
+      {
+        title: `Calidad de sonido`,
+        img: fileserver + `/banners/calidad506bl.webp`,
+        desc: `Disfrutá de la alta fidelidad y baja latencia que sólo AIWA te puede brindar.`,
+      },
+      {
+        title: `Rápido emparejamiento`,
+        img: fileserver + `/banners/emparejamiento506bl.webp`,
+        desc: `Comenzá a escuchar en pocos segundos ¡configurá una sola vez! Luego, tan sólo con sacarlos del estuche se conectarán.`,
+      },
+      {
+        title: `Larga autonomía`,
+        img: fileserver + `/banners/energia506bl.webp`,
+        desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.`,
+      },
+      {
+        title: `USB-C`,
+        img: fileserver + `/banners/usbc506bl.webp`,
+        desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.`,
+      },
+    ],
+    shortDesc: `Sonido sin igual`,
+    longDesc:
+      "Impresionante calidad de sonido en un formato cómodo. Escuchá tu música preferida donde sea, sin limitaciones.",
+    buyLink: ``,
+    featuredFeatures: [
+      { id: 51 }, // Control de Volumen
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 54 }, // Controles canciones
+      { id: 55 }, // Estuche
+      { id: 58 }, // Amplio alcance
+      { id: 59 }, // USBC
+      { id: 76 }, // Sport
+      { id: 44 }, // Ligero
+      { id: 12 }, // Bluetooth
+      { id: 78, value: "dos horas" }, // Carga rápida
+    ],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
+    featuresSections: [
+      {
+        title: "Auricular",
+        items: [
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
+          { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
+          { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
+          { name: "Capacidad de Batería", value: `30mAh` }, // Batería
+          { name: "Duración de Batería", value: `3 a 4h aprox.` }, // Duración Batería
+          { name: "Dimensiones", value: `24,5 x 17 x 18 mm` }, // Dimension prod
+          { name: "Peso", value: `15g (cada uno)` }, // Peso
+        ],
+      },
+      {
+        title: "Estuche",
+        items: [
+          { name: "Capacidad de Batería", value: `250mAh` },
+          { name: "Tipo de Batería", value: `Polímero de iones de litio` },
+          { name: "Tiempo de Carga", value: `2h aprox.` },
+          { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC5V 500mAh / DC5V 150mAh` },
+          { name: "Indicador de Carga", value: `Si` },
+          { name: "Dimensiones", value: `42 x 52 x 25,5 mm` },
+          { name: "Peso", value: `125g` },
+        ],
+      },
+      {
+        title: "Pack",
+        items: [
+          { name: "Color del producto", value: "Lila" },
+          { name: "Dimensiones del paquete", value: "10 x 10 x 3,5 cm" },
+          { name: "Peso", value: "110g" },
+          { name: "EAN", value: "7798111354756" },
+        ],
+      },
+    ],
+    includes: [
+      31, // Estuche de carga
+      20, // USB tipo C
+      9, // Manual
+    ],
+    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    colors: ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V'],
+    videos: [
+      { title: 'Presentación', youtubeId: '0TuNb8C5-zg' }
+    ]
+  },
+  { // ATA-506R
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-506R`,
+    link: `/productos/ATA-506R`,
+    categories: [103],
+    imgs: [
+      `/products/ATA-506R/img/1.webp`,
+      `/products/ATA-506R/img/2.webp`,
+      `/products/ATA-506R/img/3.webp`,
+      `/products/ATA-506R/img/4.webp`,
+    ].map((e) => fileserver + e),
+    360: false,
+    gen: "1º Generación",
+    banners: [
+      {
+        title: `Controles Touch`,
+        img: fileserver + `/banners/touch306b.webp`,
+        desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
+      },
+      {
+        title: `Aliado Fitness`,
+        img: fileserver + `/banners/running506br.webp`,
+        desc: `Podés usarlos para hacer deporte ya que son extremadamente ligeros, además son resistentes al polvo y las salpicaduras o ligeras lloviznas.`,
+      },
+      {
+        title: `Calidad de sonido`,
+        img: fileserver + `/banners/calidad506br.webp`,
+        desc: `Disfrutá de la alta fidelidad y baja latencia que sólo AIWA te puede brindar.`,
+      },
+      {
+        title: `Rápido emparejamiento`,
+        img: fileserver + `/banners/emparejamiento506br.webp`,
+        desc: `Comenzá a escuchar en pocos segundos ¡configurá una sola vez! Luego, tan sólo con sacarlos del estuche se conectarán.`,
+      },
+      {
+        title: `Larga autonomía`,
+        img: fileserver + `/banners/energia506br.webp`,
+        desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.`,
+      },
+      {
+        title: `USB-C`,
+        img: fileserver + `/banners/usbc506br.webp`,
+        desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.`,
+      },
+    ],
+    shortDesc: `Sonido sin igual`,
+    longDesc:
+      "Impresionante calidad de sonido en un formato cómodo. Escuchá tu música preferida donde sea, sin limitaciones.",
+    buyLink: ``,
+    featuredFeatures: [
+      { id: 51 }, // Control de Volumen
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 54 }, // Controles canciones
+      { id: 55 }, // Estuche
+      { id: 58 }, // Amplio alcance
+      { id: 59 }, // USBC
+      { id: 76 }, // Sport
+      { id: 44 }, // Ligero
+      { id: 12 }, // Bluetooth
+      { id: 78, value: "dos horas" }, // Carga rápida
+    ],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
+    featuresSections: [
+      {
+        title: "Auricular",
+        items: [
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
+          { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
+          { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
+          { name: "Capacidad de Batería", value: `30mAh` }, // Batería
+          { name: "Duración de Batería", value: `3 a 4h aprox.` }, // Duración Batería
+          { name: "Dimensiones", value: `24,5 x 17 x 18 mm` }, // Dimension prod
+          { name: "Peso", value: `15g (cada uno)` }, // Peso
+        ],
+      },
+      {
+        title: "Estuche",
+        items: [
+          { name: "Capacidad de Batería", value: `250mAh` },
+          { name: "Tipo de Batería", value: `Polímero de iones de litio` },
+          { name: "Tiempo de Carga", value: `2h aprox.` },
+          { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC5V 500mAh / DC5V 150mAh` },
+          { name: "Indicador de Carga", value: `Si` },
+          { name: "Dimensiones", value: `42 x 52 x 25,5 mm` },
+          { name: "Peso", value: `125g` },
+        ],
+      },
+      {
+        title: "Pack",
+        items: [
+          { name: "Color del producto", value: "Rosa" },
+          { name: "Dimensiones del paquete", value: "10 x 10 x 3,5 cm" },
+          { name: "Peso", value: "110g" },
+          { name: "EAN", value: "7798111354756" },
+        ],
+      },
+    ],
+    includes: [
+      32, // Estuche de carga
+      20, // USB tipo C
+      9, // Manual
+    ],
+    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    colors: ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V'],
+    videos: [
+      { title: 'Presentación', youtubeId: '0TuNb8C5-zg' }
+    ]
+  },
+  { // ATA-506V
+    name: `Auriculares In-ear Bluetooth`,
+    sku: `ATA-506V`,
+    link: `/productos/ATA-506V`,
+    categories: [103],
+    imgs: [
+      `/products/ATA-506V/img/1.webp`,
+      `/products/ATA-506V/img/2.webp`,
+      `/products/ATA-506V/img/3.webp`,
+      `/products/ATA-506V/img/4.webp`,
+    ].map((e) => fileserver + e),
+    360: false,
+    gen: "1º Generación",
+    banners: [
+      {
+        title: `Controles Touch`,
+        img: fileserver + `/banners/touch306b.webp`,
+        desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
+      },
+      {
+        title: `Aliado Fitness`,
+        img: fileserver + `/banners/running506bv.webp`,
+        desc: `Podés usarlos para hacer deporte ya que son extremadamente ligeros, además son resistentes al polvo y las salpicaduras o ligeras lloviznas.`,
+      },
+      {
+        title: `Calidad de sonido`,
+        img: fileserver + `/banners/calidad506bv.webp`,
+        desc: `Disfrutá de la alta fidelidad y baja latencia que sólo AIWA te puede brindar.`,
+      },
+      {
+        title: `Rápido emparejamiento`,
+        img: fileserver + `/banners/emparejamiento506bv.webp`,
+        desc: `Comenzá a escuchar en pocos segundos ¡configurá una sola vez! Luego, tan sólo con sacarlos del estuche se conectarán.`,
+      },
+      {
+        title: `Larga autonomía`,
+        img: fileserver + `/banners/energia506bv.webp`,
+        desc: `Tienen una batería de larga duración y cuentan con estuche de carga portátil para llevarlos siempre con vos, además de tener un display led que te indica exactamente cuándo recargarlo.`,
+      },
+      {
+        title: `USB-C`,
+        img: fileserver + `/banners/usbc506bv.webp`,
+        desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.`,
+      },
+    ],
+    shortDesc: `Sonido sin igual`,
+    longDesc:
+      "Impresionante calidad de sonido en un formato cómodo. Escuchá tu música preferida donde sea, sin limitaciones.",
+    buyLink: ``,
+    featuredFeatures: [
+      { id: 51 }, // Control de Volumen
+      { id: 46 }, // Manos libres
+      { id: 52 }, // Batería larga duración
+      { id: 53 }, // Boton incorporado
+      { id: 54 }, // Controles canciones
+      { id: 55 }, // Estuche
+      { id: 58 }, // Amplio alcance
+      { id: 59 }, // USBC
+      { id: 76 }, // Sport
+      { id: 44 }, // Ligero
+      { id: 12 }, // Bluetooth
+      { id: 78, value: "dos horas" }, // Carga rápida
+    ],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V5.0' }, // Version BT
+      { id: 35, value: '10m' }, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP' }, // Formatos BT
+      { id: 39, value: 'Si' }, // Indicador de carga
+      { id: 40, value: 'Polímero de iones de litio' }, // Tipo bateria
+      { id: 1, value: 'Si' }, // Microfono
+      { id: 11, value: 'Hasta 5 horas'}, // Duracion de bateria
+    ],
+    featuresSections: [
+      {
+        title: "Auricular",
+        items: [
+          { name: "Controles", value: `Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres` }, // Controles
+          { name: "Versión de Bluetooth", value: `V5.0` }, // Version BT
+          { name: "Alcance de Bluetooth", value: `10m` }, // Alcance BT
+          { name: "Formatos de Bluetooth", value: `HSP / HFP / A2DP / AVRCP` }, // Formatos BT
+          { name: "Capacidad de Batería", value: `30mAh` }, // Batería
+          { name: "Duración de Batería", value: `3 a 4h aprox.` }, // Duración Batería
+          { name: "Dimensiones", value: `24,5 x 17 x 18 mm` }, // Dimension prod
+          { name: "Peso", value: `15g (cada uno)` }, // Peso
+        ],
+      },
+      {
+        title: "Estuche",
+        items: [
+          { name: "Capacidad de Batería", value: `250mAh` },
+          { name: "Tipo de Batería", value: `Polímero de iones de litio` },
+          { name: "Tiempo de Carga", value: `2h aprox.` },
+          { name: "Tiempo en Stand-by", value: `4 meses` },
+          { name: "Entrada / Salida", value: `DC5V 500mAh / DC5V 150mAh` },
+          { name: "Indicador de Carga", value: `Si` },
+          { name: "Dimensiones", value: `42 x 52 x 25,5 mm` },
+          { name: "Peso", value: `125g` },
+        ],
+      },
+      {
+        title: "Pack",
+        items: [
+          { name: "Color del producto", value: "Verde" },
+          { name: "Dimensiones del paquete", value: "10 x 10 x 3,5 cm" },
+          { name: "Peso", value: "110g" },
+          { name: "EAN", value: "7798111354756" },
+        ],
+      },
+    ],
+    includes: [
+      33, // Estuche de carga
+      20, // USB tipo C
+      9, // Manual
+    ],
+    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    colors: ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V'],
+    videos: [
+      { title: 'Presentación', youtubeId: '0TuNb8C5-zg' }
     ]
   },
 ]
