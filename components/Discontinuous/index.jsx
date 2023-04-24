@@ -11,7 +11,7 @@ export default function Discontinuous(){
         <h2>Productos que ya no se distribuyen comercialmente</h2>
       </div>
       <div className="wrapper">
-        {prodDiscont.map((e,i) => <ProductCard sku={e.sku} showName showSku showDownload/>)}
+        {prodDiscont.map((e,i) => <ProductCard key={i} sku={e.sku} showName showSku showDownload/>)}
       </div>
     </section>
   )
