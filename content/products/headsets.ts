@@ -1789,9 +1789,9 @@ export const headsets: Product[] = [
         desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.`,
       },
     ],
-    shortDesc: `Sonido sin igual`,
+    shortDesc: `Elegí tu estilo`,
     longDesc:
-      "Impresionante calidad de sonido en un formato cómodo. Escuchá tu música preferida donde sea, sin limitaciones.",
+      "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
     buyLink: ``,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
@@ -1910,9 +1910,9 @@ export const headsets: Product[] = [
         desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.`,
       },
     ],
-    shortDesc: `Sonido sin igual`,
+    shortDesc: `Elegí tu estilo`,
     longDesc:
-      "Impresionante calidad de sonido en un formato cómodo. Escuchá tu música preferida donde sea, sin limitaciones.",
+      "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
     buyLink: ``,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
@@ -2031,9 +2031,9 @@ export const headsets: Product[] = [
         desc: `Gran capacidad de batería y carga a través de USB tipo C, compatible con todo tipo de cargadores en el mercado, por lo que no tendrás que preocuparte por encontrar uno.`,
       },
     ],
-    shortDesc: `Sonido sin igual`,
+    shortDesc: `Elegí tu estilo`,
     longDesc:
-      "Impresionante calidad de sonido en un formato cómodo. Escuchá tu música preferida donde sea, sin limitaciones.",
+      "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
     buyLink: ``,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
