@@ -2107,4 +2107,40 @@ export const headsets: Product[] = [
       { title: 'Presentación', youtubeId: '0TuNb8C5-zg' }
     ]
   },
+  { // AVA-DBT93
+    name: `Auriculares Deportivo In-ear Bluetooth`,
+    sku: `AVA-DBT93`,
+    link: `/productos/AVA-DBT93`,
+    categories: [103],
+    imgs: [
+      `/products/AVA-DBT93/img/1.webp`,
+      `/products/AVA-DBT93/img/2.webp`,
+      `/products/AVA-DBT93/img/3.webp`,
+      `/products/AVA-DBT93/img/4.webp`,
+    ].map((e) => fileserver + e),
+    360: false,
+    gen: "1º Generación",
+    banners: [
+      {
+        title: `Controles Touch`,
+        img: fileserver + `/banners/touch306b.webp`,
+        desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
+      }
+    ],
+    shortDesc: `Elegí tu estilo`,
+    longDesc:
+      "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
+    featuredFeatures: [
+      { id: 78, value: "dos horas" }, // Carga rápida
+    ],
+    features: [
+      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+    ],
+    includes: [
+      33, // Estuche de carga
+      20, // USB tipo C
+      9, // Manual
+    ],
+    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+  },
 ]
