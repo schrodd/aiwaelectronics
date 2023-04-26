@@ -6,11 +6,29 @@ import CheckIcon from '@mui/icons-material/Check';
 import CloseIcon from '@mui/icons-material/Close';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import { useRouter } from 'next/router';
+import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
+import VisibilityIcon from '@mui/icons-material/Visibility';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import { useState } from 'react';
+import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
+import DownloadIcon from '@mui/icons-material/Download';
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
 
-export default function ProductCard({sku, showName, showSku, showDesc, showButton, showGen, showTags, showDownload}){
+
+export default function ProductCard({sku, showName, showSku, showDesc, showButton, showGen, showTags, showDownload, showMenu}){
   const router = useRouter()
   const activePath = router.asPath
   const product = products.find(e => e.sku == sku)
+  const [menuAnchorElement, setMenuAnchorElement] = useState(null)
+  const open = Boolean(menuAnchorElement)
+  function toggleMenu(e) {
+    if (open) {
+      setMenuAnchorElement(null)
+    } else {
+      setMenuAnchorElement(e.currentTarget)
+    }
+  }
   return (
     <div className='product-card'>
       {activePath == `/productos/${product.sku}` && (
@@ -42,8 +60,56 @@ export default function ProductCard({sku, showName, showSku, showDesc, showButto
           </div>
         )}
         {showDownload && <a className='p-download-button' href={product.downloads} target='_blank' rel="noreferrer"><OpenInNewIcon/>Descargas</a> }
+        {showMenu && (
+          <>
+            <button
+              className='options-menu'
+              onClick={toggleMenu}
+            >
+              <FormatListBulletedIcon/>
+              Opciones
+            </button>
+            <Menu
+              anchorEl={menuAnchorElement}
+              open={open}
+              onClose={toggleMenu}
+              sx={{maxWidth: '300px'}}
+            >
+              <MenuItem onClick={toggleMenu} sx={{fontSize: '14px'}}>
+                <Link className='search-menu-link' href={product.link}>
+                  <VisibilityIcon fontSize="small" /> 
+                  Ver producto
+                </Link>
+              </MenuItem>
+              {product.buyLink && (
+                <MenuItem onClick={toggleMenu} sx={{fontSize: '14px'}}>
+                  <Link className='search-menu-link' href={product.buyLink}>
+                    <LocalGroceryStoreIcon fontSize="small" />
+                    Comprar
+                  </Link>
+                </MenuItem>
+              )}
+              {product.features && (
+                <MenuItem onClick={toggleMenu} sx={{fontSize: '14px'}}>
+                  <Link className='search-menu-link' href={`${product.link}#product-features-anchor`}>
+                    <QuestionMarkIcon fontSize="small" />
+                    Características
+                  </Link>
+                </MenuItem>
+              )}
+              {product.downloads && (
+                <MenuItem onClick={toggleMenu} sx={{fontSize: '14px'}}>
+                  <Link className='search-menu-link' href={product.downloads} target='_blank'>
+                    <DownloadIcon fontSize="small" />
+                    Descargas
+                  </Link>
+                </MenuItem>
+              )}
+            </Menu>
+          </>
+        )}
       </div>
-      {showButton && <button><Link href={product.link}>Ver más</Link></button>}
+      {showButton && <button className='see-more'><Link href={product.link}>Ver más</Link></button>}
     </div>
   );
 }

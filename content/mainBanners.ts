@@ -7,7 +7,7 @@ const mainBanners: MainBanner[] = [
     link: '/lineas/infinit',
     alt: 'Banner "de otro mundo"',
     text: {
-      title: 'De otro mundo',
+      title: 'Sonido de otro mundo',
       subtitle: 'Explorá nuevas sensaciones con la mejor calidad de sonido.',
       cta: '',
       align: 'left', // center (default) | right | left - affects pc only
@@ -20,8 +20,8 @@ const mainBanners: MainBanner[] = [
     link: '/lineas/infinit',
     alt: 'Parlantes P2016A y P2016B',
     text: {
-      title: 'Sonido compacto',
-      subtitle: 'Descubrí el balance perfecto entre potencia y tamaño.',
+      title: 'Potente y compacto',
+      subtitle: 'Te ofrecemos el balance perfecto entre portabilidad y potencia.',
       cta: '',
       align: 'left', // center (default) | right | left - affects pc only
       valign: 'top', // center (default) | top | bottom - affects both pc and mobile

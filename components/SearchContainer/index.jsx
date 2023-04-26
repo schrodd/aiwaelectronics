@@ -13,7 +13,7 @@ import Checkbox from '@mui/material/Checkbox';
 import DeleteSweepIcon from '@mui/icons-material/DeleteSweep';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import TextField from '@mui/material/TextField';
-import Autocomplete from '@mui/material/Autocomplete';
+import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
 
 export default function SearchContainer() {
   const [selectedCategory, setSelectedCategory] = useState('')
@@ -147,7 +147,7 @@ export default function SearchContainer() {
       </aside>
       <div className="products">
         <p className='results'>Resultados: {finalProducts.length}</p>
-        {finalProducts.map((e, i) => <ProductCard sku={e.sku} showName showSku showTags showDownload key={i} />)}
+        {finalProducts.map((e, i) => <ProductCard sku={e.sku} showName showSku showTags showMenu key={i} />)}
       </div>
     </main>
   )

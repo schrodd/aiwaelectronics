@@ -7,9 +7,8 @@ import Head from "next/head"
 import CategoryLineSwiper from "../../components/CategoryLineSwiper"
 import CategorySwiper from "../../components/CategorySwiper"
 import { productGroups } from "../../content/groups"
-import Discontinuous from "../../components/Discontinuous"
 
-export default function Category() {
+export default function Category({lvTwoCat}) {
   const url = useRouter()
   const { cat } = url.query
   const category = lvTwoCat.find((e) => e.route === `/categorias/${cat}`)
@@ -74,4 +73,25 @@ export default function Category() {
       </main>
     </>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {lvTwoCat}, // will be passed to the page component as props
+  }
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [
+      { params: { cat: 'parlantes' }},
+      { params: { cat: 'torres-de-sonido' }},
+      { params: { cat: 'in-ear' }},
+      { params: { cat: 'on-ear' }},
+      { params: { cat: 'tablets' }},
+      { params: { cat: 'notebooks' }},
+      { params: { cat: 'discontinuos' }},
+    ],
+    fallback: false, // can also be true or 'blocking'
+  }
 }

@@ -1,7 +1,5 @@
 import Image from "next/image"
 import { useRouter } from "next/router"
-import MainBanner from '../../components/MainBanner'
-import Product from "../../components/Product"
 import lineas from '../../content/lineas'
 import { products } from "../../content/products"
 import NotFound from "../../components/NotFound"
@@ -9,7 +7,7 @@ import Head from "next/head"
 import LineBanner from "../../components/LineBanner"
 import LineProductCard from "../../components/LineProductCard"
 
-export default function Lines(){
+export default function Lines({lineas}){
   const url = useRouter()
   const { lin } = url.query
   const linea = lineas.find(e => e.link === `/lineas/${lin}`)
@@ -32,4 +30,22 @@ export default function Lines(){
       </main>
     </>
   )
+}
+
+export async function getStaticProps() {
+  return {
+    props: {lineas}, // will be passed to the page component as props
+  }
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: [
+      { params: { lin: 'infinit' }},
+      { params: { lin: 'flama' }},
+      { params: { lin: 'ring' }},
+      { params: { lin: 'party' }},
+    ],
+    fallback: false, // can also be true or 'blocking'
+  }
 }

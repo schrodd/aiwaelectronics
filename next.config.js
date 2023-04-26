@@ -27,4 +27,6 @@ module.exports = {
     domains: ['aiwaelectronics.com.ar', 'www.aiwaelectronics.com.ar'],
     unoptimized: true
   },
+  //output: 'export',
+  trailingSlash: true,
 };

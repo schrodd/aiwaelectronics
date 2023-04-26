@@ -3,7 +3,7 @@ try {
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/plain; charset="UTF-8"' . "\r\n";
     # $headers .= "Cc: info@aiwaelectronics.com.ar\r\n"; // Personas en copia 
-    $headers .= "Cco: ybolognia@totalhome.com.ar, pavila@totalhome.com.ar, amolina@totalhome.com.ar\r\n"; // Personas en copia oculta
+    $headers .= "Bcc: ybolognia@totalhome.com.ar, pavila@totalhome.com.ar, amolina@totalhome.com.ar\r\n"; // Personas en copia oculta
     $sub = '=?UTF-8?B?' . base64_encode("Formulario AIWA - Soporte") . '?='; // Asunto del mail
 
     $message = "";
@@ -18,7 +18,7 @@ try {
     if ($m) {
         http_response_code(200);
         //echo $to . " - " . $message;
-        header("Location: /contacto/gracias.html");
+        header("Location: /contacto/gracias");
     } else {
         http_response_code(400);
         echo "Error enviando mail";

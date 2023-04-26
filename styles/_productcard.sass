@@ -100,9 +100,27 @@ $line: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(220,220,220,1) 50%, r
           width: 14px
           height: 14px
           margin-right: 3px
-  button
+  button.see-more
     @include btn(white, $black, 1px solid $black)
     @include hoverScale(1)
     margin-bottom: 20px
     @include mobile
       display: none
+  button.options-menu
+    @include flex
+    background: none
+    border: none
+    font-weight: 600
+    color: #333
+    svg
+      width: 15px
+      margin-right: 5px
+
+a.search-menu-link
+  @include flex(row, flex-start)
+  margin-right: 8px
+  svg
+    fill: #888
+    width: 25px
+    margin-right: 10px
+    margin-bottom: 1px
