@@ -2117,6 +2117,8 @@ export const headsets: Product[] = [
       `/products/AVA-DBT93/img/2.webp`,
       `/products/AVA-DBT93/img/3.webp`,
       `/products/AVA-DBT93/img/4.webp`,
+      `/products/AVA-DBT93/img/5.webp`,
+      `/products/AVA-DBT93/img/6.webp`,
     ].map((e) => fileserver + e),
     360: false,
     gen: "1º Generación",
@@ -2127,20 +2129,44 @@ export const headsets: Product[] = [
         desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
       }
     ],
-    shortDesc: `Elegí tu estilo`,
+    shortDesc: `Ejercitate con ritmo`,
     longDesc:
-      "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
+      "Un auricular cómodo y resistente, ideal para llevarlo con vos en tus momentos Fitness. Poseen soportes cómodos que te permitirán moverte sin parar sin que se muevan o se caigan.",
     featuredFeatures: [
-      { id: 78, value: "dos horas" }, // Carga rápida
+      { id: 78, value: "una hora" }, // Carga rápida
+      { id: 52 }, // Bat. Larga duracion
+      { id: 42 }, // Plegable
+      { id: 46 }, // Manos libres 
+      { id: 48 }, // Boton atender llamadas 
+      { id: 51 }, // Control de volumen
+      { id: 54 }, // Control de canciones
+      { id: 58 }, // Alcance
+      { id: 57 }, // USB
+      { id: 44 }, // Ligero
+      { id: 76 }, // Aliado Fitness
+      { id: 90 }, // Bluetooth
     ],
     features: [
-      { id: 27, value: 'Reproducir/Pausar, Retroceder/Avanzar, Volumen y Manos Libres' }, // Controles
+      { id: 27, value: 'Canciones, Volumen y Manos Libres' }, // Controles
+      { id: 36, value: 'V4.2'}, // Ver. BT
+      { id: 35, value: '10m'}, // Alcance BT
+      { id: 37, value: 'HSP / HFP / A2DP / AVRCP'}, // Formatos BT
+      { id: 30, value: '20 ~ 20000 Hz'}, // Frecuencia de respuesta
+      { id: 31, value: '32Ω'}, // Impedancia
+      { id: 32, value: '108dB±2dB'}, // Sensibilidad
+      { id: 10, value: '3.7V - 110mAh'}, // Bateria
+      { id: 11, value: 'En uso: 7h / En stand-by: 180h'}, // Duracion de bateria
+      { id: 38, value: '1h'}, // Tiempo de carga
+      { id: 16, value: '31 x 16,5 x 24,7 mm'}, // Dimensiones
+      { id: 17, value: '110 x 110 x 35 mm'}, // Dim. Caja
+      { id: 18, value: '14,2g'}, // Peso
+      { id: 19, value: '7798111353407'}, // EAN
     ],
     includes: [
-      33, // Estuche de carga
-      20, // USB tipo C
+      4, // Micro USB
+      16, // Almohadillas
       9, // Manual
     ],
-    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    downloads: `https://drive.google.com/drive/folders/1sWQFFcXfeQoqoY9RvXUdxSlRi8pgHLq0`,
   },
 ]

@@ -223,6 +223,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   },
 
   // Auriculares
+  { id: 90, name: 'Bluetooth', icon: bluetooth,
+    desc: 'Transmití tu música de forma inalámbrica desde cualquier celular o reproductor portátil.' },
   { id: 55, name: 'Estuche de carga', icon: estuche,
   desc: 'Cuentan con un estuche de carga portátil, siempre que estén en el mismo, van a estar cargándose.' },
   { id: 53, name: 'Sensor Touch', icon: touch,
