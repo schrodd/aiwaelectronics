@@ -2124,9 +2124,19 @@ export const headsets: Product[] = [
     gen: "1º Generación",
     banners: [
       {
-        title: `Controles Touch`,
-        img: fileserver + `/banners/touch306b.webp`,
-        desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
+        title: `Aliado Fitness`,
+        img: fileserver + `/banners/fitnessdbt.webp`,
+        desc: `Están diseñados especialmente para hacer deporte, son extremadamente ligeros, además resistentes al polvo y a salpicaduras.`,
+      },
+      {
+        title: 'Detalles que importan',
+        img: fileserver + '/banners/controlesdbt.webp',
+        desc: 'Diseñados para tu comodidad, poseen controles cómodos y sujetadores que impedirán que se caigan durante tus actividades físicas.'
+      },
+      {
+        title: 'Usalos donde sea',
+        img: fileserver + '/banners/nofitnessdbt.webp',
+        desc: 'Incluso cuando no estés haciendo deporte, ya que poseen una excelente calidad de sonido y con la función Manos Libres podés contestar llamadas sin tener que quitártelos.'
       }
     ],
     shortDesc: `Ejercitate con ritmo`,
@@ -2158,9 +2168,9 @@ export const headsets: Product[] = [
       { id: 11, value: 'En uso: 7h / En stand-by: 180h'}, // Duracion de bateria
       { id: 38, value: '1h'}, // Tiempo de carga
       { id: 16, value: '31 x 16,5 x 24,7 mm'}, // Dimensiones
-      { id: 17, value: '110 x 110 x 35 mm'}, // Dim. Caja
+      //{ id: 17, value: '110 x 110 x 35 mm'}, // Dim. Caja
       { id: 18, value: '14,2g'}, // Peso
-      { id: 19, value: '7798111353407'}, // EAN
+      //{ id: 19, value: '7798111353407'}, // EAN
     ],
     includes: [
       4, // Micro USB
