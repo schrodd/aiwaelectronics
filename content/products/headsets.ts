@@ -1642,7 +1642,7 @@ export const headsets: Product[] = [
     banners: [
       {
         title: `Controles Touch`,
-        img: fileserver + `/banners/touch306b.webp`,
+        img: fileserver + `/banners/touch506.webp`,
         desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
       },
       {
@@ -1741,7 +1741,7 @@ export const headsets: Product[] = [
       20, // USB tipo C
       9, // Manual
     ],
-    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    downloads: `https://drive.google.com/drive/folders/1LKybeMUsXm0fmk64k7sqpaO1Y0dXihO2`,
     colors: ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V'],
   },
   { // ATA-506L
@@ -1760,7 +1760,7 @@ export const headsets: Product[] = [
     banners: [
       {
         title: `Controles Touch`,
-        img: fileserver + `/banners/touch306b.webp`,
+        img: fileserver + `/banners/touch506.webp`,
         desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
       },
       {
@@ -1859,7 +1859,7 @@ export const headsets: Product[] = [
       20, // USB tipo C
       9, // Manual
     ],
-    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    downloads: `https://drive.google.com/drive/folders/1vdKYOIr8TJDNaHWi0ZulpiIQGla2lPIx`,
     colors: ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V'],
     videos: [
       { title: 'Presentación', youtubeId: '0TuNb8C5-zg' }
@@ -1881,7 +1881,7 @@ export const headsets: Product[] = [
     banners: [
       {
         title: `Controles Touch`,
-        img: fileserver + `/banners/touch306b.webp`,
+        img: fileserver + `/banners/touch506.webp`,
         desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
       },
       {
@@ -1980,7 +1980,7 @@ export const headsets: Product[] = [
       20, // USB tipo C
       9, // Manual
     ],
-    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    downloads: `https://drive.google.com/drive/folders/1VbSSl0Dm0Ok7RiCCJtWrdZaCP0RhKP4G`,
     colors: ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V'],
     videos: [
       { title: 'Presentación', youtubeId: '0TuNb8C5-zg' }
@@ -2002,7 +2002,7 @@ export const headsets: Product[] = [
     banners: [
       {
         title: `Controles Touch`,
-        img: fileserver + `/banners/touch306b.webp`,
+        img: fileserver + `/banners/touch506.webp`,
         desc: `Controles fáciles de usar con un ligero toque. Contestá llamadas, pasá canciones o subí/bajá volumen sin ninguna dificultad.`,
       },
       {
@@ -2101,7 +2101,7 @@ export const headsets: Product[] = [
       20, // USB tipo C
       9, // Manual
     ],
-    downloads: `https://drive.google.com/drive/folders/1WSuTjo1gQNYQ-2VYm9wuMe6u5amcjSQy`,
+    downloads: `https://drive.google.com/drive/folders/1BQ3xrjN4tYH925g1wkKKWo3Stam2cfFm`,
     colors: ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V'],
     videos: [
       { title: 'Presentación', youtubeId: '0TuNb8C5-zg' }

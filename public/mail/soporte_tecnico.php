@@ -3,6 +3,7 @@ try {
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/plain; charset="UTF-8"' . "\r\n";
     # $headers .= "Cc: info@aiwaelectronics.com.ar\r\n"; // Personas en copia 
+    $headers .= "Cco: ybolognia@totalhome.com.ar, pavila@totalhome.com.ar, amolina@totalhome.com.ar\r\n"; // Personas en copia oculta
     $sub = '=?UTF-8?B?' . base64_encode("Formulario AIWA - Soporte") . '?='; // Asunto del mail
 
     $message = "";
