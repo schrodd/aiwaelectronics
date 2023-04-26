@@ -1,20 +1,11 @@
+import { Visibility, Check, Close, OpenInNew, QuestionMark, Download, LocalGroceryStore, ArrowDropDown } from '@mui/icons-material';
 import { products } from '../../content/products'
+import { useRouter } from 'next/router';
+import { useState } from 'react';
+import MenuItem from '@mui/material/MenuItem';
+import Menu from '@mui/material/Menu';
 import Image from 'next/image'
 import Link from 'next/link'
-import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
-import CheckIcon from '@mui/icons-material/Check';
-import CloseIcon from '@mui/icons-material/Close';
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import { useRouter } from 'next/router';
-import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-import VisibilityIcon from '@mui/icons-material/Visibility';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import { useState } from 'react';
-import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
-import DownloadIcon from '@mui/icons-material/Download';
-import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
-
 
 export default function ProductCard({sku, showName, showSku, showDesc, showButton, showGen, showTags, showDownload, showMenu}){
   const router = useRouter()
@@ -22,21 +13,13 @@ export default function ProductCard({sku, showName, showSku, showDesc, showButto
   const product = products.find(e => e.sku == sku)
   const [menuAnchorElement, setMenuAnchorElement] = useState(null)
   const open = Boolean(menuAnchorElement)
-  function toggleMenu(e) {
-    if (open) {
-      setMenuAnchorElement(null)
-    } else {
-      setMenuAnchorElement(e.currentTarget)
-    }
-  }
+  function toggleMenu(e) { open ? setMenuAnchorElement(null) : setMenuAnchorElement(e.currentTarget) }
   return (
     <div className='product-card'>
-      {activePath == `/productos/${product.sku}` && (
-        <RemoveRedEyeIcon/>
-      )}
+      {activePath == `/productos/${product.sku}` && <Visibility/>}
       <Link href={product.link}>
         <div className='image'>
-          <Image width='150' height='150' layout='fixed' src={product.imgs[0]} alt={product.name} placeholder='blur' blurDataURL='/ph.png' priority/>
+          <Image width='150' height='150' src={product.imgs[0]} alt={product.name} placeholder='blur' blurDataURL='/ph.png' priority/>
         </div>
       </Link>
       <div className='texts'>
@@ -46,62 +29,43 @@ export default function ProductCard({sku, showName, showSku, showDesc, showButto
         {showGen && <p className='p-desc'><small>{product.gen}</small></p>}
         {showTags && (
           <div className='p-tags'>
-            {!product.categories.some(e => e == 110) ? (
-              <span style={{background:'#54ac45'}}>
-                <CheckIcon/>
-                Disponible
-              </span>
-            ) : (
-              <span style={{background:'grey'}}>
-                <CloseIcon/>
-                No disponible
-              </span>
-            )}
+            {!product.categories.some(e => e == 110)
+            ? <span style={{background:'#54ac45'}}><Check/>Disponible</span>
+            : <span style={{background:'grey'}}><Close/>No disponible</span>}
           </div>
         )}
-        {showDownload && <a className='p-download-button' href={product.downloads} target='_blank' rel="noreferrer"><OpenInNewIcon/>Descargas</a> }
+        {showDownload && <a className='p-download-button' href={product.downloads} target='_blank' rel="noreferrer"><OpenInNew/>Descargas</a>}
         {showMenu && (
           <>
-            <button
-              className='options-menu'
-              onClick={toggleMenu}
-            >
-              <FormatListBulletedIcon/>
-              Opciones
-            </button>
+            <button className='options-menu' onClick={toggleMenu}>Opciones<ArrowDropDown/></button>
             <Menu
-              anchorEl={menuAnchorElement}
-              open={open}
-              onClose={toggleMenu}
-              sx={{maxWidth: '300px'}}
-            >
+            anchorEl={menuAnchorElement}
+            open={open}
+            onClose={toggleMenu}
+            sx={{maxWidth: '300px'}}>
               <MenuItem onClick={toggleMenu} sx={{fontSize: '14px'}}>
                 <Link className='search-menu-link' href={product.link}>
-                  <VisibilityIcon fontSize="small" /> 
-                  Ver producto
+                  <Visibility fontSize="small" />Ver producto
                 </Link>
               </MenuItem>
               {product.buyLink && (
                 <MenuItem onClick={toggleMenu} sx={{fontSize: '14px'}}>
-                  <Link className='search-menu-link' href={product.buyLink}>
-                    <LocalGroceryStoreIcon fontSize="small" />
-                    Comprar
+                  <Link className='search-menu-link' target='_blank' href={product.buyLink}>
+                    <LocalGroceryStore fontSize="small" />Comprar
                   </Link>
                 </MenuItem>
               )}
               {product.features && (
                 <MenuItem onClick={toggleMenu} sx={{fontSize: '14px'}}>
                   <Link className='search-menu-link' href={`${product.link}#product-features-anchor`}>
-                    <QuestionMarkIcon fontSize="small" />
-                    Características
+                    <QuestionMark fontSize="small" />Características
                   </Link>
                 </MenuItem>
               )}
               {product.downloads && (
                 <MenuItem onClick={toggleMenu} sx={{fontSize: '14px'}}>
                   <Link className='search-menu-link' href={product.downloads} target='_blank'>
-                    <DownloadIcon fontSize="small" />
-                    Descargas
+                    <Download fontSize="small" />Descargas
                   </Link>
                 </MenuItem>
               )}

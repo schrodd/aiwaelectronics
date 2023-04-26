@@ -19,7 +19,7 @@ export default function SearchContainer() {
   const [selectedCategory, setSelectedCategory] = useState('')
   const [selectedFeature, setSelectedFeature] = useState('')
   const [selectedValue, setSelectedValue] = useState('')
-  const [showDiscontinued, setShowDiscontinued] = useState(true)
+  const [showDiscontinued, setShowDiscontinued] = useState(false)
   const [showBackToTop, setShowBackToTop] = useState(false)
   const [mobileMenu, setMobileMenu] = useState(true)
   const [skuInput, setSkuInput] = useState('')
