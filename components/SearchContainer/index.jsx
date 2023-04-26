@@ -137,7 +137,7 @@ export default function SearchContainer() {
             renderInput={(params) => <TextField {...params} onChange={changeSku} label="Modelo"/>}
           />
           <FormGroup>
-            <FormControlLabel control={<Checkbox value={showDiscontinued} defaultChecked/>} label="Mostrar descontinuados" onChange={toggleShowDiscontinued}/>
+            <FormControlLabel control={<Checkbox value={showDiscontinued}/>} label="Mostrar descontinuados" onChange={toggleShowDiscontinued}/>
           </FormGroup>
           <button className={`back-to-top ${showBackToTop && 'visible'}`} onClick={scrollToTop} value=''>
             <ArrowUpwardIcon fontSize='small'/>
