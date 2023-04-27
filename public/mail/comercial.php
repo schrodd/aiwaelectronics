@@ -19,7 +19,7 @@ try {
     if ($m) {
         http_response_code(200);
         //echo $to . " - " . $message;
-        header("Location: /contacto/gracias.html");
+        header("Location: /contacto/gracias");
     } else {
         http_response_code(400);
         echo "error on sending email";
