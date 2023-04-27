@@ -5,7 +5,9 @@ export default function Constrictor(){
     <section id="constrictor">
       <div className="backdrop"></div>
       <div className='logo'>
-        <Image width='400' height='147' className="constrictor-logo" src="/images/components/Constrictor/constrictor-logo.png" alt='constrictor logo'/>
+        <div className="wrapper">
+          <Image fill className="constrictor-logo" src="/images/components/Constrictor/constrictor-logo.png" alt='constrictor logo'/>
+        </div>
         <h3>Nuestra línea de productos gamer</h3>
       </div>
       <div className='items'>
