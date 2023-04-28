@@ -100,7 +100,8 @@ export default function SearchContainer() {
     scrollToTop()
   }
   function changeSku(e) {
-    setSkuInput(e.target.value)
+    const input = e.target.value
+    setSkuInput(input.toUpperCase())
   }
 
   // Scroll to top

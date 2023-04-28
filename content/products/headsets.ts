@@ -2114,7 +2114,7 @@ export const headsets: Product[] = [
     name: `Auriculares Deportivo In-ear Bluetooth`,
     sku: `AVA-DBT93`,
     link: `/productos/AVA-DBT93`,
-    categories: [103],
+    categories: [103, 110],
     imgs: [
       `/products/AVA-DBT93/img/1.webp`,
       `/products/AVA-DBT93/img/2.webp`,
