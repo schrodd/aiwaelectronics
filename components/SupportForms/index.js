@@ -34,7 +34,7 @@ export default function SupportForms({type}){
       variant: 'standard',
       fullWidth: true,
       type: 'email',
-      required: false
+      required: true
     },
     inputPhone: {
       name: 'telefono',
