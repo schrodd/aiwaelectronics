@@ -1,6 +1,7 @@
+import SupportPageContent from "../../components/SupportPageContent"
+
 export default function soporte() {
-  
   return (
-    <h1>Soporte</h1>
+    <SupportPageContent/>
   )
 }

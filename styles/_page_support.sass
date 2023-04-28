@@ -1,0 +1,68 @@
+@import 'variables'
+
+main.support-page-content
+  div.banner
+    position: relative
+    width: 100%
+    height: 350px
+    border-bottom: $divider
+    .text
+      position: absolute
+      z-index: 1
+      left: 8%
+      top: 50%
+      margin-top: -55px
+      *
+        font-family: DINPRO, sans-serif
+      h1
+        font-size: 40px
+      @include mobile
+        width: 100%
+        left: 0
+        h1, h3, h5
+          text-align: center
+    img
+      object-fit: cover
+      @include mobile
+        opacity: .5
+  div.buttons
+    @include flex
+    background: $white
+    gap: 20px
+    padding: 30px
+    align-items: stretch
+    @include mobile
+      flex-direction: column
+      //align-items: stretch
+    .card
+      @include flex
+      flex-direction: column
+      border-radius: 10px
+      background: white
+      // flex: 1
+      transition: all .3s ease-out
+      padding: 50px 40px
+      flex: 1
+      @include mobile
+        justify-content: flex-start
+      @include pc
+        &:hover
+          transform: translateY(-5px)
+          filter: drop-shadow(0px 5px 5px rgba(0,0,0,.1))
+          svg
+            fill: $alt
+      h2
+        display: inline
+        font-family: DINPRO, sans-serif
+        margin: 0
+        font-size: 22px
+        margin-bottom: 10px
+      h2, p
+        text-align: center
+      p
+        font-family: DINPRO, sans-serif
+      svg
+        width: 60px
+        height: 60px
+        margin-right: 8px
+        margin-bottom: 10px

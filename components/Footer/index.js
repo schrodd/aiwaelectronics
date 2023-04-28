@@ -56,15 +56,15 @@ export default function Footer(){
           <h3>SOPORTE</h3>
           <ul>
             <li>
+              <Link href='/soporte'>
+                Soporte Técnico
+              </Link>
+            </li>
+            <li>
               <Link href='/terminos-y-condiciones'>
                 Términos y condiciones
               </Link>
             </li>
-            {/* <li>
-              <Link href='/preguntas-frecuentes'>
-                Preguntas frecuentes
-              </Link>
-            </li> */}
           </ul>
         </div>
         <div className='footer-section'>
