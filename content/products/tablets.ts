@@ -57,18 +57,18 @@ export const tablets: Product[] = [
       { id: 85 }, // Wifi 
     ],
     features: [
-      { id: 41, value: `7" 16:9` }, // Tamaño de pantalla
-      { id: 42, value: `1024x600 px` }, // Resolucion
       { id: 43, value: `RK3126C Cortex-A7 (Quad Core - 1.2GHz)` }, // Procesador
       { id: 44, value: `1GB` }, // Memoria RAM
       { id: 45, value: `16GB` }, // Almacenamiento
-      { id: 46, value: `Frontal 0.3MP / Trasera 0.3MP` }, // Cámara
+      { id: 47, value: `Android 8.1` }, // Sistema operativo
+      { id: 41, value: `7" 16:9` }, // Tamaño de pantalla
+      { id: 42, value: `1024x600 px` }, // Resolucion
       { id: 36, value: `v4.0` }, // Versión BT
       { id: 48, value: '802.11 b/g/n' }, // Wifi 
+      { id: 46, value: `Frontal 0.3MP / Trasera 0.3MP` }, // Cámara
       { id: 49, value: '8Ω/1W' }, // Parlantes
       { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, Micro USB 2.0 y Auxiliar` }, // Entradas
-      { id: 47, value: `Android 8.1` }, // Sistema operativo
       { id: 51, value: 'Polímero de Litio 3.7V/2500mAh' }, // Bateria
       { id: 16, value: `18,9 x 10,9 x 0,9 cm` }, // Dimensiones
       { id: 18, value: `282 g` }, // Peso
@@ -136,18 +136,18 @@ export const tablets: Product[] = [
       { id: 85 }, // Wifi 
     ],
     features: [
-      { id: 41, value: `7" 16:9` }, // Tamaño de pantalla
-      { id: 42, value: `1024x600 px` }, // Resolucion
       { id: 43, value: `RK3126C Cortex-A7 (Quad Core - 1.2GHz)` }, // Procesador
       { id: 44, value: `2GB` }, // Memoria RAM
       { id: 45, value: `16GB` }, // Almacenamiento
-      { id: 46, value: `Frontal 0.3MP / Trasera 2.0MP` }, // Cámara
+      { id: 47, value: `Android 10` }, // Sistema operativo
+      { id: 41, value: `7" 16:9` }, // Tamaño de pantalla
+      { id: 42, value: `1024x600 px` }, // Resolucion
       { id: 36, value: `v4.0` }, // Versión BT
       { id: 48, value: '802.11 b/g/n' }, // Wifi 
+      { id: 46, value: `Frontal 0.3MP / Trasera 2.0MP` }, // Cámara
       { id: 49, value: '8Ω/1W' }, // Parlantes
       { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, Micro USB 2.0 y Auxiliar` }, // Entradas
-      { id: 47, value: `Android 10` }, // Sistema operativo
       { id: 51, value: 'Polímero de Litio 3.7V/2500mAh' }, // Bateria
       { id: 16, value: `18,9 x 10,9 x 0,9 cm` }, // Dimensiones
       { id: 18, value: `282 g` }, // Peso
@@ -215,18 +215,18 @@ export const tablets: Product[] = [
       { id: 85 }, // Wifi 
     ],
     features: [
-      { id: 41, value: `7" 16:9` }, // Tamaño de pantalla
-      { id: 42, value: `1024x600 px` }, // Resolucion
       { id: 43, value: `RK3326S Cortex A35 (Quad Core - 1.5GHz)` }, // Procesador
       { id: 44, value: `2GB` }, // Memoria RAM
       { id: 45, value: `32GB` }, // Almacenamiento
-      { id: 46, value: `Frontal 0.3MP / Trasera 2.0MP` }, // Cámara
+      { id: 47, value: `Android 12` }, // Sistema operativo
+      { id: 41, value: `7" 16:9` }, // Tamaño de pantalla
+      { id: 42, value: `1024x600 px` }, // Resolucion
       { id: 36, value: `v4.0` }, // Versión BT
       { id: 48, value: '802.11 b/g/n' }, // Wifi 
+      { id: 46, value: `Frontal 0.3MP / Trasera 2.0MP` }, // Cámara
       { id: 49, value: '8Ω/1W' }, // Parlantes
       { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, USB tipo C y Auxiliar` }, // Entradas
-      { id: 47, value: `Android 12` }, // Sistema operativo
       { id: 51, value: 'Polímero de Litio 3.7V/2500mAh' }, // Bateria
       { id: 16, value: `18,9 x 10,9 x 0,9 cm` }, // Dimensiones
       { id: 18, value: `282 g` }, // Peso
@@ -292,18 +292,18 @@ export const tablets: Product[] = [
       { id: 85 }, // Wifi 
     ],
     features: [
-      { id: 41, value: `10" 16:10` }, // Tamaño de pantalla
-      { id: 42, value: `800x1280 px` }, // Resolucion
       { id: 43, value: `RK3326S Cortex A35 (Quad Core - 1.5GHz)` }, // Procesador
       { id: 44, value: `2GB` }, // Memoria RAM
       { id: 45, value: `16GB, expandible a 128GB` }, // Almacenamiento
-      { id: 46, value: `Frontal 2.0MP / Trasera 5.0MP` }, // Cámara
+      { id: 47, value: `Android 8.1` }, // Sistema operativo
+      { id: 41, value: `10" 16:10` }, // Tamaño de pantalla
+      { id: 42, value: `800x1280 px` }, // Resolucion
       { id: 36, value: `v4.0` }, // Versión BT
       { id: 48, value: '802.11 b/g/n' }, // Wifi 
+      { id: 46, value: `Frontal 2.0MP / Trasera 5.0MP` }, // Cámara
       { id: 49, value: '8Ω/1W' }, // Parlantes
       { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, Micro USB, Auxiliar` }, // Entradas
-      { id: 47, value: `Android 8.1` }, // Sistema operativo
       { id: 51, value: 'Polímero de Litio 3.7V/5000mAh' }, // Bateria
       { id: 16, value: `25 x 17,1 x 0,9 cm` }, // Dimensiones
       { id: 18, value: `515 g` }, // Peso
@@ -311,7 +311,7 @@ export const tablets: Product[] = [
     ],
     includes: [
       4, // Cable USB
-      5, // Cargador
+      34, // Cargador
       9, // Manual y garantía
     ],
     certNo: `RA 4184359 E`,
@@ -372,18 +372,18 @@ export const tablets: Product[] = [
       { id: 85 }, // Wifi 
     ],
     features: [
-      { id: 41, value: `10" 16:10` }, // Tamaño de pantalla
-      { id: 42, value: `800x1280 px` }, // Resolucion
       { id: 43, value: `RK3326S Cortex A35 (Quad Core - 1.5GHz)` }, // Procesador
       { id: 44, value: `2GB` }, // Memoria RAM
       { id: 45, value: `16GB, expandible a 128GB` }, // Almacenamiento
-      { id: 46, value: `Frontal 2.0MP / Trasera 5.0MP` }, // Cámara
+      { id: 47, value: `Android 10` }, // Sistema operativo
+      { id: 41, value: `10" 16:10` }, // Tamaño de pantalla
+      { id: 42, value: `800x1280 px` }, // Resolucion
       { id: 36, value: `v4.0` }, // Versión BT
       { id: 48, value: '802.11 b/g/n' }, // Wifi 
+      { id: 46, value: `Frontal 2.0MP / Trasera 5.0MP` }, // Cámara
       { id: 49, value: '8Ω/1W' }, // Parlantes
       { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, Micro USB, Auxiliar` }, // Entradas
-      { id: 47, value: `Android 10` }, // Sistema operativo
       { id: 51, value: 'Polímero de Litio 3.7V/5000mAh' }, // Bateria
       { id: 16, value: `25 x 17,1 x 0,9 cm` }, // Dimensiones
       { id: 18, value: `515 g` }, // Peso
@@ -391,7 +391,7 @@ export const tablets: Product[] = [
     ],
     includes: [
       4, // Cable USB
-      5, // Cargador
+      34, // Cargador
       9, // Manual y garantía
     ],
     certNo: `RA 4184359 E`,
@@ -452,18 +452,18 @@ export const tablets: Product[] = [
       { id: 85 }, // Wifi 
     ],
     features: [
-      { id: 41, value: `10" 16:10` }, // Tamaño de pantalla
-      { id: 42, value: `800x1280 px` }, // Resolucion
       { id: 43, value: `RK3326S Cortex A35 (Quad Core - 1.5GHz)` }, // Procesador
       { id: 44, value: `2GB` }, // Memoria RAM
       { id: 45, value: `32GB, expandible a 128GB` }, // Almacenamiento
-      { id: 46, value: `Frontal 2.0MP / Trasera 5.0MP` }, // Cámara
+      { id: 47, value: `Android 12` }, // Sistema operativo
+      { id: 41, value: `10" 16:10` }, // Tamaño de pantalla
+      { id: 42, value: `800x1280 px` }, // Resolucion
       { id: 36, value: `v4.0` }, // Versión BT
       { id: 48, value: '802.11 b/g/n' }, // Wifi 
+      { id: 46, value: `Frontal 2.0MP / Trasera 5.0MP` }, // Cámara
       { id: 49, value: '8Ω/1W' }, // Parlantes
       { id: 50, value: 'Si'}, // Microfono
       { id: 8, value: `TF card, USB tipo C y Auxiliar` }, // Entradas
-      { id: 47, value: `Android 12` }, // Sistema operativo
       { id: 51, value: 'Polímero de Litio 3.7V/5000mAh' }, // Bateria
       { id: 16, value: `25 x 17,1 x 0,9 cm` }, // Dimensiones
       { id: 18, value: `515 g` }, // Peso
@@ -471,7 +471,7 @@ export const tablets: Product[] = [
     ],
     includes: [
       6, // Cable USB tipo C
-      5, // Cargador
+      34, // Cargador
       9, // Manual y garantía
     ],
     certNo: `RA 4184359 E`,

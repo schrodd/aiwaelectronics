@@ -1674,7 +1674,7 @@ export const headsets: Product[] = [
     shortDesc: `Elegí tu estilo`,
     longDesc:
       "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -1729,7 +1729,7 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color del producto", value: "Amarillo" },
+          { name: "Color del producto", value: "Amarillo pastel" },
           { name: "Dimensiones del paquete", value: "10 x 10 x 3,5 cm" },
           { name: "Peso", value: "110g" },
           { name: "EAN", value: "7798111354756" },
@@ -1743,6 +1743,9 @@ export const headsets: Product[] = [
     ],
     downloads: `https://drive.google.com/drive/folders/1LKybeMUsXm0fmk64k7sqpaO1Y0dXihO2`,
     colors: ['ATA-506A', 'ATA-506L', 'ATA-506R', 'ATA-506V'],
+    videos: [
+      { title: 'Presentación', youtubeId: '0TuNb8C5-zg' }
+    ]
   },
   { // ATA-506L
     name: `Auriculares In-ear Bluetooth`,
@@ -1792,7 +1795,7 @@ export const headsets: Product[] = [
     shortDesc: `Elegí tu estilo`,
     longDesc:
       "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -1850,7 +1853,7 @@ export const headsets: Product[] = [
           { name: "Color del producto", value: "Lila" },
           { name: "Dimensiones del paquete", value: "10 x 10 x 3,5 cm" },
           { name: "Peso", value: "110g" },
-          { name: "EAN", value: "7798111354756" },
+          { name: "EAN", value: "7798111354749" },
         ],
       },
     ],
@@ -1913,7 +1916,7 @@ export const headsets: Product[] = [
     shortDesc: `Elegí tu estilo`,
     longDesc:
       "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -1968,10 +1971,10 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color del producto", value: "Rosa" },
+          { name: "Color del producto", value: "Rosa pastel" },
           { name: "Dimensiones del paquete", value: "10 x 10 x 3,5 cm" },
           { name: "Peso", value: "110g" },
-          { name: "EAN", value: "7798111354756" },
+          { name: "EAN", value: "7798111354725" },
         ],
       },
     ],
@@ -2034,7 +2037,7 @@ export const headsets: Product[] = [
     shortDesc: `Elegí tu estilo`,
     longDesc:
       "Coloridos y prácticos, ideales para llevar a todos lados y escuchar tu música favorita. Disponibles en cuatro colores, ¡Elegí el tuyo!",
-    buyLink: ``,
+    buyLink: `https://tienda.aiwaelectronics.com.ar/`,
     featuredFeatures: [
       { id: 51 }, // Control de Volumen
       { id: 46 }, // Manos libres
@@ -2089,10 +2092,10 @@ export const headsets: Product[] = [
       {
         title: "Pack",
         items: [
-          { name: "Color del producto", value: "Verde" },
+          { name: "Color del producto", value: "Verde pastel" },
           { name: "Dimensiones del paquete", value: "10 x 10 x 3,5 cm" },
           { name: "Peso", value: "110g" },
-          { name: "EAN", value: "7798111354756" },
+          { name: "EAN", value: "7798111354732" },
         ],
       },
     ],

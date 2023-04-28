@@ -7,6 +7,7 @@ const includes = [
   { id: 4, name: 'Cable MicroUSB', img: '/images/includes/microusbcerca.jpg' },
   { id: 21, name: 'Cable MicroUSB', img: '/images/includes/microusbcercab.jpg' }, // Blanco
   { id: 5, name: 'Fuente de Alimentación*', img: '/images/includes/trafo2.jpg' },
+  { id: 34, name: 'Fuente de Alimentación*', img: '/images/includes/trafotablet.jpg' },
   { id: 6, name: 'Cable USB-C', img: '/images/includes/usb3cerca.jpg' },
   { id: 20, name: 'Cable USB-C', img: '/images/includes/usb3cercab.jpg' }, // Blanco
   { id: 7, name: 'Control remoto', img: '/images/includes/control.jpg' }, // Gris
