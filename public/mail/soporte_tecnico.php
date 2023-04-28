@@ -3,12 +3,12 @@ try {
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= 'Content-type: text/plain; charset="UTF-8"' . "\r\n";
     # $headers .= "Cc: info@aiwaelectronics.com.ar\r\n"; // Personas en copia 
-    # $headers .= "Bcc: ybolognia@totalhome.com.ar, pavila@totalhome.com.ar\r\n"; // Personas en copia oculta
+    $headers .= "Bcc: ybolognia@totalhome.com.ar, pavila@totalhome.com.ar\r\n"; // Personas en copia oculta
     $sub = '=?UTF-8?B?' . base64_encode("Formulario AIWA - Soporte") . '?='; // Asunto del mail
 
     $message = "";
-    #$to = "soporte@totalhome.com.ar"; // Destinatario del mail
-    $to = "amolina@totalhome.com.ar"; // Destinatario del mail de pruebas
+    $to = "soporte@totalhome.com.ar"; // Destinatario del mail
+    #$to = "amolina@totalhome.com.ar"; // Destinatario del mail de pruebas
     $message = "
         Nombre y Apellido: " . $_POST["nombre"] . "\n\n
         Email: " . $_POST["email"] . "\n\n

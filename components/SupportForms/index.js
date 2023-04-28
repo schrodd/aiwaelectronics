@@ -85,14 +85,14 @@ export default function SupportForms({type}){
           <Select labelId="demo-simple-select-standard-label"
           id="demo-simple-select-standard" name='tipo-de-consulta'
           value={tipoConsulta} label="Age" onChange={changeTipoConsulta}>
-            <MenuItem value='en-garantia'>Un producto dentro de garantía</MenuItem>
-            <MenuItem value='fuera-garantia'>Un producto fuera de garantía</MenuItem>
-            <MenuItem value='gestion'>Sobre una gestión en curso</MenuItem>
-            <MenuItem value='repuesto'>Asesorarme sobre un repuesto</MenuItem>
+            <MenuItem value='producto-en-garantia'>Un producto dentro de garantía</MenuItem>
+            <MenuItem value='producto-fuera-de-garantia'>Un producto fuera de garantía</MenuItem>
+            <MenuItem value='gestion-en-curso'>Sobre una gestión en curso</MenuItem>
+            <MenuItem value='asesoramiento-repuesto'>Asesorarme sobre un repuesto</MenuItem>
             <MenuItem value='otro'>Otro</MenuItem>
           </Select>
         </FormControl>
-        {tipoConsulta == 'gestion' && <TextField className="form-text order" {...config.inputOrder}/>}
+        {tipoConsulta == 'gestion-en-curso' && <TextField className="form-text order" {...config.inputOrder}/>}
         <TextField className="form-text message" {...config.inputMessage}/>
        </>
       )}
