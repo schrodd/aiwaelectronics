@@ -70,11 +70,11 @@ export default function Footer(){
         <div className='footer-section'>
           <h3>SOBRE NOSOTROS</h3>
           <ul>
-            {/* <li>
-              <Link href='/quienes-somos'>
+            <li>
+              <Link href='/sobre-nosotros'>
                 Quiénes somos
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link href='/contacto'>
                 Contacto

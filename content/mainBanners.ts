@@ -28,6 +28,38 @@ const mainBanners: MainBanner[] = [
       dark: true
     }
   },
+  {
+    img: '/banners/ata.jpg',
+    mobileImg: '/banners/ata-m.jpg',
+    link: '/categorias/in-ear',
+    alt: 'Auriculares ATA'
+  },
+  {
+    img: '/banners/flama.jpg',
+    mobileImg: '/banners/flama-m.jpg',
+    link: '/lineas/flama',
+    alt: 'Linea Flama',
+    text: {
+      title: 'Línea Flama',
+      subtitle: 'Increíbles efectos de luces que deslumbrarán cualquier espacio.',
+      cta: '',
+      align: 'left', // center (default) | right | left - affects pc only
+      valign: 'top', // center (default) | top | bottom - affects both pc and mobile
+    }
+  },
+  {
+    img: '/banners/ring.jpg',
+    mobileImg: '/banners/ring-m.jpg',
+    link: '/lineas/ring',
+    alt: 'Linea Ring',
+    text: {
+      title: 'Línea Ring',
+      subtitle: 'Anillos de luces + calidad de sonido es igual a diversión toda la noche.',
+      cta: '',
+      align: 'right', // center (default) | right | left - affects pc only
+      valign: 'top', // center (default) | top | bottom - affects both pc and mobile
+    }
+  },
 ]
 
 export default mainBanners
