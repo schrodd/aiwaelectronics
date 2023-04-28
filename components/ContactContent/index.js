@@ -4,7 +4,7 @@ import Select from '@mui/material/Select';
 import FormControl from '@mui/material/FormControl';
 import { useState } from 'react';
 import Image from 'next/image';
-import SupportForms from '../../components/SupportForms';
+import SupportForms from '../SupportForms';
 
 export default function ContactContent(){
   const [reason, setReason] = useState('')

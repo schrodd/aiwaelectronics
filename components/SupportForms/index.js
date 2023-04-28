@@ -5,6 +5,9 @@ import RadioGroup from '@mui/material/RadioGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import FormControl from '@mui/material/FormControl';
 import FormLabel from '@mui/material/FormLabel';
+import Select from '@mui/material/Select';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
 import { useState } from 'react'
 
 export default function SupportForms({type}){
@@ -40,6 +43,20 @@ export default function SupportForms({type}){
       type: 'number',
       required: true
     },
+    inputModel: {
+      name: 'modelo-producto',
+      label: 'Modelo del producto',
+      variant: 'standard',
+      fullWidth: true,
+      required: true
+    },
+    inputOrder: {
+      name: 'numero-orden',
+      label: 'Número de orden',
+      variant: 'standard',
+      fullWidth: true,
+      required: true
+    },
     inputMessage: {
       name: 'mensaje',
       label: 'Mensaje',
@@ -50,6 +67,7 @@ export default function SupportForms({type}){
       required: true
     }
   }
+
   return (
     <>
       {type == 'soporte' && (
@@ -58,6 +76,8 @@ export default function SupportForms({type}){
         <TextField className="form-text name" {...config.inputName}/>
         <TextField className="form-text email" {...config.inputEmail}/>
         <TextField className="form-text phone" {...config.inputPhone}/>
+        <TextField className="form-text model" {...config.inputModel}/>
+        <TextField className="form-text order" {...config.inputOrder}/>
         <TextField className="form-text message" {...config.inputMessage}/>
        </>
       )}

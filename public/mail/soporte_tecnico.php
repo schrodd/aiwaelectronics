@@ -12,6 +12,8 @@ try {
         Nombre y Apellido: " . $_POST["nombre"] . "\n\n
         Email: " . $_POST["email"] . "\n\n
         Teléfono: " . $_POST["telefono"] . "\n\n
+        Modelo: " . $_POST["modelo-producto"] . "\n\n
+        Número de orden: " . $_POST["numero-orden"] . "\n\n
         Mensaje: " . $_POST["mensaje"];
 
     $m = mail($to, $sub, $message, $headers);
