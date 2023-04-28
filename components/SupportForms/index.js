@@ -12,6 +12,7 @@ import { useState } from 'react'
 
 export default function SupportForms({type}){
   const [commercial, setCommercial] = useState(undefined)
+  const [tipoConsulta, setTipoConsulta] = useState(undefined)
   const config = {
     inputName: {
       name: 'nombre',
@@ -55,7 +56,6 @@ export default function SupportForms({type}){
       label: 'Número de orden',
       variant: 'standard',
       fullWidth: true,
-      required: true
     },
     inputMessage: {
       name: 'mensaje',
@@ -64,8 +64,11 @@ export default function SupportForms({type}){
       fullWidth: true,
       multiline: true,
       minRows: '3',
-      required: true
     }
+  }
+
+  function changeTipoConsulta(e){
+    setTipoConsulta(e.target.value)
   }
 
   return (
@@ -77,7 +80,19 @@ export default function SupportForms({type}){
         <TextField className="form-text email" {...config.inputEmail}/>
         <TextField className="form-text phone" {...config.inputPhone}/>
         <TextField className="form-text model" {...config.inputModel}/>
-        <TextField className="form-text order" {...config.inputOrder}/>
+        <FormControl fullWidth variant="standard" sx={{marginTop: '15px'}}>
+          <InputLabel id="demo-simple-select-standard-label">Tipo de consulta</InputLabel>
+          <Select labelId="demo-simple-select-standard-label"
+          id="demo-simple-select-standard" name='tipo-de-consulta'
+          value={tipoConsulta} label="Age" onChange={changeTipoConsulta}>
+            <MenuItem value='en-garantia'>Un producto dentro de garantía</MenuItem>
+            <MenuItem value='fuera-garantia'>Un producto fuera de garantía</MenuItem>
+            <MenuItem value='gestion'>Sobre una gestión en curso</MenuItem>
+            <MenuItem value='repuesto'>Asesorarme sobre un repuesto</MenuItem>
+            <MenuItem value='otro'>Otro</MenuItem>
+          </Select>
+        </FormControl>
+        {tipoConsulta == 'gestion' && <TextField className="form-text order" {...config.inputOrder}/>}
         <TextField className="form-text message" {...config.inputMessage}/>
        </>
       )}

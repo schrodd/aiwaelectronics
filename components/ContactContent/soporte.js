@@ -7,6 +7,7 @@ export default function ContactContent(){
     <>
       <main className="support">
         <div className="right">
+          <p className='over-title'>Soporte Técnico</p>
           <h1>Estamos para ayudarte</h1>
           <h3>Llamanos al 0800-444-1212</h3>
           <h5>De 9:00 a 18:00hs, de lunes a viernes</h5>
