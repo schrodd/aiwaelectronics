@@ -7,16 +7,14 @@ import Menu from '@mui/material/Menu';
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function ProductCard({sku, showName, showSku, showDesc, showButton, showGen, showTags, showDownload, showMenu}){
-  const router = useRouter()
-  const activePath = router.asPath
+export default function ProductCard({sku, showName, showSku, showDesc, showButton, showGen, showTags, showDownload, showMenu, showViewing}){
   const product = products.find(e => e.sku == sku)
   const [menuAnchorElement, setMenuAnchorElement] = useState(null)
   const open = Boolean(menuAnchorElement)
   function toggleMenu(e) { open ? setMenuAnchorElement(null) : setMenuAnchorElement(e.currentTarget) }
   return (
     <div className='product-card'>
-      {activePath == `/productos/${product.sku}` && <Visibility/>}
+      {showViewing && <Visibility/>}
       <Link href={product.link}>
         <div className='image'>
           <Image width='150' height='150' src={product.imgs[0]} alt={product.name} placeholder='blur' blurDataURL='/ph.png' priority/>

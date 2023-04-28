@@ -76,7 +76,7 @@ export default function ProductSpecsTable({prod}) {
         <AccordionItem classes='prod-specs-table variants' name='Generaciones' open>
             <div className="wrapper">
               {prod.variants.map((e,i) => (
-                <ProductCard key={i} sku={e} showName showSku showGen showTags/>
+                <ProductCard key={i} sku={e} showName showSku showGen showTags showViewing={e == prod.sku}/>
               ))}
             </div>
         </AccordionItem>

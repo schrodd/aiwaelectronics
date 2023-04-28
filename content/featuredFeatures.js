@@ -271,6 +271,8 @@ const featuredFeatures = [ // Características destacadas de productos ORDENADAS
   customDesc: colores => `Seleccioná alguno de los colores disponibles y personalizá tu experiencia auditiva. Disponible en ${colores}.` },
 
   // Tablets y Notebooks
+  { id: 91, name: 'Android 8.1', icon: android,
+  desc: 'Sistema operativo Android en su versión 8.1, aprovechá las nuevas funcionalidades y el rendimiento superior.'},
   { id: 89, name: 'Android 10', icon: android,
   desc: 'Sistema operativo Android en su versión 10, aprovechá las nuevas funcionalidades y el rendimiento superior.'},
   { id: 84, name: 'Android 12', icon: android,
