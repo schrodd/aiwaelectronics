@@ -2163,7 +2163,7 @@ export const headsets: Product[] = [
       { id: 27, value: 'Canciones, Volumen y Manos Libres' }, // Controles
       { id: 36, value: 'V4.2'}, // Ver. BT
       { id: 35, value: '10m'}, // Alcance BT
-      { id: 37, value: 'HSP / HFP / A2DP / AVRCP'}, // Formatos BT
+      // { id: 37, value: 'HSP / HFP / A2DP / AVRCP'}, // Formatos BT
       { id: 30, value: '20 ~ 20000 Hz'}, // Frecuencia de respuesta
       { id: 31, value: '32Ω'}, // Impedancia
       { id: 32, value: '108dB±2dB'}, // Sensibilidad
@@ -2173,7 +2173,7 @@ export const headsets: Product[] = [
       { id: 16, value: '31 x 16,5 x 24,7 mm'}, // Dimensiones
       //{ id: 17, value: '110 x 110 x 35 mm'}, // Dim. Caja
       { id: 18, value: '14,2g'}, // Peso
-      //{ id: 19, value: '7798111353407'}, // EAN
+      { id: 19, value: '7798111353407'}, // EAN
     ],
     includes: [
       4, // Micro USB
